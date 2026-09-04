@@ -4,10 +4,8 @@ from __future__ import annotations
 
 import json
 import os
-import re
 import subprocess
 import sys
-import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -71,18 +69,20 @@ def wave_local() -> dict:
 
 
 def wave_tests() -> str:
-    cmd = [
-        sys.executable,
-        "-m",
-        "unittest",
-        "compose.test_tournament",
-        "compose.test_invented_id",
-        "compose.selfcheck",
-        "-q",
-    ]
-    proc = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True)
-    if proc.returncode != 0:
-        sys.stderr.write(proc.stdout + proc.stderr)
+    tests = subprocess.run(
+        [sys.executable, "-m", "unittest", "compose.test_tournament", "compose.test_invented_id", "-q"],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+    )
+    check = subprocess.run(
+        [sys.executable, "-c", "from compose.selfcheck import main; raise SystemExit(main())"],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+    )
+    if tests.returncode != 0 or check.returncode != 0:
+        sys.stderr.write(tests.stdout + tests.stderr + check.stdout + check.stderr)
         raise SystemExit("REFUSED: unit tests failed")
     return "PASS"
 
