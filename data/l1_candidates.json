@@ -1,0 +1,40 @@
+{
+  "schema": "szl.l1-tournament/v1",
+  "winner": null,
+  "false_allow_budget": 0,
+  "rule_baseline": {
+    "repo": "szl-holdings/szl-forge",
+    "path": "gmb/run_gmb.py",
+    "runner": "rule-baseline",
+    "n_total": 20,
+    "n_passed": 20,
+    "n_false_allow": 0,
+    "winner": null
+  },
+  "candidates": [
+    {
+      "id": "SZLHOLDINGS/ReceiptAgent-Nano",
+      "role": "small proposal head",
+      "selected": false,
+      "reason": "NO_SAMPLE_LOGS"
+    },
+    {
+      "id": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2",
+      "role": "prior LoRA",
+      "selected": false,
+      "reason": "NO_HIDDEN_GMB_COMPARE"
+    },
+    {
+      "id": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
+      "role": "placeholder LoRA",
+      "selected": false,
+      "reason": "NON_RELEASE_PLACEHOLDER"
+    },
+    {
+      "id": "SZLHOLDINGS/SZL-Forge-1.5B-ReceiptAgent",
+      "role": "1.5B proposal head",
+      "selected": false,
+      "reason": "NO_HIDDEN_GMB_COMPARE"
+    }
+  ]
+}
