@@ -1,1 +1,64 @@
-see-app
+{
+  "id": "CTO-HF-FRONTIER-2026-09-04",
+  "issued": "2026-09-04",
+  "issuer": "CTO, SZL Holdings",
+  "payload": "SZL-HF-FRONTIER-2026-08-29",
+  "tracker": "https://github.com/szl-holdings/szl-hf-frontier",
+  "parent": "https://github.com/szl-holdings/szl-hf-frontier/issues/1",
+  "pointers": {
+    "forge": "https://github.com/szl-holdings/szl-forge/issues/111",
+    "kernels": "https://github.com/szl-holdings/szl-kernels/issues/24",
+    "khipu": "https://github.com/szl-holdings/szl-khipu/issues/47",
+    "a11oy": "https://github.com/szl-holdings/a11oy/issues/1837"
+  },
+  "doctrine": "Fail closed. Signed is not correct. Live is not qualified. Blocked tests stay failed.",
+  "clusters": [
+    {
+      "id": "C1",
+      "title": "Quarantine ReceiptAgent v3",
+      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/2"
+    },
+    {
+      "id": "C2",
+      "title": "Repair or relabel Khipu-abstain",
+      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/3"
+    },
+    {
+      "id": "C3",
+      "title": "Fix published kernel CI",
+      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/4"
+    },
+    {
+      "id": "C4",
+      "title": "Remove unsafe serialization",
+      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/5"
+    },
+    {
+      "id": "C5",
+      "title": "Quarantine failed Chaski line",
+      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/6"
+    },
+    {
+      "id": "C6",
+      "title": "Unblock szl-blocked and szl-provctl surfaces",
+      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/7"
+    }
+  ],
+  "lanes": [
+    {
+      "id": "L1",
+      "title": "ReceiptAgent tournament",
+      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/8"
+    },
+    {
+      "id": "L2",
+      "title": "Khipu abstention bench",
+      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/9"
+    },
+    {
+      "id": "L3",
+      "title": "Chaski stays research-only",
+      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/10"
+    }
+  ]
+}
