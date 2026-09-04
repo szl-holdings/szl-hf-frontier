@@ -1,0 +1,12 @@
+{
+  "schema": "szl.l3-chaski/v1",
+  "collection": "research-only",
+  "winner": null,
+  "held_out_gate": null,
+  "candidates": [
+    {"id": "SZLHOLDINGS/chaski", "selected": false, "reason": "NAMED_N_FAIL"},
+    {"id": "SZLHOLDINGS/chaski-r2", "selected": false, "reason": "NO_HELD_OUT_GATE"},
+    {"id": "SZLHOLDINGS/chaski-5050", "selected": false, "reason": "ABSOLUTE_LOCAL_PATH_RESIDUE"},
+    {"id": "SZLHOLDINGS/A11OY-MINI", "selected": false, "reason": "GGUF_OF_FAILED_PARENT"}
+  ]
+}
