@@ -23,8 +23,8 @@ jobs:
           python-version: "3.12"
       - name: Run payload
         run: python3 payload.py
-      - name: Lane pulse
-        run: python3 -m compose.lanes
+      - name: All-wave closer
+        run: python3 -m compose.waves
       - name: Investor selftest
         run: python3 SZL_HF_FRONTIER_INVESTOR.py --selftest
 
