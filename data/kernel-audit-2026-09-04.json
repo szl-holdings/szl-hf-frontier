@@ -1,0 +1,39 @@
+{
+  "schema": "szl.hf-frontier-audit/v1",
+  "observed_at": "2026-09-04T16:17:00Z",
+  "source": "https://huggingface.co/api/models?author=SZLHOLDINGS",
+  "hub_write": "UNAVAILABLE",
+  "lambda": "Conjecture 1",
+  "kernel_ids": [
+    "SZLHOLDINGS/szl-governed-norm",
+    "SZLHOLDINGS/szl-kernels",
+    "SZLHOLDINGS/szl-lambda-gate",
+    "SZLHOLDINGS/szl-block-kv",
+    "SZLHOLDINGS/szl-maskmod",
+    "SZLHOLDINGS/szl-receipt-attn",
+    "SZLHOLDINGS/szl-invariants",
+    "SZLHOLDINGS/szl-blocked",
+    "SZLHOLDINGS/governed-inference-meter",
+    "SZLHOLDINGS/szl-govsign",
+    "SZLHOLDINGS/szl-provctl",
+    "SZLHOLDINGS/szl-ouroboros",
+    "SZLHOLDINGS/szl-formulas",
+    "SZLHOLDINGS/YARQA-ATTN",
+    "SZLHOLDINGS/szl-khipu-kernels"
+  ],
+  "retired": ["SZLHOLDINGS/governed-inference-meter"],
+  "successor": {"SZLHOLDINGS/governed-inference-meter": "szl-holdings/szl-energy-attest"},
+  "traction_models": [
+    {"id": "SZLHOLDINGS/chaski", "downloads": 2851, "lane": "L3", "qualified": false},
+    {"id": "SZLHOLDINGS/SZL-Khipu-1.5B", "downloads": 1684, "lane": "L2", "qualified": "OPEN"},
+    {"id": "SZLHOLDINGS/SZL-Forge-1.5B-ReceiptAgent", "downloads": 1513, "lane": "L1", "qualified": "OPEN"},
+    {"id": "SZLHOLDINGS/SZL-Khipu-1.5B-GGUF", "downloads": 630, "lane": "L2", "qualified": "NEEDS_POST_QUANT"}
+  ],
+  "do_not_promote": [
+    "SZLHOLDINGS/chaski",
+    "SZLHOLDINGS/chaski-5050",
+    "SZLHOLDINGS/A11OY-MINI",
+    "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
+    "SZLHOLDINGS/SZL-Khipu-1.5B-abstain"
+  ]
+}
