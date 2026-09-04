@@ -1,0 +1,13 @@
+{
+  "schema": "szl.l2-khipu/v1",
+  "operating_point": null,
+  "winner": null,
+  "candidates": [
+    {"id": "SZLHOLDINGS/TinyKhipu-Nano", "selected": false, "reason": "NO_HIDDEN_HANDLE_SET"},
+    {"id": "SZLHOLDINGS/SZL-Khipu-1.5B", "selected": false, "reason": "NO_COVERAGE_RISK_CURVE"},
+    {"id": "SZLHOLDINGS/SZL-Khipu-1.5B-GGUF", "selected": false, "reason": "NO_POST_QUANT_EVAL"},
+    {"id": "SZLHOLDINGS/SZL-Khipu-1.5B-abstain", "selected": false, "reason": "ADAPTER_BYTES_MISSING"},
+    {"id": "SZLHOLDINGS/KHIPU-R2", "selected": false, "reason": "TRAINING_FINISHED_IS_NOT_PROMOTION"},
+    {"id": "khipu-r3", "selected": false, "reason": "TRAINING_FINISHED_IS_NOT_PROMOTION"}
+  ]
+}
