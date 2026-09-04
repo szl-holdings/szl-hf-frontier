@@ -42,6 +42,7 @@ def wave_local() -> dict:
     from compose.gate import compose_allow
     from compose.invented_id import decide
     from compose.lanes import pulse
+    from compose.waves import close as close_waves
     from compose.tournament import select_winner
 
     l1 = select_winner()
@@ -51,6 +52,7 @@ def wave_local() -> dict:
     l2_ledger = json.loads((ROOT / "data" / "l2_khipu.json").read_text(encoding="utf-8"))
     l3 = json.loads((ROOT / "data" / "l3_chaski.json").read_text(encoding="utf-8"))
     lanes = pulse()
+    waves = close_waves()
     if l1["winner"] is not None:
         raise SystemExit("REFUSED: L1 invented a winner")
     if l2_ledger.get("operating_point") is not None:
@@ -65,6 +67,8 @@ def wave_local() -> dict:
         raise SystemExit("REFUSED: lane pulse claimed ready or a winner")
     if not (l3.get("held_out_gate") or {}).get("path_redacted"):
         raise SystemExit("REFUSED: L3 path_redacted missing")
+    if waves.get("ready") or waves.get("winner") is not None or waves.get("estate") != "NOT READY":
+        raise SystemExit("REFUSED: wave closer claimed ready")
     return {
         "l1_winner": l1["winner"],
         "l1_reason": l1["reason"],
@@ -72,12 +76,15 @@ def wave_local() -> dict:
         "l3_collection": l3["collection"],
         "l3_held_out_gate": True,
         "lambda": lam["status"],
+        "estate": waves["estate"],
+        "source_complete": waves["source_complete"],
+        "later": waves["later"],
     }
 
 
 def wave_tests() -> str:
     tests = subprocess.run(
-        [sys.executable, "-m", "unittest", "compose.test_tournament", "compose.test_invented_id", "compose.test_lanes", "-q"],
+        [sys.executable, "-m", "unittest", "compose.test_tournament", "compose.test_invented_id", "compose.test_lanes", "compose.test_waves", "-q"],
         cwd=ROOT,
         capture_output=True,
         text=True,
