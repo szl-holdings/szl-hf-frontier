@@ -1,0 +1,131 @@
+{
+  "schema": "szl.owner-home-leaks/v1",
+  "scanned_repos": 121,
+  "winner": null,
+  "note": "Org-wide gh code search 2026-09-04. LIVE files must not embed C:\\Users\\steph. HISTORICAL proofs and hash-bound logs stay as recorded evidence. FIXTURE paths are sanitizer tests or templates.",
+  "findings": [
+    {
+      "repo": "szl-holdings/szl-forge",
+      "path": "chaski/bakeoff_named_n.receipt.json",
+      "class": "LIVE",
+      "state": "CLOSED",
+      "close": "https://github.com/szl-holdings/szl-forge/pull/120"
+    },
+    {
+      "repo": "szl-holdings/szl-forge",
+      "path": "chaski/train_chaski_bf16_5050.py",
+      "class": "LIVE",
+      "state": "CLOSED",
+      "close": "https://github.com/szl-holdings/szl-forge/pull/120"
+    },
+    {
+      "repo": "szl-holdings/a11oy",
+      "path": "audit/release-gate.json",
+      "class": "LIVE",
+      "state": "CLOSED",
+      "close": "this-pr"
+    },
+    {
+      "repo": "szl-holdings/a11oy",
+      "path": "audit/frontier-command-probes.json",
+      "class": "LIVE",
+      "state": "CLOSED",
+      "close": "this-pr"
+    },
+    {
+      "repo": "szl-holdings/a11oy",
+      "path": "audit/frontier-convergence-manifest.json",
+      "class": "LIVE",
+      "state": "CLOSED",
+      "close": "this-pr"
+    },
+    {
+      "repo": "szl-holdings/a11oy",
+      "path": ".github/workflows/nemo-v3-isolated-owner-dispatch.yml",
+      "class": "LIVE",
+      "state": "CLOSED",
+      "close": "this-pr"
+    },
+    {
+      "repo": "szl-holdings/a11oy",
+      "path": "docs/SZL_NEMO_FINE_TUNING.md",
+      "class": "LIVE",
+      "state": "CLOSED",
+      "close": "this-pr"
+    },
+    {
+      "repo": "szl-holdings/a11oy",
+      "path": "model_release/szl-nemo/LOW_VRAM_CALIBRATION.md",
+      "class": "LIVE",
+      "state": "CLOSED",
+      "close": "this-pr"
+    },
+    {
+      "repo": "szl-holdings/szl-estate-os",
+      "path": "README.md",
+      "class": "LIVE",
+      "state": "CLOSED",
+      "close": "estate-os-pr"
+    },
+    {
+      "repo": "szl-holdings/a11oy",
+      "path": "audit/release-gate-logs/github-access-check.stdout.txt",
+      "class": "HISTORICAL",
+      "state": "HELD",
+      "note": "Hash-bound stdout. Do not rewrite."
+    },
+    {
+      "repo": "szl-holdings/a11oy",
+      "path": "audit/release-gate-logs/szl-convergence-bootstrap.stdout.txt",
+      "class": "HISTORICAL",
+      "state": "HELD",
+      "note": "Hash-bound stdout. Do not rewrite."
+    },
+    {
+      "repo": "szl-holdings/a11oy",
+      "path": "attestations/szl-nemo-wsl-runtime-import-2026-07-15.json",
+      "class": "HISTORICAL",
+      "state": "HELD",
+      "note": "Signed import receipt. Do not rewrite."
+    },
+    {
+      "repo": "szl-holdings/platform",
+      "path": "audit/ESTATE_SHARED_CONTRACT_RELEASE_PROOF.md",
+      "class": "HISTORICAL",
+      "state": "HELD"
+    },
+    {
+      "repo": "szl-holdings/platform",
+      "path": "audit/frontier/DSLSA_STANDALONE_PUBLICATION_PROOF_CORRECTION_2026-07-29.md",
+      "class": "HISTORICAL",
+      "state": "HELD"
+    },
+    {
+      "repo": "szl-holdings/platform",
+      "path": "audit/frontier/ALLOY_STATE_NATIVE_RUNTIME_CURRENT_HEAD_PROOF_2026-08-26.md",
+      "class": "HISTORICAL",
+      "state": "HELD"
+    },
+    {
+      "repo": "szl-holdings/szl-forge",
+      "path": "frontier/qwen35-receiptagent-v3/",
+      "class": "HISTORICAL",
+      "state": "HELD",
+      "note": "/home/rosie pinned by test_launch_supervised_training.py. Owner-metal launch paths."
+    },
+    {
+      "repo": "szl-holdings/a11oy",
+      "path": "tests/test_prepare_huggingface_payload.py",
+      "class": "FIXTURE",
+      "state": "HELD",
+      "note": "Sanitizer fixture C:\\\\Users\\\\me\\\\config.yaml"
+    },
+    {
+      "repo": "szl-holdings/a11oy",
+      "path": "box-scripts/cloudflared_ingress.example.yml",
+      "class": "FIXTURE",
+      "state": "HELD",
+      "note": "Template C:\\\\Users\\\\<USER>"
+    }
+  ]
+}
