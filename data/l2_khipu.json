@@ -2,12 +2,29 @@
   "schema": "szl.l2-khipu/v1",
   "operating_point": null,
   "winner": null,
+  "promotion": "HOLD",
+  "hidden_handle_set_id": "khipu-hidden-2026-09-04",
+  "controller_only": {
+    "status": "MEASURED",
+    "n_total": 18,
+    "n_navigate_gold": 6,
+    "n_abstain_gold": 12,
+    "n_false_navigate": 0,
+    "invented_identifier_rate": 0.0,
+    "coverage_on_navigate_gold": 1.0
+  },
+  "coverage_risk_curve": [
+    {"policy": "always_abstain", "coverage": 0.0, "false_navigate": 0.0, "measured_on": "controller-gold"},
+    {"policy": "controller_hidden_handle", "coverage": 1.0, "false_navigate": 0.0, "measured_on": "controller-gold"},
+    {"policy": "always_navigate", "coverage": 1.0, "false_navigate": 1.0, "measured_on": "controller-gold-counterfactual"}
+  ],
+  "note": "Curve is controller-only. Weight slots stay UNAVAILABLE. Do not freeze operating_point until a weight run exists.",
   "candidates": [
-    {"id": "SZLHOLDINGS/TinyKhipu-Nano", "selected": false, "reason": "NO_HIDDEN_HANDLE_SET"},
-    {"id": "SZLHOLDINGS/SZL-Khipu-1.5B", "selected": false, "reason": "NO_COVERAGE_RISK_CURVE"},
+    {"id": "SZLHOLDINGS/TinyKhipu-Nano", "selected": false, "reason": "WEIGHTS_UNAVAILABLE"},
+    {"id": "SZLHOLDINGS/SZL-Khipu-1.5B", "selected": false, "reason": "WEIGHTS_UNAVAILABLE"},
     {"id": "SZLHOLDINGS/SZL-Khipu-1.5B-GGUF", "selected": false, "reason": "NO_POST_QUANT_EVAL"},
     {"id": "SZLHOLDINGS/SZL-Khipu-1.5B-abstain", "selected": false, "reason": "ADAPTER_BYTES_MISSING"},
     {"id": "SZLHOLDINGS/KHIPU-R2", "selected": false, "reason": "TRAINING_FINISHED_IS_NOT_PROMOTION"},
-    {"id": "khipu-r3", "selected": false, "reason": "TRAINING_FINISHED_IS_NOT_PROMOTION"}
+    {"id": "SZLHOLDINGS/khipu-r3", "selected": false, "reason": "TRAINING_FINISHED_IS_NOT_PROMOTION"}
   ]
 }
