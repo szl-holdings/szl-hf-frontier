@@ -15,50 +15,138 @@
   "clusters": [
     {
       "id": "C1",
+      "lane": "receipt",
       "title": "Quarantine ReceiptAgent v3",
-      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/2"
+      "severity": "CRITICAL",
+      "priority": "P0",
+      "code": "MODEL_CARD_PLACEHOLDER",
+      "artifacts": ["szl-receiptagent-qwen35-0.8b-v3"],
+      "repo": "szl-holdings/szl-forge",
+      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/2",
+      "pr": "https://github.com/szl-holdings/szl-forge/pull/112",
+      "order": "Remove from every flagship collection. Rebuild the card from the exact training receipt. No promotion until bytes and a v2-versus-v3 bakeoff exist.",
+      "done_when": "Card is no longer a template; adapter bytes exist or the ID is explicitly non-release; collection membership is research-only."
     },
     {
       "id": "C2",
+      "lane": "khipu",
       "title": "Repair or relabel Khipu-abstain",
-      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/3"
+      "severity": "CRITICAL",
+      "priority": "P0",
+      "code": "EXPECTED_ARTIFACT_BYTES_MISSING",
+      "artifacts": ["SZL-Khipu-1.5B-abstain"],
+      "repo": "szl-holdings/szl-forge",
+      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/3",
+      "pr": "https://github.com/szl-holdings/szl-forge/pull/112",
+      "order": "Empty adapter must not look like a product. Recover weights or demote to an experiment ledger with a hard redirect.",
+      "done_when": "Either usable adapter bytes are published with a receipt, or the Hub card is labelled experiment/empty and removed from flagship."
     },
     {
       "id": "C3",
+      "lane": "kernels",
       "title": "Fix published kernel CI",
-      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/4"
+      "severity": "CRITICAL",
+      "priority": "P0",
+      "code": "SEED_RECORDED_TEST_FAILURE",
+      "artifacts": ["szl-lambda-gate", "szl-governed-norm"],
+      "repo": "szl-holdings/szl-kernels",
+      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/4",
+      "pr": "https://github.com/szl-holdings/szl-kernels/pull/25",
+      "order": "Published torch.compile / test failures stay failed. Fix or publish an explicit unsupported matrix. No acceleration story until green.",
+      "done_when": "CI is green on the declared matrix, or the card states BLOCKED with the failing tests linked."
     },
     {
       "id": "C4",
+      "lane": "kernels",
       "title": "Remove unsafe serialization",
-      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/5"
+      "severity": "CRITICAL",
+      "priority": "P0",
+      "code": "UNSAFE_SERIALIZATION",
+      "artifacts": ["szl-blocked", "szl-governed-norm", "szl-provctl", "szl-formulas", "szl-ouroboros", "szl-nemo"],
+      "repo": "szl-holdings/szl-kernels",
+      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/5",
+      "pr": "https://github.com/szl-holdings/szl-kernels/pull/25",
+      "order": "Pickle/joblib/unsafe persistence is a publication block. Convert to safetensors, skops, or transparent coefficients. Delete opaque executables from Hub.",
+      "done_when": "No public kernel or companion ships pickle/joblib; cards state the safe format."
     },
     {
       "id": "C5",
+      "lane": "research",
       "title": "Quarantine failed Chaski line",
-      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/6"
+      "severity": "CRITICAL",
+      "priority": "P0",
+      "code": "PUBLISHED_BLOCKED_OR_FAILED_STATE",
+      "artifacts": ["chaski", "chaski-5050", "A11OY-MINI"],
+      "repo": "szl-holdings/szl-forge",
+      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/6",
+      "pr": "https://github.com/szl-holdings/szl-forge/pull/112",
+      "order": "chaski failed qualification. 5050 leaks owner-machine paths. A11OY-MINI is a derived GGUF of a failed parent. Remove from flagship. Keep only as negative evidence.",
+      "done_when": "None of the three appear in a promoted collection; 5050 metadata no longer contains absolute local paths."
     },
     {
       "id": "C6",
+      "lane": "kernels",
       "title": "Unblock szl-blocked and szl-provctl surfaces",
-      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/7"
+      "severity": "CRITICAL",
+      "priority": "P0",
+      "code": "PUBLISHED_BLOCKED_OR_FAILED_STATE",
+      "artifacts": ["szl-blocked", "szl-provctl"],
+      "repo": "szl-holdings/szl-kernels",
+      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/7",
+      "pr": "https://github.com/szl-holdings/szl-kernels/pull/25",
+      "order": "Admission kernel and provenance controller cannot carry a blocked public state while being sold as the pre-action core. Fix tests and unsafe files, or label SOFTWARE_LIMITED with no product claim.",
+      "done_when": "Blocked tokens are gone from public maturity, or the card is explicitly non-release."
     }
   ],
   "lanes": [
     {
       "id": "L1",
+      "lane": "receipt",
       "title": "ReceiptAgent tournament",
-      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/8"
+      "priority": "P0",
+      "artifacts": [
+        "ReceiptAgent-Nano",
+        "szl-receiptagent-qwen35-0.8b-v2",
+        "szl-receiptagent-qwen35-0.8b-v3",
+        "SZL-Forge-1.5B-ReceiptAgent"
+      ],
+      "repo": "szl-holdings/szl-forge",
+      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/8",
+      "pr": "https://github.com/szl-holdings/szl-forge/pull/112",
+      "order": "One hidden Governed Model Bench. Quarantine v3. Compare nano, v2, 1.5B, and base. Select one winner at a declared false-ALLOW budget. Merge and quantize only after full-precision qualification.",
+      "done_when": "A single promoted ReceiptAgent ID exists with sample-level logs, controller-bound vs naked decode, and a published risk point."
     },
     {
       "id": "L2",
+      "lane": "khipu",
       "title": "Khipu abstention bench",
-      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/9"
+      "priority": "P0",
+      "artifacts": [
+        "TinyKhipu-Nano",
+        "SZL-Khipu-1.5B",
+        "SZL-Khipu-1.5B-GGUF",
+        "SZL-Khipu-1.5B-abstain",
+        "KHIPU-R2",
+        "khipu-r3",
+        "brain-navigator-r2"
+      ],
+      "repo": "szl-holdings/szl-khipu",
+      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/9",
+      "pr": "https://github.com/szl-holdings/szl-khipu/pull/48",
+      "order": "Expand beyond 2/6 and 3/6 research scores. Hidden handle set. Coverage-risk curve. Invented-identifier rate. Controller-only baseline. Do not promote R3 merely because training finished.",
+      "done_when": "One Khipu operating point is frozen in the controller contract; derivatives carry their own post-quant eval."
     },
     {
       "id": "L3",
+      "lane": "research",
       "title": "Chaski stays research-only",
-      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/10"
+      "priority": "P0",
+      "artifacts": ["chaski", "chaski-r2", "chaski-5050", "A11OY-MINI"],
+      "repo": "szl-holdings/szl-forge",
+      "issue": "https://github.com/szl-holdings/szl-hf-frontier/issues/10",
+      "pr": "https://github.com/szl-holdings/szl-forge/pull/112",
+      "order": "No flagship placement. One family leaderboard: base / R2 / 5050 / archived parent. Promote only after a held-out JSON/refusal gate beats the disclosed baseline.",
+      "done_when": "Chaski collection is research-only; A11OY-MINI is unpinned or rebuilt from a winning parent."
     }
   ]
 }
