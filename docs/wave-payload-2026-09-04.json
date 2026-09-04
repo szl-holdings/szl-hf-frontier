@@ -1,0 +1,15 @@
+{
+  "schema": "szl.wave-payload/v1",
+  "local": {
+    "l1_winner": null,
+    "l1_reason": "NO_SAMPLE_LOGS",
+    "l2_operating_point": null,
+    "l3_collection": "research-only",
+    "lambda": "BLOCKED"
+  },
+  "tests": "PASS",
+  "hub": "UNAVAILABLE_NO_TOKEN",
+  "metal": "BLOCKED_NO_METAL",
+  "winner": null,
+  "flagship": false
+}
