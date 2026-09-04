@@ -41,6 +41,7 @@ def _token() -> str:
 def wave_local() -> dict:
     from compose.gate import compose_allow
     from compose.invented_id import decide
+    from compose.lanes import pulse
     from compose.tournament import select_winner
 
     l1 = select_winner()
@@ -49,6 +50,7 @@ def wave_local() -> dict:
     lam = compose_allow("lambda_aggregate")
     l2_ledger = json.loads((ROOT / "data" / "l2_khipu.json").read_text(encoding="utf-8"))
     l3 = json.loads((ROOT / "data" / "l3_chaski.json").read_text(encoding="utf-8"))
+    lanes = pulse()
     if l1["winner"] is not None:
         raise SystemExit("REFUSED: L1 invented a winner")
     if l2_ledger.get("operating_point") is not None:
@@ -59,18 +61,23 @@ def wave_local() -> dict:
         raise SystemExit("REFUSED: lambda_aggregate must stay BLOCKED")
     if l2["action"] != "ABSTAIN" or l2_ok["action"] != "ASK_CONTROLLER":
         raise SystemExit("REFUSED: invented-id gate broken")
+    if lanes.get("ready") or lanes.get("winner") is not None:
+        raise SystemExit("REFUSED: lane pulse claimed ready or a winner")
+    if not (l3.get("held_out_gate") or {}).get("path_redacted"):
+        raise SystemExit("REFUSED: L3 path_redacted missing")
     return {
         "l1_winner": l1["winner"],
         "l1_reason": l1["reason"],
         "l2_operating_point": l2_ledger["operating_point"],
         "l3_collection": l3["collection"],
+        "l3_held_out_gate": True,
         "lambda": lam["status"],
     }
 
 
 def wave_tests() -> str:
     tests = subprocess.run(
-        [sys.executable, "-m", "unittest", "compose.test_tournament", "compose.test_invented_id", "-q"],
+        [sys.executable, "-m", "unittest", "compose.test_tournament", "compose.test_invented_id", "compose.test_lanes", "-q"],
         cwd=ROOT,
         capture_output=True,
         text=True,

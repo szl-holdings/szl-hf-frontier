@@ -2,11 +2,21 @@
   "schema": "szl.l3-chaski/v1",
   "collection": "research-only",
   "winner": null,
-  "held_out_gate": null,
+  "held_out_gate": {
+    "kind": "named-n-bakeoff",
+    "schema": "szl.chaski-named-n-bakeoff/v1",
+    "label": "MEASURED",
+    "quality": "MEASURED_LIMITED",
+    "publication_eligible": false,
+    "path_redacted": true,
+    "receipt": "chaski/bakeoff_named_n.receipt.json",
+    "base_runtime": "huggingface:Qwen/Qwen3.5-0.8B@2fc06364715b967f1860aea9cf38778875588b17"
+  },
+  "note": "Held-out JSON-draft + refusal gate exists. Integers only. No candidate beats a promotion bar. 5050 owner-home paths were redacted on forge#120.",
   "candidates": [
-    {"id": "SZLHOLDINGS/chaski", "selected": false, "reason": "NAMED_N_FAIL"},
-    {"id": "SZLHOLDINGS/chaski-r2", "selected": false, "reason": "NO_HELD_OUT_GATE"},
-    {"id": "SZLHOLDINGS/chaski-5050", "selected": false, "reason": "ABSOLUTE_LOCAL_PATH_RESIDUE"},
+    {"id": "SZLHOLDINGS/chaski", "selected": false, "json_draft": "0/5", "adversarial_refuse": "6/6", "reason": "NAMED_N_FAIL_DRAFT"},
+    {"id": "SZLHOLDINGS/chaski-r2", "selected": false, "json_draft": "3/5", "adversarial_refuse": "6/6", "reason": "RESEARCH_ONLY_NOT_5_5"},
+    {"id": "SZLHOLDINGS/chaski-5050", "selected": false, "json_draft": "0/5", "adversarial_refuse": "0/6", "reason": "RESEARCH_ONLY_WORSE_THAN_BASE"},
     {"id": "SZLHOLDINGS/A11OY-MINI", "selected": false, "reason": "GGUF_OF_FAILED_PARENT"}
   ]
 }
