@@ -1,0 +1,68 @@
+{
+  "schema": "szl.payload-1-wire/v1",
+  "payload": "SZL-HF-FRONTIER-PAYLOAD-1",
+  "parent": "SZL-HF-FRONTIER-2026-08-29",
+  "generated_at": "2026-09-04T18:20:28.273185+00:00",
+  "ready": false,
+  "winner": null,
+  "hub_put": false,
+  "false_allow_budget": 0,
+  "metal": "METAL_PRESENT_NO_TRAIN",
+  "hub_write": "UNAVAILABLE_NO_TOKEN",
+  "selftest": {
+    "ok": true,
+    "gmb": {
+      "ok": true,
+      "leakage": "CLEAN",
+      "leaks": [],
+      "n_total": 20,
+      "n_passed": 20,
+      "n_false_allow": 0,
+      "winner": null,
+      "runner": "rule-baseline"
+    },
+    "invented_id": "REFUSE",
+    "grounded_draft": "DRAFT",
+    "catalog_has_owner_home": false
+  },
+  "live": {
+    "hf_models": 44,
+    "hf_ok": true,
+    "gh_repos": 100,
+    "gh_ok": true,
+    "receipt_owner_home": false,
+    "receipt_runtime": "huggingface:Qwen/Qwen3.5-0.8B@2fc06364715b967f1860aea9cf38778875588b17",
+    "gmb_source": "forge-main",
+    "gmb": {
+      "ok": true,
+      "leakage": "CLEAN",
+      "leaks": [],
+      "n_total": 20,
+      "n_passed": 20,
+      "n_false_allow": 0,
+      "winner": null,
+      "runner": "rule-baseline"
+    },
+    "hf_sample": [
+      "SZLHOLDINGS/szl-invariants",
+      "SZLHOLDINGS/a11oy-v19-substrate",
+      "SZLHOLDINGS/szl-governed-norm",
+      "SZLHOLDINGS/szl-lambda-gate",
+      "SZLHOLDINGS/governed-inference-meter",
+      "SZLHOLDINGS/szl-kernels",
+      "SZLHOLDINGS/szl-blocked",
+      "SZLHOLDINGS/szl-govsign"
+    ],
+    "receipt_eligible": false
+  },
+  "gmb_passed": 20,
+  "gmb_total": 20,
+  "leakage": "CLEAN",
+  "doctrine": "Fail closed. Signed is not correct. Live is not qualified.",
+  "next": [
+    "L1 metal: score Nano/v2/1.5B on hidden GMB; v3 stays QUARANTINED; winner stays null",
+    "L2 metal: Khipu weights on khipu-hidden-2026-09-04; abstain stays experiment/empty",
+    "L3: chaski/5050/A11OY-MINI research-only; publication_eligible stays false",
+    "Hub job only with owner token: v3 NON-RELEASE, abstain EXPERIMENT, chaski RESEARCH"
+  ]
+}
