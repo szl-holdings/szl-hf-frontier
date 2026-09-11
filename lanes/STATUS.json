@@ -1,0 +1,16 @@
+{
+  "payload": "SZL-HF-FRONTIER-2026-08-29",
+  "order": "CTO-HF-FRONTIER-2026-09-04",
+  "strict_result": "NOT READY",
+  "winner": null,
+  "operating_point": null,
+  "l3_posture": "research-only",
+  "clusters_open": ["C1", "C2", "C3", "C4", "C5", "C6"],
+  "lanes": {
+    "L1": "NOT READY",
+    "L2": "NOT READY",
+    "L3": "research-only"
+  },
+  "lambda": "Conjecture 1",
+  "note": "Fail closed. Signed is not correct. Live is not qualified. A roadmap card is not a model SKU."
+}
