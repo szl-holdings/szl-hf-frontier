@@ -1,0 +1,32 @@
+{
+  "payload": "SZL-FOUR-ORIGIN-WIRE-2026-09-11",
+  "parent": "SZL-HF-FRONTIER-2026-08-29",
+  "captured_at": "2026-09-11T22:22:05Z",
+  "evidence_class": "MEASURED",
+  "lambda": "Conjecture 1",
+  "doctrine": "v11",
+  "origins": {
+    "source": "https://github.com/szl-holdings",
+    "mirror": "https://huggingface.co/SZLHOLDINGS",
+    "product": "https://a-11-oy.com",
+    "proof": "https://a11oy.net",
+    "never": "https://a11oy.com"
+  },
+  "alignment": {
+    "product_honesty_reachable": true,
+    "proof_reachable": true,
+    "hub_anonymous_inventory_match": true,
+    "www_tls": false,
+    "spectral_controller": "UNAVAILABLE"
+  },
+  "product": {
+    "git_sha": "0abde0c4114bdc8c603b984e884f657d74f9ab88",
+    "wire_d": "LIVE",
+    "space": "a11oy",
+    "signer": "DSSE-LIVE",
+    "doctrine": "v11"
+  },
+  "hub_anonymous": {"models": 46, "datasets": 35, "spaces": 21},
+  "winner": null,
+  "ready": false
+}
