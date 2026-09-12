@@ -286,7 +286,30 @@ class PaginatedInventory:
             return None
         return len(self.items)
 
+    def public_ids(self, id_fields: tuple[str, ...] = ("id",)) -> list[str]:
+        """Disclose only explicit public rows from a completed observation.
+
+        A token-visible listing and a false-like value are not public evidence.
+        Keep raw rows internal so privacy filtering cannot alter gate counts.
+        """
+        if self.completion != "COMPLETE":
+            return []
+        public: list[str] = []
+        for row in self.items:
+            if row.get("private") is not False:
+                continue
+            raw_id = next(
+                (row[key] for key in id_fields if row.get(key) is not None), None
+            )
+            if isinstance(raw_id, str) and raw_id.strip():
+                public.append(raw_id.strip())
+        return public
+
     def summary(self) -> dict[str, Any]:
+        # Authenticated/unknown scopes must not leak names through diagnostics.
+        # Anonymous public diagnostics remain useful; anomalous private rows
+        # suppress them even when the caller declared a public-only scope.
+        redact_duplicates = self.scope != "PUBLIC_ONLY" or self.private_items_seen > 0
         return {
             "completion": self.completion,
             "scope": self.scope,
@@ -295,7 +318,10 @@ class PaginatedInventory:
             "pages_fetched": self.pages_fetched,
             "private_items_seen": self.private_items_seen,
             "duplicate_count": len(self.duplicate_ids),
-            "duplicate_ids": self.duplicate_ids[:MAX_REPORTED_DUPLICATES],
+            "duplicate_ids": (
+                [] if redact_duplicates else self.duplicate_ids[:MAX_REPORTED_DUPLICATES]
+            ),
+            "duplicate_ids_redacted": bool(self.duplicate_ids) and redact_duplicates,
             "failure": self.failure,
         }
 
@@ -699,9 +725,7 @@ def live() -> dict:
         out["hf_models_inventory"] = models.summary()
         out["hf_models"] = models.count
         out["hf_ok"] = threshold_result(models, SEED_MODELS)
-        out["hf_sample"] = [
-            row.get("id") or row.get("modelId") for row in models.items[:8]
-        ]
+        out["hf_sample"] = models.public_ids(("id", "modelId"))[:8]
         if models.completion != "COMPLETE":
             out["hf_error"] = f"{models.completion}:{models.failure}"
     except Exception as exc:
@@ -714,7 +738,7 @@ def live() -> dict:
         )
         out["hf_spaces_inventory"] = spaces.summary()
         out["hf_spaces"] = spaces.count
-        space_ids = [str(row.get("id")) for row in spaces.items]
+        space_ids = spaces.public_ids()
         out["public_spaces_seen"] = [
             space_id for space_id in PUBLIC_SPACES if space_id in space_ids
         ]
