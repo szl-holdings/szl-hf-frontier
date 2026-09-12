@@ -14,7 +14,9 @@ import re
 import ssl
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
+from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from typing import Any
 
@@ -24,10 +26,15 @@ HF_ORG = "SZLHOLDINGS"
 GH_ORG = "szl-holdings"
 SEED_MODELS = 43
 FALSE_ALLOW_BUDGET = 0
+API_PAGE_SIZE = 100
+MAX_API_PAGES = 50
+MAX_API_PAGE_BYTES = 8 * 1024 * 1024
+MAX_INVENTORY_ITEMS = API_PAGE_SIZE * MAX_API_PAGES
+MAX_REPORTED_DUPLICATES = 20
 
 HF_MODELS = "https://huggingface.co/api/models?author=SZLHOLDINGS&limit=100"
-HF_SPACES = "https://huggingface.co/api/spaces?author=SZLHOLDINGS&limit=50"
-GH_REPOS = "https://api.github.com/orgs/szl-holdings/repos?per_page=100&type=public"
+HF_SPACES = "https://huggingface.co/api/spaces?author=SZLHOLDINGS&limit=100"
+HF_DATASETS = "https://huggingface.co/api/datasets?author=SZLHOLDINGS&limit=100"
 GH_OPEN_PRS = "https://api.github.com/search/issues?q=org:szl-holdings+is:pr+is:open"
 FORGE_GMB = "https://raw.githubusercontent.com/szl-holdings/szl-forge/main/gmb/gmb.json"
 FORGE_RECEIPT = (
@@ -142,8 +149,16 @@ def have_cuda() -> bool:
         return False
 
 
+def hf_token() -> str:
+    for key in TOKEN_KEYS:
+        token = str(os.environ.get(key) or "").strip()
+        if token:
+            return token
+    return ""
+
+
 def have_hub_token() -> bool:
-    return any(str(os.environ.get(k) or "").strip() for k in TOKEN_KEYS)
+    return bool(hf_token())
 
 
 def gh_token() -> str:
@@ -154,20 +169,98 @@ def gh_token() -> str:
     ).strip()
 
 
-def fetch(url: str, timeout: int = 25) -> tuple[int, str]:
+def github_repos_url() -> str:
+    visibility = "all" if gh_token() else "public"
+    query = urllib.parse.urlencode({"per_page": API_PAGE_SIZE, "type": visibility})
+    return f"https://api.github.com/orgs/{GH_ORG}/repos?{query}"
+
+
+def inventory_scope(provider: str) -> str:
+    if provider == "github":
+        return "TOKEN_VISIBLE" if gh_token() else "PUBLIC_ONLY"
+    if provider == "huggingface":
+        return "TOKEN_VISIBLE" if hf_token() else "PUBLIC_ONLY"
+    raise ValueError(f"unsupported inventory provider: {provider}")
+
+
+def request_headers(url: str) -> dict[str, str]:
     headers = {"User-Agent": "szl-estate-operational/1"}
-    token = gh_token()
-    if token and "github.com" in url:
-        headers["Authorization"] = f"Bearer {token}"
-    req = urllib.request.Request(url, headers=headers, method="GET")
+    parsed = urllib.parse.urlsplit(url)
     try:
-        with urllib.request.urlopen(req, timeout=timeout, context=ssl.create_default_context()) as resp:
-            return int(resp.status), resp.read().decode("utf-8", "replace")
+        trusted_origin = (
+            parsed.scheme == "https"
+            and parsed.port in (None, 443)
+            and parsed.username is None
+            and parsed.password is None
+        )
+    except ValueError:
+        trusted_origin = False
+    host = (parsed.hostname or "").lower() if trusted_origin else ""
+    token = gh_token()
+    if host == "api.github.com" and token:
+        headers["Authorization"] = f"Bearer {token}"
+        headers["Accept"] = "application/vnd.github+json"
+        headers["X-GitHub-Api-Version"] = "2022-11-28"
+    elif host == "huggingface.co" and hf_token():
+        headers["Authorization"] = f"Bearer {hf_token()}"
+    return headers
+
+
+class _RejectRedirects(urllib.request.HTTPRedirectHandler):
+    """Keep bearer credentials on the explicitly selected provider origin."""
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):  # noqa: ANN001
+        return None
+
+
+def _response_headers(headers: Any) -> dict[str, str]:
+    result: dict[str, str] = {}
+    for key, value in headers.items() if headers else []:
+        normalized = str(key).lower()
+        if normalized == "link" and normalized in result:
+            result[normalized] += ", " + str(value)
+        else:
+            result[normalized] = str(value)
+    return result
+
+
+def fetch_response(
+    url: str,
+    timeout: int = 25,
+    max_bytes: int = MAX_API_PAGE_BYTES,
+) -> tuple[int, str, dict[str, str]]:
+    req = urllib.request.Request(
+        url,
+        headers=request_headers(url),
+        method="GET",
+    )
+    opener = urllib.request.build_opener(
+        urllib.request.HTTPSHandler(context=ssl.create_default_context()),
+        _RejectRedirects(),
+    )
+    try:
+        with opener.open(req, timeout=timeout) as resp:
+            raw = resp.read(max_bytes + 1)
+            if len(raw) > max_bytes:
+                return 0, "RESPONSE_TOO_LARGE", {}
+            response_headers = _response_headers(resp.headers)
+            return (
+                int(resp.status),
+                raw.decode("utf-8", "replace"),
+                response_headers,
+            )
     except urllib.error.HTTPError as exc:
-        body = exc.read().decode("utf-8", "replace") if exc.fp else ""
-        return int(exc.code), body
+        raw = exc.read(max_bytes + 1) if exc.fp else b""
+        body = raw[:max_bytes].decode("utf-8", "replace")
+        response_headers = _response_headers(exc.headers)
+        return int(exc.code), body, response_headers
     except Exception as exc:
-        return 0, f"{type(exc).__name__}: {exc}"
+        return 0, type(exc).__name__, {}
+
+
+def fetch(url: str, timeout: int = 25) -> tuple[int, str]:
+    status, body, _headers = fetch_response(url, timeout=timeout)
+    return status, body
 
 
 def fetch_json(url: str) -> Any:
@@ -175,6 +268,267 @@ def fetch_json(url: str) -> Any:
     if status != 200:
         raise RuntimeError(f"{url} -> {status}")
     return json.loads(body)
+
+
+@dataclass
+class PaginatedInventory:
+    scope: str
+    items: list[dict[str, Any]] = field(default_factory=list)
+    completion: str = "UNKNOWN"
+    pages_fetched: int = 0
+    failure: str | None = None
+    duplicate_ids: list[str] = field(default_factory=list)
+    private_items_seen: int = 0
+
+    @property
+    def count(self) -> int | None:
+        if self.completion != "COMPLETE":
+            return None
+        return len(self.items)
+
+    def summary(self) -> dict[str, Any]:
+        return {
+            "completion": self.completion,
+            "scope": self.scope,
+            "count": self.count,
+            "observed_unique_count": len(self.items),
+            "pages_fetched": self.pages_fetched,
+            "private_items_seen": self.private_items_seen,
+            "duplicate_count": len(self.duplicate_ids),
+            "duplicate_ids": self.duplicate_ids[:MAX_REPORTED_DUPLICATES],
+            "failure": self.failure,
+        }
+
+
+_LINK_TOKEN = r"[!#$%&'*+\-.^_`|~0-9A-Za-z]+"
+_LINK_VALUE = rf'(?:"[^"\\]*(?:\\.[^"\\]*)*"|{_LINK_TOKEN})'
+_LINK_PARAMETER = re.compile(rf";\s*({_LINK_TOKEN})\s*=\s*({_LINK_VALUE})\s*")
+_LINK_ENTRY = re.compile(
+    rf"\s*<([^<>\s]+)>\s*((?:;\s*{_LINK_TOKEN}\s*=\s*{_LINK_VALUE}\s*)*)(,|$)"
+)
+
+
+def _pagination_links(link_header: str) -> list[tuple[str, list[str]]]:
+    """Parse the complete header; malformed input cannot certify a final page."""
+    links: list[tuple[str, list[str]]] = []
+    offset = 0
+    while offset < len(link_header):
+        entry = _LINK_ENTRY.match(link_header, offset)
+        if entry is None:
+            raise ValueError("MALFORMED_PAGINATION_LINK")
+        parameters = list(_LINK_PARAMETER.finditer(entry.group(2)))
+        relation_values = [
+            match.group(2).strip('"').lower().split()
+            for match in parameters
+            if match.group(1).lower() == "rel"
+        ]
+        if len(relation_values) != 1 or not relation_values[0]:
+            raise ValueError("MALFORMED_PAGINATION_LINK")
+        links.append((entry.group(1), relation_values[0]))
+        offset = entry.end()
+        if entry.group(3) and not link_header[offset:].strip():
+            raise ValueError("MALFORMED_PAGINATION_LINK")
+    if sum("next" in relations for _url, relations in links) > 1:
+        raise ValueError("AMBIGUOUS_NEXT_LINK")
+    return links
+
+
+def _validated_next_url(
+    start_url: str,
+    current_url: str,
+    candidate: str,
+) -> str:
+    resolved = urllib.parse.urljoin(current_url, candidate)
+    start = urllib.parse.urlsplit(start_url)
+    next_page = urllib.parse.urlsplit(resolved)
+    if (
+        next_page.scheme != "https"
+        or next_page.hostname != start.hostname
+        or next_page.port != start.port
+        or next_page.username is not None
+        or next_page.password is not None
+        or bool(next_page.fragment)
+        or next_page.path != start.path
+    ):
+        raise ValueError("UNSAFE_NEXT_LINK")
+
+    start_query = urllib.parse.parse_qs(
+        start.query,
+        keep_blank_values=True,
+    )
+    next_query = urllib.parse.parse_qs(
+        next_page.query,
+        keep_blank_values=True,
+    )
+    cursors = {"page", "cursor"}
+    if (
+        {key: value for key, value in start_query.items() if key not in cursors}
+        != {key: value for key, value in next_query.items() if key not in cursors}
+    ):
+        raise ValueError("FILTER_DRIFT")
+    for cursor in cursors:
+        if cursor in next_query and (
+            len(next_query[cursor]) != 1 or not next_query[cursor][0]
+        ):
+            raise ValueError("INVALID_PAGINATION_CURSOR")
+    return resolved
+
+
+def _requested_page_size(url: str) -> int | None:
+    query = urllib.parse.parse_qs(
+        urllib.parse.urlsplit(url).query,
+        keep_blank_values=True,
+    )
+    values = query.get("limit") or query.get("per_page")
+    if not values or len(values) != 1:
+        return None
+    try:
+        value = int(values[0])
+    except ValueError:
+        return None
+    return value if value > 0 else None
+
+
+def collect_paginated_inventory(
+    start_url: str,
+    *,
+    scope: str,
+    id_fields: tuple[str, ...] = ("id",),
+    max_pages: int = MAX_API_PAGES,
+) -> PaginatedInventory:
+    if max_pages < 1:
+        raise ValueError("max_pages must be positive")
+
+    result = PaginatedInventory(scope=scope)
+    next_url: str | None = start_url
+    visited: set[str] = set()
+    seen_ids: set[str] = set()
+    expected_page_size = _requested_page_size(start_url)
+
+    while next_url is not None:
+        if result.pages_fetched >= max_pages:
+            result.completion = "INCOMPLETE"
+            result.failure = "PAGE_CEILING"
+            return result
+        if next_url in visited:
+            result.completion = "INCOMPLETE"
+            result.failure = "PAGINATION_CYCLE"
+            return result
+        visited.add(next_url)
+
+        status, body, headers = fetch_response(next_url)
+        result.pages_fetched += 1
+        if status != 200:
+            result.completion = "UNKNOWN" if not result.items else "INCOMPLETE"
+            result.failure = f"HTTP_{status}" if status else body
+            return result
+        try:
+            page = json.loads(body)
+        except json.JSONDecodeError:
+            result.completion = "UNKNOWN" if not result.items else "INCOMPLETE"
+            result.failure = "INVALID_JSON"
+            return result
+        if not isinstance(page, list):
+            result.completion = "UNKNOWN" if not result.items else "INCOMPLETE"
+            result.failure = "NON_LIST_PAGE"
+            return result
+
+        for item in page:
+            if not isinstance(item, dict):
+                result.completion = "INCOMPLETE"
+                result.failure = "NON_OBJECT_ITEM"
+                return result
+            raw_id = next(
+                (
+                    item[field_name]
+                    for field_name in id_fields
+                    if field_name in item and item[field_name] is not None
+                ),
+                None,
+            )
+            if raw_id is None:
+                result.completion = "INCOMPLETE"
+                result.failure = "MISSING_ITEM_ID"
+                return result
+            github_ids = urllib.parse.urlsplit(start_url).hostname == "api.github.com"
+            valid_id = (
+                type(raw_id) is int and raw_id > 0
+                if github_ids
+                else isinstance(raw_id, str) and bool(raw_id.strip())
+            )
+            if not valid_id:
+                result.completion = "INCOMPLETE"
+                result.failure = "INVALID_ITEM_ID"
+                return result
+            item_id = str(raw_id).strip()
+            if item_id in seen_ids:
+                result.duplicate_ids.append(item_id)
+                continue
+            if len(result.items) >= MAX_INVENTORY_ITEMS:
+                result.completion = "INCOMPLETE"
+                result.failure = "ITEM_CEILING"
+                return result
+            seen_ids.add(item_id)
+            result.items.append(item)
+            if item.get("private") is True:
+                result.private_items_seen += 1
+
+        if result.duplicate_ids:
+            result.completion = "INCOMPLETE"
+            result.failure = "DUPLICATE_IDS"
+            return result
+
+        link_header = headers.get("link", "")
+        try:
+            links = _pagination_links(link_header)
+            validated_links = [
+                (_validated_next_url(start_url, next_url, candidate), relations)
+                for candidate, relations in links
+            ]
+        except ValueError as exc:
+            result.completion = "INCOMPLETE"
+            result.failure = str(exc)
+            return result
+        candidate = next(
+            (url for url, relations in validated_links if "next" in relations), None
+        )
+        if candidate is None:
+            pagination_evidence = any(
+                set(relations) & {"prev", "first", "last"}
+                for _url, relations in validated_links
+            )
+            if (
+                not pagination_evidence
+                and expected_page_size
+                and len(page) >= expected_page_size
+            ):
+                result.completion = "INCOMPLETE"
+                result.failure = "MISSING_PAGINATION_LINK"
+                return result
+            result.completion = "COMPLETE"
+            return result
+        try:
+            next_url = _validated_next_url(
+                start_url,
+                next_url,
+                candidate,
+            )
+        except ValueError as exc:
+            result.completion = "INCOMPLETE"
+            result.failure = str(exc)
+            return result
+
+    result.completion = "COMPLETE"
+    return result
+
+
+def threshold_result(
+    inventory: PaginatedInventory,
+    minimum: int,
+) -> bool | None:
+    if inventory.completion != "COMPLETE":
+        return None
+    return len(inventory.items) >= minimum
 
 
 def head_ok(url: str) -> dict[str, Any]:
@@ -292,10 +646,17 @@ def live() -> dict:
         "immune_nexus": head_ok(IMMUNE_NEXUS),
         "nexus_hologram": None,
         "hf_models": None,
+        "hf_ok": None,
         "hf_spaces": None,
+        "hf_datasets": None,
+        "hf_models_inventory": None,
+        "hf_spaces_inventory": None,
+        "hf_datasets_inventory": None,
         "public_spaces_seen": [],
         "not_public_seen": [],
         "gh_repos": None,
+        "gh_ok": None,
+        "gh_repos_inventory": None,
         "open_prs": None,
         "receipt_owner_home": None,
         "receipt_eligible": None,
@@ -321,29 +682,65 @@ def live() -> dict:
     out["nexus_hologram"] = hologram
 
     try:
-        models = fetch_json(HF_MODELS)
-        ids = [m.get("id") or m.get("modelId") for m in models] if isinstance(models, list) else []
-        out["hf_models"] = len(ids)
-        out["hf_ok"] = len(ids) >= SEED_MODELS
-        out["hf_sample"] = ids[:8]
+        models = collect_paginated_inventory(
+            HF_MODELS,
+            scope=inventory_scope("huggingface"),
+            id_fields=("id", "modelId"),
+        )
+        out["hf_models_inventory"] = models.summary()
+        out["hf_models"] = models.count
+        out["hf_ok"] = threshold_result(models, SEED_MODELS)
+        out["hf_sample"] = [
+            row.get("id") or row.get("modelId") for row in models.items[:8]
+        ]
+        if models.completion != "COMPLETE":
+            out["hf_error"] = f"{models.completion}:{models.failure}"
     except Exception as exc:
-        out["hf_error"] = f"{type(exc).__name__}: {exc}"
+        out["hf_error"] = type(exc).__name__
 
     try:
-        spaces = fetch_json(HF_SPACES)
-        ids = [s.get("id") for s in spaces] if isinstance(spaces, list) else []
-        out["hf_spaces"] = len(ids)
-        out["public_spaces_seen"] = [s for s in PUBLIC_SPACES if s in ids]
-        out["not_public_seen"] = [s for s in NOT_PUBLIC_PRODUCT if s in ids]
+        spaces = collect_paginated_inventory(
+            HF_SPACES,
+            scope=inventory_scope("huggingface"),
+        )
+        out["hf_spaces_inventory"] = spaces.summary()
+        out["hf_spaces"] = spaces.count
+        space_ids = [str(row.get("id")) for row in spaces.items]
+        out["public_spaces_seen"] = [
+            space_id for space_id in PUBLIC_SPACES if space_id in space_ids
+        ]
+        out["not_public_seen"] = [
+            space_id for space_id in NOT_PUBLIC_PRODUCT if space_id in space_ids
+        ]
+        if spaces.completion != "COMPLETE":
+            out["spaces_error"] = f"{spaces.completion}:{spaces.failure}"
     except Exception as exc:
-        out["spaces_error"] = f"{type(exc).__name__}: {exc}"
+        out["spaces_error"] = type(exc).__name__
 
     try:
-        repos = fetch_json(GH_REPOS)
-        out["gh_repos"] = len(repos) if isinstance(repos, list) else None
-        out["gh_ok"] = isinstance(repos, list) and len(repos) >= 80
+        datasets = collect_paginated_inventory(
+            HF_DATASETS,
+            scope=inventory_scope("huggingface"),
+        )
+        out["hf_datasets_inventory"] = datasets.summary()
+        out["hf_datasets"] = datasets.count
+        if datasets.completion != "COMPLETE":
+            out["datasets_error"] = f"{datasets.completion}:{datasets.failure}"
     except Exception as exc:
-        out["gh_error"] = f"{type(exc).__name__}: {exc}"
+        out["datasets_error"] = type(exc).__name__
+
+    try:
+        repos = collect_paginated_inventory(
+            github_repos_url(),
+            scope=inventory_scope("github"),
+        )
+        out["gh_repos_inventory"] = repos.summary()
+        out["gh_repos"] = repos.count
+        out["gh_ok"] = threshold_result(repos, 80)
+        if repos.completion != "COMPLETE":
+            out["gh_error"] = f"{repos.completion}:{repos.failure}"
+    except Exception as exc:
+        out["gh_error"] = type(exc).__name__
 
     try:
         prs = fetch_json(GH_OPEN_PRS)
