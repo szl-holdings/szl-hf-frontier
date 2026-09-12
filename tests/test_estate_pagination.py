@@ -141,6 +141,53 @@ class PaginationTests(unittest.TestCase):
         self.assertEqual(result.completion, "COMPLETE")
         self.assertEqual(result.count, 100)
 
+    def test_last_link_beyond_current_page_cannot_certify_completion(self):
+        headers = (
+            f'<{GH_PAGE_2}>; rel="last"',
+            f'<{GH_START}>; rel="first", <{GH_PAGE_2}>; rel="last"',
+        )
+        for header in headers:
+            with (
+                self.subTest(header=header),
+                mock.patch.object(
+                    estate,
+                    "fetch_response",
+                    return_value=(
+                        200,
+                        json.dumps([{"id": row} for row in range(1, 101)]),
+                        {"link": header},
+                    ),
+                ) as fetch,
+            ):
+                result = estate.collect_paginated_inventory(
+                    GH_START,
+                    scope="PUBLIC_ONLY",
+                )
+
+            self.assertEqual(result.completion, "INCOMPLETE")
+            self.assertEqual(result.failure, "NONTERMINAL_LAST_LINK")
+            self.assertIsNone(result.count)
+            self.assertIsNone(estate.threshold_result(result, minimum=80))
+            self.assertEqual(fetch.call_count, 1)
+
+    def test_last_link_to_current_page_can_certify_completion(self):
+        with mock.patch.object(
+            estate,
+            "fetch_response",
+            return_value=(
+                200,
+                json.dumps([{"id": row} for row in range(1, 101)]),
+                {"link": f'<{GH_START}>; rel="last"'},
+            ),
+        ):
+            result = estate.collect_paginated_inventory(
+                GH_START,
+                scope="PUBLIC_ONLY",
+            )
+
+        self.assertEqual(result.completion, "COMPLETE")
+        self.assertEqual(result.count, 100)
+
     def test_malformed_and_ambiguous_links_do_not_certify_completion(self):
         headers = (
             "not-a-link",

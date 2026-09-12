@@ -493,6 +493,15 @@ def collect_paginated_inventory(
             (url for url, relations in validated_links if "next" in relations), None
         )
         if candidate is None:
+            last_urls = [
+                url for url, relations in validated_links if "last" in relations
+            ]
+            if any(url != next_url for url in last_urls):
+                # A later advertised final page contradicts the missing next link.
+                # Do not let first/prev relations mask an incomplete response.
+                result.completion = "INCOMPLETE"
+                result.failure = "NONTERMINAL_LAST_LINK"
+                return result
             pagination_evidence = any(
                 set(relations) & {"prev", "first", "last"}
                 for _url, relations in validated_links
