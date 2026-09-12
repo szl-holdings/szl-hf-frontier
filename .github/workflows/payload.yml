@@ -23,6 +23,10 @@ jobs:
           python-version: "3.12"
       - name: Run payload
         run: python3 payload.py
+      - name: Offline regression tests
+        run: python3 -m unittest discover -v
+      - name: Estate operational selftest
+        run: python3 szl_estate_operational.py --selftest
       - name: All-wave closer
         run: python3 -m compose.waves
       - name: Investor selftest
