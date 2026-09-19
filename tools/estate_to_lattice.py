@@ -49,8 +49,8 @@ def _affirmatively_public(row: dict[str, Any]) -> bool:
     return row.get("private") is False
 
 
-def _public_http_uri(value: Any) -> str | None:
-    """Return a query-free public HTTP(S) URI without credentials or fragments."""
+def _public_http_uri(value: Any, expected_host: str) -> str | None:
+    """Return only the expected public HF Space origin, without URL extras."""
     if not isinstance(value, str) or not value:
         return None
     try:
@@ -59,20 +59,16 @@ def _public_http_uri(value: Any) -> str | None:
     except ValueError:
         return None
     if (
-        parsed.scheme not in {"http", "https"}
-        or not parsed.hostname
+        parsed.scheme != "https"
+        or parsed.hostname != expected_host
+        or port not in {None, 443}
         or parsed.username is not None
         or parsed.password is not None
     ):
         return None
-    host = parsed.hostname
-    if ":" in host and not host.startswith("["):
-        host = f"[{host}]"
-    if port is not None:
-        host = f"{host}:{port}"
     # The witness performed a root request. Publish only the origin; redirect
     # paths can contain transient or credential-like material.
-    return urlunsplit((parsed.scheme, host, "/", "", ""))
+    return urlunsplit(("https", expected_host, "/", "", ""))
 
 
 def _load(path: Path) -> Any:
@@ -323,9 +319,12 @@ def _space_assets(
             status = witness.get("http_status")
             matches = revision is not None and witness_revision == revision
             passed = isinstance(status, int) and 200 <= status < 400 and matches
-            host = _public_http_uri(witness.get("final_uri")) or _public_http_uri(
-                witness.get("host")
-            )
+            suffix = ".static.hf.space" if row.get("sdk") == "static" else ".hf.space"
+            expected_host = asset_id.lower().replace("/", "-").replace("_", "-") + suffix
+            # Do not fall back to the original host after a disallowed redirect:
+            # its status belongs to a different origin and must not be relabeled.
+            witness_uri = witness.get("final_uri") or witness.get("host")
+            host = _public_http_uri(witness_uri, expected_host)
             if host is not None:
                 layers["runtime"] = _direct_layer(
                     "MEASURED" if passed else "FAIL",

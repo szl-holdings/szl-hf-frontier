@@ -7,12 +7,44 @@ from pathlib import Path
 from unittest import mock
 
 from compose.evidence_lattice import EvidenceError, assess_snapshot
-from tools.estate_to_lattice import _write_new, build_snapshot
+from tools.estate_to_lattice import _public_http_uri, _write_new, build_snapshot
 
 REVISION = "d" * 40
 
 
 class EstateToLatticeTests(unittest.TestCase):
+    def test_only_expected_public_space_origin_can_be_exported(self) -> None:
+        expected = "szlholdings-public-space.hf.space"
+        for uri in ("https://127.0.0.1/", "https://10.0.0.1/", "https://169.254.169.254/",
+                    "https://[::1]/", "https://[fc00::1]/", "https://localhost/",
+                    "https://database.internal/", "https://private-service/",
+                    "https://szlholdings-other-space.hf.space/",
+                    f"https://{expected}.evil.invalid/", f"http://{expected}/",
+                    f"https://{expected}:8443/", f"https://user:password@{expected}/"):
+            with self.subTest(uri=uri):
+                self.assertIsNone(_public_http_uri(uri, expected))
+        self.assertEqual(_public_http_uri(f"https://{expected}:443/path?x=y#z", expected),
+                         f"https://{expected}/")
+        static = "szlholdings-readme.static.hf.space"
+        self.assertEqual(_public_http_uri(f"https://{static}/index.html", static),
+                         f"https://{static}/")
+
+    def test_internal_redirect_does_not_relabel_status_as_public_origin(self) -> None:
+        candidate = build_snapshot(
+            models=[], datasets=[],
+            spaces=[{"id": "SZLHOLDINGS/public-space", "private": False, "sha": REVISION}],
+            github={"repositories": [], "captured_at_utc": "2026-09-05T16:00:00Z"},
+            space_witness=[{
+                "id": "SZLHOLDINGS/public-space", "private": False, "sha": REVISION,
+                "final_uri": "https://database.internal/secret", "http_status": 200,
+                "host": "https://szlholdings-public-space.hf.space/",
+                "observed_at": "2026-09-05T16:00:00Z",
+            }],
+            observed_at="2026-09-05T16:00:00Z", hf_observed_at="2026-09-05T16:00:00Z",
+        )
+        self.assertNotIn("runtime", candidate["assets"][0]["layers"])
+        self.assertNotIn("database.internal", json.dumps(candidate))
+
     def test_live_runtime_refresh_supersedes_embedded_metadata(self) -> None:
         for live in ({"stage": "RUNNING", "raw": {"sha": "e" * 40}}, None):
             with self.subTest(live=live):

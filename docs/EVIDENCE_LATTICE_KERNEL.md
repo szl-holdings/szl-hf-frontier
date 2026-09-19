@@ -77,7 +77,11 @@ identity, authenticity, freshness authority, or clinical approval.
 
 `tools/estate_to_lattice.py` accepts the dated enriched inventories and direct
 HTTP witness file. Only assets explicitly marked `private: false` are exported;
-unknown visibility is excluded. Public HTTP references retain only the origin.
+unknown visibility is excluded. Public HTTP references retain only the expected
+HTTPS `namespace-space.hf.space` origin (or `.static.hf.space` for the static SDK)
+on the default port. Custom domains,
+internal addresses, unrelated Spaces, and off-origin redirects are omitted;
+an off-origin status is never relabeled as a response from the original host.
 Each evidence digest identifies its canonical source record, not model weights.
 Capture timestamps must come from the inventory collector.
 
