@@ -84,7 +84,18 @@ def wave_local() -> dict:
 
 def wave_tests() -> str:
     tests = subprocess.run(
-        [sys.executable, "-m", "unittest", "compose.test_tournament", "compose.test_invented_id", "compose.test_lanes", "compose.test_waves", "-q"],
+        [
+            sys.executable,
+            "-m",
+            "unittest",
+            "compose.test_tournament",
+            "compose.test_invented_id",
+            "compose.test_lanes",
+            "compose.test_waves",
+            "compose.test_evidence_lattice",
+            "compose.test_estate_to_lattice",
+            "-q",
+        ],
         cwd=ROOT,
         capture_output=True,
         text=True,

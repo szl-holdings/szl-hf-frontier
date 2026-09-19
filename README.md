@@ -22,6 +22,15 @@ It is not a flagship product. It does not make forty-three repositories frontier
 2. **Khipu** — grounded navigation and calibrated abstention.
 3. **Research organs** — Chaski and future cuts. Research-only until they beat disclosed baselines.
 
+## Evidence lattice
+
+`compose/evidence_lattice.py` is the machine-checkable evidence-completeness check for
+the entire estate. It refuses to infer trained weights from a Hub listing,
+deployment from CI, qualification from HTTP health, or signer identity from a
+digest. It checks revision and time binding, returns untrusted completeness,
+and always leaves release authorization to an external trusted controller. See
+[`docs/EVIDENCE_LATTICE_KERNEL.md`](docs/EVIDENCE_LATTICE_KERNEL.md).
+
 ## Critical clusters
 
 | ID | Order | Artifacts |
