@@ -1,16 +1,16 @@
 {
-  "assessment_sha256": "58248e36ee46b15aa580ee1950c98681d9e72a09f52fb82879341a971d7a7c46",
+  "assessment_sha256": "465d3d561f7bcefee7c090c729d94e554837acd892b61ce3b06b5d4b782d9edf",
   "asset_count": 220,
   "blocked_count": 220,
   "boundary": "Digest proves deterministic byte integrity only; it does not prove correctness, independence, identity, qualification, or authorization.",
   "complete_count": 0,
-  "generated_at": "2026-09-12T13:17:31Z",
+  "generated_at": "2026-09-19T22:16:42Z",
   "goal": "promote",
   "integrity": "HASH_ONLY_UNSIGNED",
   "max_evidence_age_seconds": 86400,
   "observer": "szl-hf-frontier/tools/estate_to_lattice.py",
   "previous_receipt_sha256": null,
-  "receipt_sha256": "150c9e2608c7bbe7416693870e49822726a201fcf733c8491cf1ef34431584e2",
+  "receipt_sha256": "178f3de772b0b9b5d54a4678547ffb5cac16fad08683a82ab1c73bb10898f68f",
   "schema": "szl.evidence-lattice-receipt/v2",
   "selectors": [
     "model:SZLHOLDINGS/A11OY-MINI",
@@ -234,5 +234,5 @@
     "repository:szl-holdings/warhacker-demo",
     "repository:szl-holdings/yarqa"
   ],
-  "snapshot_sha256": "f727ba283bf0252936856150e0451d418b18784070c531c3d9b534976461b9cd"
+  "snapshot_sha256": "88090729ad86117d9ddc98c15f4b2b04560248dea68b14b62e9f47f4b4b488f9"
 }

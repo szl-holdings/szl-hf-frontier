@@ -284,7 +284,11 @@ def _space_assets(
         if not isinstance(asset_id, str):
             continue
         revision = _revision(row)
-        runtime = row.get("runtime") if isinstance(row.get("runtime"), dict) else {}
+        # An explicit live-runtime refresh supersedes embedded repository-info
+        # metadata, including when the refresh is empty or malformed. Never pair
+        # an old runtime value with the refresh's newer observation timestamp.
+        runtime_field = "audit_live_runtime" if "audit_live_runtime" in row else "runtime"
+        runtime = row.get(runtime_field) if isinstance(row.get(runtime_field), dict) else {}
         stage = runtime.get("stage") if isinstance(runtime.get("stage"), str) else None
         raw_runtime = (
             runtime.get("raw") if isinstance(runtime.get("raw"), dict) else {}
@@ -470,7 +474,8 @@ def build_snapshot(
             )
             if witness is None and kind != "repository":
                 field = (
-                    "audit_live_runtime_observed_at" if name == "deployment"
+                    "audit_live_runtime_observed_at"
+                    if name == "deployment" and "audit_live_runtime" in record
                     else "audit_observed_at"
                 )
                 if record.get(field) is not None:

@@ -13,6 +13,29 @@ REVISION = "d" * 40
 
 
 class EstateToLatticeTests(unittest.TestCase):
+    def test_live_runtime_refresh_supersedes_embedded_metadata(self) -> None:
+        for live in ({"stage": "RUNNING", "raw": {"sha": "e" * 40}}, None):
+            with self.subTest(live=live):
+                candidate = build_snapshot(
+                    models=[], datasets=[],
+                    spaces=[{
+                        "id": "SZLHOLDINGS/public-space", "private": False,
+                        "sha": REVISION,
+                        "runtime": {"stage": "RUNNING", "raw": {"sha": REVISION}},
+                        "audit_observed_at": "2026-09-05T16:00:00Z",
+                        "audit_live_runtime": live,
+                        "audit_live_runtime_observed_at": "2026-09-05T16:01:00Z",
+                    }],
+                    github={"repositories": [], "captured_at_utc": "2026-09-05T16:00:00Z"},
+                    space_witness=[], observed_at="2026-09-05T16:02:00Z",
+                    hf_observed_at="2026-09-05T16:00:00Z",
+                )
+                deployment = candidate["assets"][0]["layers"]["deployment"]
+                self.assertEqual(deployment["state"], "FAIL" if live else "UNKNOWN")
+                self.assertEqual(deployment["subject_revision"], "e" * 40 if live else None)
+                self.assertEqual(deployment["evidence"][0]["observed_at"],
+                                 "2026-09-05T16:01:00Z")
+
     def test_snapshot_publication_cannot_overwrite_a_racing_writer(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             destination = Path(directory) / "snapshot.json"

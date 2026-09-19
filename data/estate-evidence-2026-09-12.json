@@ -9951,7 +9951,7 @@
       "revision": "1873e3609153e0040a6e64ee221aeb552cd76e7c"
     }
   ],
-  "generated_at": "2026-09-12T13:17:31Z",
+  "generated_at": "2026-09-19T22:16:42Z",
   "max_evidence_age_seconds": 86400,
   "notes": "Public-only read snapshot. Private asset names are excluded. Provider metadata and direct HTTP reachability are observations, not training, quality, deployment authorization, or readiness.",
   "observer": "szl-hf-frontier/tools/estate_to_lattice.py",

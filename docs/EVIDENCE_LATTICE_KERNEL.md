@@ -45,7 +45,9 @@ remain blocked. No field is inferred from another layer.
 Run from the repository root:
 
 The bundled September 12 snapshot is historical audit evidence, not current
-estate status. Its receipt can still be verified; its freshness gate will expire.
+estate status. It was converted again on September 19 using the original capture
+timestamps and the corrected live-runtime field mapping. Its receipt can still
+be verified; its observations are already stale for a current completeness check.
 
 ```powershell
 python -B -m compose.evidence_lattice data/estate-evidence-2026-09-12.json --goal promote --receipt-out evidence-receipt.json
