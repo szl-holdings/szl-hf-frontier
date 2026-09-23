@@ -22,13 +22,14 @@
       "git_sha_equals_source_sha": true,
       "receipt_minted": false,
       "is_live_field_in_raw_honest_body": false,
-      "label": "MEASURED"
+      "label": "MEASURED",
+      "scope_note": "Historical 2026-09-19 session observation only; not current equality evidence."
     },
     "proof_registry": {
       "url": "https://a11oy.net",
       "estate_json_captured_at": "2026-08-31T18:59:11Z",
       "freshness": "STALE",
-      "stale_days": 19,
+      "stale_days_at_session": 19,
       "label": "HISTORICAL"
     },
     "huggingface_org_card": {
@@ -37,13 +38,45 @@
       "datasets": 35,
       "spaces": 22,
       "collections": 21,
-      "kernels_api_count": 14
+      "kernels_api_count": 14,
+      "scope_note": "Dated session observation; not promoted to current organization inventory."
     },
     "kernel_deadline": {
       "cutoff": "2026-09-13",
       "status": "OVERDUE",
       "label": "HOLD"
     }
+  },
+  "revalidation_2026_09_23": {
+    "scope": "source/proof authority recheck; no current Hub census or live product revision qualification",
+    "source_owner": {
+      "repository": "szl-holdings/a11oy",
+      "main_sha": "fe46a6da0dd14a158f56a86a3e1b24cc319ac02b",
+      "session_sha": "a2244bde2a79fb9a831b537d8d2d096400516a7f",
+      "source_advanced_since_capture": true,
+      "current_product_source_equality": "UNAVAILABLE"
+    },
+    "proof_owner": {
+      "repository": "szl-holdings/a11oy-net",
+      "main_sha": "15cc13e061f99fcb07dd7b315517c709575d3527",
+      "current_admitted_boundary": "Proof source records origin/source SHA lag at its own capture and forbids MATCH/LIVE until superseded.",
+      "estate_json_captured_at": "2026-08-31T18:59:11Z",
+      "estate_snapshot_status": "HISTORICAL"
+    },
+    "evidence_kernel": {
+      "pull_request": 36,
+      "merged": true,
+      "merge_commit": "6489229be3852446b1664352392f17f57660678c",
+      "frontier_main_sha": "d63138cd75dabf2f70d524adbdb928ea9d9b1940",
+      "qualification": "source evidence tooling admitted; no provider/runtime/model qualification implied"
+    },
+    "huggingface_org_inventory": {
+      "status": "UNAVAILABLE",
+      "reason": "Current whole-organization inventory was not qualified in this recheck; historical session counts are not carried forward."
+    },
+    "result": "PARTIAL",
+    "disposition": "HOLD",
+    "authorized": false
   },
   "estate_meet": "PARTIAL",
   "authorized_note": "This lattice never emits authorized=true.",
