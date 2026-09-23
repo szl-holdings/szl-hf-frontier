@@ -1,0 +1,94 @@
+/* SZL Estate Design Tokens v1
+ * Product components consume semantic --szl-color-* tokens only.
+ * Primitive tokens exist for system maintenance, not direct UI use.
+ */
+:root {
+  --szl-ink-1000: #090b10;
+  --szl-ink-950: #10131b;
+  --szl-ink-900: #171c27;
+  --szl-ink-800: #222a38;
+  --szl-ink-700: #344055;
+  --szl-bone-50: #fffdf7;
+  --szl-bone-100: #f8f3e8;
+  --szl-bone-200: #ebe2d0;
+  --szl-bone-300: #d8cab4;
+  --szl-bone-500: #a99b87;
+  --szl-copper-300: #e2b678;
+  --szl-copper-400: #c98f4b;
+  --szl-cyan-300: #81e8e0;
+  --szl-cyan-400: #4ccbc4;
+  --szl-green-300: #7cdda1;
+  --szl-amber-300: #f0c969;
+  --szl-red-300: #f29a9d;
+  --szl-violet-300: #c8afff;
+
+  --szl-color-page: var(--szl-ink-1000);
+  --szl-color-surface: var(--szl-ink-950);
+  --szl-color-surface-raised: var(--szl-ink-900);
+  --szl-color-surface-sunken: #06080d;
+  --szl-color-border-subtle: rgba(235, 226, 208, 0.14);
+  --szl-color-border-strong: rgba(235, 226, 208, 0.28);
+  --szl-color-text-primary: var(--szl-bone-50);
+  --szl-color-text-secondary: var(--szl-bone-300);
+  --szl-color-text-muted: var(--szl-bone-500);
+  --szl-color-text-link: var(--szl-cyan-300);
+  --szl-color-focus-ring: var(--szl-cyan-300);
+  --szl-color-state-measured: var(--szl-green-300);
+  --szl-color-state-software: var(--szl-cyan-300);
+  --szl-color-state-experimental: var(--szl-violet-300);
+  --szl-color-state-advisory: var(--szl-copper-300);
+  --szl-color-state-warning: var(--szl-amber-300);
+  --szl-color-state-blocked: var(--szl-red-300);
+  --szl-color-state-unavailable: var(--szl-bone-500);
+  --szl-color-state-archived: #8d94a4;
+
+  --szl-font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --szl-font-body: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --szl-font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+  --szl-text-xs: 0.75rem;
+  --szl-text-sm: 0.875rem;
+  --szl-text-md: 1rem;
+  --szl-text-lg: 1.25rem;
+  --szl-text-xl: 1.75rem;
+  --szl-text-2xl: 2.5rem;
+  --szl-text-3xl: clamp(2.75rem, 6vw, 5.5rem);
+  --szl-leading-tight: 1.1;
+  --szl-leading-normal: 1.5;
+  --szl-leading-relaxed: 1.7;
+
+  --szl-space-1: 0.25rem;
+  --szl-space-2: 0.5rem;
+  --szl-space-3: 0.75rem;
+  --szl-space-4: 1rem;
+  --szl-space-5: 1.5rem;
+  --szl-space-6: 2rem;
+  --szl-space-7: 3rem;
+  --szl-space-8: 4rem;
+  --szl-space-9: 6rem;
+  --szl-radius-sm: 0.5rem;
+  --szl-radius-md: 0.875rem;
+  --szl-radius-lg: 1.25rem;
+  --szl-radius-pill: 999rem;
+  --szl-shadow-card: 0 1px 0 rgba(255,255,255,0.04) inset, 0 20px 60px rgba(0,0,0,0.28);
+  --szl-motion-fast: 120ms;
+  --szl-motion-base: 180ms;
+  --szl-motion-slow: 320ms;
+  --szl-ease-standard: cubic-bezier(0.2, 0, 0, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --szl-motion-fast: 0ms; --szl-motion-base: 0ms; --szl-motion-slow: 0ms; }
+}
+
+[data-szl-theme="light"] {
+  --szl-color-page: var(--szl-bone-50);
+  --szl-color-surface: #ffffff;
+  --szl-color-surface-raised: var(--szl-bone-100);
+  --szl-color-surface-sunken: var(--szl-bone-200);
+  --szl-color-border-subtle: rgba(16, 19, 27, 0.12);
+  --szl-color-border-strong: rgba(16, 19, 27, 0.24);
+  --szl-color-text-primary: var(--szl-ink-1000);
+  --szl-color-text-secondary: #3e4757;
+  --szl-color-text-muted: #667084;
+  --szl-color-text-link: #176d72;
+}

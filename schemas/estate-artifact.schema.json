@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://szl.holdings/schema/estate-artifact/v1",
+  "title": "SZL Estate Artifact Registry Entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "surface", "artifact_class", "visibility", "status", "canonical", "links", "audit"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._/-]*$"},
+    "surface": {"enum": ["github", "huggingface-model", "huggingface-dataset", "huggingface-space", "web"]},
+    "artifact_class": {"enum": ["model", "kernel", "dataset", "space", "repository", "fixture", "reference", "alias", "archive", "website"]},
+    "visibility": {"enum": ["public", "private"]},
+    "status": {"enum": ["MEASURED", "REPRODUCIBLE", "SOURCE_BACKED", "SOFTWARE", "EXPERIMENTAL", "ADVISORY", "PROPOSAL_ONLY", "REFERENCE", "SYNTHETIC", "BLOCKED", "DEPRECATED", "ARCHIVED", "UNAVAILABLE"]},
+    "canonical": {"type": "object", "additionalProperties": false, "required": ["role", "url"], "properties": {"role": {"enum": ["source", "mirror", "runtime", "record", "successor", "none"]}, "url": {"type": "string", "format": "uri"}}},
+    "links": {"type": "object", "additionalProperties": false, "properties": {"github": {"type": "string", "format": "uri"}, "huggingface": {"type": "string", "format": "uri"}, "space": {"type": "string", "format": "uri"}, "dataset": {"type": "string", "format": "uri"}, "successor": {"type": "string", "format": "uri"}}},
+    "license": {"type": "string"},
+    "revision": {"type": "string"},
+    "audit": {"type": "object", "additionalProperties": false, "required": ["status", "last_checked"], "properties": {"status": {"enum": ["UNREVIEWED", "ALIGNED_ACTIVE", "ALIGNED_REFERENCE", "ALIGNED_ARCHIVED", "ALIGNED_PRIVATE", "NEEDS_SOURCE_FIX", "NEEDS_CARD_REWRITE", "NEEDS_LINK_REPAIR", "NEEDS_STATUS_CORRECTION", "NEEDS_LICENSE_REVIEW", "NEEDS_CANONICAL_MAPPING", "UNAVAILABLE_WITH_REASON"]}, "last_checked": {"type": "string", "format": "date-time"}, "notes": {"type": "array", "items": {"type": "string"}}}}
+  }
+}
