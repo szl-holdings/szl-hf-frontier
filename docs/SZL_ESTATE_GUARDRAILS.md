@@ -2,14 +2,15 @@
 
 ## Duplicate-prevention rule
 
-The estate registry is **one record per public identity**. Before any record, card, mirror, or route is added, the validator rejects:
+The estate registry is **one record per public identity**. The validator rejects:
 
 - Duplicate registry IDs.
-- Duplicate canonical URLs.
-- Duplicate public URLs across any relationship field.
-- Duplicate active normalized identities.
-- Duplicate GitHub-to-Hugging-Face mirror pairs.
+- Duplicate canonical owners for an active source, runtime, record, or successor URL.
+- Duplicate active canonical identities.
+- Duplicate active GitHub-to-Hugging-Face mirror pairs.
 - Archived or deprecated records without an explicit successor.
+
+Shared reference links are allowed. Many artifacts may correctly reference the same organization page, proof corpus, evidence lake, or product surface. A shared reference does not create shared canonical ownership.
 
 An archive, alias, fixture, or historical record may preserve provenance, but it may never masquerade as a second active canonical artifact.
 
@@ -20,7 +21,7 @@ A public artifact may not move to `ALIGNED_*` unless all relevant gates pass.
 | Gate | Fail condition |
 |---|---|
 | Registry | Missing ID, class, visibility, truth status, canonical role/URL, or audit status |
-| Duplicate prevention | Reused identity, canonical URL, public URL, or live mirror pair |
+| Duplicate prevention | Reused active canonical ownership, canonical identity, or live mirror pair |
 | Canonical route | Missing source of truth; archived/deprecated artifact without successor |
 | Link integrity | Missing or malformed GitHub/Hub/Space/dataset relation |
 | Card contract | Missing identity, status, what-it-is, what-it-is-not, use/verify, evidence, source, or maintenance posture |
@@ -49,6 +50,6 @@ The estate loop closes only after:
 2. Every registered artifact has a resolved audit status.
 3. No `NEEDS_*` item remains without an owner and explicit reason.
 4. All changed public cards pass the contract, duplicate-prevention, link, accessibility, and visual gates.
-5. A post-change re-enumeration detects no orphan, stale successor, duplicate identity, or new ambiguity.
+5. A post-change re-enumeration detects no orphan, stale successor, duplicate canonical ownership, or new ambiguity.
 
 A visually attractive page does not bypass any gate.

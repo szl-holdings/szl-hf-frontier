@@ -25,10 +25,11 @@ def require_url(value: object, label: str) -> str:
 
 
 def normalize_identity(entry: dict) -> str:
+    canonical = entry.get("canonical", {})
     return "|".join((
-        str(entry.get("surface", "")).casefold(),
         str(entry.get("artifact_class", "")).casefold(),
-        str(entry.get("canonical", {}).get("url", "")).rstrip("/").casefold(),
+        str(canonical.get("role", "")).casefold(),
+        str(canonical.get("url", "")).rstrip("/").casefold(),
     ))
 
 
@@ -41,8 +42,7 @@ def main() -> None:
         fail("registry must be a non-empty JSON array")
 
     ids: set[str] = set()
-    canonical_urls: dict[str, str] = {}
-    public_urls: dict[str, str] = {}
+    canonical_owners: dict[str, str] = {}
     live_identities: dict[str, str] = {}
     mirror_pairs: dict[tuple[str, str], str] = {}
 
@@ -68,23 +68,18 @@ def main() -> None:
         canonical = entry.get("canonical")
         if not isinstance(canonical, dict):
             fail(f"{artifact_id}: canonical object required")
+        canonical_role = canonical.get("role")
         canonical_url = require_url(canonical.get("url"), f"{artifact_id}.canonical.url")
-        prior_canonical = canonical_urls.get(canonical_url)
-        if prior_canonical:
-            fail(f"duplicate canonical URL: {artifact_id} and {prior_canonical} -> {canonical_url}")
-        canonical_urls[canonical_url] = artifact_id
+        if canonical_role in {"source", "runtime", "record", "successor"}:
+            prior_owner = canonical_owners.get(canonical_url)
+            if prior_owner:
+                fail(f"duplicate canonical owner: {artifact_id} and {prior_owner} -> {canonical_url}")
+            canonical_owners[canonical_url] = artifact_id
 
         links = entry.get("links")
         if not isinstance(links, dict):
             fail(f"{artifact_id}: links object required")
-        normalized_links: dict[str, str] = {}
-        for name, value in links.items():
-            url = require_url(value, f"{artifact_id}.links.{name}")
-            normalized_links[name] = url
-            prior_public = public_urls.get(url)
-            if prior_public and prior_public != artifact_id:
-                fail(f"duplicate public URL: {artifact_id} and {prior_public} -> {url}")
-            public_urls[url] = artifact_id
+        normalized_links = {name: require_url(value, f"{artifact_id}.links.{name}") for name, value in links.items()}
 
         if status in INACTIVE and "successor" not in normalized_links:
             fail(f"{artifact_id}: archived/deprecated artifacts require links.successor")
@@ -95,17 +90,17 @@ def main() -> None:
             identity = normalize_identity(entry)
             prior_identity = live_identities.get(identity)
             if prior_identity:
-                fail(f"duplicate active identity: {artifact_id} and {prior_identity}")
+                fail(f"duplicate active canonical identity: {artifact_id} and {prior_identity}")
             live_identities[identity] = artifact_id
 
-        if "github" in normalized_links and "huggingface" in normalized_links:
-            pair = (normalized_links["github"], normalized_links["huggingface"])
-            prior_pair = mirror_pairs.get(pair)
-            if prior_pair:
-                fail(f"duplicate GitHub/Hub mirror pair: {artifact_id} and {prior_pair}")
-            mirror_pairs[pair] = artifact_id
+            if "github" in normalized_links and "huggingface" in normalized_links:
+                pair = (normalized_links["github"], normalized_links["huggingface"])
+                prior_pair = mirror_pairs.get(pair)
+                if prior_pair:
+                    fail(f"duplicate active GitHub/Hub mirror pair: {artifact_id} and {prior_pair}")
+                mirror_pairs[pair] = artifact_id
 
-    print(f"PASS: {len(raw)} registry entries validated; duplicate identities rejected")
+    print(f"PASS: {len(raw)} registry entries validated; canonical duplicates rejected; shared references allowed")
 
 
 if __name__ == "__main__":
