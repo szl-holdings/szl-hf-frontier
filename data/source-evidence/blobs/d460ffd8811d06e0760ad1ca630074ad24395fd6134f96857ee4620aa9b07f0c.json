@@ -1,0 +1,20 @@
+{
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "PROMOTION_READINESS_AUDIT.json",
+    "PUBKEY_szlholdings-ec-p256.pem",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "anatomy_alive_v6.py",
+    "harness_runs.jsonl",
+    "provenance.json",
+    "publish_harness_run.py",
+    "runs/20260721T033121.651579Z.dsse.json",
+    "runs/20260721T033121.651579Z.evidence.json",
+    "runs/20260721T034029.453969Z.dsse.json",
+    "runs/20260721T034029.453969Z.evidence.json",
+    "status.json"
+  ],
+  "revision": "9875d24f2e3f3a421a061e0e8ed5fd2e9def9af2"
+}

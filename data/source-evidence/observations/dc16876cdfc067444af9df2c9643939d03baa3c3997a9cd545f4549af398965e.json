@@ -1,0 +1,20 @@
+{
+  "card": "# khipu-pages\n\n**Knot the run. Hash the proof. Fail closed.**\n\nPublic JavaScript silhouette of the SZL KHIPU \u039b-gate. Same weighted geometric mean as the NumPy kernel. Zero-route fail-closes. This page **does not** run Python.\n\n## Live\n\n- **This silhouette:** [holdings.a-11-oy.com/khipu](https://holdings.a-11-oy.com/khipu/)\n- **Python frontend + backend:** clone [szl-holdings/szl-khipu](https://github.com/szl-holdings/szl-khipu) and `szl-khipu serve`\n- **Hub kernel Space:** [SZLHOLDINGS/szl-khipu](https://huggingface.co/spaces/SZLHOLDINGS/szl-khipu)\n- **Interactive lab (TanStack):** [szl-holdings/khipu-lab](https://github.com/szl-holdings/khipu-lab) \u00b7 hologram [SZLHOLDINGS/khipu-lab](https://huggingface.co/spaces/SZLHOLDINGS/khipu-lab)\n\n```bash\ngit clone https://github.com/szl-holdings/szl-khipu\ncd szl-khipu && pip install -e .\nszl-khipu serve --host 0.0.0.0 --port 7860\n```\n\n## Honesty\n\n| Claim | Status |\n|---|---|\n| JS WGM on this page | LIVE silhouette |\n| NumPy kernels | LIVE in `szl-khipu`, not here |\n| CUDA | UNAVAILABLE |\n| Energy / joules | UNAVAILABLE |\n| \u039b uniqueness | Conjecture 1 OPEN |\n| `proven_trust` | false |\n| Locked-proven formulas | exactly 8 |\n\nApache-2.0 \u00b7 Doctrine v11 LOCKED \u00b7 SZL Holdings\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 1234,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/9654c47b49a988c7ae51eb564cc5237da9825224dff2ed9e217e0c5dae9121ef.md",
+      "revision": "f56e5327b61c548f656ee7c88f539e8c5228525d",
+      "sha256": "9654c47b49a988c7ae51eb564cc5237da9825224dff2ed9e217e0c5dae9121ef",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/khipu-pages/blob/f56e5327b61c548f656ee7c88f539e8c5228525d/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/khipu-pages",
+  "observed_at": "2026-09-24T12:29:30Z",
+  "observed_revision": "f56e5327b61c548f656ee7c88f539e8c5228525d"
+}

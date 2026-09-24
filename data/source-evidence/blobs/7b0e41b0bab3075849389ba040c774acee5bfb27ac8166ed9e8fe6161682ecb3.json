@@ -1,0 +1,23 @@
+{
+  "files": [
+    ".gitattributes",
+    "DATASET_PROVENANCE.json",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "corpus.jsonl",
+    "indexes/all.faiss",
+    "indexes/all.ids.json",
+    "indexes/cortex.faiss",
+    "indexes/cortex.ids.json",
+    "indexes/gate.faiss",
+    "indexes/gate.ids.json",
+    "indexes/immune.faiss",
+    "indexes/immune.ids.json",
+    "indexes/manifest.json",
+    "indexes/nervous.faiss",
+    "indexes/nervous.ids.json",
+    "indexes/receipt.faiss",
+    "indexes/receipt.ids.json"
+  ],
+  "revision": "5287573c5f47f3e41cb0fd5a8e20933647a102dd"
+}

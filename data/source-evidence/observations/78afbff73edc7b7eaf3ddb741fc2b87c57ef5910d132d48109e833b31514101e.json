@@ -1,0 +1,39 @@
+{
+  "card": "---\ntitle: PURIQ Finance\nemoji: \ud83d\udef0\ufe0f\ncolorFrom: gray\ncolorTo: blue\nsdk: docker\napp_port: 7860\npinned: true\nlicense: apache-2.0\nshort_description: \"Provenance-first financial signal and decision console\"\ntags:\n  - szl-holdings\n  - governed-ai\n  - finance\n---\n\n# PURIQ Finance\n\nFINANCIAL INTELLIGENCE flagship for SZL Holdings.\n\nThis Space uses **Domain Experience v4**: an original, domain-specific interface over the shared governed vertical runtime. Runtime claims fail closed to `UNAVAILABLE`; evidence states are never collapsed.\n\n\nCanonical product source: https://github.com/szl-holdings/puriq-live\n\nDeployment controller: https://github.com/szl-holdings/a11oy\n\nPortfolio: https://a-11-oy.com/products/\n\nLicense: Apache-2.0. Public Experience: `4.0.0`.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 229,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/dd86ba8cdc9ef0c309d26c81e79fcd5283af1876abe8c0a9d5623fba9d299c66.json",
+      "revision": "9cfb48482cf8d717b3d4998fbbe222d1701f8ced",
+      "sha256": "dd86ba8cdc9ef0c309d26c81e79fcd5283af1876abe8c0a9d5623fba9d299c66",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/finance/revision/9cfb48482cf8d717b3d4998fbbe222d1701f8ced"
+    },
+    {
+      "bytes": 761,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/fccbf45ca980f63002f376c3a1a4a5ab525cddb5ff963c03b0e5a0c29f428501.md",
+      "revision": "9cfb48482cf8d717b3d4998fbbe222d1701f8ced",
+      "sha256": "fccbf45ca980f63002f376c3a1a4a5ab525cddb5ff963c03b0e5a0c29f428501",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/finance/resolve/9cfb48482cf8d717b3d4998fbbe222d1701f8ced/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "Dockerfile",
+    "README.md",
+    "app.py",
+    "config.json",
+    "index.html",
+    "panels.html",
+    "requirements.txt"
+  ],
+  "id": "huggingface-space/szlholdings/finance",
+  "observed_at": "2026-09-24T12:29:59Z",
+  "observed_revision": "9cfb48482cf8d717b3d4998fbbe222d1701f8ced"
+}

@@ -1,0 +1,15 @@
+{
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "estate/2026-08-29-laptop-blackwell/INDEX.json",
+    "estate/2026-08-29-laptop-blackwell/INVENTORY.json",
+    "estate/2026-08-29-laptop-blackwell/chaski_r2_generate_eval.json",
+    "estate/2026-08-29-laptop-blackwell/estate_cpu_frontier.json",
+    "estate/2026-08-29-laptop-blackwell/eval_report.json",
+    "estate/2026-08-29-laptop-blackwell/frontier_gpu_summary.json",
+    "estate/2026-08-29-laptop-blackwell/ra_v3_dev_eval.json",
+    "estate/2026-08-29-laptop-blackwell/training_receipt.json"
+  ],
+  "revision": "a62226464cab74741835d3afbff2b485f5b5f7e9"
+}

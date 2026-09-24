@@ -1,0 +1,24 @@
+{
+  "files": [
+    ".gitattributes",
+    "GOVERNANCE.md",
+    "HONEST_DISCLOSURE.md",
+    "MODELS.txt",
+    "README.md",
+    "SEVEN_SPACES.md",
+    "SPACE_PROVENANCE_FRONTIER.json",
+    "assets/estate-banner-v2.svg",
+    "assets/estate-command-system.svg",
+    "assets/evidence-lattice-v2.webp",
+    "assets/hf-card-command.svg",
+    "assets/hf-card-evidence.svg",
+    "assets/hf-card-intelligence.svg",
+    "assets/hf-card-models.svg",
+    "assets/hf-portfolio-map.svg",
+    "deployment.json",
+    "estate-alignment.json",
+    "index.html",
+    "seven-spaces.yaml"
+  ],
+  "revision": "9fe1342bf64f61cef2bc351415528662b08cdf42"
+}

@@ -1,0 +1,32 @@
+{
+  "commands": [
+    "gh auth status",
+    "hf auth whoami",
+    "git clone --filter=blob:none --no-checkout https://github.com/szl-holdings/szl-hf-frontier.git work/szl-hf-frontier",
+    "git switch --track origin/design/estate-guardrails",
+    "python tools/capture_estate_snapshots.py --help",
+    "python tools/run_estate_audit.py --help",
+    "python tools/capture_estate_snapshots.py ../../outputs/estate-authenticated/snapshots --public-output data/snapshots --workers 6",
+    "python tools/classify_estate_sources.py --input data/snapshots --output data/source_reviews.json --evidence-dir data/source-evidence --workers 6",
+    "python tools/classify_estate_sources.py --input data/snapshots --output data/source_reviews.json --evidence-dir data/source-evidence --workers 6 --offline",
+    "python tools/run_estate_audit.py --skip-capture --snapshots data/snapshots --reviews data/source_reviews.json --registry data/estate_registry.json --gaps reports/unresolved_gaps.json --receipt reports/estate_audit_receipt.json",
+    "python tools/probe_estate_runtime.py --input data/snapshots --output reports/runtime_witness.json --workers 6 --timeout 15",
+    "python tools/report_model_evidence.py",
+    "python tools/verify_estate_evidence.py",
+    "python -m unittest discover -v",
+    "python payload.py",
+    "python szl_estate_operational.py --selftest",
+    "python -m compose.waves",
+    "python SZL_HF_FRONTIER_INVESTOR.py --selftest",
+    "git diff --cached --check",
+    "git verify-commit HEAD",
+    "git push origin HEAD:design/estate-guardrails"
+  ],
+  "notes": [
+    "Commands execute from repository except clone from workspace. Output redirections are retained in local logs.",
+    "Online classification used an in-process wrapper loading existing credential caches into environment; no tokens were passed as arguments or stored.",
+    "Census attempt 1 failed on GitHub numeric pagination alias. Attempt 2 completed after an exact-response regression repair.",
+    "Default audit exit code is 2: valid draft artifacts, BLOCKED_GAPS. This is not promotion.",
+    "Runtime report has an offline assessment correction of retained probes. Refused redirect means UNKNOWN; the original report remains retained."
+  ]
+}

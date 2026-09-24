@@ -1,0 +1,24 @@
+{
+  "files": [
+    "Dockerfile",
+    "README.md",
+    "immune/__init__.py",
+    "immune/__main__.py",
+    "immune/canonical.py",
+    "immune/frontier.py",
+    "immune/huklla.py",
+    "immune/mesh.py",
+    "immune/nexus.py",
+    "immune/organs.py",
+    "immune/persist.py",
+    "immune/runtime.py",
+    "immune/second_brain.py",
+    "immune/sentra.py",
+    "immune/server.py",
+    "index.html",
+    "nexus.html",
+    "requirements.txt",
+    "server.py"
+  ],
+  "revision": "6237ab5b88e71388ba161c22eff0e6f72e1951a8"
+}

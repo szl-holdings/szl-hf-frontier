@@ -1,0 +1,19 @@
+{
+  "files": [
+    ".gitattributes",
+    "BENCH.laptop-blackwell.json",
+    "LICENSE",
+    "OPERATIONAL.json",
+    "README.md",
+    "block_kv.py",
+    "bom/model-bom.cdx.json",
+    "build.toml",
+    "chain.py",
+    "og-card.png",
+    "tests/test_block_kv.py",
+    "torch-ext/szl_block_kv/__init__.py",
+    "torch-ext/szl_block_kv/_chain.py",
+    "torch-ext/szl_block_kv/_ops.py"
+  ],
+  "revision": "7d186065363c0941634103f69b34a3bc649b9011"
+}

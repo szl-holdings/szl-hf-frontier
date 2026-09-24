@@ -1,0 +1,73 @@
+{
+  "complete": true,
+  "completed_at": "2026-09-24T12:27:27.812508Z",
+  "credentials": {
+    "github": {
+      "identity_validated": true,
+      "organization_membership_validated": true,
+      "present": true
+    },
+    "huggingface": {
+      "identity_validated": true,
+      "organization_membership_validated": true,
+      "present": true
+    }
+  },
+  "files": {
+    "github_repositories.json": {
+      "count": 118,
+      "sha256": "f9c3639743d7f0d1ef6a3e6537da0223bcdc0db14abe1b8425ef65d46a265de2"
+    },
+    "huggingface_datasets.json": {
+      "count": 35,
+      "sha256": "3db9697a7e1a780a67fae726b9548cb8908af6499e1758c0417494c5bcfb80ac"
+    },
+    "huggingface_models.json": {
+      "count": 49,
+      "sha256": "230b205ed5525604199d00a0abae43b9bdcf1f29ea9b24dc40d7c22a24424ba1"
+    },
+    "huggingface_spaces.json": {
+      "count": 22,
+      "sha256": "d43a56de50e493027eccf1ce4e1e65721b4f48d88113f6f94d75c319f4b24216"
+    }
+  },
+  "inventories": {
+    "datasets": {
+      "completion": "COMPLETE",
+      "count": 35,
+      "private_counts_withheld": true,
+      "scope": "PUBLIC_PROJECTION_OF_AUTHENTICATED_CENSUS"
+    },
+    "github": {
+      "completion": "COMPLETE",
+      "count": 118,
+      "private_counts_withheld": true,
+      "scope": "PUBLIC_PROJECTION_OF_AUTHENTICATED_CENSUS"
+    },
+    "models": {
+      "completion": "COMPLETE",
+      "count": 49,
+      "private_counts_withheld": true,
+      "scope": "PUBLIC_PROJECTION_OF_AUTHENTICATED_CENSUS"
+    },
+    "spaces": {
+      "completion": "COMPLETE",
+      "count": 22,
+      "private_counts_withheld": true,
+      "scope": "PUBLIC_PROJECTION_OF_AUTHENTICATED_CENSUS"
+    }
+  },
+  "parent_receipt_sha256": "0d976e41abbd90ce932c3b6193db9bd915e604d8f1f73d2fb63286cb22882e3d",
+  "private_scope": "WITHHELD",
+  "schema": "szl.estate-snapshot-receipt/v1",
+  "scope": "PUBLIC_PROJECTION_OF_AUTHENTICATED_CENSUS",
+  "signature_status": "UNSIGNED",
+  "source": {
+    "collector_sha256": "752b27b57bed1d8600170359844c7517082615993d1b18d1192f213e9b59d798",
+    "git_sha": "c16f04c1696ffc26c565b0334c984014db40b85c",
+    "pagination_module_sha256": "614e63477f5b74702ea1ef75df14f6ecd9cb57cc540db60143a92cf4e39e0a03",
+    "working_tree_dirty": true
+  },
+  "started_at": "2026-09-24T12:27:02.744417Z",
+  "status": "COMPLETE"
+}

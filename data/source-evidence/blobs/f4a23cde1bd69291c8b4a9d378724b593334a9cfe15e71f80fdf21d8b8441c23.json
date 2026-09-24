@@ -1,0 +1,16 @@
+{
+  "files": [
+    "LICENSE",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "cases.jsonl",
+    "leaderboard.json",
+    "manifest.json",
+    "publication-manifest.json",
+    "results/reference-conformance.json",
+    "schema.json",
+    "score.py",
+    "submissions/reference-conformance.jsonl"
+  ],
+  "revision": "24045d8ff21117f275541d2d1954e3692706caec"
+}

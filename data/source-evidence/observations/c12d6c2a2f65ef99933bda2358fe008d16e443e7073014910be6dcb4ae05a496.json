@@ -1,0 +1,20 @@
+{
+  "card": "---\ntitle: IMMUNE Lattice\nemoji: \ud83e\udde0\ncolorFrom: yellow\ncolorTo: gray\nsdk: docker\napp_port: 7860\npinned: false\nlicense: apache-2.0\nshort_description: Python kernel of SZLHOLDINGS/immune. Live operator.\ntags:\n  - governed-ai\n  - immune\n  - yawar\n  - lattice\n  - szl-holdings\n---\n\n# IMMUNE Lattice\n\nCommand overlay / **Channel B** for [szl-holdings/immune](https://github.com/szl-holdings/immune).\n\nThis Space runs the **Python kernel** from `szl-holdings/immune/python` \u2014 live Ed25519 operator, YAWAR receipts, SENTRA, HUKLLA, MESH, second-brain silhouette. It is the same product as [SZLHOLDINGS/immune](https://huggingface.co/spaces/SZLHOLDINGS/immune) (Channel A TypeScript HUD). **Keep both URLs. Do not delete either Space.**\n\nCanonical kernel: https://github.com/szl-holdings/immune/tree/main/python\n\nDoctrine v11 LOCKED. \u039b = Conjecture 1. Defense only.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 862,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/96652794dd2db96ce5fba18f6906a3cd9b29a13176669f26d74d94a813360f1e.md",
+      "revision": "bcee352e584feab4bac16f4f1677a799effc1e50",
+      "sha256": "96652794dd2db96ce5fba18f6906a3cd9b29a13176669f26d74d94a813360f1e",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/immune-lattice/blob/bcee352e584feab4bac16f4f1677a799effc1e50/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/immune-lattice",
+  "observed_at": "2026-09-24T12:29:30Z",
+  "observed_revision": "bcee352e584feab4bac16f4f1677a799effc1e50"
+}

@@ -1,0 +1,23 @@
+{
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "images/anatomy_substrate_run.png",
+    "images/arch_a11oy.png",
+    "images/doi_chain.png",
+    "images/hero_keyvisual.png",
+    "images/innovation_matrix.png",
+    "images/proof_chain.png",
+    "images/proof_lean_chain.png",
+    "images/receipt_dsse.png",
+    "images/receipt_slsa.png",
+    "images/theorem_density.png",
+    "images/uds_span_topology.png",
+    "provenance.json",
+    "status.json"
+  ],
+  "revision": "51df5c36889742255e9bee91b156cde58ff99bb3"
+}

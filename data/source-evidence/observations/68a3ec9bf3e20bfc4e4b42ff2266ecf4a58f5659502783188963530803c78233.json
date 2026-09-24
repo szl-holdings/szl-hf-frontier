@@ -1,0 +1,20 @@
+{
+  "card": "# szl-invariants\n<!-- szl:header v1 -->\n<!-- badges: add this repo's CI / release / status badges here -->\n[![org: szl-holdings](https://img.shields.io/badge/org-szl--holdings-black)](https://github.com/szl-holdings)\n[![doctrine](https://img.shields.io/badge/doctrine-control%20before%20action%20%C2%B7%20evidence%20after-blue)](https://a-11-oy.com)\n\n**Control before action. Evidence after.**\n\nPart of the [szl-holdings](https://github.com/szl-holdings) estate \u00b7\nProduct: [a-11-oy.com](https://a-11-oy.com) \u00b7\nProof: [a11oy.net](https://a11oy.net)\n<!-- /szl:header -->\n\nSoftware kernel for SZL runtime invariants. **Not a model. No weights.**\n\nPython lives under `torch-ext/szl_invariants/` (`__init__.py` is the package). Hub mirror: [`kernels/SZLHOLDINGS/szl-invariants`](https://huggingface.co/kernels/SZLHOLDINGS/szl-invariants). Card: [`SZLHOLDINGS/szl-invariants`](https://huggingface.co/SZLHOLDINGS/szl-invariants).\n\n## What this is NOT\n\n- Not trained weights, not a LoRA\n- No MEASURED CUDA benches in this repo\n- Passing `selfcheck` (if present) is not an eval leaderboard\n- Hub `model.joblib` is **QUARANTINED** executable serialization. Do not `joblib.load` it. GitHub source is the approved path.\n\n## Load only a verified publication\n\nA merged GitHub fix is not proof of a Hugging Face release. The canonical\n[Forge publication workflow](https://github.com/szl-holdings/szl-forge/blob/main/.github/workflows/publish-szl-invariants.yml)\nmust authorize the exact protected source and publisher revisions, serialize\npublication, and verify the immutable provider bytes. Retain its authorization\nand publication reports before choosing a runtime revision.\n\nSet `SZL_INVARIANTS_HF_REVISION` to the **immutable Hugging Face commit from the\nverified publication**, not a branch name, version label, or the GitHub source\ncommit. Use the client version qualified with that release. Do not substitute\n`main` when a receipt or revision is unavailable; stop instead.\n\n```python\nimport os\nimport re\n\nhf_revision = os.environ.get(\"SZL_INVARIANTS_HF_REVISION\", \"\")\nif re.fullmatch(r\"[0-9a-f]{40}\", hf_revision) is None:\n    raise ValueError(\"A verified immutable Hugging Face revision is required\")\n\nfrom kernels import get_kernel\n\nkernel = get_kernel(\n    \"SZLHOLDINGS/szl-invariants\",\n    revision=hf_revision,\n    trust_remote_code=True,\n)\n```\n\nThe format check above does **not** verify provenance, hashes, authorization, or\nruntime compatibility. Those come from the release evidence. Enabling\n`trust_remote_code` permits execution of the selected repository's Python; use\nit only after reviewing that exact revision and its evidence. This example\nneither unquarantines `model.joblib` nor establishes acceleration or model quality.\n\nFor source-only development, use a separately reviewed, immutable GitHub source\nrevision and run its tests in an isolated environment. Keep that evidence distinct\nfrom Hub publication and installed-runtime verification.\n\nDoctrine v11. \u039b = Conjecture 1 (advisory, never a theorem). Apache-2.0. Owner: Stephen Lutar / SZL Holdings.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 3067,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/ec68d5b1ace055f849d34c03d4e2cf7141141dcdbf6b917bb57b78c97b2bbeb5.md",
+      "revision": "a88731a0b937a29d89bef4ce76a10cd57c1b4c05",
+      "sha256": "ec68d5b1ace055f849d34c03d4e2cf7141141dcdbf6b917bb57b78c97b2bbeb5",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-invariants/blob/a88731a0b937a29d89bef4ce76a10cd57c1b4c05/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-invariants",
+  "observed_at": "2026-09-24T12:29:36Z",
+  "observed_revision": "a88731a0b937a29d89bef4ce76a10cd57c1b4c05"
+}

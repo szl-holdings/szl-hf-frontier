@@ -1,0 +1,20 @@
+{
+  "card": "# Frontier Bench\n\nMeasured inference-engine evidence for the SZL stack \u2014 the public bench for the **szl-forge** engine.\n\n## What this is\n\nThe honest companion to every engine claim. If the estate says the engine is fast, this is where the number lives \u2014 with the machine, the date, and the method attached. Unmeasured claims say so.\n\n## Guarantees\n\n- **Honest benchmarks** \u2014 every published number is labeled with hardware, date, and method; projections are marked as projections or omitted.\n- **Receipts** \u2014 benchmark runs are hashed and chained so results history is tamper-evident.\n- **Bounded claims** \u2014 source, receipt admission, CI, service runtime, and public readback have separate evidence.\n- **Fail-closed display** \u2014 the public surface renders only verified results; anything unverifiable appears as absent.\n- **Token-observed TTFT** \u2014 streaming TTFT starts at the first non-empty generated-text event, not an SSE role or usage event; non-streaming runs do not claim TTFT.\n- **Empty-response rejection** \u2014 a nominally successful HTTP stream with no generated text is a failed sample, even if its usage metadata claims completion tokens.\n\n## Public surface\n\nThe consolidated public bench lives at [betterwithage/szl-bench-suite](https://huggingface.co/spaces/betterwithage/szl-bench-suite) (Engine Bench tab) \u2014 one evidence surface for engine, retrieval, and quantization claims.\n\nHardware identity is declared by receipts and checked against the dedicated-node policy.\nThe receipt HMAC authenticates an operator assertion; no independent hardware witness is claimed.\n\n**Division of labor:** this repository is the sole publisher for the consolidated Space.\nThe [evidence controller](deploy/bench-plane/finish_bench_plane.py) reads reviewed immutable\nGit objects without executing producer code, verifies all three receipt chains, requires\nauthentication for measured rows, and exports one digest-bound static bundle.\nThe canonical publisher repeats receipt admission before committing and verifies immutable\nfiles, provider state, and exact public bytes. See the [operations guide](deploy/bench-plane/BENCH_PLANE_OPERATIONS.md).\nAn unchanged healthy public bundle is verified without a provider credential; any\ncontent or runtime write fails closed unless the owner credential is available.\nScheduled publication stays disabled until a scoped repository credential is installed.\n\n## Status\n\nThe current chains contain only their BLOCKED genesis receipts: zero admitted measured\nrows. The evidence services can run with that dataset. Real benchmark execution and\nsigned raw evidence remain the responsibility of the dedicated-node measurement producers.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 2682,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/386fa2a2853a361f7cf682eebb060077ac563c6504377604f75e4fa41500ccbb.md",
+      "revision": "6a813593e46688f021a114ce5eb16816535bfde2",
+      "sha256": "386fa2a2853a361f7cf682eebb060077ac563c6504377604f75e4fa41500ccbb",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/frontier-bench/blob/6a813593e46688f021a114ce5eb16816535bfde2/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/frontier-bench",
+  "observed_at": "2026-09-24T12:29:29Z",
+  "observed_revision": "6a813593e46688f021a114ce5eb16816535bfde2"
+}

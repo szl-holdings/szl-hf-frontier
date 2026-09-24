@@ -1,0 +1,45 @@
+{
+  "card": "---\r\nthumbnail: https://huggingface.co/SZLHOLDINGS/szl-block-kv/resolve/main/og-card.png\r\nlibrary_name: kernels\r\nlicense: apache-2.0\r\ntags:\r\n  - kernel\r\n  - szl-holdings\r\n---\r\n\r\n<!-- SZL-KERNEL-OPERATIONAL:START -->\r\n## Operational (MEASURED laptop-Blackwell)\r\n\r\n> **STATUS:** tests **PASS**. `get_kernel` **import-LIVE**. Unsloth/LoRA is the wrong tool. Receipted kernels, not silent CUDA.\r\n\r\n| Thing | Label | Method / N / date / what-NOT |\r\n|---|---|---|\r\n| tests (`PYTHONPATH=torch-ext`) | **PASS** | MEASURED 2026-08-29T15:54:24Z host `betterwithage` Windows-10-10.0.26200-SP0. torch `2.10.0+cu128`. GPU `NVIDIA GeForce RTX 5050 Laptop GPU` arch `Blackwell`. pytest `10 passed in 2.52s`. Failed nodes: `none`. What-NOT: not a leaderboard. torch.compile fullgraph failures on Windows Blackwell (`cl is not found`) are MEASURED, not hidden. |\r\n| Kernel Hub `get_kernel` | **import-LIVE** | kernels `0.16.1`. Default: `get_kernel(\"SZLHOLDINGS/szl-block-kv\", revision=\"main\", trust_remote_code=True)` \u2192 `True`. `backend=\"cpu\"` \u2192 `True`. trust_remote_code=False \u2192 `ValueError` (SZLHOLDINGS is not a trusted publisher). repo_type=kernel required (kernels 0.16). What-NOT: not a weight load; do not pickle/joblib.load. |\r\n| formula-tax | **ADVISORY** | locked-8 `F1 F4 F7 F11 F12 F18 F19 F22`. registry_count=21. \u039b geomean `1.0`. uniqueness **Conjecture 1** (never a theorem). |\r\n| I1\u2013I8 | **catalog** | `I1 receipt-chain-continuity; I2 ledger-failure-shape; I3 served-run-has-model; I4 signed-columns-atomic; I5 loop-steps-positive; I6 receipt-ed25519-verify; I7 receipt-columns-consistent; I8 flywheel-lineage`. Executed by `SZLHOLDINGS/szl-invariants`. Statuses never coerced. \u039b untouched. |\r\n| CUDA speedup / tokens/s / joules | **UNAVAILABLE** | Not claimed. Receipted kernels, not silent CUDA. |\r\n\r\nGitHub source: [`szl-holdings/szl-block-kv`](https://github.com/szl-holdings/szl-block-kv) @ `7cf99cca9d2749482f5f57572c3affc2e7a5ebc7`. Artifacts: [`BENCH.laptop-blackwell.json`](./BENCH.laptop-blackwell.json), [`OPERATIONAL.json`](./OPERATIONAL.json).\r\n\r\n```python\r\nfrom kernels import get_kernel\r\nk = get_kernel(\"SZLHOLDINGS/szl-block-kv\", revision=\"main\", trust_remote_code=True)\r\n```\r\n\r\n<!-- SZL-KERNEL-OPERATIONAL:END -->\r\n\r\n\r\n# szl-block-kv\r\n\r\n<p align=\"center\">\r\n  <img src=\"og-card.png\" alt=\"szl-block-kv\" width=\"100%\"/>\r\n</p>\r\n\r\n`KANCHAY` \u00b7 Doctrine v11 \u00b7 Lean `749/14/163` \u00b7 \u039b = Conjecture 1 (advisory) \u00b7 [a-11-oy.com](https://a-11-oy.com)\r\n\r\n\r\nKernel sources are on this repo. CPU `get_kernel` import-LIVE is MEASURED. GPU **UNAVAILABLE** (no cubin + timed run). Not a model. Not listed next to Chaski or Qantu.\r\n\r\nCanonical GitHub source for `SZLHOLDINGS/szl-block-kv`.\r\n\r\n\r\n\r\n<!-- SZL-ATELIER-CUT:v1:START -->\r\n## The cut\r\n\r\nBlocked KV was invented for speed. We use the blocking to forget on purpose. Memory is a privilege.\r\n\r\nA cache that cannot be subpoenaed for what it was never allowed to hold.\r\n\r\n### Silhouette \u2192 leave \u2192 SZL\r\n\r\n| Leader | Take, then tweak |\r\n|---|---|\r\n| Anthropic | No persistent unauthorized memory. |\r\n| NVIDIA | PagedAttention / blocked KV \u2014 then we spend it on governance. |\r\n| Unsloth | No. |\r\n\r\nNobody else ships this combination. That is the point of a one-of-one.\r\n\r\n## Intended use\r\n\r\nGoverned decode memory.\r\n\r\n## Limitations\r\n\r\n- Kernel. Not a drop-in vLLM replacement.\r\n\r\nCanonical GitHub: [`szl-holdings/szl-khipu`](https://github.com/szl-holdings/szl-khipu/blob/main/szl_khipu/block_kv.py)\r\n<!-- SZL-ATELIER-CUT:v1:END -->\r\n\r\n**Original SZL construction in the paged-KV category.** Inspired by Kwon et al. PagedAttention SOSP 2023 https://arxiv.org/abs/2309.06180. **NOT a rehost of vLLM or kernels-community/paged-attention.** **Distinct from a11oy MODELED H2O eviction.**\r\n\r\nDoctrine v11. **\u039b = Conjecture 1 OPEN** (advisory; uniqueness unproven).\r\n\r\n<!-- SZL-KERNEL-STATUS:import-LIVE:START -->\r\n## Status\r\n\r\n> **STATUS: import-LIVE** on CPU Kernel Hub `get_kernel` (kernels `0.16.1`). Triton page kernel is **UNAVAILABLE**.\r\n\r\n| Thing | Label | Method / N / date / what-NOT |\r\n|---|---|---|\r\n| Kernel Hub `get_kernel` | **import-LIVE** | MEASURED 2026-08-28 2:29pm ET on kernels `0.16.1`. HEAD [`d3ede3e`](https://huggingface.co/kernels/SZLHOLDINGS/szl-block-kv/commit/d3ede3e471b51080492b1c69306283507dcf507e) (`d3ede3e471b51080492b1c69306283507dcf507e`). Legal name `szl-block-kv` (Python module `szl_block_kv`). Variants: `build/torch-universal` (default `get_kernel`) and `build/torch-cpu` (`backend=\"cpu\"`). Working calls: `get_kernel(\"SZLHOLDINGS/szl-block-kv\", revision=\"main\", trust_remote_code=True)` and the same with `backend=\"cpu\"`. `selfcheck` **ok**. `max_abs_vs_contiguous=2.38e-07` (full `2.384185791015625e-07`), `path=torch_gather`, `chain_ok=true`. What-NOT: no tokens/s; no joules. |\r\n| Triton page kernel | **UNAVAILABLE** | MEASURED 2026-08-28 7:01pm ET this session. Host `cursor` (Linux 6.12.94+ x86_64, Intel Xeon 8-core). `torch` `2.13.0+cu130` compiled CUDA 13.0. `torch.cuda.is_available()=false`. `nvidia-smi` UNAVAILABLE. `device_count=0`. Triton `3.7.1` present with no CUDA device. No cubin. No timed GPU run. No tokens/s. No joules. |\r\n\r\n<!-- SZL-KERNEL-STATUS:import-LIVE:END -->\r\n\r\nv0 is a **labeled torch gather** over a block table. GPU paged Triton is **UNAVAILABLE**. **No speedup claim.**\r\n\r\n## Load\r\n\r\n```python\r\nfrom kernels import get_kernel\r\n\r\nkv = get_kernel(\"SZLHOLDINGS/szl-block-kv\", revision=\"main\", trust_remote_code=True)\r\nprint(kv.selfcheck())\r\n```\r\n\r\nLocal checkout:\r\n\r\n```python\r\nfrom szl_block_kv import PagedCache, paged_attn, reshape_and_cache, selfcheck\r\nprint(selfcheck())\r\n```\r\n\r\nCorrectness (documented): paged gather matches contiguous KV SDPA within atol/rtol `1e-5` on float32. Skip CUDA Triton \u2014 that kernel is not in v0.\r\n\r\nApache-2.0. Copyright 2026 SZL Holdings.\r\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 443,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/84a103617bcef2d74d7808b1e0971e1ad3ecb74a35b76a251561bb8a24c48c30.json",
+      "revision": "7d186065363c0941634103f69b34a3bc649b9011",
+      "sha256": "84a103617bcef2d74d7808b1e0971e1ad3ecb74a35b76a251561bb8a24c48c30",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-block-kv/revision/7d186065363c0941634103f69b34a3bc649b9011"
+    },
+    {
+      "bytes": 5817,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/82fe09a1c40a1d11f6f5794a1beee1b851bc6586179f76ff1c849aef3e585944.md",
+      "revision": "7d186065363c0941634103f69b34a3bc649b9011",
+      "sha256": "82fe09a1c40a1d11f6f5794a1beee1b851bc6586179f76ff1c849aef3e585944",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/SZLHOLDINGS/szl-block-kv/resolve/7d186065363c0941634103f69b34a3bc649b9011/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "BENCH.laptop-blackwell.json",
+    "LICENSE",
+    "OPERATIONAL.json",
+    "README.md",
+    "block_kv.py",
+    "bom/model-bom.cdx.json",
+    "build.toml",
+    "chain.py",
+    "og-card.png",
+    "tests/test_block_kv.py",
+    "torch-ext/szl_block_kv/__init__.py",
+    "torch-ext/szl_block_kv/_chain.py",
+    "torch-ext/szl_block_kv/_ops.py"
+  ],
+  "id": "huggingface-model/szlholdings/szl-block-kv",
+  "observed_at": "2026-09-24T12:29:53Z",
+  "observed_revision": "7d186065363c0941634103f69b34a3bc649b9011"
+}

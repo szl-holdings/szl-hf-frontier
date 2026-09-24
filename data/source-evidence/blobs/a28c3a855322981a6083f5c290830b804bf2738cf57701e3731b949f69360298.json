@@ -1,0 +1,23 @@
+{
+  "files": [
+    ".gitattributes",
+    "BENCH.laptop-blackwell.json",
+    "LICENSE",
+    "MODEL_PROVENANCE.json",
+    "OPERATIONAL.json",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "SECURITY.md",
+    "SZL_ESTATE_MANAGED.json",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "build.toml",
+    "build/torch-universal/szl_invariants/__init__.py",
+    "build/torch-universal/szl_invariants/metadata.json",
+    "card/holo-banner.svg",
+    "scripts/eval.py",
+    "scripts/forge.py",
+    "tests/test_invariants.py"
+  ],
+  "revision": "c218f1a7eed7ec1b8a06a2997e49ffe9e339a71c"
+}

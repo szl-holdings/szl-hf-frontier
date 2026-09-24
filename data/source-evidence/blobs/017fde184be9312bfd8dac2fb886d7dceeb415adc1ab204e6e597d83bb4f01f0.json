@@ -1,0 +1,15 @@
+{
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "provenance.json",
+    "quant_sft_v1.jsonl",
+    "quant_sft_v1.manifest.json",
+    "quant_sft_v1.manifest.receipt.json",
+    "status.json"
+  ],
+  "revision": "a974c102b9f5c5ceff79c33c4e4684411fda6cbe"
+}

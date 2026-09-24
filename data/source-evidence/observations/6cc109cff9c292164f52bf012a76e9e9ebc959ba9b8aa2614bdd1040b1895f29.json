@@ -1,0 +1,20 @@
+{
+  "card": "# Canonical GitHub source for SZLHOLDINGS/szl-govsign\n\nThis repository is the **source of truth**. Hugging Face Kernel Hub is the **publish mirror**.\n\nATELIER owns Hub cards. Do not treat this README as a second model card.\n\n## What it is / is NOT\n\n- Hub `model.joblib` is **QUARANTINED** executable serialization. Do not `joblib.load` it. GitHub source is the approved path.\n\n- **IS:** a software kernel \u2014 signed governance provenance (in-toto / DSSE attestations over SZL kernel receipts)\n- **IS NOT:** trained weights\n- **IS NOT:** a CUDA bench\n\n\u039b = Conjecture 1, never a theorem. Doctrine v11. Apache-2.0.\n\n## Load\n\n```python\nfrom kernels import get_kernel\nget_kernel(\"SZLHOLDINGS/szl-govsign\", revision=\"main\", trust_remote_code=True)\n```\n\n## Links\n\n- Hub (publish mirror): https://huggingface.co/SZLHOLDINGS/szl-govsign\n- Hologram space: https://huggingface.co/spaces/SZLHOLDINGS/govsign-live\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 902,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/633e2bbb136436a21f0fbe02c92ef9920a0b1c9d31229e705623739418161026.md",
+      "revision": "1eba876accde06da2199a8c4e78537e9232138bd",
+      "sha256": "633e2bbb136436a21f0fbe02c92ef9920a0b1c9d31229e705623739418161026",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-govsign/blob/1eba876accde06da2199a8c4e78537e9232138bd/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-govsign",
+  "observed_at": "2026-09-24T12:29:35Z",
+  "observed_revision": "1eba876accde06da2199a8c4e78537e9232138bd"
+}

@@ -1,0 +1,20 @@
+{
+  "card": "---\ntitle: SZL Organ Integrity\nemoji: \ud83e\udec0\ncolorFrom: yellow\ncolorTo: green\nsdk: docker\napp_port: 7860\npinned: false\nlicense: apache-2.0\nshort_description: Five-organ fail-closed kernel. Replay it. SHA-256. Energy UNAVAILABLE.\ntags:\n  - governance\n  - receipts\n  - honest-by-design\n  - szl-holdings\n---\n\n# SZL organ integrity\n\n**Five organs. Fail closed. Replay it yourself.**\n\nThis is the live integrity kernel of the SZL anatomy \u2014 not the 3D atlas.\n\n| Surface | Job |\n|---|---|\n| **This repo** | Fail-closed kernel + Evidence Bay. Stdlib SHA-256. GitHub Pages + Docker Space. |\n| [a-11-oy.com](https://a-11-oy.com/) | Command body. Same kernel at `GET/POST /api/a11oy/v1/organs/integrity`. |\n| [SZLHOLDINGS/szl-khipu](https://huggingface.co/spaces/SZLHOLDINGS/szl-khipu) | Kernel playground. NumPy YARQA, \u039b, TinyKhipu. Anatomy tab. |\n| [szl-holdings/anatomy](https://github.com/szl-holdings/anatomy) | 3D map. SLSA L1 static viz. Not this kernel. |\n\nDo **not** dump a TanStack lab onto a-11-oy.com. The command body stays governed. This kernel is wired into it as a replayable API.\n\n## Evidence Bay\n\n**Purpose.** Prove the body, not the picture. HEART/YUYAY, CIRCULATORY/YAWAR, BRAIN/YACHAY, NERVOUS/OTel, SKELETON/Khipu. Any DOWN organ or a WILLAY veto fail-closes.\n\n**Try.** Healthy cycle, then injure one organ:\n\n```bash\npython3 organ_integrity.py\npython3 organ_integrity.py --tamper zero_heart\npython3 organ_integrity.py --tamper tamper_chain\npython3 organ_integrity.py --tamper fabricate_joule\n```\n\nOr open the Evidence Bay and click the same injuries.\n\n**Evidence.** Each run returns five LIVE/DOWN organs, a SHA-256 chain head, \u039b advisory value, `energy: UNAVAILABLE`, `energy_j: null`, `proven_trust: false`, `locked_proven: 8`. Receipt hash is STRUCTURAL-ONLY (tamper-EVIDENT, not a signature).\n\n**Limits.** \u039b uniqueness is Conjecture 1 OPEN. Not a joule. Not CUDA. Not Lean. Canal leak on this stdlib surface is the fail-closed rule; MEASURED NumPy YARQA is the KHIPU Space. CHECKED \u2260 PROVEN. Trust ceiling 0.97.\n\n**Reproduce.** Third party, no account. Source is this repository. Browser Evidence Bay uses Web Crypto SHA-256. Python kernel uses `hashlib.sha256`. Same fail-closed outcomes.\n\n## API\n\n```\nGET  /api/organs/integrity\nPOST /api/organs/integrity\n     {\"zero_heart\":true} | leak_canal | tamper_chain | fabricate_joule | break_skeleton | willay_fire\nGET  /healthz\n```\n\nOn the command body, once deployed:\n\n```\nGET  https://a-11-oy.com/api/a11oy/v1/organs/integrity\nPOST https://a-11-oy.com/api/a11oy/v1/organs/integrity\nHTML https://a-11-oy.com/organs/integrity\n```\n\nZero heart \u21d2 HEART DOWN, body BLOCKED. Fabricate a joule \u21d2 NERVOUS DOWN, `energy_j` stays `null`. Tamper YAWAR \u21d2 chain break, fail closed.\n\n## Doctrine\n\nv11 LOCKED \u00b7 749 / 14 / 163 \u00b7 kernel `c7c0ba17` \u00b7 locked-8 = F1 F4 F7 F11 F12 F18 F19 F22 \u00b7 \u039b = Conjecture 1 (advisory) \u00b7 energy UNAVAILABLE \u00b7 never a fabricated joule \u00b7 Apache-2.0\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 2944,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/db19ed3e5b360371468e3c7e7b53e526fcbfee2624fd2585623c0df1dfd9089f.md",
+      "revision": "029403510ae69048df3b35571ace836b7d2c6ada",
+      "sha256": "db19ed3e5b360371468e3c7e7b53e526fcbfee2624fd2585623c0df1dfd9089f",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-organ-integrity/blob/029403510ae69048df3b35571ace836b7d2c6ada/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-organ-integrity",
+  "observed_at": "2026-09-24T12:29:38Z",
+  "observed_revision": "029403510ae69048df3b35571ace836b7d2c6ada"
+}

@@ -1,0 +1,29 @@
+{
+  "files": [
+    ".gitattributes",
+    ".szl_probe",
+    "BENCH.laptop-blackwell.json",
+    "LICENSE",
+    "MODEL_PROVENANCE.json",
+    "OPERATIONAL.json",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "SECURITY.md",
+    "SZL_ESTATE_MANAGED.json",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "build.toml",
+    "build/torch-universal/szl_governed_norm/__init__.py",
+    "build/torch-universal/szl_governed_norm/_norm.py",
+    "build/torch-universal/szl_governed_norm/_ops.py",
+    "build/torch-universal/szl_governed_norm/_receipt.py",
+    "build/torch-universal/szl_governed_norm/layers.py",
+    "build/torch-universal/szl_governed_norm/metadata.json",
+    "chain.py",
+    "governed_norm.py",
+    "publication.json",
+    "scripts/eval.py",
+    "scripts/forge.py"
+  ],
+  "revision": "cc5fde2296369b43652d454072b63d49fc3241ad"
+}

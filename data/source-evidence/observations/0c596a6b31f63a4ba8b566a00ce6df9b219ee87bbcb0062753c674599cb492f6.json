@@ -1,0 +1,20 @@
+{
+  "card": "---\ntitle: Governed Norms - WILLAY classifiers\nemoji: \"\ud83d\udee1\ufe0f\"\ncolorFrom: green\ncolorTo: gray\nsdk: static\napp_file: index.html\npinned: false\nlicense: apache-2.0\nshort_description: Inspectable holographic view of a11oy WILLAY classifiers\ntags:\n  - governance\n  - safety\n  - refusal-classifiers\n  - honest-by-design\n  - holographic\n---\n\n# governed-norm-holo\n\nHolographic, **inspectable** rendering of the a11oy **WILLAY** refusal classifiers \u2014 the\ngoverned-refusal norms. The inverse of a hidden classifier: every rule discloses its\n**category, what it fires on, its rationale, and its lineage**.\n\n**Status:** ROADMAP \u2192 **LIVE**. Shipped as a static Hugging Face Space:\n**[SZLHOLDINGS/governed-norm-holo](https://huggingface.co/spaces/SZLHOLDINGS/governed-norm-holo)**\n\u2192 <https://szlholdings-governed-norm-holo.static.hf.space>\n\n## What it does\n\n- Fetches the full classifier list **keyless** from\n  `https://szlholdings-a11oy.hf.space/api/a11oy/v1/willay/classifiers`.\n- Renders each classifier (category \u00b7 fires-on \u00b7 rationale \u00b7 lineage) plus the doctrine block:\n  locked-proven theorems, kernel commit, **trust ceiling 0.97 (never 100%)**, \u039b = **Conjecture 1**\n  (never green), Khipu = Conjecture 2.\n\n## Honesty labels\n\n- **REPORTED** \u2014 relays a11oy's own self-report verbatim; nothing is independently measured here.\n- **UNAVAILABLE** \u2014 if the source endpoint is unreachable, the page shows an honest blank; it\n  never renders a cached or fabricated value.\n\n## Build\n\n`index.html` is a self-contained static page \u2014 **0 runtime CDN**, system fonts only, data\nfetched client-side at view time. No build step.\n\n## License\n\nApache-2.0 (see [LICENSE](LICENSE)) \u2014 matching the SZL Holdings estate.\n\n---\n\nPart of the SZL Holdings estate \u00b7 [a-11-oy.com](https://a-11-oy.com) \u00b7\n[\ud83e\udd17 SZLHOLDINGS](https://huggingface.co/SZLHOLDINGS) \u00b7 governed AI you can prove.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 1877,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/f073bf96c33eae3f1dd207076e58068266e2eba0ecb96636ddde70ab54415349.md",
+      "revision": "05b87ab4d00e2e0685664785a13eaaf46740f51d",
+      "sha256": "f073bf96c33eae3f1dd207076e58068266e2eba0ecb96636ddde70ab54415349",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/governed-norm-holo/blob/05b87ab4d00e2e0685664785a13eaaf46740f51d/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/governed-norm-holo",
+  "observed_at": "2026-09-24T12:29:29Z",
+  "observed_revision": "05b87ab4d00e2e0685664785a13eaaf46740f51d"
+}

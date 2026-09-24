@@ -1,0 +1,10 @@
+{
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "killinchu_eye.npz"
+  ],
+  "revision": "4800817714be465a54686dde69755ac1a683ef44"
+}

@@ -1,0 +1,13 @@
+{
+  "files": [
+    ".gitattributes",
+    "DATASET_PROVENANCE.json",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "main.pdf",
+    "main.tex",
+    "og-card.png",
+    "refs.bib"
+  ],
+  "revision": "13ee49f4bbb890ad77895677521fc10c7f2212ae"
+}

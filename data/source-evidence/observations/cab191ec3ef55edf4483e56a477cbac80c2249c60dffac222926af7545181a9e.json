@@ -1,0 +1,40 @@
+{
+  "card": "---\nlicense: apache-2.0\ntask_categories:\n  - tabular-classification\ntags:\n  - operations\n  - observability\n  - synthetic\n  - transport-health\nsize_categories:\n  - 1K<n<10K\nconfigs:\n  - config_name: default\n    data_files:\n      - split: train\n        path: data/train.jsonl\n      - split: validation\n        path: data/validation.jsonl\n      - split: test\n        path: data/test.jsonl\n---\n\n# OAC Clinical Transport Observability \u2014 Synthetic\n\nThis dataset contains 1,200 fixed-seed, **entirely synthetic operational\ntransport-health examples** for the companion OAC Transport Health v1 model.\nIt contains no records collected from a patient, laboratory, analyzer,\ninstrument, LIS, EHR, network, or health-care site.\n\nCompanion model: [OAC Transport Health v1](https://huggingface.co/SZLHOLDINGS/oac-clinical-transport-health-v1).\nCanonical source: [szl-forge clinical gateway](https://github.com/szl-holdings/szl-forge/tree/main/clinical-gateway).\n\n## Data boundary\n\nThe closed schema contains only eight bounded operational counters/flags and a\nsynthetic `operator_attention_required` label. It contains no PHI, personal\nidentifiers, patient/order/specimen fields, assay data, observations, diagnostic\ncontent, result values, raw HL7, or FHIR resources.\n\nThis dataset is unsuitable for medicine, diagnosis, prognosis, treatment,\ntriage, result interpretation, autoverification, result release, device control,\nor claims about real-world performance. It must not be joined with patient or\nclinical data.\n\n## Splits\n\n| Split | Rows | Role |\n| --- | ---: | --- |\n| train | 768 | Fit logistic-regression weights |\n| validation | 192 | Select the advisory threshold |\n| test | 240 | Synthetic held-out implementation check |\n\nEach JSONL row has this shape:\n\n```json\n{\n  \"features\": {\n    \"configuration_valid\": 1,\n    \"consecutive_failures\": 0,\n    \"ledger_integrity_ok\": 1,\n    \"listener_running\": 1,\n    \"peer_allowlist_configured\": 1,\n    \"queue_utilization\": 0.12,\n    \"seconds_since_last_success\": 14.0,\n    \"tls_enabled\": 1\n  },\n  \"label\": {\"operator_attention_required\": false},\n  \"sample_id\": \"train-000000\",\n  \"schema\": \"szl-oac/transport-health-observation/v1\",\n  \"synthetic\": true\n}\n```\n\n`schema.json` is a closed JSON Schema. `dataset_receipt.json` records the fixed\nseed, row counts, generator hash, schema hash, and SHA-256 for every split.\n\n## Reproduction\n\n`training_source_snapshot.py` is the exact generator/trainer source snapshot\nused for the published artifacts. It is included for inspection and hashing;\nits canonical source-tree layout also requires `src/oac_operational_health.py`.\nClone the source repository and run:\n\n```bash\ngit clone https://github.com/szl-holdings/szl-forge.git\ncd szl-forge/clinical-gateway\npython -I -B tools/train_operational_health_model.py --verify\n```\n\nThe generator uses Python's standard library only. Synthetic labels are sampled\nfrom a documented operational risk function under a fixed pseudorandom seed;\nthey are generated targets, not human annotations or ground truth about a real\nsystem.\n\n## License\n\nApache-2.0. See `LICENSE`.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 290,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/e534b9f90bd47918b3ab0a0d6fa96473ac41eb70821b4fb2c372f76306dc7415.json",
+      "revision": "15dfa78838090fa35a6dda96a51eb817e949acc8",
+      "sha256": "e534b9f90bd47918b3ab0a0d6fa96473ac41eb70821b4fb2c372f76306dc7415",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/datasets/SZLHOLDINGS/oac-clinical-transport-observability-synthetic/revision/15dfa78838090fa35a6dda96a51eb817e949acc8"
+    },
+    {
+      "bytes": 3088,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/645a1cdae493a50cce509e9cf508dfdd376ea137e4b27dae249fbdcb445e6fd7.md",
+      "revision": "15dfa78838090fa35a6dda96a51eb817e949acc8",
+      "sha256": "645a1cdae493a50cce509e9cf508dfdd376ea137e4b27dae249fbdcb445e6fd7",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/datasets/SZLHOLDINGS/oac-clinical-transport-observability-synthetic/resolve/15dfa78838090fa35a6dda96a51eb817e949acc8/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "data/test.jsonl",
+    "data/train.jsonl",
+    "data/validation.jsonl",
+    "dataset_receipt.json",
+    "schema.json",
+    "training_source_snapshot.py"
+  ],
+  "id": "huggingface-dataset/szlholdings/oac-clinical-transport-observability-synthetic",
+  "observed_at": "2026-09-24T12:29:44Z",
+  "observed_revision": "15dfa78838090fa35a6dda96a51eb817e949acc8"
+}

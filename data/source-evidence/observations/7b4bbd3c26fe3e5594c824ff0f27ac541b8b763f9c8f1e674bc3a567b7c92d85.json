@@ -1,0 +1,24 @@
+{
+  "card": "",
+  "errors": [
+    "README_NOT_IN_REVISION"
+  ],
+  "evidence": [
+    {
+      "bytes": 100,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/5dfe1a05da5d620941fc6f7bb2f59fe521c41616bf62ff71a8208acef8b09f80.json",
+      "revision": "9125cb983cbeb8dce2d2efe031ec5fadd739d037",
+      "sha256": "5dfe1a05da5d620941fc6f7bb2f59fe521c41616bf62ff71a8208acef8b09f80",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/datasets/SZLHOLDINGS/release-assets/revision/9125cb983cbeb8dce2d2efe031ec5fadd739d037"
+    }
+  ],
+  "files": [
+    ".gitattributes"
+  ],
+  "id": "huggingface-dataset/szlholdings/release-assets",
+  "observed_at": "2026-09-24T12:29:44Z",
+  "observed_revision": "9125cb983cbeb8dce2d2efe031ec5fadd739d037"
+}

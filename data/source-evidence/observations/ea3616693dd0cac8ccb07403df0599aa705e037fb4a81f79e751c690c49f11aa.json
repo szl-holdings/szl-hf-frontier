@@ -1,0 +1,43 @@
+{
+  "card": "---\ntitle: SZL Constellation\nemoji: \ud83c\udf0c\ncolorFrom: blue\ncolorTo: purple\nsdk: gradio\nsdk_version: 6.26.0\npython_version: '3.13'\napp_file: app.py\npinned: true\ntags:\n  - szl\n  - governed-ai\n  - receipts\n  - holographic\n  - constellation\n---\n\n# \ud83c\udf0c SZL Constellation \u2014 the living archive\n\n**49 estates, unarchived as light.** This Space turns the SZL Holdings consolidation\nreceipt (run `33824259800`, 2026-09-04) into a computable estate map: every orb is\na real estate, every thread a synapse wired into the trinity \u2014 **Anatomy** (3D organ\nsubstrate), the **Second Brain** (evidence-bound memory plane), and the **Ouroboros\nloop** (bounded loop-tax recursion).\n\n[**Canonical GitHub source**](https://github.com/szl-holdings/szl-constellation) \u00b7\n[**szl-lake receipts**](https://huggingface.co/datasets/SZLHOLDINGS/szl-lake) \u00b7\n[**a-11-oy.com**](https://a-11-oy.com)\n\n## NEW \u2014 Shader Fabric v1.1 (source-live on GitHub)\n\nThe estate field now has a dedicated engine: **SZL Shader Fabric**, a clean-room GLSL\nhologram where every estate's brightness is driven by its declared honesty state.\nIt lives in [`holo/`](https://github.com/szl-holdings/szl-constellation/tree/main/holo)\non GitHub as of 2026-09-23 (commits\n[`c5e201b5`](https://github.com/szl-holdings/szl-constellation/commit/c5e201b5fed83b46e467c9700e3edf84b77c33ba),\n[`bb232045`](https://github.com/szl-holdings/szl-constellation/commit/bb232045a3d345d7e65598e7cd8c8400a131b91d))\nwith a build receipt in\n[szl-lake](https://huggingface.co/datasets/SZLHOLDINGS/szl-lake/blob/main/receipts/2026-09-23/holo-shader-fabric-v1.json).\n**Source-level landing only \u2014 this Space still runs the archive-panel image\n(2026-09-08). Fabric rendering inside the Space is ROADMAP, honestly marked.**\n\nRun the engine locally in 20 seconds:\n\n```bash\ngit clone https://github.com/szl-holdings/szl-constellation.git\ncd szl-constellation && python -m http.server 8000\n# open http://localhost:8000/holo/demo.html\n```\n\n## How to read it\n\n- **MEASURED** (bright teal) \u2014 the estate carries measured evidence: receipts, benches, signed runs\n- **Declared** (blue) \u2014 a manifest fact from the consolidation receipt\n- **BLOCKED** (dim) \u2014 a gate denied; the field shows the denial\n- **INVALID / malformed** \u2014 renders *nothing*, and the HUD counts every fail-closed drop\n\nReporting glow where none was measured is forbidden by doctrine \u2014 visible in the engine's\nadmission gate, not just in prose.\n\n## What computes here\n\nEight panels with real math, no fabricated backends: Second Brain (live Hub dataset\ntelemetry), Kernel Line (org kernels measured from the Hub API), \u039b Gate (advisory\naggregation, \u039b = Conjecture 1 \u2014 open, never a theorem), Ouroboros (loop-tax ledger),\nReceipt Verifier (hash-chain recomputation), BM25 retrieval, Quant Curve, and an\nhonest Engine Status that reports **BLOCKED** when no endpoint is configured.\n\n## Verify, don't trust\n\n- Estate pinning: [`szl-pin`](https://github.com/szl-holdings/szl-pin) \u2014 one SHA-256\n  commits to every repo head.\n- Append-only ledger: [SZLHOLDINGS/szl-lake](https://huggingface.co/datasets/SZLHOLDINGS/szl-lake).\n- Verification proves integrity and origin \u2014 never accuracy or readiness.\n\n*Doctrine v11 \u2014 nothing glows that didn't earn it.*\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 352,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/5781f6be19525a986e245cea64fba7e114e76848c1022dc87b0ed19d159ad400.json",
+      "revision": "6af285afe2582d9951f95f4aa77de2c3735ce524",
+      "sha256": "5781f6be19525a986e245cea64fba7e114e76848c1022dc87b0ed19d159ad400",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/szl-constellation/revision/6af285afe2582d9951f95f4aa77de2c3735ce524"
+    },
+    {
+      "bytes": 3250,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/2895792bd5ce4721a43011deae0547346f6ba2ce91370468bf2ce19b681678f6.md",
+      "revision": "6af285afe2582d9951f95f4aa77de2c3735ce524",
+      "sha256": "2895792bd5ce4721a43011deae0547346f6ba2ce91370468bf2ce19b681678f6",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/szl-constellation/resolve/6af285afe2582d9951f95f4aa77de2c3735ce524/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "app.py",
+    "c2/index.html",
+    "crosscheck.py",
+    "estates.json",
+    "holo/index.html",
+    "requirements.txt",
+    "test_runtime_contract.py",
+    "tests/test_app.py",
+    "tests/test_hub_listing.py",
+    "verticals.json"
+  ],
+  "id": "huggingface-space/szlholdings/szl-constellation",
+  "observed_at": "2026-09-24T12:30:00Z",
+  "observed_revision": "6af285afe2582d9951f95f4aa77de2c3735ce524"
+}

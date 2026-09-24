@@ -1,0 +1,34 @@
+{
+  "bindings": [
+    {
+      "byte_identical_to_git_blob": true,
+      "canonical_git_blob_sha256": "752b27b57bed1d8600170359844c7517082615993d1b18d1192f213e9b59d798",
+      "lf_normalized_equal": true,
+      "observed_sha256": "752b27b57bed1d8600170359844c7517082615993d1b18d1192f213e9b59d798",
+      "retained_execution_bytes": "reports/executed_sources/capture_estate_snapshots.py",
+      "source_path": "tools/capture_estate_snapshots.py"
+    },
+    {
+      "byte_identical_to_git_blob": false,
+      "canonical_git_blob_sha256": "de9885fb8650e2cf7986b494764945be9b984d4225a685f220d6f693e994497b",
+      "lf_normalized_equal": true,
+      "observed_sha256": "614e63477f5b74702ea1ef75df14f6ecd9cb57cc540db60143a92cf4e39e0a03",
+      "retained_execution_bytes": "reports/executed_sources/szl_estate_operational.py",
+      "source_path": "szl_estate_operational.py"
+    }
+  ],
+  "notes": [
+    "Collector executed from a dirty checkout. Exact executed bytes are retained and match receipt hashes.",
+    "The inherited pagination module has Windows CRLF execution bytes; its immutable Git blob uses LF. This is normalized-equivalent, not byte-identical.",
+    "Current source reviews, model report, registry and gaps replay deterministically from retained observations."
+  ],
+  "schema": "szl.audit-execution-source/v1",
+  "signature_status": "UNSIGNED",
+  "snapshot_source": {
+    "collector_sha256": "752b27b57bed1d8600170359844c7517082615993d1b18d1192f213e9b59d798",
+    "git_sha": "c16f04c1696ffc26c565b0334c984014db40b85c",
+    "pagination_module_sha256": "614e63477f5b74702ea1ef75df14f6ecd9cb57cc540db60143a92cf4e39e0a03",
+    "working_tree_dirty": true
+  },
+  "source_commit": "85df5b393f87a933a8c0c640a99846ea49429ce2"
+}

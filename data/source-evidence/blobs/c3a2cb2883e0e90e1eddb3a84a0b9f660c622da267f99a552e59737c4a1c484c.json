@@ -1,0 +1,31 @@
+{
+  "files": [
+    ".gitattributes",
+    "BENCH.laptop-blackwell.json",
+    "CARD.md",
+    "LICENSE",
+    "OPERATIONAL.json",
+    "README.md",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "build.toml",
+    "example.py",
+    "flake.nix",
+    "og-card.png",
+    "pyproject.toml",
+    "tests/__init__.py",
+    "tests/conftest.py",
+    "tests/test_api_edges.py",
+    "tests/test_honesty.py",
+    "tests/test_layout.py",
+    "tests/test_local_kernels.py",
+    "tests/test_receipt.py",
+    "tests/test_yarqa_attn.py",
+    "torch-ext/yarqa_attn/__init__.py",
+    "torch-ext/yarqa_attn/_chain.py",
+    "torch-ext/yarqa_attn/attn.py",
+    "yarqa.py",
+    "yarqa_attn.npz"
+  ],
+  "revision": "f30b9225214cc468ff19856ed81cb60c552925f0"
+}
