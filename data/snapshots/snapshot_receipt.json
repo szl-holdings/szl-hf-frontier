@@ -1,73 +1,101 @@
 {
   "complete": true,
-  "completed_at": "2026-09-24T12:27:27.812508Z",
+  "completed_at": "2026-09-24T21:27:42.193063Z",
   "credentials": {
     "github": {
+      "all_private_resources_visible": false,
+      "identity": "stephenlutar2-hash",
       "identity_validated": true,
+      "organization": "szl-holdings",
       "organization_membership_validated": true,
-      "present": true
+      "present": true,
+      "source": "environment:GH_TOKEN"
     },
     "huggingface": {
+      "all_private_resources_visible": false,
+      "identity": "betterwithage",
       "identity_validated": true,
+      "organization": "SZLHOLDINGS",
       "organization_membership_validated": true,
-      "present": true
+      "present": true,
+      "source": "huggingface-hub-cache"
     }
   },
+  "failure": null,
   "files": {
     "github_repositories.json": {
-      "count": 118,
-      "sha256": "f9c3639743d7f0d1ef6a3e6537da0223bcdc0db14abe1b8425ef65d46a265de2"
+      "count": 125,
+      "sha256": "3990ab37caea214faecc50aa207992e3d0ae142f926f5c466c39b3c28fd7b5a5"
     },
     "huggingface_datasets.json": {
-      "count": 35,
-      "sha256": "3db9697a7e1a780a67fae726b9548cb8908af6499e1758c0417494c5bcfb80ac"
+      "count": 43,
+      "sha256": "c5f48004a094ec4873dd556903673eab5cdeae1806b54c581251c12937a2bb99"
     },
     "huggingface_models.json": {
       "count": 49,
-      "sha256": "230b205ed5525604199d00a0abae43b9bdcf1f29ea9b24dc40d7c22a24424ba1"
+      "sha256": "201b04b91eb2e7071f40188a136a008822d3ebda47183ff946ee0134ba0bece7"
     },
     "huggingface_spaces.json": {
-      "count": 22,
-      "sha256": "d43a56de50e493027eccf1ce4e1e65721b4f48d88113f6f94d75c319f4b24216"
+      "count": 27,
+      "sha256": "1d39c8a97c61ecc69cbd0d4d6a4614bdefd32120122436802962d748966640d0"
     }
   },
   "inventories": {
     "datasets": {
       "completion": "COMPLETE",
-      "count": 35,
-      "private_counts_withheld": true,
-      "scope": "PUBLIC_PROJECTION_OF_AUTHENTICATED_CENSUS"
+      "count": 43,
+      "duplicate_count": 0,
+      "duplicate_ids_redacted": false,
+      "failure": null,
+      "observed_unique_count": 43,
+      "pages_fetched": 1,
+      "private_items_seen": 8,
+      "scope": "TOKEN_VISIBLE"
     },
     "github": {
       "completion": "COMPLETE",
-      "count": 118,
-      "private_counts_withheld": true,
-      "scope": "PUBLIC_PROJECTION_OF_AUTHENTICATED_CENSUS"
+      "count": 125,
+      "duplicate_count": 0,
+      "duplicate_ids_redacted": false,
+      "failure": null,
+      "observed_unique_count": 125,
+      "pages_fetched": 2,
+      "private_items_seen": 7,
+      "scope": "TOKEN_VISIBLE"
     },
     "models": {
       "completion": "COMPLETE",
       "count": 49,
-      "private_counts_withheld": true,
-      "scope": "PUBLIC_PROJECTION_OF_AUTHENTICATED_CENSUS"
+      "duplicate_count": 0,
+      "duplicate_ids_redacted": false,
+      "failure": null,
+      "observed_unique_count": 49,
+      "pages_fetched": 1,
+      "private_items_seen": 0,
+      "scope": "TOKEN_VISIBLE"
     },
     "spaces": {
       "completion": "COMPLETE",
-      "count": 22,
-      "private_counts_withheld": true,
-      "scope": "PUBLIC_PROJECTION_OF_AUTHENTICATED_CENSUS"
+      "count": 27,
+      "duplicate_count": 0,
+      "duplicate_ids_redacted": false,
+      "failure": null,
+      "observed_unique_count": 27,
+      "pages_fetched": 1,
+      "private_items_seen": 5,
+      "scope": "TOKEN_VISIBLE"
     }
   },
-  "parent_receipt_sha256": "0d976e41abbd90ce932c3b6193db9bd915e604d8f1f73d2fb63286cb22882e3d",
-  "private_scope": "WITHHELD",
+  "private_scope": "TOKEN_VISIBLE_NOT_ORG_TOTAL",
   "schema": "szl.estate-snapshot-receipt/v1",
-  "scope": "PUBLIC_PROJECTION_OF_AUTHENTICATED_CENSUS",
+  "scope": "TOKEN_VISIBLE",
   "signature_status": "UNSIGNED",
   "source": {
-    "collector_sha256": "752b27b57bed1d8600170359844c7517082615993d1b18d1192f213e9b59d798",
-    "git_sha": "c16f04c1696ffc26c565b0334c984014db40b85c",
+    "collector_sha256": "1896c18c9094bfd60bc38d8e21f7e3370ff37d8541809d1302d63239213783d7",
+    "git_sha": "250d8a15cb4dfa599f7acfaccb6e7ff170f569a2",
     "pagination_module_sha256": "614e63477f5b74702ea1ef75df14f6ecd9cb57cc540db60143a92cf4e39e0a03",
     "working_tree_dirty": true
   },
-  "started_at": "2026-09-24T12:27:02.744417Z",
+  "started_at": "2026-09-24T21:27:27.314434Z",
   "status": "COMPLETE"
 }

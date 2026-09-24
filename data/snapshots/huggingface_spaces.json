@@ -5,7 +5,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 1,
-    "metadata_observed_at": "2026-09-24T12:27:24.766213Z",
+    "metadata_observed_at": "2026-09-24T21:27:40.978713Z",
     "path": "SZLHOLDINGS/a11oy",
     "private": false,
     "runtime": {
@@ -63,7 +63,43 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-24T12:27:26.289495Z",
+    "metadata_observed_at": "2026-09-24T21:27:41.952090Z",
+    "path": "SZLHOLDINGS/a11oy-factory",
+    "private": true,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-a11oy-factory.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": null,
+        "requested": "cpu-basic"
+      },
+      "replicas": {
+        "requested": 1
+      },
+      "stage": "SLEEPING"
+    },
+    "sdk": "docker",
+    "sha": "d1f0ba7d9d8ddb26beefad57e0f3e63a31bae715",
+    "tags": [
+      "docker",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-08T04:56:43.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-24T21:27:41.817181Z",
     "path": "SZLHOLDINGS/ayllu",
     "private": false,
     "runtime": {
@@ -109,7 +145,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-24T12:27:24.822006Z",
+    "metadata_observed_at": "2026-09-24T21:27:40.912213Z",
     "path": "SZLHOLDINGS/counsel",
     "private": false,
     "runtime": {
@@ -151,7 +187,43 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-24T12:27:25.573658Z",
+    "metadata_observed_at": "2026-09-24T21:27:41.440034Z",
+    "path": "SZLHOLDINGS/counsel-assurance",
+    "private": true,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-counsel-assurance.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": null,
+        "requested": "cpu-basic"
+      },
+      "replicas": {
+        "requested": 1
+      },
+      "stage": "SLEEPING"
+    },
+    "sdk": "docker",
+    "sha": "0e31460ae4740e2ffb7565c2f1e4c21155bc52a2",
+    "tags": [
+      "docker",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-04T02:07:56.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-24T21:27:41.294647Z",
     "path": "SZLHOLDINGS/david-leads",
     "private": false,
     "runtime": {
@@ -172,11 +244,11 @@
         "current": 1,
         "requested": 1
       },
-      "sha": "f4cf67d3ac0778925995079cf5b2cf27e92b47e0",
+      "sha": "d244b09aa708b9f473c22d0a5df4d6673cdf8b22",
       "stage": "RUNNING"
     },
     "sdk": "docker",
-    "sha": "f4cf67d3ac0778925995079cf5b2cf27e92b47e0",
+    "sha": "d244b09aa708b9f473c22d0a5df4d6673cdf8b22",
     "tags": [
       "docker",
       "insurance",
@@ -188,7 +260,7 @@
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-20T15:29:49.000Z"
+    "updated_at": "2026-09-24T13:21:35.000Z"
   },
   {
     "downloads": null,
@@ -196,7 +268,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-24T12:27:25.520802Z",
+    "metadata_observed_at": "2026-09-24T21:27:41.109345Z",
     "path": "SZLHOLDINGS/finance",
     "private": false,
     "runtime": {
@@ -238,7 +310,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-24T12:27:26.291524Z",
+    "metadata_observed_at": "2026-09-24T21:27:42.000553Z",
     "path": "SZLHOLDINGS/holographic-unify",
     "private": false,
     "runtime": {
@@ -283,7 +355,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-24T12:27:26.247922Z",
+    "metadata_observed_at": "2026-09-24T21:27:41.609608Z",
     "path": "SZLHOLDINGS/immune",
     "private": false,
     "runtime": {
@@ -322,7 +394,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-24T12:27:25.946435Z",
+    "metadata_observed_at": "2026-09-24T21:27:41.742205Z",
     "path": "SZLHOLDINGS/immune-lattice",
     "private": false,
     "runtime": {
@@ -361,7 +433,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 2,
-    "metadata_observed_at": "2026-09-24T12:27:24.723221Z",
+    "metadata_observed_at": "2026-09-24T21:27:40.977130Z",
     "path": "SZLHOLDINGS/killinchu",
     "private": false,
     "runtime": {
@@ -386,11 +458,11 @@
         "current": 1,
         "requested": 1
       },
-      "sha": "78fd884942a047c79b0296a84a6ef19601395877",
+      "sha": "240ac7b60ac75698ebd0994600a025b97a656531",
       "stage": "RUNNING"
     },
     "sdk": "docker",
-    "sha": "78fd884942a047c79b0296a84a6ef19601395877",
+    "sha": "240ac7b60ac75698ebd0994600a025b97a656531",
     "tags": [
       "docker",
       "doctrine-v11",
@@ -405,7 +477,7 @@
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-20T00:25:32.000Z"
+    "updated_at": "2026-09-24T13:49:57.000Z"
   },
   {
     "downloads": null,
@@ -413,7 +485,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-24T12:27:26.883025Z",
+    "metadata_observed_at": "2026-09-24T21:27:42.000069Z",
     "path": "SZLHOLDINGS/llm-router-live",
     "private": false,
     "runtime": {
@@ -452,7 +524,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-24T12:27:25.579362Z",
+    "metadata_observed_at": "2026-09-24T21:27:41.101019Z",
     "path": "SZLHOLDINGS/lyte",
     "private": false,
     "runtime": {
@@ -497,7 +569,43 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-24T12:27:24.805149Z",
+    "metadata_observed_at": "2026-09-24T21:27:41.699039Z",
+    "path": "SZLHOLDINGS/puriq-markets",
+    "private": true,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-puriq-markets.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": null,
+        "requested": "cpu-basic"
+      },
+      "replicas": {
+        "requested": 1
+      },
+      "stage": "SLEEPING"
+    },
+    "sdk": "docker",
+    "sha": "5681a5675b9fd6d53feb811553b63a04cd0b98c3",
+    "tags": [
+      "docker",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-04T02:07:54.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-24T21:27:40.973364Z",
     "path": "SZLHOLDINGS/README",
     "private": false,
     "runtime": {
@@ -526,7 +634,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-24T12:27:24.873473Z",
+    "metadata_observed_at": "2026-09-24T21:27:41.142540Z",
     "path": "SZLHOLDINGS/sentra",
     "private": false,
     "runtime": {
@@ -568,7 +676,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-24T12:27:26.292396Z",
+    "metadata_observed_at": "2026-09-24T21:27:41.882816Z",
     "path": "SZLHOLDINGS/szl-atelier",
     "private": false,
     "runtime": {
@@ -607,7 +715,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-24T12:27:25.570170Z",
+    "metadata_observed_at": "2026-09-24T21:27:41.233688Z",
     "path": "SZLHOLDINGS/szl-command-lab",
     "private": false,
     "runtime": {
@@ -654,7 +762,7 @@
     "library_name": null,
     "license": null,
     "likes": 0,
-    "metadata_observed_at": "2026-09-24T12:27:25.577764Z",
+    "metadata_observed_at": "2026-09-24T21:27:41.295197Z",
     "path": "SZLHOLDINGS/szl-constellation",
     "private": false,
     "runtime": {
@@ -698,7 +806,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-24T12:27:26.124538Z",
+    "metadata_observed_at": "2026-09-24T21:27:41.442081Z",
     "path": "SZLHOLDINGS/szl-frontier",
     "private": false,
     "runtime": {
@@ -743,7 +851,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-24T12:27:26.856746Z",
+    "metadata_observed_at": "2026-09-24T21:27:41.999549Z",
     "path": "SZLHOLDINGS/szl-khipu",
     "private": false,
     "runtime": {
@@ -764,17 +872,17 @@
         "current": 1,
         "requested": 1
       },
-      "sha": "077742f85c47b695105ba36d22939165a9cf1438",
+      "sha": "bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde",
       "stage": "RUNNING"
     },
     "sdk": "docker",
-    "sha": "077742f85c47b695105ba36d22939165a9cf1438",
+    "sha": "bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde",
     "tags": [
       "docker",
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-20T11:39:05.000Z"
+    "updated_at": "2026-09-24T13:50:15.000Z"
   },
   {
     "downloads": null,
@@ -782,7 +890,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-24T12:27:25.942958Z",
+    "metadata_observed_at": "2026-09-24T21:27:41.609608Z",
     "path": "SZLHOLDINGS/szl-model-inference-lab",
     "private": false,
     "runtime": {
@@ -826,7 +934,36 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-24T12:27:24.822006Z",
+    "metadata_observed_at": "2026-09-24T21:27:42.123487Z",
+    "path": "SZLHOLDINGS/szl-safe-stack",
+    "private": true,
+    "runtime": {
+      "hardware": {
+        "current": null,
+        "requested": null
+      },
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "stage": "RUNNING"
+    },
+    "sdk": "static",
+    "sha": "5a32056c245bf5d16f75a570dba10779923c3a8f",
+    "tags": [
+      "static",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-24T13:23:09.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-24T21:27:41.101019Z",
     "path": "SZLHOLDINGS/terra",
     "private": false,
     "runtime": {
@@ -868,7 +1005,43 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-24T12:27:25.574905Z",
+    "metadata_observed_at": "2026-09-24T21:27:41.440034Z",
+    "path": "SZLHOLDINGS/terra-assurance",
+    "private": true,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-terra-assurance.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": null,
+        "requested": "cpu-basic"
+      },
+      "replicas": {
+        "requested": 1
+      },
+      "stage": "SLEEPING"
+    },
+    "sdk": "docker",
+    "sha": "b596fcfc4635c12e65a185230fb2d0afebdb6fa2",
+    "tags": [
+      "docker",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-04T02:07:52.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-24T21:27:41.233130Z",
     "path": "SZLHOLDINGS/vertical-services",
     "private": false,
     "runtime": {
@@ -907,7 +1080,7 @@
     "library_name": null,
     "license": null,
     "likes": 0,
-    "metadata_observed_at": "2026-09-24T12:27:26.287980Z",
+    "metadata_observed_at": "2026-09-24T21:27:41.815955Z",
     "path": "SZLHOLDINGS/yarqa",
     "private": false,
     "runtime": {
