@@ -1,0 +1,2049 @@
+{
+  "schema": "szl.estate.classification-review/v1",
+  "source_commit_hint": "data/classification_pass.json",
+  "signed": false,
+  "promotion_eligible": false,
+  "registry_modified": false,
+  "classification_pass_modified": false,
+  "counts": {
+    "reviewed": 152,
+    "unreviewed_kept": 53,
+    "proposed_mirror_distribution": 0,
+    "inflated_claim_rows": 57
+  },
+  "reviews": [
+    {
+      "id": "github/szl-holdings/.github",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/a11oy",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/a11oy-factory",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/a11oy-net",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/anatomy",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/ayllu",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/ayllu-hf-space",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/david-leads",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/evidence-doctrine",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/evidence-studio",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/frontier-bench",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/governance-as-code",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/governed-receipt-spec",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/hatun-mcp",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/holographic-unify",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/immune",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/khipu-consensus",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/khipu-sda-core",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/khipu-x1",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/killinchu",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/lutar-lean",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/lyte-lattice",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/lyte-services",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/nexus",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/platform",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/puriq-live",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/quant-curve",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/retrieval-bench",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/sda",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-atelier",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-block-kv",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-blocked",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-brand",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-build-env",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-calibration",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-ci-witness",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-command-lab",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-constellation",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-crosscheck",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-doctrine",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-drift",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-eclipse",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-energy-attest",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-engine-bench",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-evidence-litellm",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-forge",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-formulas",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-frontier",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-gov",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-govsign",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-gpu-bridge",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-guardrail-receipt",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-hf-frontier",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-holdings.github.io",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-invariants",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-kernels",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-khipu",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-lake",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-lambda-gate",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-maskmod",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-mesh",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-nemo",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-ouroboros",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-papers",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-pin",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-platform",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-provctl",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-quant",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-quant-bench",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-quant-witness",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-real-estate",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-receipt",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-receipt-attn",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-retrieval-bench",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-router",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-runbook-catalog",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-second-brain",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-seismic-review",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-serve",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-sovereign-os",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-substrate",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-trust",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-typesafe-triage",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-vertical-forge",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/szl-wave1-report",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/the-grid",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/uds-bundles",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/vertical-services",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/vsp-otel",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/yarqa",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "github/szl-holdings/yarqa-attn",
+      "current_status": "PROVISIONAL",
+      "current_role": "canonical-source",
+      "proposed_role": "canonical-source",
+      "evidence": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "confidence": "medium"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/a11oy-verifiable-corpus",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, a11oy, ., lutar-lean, governed-receipt-spec, szl-papers",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "a11oy",
+        ".",
+        "lutar-lean",
+        "governed-receipt-spec",
+        "szl-papers"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/alloy-sovereign-eval-runs",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. governed-receipt-spec, szl-papers",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        "governed-receipt-spec",
+        "szl-papers"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/canonical-formulas-v1",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, szl-papers",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "szl-papers"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/david-leads-data",
+      "current_status": "PROVISIONAL",
+      "current_role": "paper-dataset-receipt-support",
+      "proposed_role": "paper-dataset-receipt-support",
+      "evidence": "role by asset type; no GitHub link in README",
+      "confidence": "medium",
+      "readme_http": 200
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/doctrine-v10-v11",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, szl-papers",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "szl-papers"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/energy-attested-runs",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, governed-receipt-spec, szl-papers",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "governed-receipt-spec",
+        "szl-papers"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/governed-receipts-bench",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, governed-receipt-spec, szl-papers",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "governed-receipt-spec",
+        "szl-papers"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/k-verify-benchmark-v1",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, szl-papers",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "szl-papers"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/lean-proofs-v1",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, szl-papers, governed-receipt-spec",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "szl-papers",
+        "governed-receipt-spec"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/lean-theorem-tree",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, lutar-lean, a11oy, szl-papers",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "lutar-lean",
+        "a11oy",
+        "szl-papers"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/model-bom",
+      "current_status": "PROVISIONAL",
+      "current_role": "paper-dataset-receipt-support",
+      "proposed_role": "paper-dataset-receipt-support",
+      "evidence": "role by asset type; no GitHub link in README",
+      "confidence": "medium",
+      "readme_http": 200
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/ouroboros-arxiv-preprint",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, lutar-lean, a11oy, szl-papers",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "lutar-lean",
+        "a11oy",
+        "szl-papers"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/rag-corpus-v1",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, szl-papers",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "szl-papers"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/readiness-runs",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. szl-papers, governed-receipt-spec",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        "szl-papers",
+        "governed-receipt-spec"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/release-assets",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README not readable (HTTP 404). Keep UNREVIEWED.",
+      "confidence": "high",
+      "readme_http": 404
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/szl-1-doctrine-sft",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, szl-forge",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "szl-forge"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/szl-artifacts",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, lutar-lean, a11oy, szl-papers",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "lutar-lean",
+        "a11oy",
+        "szl-papers"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/szl-estate-graph",
+      "current_status": "PROVISIONAL",
+      "current_role": "paper-dataset-receipt-support",
+      "proposed_role": "paper-dataset-receipt-support",
+      "evidence": "role by asset type; no GitHub link in README",
+      "confidence": "medium",
+      "readme_http": 200
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/szl-frontier-evaluation-receipts",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. governed-receipt-spec, szl-forge",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        "governed-receipt-spec",
+        "szl-forge"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/szl-lake",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. lutar-lean, szl-papers",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        "lutar-lean",
+        "szl-papers"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/szl-second-brain-inrepo",
+      "current_status": "PROVISIONAL",
+      "current_role": "paper-dataset-receipt-support",
+      "proposed_role": "paper-dataset-receipt-support",
+      "evidence": "role by asset type; no GitHub link in README",
+      "confidence": "medium",
+      "readme_http": 200
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/test-results",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. hatun-mcp, .github",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        "hatun-mcp",
+        ".github"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/thesis-corpus-v18",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, szl-papers",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "szl-papers"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/thesis-v18-formal-verification",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, lutar-lean, a11oy, szl-papers",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "lutar-lean",
+        "a11oy",
+        "szl-papers"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/uds-bundles-v1",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, szl-papers",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "szl-papers"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/uds-governance-receipts",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, lutar-lean, a11oy, szl-papers",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "lutar-lean",
+        "a11oy",
+        "szl-papers"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/uds-spans-receipts",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, lutar-lean, a11oy, hatun-mcp, governed-receipt-spec, szl-papers",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "lutar-lean",
+        "a11oy",
+        "hatun-mcp",
+        "governed-receipt-spec",
+        "szl-papers"
+      ]
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/why-we-lead",
+      "current_status": "PROVISIONAL",
+      "current_role": "paper-dataset-receipt-support",
+      "proposed_role": "paper-dataset-receipt-support",
+      "evidence": "role by asset type; no GitHub link in README",
+      "confidence": "medium",
+      "readme_http": 200
+    },
+    {
+      "id": "huggingface-model/szlholdings/chakana",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README has no szl-holdings GitHub link",
+      "confidence": "low",
+      "readme_http": 200
+    },
+    {
+      "id": "huggingface-model/szlholdings/governed-inference-meter",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. szl-energy-attest, governed-inference-meter",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        "szl-energy-attest",
+        "governed-inference-meter"
+      ]
+    },
+    {
+      "id": "huggingface-model/szlholdings/khipu-r2",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README has no szl-holdings GitHub link",
+      "confidence": "low",
+      "readme_http": 200
+    },
+    {
+      "id": "huggingface-model/szlholdings/qantu",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README has no szl-holdings GitHub link",
+      "confidence": "low",
+      "readme_http": 200
+    },
+    {
+      "id": "huggingface-model/szlholdings/receiptagent-nano",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README has no szl-holdings GitHub link",
+      "confidence": "low",
+      "readme_http": 200
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-block-kv",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. szl-block-kv, szl-khipu",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        "szl-block-kv",
+        "szl-khipu"
+      ]
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-governed-norm",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. szl-lambda-gate, szl-governed-norm, .github, szl-khipu, governed-receipt-spec, szl-papers",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        "szl-lambda-gate",
+        "szl-governed-norm",
+        ".github",
+        "szl-khipu",
+        "governed-receipt-spec",
+        "szl-papers"
+      ]
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-kernels",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. szl-kernels, .github, szl-forge, lutar-lean, szl-papers",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        "szl-kernels",
+        ".github",
+        "szl-forge",
+        "lutar-lean",
+        "szl-papers"
+      ]
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-khipu",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. szl-khipu, anatomy, khipu-pages, szl-gov",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        "szl-khipu",
+        "anatomy",
+        "khipu-pages",
+        "szl-gov"
+      ]
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-khipu-1.5b",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, szl-forge",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "szl-forge"
+      ]
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-khipu-1.5b-gguf",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, szl-serve, szl-forge",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "szl-serve",
+        "szl-forge"
+      ]
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-lambda-gate",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. szl-lambda-gate, .github, szl-khipu, lutar-lean, governed-receipt-spec, szl-papers",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        "szl-lambda-gate",
+        ".github",
+        "szl-khipu",
+        "lutar-lean",
+        "governed-receipt-spec",
+        "szl-papers"
+      ]
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-maskmod",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. szl-maskmod, szl-khipu",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        "szl-maskmod",
+        "szl-khipu"
+      ]
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-ouroboros",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. szl-ouroboros, ouroboros, szl-khipu",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        "szl-ouroboros",
+        "ouroboros",
+        "szl-khipu"
+      ]
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-receipt-attn",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. szl-receipt-attn, szl-khipu",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        "szl-receipt-attn",
+        "szl-khipu"
+      ]
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-training-scripts",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README has no szl-holdings GitHub link",
+      "confidence": "low",
+      "readme_http": 200
+    },
+    {
+      "id": "huggingface-model/szlholdings/tinku",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README has no szl-holdings GitHub link",
+      "confidence": "low",
+      "readme_http": 200
+    },
+    {
+      "id": "huggingface-model/szlholdings/tinykhipu-nano",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README has no szl-holdings GitHub link",
+      "confidence": "low",
+      "readme_http": 200
+    },
+    {
+      "id": "huggingface-model/szlholdings/waman",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README has no szl-holdings GitHub link",
+      "confidence": "low",
+      "readme_http": 200
+    },
+    {
+      "id": "huggingface-model/szlholdings/willay",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README has no szl-holdings GitHub link",
+      "confidence": "low",
+      "readme_http": 200
+    },
+    {
+      "id": "huggingface-model/szlholdings/yarqa-attn",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. YARQA-ATTN, szl-khipu, szl-receipt-attn, yarqa",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        "YARQA-ATTN",
+        "szl-khipu",
+        "szl-receipt-attn",
+        "yarqa"
+      ]
+    },
+    {
+      "id": "huggingface-space/szlholdings/a11oy",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. a11oy-factory, a11oy, lutar-lean, killinchu, developers, szl-cookbook",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        "a11oy-factory",
+        "a11oy",
+        "lutar-lean",
+        "killinchu",
+        "developers",
+        "szl-cookbook"
+      ]
+    },
+    {
+      "id": "huggingface-space/szlholdings/finance",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. puriq-live, a11oy",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        "puriq-live",
+        "a11oy"
+      ]
+    },
+    {
+      "id": "huggingface-space/szlholdings/holographic-unify",
+      "current_status": "PROVISIONAL",
+      "current_role": "runtime-surface",
+      "proposed_role": "runtime-surface",
+      "evidence": "role by asset type; no GitHub link in README",
+      "confidence": "medium",
+      "readme_http": 200
+    },
+    {
+      "id": "huggingface-space/szlholdings/killinchu",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, killinchu, lutar-lean, khipu-consensus, developers, szl-cookbook, ouroboros, platform, governed-receipt-spec, szl-formula-ledger",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "killinchu",
+        "lutar-lean",
+        "khipu-consensus",
+        "developers",
+        "szl-cookbook",
+        "ouroboros",
+        "platform",
+        "governed-receipt-spec",
+        "szl-formula-ledger"
+      ]
+    },
+    {
+      "id": "huggingface-space/szlholdings/lyte",
+      "current_status": "PROVISIONAL",
+      "current_role": "runtime-surface",
+      "proposed_role": "runtime-surface",
+      "evidence": "role by asset type; no GitHub link in README",
+      "confidence": "medium",
+      "readme_http": 200
+    },
+    {
+      "id": "huggingface-space/szlholdings/readme",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, szl-router, killinchu, a11oy",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "szl-router",
+        "killinchu",
+        "a11oy"
+      ]
+    },
+    {
+      "id": "huggingface-space/szlholdings/szl-atelier",
+      "current_status": "PROVISIONAL",
+      "current_role": "runtime-surface",
+      "proposed_role": "runtime-surface",
+      "evidence": "role by asset type; no GitHub link in README",
+      "confidence": "medium",
+      "readme_http": 200
+    },
+    {
+      "id": "huggingface-space/szlholdings/szl-constellation",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. szl-constellation, szl-constellation.git, lutar-lean",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        "szl-constellation",
+        "szl-constellation.git",
+        "lutar-lean"
+      ]
+    },
+    {
+      "id": "huggingface-space/szlholdings/szl-constellation-staging",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. szl-constellation, szl-constellation.git, lutar-lean",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        "szl-constellation",
+        "szl-constellation.git",
+        "lutar-lean"
+      ]
+    },
+    {
+      "id": "huggingface-space/szlholdings/szl-frontier",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. szl-second-brain, lutar-lean, a11oy, immune",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        "szl-second-brain",
+        "lutar-lean",
+        "a11oy",
+        "immune"
+      ]
+    },
+    {
+      "id": "huggingface-space/szlholdings/szl-model-inference-lab",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. .github, szl-forge",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        ".github",
+        "szl-forge"
+      ]
+    },
+    {
+      "id": "huggingface-space/szlholdings/terra",
+      "current_status": "UNREVIEWED",
+      "current_role": "UNREVIEWED",
+      "proposed_role": "UNREVIEWED",
+      "evidence": "README names multiple GitHub repos; owner must pick. szl-vertical-forge, szl-real-estate, a11oy",
+      "confidence": "medium",
+      "readme_http": 200,
+      "github_repos_named": [
+        "szl-vertical-forge",
+        "szl-real-estate",
+        "a11oy"
+      ]
+    }
+  ],
+  "inflated_claims": [
+    {
+      "id": "huggingface-dataset/szlholdings/a11oy-verifiable-corpus",
+      "url": "https://huggingface.co/datasets/szlholdings/a11oy-verifiable-corpus/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed",
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/alloy-sovereign-eval-runs",
+      "url": "https://huggingface.co/datasets/szlholdings/alloy-sovereign-eval-runs/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/canonical-formulas-v1",
+      "url": "https://huggingface.co/datasets/szlholdings/canonical-formulas-v1/resolve/main/README.md",
+      "terms": [
+        "live"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/david-leads-data",
+      "url": "https://huggingface.co/datasets/szlholdings/david-leads-data/resolve/main/README.md",
+      "terms": [
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/doctrine-v10-v11",
+      "url": "https://huggingface.co/datasets/szlholdings/doctrine-v10-v11/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed",
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/energy-attested-runs",
+      "url": "https://huggingface.co/datasets/szlholdings/energy-attested-runs/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/governed-receipts-bench",
+      "url": "https://huggingface.co/datasets/szlholdings/governed-receipts-bench/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed",
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/k-verify-benchmark-v1",
+      "url": "https://huggingface.co/datasets/szlholdings/k-verify-benchmark-v1/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/lean-proofs-v1",
+      "url": "https://huggingface.co/datasets/szlholdings/lean-proofs-v1/resolve/main/README.md",
+      "terms": [
+        "live"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/lean-theorem-tree",
+      "url": "https://huggingface.co/datasets/szlholdings/lean-theorem-tree/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/model-bom",
+      "url": "https://huggingface.co/datasets/szlholdings/model-bom/resolve/main/README.md",
+      "terms": [
+        "live",
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/ouroboros-arxiv-preprint",
+      "url": "https://huggingface.co/datasets/szlholdings/ouroboros-arxiv-preprint/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/rag-corpus-v1",
+      "url": "https://huggingface.co/datasets/szlholdings/rag-corpus-v1/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/readiness-runs",
+      "url": "https://huggingface.co/datasets/szlholdings/readiness-runs/resolve/main/README.md",
+      "terms": [
+        "live",
+        "production",
+        "signed"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/szl-1-doctrine-sft",
+      "url": "https://huggingface.co/datasets/szlholdings/szl-1-doctrine-sft/resolve/main/README.md",
+      "terms": [
+        "live"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/szl-artifacts",
+      "url": "https://huggingface.co/datasets/szlholdings/szl-artifacts/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/szl-estate-graph",
+      "url": "https://huggingface.co/datasets/szlholdings/szl-estate-graph/resolve/main/README.md",
+      "terms": [
+        "live",
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/szl-frontier-evaluation-receipts",
+      "url": "https://huggingface.co/datasets/szlholdings/szl-frontier-evaluation-receipts/resolve/main/README.md",
+      "terms": [
+        "live",
+        "production"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/szl-lake",
+      "url": "https://huggingface.co/datasets/szlholdings/szl-lake/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/szl-second-brain-inrepo",
+      "url": "https://huggingface.co/datasets/szlholdings/szl-second-brain-inrepo/resolve/main/README.md",
+      "terms": [
+        "live"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/test-results",
+      "url": "https://huggingface.co/datasets/szlholdings/test-results/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed",
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/thesis-corpus-v18",
+      "url": "https://huggingface.co/datasets/szlholdings/thesis-corpus-v18/resolve/main/README.md",
+      "terms": [
+        "live"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/thesis-v18-formal-verification",
+      "url": "https://huggingface.co/datasets/szlholdings/thesis-v18-formal-verification/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/uds-bundles-v1",
+      "url": "https://huggingface.co/datasets/szlholdings/uds-bundles-v1/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/uds-governance-receipts",
+      "url": "https://huggingface.co/datasets/szlholdings/uds-governance-receipts/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/uds-spans-receipts",
+      "url": "https://huggingface.co/datasets/szlholdings/uds-spans-receipts/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed",
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/why-we-lead",
+      "url": "https://huggingface.co/datasets/szlholdings/why-we-lead/resolve/main/README.md",
+      "terms": [
+        "live"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-model/szlholdings/chakana",
+      "url": "https://huggingface.co/szlholdings/chakana/resolve/main/README.md",
+      "terms": [
+        "production",
+        "signed"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-model/szlholdings/governed-inference-meter",
+      "url": "https://huggingface.co/szlholdings/governed-inference-meter/resolve/main/README.md",
+      "terms": [
+        "live",
+        "production",
+        "signed",
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-model/szlholdings/khipu-r2",
+      "url": "https://huggingface.co/szlholdings/khipu-r2/resolve/main/README.md",
+      "terms": [
+        "signed",
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-model/szlholdings/qantu",
+      "url": "https://huggingface.co/szlholdings/qantu/resolve/main/README.md",
+      "terms": [
+        "production"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-model/szlholdings/receiptagent-nano",
+      "url": "https://huggingface.co/szlholdings/receiptagent-nano/resolve/main/README.md",
+      "terms": [
+        "production",
+        "signed",
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-block-kv",
+      "url": "https://huggingface.co/szlholdings/szl-block-kv/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-governed-norm",
+      "url": "https://huggingface.co/szlholdings/szl-governed-norm/resolve/main/README.md",
+      "terms": [
+        "live",
+        "production",
+        "signed",
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-kernels",
+      "url": "https://huggingface.co/szlholdings/szl-kernels/resolve/main/README.md",
+      "terms": [
+        "live",
+        "production",
+        "signed",
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-khipu",
+      "url": "https://huggingface.co/szlholdings/szl-khipu/resolve/main/README.md",
+      "terms": [
+        "live",
+        "production",
+        "signed"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-khipu-1.5b",
+      "url": "https://huggingface.co/szlholdings/szl-khipu-1.5b/resolve/main/README.md",
+      "terms": [
+        "live",
+        "production",
+        "signed",
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-khipu-1.5b-gguf",
+      "url": "https://huggingface.co/szlholdings/szl-khipu-1.5b-gguf/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed",
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-lambda-gate",
+      "url": "https://huggingface.co/szlholdings/szl-lambda-gate/resolve/main/README.md",
+      "terms": [
+        "live",
+        "production",
+        "signed",
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-maskmod",
+      "url": "https://huggingface.co/szlholdings/szl-maskmod/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-ouroboros",
+      "url": "https://huggingface.co/szlholdings/szl-ouroboros/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-receipt-attn",
+      "url": "https://huggingface.co/szlholdings/szl-receipt-attn/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-training-scripts",
+      "url": "https://huggingface.co/szlholdings/szl-training-scripts/resolve/main/README.md",
+      "terms": [
+        "signed"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-model/szlholdings/tinku",
+      "url": "https://huggingface.co/szlholdings/tinku/resolve/main/README.md",
+      "terms": [
+        "production"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-model/szlholdings/tinykhipu-nano",
+      "url": "https://huggingface.co/szlholdings/tinykhipu-nano/resolve/main/README.md",
+      "terms": [
+        "production",
+        "signed",
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-model/szlholdings/waman",
+      "url": "https://huggingface.co/szlholdings/waman/resolve/main/README.md",
+      "terms": [
+        "production"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-model/szlholdings/willay",
+      "url": "https://huggingface.co/szlholdings/willay/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-model/szlholdings/yarqa-attn",
+      "url": "https://huggingface.co/szlholdings/yarqa-attn/resolve/main/README.md",
+      "terms": [
+        "live",
+        "signed"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-space/szlholdings/a11oy",
+      "url": "https://huggingface.co/spaces/szlholdings/a11oy/resolve/main/README.md",
+      "terms": [
+        "12/12",
+        "live",
+        "production",
+        "signed",
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-space/szlholdings/finance",
+      "url": "https://huggingface.co/spaces/szlholdings/finance/resolve/main/README.md",
+      "terms": [
+        "live"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-space/szlholdings/killinchu",
+      "url": "https://huggingface.co/spaces/szlholdings/killinchu/resolve/main/README.md",
+      "terms": [
+        "live",
+        "production",
+        "signed",
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-space/szlholdings/lyte",
+      "url": "https://huggingface.co/spaces/szlholdings/lyte/resolve/main/README.md",
+      "terms": [
+        "production",
+        "signed",
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-space/szlholdings/readme",
+      "url": "https://huggingface.co/spaces/szlholdings/readme/resolve/main/README.md",
+      "terms": [
+        "live",
+        "production"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-space/szlholdings/szl-constellation",
+      "url": "https://huggingface.co/spaces/szlholdings/szl-constellation/resolve/main/README.md",
+      "terms": [
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-space/szlholdings/szl-constellation-staging",
+      "url": "https://huggingface.co/spaces/szlholdings/szl-constellation-staging/resolve/main/README.md",
+      "terms": [
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-space/szlholdings/szl-frontier",
+      "url": "https://huggingface.co/spaces/szlholdings/szl-frontier/resolve/main/README.md",
+      "terms": [
+        "live",
+        "production"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    },
+    {
+      "id": "huggingface-space/szlholdings/szl-model-inference-lab",
+      "url": "https://huggingface.co/spaces/szlholdings/szl-model-inference-lab/resolve/main/README.md",
+      "terms": [
+        "live",
+        "verified"
+      ],
+      "note": "card/README contains these terms; supporting receipt/gate not verified in this pass"
+    }
+  ]
+}
