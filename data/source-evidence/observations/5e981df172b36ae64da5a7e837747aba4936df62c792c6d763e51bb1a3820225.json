@@ -1,0 +1,61 @@
+{
+  "card": "---\ntitle: Yarqa\nemoji: \ud83c\udf0a\ncolorFrom: blue\ncolorTo: indigo\nsdk: docker\npinned: false\nlicense: apache-2.0\nshort_description: Auditable plug-flow compartmentalization. Apache-2.0\ntags:\n  - fluid-dynamics\n  - compartment-models\n  - provenance\n  - governed-ai\n  - szl-holdings\n---\n\n# Yarqa\n\nAuditable compartmentalization for flow-derived models.\n\nYarqa converts eligible flow-field inputs into compartmental-network representations\nwith explicit provenance boundaries. Clean-room, Apache-2.0.\n\n[GitHub source](https://github.com/szl-holdings/yarqa) |\n[Evidence ledger](https://huggingface.co/datasets/SZLHOLDINGS/szl-lake) |\n[Product](https://a-11-oy.com) |\n[Proof](https://a11oy.net)\n\n## What it does\n\n1. Accept a declared flow or velocity-field input.\n2. Partition it into an auditable compartment model.\n3. Emit structured, provenance-oriented metadata.\n4. Refuse to fabricate input evidence or physical validation.\n\nThis Space does not claim live instrumentation, validated CFD accuracy,\nengineering certification, or safety-critical use.\n\n## Developer path\n\n~~~text\ngit clone https://github.com/szl-holdings/yarqa.git\ncd yarqa\n~~~\n\n## Governance\n\nHub Space repository: SZLHOLDINGS/yarqa\n\n- Source authority: https://github.com/szl-holdings/yarqa\n- Receipt authority: https://huggingface.co/datasets/SZLHOLDINGS/szl-lake\n- License: Apache-2.0\n- Evidence boundary: verification proves declared origin and integrity, not correctness or readiness.\n- Runtime boundary: a responding Space is not a production certificate.\n\n## For investors\n\nYarqa carries the SZL pattern beyond language models: technical workflows become\ninspectable and evidence-bound instead of unsupported black boxes.\n\nDoctrine v11 - nothing glows that did not earn it.",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 911,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/6dd145675cc8aeed256a19f0c4147437260f5ca673d3124c3ccf908688795994.json",
+      "revision": "8a6a273b3081a9783e50ecfacdd2e4cca05ea024",
+      "sha256": "6dd145675cc8aeed256a19f0c4147437260f5ca673d3124c3ccf908688795994",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/yarqa/revision/8a6a273b3081a9783e50ecfacdd2e4cca05ea024"
+    },
+    {
+      "bytes": 1738,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/c52510f83fbd96806c9ade72d8923b922354b9129d73591b519c3a2b8d7f3df3.md",
+      "revision": "8a6a273b3081a9783e50ecfacdd2e4cca05ea024",
+      "sha256": "c52510f83fbd96806c9ade72d8923b922354b9129d73591b519c3a2b8d7f3df3",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/yarqa/resolve/8a6a273b3081a9783e50ecfacdd2e4cca05ea024/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "Dockerfile",
+    "Dockerfile.dockerignore",
+    "README.md",
+    "pyproject.toml",
+    "space/Dockerfile",
+    "space/README.md",
+    "space/app.py",
+    "space/feeds.py",
+    "space/requirements.lock",
+    "space/requirements.txt",
+    "space/static/index.html",
+    "space/static/js/app.js",
+    "space/static/lib/THREE_LICENSE.txt",
+    "space/static/lib/three.min.js",
+    "space/static/style.css",
+    "space/static/szl-space-hologram.css",
+    "space/static/szl-space-hologram.js",
+    "space/tests/qa_headless.mjs",
+    "space/tests/test_space_endpoints.py",
+    "yarqa/__init__.py",
+    "yarqa/agentic.py",
+    "yarqa/attestation.py",
+    "yarqa/chain.py",
+    "yarqa/cli.py",
+    "yarqa/core.py",
+    "yarqa/meshio.py",
+    "yarqa/provenance.py",
+    "yarqa/signing.py",
+    "yarqa/surrogate.py"
+  ],
+  "id": "huggingface-space/szlholdings/yarqa",
+  "observed_at": "2026-09-25T15:21:27Z",
+  "observed_revision": "8a6a273b3081a9783e50ecfacdd2e4cca05ea024"
+}

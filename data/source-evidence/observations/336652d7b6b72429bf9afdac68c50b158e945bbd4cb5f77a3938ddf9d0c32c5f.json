@@ -1,0 +1,20 @@
+{
+  "card": "# szl-maskmod\n\nCanonical GitHub source for `SZLHOLDINGS/szl-maskmod`.\nGitHub bytes are the artifact. Hugging Face Hub is a publish mirror.\n\n```python\nfrom kernels import get_kernel\nkm = get_kernel(\"SZLHOLDINGS/szl-maskmod\", revision=\"main\", trust_remote_code=True)\n```\n\n```python\nfrom szl_maskmod import maskmod_attn, ReceiptChain, selfcheck\nimport torch\nq = k = v = torch.randn(1, 2, 8, 16)\ny = maskmod_attn(q, k, v, causal=True)\nprint(selfcheck())\n```\n\nNot a FlexAttention rehost. No CUDA benches. No speedup claim.\nDoctrine v11. \u039b = Conjecture 1 OPEN.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 556,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/3499ba1df59591c49d5d55641374d50e0b15191a142b1b80102db6bb372bd5a9.md",
+      "revision": "8c22afce8d7f9b1569b9caa775a81e0d86e0375c",
+      "sha256": "3499ba1df59591c49d5d55641374d50e0b15191a142b1b80102db6bb372bd5a9",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-maskmod/blob/8c22afce8d7f9b1569b9caa775a81e0d86e0375c/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-maskmod",
+  "observed_at": "2026-09-25T15:21:14Z",
+  "observed_revision": "8c22afce8d7f9b1569b9caa775a81e0d86e0375c"
+}

@@ -1,0 +1,20 @@
+{
+  "card": "# szl-formulas\n\nSoftware kernel for SZL formula composition. **Not a model. No weights.**\n\nThis GitHub tree is the source. The Hub package is the publish mirror: [`kernels/SZLHOLDINGS/szl-formulas`](https://huggingface.co/kernels/SZLHOLDINGS/szl-formulas). Card: [`SZLHOLDINGS/szl-formulas`](https://huggingface.co/SZLHOLDINGS/szl-formulas).\n\n## What\n\nPython package under `torch-ext/szl_formulas/`. Formula composer + canonical formula table. Apache-2.0.\n\n## What this is NOT\n\n- Hub `model.joblib` is **QUARANTINED** executable serialization. Do not `joblib.load` it. GitHub source is the approved path.\n\n- Not trained weights, not a LoRA, not GGUF\n- Not a CUDA/Triton speedup claim (no MEASURED benches in this repo)\n- Not the TypeScript product `ouroboros` and not `lutar-lean`\n\n## Load\n\n```python\nfrom kernels import get_kernel\nget_kernel(\"SZLHOLDINGS/szl-formulas\", revision=\"main\", trust_remote_code=True)\n```\n\n## Honesty\n\n| Claim | Label |\n|---|---|\n| Source on GitHub | REACHABLE |\n| CUDA benches | UNAVAILABLE |\n| Weights | not applicable |\n| \u039b | Conjecture 1 (advisory, never a theorem) |\n\nDoctrine v11 LOCKED. Owner: Stephen Lutar / SZL Holdings.\n\n## License\n\nApache-2.0. Copyright 2026 SZL Holdings.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 1213,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/381d05ce7b4096b7fece8cec7072b2528ec2137010fe6b2dde92a8270be1fbec.md",
+      "revision": "d0e8110ac815a47612a2b5e7729e4a805335735e",
+      "sha256": "381d05ce7b4096b7fece8cec7072b2528ec2137010fe6b2dde92a8270be1fbec",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-formulas/blob/d0e8110ac815a47612a2b5e7729e4a805335735e/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-formulas",
+  "observed_at": "2026-09-25T15:21:13Z",
+  "observed_revision": "d0e8110ac815a47612a2b5e7729e4a805335735e"
+}

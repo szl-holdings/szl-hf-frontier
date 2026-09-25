@@ -1,0 +1,20 @@
+{
+  "card": "# SZL Hugging Face Frontier\n\nPayload `SZL-HF-FRONTIER-2026-08-29`.  \nCTO order `CTO-HF-FRONTIER-2026-09-04`.\n\nThis repository is the **execution tracker** for the model and kernel estate on Hugging Face `SZLHOLDINGS` and GitHub `szl-holdings`.\n\nIt is not a flagship product. It does not make forty-three repositories frontier by adding larger cards.\n\n## Doctrine\n\n- Fail closed.\n- Signed is not correct.\n- Live is not qualified.\n- Published failing tests stay failed.\n- A roadmap card is not a model SKU.\n- Software is not a checkpoint.\n\n## Public lanes\n\n1. **ReceiptAgent** \u2014 governed action admission. The model proposes; the controller authorizes.\n2. **Khipu** \u2014 grounded navigation and calibrated abstention.\n3. **Research organs** \u2014 Chaski and future cuts. Research-only until they beat disclosed baselines.\n\n## Evidence lattice\n\n`compose/evidence_lattice.py` is the machine-checkable evidence-completeness check for\nthe entire estate. It refuses to infer trained weights from a Hub listing,\ndeployment from CI, qualification from HTTP health, or signer identity from a\ndigest. It checks revision and time binding, returns untrusted completeness,\nand always leaves release authorization to an external trusted controller. See\n[`docs/EVIDENCE_LATTICE_KERNEL.md`](docs/EVIDENCE_LATTICE_KERNEL.md).\n\n## Critical clusters\n\n| ID | Order | Artifacts |\n|---|---|---|\n| C1 | Quarantine ReceiptAgent v3 | `szl-receiptagent-qwen35-0.8b-v3` |\n| C2 | Repair or relabel Khipu-abstain | `SZL-Khipu-1.5B-abstain` |\n| C3 | Fix published kernel CI | `szl-lambda-gate`, `szl-governed-norm` |\n| C4 | Remove unsafe serialization | `szl-blocked`, `szl-provctl`, `szl-formulas`, `szl-ouroboros`, `szl-nemo` |\n| C5 | Quarantine failed Chaski line | `chaski`, `chaski-5050`, `A11OY-MINI` |\n| C6 | Unblock admission and provenance surfaces | `szl-blocked`, `szl-provctl` |\n\n## Lane push\n\n| ID | Order |\n|---|---|\n| L1 | ReceiptAgent tournament on one hidden Governed Model Bench |\n| L2 | Khipu abstention bench with coverage-risk and invented-identifier rate |\n| L3 | Chaski stays research-only until a held-out JSON/refusal gate exists |\n\n## Surfaces\n\n- Product: https://a-11-oy.com\n- Proof: https://a11oy.net\n- Hub: https://huggingface.co/SZLHOLDINGS\n- Org: https://github.com/szl-holdings\n- Flagship: https://github.com/szl-holdings/a11oy\n- Forge: https://github.com/szl-holdings/szl-forge\n- Kernels: https://github.com/szl-holdings/szl-kernels\n- Khipu: https://github.com/szl-holdings/szl-khipu\n\nRelated open work already on Forge: #101 estate audit, #102 execution queue E1\u2013E5. This tracker is the HF-frontier slice of that work, not a second doctrine.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 2646,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/2c3c00fc12576d704b55784c6bae84e92aeb2606cc60d425dca7c077c6887927.md",
+      "revision": "d63138cd75dabf2f70d524adbdb928ea9d9b1940",
+      "sha256": "2c3c00fc12576d704b55784c6bae84e92aeb2606cc60d425dca7c077c6887927",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-hf-frontier/blob/d63138cd75dabf2f70d524adbdb928ea9d9b1940/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-hf-frontier",
+  "observed_at": "2026-09-25T15:21:14Z",
+  "observed_revision": "d63138cd75dabf2f70d524adbdb928ea9d9b1940"
+}

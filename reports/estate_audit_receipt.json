@@ -1,0 +1,35 @@
+{
+  "artifact_count": 226,
+  "complete": true,
+  "completed_at": "2026-09-25T15:21:48.675913Z",
+  "high_gap_count": 202,
+  "outputs": {
+    "build_log": {
+      "sha256": "8ed79224e608714b642f8f7e211d8fb71074cef3db063fa404b73df7b5da1d02"
+    },
+    "gaps": {
+      "sha256": "cdf8fe4351b25e4e8411b1dc7865fd21319df5d5b6d720f4d971defe99d611e4"
+    },
+    "registry": {
+      "sha256": "ee79eed828bc01b574834cadd43ce4b12a2b488c11a41901d32a9149bcdd547d"
+    },
+    "validation_log": {
+      "sha256": "ed5589ff1d1deb6e6ce6111a312d92dbc20f6fdd2f99ceff862f63261e8fcd92"
+    }
+  },
+  "publication_authorized": false,
+  "schema": "szl.estate-audit-receipt/v1",
+  "signature_status": "UNSIGNED",
+  "snapshot_receipt_sha256": "424299738c7009f3ac313d119ca7e948f02182307775b9c5990b3287e4be78dc",
+  "snapshot_scope": "PUBLIC_PROJECTION_OF_AUTHENTICATED_CENSUS",
+  "stages": {
+    "build": "COMPLETE",
+    "capture": "SKIPPED_EXISTING_SNAPSHOTS",
+    "registry_validation": "BLOCKED",
+    "snapshot_integrity": "VERIFIED_UNSIGNED"
+  },
+  "started_at": "2026-09-25T15:21:48.369504Z",
+  "status": "BLOCKED_GAPS",
+  "unresolved_gap_count": 352,
+  "unreviewed_count": 132
+}

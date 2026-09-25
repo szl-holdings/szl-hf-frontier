@@ -1,0 +1,53 @@
+{
+  "canonical_integration_pr": "https://github.com/szl-holdings/a11oy/pull/2176",
+  "deployment_claimed": false,
+  "integration_required": "Compose finance v2 as a source-bound component in the existing A11oy canonical Finance backend; preserve both revisions/digests. No standalone replacement or competing publisher.",
+  "observed_at": "2026-09-24T12:25:58.626029+00:00",
+  "remaining_blockers": [
+    {
+      "code": "FINANCE_V2_NOT_PUBLICLY_ROUTED",
+      "detail": "Public finance signals and receipt verification v2 endpoints returned HTTP 404.",
+      "evidence": "runtime-probes.json",
+      "severity": "HIGH"
+    },
+    {
+      "code": "FINANCE_PUBLIC_PAGES_IDENTICAL",
+      "detail": "Public / and /panels shared SHA256 b574c44d76050eab8702e0c73333f6bd776caedb63689ac9f1f651d3ef4bd2f9.",
+      "evidence": "runtime-probes.json",
+      "severity": "HIGH"
+    },
+    {
+      "code": "RUNTIME_SOURCE_STALE",
+      "detail": "vertical-services runtime reported d018c1f2c892bd36f8ba7e9c85ee0430da348a17, behind audited merged source.",
+      "evidence": "runtime-probes.json",
+      "severity": "HIGH"
+    },
+    {
+      "code": "PUBLICATION_NOT_ATTESTED",
+      "detail": "Canonical writer is a11oy; routing/delegation receipts explicitly set deployment_claimed=false. Shared deploy/app.py still exposes v1 finance.",
+      "evidence": "workflow-artifacts",
+      "severity": "HIGH"
+    }
+  ],
+  "schema": "szl.finance-deployment-gaps/v1",
+  "source": {
+    "head_sha": "6b933730bfe1c2a875321f7265d868ae943bbd3d",
+    "head_signature": "unsigned",
+    "merge_sha": "f487dc0fdc71af52841e3634bf7b9c6bf9fb6448",
+    "merge_signature": "github_verified_valid",
+    "merged_at": "2026-09-24T12:16:45Z",
+    "number": 42,
+    "post_merge_ci": "SUCCESS",
+    "post_merge_runs": [
+      35998052736,
+      35998053626
+    ],
+    "post_merge_workflow": "SUCCESS_WITH_DELEGATED_PUBLICATION",
+    "pr_executed_checks_success": 11,
+    "pr_publication_checks_skipped": 4,
+    "reviewed_and_merged_tree_identical": true,
+    "state": "MERGED_THIS_RUN",
+    "tree_sha": "0ec704355713347ec9af2f05e232b01da9fbb278",
+    "url": "https://github.com/szl-holdings/vertical-services/pull/42"
+  }
+}

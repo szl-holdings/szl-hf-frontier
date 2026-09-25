@@ -1,0 +1,16 @@
+{
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "adapter_config.json",
+    "adapter_model.safetensors",
+    "chat_template.jinja",
+    "gate_report.json",
+    "processor_config.json",
+    "requirements-lock.txt",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "training_args.bin"
+  ],
+  "revision": "24b5c44494434e88b89d9915daad32f1f8e8d03d"
+}

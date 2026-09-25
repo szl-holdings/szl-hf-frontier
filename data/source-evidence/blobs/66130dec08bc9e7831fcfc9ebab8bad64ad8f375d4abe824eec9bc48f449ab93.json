@@ -1,0 +1,9 @@
+{
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "szl_dataset.jsonl"
+  ],
+  "revision": "b11a9d6abe332fa4add8c58feed35b66f75304b8"
+}

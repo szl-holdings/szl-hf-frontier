@@ -1,0 +1,31 @@
+{
+  "files": [
+    ".devcontainer/devcontainer.json",
+    ".editorconfig",
+    ".gitattributes",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "DEPRECATED.md",
+    "LICENSE",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "SECURITY.md",
+    "SZL_ESTATE_MANAGED.json",
+    "bom/model-bom.cdx.json",
+    "build.toml",
+    "build/torch-universal/governed_inference_meter/__init__.py",
+    "build/torch-universal/governed_inference_meter/_attest.py",
+    "build/torch-universal/governed_inference_meter/_energy.py",
+    "build/torch-universal/governed_inference_meter/_policy.py",
+    "build/torch-universal/governed_inference_meter/_receipt.py",
+    "build/torch-universal/governed_inference_meter/_spine.py",
+    "build/torch-universal/governed_inference_meter/metadata.json",
+    "pyproject.toml",
+    "tests/test_attest.py",
+    "tests/test_chain_hardening.py",
+    "tests/test_meter.py",
+    "tests/test_signing.py",
+    "tests/test_spine.py"
+  ],
+  "revision": "5049f8ec259a5356d5b8eeaf11b85d3e9c1fea74"
+}

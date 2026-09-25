@@ -25,6 +25,8 @@ jobs:
         run: python3 payload.py
       - name: Offline regression tests
         run: python3 -m unittest discover -v
+      - name: Verify public estate evidence without promotion
+        run: python3 tools/verify_estate_evidence.py
       - name: Estate operational selftest
         run: python3 szl_estate_operational.py --selftest
       - name: All-wave closer

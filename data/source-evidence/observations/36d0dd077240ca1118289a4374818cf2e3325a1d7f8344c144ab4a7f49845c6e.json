@@ -1,0 +1,20 @@
+{
+  "card": "---\ntitle: SZL Atelier\nemoji: \ud83e\udea2\ncolorFrom: gray\ncolorTo: green\nsdk: docker\napp_port: 7860\nsuggested_hardware: cpu-basic\npinned: true\nlicense: apache-2.0\nshort_description: Walk 40 SZLHOLDINGS models. Unique cuts. Fail closed.\ntags:\n  - governed-ai\n  - szl-holdings\n  - doctrine-v11\n  - model-card\n  - receipts\n  - docker\n  - fastapi\n  - python\nmodels: [SZLHOLDINGS/SZL-Khipu-1.5B, SZLHOLDINGS/SZL-Khipu-1.5B-GGUF, SZLHOLDINGS/SZL-Forge-1.5B-ReceiptAgent, SZLHOLDINGS/chaski, SZLHOLDINGS/MiniEmbed-Nano, SZLHOLDINGS/Moons-Nano, SZLHOLDINGS/TinyKhipu-Nano, SZLHOLDINGS/ReceiptAgent-Nano]\ndatasets: [SZLHOLDINGS/szl-lake]\n---\n\n# SZL Atelier\n\nWalk every Hugging Face model id under [SZLHOLDINGS](https://huggingface.co/SZLHOLDINGS). Forty cards. Unique cuts. GitHub-aligned Python. Kernel playgrounds that run in the browser.\n\nYAML `emoji` is Hub metadata, not product chrome. System fonts. No Google Fonts. Gold is OPEN. Never green-as-proven. Never a fabricated joule.\n\n**Runtime target:** Docker on Hugging Face Spaces. Canonical surface: [SZLHOLDINGS/szl-atelier](https://huggingface.co/spaces/SZLHOLDINGS/szl-atelier).\n\n| Origin | Role |\n|---|---|\n| [szl-holdings/szl-atelier](https://github.com/szl-holdings/szl-atelier) | Source of this Space |\n| [a11oy.net/atelier](https://a11oy.net/atelier/) | Proof-registry copy |\n| [a-11-oy.com/atelier](https://a-11-oy.com/atelier) | Product surface |\n| [SZLHOLDINGS/szl-khipu](https://huggingface.co/spaces/SZLHOLDINGS/szl-khipu) | Sibling Gradio hologram |\n\n## Runtime contract\n\nThe frontend and Python backend are served from one origin. `/healthz` proves that the FastAPI process is responding; `/readyz` fails closed unless the catalog and release manifest are present and the expected 40 records load; `/api/build-info` reports hashes for the bytes served by the container. `/api/frontier/verify` validates the structure and scope of browser-generated frontier receipts without pretending that a local measurement is a production deployment or a cryptographic signature.\n\nReceipt persistence is **NOT CONFIGURED**. Verification requests are not stored. Provider repository state and served runtime state remain separate evidence and are checked during release.\n\n## The cut\n\nAnthropic taught refuse. NVIDIA taught kernels and joules. Unsloth taught cheap QLoRA. SZL spends all three on a typed plan, a fail-closed gate, and a training receipt you can verify without trusting us.\n\n## Honesty\n\n| Claim | Label |\n|---|---|\n| 40 Hub model ids | HUB |\n| Python API and readiness contract | RUNTIME-OBSERVED only when `/readyz` returns 200 |\n| Nano silhouettes (moons, embed, tiny-khipu, receipt, \u03bb*) | MEASURED in this Space |\n| SZL-Khipu-1.5B plan-valid 11/11, grounding 4/5, abstain 2/6, hallu 0 | SIGNED \u2014 not retrained here |\n| MiniEmbed hit@2 0.40 | SAMPLE on five pairs. Hub analogy UNAVAILABLE |\n| \u039b uniqueness | Conjecture 1 OPEN |\n| Energy / CUDA | UNAVAILABLE |\n| GGUF | derived, never the signed object |\n\nDoctrine v11 LOCKED \u00b7 749/14/163 \u00b7 locked-proven 8. Apache-2.0. Copyright 2026 SZL Holdings \u00b7 Stephen P. Lutar Jr. \u00b7 ORCID [0009-0001-0110-4173](https://orcid.org/0009-0001-0110-4173).\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 3156,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/60a8329d5f7d8088a487546f0d8a39d47e17364e592b7fffb3fb3a94c7c13591.md",
+      "revision": "508ec8995b9be199f4bba26a7e98951e388a159e",
+      "sha256": "60a8329d5f7d8088a487546f0d8a39d47e17364e592b7fffb3fb3a94c7c13591",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-atelier/blob/508ec8995b9be199f4bba26a7e98951e388a159e/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-atelier",
+  "observed_at": "2026-09-25T15:21:10Z",
+  "observed_revision": "508ec8995b9be199f4bba26a7e98951e388a159e"
+}

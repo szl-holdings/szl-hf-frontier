@@ -1,0 +1,992 @@
+[
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 1,
+    "metadata_observed_at": "2026-09-25T15:20:09.735861Z",
+    "path": "SZLHOLDINGS/a11oy",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-a11oy.hf.space",
+          "stage": "READY"
+        },
+        {
+          "domain": "a-11-oy.com",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "6ce4a2a828280a5cf861742e5001c492bc70a3f2",
+      "stage": "RUNNING",
+      "volumes": [
+        {
+          "configuredByUserId": "69ec7d565e5561c3b16baba8",
+          "mountPath": "/data",
+          "readOnly": false,
+          "source": "SZLHOLDINGS/szl-evidence",
+          "type": "bucket"
+        }
+      ]
+    },
+    "sdk": "docker",
+    "sha": "6ce4a2a828280a5cf861742e5001c492bc70a3f2",
+    "tags": [
+      "docker",
+      "governance",
+      "agentic-ai",
+      "doctrine-v11",
+      "a11oy",
+      "slsa-l1",
+      "apache-2.0",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-20T16:16:10.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-25T15:20:10.220464Z",
+    "path": "SZLHOLDINGS/ayllu",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-ayllu.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "8cc7b9a6a3528f12155b36d16140d8e2b5b99d5c",
+      "stage": "RUNNING"
+    },
+    "sdk": "docker",
+    "sha": "8cc7b9a6a3528f12155b36d16140d8e2b5b99d5c",
+    "tags": [
+      "docker",
+      "agent-council",
+      "holographic",
+      "governance",
+      "fail-closed",
+      "quechua",
+      "legal",
+      "neural-symbolic",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-14T02:00:56.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-25T15:20:09.719768Z",
+    "path": "SZLHOLDINGS/counsel",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-counsel.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 0,
+        "requested": 1
+      },
+      "sha": "0c33ee1f40c4a76dda5fef6336a40e61ad6aaad5",
+      "stage": "RUNNING"
+    },
+    "sdk": "docker",
+    "sha": "0c33ee1f40c4a76dda5fef6336a40e61ad6aaad5",
+    "tags": [
+      "docker",
+      "szl-holdings",
+      "governed-ai",
+      "counsel",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-19T22:26:10.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-25T15:20:09.882101Z",
+    "path": "SZLHOLDINGS/david-leads",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-david-leads.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "0b16cc2d47396e880f5a3525a48092305f35f6e0",
+      "stage": "RUNNING"
+    },
+    "sdk": "docker",
+    "sha": "0b16cc2d47396e880f5a3525a48092305f35f6e0",
+    "tags": [
+      "docker",
+      "insurance",
+      "lead-intelligence",
+      "public-data",
+      "receipts",
+      "governance",
+      "szl-holdings",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-25T12:37:09.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-25T15:20:09.824639Z",
+    "path": "SZLHOLDINGS/finance",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-finance.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "9cfb48482cf8d717b3d4998fbbe222d1701f8ced",
+      "stage": "RUNNING"
+    },
+    "sdk": "docker",
+    "sha": "9cfb48482cf8d717b3d4998fbbe222d1701f8ced",
+    "tags": [
+      "docker",
+      "szl-holdings",
+      "governed-ai",
+      "finance",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-19T22:26:12.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-25T15:20:10.334532Z",
+    "path": "SZLHOLDINGS/holographic-unify",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-holographic-unify.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "c206b2c93b8b9693ee136f7ab13f37fe31d13bf7",
+      "stage": "RUNNING"
+    },
+    "sdk": "docker",
+    "sha": "c206b2c93b8b9693ee136f7ab13f37fe31d13bf7",
+    "tags": [
+      "docker",
+      "governed-ai",
+      "hologram",
+      "peft",
+      "vllm",
+      "ayllu",
+      "szl-holdings",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-12T09:33:59.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-25T15:20:10.071408Z",
+    "path": "SZLHOLDINGS/immune",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-immune.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "6aa234f3cb575b8d1b2122e1c8b4476da122a454",
+      "stage": "RUNNING"
+    },
+    "sdk": "docker",
+    "sha": "6aa234f3cb575b8d1b2122e1c8b4476da122a454",
+    "tags": [
+      "docker",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-25T00:22:36.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-25T15:20:09.986035Z",
+    "path": "SZLHOLDINGS/immune-lattice",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-immune-lattice.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "6237ab5b88e71388ba161c22eff0e6f72e1951a8",
+      "stage": "RUNNING"
+    },
+    "sdk": "docker",
+    "sha": "6237ab5b88e71388ba161c22eff0e6f72e1951a8",
+    "tags": [
+      "docker",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-04T20:25:41.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 2,
+    "metadata_observed_at": "2026-09-25T15:20:09.767991Z",
+    "path": "SZLHOLDINGS/killinchu",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-killinchu.hf.space",
+          "stage": "READY"
+        },
+        {
+          "domain": "killinchu.a-11-oy.com",
+          "stage": "EXPIRED_CHALLENGE"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "daeb8bb9c0cfcfe63ac26aeb770e48f0f7cf14da",
+      "stage": "RUNNING"
+    },
+    "sdk": "docker",
+    "sha": "daeb8bb9c0cfcfe63ac26aeb770e48f0f7cf14da",
+    "tags": [
+      "docker",
+      "doctrine-v11",
+      "defense",
+      "drone-intelligence",
+      "counter-uas",
+      "szl-holdings",
+      "agentic-ai",
+      "dsse",
+      "slsa-l1",
+      "apache-2.0",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-24T21:55:38.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-25T15:20:10.290557Z",
+    "path": "SZLHOLDINGS/llm-router-live",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-llm-router-live.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "cfbbf7e62317404561b9565c0021e7c4a391a9ea",
+      "stage": "RUNNING"
+    },
+    "sdk": "docker",
+    "sha": "cfbbf7e62317404561b9565c0021e7c4a391a9ea",
+    "tags": [
+      "docker",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-24T21:55:16.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-25T15:20:09.824639Z",
+    "path": "SZLHOLDINGS/lyte",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-lyte.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "94734aeddcd326d4975abd1d17519a62a53a7c88",
+      "stage": "RUNNING"
+    },
+    "sdk": "docker",
+    "sha": "94734aeddcd326d4975abd1d17519a62a53a7c88",
+    "tags": [
+      "docker",
+      "observability",
+      "business-observability",
+      "opentelemetry",
+      "ai-agents",
+      "sre",
+      "governed-ai",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-11T22:24:51.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-25T15:20:09.707984Z",
+    "path": "SZLHOLDINGS/README",
+    "private": false,
+    "runtime": {
+      "hardware": {
+        "current": null,
+        "requested": null
+      },
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "stage": "RUNNING"
+    },
+    "sdk": "static",
+    "sha": "9fe1342bf64f61cef2bc351415528662b08cdf42",
+    "tags": [
+      "static",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-22T05:54:29.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-25T15:20:09.735861Z",
+    "path": "SZLHOLDINGS/sentra",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-sentra.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "3d12dbc89d7fdc14906af6e43a3bbb6762e3aa8c",
+      "stage": "RUNNING"
+    },
+    "sdk": "docker",
+    "sha": "3d12dbc89d7fdc14906af6e43a3bbb6762e3aa8c",
+    "tags": [
+      "docker",
+      "szl-holdings",
+      "governed-ai",
+      "sentra",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-19T22:26:08.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-25T15:20:10.301031Z",
+    "path": "SZLHOLDINGS/szl-atelier",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-szl-atelier.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "7227d60fe95becee74bb6ac46acb8b8765b720bd",
+      "stage": "RUNNING"
+    },
+    "sdk": "docker",
+    "sha": "7227d60fe95becee74bb6ac46acb8b8765b720bd",
+    "tags": [
+      "docker",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-20T00:25:56.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-25T15:20:09.859234Z",
+    "path": "SZLHOLDINGS/szl-command-lab",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-szl-command-lab.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "ca01073d30f2b2c6de1190e3659ecf08702fc633",
+      "stage": "RUNNING"
+    },
+    "sdk": "docker",
+    "sha": "ca01073d30f2b2c6de1190e3659ecf08702fc633",
+    "tags": [
+      "docker",
+      "governed-ai",
+      "ai-governance",
+      "provenance",
+      "inference",
+      "kernels",
+      "evidence",
+      "agentic-ai",
+      "szl-holdings",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-12T09:10:05.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-25T15:20:09.848760Z",
+    "path": "SZLHOLDINGS/szl-constellation",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-szl-constellation.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "de68f6e0aa84e8d62534ce5259d16c395eceeb6a",
+      "stage": "RUNNING"
+    },
+    "sdk": "gradio",
+    "sha": "de68f6e0aa84e8d62534ce5259d16c395eceeb6a",
+    "tags": [
+      "gradio",
+      "szl",
+      "governed-ai",
+      "receipts",
+      "holographic",
+      "constellation",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-25T01:01:10.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-25T15:20:10.374514Z",
+    "path": "SZLHOLDINGS/szl-constellation-staging",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-szl-constellation-staging.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "cbe6cec1bbd496952a40e6f82d25eca0d5fcaa09",
+      "stage": "RUNNING"
+    },
+    "sdk": "gradio",
+    "sha": "cbe6cec1bbd496952a40e6f82d25eca0d5fcaa09",
+    "tags": [
+      "gradio",
+      "szl",
+      "governed-ai",
+      "receipts",
+      "holographic",
+      "constellation",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-25T00:43:26.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-25T15:20:09.950894Z",
+    "path": "SZLHOLDINGS/szl-frontier",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-szl-frontier.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "04d99222b5741bdb275d06170ba1a58616ede42a",
+      "stage": "RUNNING"
+    },
+    "sdk": "docker",
+    "sha": "04d99222b5741bdb275d06170ba1a58616ede42a",
+    "tags": [
+      "docker",
+      "governance",
+      "agentic-ai",
+      "doctrine-v11",
+      "a11oy",
+      "memory-covenant",
+      "apache-2.0",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-24T21:56:21.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-25T15:20:10.199461Z",
+    "path": "SZLHOLDINGS/szl-khipu",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-szl-khipu.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde",
+      "stage": "RUNNING"
+    },
+    "sdk": "docker",
+    "sha": "bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde",
+    "tags": [
+      "docker",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-24T13:50:15.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-25T15:20:09.948895Z",
+    "path": "SZLHOLDINGS/szl-model-inference-lab",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-szl-model-inference-lab.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "bdc5af2ee3a9df79476bf9494ecde2912c17cfd4",
+      "stage": "RUNNING"
+    },
+    "sdk": "docker",
+    "sha": "bdc5af2ee3a9df79476bf9494ecde2912c17cfd4",
+    "tags": [
+      "docker",
+      "gguf",
+      "llama.cpp",
+      "cpu",
+      "provenance",
+      "bounded-inference",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-05T16:28:17.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-25T15:20:09.734861Z",
+    "path": "SZLHOLDINGS/terra",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-terra.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "173b7d561f2ac14a5c8e0b704e46bfc6403e1f58",
+      "stage": "RUNNING"
+    },
+    "sdk": "docker",
+    "sha": "173b7d561f2ac14a5c8e0b704e46bfc6403e1f58",
+    "tags": [
+      "docker",
+      "szl-holdings",
+      "governed-ai",
+      "terra",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-19T22:26:06.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-25T15:20:09.847731Z",
+    "path": "SZLHOLDINGS/vertical-services",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-vertical-services.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "9eca173122ea06725a1b6d2c041385be1706580e",
+      "stage": "RUNNING"
+    },
+    "sdk": "docker",
+    "sha": "9eca173122ea06725a1b6d2c041385be1706580e",
+    "tags": [
+      "docker",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-08T07:22:27.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-25T15:20:10.302029Z",
+    "path": "SZLHOLDINGS/yarqa",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-yarqa.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "8a6a273b3081a9783e50ecfacdd2e4cca05ea024",
+      "stage": "RUNNING"
+    },
+    "sdk": "docker",
+    "sha": "8a6a273b3081a9783e50ecfacdd2e4cca05ea024",
+    "tags": [
+      "docker",
+      "fluid-dynamics",
+      "compartment-models",
+      "provenance",
+      "governed-ai",
+      "szl-holdings",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-24T21:48:16.000Z"
+  }
+]

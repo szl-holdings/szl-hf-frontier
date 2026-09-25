@@ -1,0 +1,49 @@
+{
+  "card": "---\nlibrary_name: kernels\nlicense: apache-2.0\ntags:\n- kernel\n- governance\n- invariants\n- provenance\n- receipts\n- ed25519\n- doi:10.5281/zenodo.19944926\nszl-governance:\n  verdict: ADVISORY\n  lambda: Conjecture 1 (open) \u2014 uniqueness unproven; untouched by these invariants; advisory only\n  provenance: recomputes the a11oy receipt/ledger self-consistency invariants offline\n  honest_blocked: a VIOLATED invariant stays VIOLATED \u2014 statuses are never coerced to a pass\n---\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/szl-holdings/szl-forge/main/szl-invariants/card/holo-banner.svg\" alt=\"szl-invariants \u2014 the eight invariants as a hologram: eight interlocked links\" width=\"100%\"/>\n</p>\n\n<!-- SZL-KERNEL-OPERATIONAL:START -->\n## Operational (MEASURED laptop-Blackwell)\n\n> **STATUS:** tests **PASS**. `get_kernel` **import-LIVE**. Unsloth/LoRA is the wrong tool. Receipted kernels, not silent CUDA.\n\n| Thing | Label | Method / N / date / what-NOT |\n|---|---|---|\n| tests (`PYTHONPATH=torch-ext`) | **PASS** | MEASURED 2026-08-29T15:54:00Z host `betterwithage` Windows-10-10.0.26200-SP0. torch `2.10.0+cu128`. GPU `NVIDIA GeForce RTX 5050 Laptop GPU` arch `Blackwell`. pytest `16 passed in 0.07s`. Failed nodes: `none`. What-NOT: not a leaderboard. torch.compile fullgraph failures on Windows Blackwell (`cl is not found`) are MEASURED, not hidden. |\n| Kernel Hub `get_kernel` | **import-LIVE** | kernels `0.16.1`. Default: `get_kernel(\"SZLHOLDINGS/szl-invariants\", revision=\"main\", trust_remote_code=True)` \u2192 `True`. `backend=\"cpu\"` \u2192 `True`. trust_remote_code=False \u2192 `ValueError` (SZLHOLDINGS is not a trusted publisher). repo_type=kernel required (kernels 0.16). What-NOT: not a weight load; do not pickle/joblib.load. |\n| formula-tax | **ADVISORY** | locked-8 `F1 F4 F7 F11 F12 F18 F19 F22`. registry_count=21. \u039b geomean `1.0`. uniqueness **Conjecture 1** (never a theorem). |\n| I1\u2013I8 | **catalog** | `I1 receipt-chain-continuity; I2 ledger-failure-shape; I3 served-run-has-model; I4 signed-columns-atomic; I5 loop-steps-positive; I6 receipt-ed25519-verify; I7 receipt-columns-consistent; I8 flywheel-lineage`. Executed by `SZLHOLDINGS/szl-invariants`. Statuses never coerced. \u039b untouched. |\n| CUDA speedup / tokens/s / joules | **UNAVAILABLE** | Not claimed. Receipted kernels, not silent CUDA. |\n\nGitHub source: [`szl-holdings/szl-invariants`](https://github.com/szl-holdings/szl-invariants) @ `0a1e6bdeaf4d7515bbbf4ca37c3c838a4f293542`. Artifacts: [`BENCH.laptop-blackwell.json`](./BENCH.laptop-blackwell.json), [`OPERATIONAL.json`](./OPERATIONAL.json).\n\n```python\nfrom kernels import get_kernel\nk = get_kernel(\"SZLHOLDINGS/szl-invariants\", revision=\"main\", trust_remote_code=True)\n```\n\n<!-- SZL-KERNEL-OPERATIONAL:END -->\n\n\n# szl-invariants\n\n**The cut, in one line:** a violated check stays violated \u2014 the card you cannot sweet-talk.\n\nEight falsifiable receipt/ledger invariants, offline. **Not a model. No weights.**\n\n**IS:** a pure-Python, stdlib-only governance kernel that replays the same eight checks the a11oy backbone runs at `/api/invariants` over a ledger JSONL you already hold. Public API: `run_invariants`, `load_jsonl`, `verify_ed25519`, `selfcheck`. Statuses `HOLDS / VIOLATED / KEY_ROTATED / NO_DATA / UNAVAILABLE` are first-class.\n\n**IS NOT:** trained weights or a LoRA. Not a CUDA bench. Passing `selfcheck` is not an eval leaderboard. Hub `model.joblib` is **QUARANTINED** executable serialization \u2014 do not `joblib.load` it. These checks do not prove the export is complete.\n\nCanonical GitHub source: https://github.com/szl-holdings/szl-invariants  \nHub package: https://huggingface.co/kernels/SZLHOLDINGS/szl-invariants  \nThis model-type repo is the publish / card mirror. Apache-2.0.\n\n```python\n\n\n<!-- SZL-ATELIER-CUT:v1:START -->\n## The cut\n\nChecksums are optional. Ours are the product. If the signature fails, the model is not the model.\n\nWeights that are invalid if unsigned \u2014 at load time, not at audit time.\n\n### Silhouette \u2192 leave \u2192 SZL\n\n| Leader | Take, then tweak |\n|---|---|\n| Anthropic | Trust, but here we verify. |\n| NVIDIA | Supply-chain (signed containers) applied to tensors. |\n| Unsloth | After merge, sign. Not during QLoRA. |\n\nNobody else ships this combination. That is the point of a one-of-one.\n\n## Intended use\n\nLoad-time invariant check.\n\n## Limitations\n\n- Proves integrity and origin, never accuracy.\n\nCanonical GitHub: [`szl-holdings/szl-invariants`](https://github.com/szl-holdings/szl-invariants/blob/main/README.md)\n<!-- SZL-ATELIER-CUT:v1:END -->\n\nfrom kernels import get_kernel\ninv = get_kernel(\"SZLHOLDINGS/szl-invariants\", revision=\"main\", trust_remote_code=True)\nreport = inv.run_invariants(inv.load_jsonl(\"runs_export.jsonl\"),\n    samples=inv.load_jsonl(\"training_samples.jsonl\"), pubkey=\"<SPKI base64>\")\nprint(report[\"summary\"])\nprint(inv.selfcheck())\n```\n\nThe eight ids: `receipt-chain-continuity`, `ledger-failure-shape`, `served-run-has-model`, `signed-columns-atomic`, `loop-steps-positive`, `receipt-ed25519-verify`, `receipt-columns-consistent`, `flywheel-lineage`. Missing pubkey \u2192 #6 UNAVAILABLE; missing samples \u2192 #8 UNAVAILABLE.\n\n\u039b is not touched here and stays Conjecture 1. Doctrine v11. Copyright 2026 SZL Holdings \u00b7 Stephen P. Lutar \u00b7 ORCID [0009-0001-0110-4173](https://orcid.org/0009-0001-0110-4173).\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 606,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/a28c3a855322981a6083f5c290830b804bf2738cf57701e3731b949f69360298.json",
+      "revision": "c218f1a7eed7ec1b8a06a2997e49ffe9e339a71c",
+      "sha256": "a28c3a855322981a6083f5c290830b804bf2738cf57701e3731b949f69360298",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-invariants/revision/c218f1a7eed7ec1b8a06a2997e49ffe9e339a71c"
+    },
+    {
+      "bytes": 5329,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/2aba4c02ced50eacc504c8f6c8267d1c0b89ac36889da49bf2187437d627e96c.md",
+      "revision": "c218f1a7eed7ec1b8a06a2997e49ffe9e339a71c",
+      "sha256": "2aba4c02ced50eacc504c8f6c8267d1c0b89ac36889da49bf2187437d627e96c",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/SZLHOLDINGS/szl-invariants/resolve/c218f1a7eed7ec1b8a06a2997e49ffe9e339a71c/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "BENCH.laptop-blackwell.json",
+    "LICENSE",
+    "MODEL_PROVENANCE.json",
+    "OPERATIONAL.json",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "SECURITY.md",
+    "SZL_ESTATE_MANAGED.json",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "build.toml",
+    "build/torch-universal/szl_invariants/__init__.py",
+    "build/torch-universal/szl_invariants/metadata.json",
+    "card/holo-banner.svg",
+    "scripts/eval.py",
+    "scripts/forge.py",
+    "tests/test_invariants.py"
+  ],
+  "id": "huggingface-model/szlholdings/szl-invariants",
+  "observed_at": "2026-09-25T15:21:22Z",
+  "observed_revision": "c218f1a7eed7ec1b8a06a2997e49ffe9e339a71c"
+}

@@ -1,0 +1,20 @@
+{
+  "card": "---\ntitle: SZL KHIPU lab\nemoji: \ud83e\udea2\ncolorFrom: yellow\ncolorTo: gray\nsdk: docker\napp_port: 7860\npinned: false\nlicense: apache-2.0\nshort_description: Knot the run. Hash the proof. Fail closed.\ntags:\n  - governed-ai\n  - khipu\n  - receipts\n  - lambda-gate\n  - szl-holdings\n---\n\n<!-- SZL-ESTATE-CARD:v2:START -->\n<p align=\"center\"><a href=\"https://a-11-oy.com/\"><img src=\"https://huggingface.co/spaces/SZLHOLDINGS/README/resolve/main/assets/estate-banner-v2.svg\" alt=\"SZL Holdings \u2014 governed, receipted, verifiable\" width=\"100%\"></a></p>\n<p align=\"center\">\n  <a href=\"https://github.com/szl-holdings/.github/tree/main/doctrine\"><img src=\"https://img.shields.io/badge/doctrine-v11%20LOCKED-0B1F3A?style=flat-square\" alt=\"doctrine v11\"></a>\n  <a href=\"https://huggingface.co/spaces/SZLHOLDINGS/szl-khipu\"><img src=\"https://img.shields.io/badge/kernel-szl--khipu-3AF4C8?style=flat-square\" alt=\"szl-khipu kernel\"></a>\n  <a href=\"https://github.com/szl-holdings/khipu-lab\"><img src=\"https://img.shields.io/badge/source-szl--holdings%2Fkhipu--lab-3A414C?style=flat-square\" alt=\"GitHub source\"></a>\n</p>\n<p align=\"center\"><sub>Part of the <a href=\"https://huggingface.co/SZLHOLDINGS\">SZL Holdings</a> governed estate \u2014 claims are designed to carry checkable receipts. Verification proves integrity & origin, never accuracy or performance.</sub></p>\n<!-- SZL-ESTATE-CARD:v2:END -->\n\n# SZL KHIPU lab\n\n> **Knot the run. Hash the proof. Fail closed.**\n\nInteractive atlas of the SZL governed kernels. Tiny models actually train in\nthe browser. Receipts are SHA-256. Energy is UNAVAILABLE. \u039b uniqueness is\n**Conjecture 1 \u2014 OPEN**. `proven_trust` is always false.\n\nThis is the lab surface. The Python kernel lives in\n[szl-holdings/szl-khipu](https://github.com/szl-holdings/szl-khipu) and on\nHub as [SZLHOLDINGS/szl-khipu](https://huggingface.co/SZLHOLDINGS/szl-khipu).\n\n## What it is\n\n- Field-leader table with honest deltas (TileReceipt, BlockWitness, ScoreMod, YARQA, \u039b-gate).\n- Labs that run in the browser: \u039b, YARQA, anatomy, TinyKhipu, ReceiptAgent, moons, MiniEmbed, blocked, khipu.\n- ARM the estate: one click trains the silhouettes and mints receipts.\n- Inspect cards for models, formulas, rails, and plays.\n\n## What it is NOT\n\n- Not Qwen. Not 1.5B. Not a FlashAttention rehost.\n- Not proven trust. Not a fabricated joule.\n- Locked-proven formulas stay **exactly 8**. Lab numerics CHECKED \u2260 Lean PROVEN.\n\n## Honesty\n\n| Claim | Status |\n|---|---|\n| CPU / browser kernels | LIVE |\n| CUDA | UNAVAILABLE |\n| Energy | UNAVAILABLE |\n| \u039b uniqueness | Conjecture 1 OPEN |\n| proven_trust | false |\n\nApache-2.0 \u00b7 Doctrine v11 LOCKED.\n\n## Source\n\n- GitHub: [szl-holdings/khipu-lab](https://github.com/szl-holdings/khipu-lab)\n- Kernel: [szl-holdings/szl-khipu](https://github.com/szl-holdings/szl-khipu)\n- Anatomy atlas: [szl-holdings/anatomy](https://github.com/szl-holdings/anatomy)\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 2877,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/4b2af3309c0e96253c50344ae07af7b2df20fa9fc4267636bb290212a36bf624.md",
+      "revision": "d0a3a20bdbc7ad240626454355a078bb91b03fdd",
+      "sha256": "4b2af3309c0e96253c50344ae07af7b2df20fa9fc4267636bb290212a36bf624",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/khipu-lab/blob/d0a3a20bdbc7ad240626454355a078bb91b03fdd/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/khipu-lab",
+  "observed_at": "2026-09-25T15:21:07Z",
+  "observed_revision": "d0a3a20bdbc7ad240626454355a078bb91b03fdd"
+}

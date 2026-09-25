@@ -1,0 +1,42 @@
+{
+  "card": "---\ntitle: PRISM Counsel\nemoji: \ud83d\udef0\ufe0f\ncolorFrom: gray\ncolorTo: blue\nsdk: docker\napp_port: 7860\npinned: true\nlicense: apache-2.0\nshort_description: \"Matter workspace for research, drafting, and verification\"\ntags:\n  - szl-holdings\n  - governed-ai\n  - counsel\n---\n\n# PRISM Counsel\n\nLEGAL MATTER INTELLIGENCE flagship for SZL Holdings.\n\nThis Space uses **Domain Experience v4**: an original, domain-specific interface over the shared governed vertical runtime. Runtime claims fail closed to `UNAVAILABLE`; evidence states are never collapsed.\n\n\nCanonical product source: https://github.com/szl-holdings/a11oy/tree/main/verticals/counsel\n\nDeployment controller: https://github.com/szl-holdings/a11oy\n\nPortfolio: https://a-11-oy.com/products/\n\nLicense: Apache-2.0. Public Experience: `4.0.0`.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 307,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/b4be6f18aed6948786618f1fcd7ab1f3ec589694478bc3a9b57d29101a516890.json",
+      "revision": "0c33ee1f40c4a76dda5fef6336a40e61ad6aaad5",
+      "sha256": "b4be6f18aed6948786618f1fcd7ab1f3ec589694478bc3a9b57d29101a516890",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/counsel/revision/0c33ee1f40c4a76dda5fef6336a40e61ad6aaad5"
+    },
+    {
+      "bytes": 790,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/28fc53cdaf36c740505916b87d596cd686558c54130f70b63f21fd5f2fdcc625.md",
+      "revision": "0c33ee1f40c4a76dda5fef6336a40e61ad6aaad5",
+      "sha256": "28fc53cdaf36c740505916b87d596cd686558c54130f70b63f21fd5f2fdcc625",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/counsel/resolve/0c33ee1f40c4a76dda5fef6336a40e61ad6aaad5/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "Dockerfile",
+    "GOVERNANCE.md",
+    "README.md",
+    "SPACE_PROVENANCE_FRONTIER.json",
+    "allodial.py",
+    "app.py",
+    "config.json",
+    "index.html",
+    "panels.html",
+    "requirements.txt"
+  ],
+  "id": "huggingface-space/szlholdings/counsel",
+  "observed_at": "2026-09-25T15:21:25Z",
+  "observed_revision": "0c33ee1f40c4a76dda5fef6336a40e61ad6aaad5"
+}

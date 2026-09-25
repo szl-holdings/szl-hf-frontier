@@ -1,0 +1,20 @@
+{
+  "card": "---\ntitle: Lambda Gate - Conjecture 1, never green\nemoji: \"\u2696\ufe0f\"\ncolorFrom: yellow\ncolorTo: gray\nsdk: static\napp_file: index.html\npinned: false\nlicense: apache-2.0\nshort_description: The Lambda trust gate - Conjecture 1, never a theorem\ntags:\n  - governance\n  - lambda\n  - conjecture\n  - honest-by-design\n  - holographic\n---\n\n# lambda-gate-holo\n\nA holographic visual explainer of **\u039b (Lambda)**, the advisory governance-trust gate \u2014 status\n**Conjecture 1, never a theorem, never green.** The unproven-ness is the whole point: a\ngovernance number that pretended to be proven would be the dishonest one.\n\n**Status:** ROADMAP \u2192 **LIVE**. Shipped as a static Hugging Face Space:\n**[SZLHOLDINGS/lambda-gate-holo](https://huggingface.co/spaces/SZLHOLDINGS/lambda-gate-holo)**\n\u2192 <https://szlholdings-lambda-gate-holo.static.hf.space>\n\n## What it does (sourced EXACTLY from the ledger)\n\nReads \u039b's status **live and keyless** from the machine-checked\n[`szl-formula-ledger`](https://github.com/szl-holdings/szl-formula-ledger)\n(`ledger.json` + `formulas/corpus.json`) and renders:\n\n- The verbatim ledger statement of entry **`TH_L1-lambda-uniqueness`**.\n- \u2b21 \u039b uniqueness \u2014 **CONJECTURE-1** (ledger machine-check: `UNCHECKABLE by doctrine \u00b7 never CHECKED`).\n- \u2717 Unconditional uniqueness \u2014 **machine-checked FALSE** (maxAgg counterexample; kept on record).\n- \u25d0 Conditional **Theorem U** \u2014 proven (axiom-free), strictly weaker than the conjecture.\n- \u2713 \u039b is **dimensionless** \u2014 CHECKED (`lambda-score-dimensionless`).\n\n## Honesty labels\n\n- **REPORTED** \u2014 the ledger record is relayed, not re-proven here.\n- **UNAVAILABLE** \u2014 if the ledger is unreachable the page says so; \u039b stays **Conjecture 1** by\n  doctrine regardless \u2014 never a theorem, never green, trust ceiling **0.97, never 100%**.\n\n## Build\n\n`index.html` is a self-contained static page \u2014 **0 runtime CDN**, system fonts only, data\nfetched client-side at view time. No build step.\n\n## License\n\nApache-2.0 (see [LICENSE](LICENSE)) \u2014 matching the SZL Holdings estate.\n\n---\n\nPart of the SZL Holdings estate \u00b7 [a-11-oy.com](https://a-11-oy.com) \u00b7\n[lutar-lean](https://github.com/szl-holdings/lutar-lean) \u00b7 \u039b = Conjecture 1, never a theorem.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 2226,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/926bda459f786ca5be71be821c38afebdf079ad01b43d45041606ecf699b6d2b.md",
+      "revision": "0303c8ae0d81b4912f01dc59a6a47d5447c32768",
+      "sha256": "926bda459f786ca5be71be821c38afebdf079ad01b43d45041606ecf699b6d2b",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/lambda-gate-holo/blob/0303c8ae0d81b4912f01dc59a6a47d5447c32768/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/lambda-gate-holo",
+  "observed_at": "2026-09-25T15:21:08Z",
+  "observed_revision": "0303c8ae0d81b4912f01dc59a6a47d5447c32768"
+}

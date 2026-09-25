@@ -1,0 +1,46 @@
+{
+  "card": "---\ntitle: IMMUNE \u2014 Verifiable AI Defense Matrix\nemoji: \ud83d\udee1\ufe0f\ncolorFrom: green\ncolorTo: blue\nshort_description: Fail-closed kernel. YAWAR seals Lorenz OP on hashes.\nsdk: docker\napp_port: 7860\npinned: false\nlicense: apache-2.0\n---\n\n# IMMUNE \u2014 Channel A kernel\n\nPublic TypeScript kernel for IMMUNE. Not an investor-demo stub. SENTRA admits,\nYAWAR seals SHA-256 receipts, HUKLLA tripwires, NEXUS counterfactual dynamics.\n\n- Product tab: https://a-11-oy.com/immune\n- Channel B sibling: https://szlholdings-immune-lattice.hf.space\n- Source: https://github.com/szl-holdings/immune\n- NEXUS UI: `/nexus.html`\n\nOne product, two URLs. Do not delete this Space or Channel B.\n\n## Canonical NEXUS topology\n\n- Public executable plane: this Space at `/nexus.html` and `/api/immune/nexus/*`.\n- Dynamics source: `szl-holdings/nexus`; governed host: `szl-holdings/immune`.\n- `betterwithage/nexus` is a private preservation mirror, not a second public product.\n- Empty template probes are byte-archived before exact-SHA retirement; they are never promoted as source or runtime.\n\nStatus is CONNECTING / REACHABLE / UNAVAILABLE. Never fabricate LIVE or PASS.\n\u039b = Conjecture 1 OPEN. Energy is UNAVAILABLE unless a meter is actually read.\n\n## Lorenz OP (measured)\n\n`POST /api/immune/nexus/run` with `{program:\"lorenz\",mode:\"OP\",steps:320}`\nreturns HTTP 201, `governed.pass=true`, hash-only YAWAR payload.\n\n| Field | Value |\n|---|---|\n| coefficients | \u03c3 10 \u00b7 \u03c1 27.9 \u00b7 \u03b2 2.67 |\n| final | \u22127.707920173353, \u221210.567955419679, 21.305498529338 |\n| inputHash | `c5fcc5029392a5e4f7cd65a655d5379cd65d8f915b2ee96a1db5d44e35ea2358` |\n| outputHash | `4071a2f2faca744907747cb2cc82a9d841e125fa287240505f9f9a8454a399ac` |\n| truth | MEASURED_SOFTWARE_SIMULATION |\n\nChannel B produces the same hashes.\n\n## License\n\nApache License 2.0. Third-party data retains upstream terms.\n\n## What's in the image\n\n- `immune-server.js` \u2014 Express kernel + SPA host\n- `public/` \u2014 vite-built HUD including `nexus.html`\n- `data/immune/` \u2014 append-only receipt + evidence chain\n\nListens on `PORT` (default 7860). Contract: `GET /readyz`, `GET /api/immune/state`,\n`GET /api/immune/nexus/status`, `POST /api/immune/nexus/run`.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 556,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/f83791cf0d4f2941796d3bbbc39a8749accd0b9085d53666cebb40bd2c110fe6.json",
+      "revision": "6aa234f3cb575b8d1b2122e1c8b4476da122a454",
+      "sha256": "f83791cf0d4f2941796d3bbbc39a8749accd0b9085d53666cebb40bd2c110fe6",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/immune/revision/6aa234f3cb575b8d1b2122e1c8b4476da122a454"
+    },
+    {
+      "bytes": 2186,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/299bc85c1000de0bd55dab6d6103cc76620b2db2783f7e2ff0cdb6646c0e31bc.md",
+      "revision": "6aa234f3cb575b8d1b2122e1c8b4476da122a454",
+      "sha256": "299bc85c1000de0bd55dab6d6103cc76620b2db2783f7e2ff0cdb6646c0e31bc",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/immune/resolve/6aa234f3cb575b8d1b2122e1c8b4476da122a454/README.md"
+    }
+  ],
+  "files": [
+    ".dockerignore",
+    "Dockerfile",
+    "README.md",
+    "dist/data/immune/huklla_evidence.jsonl",
+    "dist/data/immune/ledger.jsonl",
+    "dist/hf-deploy-manifest.json",
+    "dist/immune-server.js",
+    "dist/public/assets/index--XTcWKAh.js",
+    "dist/public/assets/index-BIQ1ksWp.css",
+    "dist/public/favicon.svg",
+    "dist/public/index.html",
+    "dist/public/nexus.html",
+    "dist/public/opengraph.jpg",
+    "dist/public/robots.txt",
+    "hf-deploy-manifest.json"
+  ],
+  "id": "huggingface-space/szlholdings/immune",
+  "observed_at": "2026-09-25T15:21:25Z",
+  "observed_revision": "6aa234f3cb575b8d1b2122e1c8b4476da122a454"
+}

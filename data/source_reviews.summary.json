@@ -1,0 +1,24 @@
+{
+  "artifact_count": 226,
+  "authenticated": {
+    "github": false,
+    "huggingface": false
+  },
+  "by_audit_status": {
+    "NEEDS_CANONICAL_MAPPING": 93,
+    "UNAVAILABLE_WITH_REASON": 1,
+    "UNREVIEWED": 132
+  },
+  "by_classification": {
+    "archived_provenance": 28,
+    "canonical_source": 90,
+    "mirror_distribution": 34,
+    "operational_runtime_surface": 23,
+    "support_artifact": 29,
+    "unresolved": 22
+  },
+  "generated_at": "2026-09-25T15:21:43Z",
+  "offline": true,
+  "qualified_artifact_count": 0,
+  "review_method": "automated_source_extraction"
+}

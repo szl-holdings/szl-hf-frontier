@@ -1,0 +1,20 @@
+{
+  "card": "# szl-retrieval-bench\n\nHonest retrieval benchmark lane for the SZL estate. Sparse BM25 baseline,\nclassical TF-IDF dense lane, RRF hybrid fusion, and ranking metrics\n(nDCG@k, Recall@k, P@k, R-precision, MRR, MAP) with fairness gates and\nhash-chained receipts.\n\nDoctrine: a benchmark that cannot run returns `BLOCKED` with a reason.\nIt never fabricates a metric. Run states: `MEASURED | BLOCKED | INVALID | FAILED`.\n\n## Install and verify\n\n```\npip install -e . pytest\npython -m pytest tests/ -q                  # full offline suite\npython -m szl_retrieval_bench.harness       # JSON demo; P@10 + R-precision in every lane/receipt\n```\n\n## Metric API\n\n```python\nfrom szl_retrieval_bench.metrics import precision_at_k, r_precision\n\nranked = [\"d1\", \"d2\", \"d3\", \"d4\", \"d5\"]\nrelevant = {\"d1\", \"d3\", \"d9\"}\n\nassert precision_at_k(ranked, relevant, 2) == {\n    \"state\": \"MEASURED\", \"P@2\": 0.5,\n}\nassert r_precision(ranked, relevant) == {\n    \"state\": \"MEASURED\", \"R_precision\": 0.6667, \"R\": 3,\n}\n```\n\nP@k always divides by `k`, including when fewer than `k` results were\nreturned. `k < 1` or a non-integer cutoff is `INVALID`; R-precision is\n`INVALID` when there are no relevant documents. A valid ranking with no\noverlap is `MEASURED` at `0.0` and remains present in per-query output,\naggregates, and receipts.\n\n## Lanes\n\n- `bm25` \u2014 stdlib BM25 (k1=1.5, b=0.75). No downloads, no network.\n- `tfidf-dense` \u2014 classical dense retrieval: L2-normalized TF-IDF vectors,\n  cosine similarity. Real dense-vector math, deterministic, honestly labeled\n  classical (not a neural embedding). A neural adapter plugs into the same\n  `rank(query, doc_ids)` interface without touching the harness.\n- `hybrid_rrf` \u2014 RRF(k=60) fusion of BM25 and a pluggable dense ranker.\n  Calling it without a dense ranker returns `BLOCKED`, by design.\n- `compare` \u2014 fairness gate: runs covering different query sets are `INVALID`.\n- Receipts \u2014 every comparison can emit a SHA-256 hash-chained\n  `UNSIGNED_HONEST` receipt. The receipt hashes the source harness declaration\n  `szl-retrieval-bench` so downstream aggregators can reject relabelling.\n  This is a hashed source declaration, not issuer authentication: the chain\n  proves integrity + order of its contents, not who produced them.\n\nMulti-vector / late-interaction (ColBERT-style) lives in a separate lane:\ndifferent memory profile, different fairness constraints. Not mixed here.\n\n## Changelog highlights\n\n- current: comparison receipts bind the `szl-retrieval-bench` harness name in\n  the hashed payload so Wave 1 consolidation can verify source declaration\n  without inferring identity from a filename or caller-supplied label.\n- v0.3.0: P@k and R-precision added to the metric API, all measured lanes,\n  demo output, aggregate leaderboards, and hash-chained comparison receipts;\n  invalid cutoffs and undefined R-precision fail closed.\n- v0.2.0: dense lane added; fixed a latent circular-reference bug in\n  receipted comparisons (found by the new three-lane test before push \u2014\n  receipts now embed a snapshot, never a self-reference).\n- v0.1.0: BM25, RRF, metrics, fairness gates, receipts, CI.\n\nApache-2.0 \u00b7 Doctrine v11 \u00b7 SZL Holdings\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 3170,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/f09d6f6bbcd1ed9a1f7af1b01eda863729708108ec73f22c8e51d7f97ef8780d.md",
+      "revision": "54f5dd963825321829b8ad3cc217bfd9717ba901",
+      "sha256": "f09d6f6bbcd1ed9a1f7af1b01eda863729708108ec73f22c8e51d7f97ef8780d",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-retrieval-bench/blob/54f5dd963825321829b8ad3cc217bfd9717ba901/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-retrieval-bench",
+  "observed_at": "2026-09-25T15:21:16Z",
+  "observed_revision": "54f5dd963825321829b8ad3cc217bfd9717ba901"
+}

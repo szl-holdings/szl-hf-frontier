@@ -1,0 +1,20 @@
+{
+  "card": "# szl-holdings.github.io\n<!-- szl:header v1 -->\n[![org: szl-holdings](https://img.shields.io/badge/org-szl--holdings-black)](https://github.com/szl-holdings)\n[![doctrine](https://img.shields.io/badge/doctrine-control%20before%20action%20%C2%B7%20evidence%20after-blue)](https://a-11-oy.com)\n\n**Control before action. Evidence after.**\n\nPart of the [szl-holdings](https://github.com/szl-holdings) estate \u00b7\nProduct: [a-11-oy.com](https://a-11-oy.com) \u00b7\nProof: [a11oy.net](https://a11oy.net)\n<!-- /szl:header -->\n\nSource contract for the **SZL Holdings** company front door. The committed\n[`CNAME`](./CNAME) binds the Pages publication to\n**[holdings.a-11-oy.com](https://holdings.a-11-oy.com)**. A merge, a successful\nPages deployment, and a public HTTP readback remain separate evidence steps.\n\nThe live A11oy product/runtime is separately published at\n**[a-11-oy.com](https://a-11-oy.com)**. This repository does not imitate the\nproduct console, verifier, or API, and a Pages HTTP 200 is not Command Center\nhealth.\n\n> **SZL Holdings \u2014 governed AI you can prove.**\n> `receipts.in \u2261 receipts.out` \u00b7 Doctrine v11 LOCKED \u00b7 \u039b = Conjecture 1\n\n## What's here\n\n| File | Purpose |\n|---|---|\n| [`index.html`](./index.html) | Static company, investor, portfolio, and developer landing |\n| [`products/index.html`](./products/index.html) | Source-declared product catalog; not live health |\n| [`styles.css`](./styles.css) | KANCHAY palette; no runtime CDN |\n| [`app.js`](./app.js) | Progressive front-end interactions |\n| [`console/index.html`](./console/index.html) | Honest pointer to the separate A11oy console |\n| [`verify/index.html`](./verify/index.html) | Honest pointer to the separate A11oy verifier |\n| [`api/a11oy/v1/honest.json`](./api/a11oy/v1/honest.json) | Static source document, not runtime doctrine |\n| [`origin-authority.json`](./origin-authority.json) | Source contract for company, product, and proof origins |\n| [`origin-status.json`](./origin-status.json) | Dated hosting observation; may precede the current source contract |\n| [`CNAME`](./CNAME) | Company custom domain: `holdings.a-11-oy.com` |\n| [`robots.txt`](./robots.txt) \u00b7 [`sitemap.xml`](./sitemap.xml) | Crawl and route inventory |\n| `.nojekyll` | Serve committed files as-is |\n\n## Serving\n\nGitHub Pages publishes this tree from `main`. Previewing the source is\nnetwork-free:\n\n```bash\npython3 -m http.server 8000\n```\n\n## Related\n\n- **Company and portfolio:** [holdings.a-11-oy.com](https://holdings.a-11-oy.com)\n- **Developer docs:** [holdings.a-11-oy.com/docs-site](https://holdings.a-11-oy.com/docs-site/)\n- **A11oy product/runtime:** [a-11-oy.com](https://a-11-oy.com)\n- **Provider twin:** [szlholdings-a11oy.hf.space](https://szlholdings-a11oy.hf.space/)\n- **Proof:** [a11oy.net](https://a11oy.net)\n- **Source organization:** [github.com/szl-holdings](https://github.com/szl-holdings)\n\n## License\n\n[Apache-2.0](./LICENSE) \u00a9 SZL Holdings.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 2923,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/47267d1bb44875dde50d133fdea6df6258aa9c328dbb253725809b3274ea8e69.md",
+      "revision": "f716a58d10755b3aee0546f3d55d50b8602d0680",
+      "sha256": "47267d1bb44875dde50d133fdea6df6258aa9c328dbb253725809b3274ea8e69",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-holdings.github.io/blob/f716a58d10755b3aee0546f3d55d50b8602d0680/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-holdings.github.io",
+  "observed_at": "2026-09-25T15:21:14Z",
+  "observed_revision": "f716a58d10755b3aee0546f3d55d50b8602d0680"
+}

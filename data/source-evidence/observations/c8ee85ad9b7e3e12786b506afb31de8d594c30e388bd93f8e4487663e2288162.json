@@ -1,0 +1,20 @@
+{
+  "card": "---\ntitle: Ayllu Counsel\nemoji: \u2696\ufe0f\ncolorFrom: gray\ncolorTo: yellow\nsdk: docker\napp_port: 7860\npinned: false\nlicense: apache-2.0\nshort_description: Legal Matter Command. SHA3 receipts. \u039b = Conjecture 1.\n---\n\n# Ayllu Counsel \u2014 Legal Matter Command\n\n\n## Packet 8 source pin\n\nCounsel Assurance product logic lives in canonical [`szl-holdings/a11oy/verticals/counsel`](https://github.com/szl-holdings/a11oy/tree/main/verticals/counsel).\n\n- Kernel: [`verticals/_kernel/a11oy_kernel.py`](https://github.com/szl-holdings/a11oy/blob/main/verticals/_kernel/a11oy_kernel.py)\n- Hugging Face Space (private, ROADMAP): `SZLHOLDINGS/counsel-assurance`\n- This repo is a generated thin adapter. See [`SOURCE_PIN.md`](SOURCE_PIN.md).\n- Formula authority: **NONE**. Models, formulas and market signals never authorize.\n- Canonical land PR: [szl-holdings/a11oy#1438](https://github.com/szl-holdings/a11oy/pull/1438)\n- Canonical land SHA: [`2b67b63624a3f4bf35787cfa5260d7960f1a76d5`](https://github.com/szl-holdings/a11oy/commit/2b67b63624a3f4bf35787cfa5260d7960f1a76d5)\n\n\nContinuance of retired Counsel (`szl-holdings/platform` `artifacts/counsel`, SUPERSEDED, **not deleted**)\nand the live [a11oy legal vertical](https://a-11-oy.com/api/a11oy/v1/vert/legal).\n\nSister product: [szl-holdings/ayllu](https://github.com/szl-holdings/ayllu) (eleven Quechua seats).\nExisting Space: [SZLHOLDINGS/ayllu](https://huggingface.co/spaces/SZLHOLDINGS/ayllu).\n\nGradio was removed. It crashed the Space (`_simple_templates` / `audioop`). This organ is a stdlib HTTP hologram.\n\n## What is live\n\n- Federal Register + CourtListener via `a-11-oy.com` (fail-closed UNAVAILABLE)\n- Hugging Face `SZLHOLDINGS` models / spaces / datasets (REPORTED)\n- grok-4.5 inferences, user-initiated, Human Lock fail-closed on high-risk actions\n- SHA3-256 hash-chained UNSIGNED-honest receipts (energy null, SLSA L1)\n- Experimental Allodial composite (MODELED, not locked-8)\n- Leader capabilities as SZL modules (studied, not cloned)\n\n\u039b uniqueness is **Conjecture 1** and is never a theorem.\n\nInformational only. Does not constitute legal advice.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 2099,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/a181065ba330e30c80bf0b67ac2515aab09bc92c1c22fe2976b7ddca841f309d.md",
+      "revision": "f2c3e3ccf053dd94bc2b4c5a3ba82544a4a5240f",
+      "sha256": "a181065ba330e30c80bf0b67ac2515aab09bc92c1c22fe2976b7ddca841f309d",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/counsel/blob/f2c3e3ccf053dd94bc2b4c5a3ba82544a4a5240f/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/counsel",
+  "observed_at": "2026-09-25T15:21:05Z",
+  "observed_revision": "f2c3e3ccf053dd94bc2b4c5a3ba82544a4a5240f"
+}

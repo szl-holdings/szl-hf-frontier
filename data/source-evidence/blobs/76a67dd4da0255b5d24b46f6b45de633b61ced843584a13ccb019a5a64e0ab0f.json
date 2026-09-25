@@ -1,0 +1,10 @@
+{
+  "files": [
+    ".gitattributes",
+    "DATASET_EVIDENCE_AUDIT.json",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "runs/2026-07-12-laptop-qwen2.5-3b.jsonl"
+  ],
+  "revision": "6926b2d49aee3ef15c0552f604b18e08faab1ee9"
+}

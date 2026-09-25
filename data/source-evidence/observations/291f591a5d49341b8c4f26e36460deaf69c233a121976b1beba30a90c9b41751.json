@@ -1,0 +1,20 @@
+{
+  "card": "# szl-drift\n\nOrigin-drift receipts. **Not a second flagship.**\n\nCompares:\n\n| Origin | Probe | Meaning |\n|---|---|---|\n| Product | `https://a-11-oy.com/api/a11oy/v1/honest` + `/readyz` | Runtime doctrine + readiness |\n| Proof | `https://a11oy.net/health.json` | Static GitHub Pages document. Not DSSE-LIVE. |\n| Preview | Ring 1 kernel catalog | This surface is not the product origin |\n\nA `200` from product `/readyz` is **not** a production certificate. Factory bind `AO-2026-08-29-001` still holds that certificate **CLOSED**.\n\n## Run\n\n```bash\npython3 probe.py\n```\n\nExit `0` always prints JSON. Missing, malformed, or non-object origin responses populate `errors`;\na known HTTP status is retained. No upstream response can set `certified_production_ready` to true.\n\n## Honesty\n\n- Doctrine v11 LOCKED\n- \u039b = Conjecture 1\n- locked-8 paints only when live `locked_formula_count === 8`\n- Warhacker v1.0.0 is archived\n- Apache-2.0\n\nInteractive verify stays on [a-11-oy.com/verify](https://a-11-oy.com/verify).\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 1006,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/a453960cef28b1718806cd37da3ac6ac33bc27d85012fa5e082c58600ecb53b7.md",
+      "revision": "35c395450c71b49d7fe85a1d5ba3764c38e0714b",
+      "sha256": "a453960cef28b1718806cd37da3ac6ac33bc27d85012fa5e082c58600ecb53b7",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-drift/blob/35c395450c71b49d7fe85a1d5ba3764c38e0714b/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-drift",
+  "observed_at": "2026-09-25T15:21:12Z",
+  "observed_revision": "35c395450c71b49d7fe85a1d5ba3764c38e0714b"
+}

@@ -1,0 +1,50 @@
+{
+  "card": "---\ntitle: IMMUNE lattice\nemoji: \ud83d\udee1\ufe0f\ncolorFrom: green\ncolorTo: yellow\nshort_description: Channel B Python kernel. Lorenz OP hashes match Channel A.\nsdk: docker\napp_port: 7860\npinned: false\nlicense: apache-2.0\n---\n\n# IMMUNE lattice (Channel B)\n\nPython kernel for IMMUNE. Same doctrine as Channel A (`SZLHOLDINGS/immune`):\nSENTRA admission, YAWAR SHA-256 receipts, HUKLLA tripwires, MESH 3-of-4, NEMO R1-R5,\nNEXUS counterfactual dynamics.\n\n- Product tab: https://a-11-oy.com/immune\n- Channel A HUD: https://szlholdings-immune.hf.space\n- NEXUS UI: `/nexus.html`\n- Source: https://github.com/szl-holdings/immune (`python/`)\n\nDo not delete this Space. Status is CONNECTING / REACHABLE / UNAVAILABLE. Never fabricate LIVE or PASS.\nLambda = Conjecture 1 (not a theorem). Energy is UNAVAILABLE unless a meter is actually read.\n\nContract: `GET /api/immune/state` and `GET /api/immune/dashboard`.\nThe Hub proxy intercepts `/readyz` on some runtimes; a 502 HTML there is not kernel death.\n\n## Lorenz OP parity\n\nSame sealed hashes as Channel A:\n\n- inputHash `c5fcc5029392a5e4f7cd65a655d5379cd65d8f915b2ee96a1db5d44e35ea2358`\n- outputHash `4071a2f2faca744907747cb2cc82a9d841e125fa287240505f9f9a8454a399ac`\n- 320 steps, \u03c3 10 \u00b7 \u03c1 27.9 \u00b7 \u03b2 2.67, energy UNAVAILABLE\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 516,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/742a976acc75efaf5150aaff78c313ad2d3bb1309dd294a54ddb89317027e021.json",
+      "revision": "6237ab5b88e71388ba161c22eff0e6f72e1951a8",
+      "sha256": "742a976acc75efaf5150aaff78c313ad2d3bb1309dd294a54ddb89317027e021",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/immune-lattice/revision/6237ab5b88e71388ba161c22eff0e6f72e1951a8"
+    },
+    {
+      "bytes": 1258,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/338dad91920706fd980e605378462242cea0e231e4754120d14bc585646b50b0.md",
+      "revision": "6237ab5b88e71388ba161c22eff0e6f72e1951a8",
+      "sha256": "338dad91920706fd980e605378462242cea0e231e4754120d14bc585646b50b0",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/immune-lattice/resolve/6237ab5b88e71388ba161c22eff0e6f72e1951a8/README.md"
+    }
+  ],
+  "files": [
+    "Dockerfile",
+    "README.md",
+    "immune/__init__.py",
+    "immune/__main__.py",
+    "immune/canonical.py",
+    "immune/frontier.py",
+    "immune/huklla.py",
+    "immune/mesh.py",
+    "immune/nexus.py",
+    "immune/organs.py",
+    "immune/persist.py",
+    "immune/runtime.py",
+    "immune/second_brain.py",
+    "immune/sentra.py",
+    "immune/server.py",
+    "index.html",
+    "nexus.html",
+    "requirements.txt",
+    "server.py"
+  ],
+  "id": "huggingface-space/szlholdings/immune-lattice",
+  "observed_at": "2026-09-25T15:21:25Z",
+  "observed_revision": "6237ab5b88e71388ba161c22eff0e6f72e1951a8"
+}

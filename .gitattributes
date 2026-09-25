@@ -1,0 +1,6 @@
+# Evidence hashes bind original bytes on Windows and Linux checkouts.
+data/snapshots/** -text
+data/source-evidence/** -text
+data/source_reviews*.json -text
+data/estate_registry.json -text
+reports/** -text

@@ -1,0 +1,25 @@
+{
+  "files": [
+    ".gitattributes",
+    "Dockerfile",
+    "README.md",
+    "SOURCE_BINDING.json",
+    "assets/app.js",
+    "assets/logo.svg",
+    "assets/snapshot-router-health.json",
+    "assets/snapshot-router-models.json",
+    "assets/snapshot-router-provenance.json",
+    "assets/style.css",
+    "assets/szl_verify_widget.js",
+    "index.html",
+    "server.py",
+    "szl_source_attestation.py",
+    "tests/test_canonical_domain.py",
+    "tests/test_flagship_contract.py",
+    "tests/test_hf_space_bootstrap.py",
+    "tests/test_router_surface.py",
+    "tests/test_source_attestation.py",
+    "tests/test_status_contract.py"
+  ],
+  "revision": "cfbbf7e62317404561b9565c0021e7c4a391a9ea"
+}

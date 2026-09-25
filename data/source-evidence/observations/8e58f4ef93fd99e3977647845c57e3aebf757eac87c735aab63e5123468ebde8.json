@@ -1,0 +1,20 @@
+{
+  "card": "---\ntitle: Energy Attestation Holo\nemoji: \"\u26a1\"\ncolorFrom: gray\ncolorTo: green\nsdk: static\napp_file: index.html\npinned: false\nlicense: apache-2.0\nshort_description: \"Honest energy attestation: RED when meters are dead\"\n---\n\n# energy-attest-holo\n\n**Honest, holographic energy-attestation surface for the SZL Holdings sovereign mesh.**\n\nStatic, self-contained HTML page (0 runtime CDN) that reports the estate's **energy\nattestation** posture and never fabricates a joule. Current meter state is requested at view\ntime. When no fresh NVML evidence is reported, energy remains **UNAVAILABLE in RED**.\n\n- **Live Space:** https://huggingface.co/spaces/SZLHOLDINGS/energy-attest-holo\n- **Status:** the static page is published; meter availability is a separate runtime dependency\n  and is relayed as **REPORTED** from a11oy at observation time.\n\n## What it shows\n\n| Panel | Source (keyless, client-side) | Label |\n|---|---|---|\n| Sovereign mesh energy meters | a11oy [`/govern/health`](https://szlholdings-a11oy.hf.space/api/a11oy/v1/govern/health) \u2014 per-engine `LIVE`/`DOWN`, per-meter NVML reachability, `engines_live/total` | **REPORTED** (a11oy self-report); only API transport is **MEASURED** by this browser |\n| GB grid carbon intensity | [National Grid ESO Carbon Intensity API](https://carbonintensity.org.uk) `/intensity` | **REPORTED** (grid context, not our own compute) |\n| GB generation mix | Carbon Intensity API `/generation` | **REPORTED** |\n\n## Honesty doctrine (binding)\n\n- **MEASURED** = this browser saw the real HTTP result \u00b7 **REPORTED** = upstream self-report\n  pass-through \u00b7 **UNAVAILABLE** = source unreachable / capability honestly absent \u2014 never fabricated.\n- **Energy is null unless a real NVML meter reports.** No invented joules.\n- **\u039b = Conjecture 1** \u2014 advisory, never proven, trust ceiling 0.97, never green.\n- **0 runtime CDN** \u2014 no external libraries, no web fonts; a single vanilla-JS 2D canvas\n  draws the holographic lattice.\n\n## Deploy\n\nHugging Face **static** Space \u2014 the root `index.html` is served as-is. To update the live\nSpace, commit `index.html` + `README.md` to the Space repo (or mirror this GitHub repo).\n\n## Estate\n\nPart of the SZL Holdings estate: [a-11-oy.com](https://a-11-oy.com) \u00b7\n[szl-energy-attest](https://github.com/szl-holdings/szl-energy-attest) \u00b7\n[\ud83e\udd17 SZLHOLDINGS](https://huggingface.co/SZLHOLDINGS) \u00b7 \u039b = Conjecture 1.\n\n## License\n\n[Apache-2.0](LICENSE) \u2014 consistent with the SZL Holdings estate convention (a11oy, killinchu,\nanatomy, szl-energy-attest are all Apache-2.0).\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 2554,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/0e8ab361630c26d654b6aeedcfbc10985a70eb30b85ddfff28f7470f96140d04.md",
+      "revision": "6851c00110b275d8207c8038ffc78886cdff55fb",
+      "sha256": "0e8ab361630c26d654b6aeedcfbc10985a70eb30b85ddfff28f7470f96140d04",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/energy-attest-holo/blob/6851c00110b275d8207c8038ffc78886cdff55fb/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/energy-attest-holo",
+  "observed_at": "2026-09-25T15:21:06Z",
+  "observed_revision": "6851c00110b275d8207c8038ffc78886cdff55fb"
+}

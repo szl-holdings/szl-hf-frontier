@@ -1,0 +1,42 @@
+{
+  "card": "---\nlicense: apache-2.0\nbase_model: Qwen/Qwen3.5-0.8B-Base\nlibrary_name: transformers\npipeline_tag: text-classification\nlanguage:\n  - en\ntags:\n  - peft\n  - safetensors\n  - lora\n  - triage\n  - classification\n  - refusal-preserving\n  - evaluation-harness\n  - blocked-release\n  - reference-artifact\n---\n\n# SZL TypeSafe Triage\n\n> **REFERENCE ARTIFACT \u00b7 BLOCKED \u00b7 NOT PROMOTABLE**\n>\n> This public LoRA adapter exists for transparency, reproducibility, and inspection of the triage harness. It is **not approved for deployment, promotion, production use, safety-critical use, or customer-facing triage**.\n\n## What it does\n\nThis adapter is a governed triage classifier built on `Qwen/Qwen3.5-0.8B-Base`. It is designed to emit strict JSON with fields such as:\n\n```json\n{\"label\":\"...\",\"state\":\"...\",\"evidence\":[\"...\"]}\n```\n\nIts intended behavior is to:\n\n- Propose a structured classification label.\n- Return `state=\"REVIEW\"` rather than overclaim when evidence is thin or competing labels are equally supported.\n- Preserve refusal behavior when a prompt attempts to instruct the classifier instead of describing the problem.\n- Support inspection of a governed-classification harness.\n\n## What it does not do\n\n- It is not promotable or deployment-approved.\n- It is not a cleared production classifier.\n- It is not validated for customer-facing or safety-critical triage.\n- It does not turn a behavioral gate result into a release decision.\n- It does not establish general performance beyond the documented reference run.\n\n## Release posture\n\n| Decision | Status |\n|---|---|\n| Publication | Published for transparency and review |\n| Behavioral gate | Passed |\n| Contamination / leakage review | Did not clear |\n| Promotion | Blocked |\n| Deployment | Do not deploy |\n\n**Publication is not promotion.** Training, measurement, publication, and promotion are separate decisions in this release process. The contamination/leakage finding remains controlling even though the behavioral gate passed.\n\n## Evidence boundary\n\nThe artifact and its metrics are documentation and harness-inspection evidence only. They do not override the blocked release decision.\n\n```text\nPUBLISHED does not mean PROMOTABLE.\nA behavioral pass does not override contamination review.\nA public model page does not certify production readiness.\n```\n\n## Training and evaluation notes\n\n- Adapter type: LoRA\n- Base model family: Qwen3.5-0.8B\n- Objective: governed triage classification\n- Comparison discipline: predecessor-matching hyperparameters for meaningful run-to-run comparison\n- Evaluation emphasis: assistant-turn loss targeting and template-family-aware split discipline\n- Output posture: structured JSON with review/refusal behavior for uncertainty and adversarial prompting\n\n## Intended use\n\nUse this repository only for:\n\n- Reviewing the triage harness.\n- Inspecting refusal-preserving classifier behavior.\n- Reproducing the documented reference run.\n- Understanding the separation between publication and promotion.\n- Auditing why a release remained blocked.\n\n## Source of truth\n\n| Surface | Role |\n|---|---|\n| This Hugging Face repository | Public reference artifact and adapter distribution |\n| `szl-holdings/szl-typesafe-triage` | Canonical source, policy, fixture, and release-gate implementation |\n| Evaluation receipt and release decision | Controlling promotion boundary |\n\nCanonical source: https://github.com/szl-holdings/szl-typesafe-triage\n\n## Use or verify\n\nDo not integrate this adapter into a production system. Review the canonical source and release-gate evidence before reproducing the reference run.\n\n```text\nReference use only.\nPromotion remains blocked until a later independently cleared run supersedes this artifact.\n```\n\n## License\n\nApache-2.0.\n\n## Maintenance posture\n\nThis card remains intentionally visible as a **blocked reference artifact**. Any future cleared successor must name this artifact as historical context rather than silently rewriting its release state.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 362,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/30edc3ab696053ee9e7b95cffebdaadba24d79017b3324568fb1d8de3e703c5e.json",
+      "revision": "24b5c44494434e88b89d9915daad32f1f8e8d03d",
+      "sha256": "30edc3ab696053ee9e7b95cffebdaadba24d79017b3324568fb1d8de3e703c5e",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-triage-qwen3.5-0.8b-lora/revision/24b5c44494434e88b89d9915daad32f1f8e8d03d"
+    },
+    {
+      "bytes": 3967,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/606f84998d749a288b0d812893f8ee1fb6ba8cd815f76a2b86856a36d73c3ff7.md",
+      "revision": "24b5c44494434e88b89d9915daad32f1f8e8d03d",
+      "sha256": "606f84998d749a288b0d812893f8ee1fb6ba8cd815f76a2b86856a36d73c3ff7",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/SZLHOLDINGS/szl-triage-qwen3.5-0.8b-lora/resolve/24b5c44494434e88b89d9915daad32f1f8e8d03d/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "adapter_config.json",
+    "adapter_model.safetensors",
+    "chat_template.jinja",
+    "gate_report.json",
+    "processor_config.json",
+    "requirements-lock.txt",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "training_args.bin"
+  ],
+  "id": "huggingface-model/szlholdings/szl-triage-qwen3.5-0.8b-lora",
+  "observed_at": "2026-09-25T15:21:24Z",
+  "observed_revision": "24b5c44494434e88b89d9915daad32f1f8e8d03d"
+}

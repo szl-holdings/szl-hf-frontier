@@ -1,0 +1,40 @@
+{
+  "card": "---\nlicense: apache-2.0\nlibrary_name: numpy\ntags:\n  - governed-ai\n  - khipu\n  - szl-holdings\n  - embedding\n  - silhouette\n  - software\n  - reference\n  - test-fixture\n---\n\n> **Status: SOFTWARE / REFERENCE / TEST FIXTURE.** Not a production model.\n\nThis Hub repository contains a bare NumPy archive. The loading and forward-pass\nimplementation lives in the canonical `szl_khipu` package; no packaged Hub\nloader or `config.json` is shipped alongside these weights. Treat this as a\nsoftware fixture until its complete inference contract is independently verified.\n\n# MiniEmbed-Nano\n\nTiny hash+table embed: **V=64, d=12**, L2-normalized rows. **Not a foundation embed. Not neural. Not MiniEmbed 3290\u00d7128.**\n\nCanonical source: [szl-holdings/szl-khipu](https://github.com/szl-holdings/szl-khipu)  \nSibling card: [SZLHOLDINGS/szl-khipu](https://huggingface.co/SZLHOLDINGS/szl-khipu)  \nThe larger statistical MiniEmbed (3290 \u00d7 128) lives on [SZLHOLDINGS/szl-kernels](https://huggingface.co/SZLHOLDINGS/szl-kernels) \u2014 a different artifact. Do not mix them.\n\n```python\nfrom szl_khipu.train import mini_embed\n\nemb = mini_embed.build(seed=20260721)\nvec = emb.embed(\"knot the run\")\nprint(emb.V, emb.D, vec.shape)\n# 64 12 (12,)\nemb.save_npz(\"mini_embed.npz\")\n```\n\n## What it does\n\n- SHA-256 token id modulo 64. Mean-pool then L2. Deterministic given seed.\n- Built here on CPU NumPy. Honesty **REPORTED**. Energy **UNAVAILABLE**.\n- No analogy score. No retrieval score. No SVD variance claim (that belongs to the 3290\u00d7128 table).\n\n## Bench (this tree)\n\n`TRAINING_RECEIPT.json` seed `20260721` \u00b7 honesty **REPORTED**\n\n| Metric | Value |\n|---|---|\n| V\u00d7d | 64 \u00d7 12 |\n| method | hash+table L2 |\n| weights | `mini_embed.npz` sha256 `ae31a3a7214d1f142d8ea3f4f86c35bdedd7c108bc5d04ea00c87e7b674e6e3b` |\n\nInfers on `POST /api/infer {\"kind\":\"mini_embed\",\"token\":\"F18\"}`. **Not neural. Not 3290\u00d7128.**\n\n## What it is NOT\n\n- **Not** the [SZLHOLDINGS/szl-kernels](https://huggingface.co/SZLHOLDINGS/szl-kernels) MiniEmbed (3290 \u00d7 128, SVD var 0.3146).\n- **Not neural. Not word2vec. Not a foundation embed.**\n- **Not 1.5B. Not Qwen.**\n- **Not proven trust.** \u039b uniqueness remains Conjecture 1 OPEN.\n- Energy **UNAVAILABLE**. CUDA **UNAVAILABLE**. Never a fabricated joule.\n\n## Honesty\n\n| Claim | Label | What-NOT |\n|---|---|---|\n| Table built in this package | REPORTED | V=64 d=12, not 3290\u00d7128 |\n| Neural / trained embed | FALSE | hash+table, not SGD |\n| Analogy / retrieval score | UNAVAILABLE | not measured |\n| Energy | UNAVAILABLE | never a fabricated joule |\n| CUDA | UNAVAILABLE | CPU numpy LIVE |\n\nDoctrine v11 LOCKED \u00b7 749/14/163 \u00b7 locked-proven 8. Apache-2.0. Copyright 2026 SZL Holdings \u00b7 Stephen P. Lutar Jr. \u00b7 ORCID [0009-0001-0110-4173](https://orcid.org/0009-0001-0110-4173).\n\n## Artifact evidence\n\n`mini_embed.npz` is present (6,892 bytes). SHA-256:\n\n`ae31a3a7214d1f142d8ea3f4f86c35bdedd7c108bc5d04ea00c87e7b674e6e3b`\n\nThe archive hash matches `TRAINING_RECEIPT.json`. Its arrays were inspected\nwith `numpy.load(..., allow_pickle=False)`; numeric values were finite.\n\n| Array | Shape | Data type |\n| --- | --- | --- |\n| `table` | `[64, 12]` | `float64` |\n| `V` | `[]` | `int64` |\n| `D` | `[]` | `int64` |\n\nA matching unsigned receipt establishes local artifact consistency. Training\nmetrics remain reported synthetic results; this check does not independently\nreproduce training or establish deployment, general intelligence, or production readiness.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 290,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/28bdbb794e545b1a4cb581e2404bdb1be611461b150fe9188fc2bf4ec5f8934e.json",
+      "revision": "01e82f36ff722528233f76daf899c18f8cb5aaa2",
+      "sha256": "28bdbb794e545b1a4cb581e2404bdb1be611461b150fe9188fc2bf4ec5f8934e",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/MiniEmbed-Nano/revision/01e82f36ff722528233f76daf899c18f8cb5aaa2"
+    },
+    {
+      "bytes": 3455,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/61b5ecf230cd418d62a1e171d7e8e12b58817718bf215df96c801951895311bf.md",
+      "revision": "01e82f36ff722528233f76daf899c18f8cb5aaa2",
+      "sha256": "61b5ecf230cd418d62a1e171d7e8e12b58817718bf215df96c801951895311bf",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/SZLHOLDINGS/MiniEmbed-Nano/resolve/01e82f36ff722528233f76daf899c18f8cb5aaa2/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "BENCH.laptop-blackwell.json",
+    "LICENSE",
+    "README.md",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "mini_embed.npz",
+    "provenance.json",
+    "status.json"
+  ],
+  "id": "huggingface-model/szlholdings/miniembed-nano",
+  "observed_at": "2026-09-25T15:21:21Z",
+  "observed_revision": "01e82f36ff722528233f76daf899c18f8cb5aaa2"
+}

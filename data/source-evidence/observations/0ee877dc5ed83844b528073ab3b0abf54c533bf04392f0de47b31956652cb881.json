@@ -1,0 +1,36 @@
+{
+  "card": "---\nlicense: apache-2.0\nlibrary_name: other\ntags:\n  - governed-ai\n  - cuas\n  - killinchu\n  - szl-holdings\n  - doctrine-v11\n  - roadmap\n  - alias\nszl:\n  status: ROADMAP\n  trained: false\n  weights: none\n  alias_of: SZLHOLDINGS/waman\n  jobs: UNKNOWN\n---\n\n# KILLINCHU-EYE\n\n**STATUS: ROADMAP \u00b7 NOT TRAINED \u00b7 no weights.**\n\nThis is a **name reservation / alias**, not a detector checkpoint. There is no Roboflow, YOLO, or `transformers` weight on this repo. Hub files: README only. Do not load it. Do not claim mAP.\n\nThe Fall 2026 detector seat is also empty: [`SZLHOLDINGS/waman`](https://huggingface.co/SZLHOLDINGS/waman) (**ROADMAP \u00b7 NOT TRAINED**).\n\n| | |\n|---|---|\n| **Status** | ROADMAP \u00b7 NOT TRAINED \u00b7 ALIAS of `SZLHOLDINGS/waman` |\n| **Weights** | none |\n| **Effector** | SIMULATED |\n| **HF Jobs** | UNKNOWN |\n| **\u039b** | Conjecture 1 OPEN |\n\n<!-- SZL-ATELIER-CUT:v1:START -->\n## The cut\n\nDetection models emit boxes. Ours must emit a box AND a receipt, or it is a miss even if the IoU is perfect. The eye does not fire.\n\nA detector whose false-positive without provenance is treated as a safety bug, not a scoreboard win.\n\n### Silhouette \u2192 leave \u2192 SZL\n\n| Leader | Take, then tweak |\n|---|---|\n| Anthropic | Do not act on uncertain perception. |\n| NVIDIA | TAO / Metropolis / TensorRT detect, plus a gate they do not ship. |\n| Unsloth | Wrong stack. This is not QLoRA. This card is not a train. |\n\nNobody else ships this combination. That is the point of a one-of-one.\n\n## Intended use\n\nHold the name. Wire when weights land with a receipt. Fail closed until then.\n\n## Limitations\n\n- Empty ROADMAP card. Not a published detector checkpoint.\n- Not trained. Not an Inference Endpoint model.\n- Do not claim mAP.\n\nCanonical GitHub: [`szl-holdings/killinchu`](https://github.com/szl-holdings/killinchu/blob/main/README.md)\n<!-- SZL-ATELIER-CUT:v1:END -->\n\n## Honesty\n\n| Claim | Label |\n|---|---|\n| This card's numbers | ROADMAP |\n| Trained | FALSE |\n| Energy / joules | UNAVAILABLE unless a signed meter says MEASURED |\n| \u039b uniqueness | Conjecture 1 OPEN \u2014 not a theorem |\n| GGUF as the signed object | FALSE |\n\nDoctrine v11 LOCKED \u00b7 749 declarations \u00b7 14 axioms \u00b7 163 sorries \u00b7 locked-proven 8.\n\nApache-2.0. Copyright 2026 SZL Holdings \u00b7 Stephen P. Lutar Jr. \u00b7 ORCID [0009-0001-0110-4173](https://orcid.org/0009-0001-0110-4173).\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 201,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/bd944a1a947389e7cbc8bee4919e14dab428a0d8e75692f7cc3c236e8dd3800d.json",
+      "revision": "4800817714be465a54686dde69755ac1a683ef44",
+      "sha256": "bd944a1a947389e7cbc8bee4919e14dab428a0d8e75692f7cc3c236e8dd3800d",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/KILLINCHU-EYE/revision/4800817714be465a54686dde69755ac1a683ef44"
+    },
+    {
+      "bytes": 2344,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/aeff5b1479ec447e9537960320b10d2908ece536180eeb1ee29f9804e238f437.md",
+      "revision": "4800817714be465a54686dde69755ac1a683ef44",
+      "sha256": "aeff5b1479ec447e9537960320b10d2908ece536180eeb1ee29f9804e238f437",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/SZLHOLDINGS/KILLINCHU-EYE/resolve/4800817714be465a54686dde69755ac1a683ef44/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "killinchu_eye.npz"
+  ],
+  "id": "huggingface-model/szlholdings/killinchu-eye",
+  "observed_at": "2026-09-25T15:21:21Z",
+  "observed_revision": "4800817714be465a54686dde69755ac1a683ef44"
+}

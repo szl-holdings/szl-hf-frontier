@@ -1,0 +1,20 @@
+{
+  "card": "# szl-provctl\n\n**SOFTWARE_LIMITED.** Software kernel slot for provenance control (in-toto / DSSE over SZL receipts). **Not a model. No weights. Not a complete signing product.**\n\nHub mirror: [`kernels/SZLHOLDINGS/szl-provctl`](https://huggingface.co/kernels/SZLHOLDINGS/szl-provctl). Card: [`SZLHOLDINGS/szl-provctl`](https://huggingface.co/SZLHOLDINGS/szl-provctl). Hologram Space (separate): [`szl-provctl-live`](https://huggingface.co/spaces/SZLHOLDINGS/szl-provctl-live).\n\nPublic maturity stays limited while Hub residue (`model.joblib` if still listed) is quarantined and while product claims are forbidden by [szl-hf-frontier#7](https://github.com/szl-holdings/szl-hf-frontier/issues/7).\n\n## What this is NOT\n\n- Hub `model.joblib` is **QUARANTINED** executable serialization. Do not `joblib.load` it. GitHub source is the approved path.\n- Not trained weights\n- Not a complete signing product by itself (see `szl-receipt` + `governed-receipt-spec`)\n- No MEASURED CUDA benches here\n- Not the pre-action core of a11oy\n\n## Load\n\n```python\nfrom kernels import get_kernel\nget_kernel(\"SZLHOLDINGS/szl-provctl\", revision=\"main\", trust_remote_code=True)\n```\n\nA successful load is not a product qualification.\n\nDoctrine v11. \u039b = Conjecture 1 (advisory, never a theorem). Apache-2.0. Owner: Stephen Lutar / SZL Holdings.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 1317,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/9a5831cbc280f4b934236404c149ac84f8529b9ee0c426ace3ada37db1cf7358.md",
+      "revision": "7e416471e26816600dbf656f5d5946d8a079dd6b",
+      "sha256": "9a5831cbc280f4b934236404c149ac84f8529b9ee0c426ace3ada37db1cf7358",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-provctl/blob/7e416471e26816600dbf656f5d5946d8a079dd6b/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-provctl",
+  "observed_at": "2026-09-25T15:21:16Z",
+  "observed_revision": "7e416471e26816600dbf656f5d5946d8a079dd6b"
+}

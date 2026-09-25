@@ -1,0 +1,9 @@
+{
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "data/lean_theorem_tree.json"
+  ],
+  "revision": "b93a14cd411e7e9168819cf86915f1a02c6bfa2b"
+}

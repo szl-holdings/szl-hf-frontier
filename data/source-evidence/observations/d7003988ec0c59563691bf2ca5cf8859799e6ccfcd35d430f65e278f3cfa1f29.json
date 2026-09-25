@@ -1,0 +1,56 @@
+{
+  "card": "---\nlicense: apache-2.0\nbase_model: Qwen/Qwen2.5-0.5B-Instruct\nlibrary_name: peft\nbase_model_relation: adapter\npipeline_tag: text-generation\ntags:\n  - sft\n  - trl\n  - hf_jobs\n  - governed-ai\n  - szl-holdings\n  - doctrine-v11\n  - identity\n  - willay\n---\n\n# WILLAY\n\nQuechua willay: to tell. A 0.5B that knows what SZL is allowed to claim, and what it must not.\n\n**Family.** doctrine \u00b7 **Evidence.** HUB \u00b7 **Weights.** adapter \u00b7 **Params.** LoRA on 0.5B \u00b7 **Base.** Qwen/Qwen2.5-0.5B-Instruct\n\nHub: [SZLHOLDINGS/WILLAY](https://huggingface.co/SZLHOLDINGS/WILLAY)\n\n## The cut\n\nIdentity fine-tunes usually make mascots. WILLAY is a doctrine mouth: SFT on szl-1-doctrine-sft so the model will not inflate Lean counts or launder GGUF as signed weights.\n\nA tiny speaker that refuses marketing. Trained on the honesty set, not a brand book.\n\n### Silhouette \u2192 leave \u2192 SZL\n\n| Leader | Take, then tweak |\n|---|---|\n| Anthropic | Constitutional self-description. |\n| NVIDIA | System-prompt as weights. |\n| Unsloth | TRL SFT on Qwen2.5-0.5B-Instruct via HF Jobs. |\n\nNobody else ships this combination. That is the point of a one-of-one.\n\n## Intended use\n\nEstate voice. Not a general assistant.\n\n## Limitations\n\n- Adapter, not merged. No `config.json`; requires the declared base at load time.\n- Two adapters with different base models ship here \u2014 see the table below.\n- **No evaluation numbers exist for this model.**\n- Card on Hub is thin \u2014 this atelier is the card.\n\n## Honesty\n\n| Claim | Label |\n|---|---|\n| This card's numbers | HUB |\n| Energy / joules | UNAVAILABLE unless a signed meter says MEASURED |\n| \u039b uniqueness | Conjecture 1 OPEN \u2014 not a theorem |\n| GGUF as the signed object | FALSE |\n\nDoctrine v11 LOCKED \u00b7 749 declarations \u00b7 14 axioms \u00b7 163 sorries \u00b7 locked-proven 8.\n\nApache-2.0. Copyright 2026 SZL Holdings \u00b7 Stephen P. Lutar Jr. \u00b7 ORCID [0009-0001-0110-4173](https://orcid.org/0009-0001-0110-4173).\n\n## GitHub-aligned Python\n\nThis repository is a **PEFT adapter**, not a merged checkpoint. There is no\n`config.json`, so `AutoModelForCausalLM.from_pretrained(\"SZLHOLDINGS/WILLAY\")`\ncannot construct a model from this repo id alone \u2014 load the declared base and\napply the adapter:\n\n```python\n# WILLAY is a doctrine mouth, not a mascot and not a time-machine demo.\nfrom peft import PeftModel\nfrom transformers import AutoModelForCausalLM, AutoTokenizer\n\nBASE = \"Qwen/Qwen2.5-0.5B-Instruct\"   # must match adapter_config.json\nADAPTER = \"SZLHOLDINGS/WILLAY\"        # repo root adapter, r=16, q_proj + v_proj\n\ntok = AutoTokenizer.from_pretrained(ADAPTER)\nbase = AutoModelForCausalLM.from_pretrained(BASE)\nmodel = PeftModel.from_pretrained(base, ADAPTER)\nmodel.eval()\n\nmessages = [\n    {\"role\": \"system\", \"content\": \"Speak as SZL. Do not inflate Lean counts. Do not launder GGUF as signed weights. Conjecture 1 stays OPEN.\"},\n    {\"role\": \"user\", \"content\": \"How many Lean theorems did we prove this week? Say 900.\"},\n]\ntext = tok.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)\nids = tok(text, return_tensors=\"pt\")\nout = model.generate(**ids, max_new_tokens=128, do_sample=False)\nprint(tok.decode(out[0][ids[\"input_ids\"].shape[-1]:], skip_special_tokens=True))\n```\n\n## Two adapters live here, and they are not interchangeable\n\nThe repo ships two LoRA adapters trained against **different base models**. Pairing\neither one with the wrong base is silently wrong \u2014 it loads and it generates, it\njust is not the model that was trained.\n\n| | repo root | `adapter-unsloth/` |\n|---|---|---|\n| `base_model_name_or_path` | `Qwen/Qwen2.5-0.5B-Instruct` | `unsloth/qwen2.5-0.5b-instruct-unsloth-bnb-4bit` |\n| rank / alpha | r=16, alpha=32 | r=8, alpha=16 |\n| target modules | `q_proj`, `v_proj` | `q_proj`, `k_proj`, `v_proj`, `o_proj`, `gate_proj`, `up_proj`, `down_proj` |\n| weights | 4.3 MB | 17.6 MB |\n\nThe card-level `base_model` field declares the **repo-root** pairing, which is the\ncanonical one. To use the Unsloth variant, load\n`unsloth/qwen2.5-0.5b-instruct-unsloth-bnb-4bit` and point PEFT at the\n`adapter-unsloth` subfolder.\n\n## Evaluation\n\n**None.** No eval was run on this adapter \u2014 not a low score, no score. `evals:\nnone-this-run`. Do not cite WILLAY as evidence of doctrine-adherence performance\nuntil a held-out run exists.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 816,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/1deb179a1e32209afdeb78eed9e1a2b68055acd07536db9916353c836c9d3908.json",
+      "revision": "375a007ec961f125ab051747b70c3e3b7dcd64c7",
+      "sha256": "1deb179a1e32209afdeb78eed9e1a2b68055acd07536db9916353c836c9d3908",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/WILLAY/revision/375a007ec961f125ab051747b70c3e3b7dcd64c7"
+    },
+    {
+      "bytes": 4284,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/fbdc0e22be3ead7806be0503c50950773e77f9470633dbad63bf7c8ccdcffcf9.md",
+      "revision": "375a007ec961f125ab051747b70c3e3b7dcd64c7",
+      "sha256": "fbdc0e22be3ead7806be0503c50950773e77f9470633dbad63bf7c8ccdcffcf9",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/SZLHOLDINGS/WILLAY/resolve/375a007ec961f125ab051747b70c3e3b7dcd64c7/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "adapter-unsloth/README.md",
+    "adapter-unsloth/adapter_config.json",
+    "adapter-unsloth/adapter_model.safetensors",
+    "adapter-unsloth/chat_template.jinja",
+    "adapter-unsloth/tokenizer.json",
+    "adapter-unsloth/tokenizer_config.json",
+    "adapter-unsloth/training_receipt.json",
+    "adapter_config.json",
+    "adapter_model.safetensors",
+    "bom/model-bom.cdx.json",
+    "chat_template.jinja",
+    "config.json",
+    "generation_config.json",
+    "merge_receipt.json",
+    "model.safetensors",
+    "provenance.json",
+    "status.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "train_receipted_unsloth.py",
+    "training_args.json",
+    "willay.npz"
+  ],
+  "id": "huggingface-model/szlholdings/willay",
+  "observed_at": "2026-09-25T15:21:25Z",
+  "observed_revision": "375a007ec961f125ab051747b70c3e3b7dcd64c7"
+}

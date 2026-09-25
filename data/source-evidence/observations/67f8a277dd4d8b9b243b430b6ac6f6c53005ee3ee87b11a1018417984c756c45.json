@@ -1,0 +1,39 @@
+{
+  "card": "---\nlicense: apache-2.0\nlibrary_name: numpy\ntags:\n  - governed-ai\n  - szl-holdings\n  - doctrine-v11\n  - nano\n  - synthetic\n  - software\n  - reference\n  - test-fixture\n---\n\n> **Status: SOFTWARE / REFERENCE / TEST FIXTURE.** Not a production model.\n\nThis Hub repository contains a bare NumPy archive. The loading and forward-pass\nimplementation lives in the canonical `szl_khipu` package; no packaged Hub\nloader or `config.json` is shipped alongside these weights. Treat this as a\nsoftware fixture until its complete inference contract is independently verified.\n\n# TinyKhipu-Nano\n\nToken embeddings and handles in. NAVIGATE or ABSTAIN out. Abstain is the default class, not a post-hoc filter.\n\n**Family.** nano \u00b7 **Evidence.** SYNTHETIC \u00b7 **Weights.** numpy \u00b7 **Architecture.** 24-token, 12-dimensional embedding with two-class and handle-scoring heads \u00b7 **Not 1.5B.**\n\nHub: [SZLHOLDINGS/TinyKhipu-Nano](https://huggingface.co/SZLHOLDINGS/TinyKhipu-Nano)\n\n## The cut\n\nLeaders train models to answer. We train a silhouette to shut up when overlap is thin or the lure is adversarial. This nano is the token-and-handle reference model of that cut. Not 1.5B.\n\nA synthetic navigator that mean-pools token embeddings, scores handle notes, and returns NAVIGATE or ABSTAIN.\n\n### Silhouette \u2192 leave \u2192 SZL\n\n| Leader | Take, then tweak |\n|---|---|\n| Anthropic | Refusal as a typed output, not a polite paragraph. |\n| NVIDIA | Guardrail inside the head, not a sidecar. |\n| Unsloth | The 1.5B QLoRA is the grown form of this MLP. |\n\nNobody else ships this combination. That is the point of a one-of-one.\n\n## Intended use\n\nUnit-test the NAVIGATE|ABSTAIN schema before GPU spend.\n\n## Bench (this tree)\n\n`TRAINING_RECEIPT.json` seed `20260721` \u00b7 steps 280 \u00b7 honesty **REPORTED**\n\n| Metric | Value |\n|---|---|\n| plan_valid | 1.00 |\n| abstain | 1.00 |\n| hallucinated | 0 |\n| weights | `tiny_khipu.npz` sha256 `cc8d0385b2c75079669df809d7e4823f1ad8d9d535aec511446347490b11dff9` |\n\nInfers on `POST /api/infer {\"kind\":\"tiny_khipu\"}`. Hard ID filter. **Not Qwen. Not 1.5B.**\n\n## Limitations\n\n- Synthetic features. Perfect holdout is a design fact, not a field claim.\n- The 1.5B abstain rate is 2/6 \u2014 this nano does not wash that.\n\n## Honesty\n\n| Claim | Label |\n|---|---|\n| This card's numbers | SYNTHETIC |\n| Energy / joules | UNAVAILABLE unless a signed meter says MEASURED |\n| \u039b uniqueness | Conjecture 1 OPEN \u2014 not a theorem |\n| GGUF as the signed object | FALSE |\n\nDoctrine v11 LOCKED \u00b7 749 declarations \u00b7 14 axioms \u00b7 163 sorries \u00b7 locked-proven 8.\n\nApache-2.0. Copyright 2026 SZL Holdings \u00b7 Stephen P. Lutar Jr. \u00b7 ORCID [0009-0001-0110-4173](https://orcid.org/0009-0001-0110-4173).\n\n## Artifact evidence\n\n`tiny_khipu.npz` is present (3,568 bytes). SHA-256:\n\n`cc8d0385b2c75079669df809d7e4823f1ad8d9d535aec511446347490b11dff9`\n\nThe archive hash matches `TRAINING_RECEIPT.json`. Its arrays were inspected\nwith `numpy.load(..., allow_pickle=False)`; numeric values were finite.\n\n| Array | Shape | Data type |\n| --- | --- | --- |\n| `E` | `[24, 12]` | `float64` |\n| `W` | `[2, 12]` | `float64` |\n| `b` | `[2]` | `float64` |\n| `Wc` | `[12]` | `float64` |\n\nA matching unsigned receipt establishes local artifact consistency. Training\nmetrics remain reported synthetic results; this check does not independently\nreproduce training or establish deployment, general intelligence, or production readiness.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 276,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/f607301651943aea5026a228c9145dcfac751aae4e437972f787ae9167e1bbfd.json",
+      "revision": "73b75580e9a8dedb30fc23168bd6563624e8b4b2",
+      "sha256": "f607301651943aea5026a228c9145dcfac751aae4e437972f787ae9167e1bbfd",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/TinyKhipu-Nano/revision/73b75580e9a8dedb30fc23168bd6563624e8b4b2"
+    },
+    {
+      "bytes": 3395,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/e61784d8c74506761a52a426441da985666c1ac3dd0bb6031440212af6f6dff5.md",
+      "revision": "73b75580e9a8dedb30fc23168bd6563624e8b4b2",
+      "sha256": "e61784d8c74506761a52a426441da985666c1ac3dd0bb6031440212af6f6dff5",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/SZLHOLDINGS/TinyKhipu-Nano/resolve/73b75580e9a8dedb30fc23168bd6563624e8b4b2/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "BENCH.laptop-blackwell.json",
+    "LICENSE",
+    "README.md",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "card/holo-banner.svg",
+    "tiny_khipu.npz"
+  ],
+  "id": "huggingface-model/szlholdings/tinykhipu-nano",
+  "observed_at": "2026-09-25T15:21:24Z",
+  "observed_revision": "73b75580e9a8dedb30fc23168bd6563624e8b4b2"
+}

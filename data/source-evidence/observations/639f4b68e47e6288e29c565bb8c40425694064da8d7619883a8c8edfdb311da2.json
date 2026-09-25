@@ -1,0 +1,20 @@
+{
+  "card": "---\ntitle: SZL Real Estate\nemoji: \ud83e\udde0\ncolorFrom: blue\ncolorTo: gray\nsdk: docker\napp_port: 7860\npinned: false\nlicense: apache-2.0\nshort_description: Public-records underwriting. Not an MLS.\n---\n\n# szl-real-estate\n\n\n## Source and presentation ownership\n\nThe Terra product source is this repository. The shared Assurance core lives in\n[`szl-holdings/a11oy/verticals/terra`](https://github.com/szl-holdings/a11oy/tree/main/verticals/terra).\nCurrent ownership is documented in [SOURCE_PIN.md](SOURCE_PIN.md); the delegation\nartifact records exact commits for each verification run.\n\n- Kernel: [`verticals/_kernel/a11oy_kernel.py`](https://github.com/szl-holdings/a11oy/blob/main/verticals/_kernel/a11oy_kernel.py)\n- Canonical Hugging Face surface: [SZLHOLDINGS/terra](https://huggingface.co/spaces/SZLHOLDINGS/terra)\n- This repo is the canonical product source. The protected A11oy publisher owns\n  the presentation runtime and links it back here; source bytes and deployed\n  runtime bytes are deliberately reported as separate identities.\n- Formula authority: **NONE**. Models, formulas and market signals never authorize.\n- Historical Assurance core introduction: [szl-holdings/a11oy#1438](https://github.com/szl-holdings/a11oy/pull/1438)\n\n\nThe fifth vertical. Zillow / CoStar / HouseCanary own listings. SZL owns public assessor + FEMA letter + tract ACS RATE.\n\n- NYC PLUTO is MEASURED when the open data API answers.\n- Nassau has no PLUTO \u2014 honesty stays UNAVAILABLE, never invented.\n- Unit occupancy is UNAVAILABLE.\n- MLS / lockbox / \"list the house\" fail closed.\n- Actuation (offer, listing, close) is ROADMAP.\n- Energy UNAVAILABLE. \u039b = Conjecture 1. STRUCTURAL-ONLY receipts.\n- The local `hf-space` workflow performs no provider write. It verifies the\n  organization estate contract, the current protected A11oy publisher, and the\n  single canonical `SZLHOLDINGS/terra` target, then emits a hash-addressed\n  delegation receipt. The scan inventories every source workflow and rejects\n  secret references and recognized provider write declarations. Its static\n  patterns do not prove arbitrary called code cannot write. Runtime state still\n  requires a separate live deployment receipt and provider readback; this\n  product source remains `LINKED_NOT_PUBLISHED`.\n\nNot affiliated with Zillow, CoStar, or HouseCanary. Not a Zestimate.\n\nCanonical GitHub: [szl-holdings/szl-real-estate](https://github.com/szl-holdings/szl-real-estate).\nOperator kernel: [szl-holdings/szl-sovereign-os](https://github.com/szl-holdings/szl-sovereign-os).\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 2537,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/8f812083189ea6e7c010268c624ac18d17da87767371ee80fe5ce1d7037ca868.md",
+      "revision": "8961ba7e36865e1d55262ca4f719041c01d7f770",
+      "sha256": "8f812083189ea6e7c010268c624ac18d17da87767371ee80fe5ce1d7037ca868",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-real-estate/blob/8961ba7e36865e1d55262ca4f719041c01d7f770/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-real-estate",
+  "observed_at": "2026-09-25T15:21:16Z",
+  "observed_revision": "8961ba7e36865e1d55262ca4f719041c01d7f770"
+}

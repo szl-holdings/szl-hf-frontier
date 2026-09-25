@@ -1,0 +1,12 @@
+{
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "artifact_receipt.json",
+    "example_input.json",
+    "model.json",
+    "oac_operational_health.py"
+  ],
+  "revision": "1e6d76e931e2d84f3a54932ab110631b7097d2f8"
+}

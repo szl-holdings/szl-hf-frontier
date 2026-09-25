@@ -1,0 +1,20 @@
+{
+  "card": "# szl-telemetry\n\nDaily public-API telemetry snapshots for the [SZLHOLDINGS](https://huggingface.co/SZLHOLDINGS)\nHugging Face estate. Exists to answer one question honestly: **does momentum\nsurvive the launch spike?**\n\n## What this measures (and what it does not)\n\n- **Measured:** Hugging Face public-API counters, sampled once per UTC day \u2014\n  `downloads_30d` (the API's `downloads` field is a **30-day window**, not\n  cumulative), `downloads_all_time` (`downloadsAllTime`), and `likes` (models,\n  datasets, spaces). Point-in-time samples; HF's counting semantics apply.\n- **DERIVED:** day-over-day deltas computed from consecutive snapshots. A delta\n  is only as good as the two samples around it.\n- **Not claimed:** unique users, install base, quality, or adoption. Not\n  tracked in v1: discussions, clones, Spaces runtime usage (no stable public\n  counter).\n\n## Flagship momentum\n\n<!-- TREND:START -->\n| repo | downloads (cum.) | \u03941d | \u03947d | \u039414d |\n|---|---|---|---|---|\n| [SZL-Khipu-1.5B](https://huggingface.co/SZLHOLDINGS/SZL-Khipu-1.5B) | 1033 | \u2014 | \u2014 | \u2014 |\n| [SZL-Forge-1.5B-ReceiptAgent](https://huggingface.co/SZLHOLDINGS/SZL-Forge-1.5B-ReceiptAgent) | 780 | \u2014 | \u2014 | \u2014 |\n| [SZL-Khipu-1.5B-GGUF](https://huggingface.co/SZLHOLDINGS/SZL-Khipu-1.5B-GGUF) | 189 | \u2014 | \u2014 | \u2014 |\n\n_Last snapshot: 2026-07-16 UTC \u00b7 counters are HF-reported cumulative downloads; deltas DERIVED from consecutive daily snapshots._\n<!-- TREND:END -->\n\n## Layout\n\n- `data/daily/YYYY-MM-DD.json` \u2014 one snapshot per UTC day (idempotent per day)\n- `data/downloads.csv` \u2014 long-format regeneration of all dailies\n- `scripts/snapshot.py` \u2014 stdlib-only sampler; also rewrites the trend block above\n- `.github/workflows/snapshot.yml` \u2014 daily cron + manual dispatch\n\nRun locally: `python3 scripts/snapshot.py`\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 1811,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/23b1322d8f1ebe9cb3a0a4c3752f1a376612b178af707e583a5ea3d7a9850b54.md",
+      "revision": "ef519c090c9e2c19852e8b5c774fc41c750d9ec5",
+      "sha256": "23b1322d8f1ebe9cb3a0a4c3752f1a376612b178af707e583a5ea3d7a9850b54",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-telemetry/blob/ef519c090c9e2c19852e8b5c774fc41c750d9ec5/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-telemetry",
+  "observed_at": "2026-09-25T15:21:18Z",
+  "observed_revision": "ef519c090c9e2c19852e8b5c774fc41c750d9ec5"
+}

@@ -1,0 +1,17 @@
+{
+  "files": [
+    ".gitattributes",
+    "Dockerfile",
+    "PUBLICATION_RECEIPT.json",
+    "README.md",
+    "SOURCE_REVISION",
+    "app.py",
+    "catalog.py",
+    "requirements.txt",
+    "run.py",
+    "static/app.js",
+    "static/index.html",
+    "static/styles.css"
+  ],
+  "revision": "7227d60fe95becee74bb6ac46acb8b8765b720bd"
+}

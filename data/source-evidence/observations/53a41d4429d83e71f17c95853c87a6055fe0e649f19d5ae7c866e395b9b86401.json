@@ -1,0 +1,39 @@
+{
+  "card": "---\nlibrary_name: transformers\nlicense: apache-2.0\nbase_model: unsloth/Qwen3.5-0.8B\npipeline_tag: text-generation\n---\n\n> **PUBLISHED DERIVED FULL-MODEL ARTIFACT \u00b7 BOUNDED MERGE-FIDELITY EVIDENCE \u00b7 PROPOSAL ONLY**\n> Hub publication is recorded. No production route, deployment, default, or autonomy authorization follows.\n\n# szl-receiptagent-qwen35-0.8b-v2-merged\n\nThis is the derived full-model runtime form of ReceiptAgent v2, with its LoRA\nadapter merged into the multimodal base. It is separate from the frozen\n[v2 PEFT adapter](https://huggingface.co/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2)\nand does not replace it or the 1.5B ReceiptAgent family.\n\n## Artifact identity and publication evidence\n\nThe canonical [publication record](https://github.com/szl-holdings/szl-forge/blob/a6b58f623185820eddfb0b279d21b7d81b87137c/frontier/qwen35-receiptagent-v2-merged/publication.json) records an owner-authorized Hub write\nafter lane admission and a `MEASURED_HF_READBACK_VERIFIED` state. The earlier\n\"not yet published\" admission banner was stale.\n\nThe Hub revision observed for this documentation audit is\n[`6f7dc8e2215b689aa2b7d2a28d794d29f5ba3079`](https://huggingface.co/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2-merged/tree/6f7dc8e2215b689aa2b7d2a28d794d29f5ba3079).\nIt contains the merged `model.safetensors`, configuration, tokenizer, and chat\ntemplate. This is a current repository readback, not a claim that this revision\nwas recorded by the earlier evaluation. The canonical publication receipt still\nlists capture of the exact release revision as owner-side follow-up; this card\ndoes not modify that receipt or close that historical binding gap.\n\n## What the evidence establishes\n\n- The [merge repair receipt](https://github.com/szl-holdings/szl-forge/blob/a6b58f623185820eddfb0b279d21b7d81b87137c/receiptagent-v2/salvage_receipt.20260913.json) reports 372/372 LoRA keys matched,\n  none unmatched or missing, maximum weight delta 0.00422266 across 186 tensors.\n  It records the earlier empty base-copy merge and its exclusion before publication.\n- The [equivalence receipt](https://github.com/szl-holdings/szl-forge/blob/a6b58f623185820eddfb0b279d21b7d81b87137c/receiptagent-v2/qual_v2_salvage_receipt.20260913.json) reports **5/5 exact matches** between the\n  merged build and adapter under greedy decoding on named evaluation prompts.\n  This is a small owner-run merge-fidelity check, not a broad benchmark,\n  independent evaluation, or new qualification of model capability.\n- Publication readback compared file presence and byte sizes. That is not a\n  cryptographic binding of this Hub revision to the equivalence result.\n\n## Release, deployment, and authority boundary\n\nThe existing publication record concerns the admitted merge only. Model outputs\nare proposals: `decision=DRAFT`, `approvalRequired=true`, `executed=false` are\nthe required external contract, not behavior guaranteed by the weights.\nValidation, approval, execution, and receipt minting remain outside the model.\nNo autonomous execution, production deployment, new default, or promotion of\nother adapters or derived artifacts is authorized by this card.\n\n## Source of truth\n\nUse the immutable linked publication, merge, and equivalence records in\n`szl-holdings/szl-forge`; retain their separate scopes and historical states.\nThe full-model SKU and its v2 adapter predecessor remain distinct artifacts.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 269,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/a0ef0481c3037be4ec00763f4a82d8ee0ad4198640390bd94a6b41a58fa0421d.json",
+      "revision": "b770792751f00069fb042e04ee60f28f9faf5ebf",
+      "sha256": "a0ef0481c3037be4ec00763f4a82d8ee0ad4198640390bd94a6b41a58fa0421d",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2-merged/revision/b770792751f00069fb042e04ee60f28f9faf5ebf"
+    },
+    {
+      "bytes": 3390,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/d719f9eac7a937f9722c487b2749f1c14db3768d3e18630bfa26ec726f488c6c.md",
+      "revision": "b770792751f00069fb042e04ee60f28f9faf5ebf",
+      "sha256": "d719f9eac7a937f9722c487b2749f1c14db3768d3e18630bfa26ec726f488c6c",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2-merged/resolve/b770792751f00069fb042e04ee60f28f9faf5ebf/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "chat_template.jinja",
+    "config.json",
+    "generation_config.json",
+    "model.safetensors",
+    "tokenizer.json",
+    "tokenizer_config.json"
+  ],
+  "id": "huggingface-model/szlholdings/szl-receiptagent-qwen35-0.8b-v2-merged",
+  "observed_at": "2026-09-25T15:21:23Z",
+  "observed_revision": "b770792751f00069fb042e04ee60f28f9faf5ebf"
+}

@@ -1,0 +1,36 @@
+{
+  "card": "---\nlicense: apache-2.0\ntags:\n  - historical\n  - org-stub\n  - not-a-checkpoint\n  - szl-holdings\n  - not-a-model\n---\n\n# SZLHOLDINGS / SZLHOLDINGS - historical org stub, not a model\n\n> **Lifecycle: DEMOTED / HISTORICAL_STUB. Production-ready: false.** At exact\n> upstream revision `4f5fb9726ef09e96aa9cf6505ad3c543cc15ec8d`, this repository\n> contains only `README.md` and `.gitattributes`. It contains no weights,\n> configuration, tokenizer, model artifact, evaluation, or training record.\n\nThis Hub ID is **not a trainable model** and **not weights**. It is a historical\norg-named profile stub that Hugging Face indexes under Models. Keep it public\nonly as a name reservation and historical notice. Do not call\n`from_pretrained(\"SZLHOLDINGS/SZLHOLDINGS\")`.\n\n## Evidence and machine-readable status\n\n- [`provenance.json`](./provenance.json) binds this candidate to the exact\n  upstream repository type, identity, revision, file manifest, and observed\n  metadata.\n- [`status.json`](./status.json) blocks model, inference, deployment, and\n  production claims and records the catalog demotion.\n- The existing `apache-2.0` card metadata is retained as an observed declaration\n  about repository-card materials. It is not evidence of a trained artifact\n  license. No standalone model LICENSE is added by this candidate.\n\n## What it is and is not\n\n- **IS:** an empty org-named stub (`README.md` plus `.gitattributes` at the\n  captured upstream revision). Living org:\n  [`huggingface.co/SZLHOLDINGS`](https://huggingface.co/SZLHOLDINGS).\n- **IS NOT:** a language model, checkpoint, weight set, tokenizer, evaluation,\n  inference endpoint, trained artifact, or production deployment.\n\n## Status\n\n| Subject | Evidence state | Basis |\n|---|---|---|\n| Repository identity and head | **OBSERVED** | Authenticated exact-revision read on 2026-08-30. |\n| Model artifact | **BLOCKED** | No model artifact exists in the captured file manifest. |\n| Source and training provenance | **UNKNOWN** | No source binding, base model, dataset, run, or recipe evidence exists. |\n| Model-artifact license | **BLOCKED** | No artifact exists and no artifact-scoped license evidence exists. |\n| Evaluation and inference | **BLOCKED** | No checkpoint or evaluation evidence exists. |\n| Promoted or production-ready status | **DEMOTED** | Historical name-reservation shell only. |\n\n## Intended use\n\nHold the org-named ID and direct readers to the organization profile.\n\n## Limitations\n\n- Not a model.\n- Not loadable or deployable.\n- Not evidence for any other SZL repository, model, dataset, Space, or product.\n\nCanonical organization profile:\n[`szl-holdings/.github`](https://github.com/szl-holdings/.github/blob/main/profile/README.md)\n\nRepository-card metadata declares Apache-2.0. Trained-artifact licensing remains\n**BLOCKED** because no trained artifact exists.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 189,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/db08db97d539aaf23f835b9e391649df785757c2b5de0dd031cc53076cfa12c2.json",
+      "revision": "cb26dc7c2294854ecec128410f60bdc017fb2a29",
+      "sha256": "db08db97d539aaf23f835b9e391649df785757c2b5de0dd031cc53076cfa12c2",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/SZLHOLDINGS/revision/cb26dc7c2294854ecec128410f60bdc017fb2a29"
+    },
+    {
+      "bytes": 2834,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/5eb4a0f1641d907d1242f8208608ecf36894d02ab889152fe95a64655c3a2a3e.md",
+      "revision": "cb26dc7c2294854ecec128410f60bdc017fb2a29",
+      "sha256": "5eb4a0f1641d907d1242f8208608ecf36894d02ab889152fe95a64655c3a2a3e",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/SZLHOLDINGS/SZLHOLDINGS/resolve/cb26dc7c2294854ecec128410f60bdc017fb2a29/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "bom/model-bom.cdx.json",
+    "provenance.json",
+    "status.json"
+  ],
+  "id": "huggingface-model/szlholdings/szlholdings",
+  "observed_at": "2026-09-25T15:21:24Z",
+  "observed_revision": "cb26dc7c2294854ecec128410f60bdc017fb2a29"
+}

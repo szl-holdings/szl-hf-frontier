@@ -1,0 +1,20 @@
+{
+  "card": "# szl-receipt-attn\n<!-- szl:header v1 -->\n<!-- badges: add this repo's CI / release / status badges here -->\n[![org: szl-holdings](https://img.shields.io/badge/org-szl--holdings-black)](https://github.com/szl-holdings)\n[![doctrine](https://img.shields.io/badge/doctrine-control%20before%20action%20%C2%B7%20evidence%20after-blue)](https://a-11-oy.com)\n\n**Control before action. Evidence after.**\n\nPart of the [szl-holdings](https://github.com/szl-holdings) estate \u00b7\nProduct: [a-11-oy.com](https://a-11-oy.com) \u00b7\nProof: [a11oy.net](https://a11oy.net)\n<!-- /szl:header -->\n\nCanonical GitHub source for `SZLHOLDINGS/szl-receipt-attn`.\n\nOriginal Triton tiled fused attention (FlashAttention silhouette, not a copy).\nEach call can emit a SHA3-256 receipt onto an optional chain.\n\nDoctrine v11 LOCKED. \u039b = Conjecture 1 (advisory; uniqueness OPEN).  \nOriginal SZL construction in the fused-attention category. Inspired by Dao et al. FA1/FA2/FA3. **NOT** a rehost of Dao-AILab flash-attention, kernels-community/flash-attn2/3/4, hopper/, cute/, or any `.cu`.\n\nGitHub bytes are the artifact. Hub is the publish mirror. ATELIER owns Hub cards.\n\n## Load\n\n```python\nfrom kernels import get_kernel\n\nattn = get_kernel(\n    \"SZLHOLDINGS/szl-receipt-attn\",\n    revision=\"main\",\n    trust_remote_code=True,\n)\n```\n\n```python\nimport torch\nfrom szl_receipt_attn import receipt_attn, ReceiptChain, selfcheck\n\nq = k = v = torch.randn(1, 2, 16, 32)\nchain = ReceiptChain()\ny = receipt_attn(q, k, v, causal=True, chain=chain)\nprint(chain.verify(), selfcheck())\n```\n\n`selfcheck()` never fabricates a pass. It runs a small CPU torch-reference check.\n\n## Paths (honesty)\n\n| `path` | When |\n|---|---|\n| `triton` | CUDA, no `attn_mask`, head dim \u2264 32, original SZL Triton tiles |\n| `torch_reference` | CPU, or `prefer=\"torch\"`, or mask / head dim > 32 |\n| `torch_reference_fallback` | Triton was selected and raised |\n\nNo speedup claims. No fabricated CUDA benches in this repo.\n\n## Correctness band (documented, not a bench)\n\nfp32 vs `torch.nn.functional.scaled_dot_product_attention`: **atol=1e-5, rtol=1e-5**.\n\n## Tests\n\n- kernel-builder: `nix run .#testshell-torch-ext-local` (sets `LOCAL_KERNELS`; `get_kernel` must hard-fail if that env is ignored)\n- source tree (labeled, not a Hub load): `SZL_SOURCE_TREE_TESTS=1 PYTHONPATH=torch-ext python -m pytest tests/ -q`\n\n## License\n\nApache-2.0. Copyright 2026 SZL Holdings. Owner: Stephen P. Lutar Jr. / SZL Holdings. Homepage: https://a-11-oy.com\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 2473,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/85a4ed457927b9365bf71b8bf7150c494e4f822416894109be83208408a645fc.md",
+      "revision": "dd0b8c8f08b236cae323a41028e159e63e6b3d3a",
+      "sha256": "85a4ed457927b9365bf71b8bf7150c494e4f822416894109be83208408a645fc",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-receipt-attn/blob/dd0b8c8f08b236cae323a41028e159e63e6b3d3a/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-receipt-attn",
+  "observed_at": "2026-09-25T15:21:16Z",
+  "observed_revision": "dd0b8c8f08b236cae323a41028e159e63e6b3d3a"
+}

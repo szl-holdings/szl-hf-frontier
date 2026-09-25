@@ -1,0 +1,20 @@
+{
+  "card": "# KHIPU-X1\n\n**FPGA-first governed LLM accelerator reference.**\n\nThis repository is a software reference and future hardware workspace. It is not\na fabricated chip and does not claim performance superiority.\n\nCurrent implemented lane:\n\n- KIDS v0.1 descriptor draft;\n- deterministic NumPy simulator;\n- minimal explicit graph lowering;\n- safe `.khipu` package builder/verifier;\n- SHA3-256 execution receipt chain;\n- RC1 authorization-state emulator;\n- conformance tests.\n\nCurrent hardware status: **UNAVAILABLE \u2014 target FPGA not selected**.\n\n## Quick start\n\n```bash\npython -m venv .venv\n# Windows: .venv\\Scripts\\activate\n# Linux/macOS: source .venv/bin/activate\npython -m pip install -e \".[dev]\"\npytest -q\nkhipu-x1 demo --out ./demo-output\n```\n\nOr without installing:\n\n```bash\nPYTHONPATH=src python scripts/demo.py --out ./demo-output\n```\n\n## Truth labels\n\n- `SCAFFOLDED`: interface/document exists.\n- `SOFTWARE_EMULATED`: reference code executed.\n- `FPGA_MEASURED`: only after exact bitstream/device tests.\n- `BLOCKED`: attempted path refused with evidence.\n- `UNAVAILABLE`: capability does not exist or was not measured.\n\n## Program boundary\n\nOne owner prototype only. No production tooling, mass-production order or ASIC\ntapeout is authorized by this repository.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 1265,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/079f09b9e19a6d3c2effa51f539ea1b9624d69635483889d340eb3734e03bc52.md",
+      "revision": "360bb6c59f694face6a29064be786e2283d6d990",
+      "sha256": "079f09b9e19a6d3c2effa51f539ea1b9624d69635483889d340eb3734e03bc52",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/khipu-x1/blob/360bb6c59f694face6a29064be786e2283d6d990/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/khipu-x1",
+  "observed_at": "2026-09-25T15:21:08Z",
+  "observed_revision": "360bb6c59f694face6a29064be786e2283d6d990"
+}

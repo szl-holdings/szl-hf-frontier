@@ -1,0 +1,39 @@
+{
+  "card": "---\nlicense: apache-2.0\nlibrary_name: other\ntags:\n  - governed-ai\n  - szl-holdings\n  - doctrine-v11\n  - roadmap\n  - roadmap\n  - software\n  - reference\n  - test-fixture\n---\n\n> **Status: SOFTWARE / REFERENCE / TEST FIXTURE.** Not a production model.\n\n# qantu\n\nThis repository contains a small NumPy reference artifact: empty-seat visual-organ silhouette: 4 synthetic image-class prototypes.\nThe broader organ remains roadmap work. The synthetic archive is present;\nearlier statements that this repository had no weights are superseded.\n\n## Intended use\n\nInspect synthetic artifacts and exercise software fixtures. The archive does\nnot include a packaged loader or `config.json` in this repository.\n`from_pretrained` compatibility and hosted inference are unverified.\n\n## Artifact evidence\n\n`qantu.npz` is present (3,842 bytes). SHA-256:\n\n`ce908e597662dd5a89f0a479cf47f7fe30540944104db956476e21149c9c96e3`\n\nThe archive hash matches `TRAINING_RECEIPT.json`. Its arrays were inspected\nwith `numpy.load(..., allow_pickle=False)`; numeric values were finite.\n\n| Array | Shape | Data type |\n| --- | --- | --- |\n| `w1` | `[16, 16]` | `float64` |\n| `b1` | `[16]` | `float64` |\n| `w2` | `[16, 4]` | `float64` |\n| `b2` | `[4]` | `float64` |\n| `holdoutAcc` | `[]` | `float64` |\n| `seed` | `[]` | `int64` |\n\nA matching unsigned receipt establishes local artifact consistency. Training\nmetrics remain reported synthetic results; this check does not independently\nreproduce training or establish deployment, general intelligence, or production readiness.\n\n## Reported training\n\nThe repository receipt reports seed `20260721`, `2000` steps,\nsynthetic accuracy `0.541250`, and loss `1.054862`.\nThese values were read from the receipt and were not independently rerun.\nThey do not establish field performance or authority to make operational decisions.\n\n## Evidence boundaries\n\n- Artifact bytes and receipt hash: checked at the pinned repository revision.\n- Training and evaluation: reported synthetic evidence only.\n- Production deployment, runtime correctness, and energy: unverified.\n- Proven trust: false in the published training receipt.\n- Lambda uniqueness remains Conjecture 1 OPEN, not a theorem.\n\nApache-2.0. Copyright 2026 SZL Holdings \u00b7 Stephen P. Lutar Jr. \u00b7 ORCID [0009-0001-0110-4173](https://orcid.org/0009-0001-0110-4173).\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 250,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/4a2b9dde35d98d9f58b82580941844905d57b9cb3879466c6fa449600f1bca6d.json",
+      "revision": "5308d6654f80c8031e3279fa21ae095f7a71ca43",
+      "sha256": "4a2b9dde35d98d9f58b82580941844905d57b9cb3879466c6fa449600f1bca6d",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/qantu/revision/5308d6654f80c8031e3279fa21ae095f7a71ca43"
+    },
+    {
+      "bytes": 2323,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/2e39f6253ba941a75bcd902a139d3b9e71e60d65067446cd9aecacb341c1ed79.md",
+      "revision": "5308d6654f80c8031e3279fa21ae095f7a71ca43",
+      "sha256": "2e39f6253ba941a75bcd902a139d3b9e71e60d65067446cd9aecacb341c1ed79",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/SZLHOLDINGS/qantu/resolve/5308d6654f80c8031e3279fa21ae095f7a71ca43/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "provenance.json",
+    "qantu.npz",
+    "status.json"
+  ],
+  "id": "huggingface-model/szlholdings/qantu",
+  "observed_at": "2026-09-25T15:21:22Z",
+  "observed_revision": "5308d6654f80c8031e3279fa21ae095f7a71ca43"
+}

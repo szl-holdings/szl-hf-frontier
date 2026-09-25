@@ -1,0 +1,39 @@
+{
+  "card": "---\nlicense: apache-2.0\nlibrary_name: other\ntags:\n  - governed-ai\n  - szl-holdings\n  - doctrine-v11\n  - roadmap\n  - roadmap\n  - software\n  - reference\n  - test-fixture\n---\n\n> **Status: SOFTWARE / REFERENCE / TEST FIXTURE.** Not a production model.\n\n# waman\n\nThis repository contains a small NumPy reference artifact: C-UAS detector silhouette: box-and-receipt or fail-closed.\nThe broader organ remains roadmap work. The synthetic archive is present;\nearlier statements that this repository had no weights are superseded.\n\n## Intended use\n\nInspect synthetic artifacts and exercise software fixtures. The archive does\nnot include a packaged loader or `config.json` in this repository.\n`from_pretrained` compatibility and hosted inference are unverified.\n\n## Artifact evidence\n\n`waman.npz` is present (4,189 bytes). SHA-256:\n\n`9b31cf28e1877fb15eb9ef5ecafb4054612dc8418d1707b3f1f164b7296ef325`\n\nThe archive hash matches `TRAINING_RECEIPT.json`. Its arrays were inspected\nwith `numpy.load(..., allow_pickle=False)`; numeric values were finite.\n\n| Array | Shape | Data type |\n| --- | --- | --- |\n| `w1` | `[20, 16]` | `float64` |\n| `b1` | `[16]` | `float64` |\n| `w2` | `[16, 3]` | `float64` |\n| `b2` | `[3]` | `float64` |\n| `holdoutAcc` | `[]` | `float64` |\n| `seed` | `[]` | `int64` |\n\nA matching unsigned receipt establishes local artifact consistency. Training\nmetrics remain reported synthetic results; this check does not independently\nreproduce training or establish deployment, general intelligence, or production readiness.\n\n## Reported training\n\nThe repository receipt reports seed `20260721`, `2000` steps,\nsynthetic accuracy `0.671667`, and loss `0.694394`.\nThese values were read from the receipt and were not independently rerun.\nThey do not establish field performance or authority to make operational decisions.\n\n## Evidence boundaries\n\n- Artifact bytes and receipt hash: checked at the pinned repository revision.\n- Training and evaluation: reported synthetic evidence only.\n- Production deployment, runtime correctness, and energy: unverified.\n- Proven trust: false in the published training receipt.\n- Lambda uniqueness remains Conjecture 1 OPEN, not a theorem.\n\nApache-2.0. Copyright 2026 SZL Holdings \u00b7 Stephen P. Lutar Jr. \u00b7 ORCID [0009-0001-0110-4173](https://orcid.org/0009-0001-0110-4173).\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 250,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/b66199904f36ce39db5dc349ae53c6e3fc03839688bbbb95c008d9270fa9db2d.json",
+      "revision": "ede350c01780331bb665362342e7a4750df1e09f",
+      "sha256": "b66199904f36ce39db5dc349ae53c6e3fc03839688bbbb95c008d9270fa9db2d",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/waman/revision/ede350c01780331bb665362342e7a4750df1e09f"
+    },
+    {
+      "bytes": 2310,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/6c5e900ba32f15a698220c796c3b15e079c9a36d2dd840e9749512b63cbb684e.md",
+      "revision": "ede350c01780331bb665362342e7a4750df1e09f",
+      "sha256": "6c5e900ba32f15a698220c796c3b15e079c9a36d2dd840e9749512b63cbb684e",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/SZLHOLDINGS/waman/resolve/ede350c01780331bb665362342e7a4750df1e09f/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "provenance.json",
+    "status.json",
+    "waman.npz"
+  ],
+  "id": "huggingface-model/szlholdings/waman",
+  "observed_at": "2026-09-25T15:21:24Z",
+  "observed_revision": "ede350c01780331bb665362342e7a4750df1e09f"
+}

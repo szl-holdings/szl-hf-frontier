@@ -1,0 +1,45 @@
+{
+  "card": "---\nlicense: apache-2.0\ntags:\n- formal-verification\n- mathematics\n- lean4\n- trust-aggregation\n- ouroboros-invariant\n- szl-holdings\n- doi:10.5281/zenodo.19944926\ntask_categories:\n- other\npretty_name: SZL Holdings Canonical Formula Registry v1\nsize_categories:\n- n<1K\nlanguage:\n- en\n---\n\n<!-- SZL-ESTATE-CARD:v2:START -->\n<p align=\"center\"><a href=\"https://a-11-oy.com/\"><img src=\"https://huggingface.co/spaces/SZLHOLDINGS/README/resolve/main/assets/estate-banner-v2.svg\" alt=\"SZL Holdings \u2014 governed, receipted, verifiable\" width=\"100%\"></a></p>\n<p align=\"center\">\n  <a href=\"https://github.com/szl-holdings/.github/tree/main/doctrine\"><img src=\"https://img.shields.io/badge/doctrine-v11%20LOCKED-0B1F3A?style=flat-square\" alt=\"doctrine v11\"></a>\n  <a href=\"https://a-11-oy.com/\"><img src=\"https://img.shields.io/badge/evidence%20wall-LIVE%20%C2%B7%20verify%20in%20browser-3AF4C8?style=flat-square\" alt=\"live evidence wall\"></a>\n  <a href=\"https://huggingface.co/datasets/SZLHOLDINGS/szl-lake\"><img src=\"https://img.shields.io/badge/szl--lake-offline%20verifiable-C9B787?style=flat-square\" alt=\"szl-lake offline verifiable\"></a>\n  <a href=\"https://huggingface.co/spaces/SZLHOLDINGS/holographic\"><img src=\"https://img.shields.io/badge/estate%20map-holographic-5B8DEE?style=flat-square\" alt=\"holographic estate map\"></a>\n</p>\n<p align=\"center\"><sub>Part of the <a href=\"https://huggingface.co/SZLHOLDINGS\">SZL Holdings</a> governed estate \u2014 claims are designed to carry checkable receipts. Verification proves integrity &amp; origin, never accuracy or performance.</sub></p>\n<!-- SZL-ESTATE-CARD:v2:END -->\n\n<div align=\"center\">\n<p>\n\n[![dataset](https://img.shields.io/badge/dataset-formula%20registry-3af4c8?style=flat-square)](https://huggingface.co/datasets/SZLHOLDINGS/canonical-formulas-v1/tree/main)\n[![files](https://img.shields.io/badge/files-14-5b8dee?style=flat-square)](https://huggingface.co/datasets/SZLHOLDINGS/canonical-formulas-v1/tree/main)\n[![license](https://img.shields.io/badge/license-apache--2.0-7e8aa3?style=flat-square)](https://huggingface.co/datasets/SZLHOLDINGS/canonical-formulas-v1)\n\n</p>\n</div>\n\n# SZLHOLDINGS/canonical-formulas-v1\n\nThe **canonical SZL formula registry** \u2014 21 pure, typed, no-IO Python formulas, the\nmatching Lean 4 obligation theorems, and the Codex-Kernel governed-loop composer.\n\n## Contents\n\n| File | What |\n|------|------|\n| `code/python/formulas.py` | 21 canonical formulas, each typed + pure + docstring-cited with PROOF-STATUS |\n| `code/lean/Formulas.lean` | One Lean 4 obligation theorem per formula (honest `sorry` where open) |\n| `code/python/composer.py` | Codex-Kernel governed-loop composer (hash-chained receipts + 4 hard-stop validators) |\n\n## The \u039b unification (canonical)\n\nThree divergent \u039b definitions existed across the corpus. `lambda_aggregate` **canonicalises\nthe weighted geometric mean** (D2) \u2014 the form the ouroboros \u039b-gate runtime evaluates and\nwhose axioms A1\u2013A4 are in `Lutar/Axioms.lean`. (D1) unweighted is the uniform-weight\nspecial case; (D3) quantum-tilted is deprecated to the `gleason_quantum_lambda` sub-gate.\n\n## Honesty (Doctrine v11)\n\nEvery formula docstring carries a PROOF-STATUS: **PROVEN / SORRY / AXIOM / CONJECTURE**.\nWe NEVER claim PROVEN where a Lean `sorry` remains. \u039b uniqueness is a **CONJECTURE**\n(`Uniqueness.lean:120`). A2 = `IsHomogeneous`, A4 = `IsBounded`. DSSE signatures are\n**PLACEHOLDER** (Sigstore not wired into CI).\n\nCanonical Lean numbers (lutar-lean @ `c7c0ba17`): **749 declarations / 14 unique axioms /\n163 tracked sorries** (112 baseline + 51 Putnam).\n\n## Composer smoke\n\n5 steps, \u039b-aggregate \u2248 0.99729, `halted=False`, `replay_ok=True`. Four validators:\n`state_transition`, `drift_bounds`, `human_gate`, `axis_floor`. Any failure \u2192 HALT (HUKLLA).\n\n## Sibling datasets\n\n- `SZLHOLDINGS/lean-proofs-v1` \u2014 full Lean theorem library (source of truth)\n- `SZLHOLDINGS/thesis-corpus-v18` \u2014 v18 chapters + 179 formal blocks\n- `SZLHOLDINGS/doctrine-v10-v11` \u2014 locked doctrine\n\n## Citation\n\n\n**Cite this.** Part of the SZL Holdings *Ouroboros Thesis* (Governed Post-Determinism).  \nConcept DOI (always-latest): [10.5281/zenodo.19944926](https://doi.org/10.5281/zenodo.19944926).  \nAuthor: Stephen P. Lutar Jr. \u00b7 [ORCID 0009-0001-0110-4173](https://orcid.org/0009-0001-0110-4173) \u00b7 Dataset license: Apache-2.0; the cited program publication is CC-BY-4.0.  \nFull DOI-pinned lineage (v1\u2192v26) + the 8 papers: [szl-papers PAPERS_INDEX](https://github.com/szl-holdings/szl-papers/blob/main/PAPERS_INDEX.md).  \nNo artifact-specific DOI is minted for this dataset; the concept DOI above covers the program.\n\nHonesty (Doctrine v11): \u039b unconditional uniqueness is **Conjecture 1** (machine-checked FALSE as stated) \u2014 never a theorem; conditional uniqueness is **Theorem U** (axiom-free). Locked-proven formulas = **exactly 8** {F1,F4,F7,F11,F12,F18,F19,F22}; ~185 experimental theorems are a separate CI-green tier; Khipu BFT safety = Conjecture 2. Trust never 100%.\n\n```bibtex\n@misc{lutar_szl_ouroboros,\n  author    = {Lutar, Stephen P., Jr.},\n  title     = {SZL Holdings --- The Ouroboros Thesis (Governed Post-Determinism)},\n  year      = {2026},\n  publisher = {Zenodo},\n  doi       = {10.5281/zenodo.19944926},\n  url       = {https://doi.org/10.5281/zenodo.19944926},\n  note      = {Concept DOI --- always resolves to the latest version. ORCID 0009-0001-0110-4173. CC-BY-4.0.}\n}\n```\n\nConcept DOI: [10.5281/zenodo.19944926](https://doi.org/10.5281/zenodo.19944926) \u00b7 ORCID `0009-0001-0110-4173`\n\n---\n\n### \u25c7 Explore the SZL Holdings estate\n[\u25b6 a11oy console (a-11-oy.com)](https://a-11-oy.com) \u00b7 [a11oy Space](https://huggingface.co/spaces/SZLHOLDINGS/a11oy) \u00b7 [killinchu](https://huggingface.co/spaces/SZLHOLDINGS/killinchu) \u00b7 [holographic (3D)](https://huggingface.co/spaces/SZLHOLDINGS/holographic) \u00b7 [all datasets & models \u2192 SZLHOLDINGS](https://huggingface.co/SZLHOLDINGS) \u00b7 [GitHub org](https://github.com/szl-holdings)\n\n---\n\n<div align=\"center\">\n\n**[\ud83d\udee1\ufe0f SZLHOLDINGS on Hugging Face \u2192](https://huggingface.co/SZLHOLDINGS)**   \u00b7   **[a-11-oy.com \u2192](https://a-11-oy.com)**   \u00b7   **[Estate hub \u2014 live \u2192](https://szlholdings-szl-estate-live.static.hf.space)**\n\n### Governed AI you can prove.\n\n<sub>SLSA: L1 honest \u00b7 L2 attested \u00b7 L3 roadmap. \u039b = Conjecture 1 (advisory, never a theorem). Trust ceiling 0.97 \u2014 never 100%. Labels honest by default: MEASURED / REPORTED / MODELED / HEURISTIC / UNKNOWN / UNAVAILABLE. locked-proven = exactly 8 {F1,F4,F7,F11,F12,F18,F19,F22}.</sub>\n\n</div>\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 478,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/1733ada263cc586e21a0b87ca9581751f596da0ed43dfd99294ae444989abd84.json",
+      "revision": "d6558dc794b0e06636f45b8146da7858056944f2",
+      "sha256": "1733ada263cc586e21a0b87ca9581751f596da0ed43dfd99294ae444989abd84",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/datasets/SZLHOLDINGS/canonical-formulas-v1/revision/d6558dc794b0e06636f45b8146da7858056944f2"
+    },
+    {
+      "bytes": 6546,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/22139fe5b6c9bcb4e16c3f6a70c01259f98c7a3e7e96337d4d05752b38ef9d29.md",
+      "revision": "d6558dc794b0e06636f45b8146da7858056944f2",
+      "sha256": "22139fe5b6c9bcb4e16c3f6a70c01259f98c7a3e7e96337d4d05752b38ef9d29",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/datasets/SZLHOLDINGS/canonical-formulas-v1/resolve/d6558dc794b0e06636f45b8146da7858056944f2/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "CITATION.cff",
+    "DATASET_PROVENANCE.json",
+    "LICENSE",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "code/lean/Formulas.lean",
+    "code/lean/lakefile.lean",
+    "code/lean/lean-toolchain",
+    "code/python/composer.py",
+    "code/python/formulas.py",
+    "code/tests/test_composer.py",
+    "code/tests/test_formulas.py"
+  ],
+  "id": "huggingface-dataset/szlholdings/canonical-formulas-v1",
+  "observed_at": "2026-09-25T15:21:19Z",
+  "observed_revision": "d6558dc794b0e06636f45b8146da7858056944f2"
+}

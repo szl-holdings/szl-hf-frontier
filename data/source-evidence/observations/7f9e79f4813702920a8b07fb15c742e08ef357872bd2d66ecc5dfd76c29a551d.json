@@ -1,0 +1,20 @@
+{
+  "card": "# Retrieval Bench\n\nRetrieval benchmark source, receipt verification, and evidence plumbing for the SZL stack \u2014 including the **multivector** lane.\n\n## What this is\n\nThis repository owns retrieval-plane benchmark code, retrieval receipts, and their fail-closed verifier. It supports dense, sparse, rerank, hybrid, and multivector (ColBERT-style late-interaction) evaluation paths without turning implementation support or fixture controls into measured production claims.\n\n## Current evidence state\n\nThe checked-in retrieval receipt chain currently contains only `receipts/000-genesis.json`, whose status is `BLOCKED`, method states that no run was executed, and metrics are empty. Therefore this repository currently has **zero admitted measured retrieval rows**.\n\n`evidence/eclipse-native-repaired-20260905.json` is a local synthetic verifier-control artifact (`scope: LOCAL_FIXTURE_VERIFIER_CONTROLS`, fixture hardware, dated 2000-01-01). It demonstrates mutation detection for the verifier; it is not benchmark evidence and must not be presented as measured production performance.\n\n## Evidence contract\n\n- **Query-bound run receipts** \u2014 in-memory benchmark receipts bind corpus, query set, qrels, model revision, configuration, and result hashes so comparisons cannot silently cross query populations.\n- **Multivector support** \u2014 per-token late-interaction embeddings with MaxSim scoring are implemented as a separate retrieval family; no measured multivector performance is claimed until an admitted receipt exists.\n- **Dense and sparse support** \u2014 ANN/dense and BM25 paths are implemented under the same harness; implementation availability is not evidence of measured parity or superiority.\n- **Honest labels** \u2014 measured claims require admitted receipts with corpus/input provenance, hardware, date, method, and metrics.\n- **Fail-closed publication** \u2014 `tools/sync_results.py` exports only hash-chain-verified `MEASURED` receipts; non-measured states remain absent from the public results payload.\n- **Integrity boundary** \u2014 the receipt chain is tamper-evident but unsigned; it proves continuity/integrity, not independent signer or hardware identity.\n\n## Public surface\n\nThe consolidated public bench is published by [szl-holdings/frontier-bench](https://github.com/szl-holdings/frontier-bench) to [betterwithage/szl-bench-suite](https://huggingface.co/spaces/betterwithage/szl-bench-suite). Provider publication, runtime readback, and public presentation are separate qualification stages from this repository's source and receipt verification.\n\n**Division of labor:** this repository owns retrieval receipt verification and retrieval-plane source. The measurement harness that produces receipted retrieval runs lives in [szl-holdings/szl-retrieval-bench](https://github.com/szl-holdings/szl-retrieval-bench); the consolidated publisher lives in [szl-holdings/frontier-bench](https://github.com/szl-holdings/frontier-bench); and the Wave 1 consolidated bakeoff report lives in [szl-holdings/szl-wave1-report](https://github.com/szl-holdings/szl-wave1-report).\n\n## Status\n\nFoundation source is present. Current admitted measurement state is **EMPTY / BLOCKED genesis only**. Real benchmark execution and any later promotion remain separate evidence-producing steps.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 3289,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/c8680655009c7e5b333170ed89b617f82fe8435a84b5c9ab6d18b49fd490441c.md",
+      "revision": "0a84d06de5941a179a27de3998b3ab0c6c200672",
+      "sha256": "c8680655009c7e5b333170ed89b617f82fe8435a84b5c9ab6d18b49fd490441c",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/retrieval-bench/blob/0a84d06de5941a179a27de3998b3ab0c6c200672/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/retrieval-bench",
+  "observed_at": "2026-09-25T15:21:09Z",
+  "observed_revision": "0a84d06de5941a179a27de3998b3ab0c6c200672"
+}
