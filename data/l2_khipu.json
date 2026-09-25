@@ -18,12 +18,12 @@
     {"policy": "controller_hidden_handle", "coverage": 1.0, "false_navigate": 0.0, "measured_on": "controller-gold"},
     {"policy": "always_navigate", "coverage": 1.0, "false_navigate": 1.0, "measured_on": "controller-gold-counterfactual"}
   ],
-  "note": "Curve is controller-only. Weight slots stay UNAVAILABLE. Do not freeze operating_point until a weight run exists.",
+  "note": "Curve is controller-only. September 12 inventory observes numeric artifacts on the Khipu candidates, including the September 8 abstain adapter/GGUF. Artifact-byte reproduction and a larger held-out coverage-risk evaluation remain incomplete; operating_point stays null.",
   "candidates": [
-    {"id": "SZLHOLDINGS/TinyKhipu-Nano", "selected": false, "reason": "WEIGHTS_UNAVAILABLE"},
-    {"id": "SZLHOLDINGS/SZL-Khipu-1.5B", "selected": false, "reason": "WEIGHTS_UNAVAILABLE"},
-    {"id": "SZLHOLDINGS/SZL-Khipu-1.5B-GGUF", "selected": false, "reason": "NO_POST_QUANT_EVAL"},
-    {"id": "SZLHOLDINGS/SZL-Khipu-1.5B-abstain", "selected": false, "reason": "ADAPTER_BYTES_MISSING"},
+    {"id": "SZLHOLDINGS/TinyKhipu-Nano", "selected": false, "reason": "HELD_OUT_QUALITY_NOT_ESTABLISHED"},
+    {"id": "SZLHOLDINGS/SZL-Khipu-1.5B", "selected": false, "reason": "ABSTENTION_2_OF_6_IN_OWNER_EVAL"},
+    {"id": "SZLHOLDINGS/SZL-Khipu-1.5B-GGUF", "selected": false, "reason": "HELD_OUT_QUALITY_NOT_ESTABLISHED"},
+    {"id": "SZLHOLDINGS/SZL-Khipu-1.5B-abstain", "selected": false, "reason": "ABSTENTION_3_OF_6_AND_STALE_CARD", "revision": "7f93c1b53d19a174e831af61425f101c8cbd41de"},
     {"id": "SZLHOLDINGS/KHIPU-R2", "selected": false, "reason": "TRAINING_FINISHED_IS_NOT_PROMOTION"},
     {"id": "SZLHOLDINGS/khipu-r3", "selected": false, "reason": "TRAINING_FINISHED_IS_NOT_PROMOTION"}
   ]
