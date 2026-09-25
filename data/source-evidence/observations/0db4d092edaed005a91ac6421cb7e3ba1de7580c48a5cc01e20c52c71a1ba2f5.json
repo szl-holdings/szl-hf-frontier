@@ -1,0 +1,49 @@
+{
+  "card": "---\r\ntitle: SZL Constellation\r\nemoji: \ud83c\udf0c\r\ncolorFrom: blue\r\ncolorTo: purple\r\nsdk: gradio\r\nsdk_version: 6.26.0\r\npython_version: '3.13'\r\napp_file: app.py\r\npinned: true\r\nlicense: apache-2.0\r\ntags:\r\n  - szl\r\n  - governed-ai\r\n  - receipts\r\n  - holographic\r\n  - constellation\r\n---\r\n\r\n# SZL Constellation - the living archive\r\n\r\n49 estates, unarchived as light.\r\n\r\n[Canonical GitHub source](https://github.com/szl-holdings/szl-constellation) |\r\n[Receipt ledger](https://huggingface.co/datasets/SZLHOLDINGS/szl-lake) |\r\n[Product](https://a-11-oy.com) |\r\n[Proof](https://a11oy.net)\r\n\r\n## Shader Fabric v1.1 - deployed, hash-verified\r\n\r\nOpen the hologram: https://szlholdings-szl-constellation.hf.space/fabric\r\n\r\nServed engine and demo bytes match GitHub main 82399278d299db78e88070e6f88e5b8fbc6585d3 by SHA-256, and /healthz reports the deployed app.py hash. Measured in headless Edge: WEBGL_CONTEXT_INITIALIZED, 49 estates, 0 dropped (https://huggingface.co/datasets/SZLHOLDINGS/szl-lake/blob/main/receipts/2026-09-24/constellation-fabric-render-20260924T222547Z.json). No-WebGL browsers get an explicit static honest fallback.\r\n\r\nRuntime receipt: https://huggingface.co/datasets/SZLHOLDINGS/szl-lake/blob/main/receipts/2026-09-24/constellation-fabric-runtime-20260924T214759Z.json\r\n\r\n| State | Visual treatment | Meaning |\r\n|---|---|---|\r\n| MEASURED | Bright | Measured evidence exists |\r\n| PROMOTED | Bright cool | Promotion gate passed |\r\n| UNKNOWN | Neutral | No claim |\r\n| BLOCKED | Dim | Gate denial is visible |\r\n| INVALID | No rendering | Fail-closed input or comparison |\r\n\r\n## Developer start\r\n\r\n~~~text\r\ngit clone https://github.com/szl-holdings/szl-constellation.git\r\ncd szl-constellation\r\ngit checkout 82399278d299db78e88070e6f88e5b8fbc6585d3\r\npython -m http.server 8000\r\n# open http://localhost:8000/holo/demo.html\r\n~~~\r\n\r\n## Governance\r\n\r\nHub repository: SZLHOLDINGS/szl-constellation\r\n\r\n- Source authority: https://github.com/szl-holdings/szl-constellation\r\n- Merged source: 82399278d299db78e88070e6f88e5b8fbc6585d3\r\n- Receipt authority: https://huggingface.co/datasets/SZLHOLDINGS/szl-lake\r\n- Formal campaign: https://github.com/szl-holdings/lutar-lean/issues/287\r\n- Incident: INC-05-ORIGIN-SHA-LAG-4 CLOSED_VERIFIED 2026-09-24 (a-11-oy.com/honest git_sha equals GitHub a11oy main).\r\n- Evidence boundary: verification proves integrity and declared origin, not availability, readiness, or performance.\r\n\r\nDoctrine v11 - nothing glows that did not earn it.",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 525,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/9c20543d58121877c4b763801b041f7e84e48f58c960cb7d08cb9f607da1caec.json",
+      "revision": "cbe6cec1bbd496952a40e6f82d25eca0d5fcaa09",
+      "sha256": "9c20543d58121877c4b763801b041f7e84e48f58c960cb7d08cb9f607da1caec",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/szl-constellation-staging/revision/cbe6cec1bbd496952a40e6f82d25eca0d5fcaa09"
+    },
+    {
+      "bytes": 2464,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/2cbcbadf49ff6634f29e5fc9c4ee6d8f18b264471b3d954de3f9f88e65a555d3.md",
+      "revision": "cbe6cec1bbd496952a40e6f82d25eca0d5fcaa09",
+      "sha256": "2cbcbadf49ff6634f29e5fc9c4ee6d8f18b264471b3d954de3f9f88e65a555d3",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/szl-constellation-staging/resolve/cbe6cec1bbd496952a40e6f82d25eca0d5fcaa09/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "app.py",
+    "c2/index.html",
+    "crosscheck.py",
+    "estates.json",
+    "holo/demo.html",
+    "holo/index.html",
+    "holo/szl-shader-fabric.js",
+    "requirements-test.txt",
+    "requirements.txt",
+    "szl-space-hologram.css",
+    "szl-space-hologram.js",
+    "szl_hologram_assets.py",
+    "test_runtime_contract.py",
+    "tests/test_app.py",
+    "tests/test_hub_listing.py",
+    "verticals.json"
+  ],
+  "id": "huggingface-space/szlholdings/szl-constellation-staging",
+  "observed_at": "2026-09-25T15:21:27Z",
+  "observed_revision": "cbe6cec1bbd496952a40e6f82d25eca0d5fcaa09"
+}

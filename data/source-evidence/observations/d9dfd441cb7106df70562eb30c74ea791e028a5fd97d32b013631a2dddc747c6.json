@@ -44,6 +44,6 @@
     "tests/test_invariants.py"
   ],
   "id": "huggingface-model/szlholdings/szl-invariants",
-  "observed_at": "2026-09-24T12:29:54Z",
+  "observed_at": "2026-09-25T15:21:22Z",
   "observed_revision": "c218f1a7eed7ec1b8a06a2997e49ffe9e339a71c"
 }

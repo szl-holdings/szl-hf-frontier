@@ -6,15 +6,15 @@
       "bytes": 24484,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/d81c12408b390b5942765bd7e5a6d0c2ee986392999135c5a2f0a6533f6d79d7.md",
-      "revision": "5d9ebc071f4a2c26235efd612a77c98a691e08f3",
+      "revision": "4f72f452fe84d8478a7ce9c427ba2f7e54f5ced6",
       "sha256": "d81c12408b390b5942765bd7e5a6d0c2ee986392999135c5a2f0a6533f6d79d7",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/szl-mesh/blob/5d9ebc071f4a2c26235efd612a77c98a691e08f3/README.md"
+      "url": "https://github.com/szl-holdings/szl-mesh/blob/4f72f452fe84d8478a7ce9c427ba2f7e54f5ced6/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/szl-mesh",
-  "observed_at": "2026-09-24T12:29:37Z",
-  "observed_revision": "5d9ebc071f4a2c26235efd612a77c98a691e08f3"
+  "observed_at": "2026-09-25T15:21:15Z",
+  "observed_revision": "4f72f452fe84d8478a7ce9c427ba2f7e54f5ced6"
 }

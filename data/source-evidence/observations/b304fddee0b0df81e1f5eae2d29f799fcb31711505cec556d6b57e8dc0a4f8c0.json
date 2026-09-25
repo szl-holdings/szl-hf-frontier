@@ -6,15 +6,15 @@
       "bytes": 9708,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/cac49f55867040d7cfe5d18780e8227c391b83693bdcb6810692351dead5e336.md",
-      "revision": "07a68c192c93dadda700e677ad45a9cd7fbd1d91",
+      "revision": "18869473d8ff95c155cffb53ed2b60c577b243a8",
       "sha256": "cac49f55867040d7cfe5d18780e8227c391b83693bdcb6810692351dead5e336",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/khipu-consensus/blob/07a68c192c93dadda700e677ad45a9cd7fbd1d91/README.md"
+      "url": "https://github.com/szl-holdings/khipu-consensus/blob/18869473d8ff95c155cffb53ed2b60c577b243a8/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/khipu-consensus",
-  "observed_at": "2026-09-24T12:29:30Z",
-  "observed_revision": "07a68c192c93dadda700e677ad45a9cd7fbd1d91"
+  "observed_at": "2026-09-25T15:21:07Z",
+  "observed_revision": "18869473d8ff95c155cffb53ed2b60c577b243a8"
 }

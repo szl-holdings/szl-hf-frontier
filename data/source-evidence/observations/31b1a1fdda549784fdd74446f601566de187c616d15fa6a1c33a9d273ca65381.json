@@ -5,22 +5,22 @@
     {
       "bytes": 1628,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/3afbae5a4ad6258bbb2a109d9394842a4d8ed190ccbab6b0b42b5b33f4dc3642.json",
-      "revision": "077742f85c47b695105ba36d22939165a9cf1438",
-      "sha256": "3afbae5a4ad6258bbb2a109d9394842a4d8ed190ccbab6b0b42b5b33f4dc3642",
+      "path": "data/source-evidence/blobs/340584e4e40d5a163185d6cdde5a3a726e0b4cad2713d853711ff110b1961040.json",
+      "revision": "bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde",
+      "sha256": "340584e4e40d5a163185d6cdde5a3a726e0b4cad2713d853711ff110b1961040",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/szl-khipu/revision/077742f85c47b695105ba36d22939165a9cf1438"
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/szl-khipu/revision/bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde"
     },
     {
       "bytes": 1355,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/b4aac83d51e130c986db7dd36f670a1b848dc85092f0b3ea307bcbe420e63e74.md",
-      "revision": "077742f85c47b695105ba36d22939165a9cf1438",
+      "revision": "bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde",
       "sha256": "b4aac83d51e130c986db7dd36f670a1b848dc85092f0b3ea307bcbe420e63e74",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://huggingface.co/spaces/SZLHOLDINGS/szl-khipu/resolve/077742f85c47b695105ba36d22939165a9cf1438/README.md"
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/szl-khipu/resolve/bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde/README.md"
     }
   ],
   "files": [
@@ -81,6 +81,6 @@
     "szl_khipu/yawar.py"
   ],
   "id": "huggingface-space/szlholdings/szl-khipu",
-  "observed_at": "2026-09-24T12:30:01Z",
-  "observed_revision": "077742f85c47b695105ba36d22939165a9cf1438"
+  "observed_at": "2026-09-25T15:21:27Z",
+  "observed_revision": "bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde"
 }

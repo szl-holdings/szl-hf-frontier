@@ -6,15 +6,15 @@
       "bytes": 7726,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/70e0947c032e8c52b4c74aaadc3857dc69bcbc1cdae7830bb35dfa7909fe7bbf.md",
-      "revision": "633b5905fb5d428f499789d20fdcf7c47f01bb61",
+      "revision": "99e16ae447d7c1cc057cbf65d7b038096f99fba5",
       "sha256": "70e0947c032e8c52b4c74aaadc3857dc69bcbc1cdae7830bb35dfa7909fe7bbf",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/yarqa/blob/633b5905fb5d428f499789d20fdcf7c47f01bb61/README.md"
+      "url": "https://github.com/szl-holdings/yarqa/blob/99e16ae447d7c1cc057cbf65d7b038096f99fba5/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/yarqa",
-  "observed_at": "2026-09-24T12:29:42Z",
-  "observed_revision": "633b5905fb5d428f499789d20fdcf7c47f01bb61"
+  "observed_at": "2026-09-25T15:21:19Z",
+  "observed_revision": "99e16ae447d7c1cc057cbf65d7b038096f99fba5"
 }

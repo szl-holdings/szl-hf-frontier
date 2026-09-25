@@ -3,24 +3,24 @@
   "errors": [],
   "evidence": [
     {
-      "bytes": 3269,
+      "bytes": 3300,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/e03e75abed8fa5baab50cb7fcda83f97a590a8f3879f3c0034f21ea6f62c78d7.json",
-      "revision": "e4cb688148e2b961bd6ddbc2f6050c5044179981",
-      "sha256": "e03e75abed8fa5baab50cb7fcda83f97a590a8f3879f3c0034f21ea6f62c78d7",
+      "path": "data/source-evidence/blobs/1740f083b3067e7778e7c0de50f200c9284f1000c09e90b61b72bd1e50bc8498.json",
+      "revision": "a7d18e271d95fe380c76ae5b7ce0d6272d2885c0",
+      "sha256": "1740f083b3067e7778e7c0de50f200c9284f1000c09e90b61b72bd1e50bc8498",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/datasets/SZLHOLDINGS/killinchu-osint-corpus/revision/e4cb688148e2b961bd6ddbc2f6050c5044179981"
+      "url": "https://huggingface.co/api/datasets/SZLHOLDINGS/killinchu-osint-corpus/revision/a7d18e271d95fe380c76ae5b7ce0d6272d2885c0"
     },
     {
       "bytes": 4036,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/cff6a5f0ae5dc694224609fec82b0176e4183bfb3ef4c3b056e82bcfd940fdd3.md",
-      "revision": "e4cb688148e2b961bd6ddbc2f6050c5044179981",
+      "revision": "a7d18e271d95fe380c76ae5b7ce0d6272d2885c0",
       "sha256": "cff6a5f0ae5dc694224609fec82b0176e4183bfb3ef4c3b056e82bcfd940fdd3",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://huggingface.co/datasets/SZLHOLDINGS/killinchu-osint-corpus/resolve/e4cb688148e2b961bd6ddbc2f6050c5044179981/README.md"
+      "url": "https://huggingface.co/datasets/SZLHOLDINGS/killinchu-osint-corpus/resolve/a7d18e271d95fe380c76ae5b7ce0d6272d2885c0/README.md"
     }
   ],
   "files": [
@@ -126,11 +126,12 @@
     "intel/2026-09-22.ndjson",
     "intel/2026-09-23.ndjson",
     "intel/2026-09-24.ndjson",
+    "intel/2026-09-25.ndjson",
     "intel/head.json",
     "og-card.png",
     "viewer/archive_manifest.jsonl"
   ],
   "id": "huggingface-dataset/szlholdings/killinchu-osint-corpus",
-  "observed_at": "2026-09-24T12:29:43Z",
-  "observed_revision": "e4cb688148e2b961bd6ddbc2f6050c5044179981"
+  "observed_at": "2026-09-25T15:21:20Z",
+  "observed_revision": "a7d18e271d95fe380c76ae5b7ce0d6272d2885c0"
 }

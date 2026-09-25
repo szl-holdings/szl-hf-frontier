@@ -1,26 +1,26 @@
 {
-  "card": "---\nlicense: apache-2.0\nbase_model: Qwen/Qwen3.5-0.8B\nbase_model_relation: adapter\nlibrary_name: peft\npipeline_tag: text-generation\ntags:\n- lora\n- unsloth\n- governed-agent\n- retrieval\n- brain-navigator\n- szl-holdings\n---\n\n# BrainNavigator-R2\n\nSeparate 0.8B LoRA SKU. **Does not overwrite**\n[`SZLHOLDINGS/SZL-Khipu-1.5B-BrainNavigator`](https://huggingface.co/SZLHOLDINGS/SZL-Khipu-1.5B-BrainNavigator)\nor [`SZLHOLDINGS/SZL-Khipu-1.5B`](https://huggingface.co/SZLHOLDINGS/SZL-Khipu-1.5B).\n\n| | |\n|---|---|\n| Base | `Qwen/Qwen3.5-0.8B` Apache-2.0 |\n| Quant | **bf16 LoRA** r=16 \u03b1=32. QLoRA forbidden on Qwen3.5. |\n| GPU | RTX 5050 Laptop 8GB **Blackwell** |\n| Curriculum | synthetic NAVIGATE/ABSTAIN over **575 public handles** |\n| Private graph | 9464 nodes admitted to gradients = **0** |\n| publication_eligible | **false** until MEASURED generate |\n| \u039b | Conjecture 1 \u2014 never a theorem |\n\nTrain loss is not eval. Named-N generate lives in `eval_report.json`.\nSoftware retrieval hologram: [SZLHOLDINGS/second-brain](https://huggingface.co/spaces/SZLHOLDINGS/second-brain).\n",
+  "card": "---\nlicense: apache-2.0\nbase_model: Qwen/Qwen3.5-0.8B\nbase_model_relation: adapter\nlibrary_name: peft\npipeline_tag: text-generation\ntags:\n- lora\n- unsloth\n- governed-agent\n- retrieval\n- brain-navigator\n- szl-holdings\n---\n\n> **SEPARATE RESEARCH ADAPTER \u00b7 MEASURED NAMED-N RECORD \u00b7 LATER GATE FAIL \u00b7 NOT PROMOTABLE \u00b7 NOT AUTONOMOUS**\n\n# BrainNavigator-R2\n\n## What this is\n\nA separate research LoRA adapter on `Qwen/Qwen3.5-0.8B`. The [training_receipt.json](https://huggingface.co/SZLHOLDINGS/brain-navigator-r2/blob/ad510c4b05429acb862b216718f098ace6d05af3/training_receipt.json) records bf16 LoRA with r=16 and alpha=32, a synthetic NAVIGATE/ABSTAIN curriculum over **575 public handles**, and **0 raw private-graph nodes admitted to gradients**. It is not a model of the private 9,464-node graph and confers no private-graph access or content resolution in weights.\n\n## Evidence and artifact identity\n\nReviewed Hub revision: `ad510c4b05429acb862b216718f098ace6d05af3`. The [eval_report.json](https://huggingface.co/SZLHOLDINGS/brain-navigator-r2/blob/ad510c4b05429acb862b216718f098ace6d05af3/eval_report.json) records `maturity=MEASURED_RESEARCH_ONLY` and `publication_eligible=false`.\n\n| Owner-run named-N generate measure | Receipt-reported result |\n|---|---|\n| Retrieval hit | 5/5 |\n| Abstention | 6/6 |\n| Parse failures | 0 |\n| Hallucinated citations | 0 |\n\nThese values are from the `generate` section of [eval_report.json](https://huggingface.co/SZLHOLDINGS/brain-navigator-r2/blob/ad510c4b05429acb862b216718f098ace6d05af3/eval_report.json), computed on 2026-08-29 on a local LoRA. Its separate `software` section concerns lexical retrieval over the public projection. Neither section is a public leaderboard or an independent third-party benchmark. The generate receipt does not identify an exact public adapter-file SHA-256 or a fully specified runtime build.\n\nThe separate [post-publication gate receipt](https://github.com/szl-holdings/szl-forge/blob/a6b58f623185820eddfb0b279d21b7d81b87137c/frontier/evaluation/gate_runs/brain-navigator-r2_ad510c4b0542_20260915T040842Z_receipt.json) names Hub revision `ad510c4b05429acb862b216718f098ace6d05af3` and reports **2/5** on the canonical held-out suite in `transformers-cpu` mode, with overall **FAIL**, `heldout_passed=false`, `productionAuthorization=false`, and `publicationAuthorization=false`. This is a different suite from the earlier named-N record; its results cannot be exchanged or combined with those earlier scores. It also records `refusalPassed=false` and a refusal regression: rate 0.2 against baseline 0.4. The linked receipt retains the execution warnings; earlier execution failures remain in the [canonical gate archive](https://github.com/szl-holdings/szl-forge/tree/a6b58f623185820eddfb0b279d21b7d81b87137c/frontier/evaluation/gate_runs).\n\nThe [merge_receipt.json](https://huggingface.co/SZLHOLDINGS/brain-navigator-r2/blob/ad510c4b05429acb862b216718f098ace6d05af3/merge_receipt.json) separately records a 2026-09-14 repair after the prior merged checkpoint was an empty base copy: 96/96 adapter modules applied, maximum weight delta `0.0025102924555540085`. That merge record establishes the reported repair operation, not a new behavioral evaluation. The earlier named-N result does not automatically transfer to the repaired merged checkpoint.\n\n## What the evidence does and does not establish\n\nPublished files establish that scoped measured records and a later failed gate are available for inspection. Train loss is not evaluation; file integrity is not quality. The training receipt retains `evals=none-this-run` for its training step. That historical field does not erase the later generate record. Neither the named-N record nor the merge receipt qualifies this artifact for release. The [provenance.json](https://huggingface.co/SZLHOLDINGS/brain-navigator-r2/blob/ad510c4b05429acb862b216718f098ace6d05af3/provenance.json) also retains blocked artifact-lineage, consent, privacy-review, deployment, and served-revision boundaries.\n\n## Release, autonomy, and deployment boundary\n\n`publication_eligible=false` and `autonomy_eligible=false` remain in force. Proposal only: no qualification, promotion, deployment authorization, autonomy, or house-lab pin follows from these records or from public file availability. Lambda uniqueness remains **Conjecture 1: open and advisory, never a theorem**.\n\n## Relationship to other artifacts\n\nThis SKU does not overwrite [SZL-Khipu-1.5B-BrainNavigator](https://huggingface.co/SZLHOLDINGS/SZL-Khipu-1.5B-BrainNavigator), [SZL-Khipu-1.5B](https://huggingface.co/SZLHOLDINGS/SZL-Khipu-1.5B), or [SZL-Khipu-1.5B-GGUF](https://huggingface.co/SZLHOLDINGS/SZL-Khipu-1.5B-GGUF). The [second-brain Space](https://huggingface.co/spaces/SZLHOLDINGS/second-brain) is a separate software retrieval surface, not proof of model or private-graph access.\n\n## Source of truth\n\nThe immutable Hub evidence linked above and the [canonical post-publication receipt](https://github.com/szl-holdings/szl-forge/blob/a6b58f623185820eddfb0b279d21b7d81b87137c/frontier/evaluation/gate_runs/brain-navigator-r2_ad510c4b0542_20260915T040842Z_receipt.json) govern these claims. The [historical source card](https://github.com/szl-holdings/szl-forge/blob/a6b58f623185820eddfb0b279d21b7d81b87137c/brain-navigator-r2/card/README.md) is retained for provenance; its wording alone is not qualification evidence.\n",
   "errors": [],
   "evidence": [
     {
       "bytes": 524,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/5634ed056b927b8a3f75071f75bd5c6d6bfe41065fab91713998e35a6d59d569.json",
-      "revision": "ad510c4b05429acb862b216718f098ace6d05af3",
-      "sha256": "5634ed056b927b8a3f75071f75bd5c6d6bfe41065fab91713998e35a6d59d569",
+      "path": "data/source-evidence/blobs/e03fadd1d4ca2c67fc3e8fe699dc01f25f9ac93bdfaa6ece2028751ac997e2ea.json",
+      "revision": "7fe3872fcb78ec8f5cc2f0c7464538b50b34e4b2",
+      "sha256": "e03fadd1d4ca2c67fc3e8fe699dc01f25f9ac93bdfaa6ece2028751ac997e2ea",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/models/SZLHOLDINGS/brain-navigator-r2/revision/ad510c4b05429acb862b216718f098ace6d05af3"
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/brain-navigator-r2/revision/7fe3872fcb78ec8f5cc2f0c7464538b50b34e4b2"
     },
     {
-      "bytes": 1077,
+      "bytes": 5403,
       "kind": "source_card",
-      "path": "data/source-evidence/blobs/360f8c432785ccae03139b04e231c5e538cd6234bffc2ffcdd58ee15793ec424.md",
-      "revision": "ad510c4b05429acb862b216718f098ace6d05af3",
-      "sha256": "360f8c432785ccae03139b04e231c5e538cd6234bffc2ffcdd58ee15793ec424",
+      "path": "data/source-evidence/blobs/4e4095cb816c3f71bdc8f08768595f52351bd77491559de0096805a20a0dfe8b.md",
+      "revision": "7fe3872fcb78ec8f5cc2f0c7464538b50b34e4b2",
+      "sha256": "4e4095cb816c3f71bdc8f08768595f52351bd77491559de0096805a20a0dfe8b",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://huggingface.co/SZLHOLDINGS/brain-navigator-r2/resolve/ad510c4b05429acb862b216718f098ace6d05af3/README.md"
+      "url": "https://huggingface.co/SZLHOLDINGS/brain-navigator-r2/resolve/7fe3872fcb78ec8f5cc2f0c7464538b50b34e4b2/README.md"
     }
   ],
   "files": [
@@ -44,6 +44,6 @@
     "training_receipt.json"
   ],
   "id": "huggingface-model/szlholdings/brain-navigator-r2",
-  "observed_at": "2026-09-24T12:29:49Z",
-  "observed_revision": "ad510c4b05429acb862b216718f098ace6d05af3"
+  "observed_at": "2026-09-25T15:21:21Z",
+  "observed_revision": "7fe3872fcb78ec8f5cc2f0c7464538b50b34e4b2"
 }

@@ -6,15 +6,15 @@
       "bytes": 10708,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/8752f876da250150d96040f466c74db7bc0b3857977b2c23b63fa28b9f15f446.md",
-      "revision": "e438dd185aa1144c84d0ac81aee6d71c43bd0bf0",
+      "revision": "ef7e85a162428a26a361b5e2c2cb32a3b3d082dc",
       "sha256": "8752f876da250150d96040f466c74db7bc0b3857977b2c23b63fa28b9f15f446",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/szl-khipu/blob/e438dd185aa1144c84d0ac81aee6d71c43bd0bf0/README.md"
+      "url": "https://github.com/szl-holdings/szl-khipu/blob/ef7e85a162428a26a361b5e2c2cb32a3b3d082dc/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/szl-khipu",
-  "observed_at": "2026-09-24T12:29:36Z",
-  "observed_revision": "e438dd185aa1144c84d0ac81aee6d71c43bd0bf0"
+  "observed_at": "2026-09-25T15:21:14Z",
+  "observed_revision": "ef7e85a162428a26a361b5e2c2cb32a3b3d082dc"
 }

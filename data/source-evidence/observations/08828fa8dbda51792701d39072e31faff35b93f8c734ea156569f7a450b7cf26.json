@@ -204,6 +204,6 @@
     "tests/test_train.py"
   ],
   "id": "huggingface-model/szlholdings/szl-khipu",
-  "observed_at": "2026-09-24T12:29:54Z",
+  "observed_at": "2026-09-25T15:21:22Z",
   "observed_revision": "55e2e78c45b581e37d226478ecf39f44168a1d9e"
 }

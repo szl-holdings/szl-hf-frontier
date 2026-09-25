@@ -6,15 +6,15 @@
       "bytes": 34334,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/c8f05e6acdbfcb873c1af2cfd53b546651408d1177d87587a977a695547424b8.md",
-      "revision": "0fa0fdf5ff2c47283893152ef2b333385eab535c",
+      "revision": "12a3d988e776ece372d40a80611a2789a354f1d6",
       "sha256": "c8f05e6acdbfcb873c1af2cfd53b546651408d1177d87587a977a695547424b8",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/killinchu/blob/0fa0fdf5ff2c47283893152ef2b333385eab535c/README.md"
+      "url": "https://github.com/szl-holdings/killinchu/blob/12a3d988e776ece372d40a80611a2789a354f1d6/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/killinchu",
-  "observed_at": "2026-09-24T12:29:30Z",
-  "observed_revision": "0fa0fdf5ff2c47283893152ef2b333385eab535c"
+  "observed_at": "2026-09-25T15:21:08Z",
+  "observed_revision": "12a3d988e776ece372d40a80611a2789a354f1d6"
 }

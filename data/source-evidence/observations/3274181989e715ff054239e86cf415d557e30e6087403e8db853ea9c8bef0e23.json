@@ -1,26 +1,26 @@
 {
-  "card": "---\nlicense: apache-2.0\nbase_model: Qwen/Qwen3.5-0.8B\nbase_model_relation: adapter\nlibrary_name: peft\npipeline_tag: text-generation\ntags:\n  - unsloth\n  - lora\n  - szl-holdings\n  - khipu\n---\n\n# SZLHOLDINGS/khipu-r3\n\nLaptop Blackwell Unsloth **bf16 LoRA** (r=16 \u03b1=32) of the forge `khipu/` curriculum\n(`train.jsonl` + `train.abstain.jsonl`, 23 rows) on `Qwen/Qwen3.5-0.8B`.\n\n| Claim | Status |\n|---|---|\n| Train loss 0.4397 | MEASURED (train metric, not eval) |\n| Held-out generate | MEASURED grounding 4/5, abstain 0/6 (NAVIGATE instead of ABSTAIN) |\n| publication_eligible | false |\n| Overwrites 1.5B / KHIPU-R2 / brain-navigator-r2 | never |\n| QLoRA | forbidden on Qwen3.5; this SKU is bf16 LoRA |\n| \u039b uniqueness | Conjecture 1, never a theorem |\n\nGitHub source: https://github.com/szl-holdings/szl-forge/tree/main/khipu\n",
+  "card": "---\nlicense: apache-2.0\nbase_model: Qwen/Qwen3.5-0.8B\nbase_model_relation: adapter\nlibrary_name: peft\npipeline_tag: text-generation\ntags:\n  - unsloth\n  - lora\n  - szl-holdings\n  - khipu\n---\n\n> **SEPARATE RESEARCH ADAPTER \u00b7 TRAINING RECORD \u00b7 CANONICAL HELD-OUT GATE FAIL \u00b7 NOT PROMOTABLE**\n\n# SZLHOLDINGS/khipu-r3\n\n## What this is\n\nA separate laptop Blackwell research adapter based on `Qwen/Qwen3.5-0.8B`. The [training_receipt.laptop-blackwell.json](https://huggingface.co/SZLHOLDINGS/khipu-r3/blob/89807a2680e2400bbbc7523772aa6ff4b86a7988/training_receipt.laptop-blackwell.json) records bf16 LoRA with r=16 and alpha=32, **23 training rows** from `train.jsonl` and `train.abstain.jsonl`, and **train loss 0.4397**. That loss is a training metric, not an evaluation.\n\n## Evidence and artifact identity\n\nReviewed Hub revision: `89807a2680e2400bbbc7523772aa6ff4b86a7988`. The repository contains [adapter_model.safetensors](https://huggingface.co/SZLHOLDINGS/khipu-r3/blob/89807a2680e2400bbbc7523772aa6ff4b86a7988/adapter_model.safetensors) and [model.safetensors](https://huggingface.co/SZLHOLDINGS/khipu-r3/blob/89807a2680e2400bbbc7523772aa6ff4b86a7988/model.safetensors); the historical training receipt's `weights=LOCAL` and `push_to_hub=false` describe that training step, not current file absence.\n\nThere is **no `eval_report.json` in this Hub snapshot**, and no committed Hub held-out receipt supporting the former README claim \u201cgrounding 4/5, abstain 0/6.\u201d That unsupported claim is withdrawn.\n\nThe separate [post-publication gate receipt](https://github.com/szl-holdings/szl-forge/blob/a6b58f623185820eddfb0b279d21b7d81b87137c/frontier/evaluation/gate_runs/khipu-r3_89807a2680e2_20260915T040737Z_receipt.json) names Hub revision `89807a2680e2400bbbc7523772aa6ff4b86a7988` and reports **1/5** on the canonical held-out suite in `transformers-cpu` mode, with overall **FAIL**, `heldout_passed=false`, `productionAuthorization=false`, and `publicationAuthorization=false`. This recorded canonical result does not substantiate the former 4/5 + 0/6 claim. It records `refusalPassed=false` and a refusal regression: rate 0.2 against baseline 0.4. The receipt retains runtime warnings, and earlier execution failures remain in the [canonical gate archive](https://github.com/szl-holdings/szl-forge/tree/a6b58f623185820eddfb0b279d21b7d81b87137c/frontier/evaluation/gate_runs). Therefore \u201cno held-out evaluation exists anywhere\u201d would also be inaccurate: the canonical source contains this later failed evaluation.\n\nThe [merge_receipt.json](https://huggingface.co/SZLHOLDINGS/khipu-r3/blob/89807a2680e2400bbbc7523772aa6ff4b86a7988/merge_receipt.json) reports a 2026-09-14 repair of a prior empty base-copy merge: 96/96 adapter modules applied, maximum weight delta `0.0013806568458676338`. A nonzero merge delta does not establish behavioral quality.\n\n## What the evidence does and does not establish\n\nThe [training_receipt.laptop-blackwell.json](https://huggingface.co/SZLHOLDINGS/khipu-r3/blob/89807a2680e2400bbbc7523772aa6ff4b86a7988/training_receipt.laptop-blackwell.json) retains `evals=none-this-run`, `publication_eligible=false`, and `autonomy_eligible=false`. Its training-run adapter digest is receipt-reported and is not asserted as a direct hash of the currently published adapter file. Exact current artifact qualification does not follow from a training receipt, a merge receipt, or file presence. The later canonical gate names the reviewed Hub revision and returns FAIL. The [provenance.json](https://huggingface.co/SZLHOLDINGS/khipu-r3/blob/89807a2680e2400bbbc7523772aa6ff4b86a7988/provenance.json) also retains blocked artifact-lineage, consent, privacy-review, deployment, and served-revision boundaries.\n\n## Release, autonomy, and deployment boundary\n\n**Not promotable.** `publication_eligible=false` and `autonomy_eligible=false` remain unchanged. No production, deployment authorization, autonomous action, approval authority, or house-lab pin follows from these records. Lambda uniqueness remains **Conjecture 1: open and advisory, never a theorem**.\n\n## Relationship and source of truth\n\nThis SKU does not overwrite [SZL-Khipu-1.5B](https://huggingface.co/SZLHOLDINGS/SZL-Khipu-1.5B), [SZL-Khipu-1.5B-GGUF](https://huggingface.co/SZLHOLDINGS/SZL-Khipu-1.5B-GGUF), [KHIPU-R2](https://huggingface.co/SZLHOLDINGS/KHIPU-R2), [brain-navigator-r2](https://huggingface.co/SZLHOLDINGS/brain-navigator-r2), or [SZL-Khipu-1.5B-BrainNavigator](https://huggingface.co/SZLHOLDINGS/SZL-Khipu-1.5B-BrainNavigator).\n\nUse the immutable Hub training and merge receipts and the [canonical failed evaluation receipt](https://github.com/szl-holdings/szl-forge/blob/a6b58f623185820eddfb0b279d21b7d81b87137c/frontier/evaluation/gate_runs/khipu-r3_89807a2680e2_20260915T040737Z_receipt.json) above. The [historical source card](https://github.com/szl-holdings/szl-forge/blob/a6b58f623185820eddfb0b279d21b7d81b87137c/khipu-r3/card/README.md) and [Khipu curriculum source](https://github.com/szl-holdings/szl-forge/tree/a6b58f623185820eddfb0b279d21b7d81b87137c/khipu) provide context; their prose is not a substitute for an artifact-scoped evaluation receipt.\n",
   "errors": [],
   "evidence": [
     {
       "bytes": 517,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/bfc4245abfdcd423b55f183d60338ecb7fc721d323d07df35722c06192c8f47c.json",
-      "revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988",
-      "sha256": "bfc4245abfdcd423b55f183d60338ecb7fc721d323d07df35722c06192c8f47c",
+      "path": "data/source-evidence/blobs/3e040ef0599e5ab5fc86dc7171b4eae53e64f0a2f783fde97d877040fe7d398e.json",
+      "revision": "90af1d3c2d3e79e60d8e1c82fa99a723e6888b90",
+      "sha256": "3e040ef0599e5ab5fc86dc7171b4eae53e64f0a2f783fde97d877040fe7d398e",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/models/SZLHOLDINGS/khipu-r3/revision/89807a2680e2400bbbc7523772aa6ff4b86a7988"
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/khipu-r3/revision/90af1d3c2d3e79e60d8e1c82fa99a723e6888b90"
     },
     {
-      "bytes": 824,
+      "bytes": 5168,
       "kind": "source_card",
-      "path": "data/source-evidence/blobs/1270e90ca7440ff2f55670a592e597458901e4868bd51f1db6507fd88a9d14b9.md",
-      "revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988",
-      "sha256": "1270e90ca7440ff2f55670a592e597458901e4868bd51f1db6507fd88a9d14b9",
+      "path": "data/source-evidence/blobs/0743e365c389ebb792dc67f7c0f5761c62b32c71968a80c187b29b1152949e93.md",
+      "revision": "90af1d3c2d3e79e60d8e1c82fa99a723e6888b90",
+      "sha256": "0743e365c389ebb792dc67f7c0f5761c62b32c71968a80c187b29b1152949e93",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://huggingface.co/SZLHOLDINGS/khipu-r3/resolve/89807a2680e2400bbbc7523772aa6ff4b86a7988/README.md"
+      "url": "https://huggingface.co/SZLHOLDINGS/khipu-r3/resolve/90af1d3c2d3e79e60d8e1c82fa99a723e6888b90/README.md"
     }
   ],
   "files": [
@@ -43,6 +43,6 @@
     "training_receipt.laptop-blackwell.json"
   ],
   "id": "huggingface-model/szlholdings/khipu-r3",
-  "observed_at": "2026-09-24T12:29:51Z",
-  "observed_revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988"
+  "observed_at": "2026-09-25T15:21:21Z",
+  "observed_revision": "90af1d3c2d3e79e60d8e1c82fa99a723e6888b90"
 }

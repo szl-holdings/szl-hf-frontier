@@ -1,0 +1,18 @@
+{
+  "files": [
+    ".gitattributes",
+    "BENCH.laptop-blackwell.json",
+    "LICENSE",
+    "OPERATIONAL.json",
+    "README.md",
+    "bom/model-bom.cdx.json",
+    "build.toml",
+    "maskmod.py",
+    "og-card.png",
+    "tests/test_maskmod.py",
+    "torch-ext/szl_maskmod/__init__.py",
+    "torch-ext/szl_maskmod/_chain.py",
+    "torch-ext/szl_maskmod/_ops.py"
+  ],
+  "revision": "654a01aaaf86d06471f019cf2f84305703ccc260"
+}

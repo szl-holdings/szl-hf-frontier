@@ -5,22 +5,22 @@
     {
       "bytes": 556,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/b133dab3e15a9c45fd89fefc972780f51bb79d41eeac7a4a16714ecabe586c1d.json",
-      "revision": "05d1928797b7808ae329e0de5067230d1d2379e6",
-      "sha256": "b133dab3e15a9c45fd89fefc972780f51bb79d41eeac7a4a16714ecabe586c1d",
+      "path": "data/source-evidence/blobs/f83791cf0d4f2941796d3bbbc39a8749accd0b9085d53666cebb40bd2c110fe6.json",
+      "revision": "6aa234f3cb575b8d1b2122e1c8b4476da122a454",
+      "sha256": "f83791cf0d4f2941796d3bbbc39a8749accd0b9085d53666cebb40bd2c110fe6",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/immune/revision/05d1928797b7808ae329e0de5067230d1d2379e6"
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/immune/revision/6aa234f3cb575b8d1b2122e1c8b4476da122a454"
     },
     {
       "bytes": 2186,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/299bc85c1000de0bd55dab6d6103cc76620b2db2783f7e2ff0cdb6646c0e31bc.md",
-      "revision": "05d1928797b7808ae329e0de5067230d1d2379e6",
+      "revision": "6aa234f3cb575b8d1b2122e1c8b4476da122a454",
       "sha256": "299bc85c1000de0bd55dab6d6103cc76620b2db2783f7e2ff0cdb6646c0e31bc",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://huggingface.co/spaces/SZLHOLDINGS/immune/resolve/05d1928797b7808ae329e0de5067230d1d2379e6/README.md"
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/immune/resolve/6aa234f3cb575b8d1b2122e1c8b4476da122a454/README.md"
     }
   ],
   "files": [
@@ -31,8 +31,8 @@
     "dist/data/immune/ledger.jsonl",
     "dist/hf-deploy-manifest.json",
     "dist/immune-server.js",
+    "dist/public/assets/index--XTcWKAh.js",
     "dist/public/assets/index-BIQ1ksWp.css",
-    "dist/public/assets/index-DO3ISqNx.js",
     "dist/public/favicon.svg",
     "dist/public/index.html",
     "dist/public/nexus.html",
@@ -41,6 +41,6 @@
     "hf-deploy-manifest.json"
   ],
   "id": "huggingface-space/szlholdings/immune",
-  "observed_at": "2026-09-24T12:29:59Z",
-  "observed_revision": "05d1928797b7808ae329e0de5067230d1d2379e6"
+  "observed_at": "2026-09-25T15:21:25Z",
+  "observed_revision": "6aa234f3cb575b8d1b2122e1c8b4476da122a454"
 }

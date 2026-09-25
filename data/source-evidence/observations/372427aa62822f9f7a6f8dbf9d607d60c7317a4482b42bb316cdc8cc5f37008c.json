@@ -6,15 +6,15 @@
       "bytes": 16767,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/79ff089e9a16eaed2e1ddaf55c726d3b0e92bad301aba83f9b3c6e638cb0a64c.md",
-      "revision": "dadba9d06d47bd3b83c2bb89290fb3cd57b9a70d",
+      "revision": "217ba7d58bef09025d91ef854673a4d50222b2cf",
       "sha256": "79ff089e9a16eaed2e1ddaf55c726d3b0e92bad301aba83f9b3c6e638cb0a64c",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/szl-energy-attest/blob/dadba9d06d47bd3b83c2bb89290fb3cd57b9a70d/README.md"
+      "url": "https://github.com/szl-holdings/szl-energy-attest/blob/217ba7d58bef09025d91ef854673a4d50222b2cf/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/szl-energy-attest",
-  "observed_at": "2026-09-24T12:29:33Z",
-  "observed_revision": "dadba9d06d47bd3b83c2bb89290fb3cd57b9a70d"
+  "observed_at": "2026-09-25T15:21:12Z",
+  "observed_revision": "217ba7d58bef09025d91ef854673a4d50222b2cf"
 }

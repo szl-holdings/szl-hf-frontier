@@ -1,0 +1,14 @@
+{
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "data/test.jsonl",
+    "data/train.jsonl",
+    "data/validation.jsonl",
+    "dataset_receipt.json",
+    "schema.json",
+    "training_source_snapshot.py"
+  ],
+  "revision": "f7ab6170bf78138b187b8cb707d374a25ad85375"
+}

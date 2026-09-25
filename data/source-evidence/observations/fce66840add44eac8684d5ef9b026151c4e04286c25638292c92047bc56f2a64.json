@@ -6,15 +6,15 @@
       "bytes": 8830,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/80e02fe0446682aa34b85c9f973f5fd5591892b841ee862c8cfeb0968045b497.md",
-      "revision": "e523eeddfdf9d9059dbe379d9e6da0142c5ea322",
+      "revision": "b88ec43a613545c2bd54aa92dc32e59e7622ecc5",
       "sha256": "80e02fe0446682aa34b85c9f973f5fd5591892b841ee862c8cfeb0968045b497",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/vsp-otel/blob/e523eeddfdf9d9059dbe379d9e6da0142c5ea322/README.md"
+      "url": "https://github.com/szl-holdings/vsp-otel/blob/b88ec43a613545c2bd54aa92dc32e59e7622ecc5/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/vsp-otel",
-  "observed_at": "2026-09-24T12:29:42Z",
-  "observed_revision": "e523eeddfdf9d9059dbe379d9e6da0142c5ea322"
+  "observed_at": "2026-09-25T15:21:18Z",
+  "observed_revision": "b88ec43a613545c2bd54aa92dc32e59e7622ecc5"
 }

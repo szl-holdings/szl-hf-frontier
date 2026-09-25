@@ -1,5 +1,5 @@
 {
-  "artifact_count": 22,
+  "artifact_count": 23,
   "artifacts": [
     {
       "errors": [],
@@ -13,7 +13,7 @@
       "notes": [
         "HTTP and health declarations only; no inference, qualification, or release authority is established."
       ],
-      "observed_at": "2026-09-24T12:38:41.272387Z",
+      "observed_at": "2026-09-25T15:22:08.139768Z",
       "probes": [
         {
           "application": {},
@@ -22,10 +22,10 @@
           "bytes_observed": 131072,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 937,
+          "elapsed_ms": 282,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:43.901865Z",
+          "observed_at": "2026-09-25T15:22:08.352524Z",
           "path": "/",
           "truncated": true,
           "url": "https://szlholdings-a11oy.hf.space/"
@@ -39,10 +39,10 @@
           "bytes_observed": 438,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 2641,
+          "elapsed_ms": 109,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:44.839028Z",
+          "observed_at": "2026-09-25T15:22:08.637597Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-a11oy.hf.space/healthz"
@@ -56,10 +56,10 @@
           "bytes_observed": 162,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 1000,
+          "elapsed_ms": 266,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:47.489733Z",
+          "observed_at": "2026-09-25T15:22:08.749241Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-a11oy.hf.space/readyz"
@@ -83,7 +83,7 @@
       "notes": [
         "HTTP and health declarations only; no inference, qualification, or release authority is established."
       ],
-      "observed_at": "2026-09-24T12:38:41.333042Z",
+      "observed_at": "2026-09-25T15:22:08.139768Z",
       "probes": [
         {
           "application": {},
@@ -92,10 +92,10 @@
           "bytes_observed": 20285,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 750,
+          "elapsed_ms": 187,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:43.666340Z",
+          "observed_at": "2026-09-25T15:22:08.300688Z",
           "path": "/",
           "truncated": false,
           "url": "https://szlholdings-ayllu.hf.space/"
@@ -109,10 +109,10 @@
           "bytes_observed": 222,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 297,
+          "elapsed_ms": 110,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:44.420429Z",
+          "observed_at": "2026-09-25T15:22:08.473805Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-ayllu.hf.space/healthz"
@@ -126,10 +126,10 @@
           "bytes_observed": 222,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 969,
+          "elapsed_ms": 94,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:44.722664Z",
+          "observed_at": "2026-09-25T15:22:08.594152Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-ayllu.hf.space/readyz"
@@ -153,7 +153,7 @@
       "notes": [
         "HTTP and health declarations only; no inference, qualification, or release authority is established."
       ],
-      "observed_at": "2026-09-24T12:38:41.519381Z",
+      "observed_at": "2026-09-25T15:22:08.140768Z",
       "probes": [
         {
           "application": {},
@@ -162,10 +162,10 @@
           "bytes_observed": 7806,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 703,
+          "elapsed_ms": 188,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:43.898202Z",
+          "observed_at": "2026-09-25T15:22:08.327199Z",
           "path": "/",
           "truncated": false,
           "url": "https://szlholdings-counsel.hf.space/"
@@ -179,10 +179,10 @@
           "bytes_observed": 161,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 937,
+          "elapsed_ms": 109,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:44.608976Z",
+          "observed_at": "2026-09-25T15:22:08.510805Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-counsel.hf.space/healthz"
@@ -196,10 +196,10 @@
           "bytes_observed": 225,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 469,
+          "elapsed_ms": 78,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:45.541198Z",
+          "observed_at": "2026-09-25T15:22:08.616897Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-counsel.hf.space/readyz"
@@ -213,29 +213,29 @@
     },
     {
       "errors": [],
-      "expected_hf_revision": "f4cf67d3ac0778925995079cf5b2cf27e92b47e0",
+      "expected_hf_revision": "0b16cc2d47396e880f5a3525a48092305f35f6e0",
       "functional_inference_verified": false,
       "host": "szlholdings-david-leads.hf.space",
       "host_source": "live_provider_metadata",
-      "hub_observed_revision": "f4cf67d3ac0778925995079cf5b2cf27e92b47e0",
+      "hub_observed_revision": "0b16cc2d47396e880f5a3525a48092305f35f6e0",
       "hub_revision_matches_snapshot": true,
       "id": "huggingface-space/szlholdings/david-leads",
       "notes": [
         "HTTP and health declarations only; no inference, qualification, or release authority is established."
       ],
-      "observed_at": "2026-09-24T12:38:42.194681Z",
+      "observed_at": "2026-09-25T15:22:08.140768Z",
       "probes": [
         {
           "application": {},
           "body_hash_scope": "complete_response_body",
-          "body_sha256": "5b3ae3c6607b0827b24b0c06a7e6318d925025c73409c9edc8e294b822cc1260",
-          "bytes_observed": 25066,
+          "body_sha256": "81858673510b0ea4d4e095493f22396fe43be0e9da6e4a537663b6cd639eeef7",
+          "bytes_observed": 25213,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 1015,
+          "elapsed_ms": 188,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:43.701765Z",
+          "observed_at": "2026-09-25T15:22:08.328199Z",
           "path": "/",
           "truncated": false,
           "url": "https://szlholdings-david-leads.hf.space/"
@@ -249,10 +249,10 @@
           "bytes_observed": 224,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 1797,
+          "elapsed_ms": 1734,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:44.720644Z",
+          "observed_at": "2026-09-25T15:22:08.510265Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-david-leads.hf.space/healthz"
@@ -266,10 +266,10 @@
           "bytes_observed": 224,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 406,
+          "elapsed_ms": 63,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:46.512940Z",
+          "observed_at": "2026-09-25T15:22:10.246850Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-david-leads.hf.space/readyz"
@@ -277,7 +277,7 @@
       ],
       "provider_stage": "RUNNING",
       "runtime": "HEALTH_RESPONSE_OBSERVED",
-      "runtime_observed_revision": "f4cf67d3ac0778925995079cf5b2cf27e92b47e0",
+      "runtime_observed_revision": "0b16cc2d47396e880f5a3525a48092305f35f6e0",
       "runtime_revision_matches_snapshot": true,
       "space": "SZLHOLDINGS/david-leads"
     },
@@ -293,7 +293,7 @@
       "notes": [
         "HTTP and health declarations only; no inference, qualification, or release authority is established."
       ],
-      "observed_at": "2026-09-24T12:38:42.488884Z",
+      "observed_at": "2026-09-25T15:22:08.140768Z",
       "probes": [
         {
           "application": {},
@@ -302,10 +302,10 @@
           "bytes_observed": 8223,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 1359,
+          "elapsed_ms": 157,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:43.809132Z",
+          "observed_at": "2026-09-25T15:22:08.280388Z",
           "path": "/",
           "truncated": false,
           "url": "https://szlholdings-finance.hf.space/"
@@ -319,10 +319,10 @@
           "bytes_observed": 138,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 516,
+          "elapsed_ms": 62,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:45.170589Z",
+          "observed_at": "2026-09-25T15:22:08.430129Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-finance.hf.space/healthz"
@@ -336,10 +336,10 @@
           "bytes_observed": 225,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 453,
+          "elapsed_ms": 78,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:45.691633Z",
+          "observed_at": "2026-09-25T15:22:08.489508Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-finance.hf.space/readyz"
@@ -363,7 +363,7 @@
       "notes": [
         "HTTP and health declarations only; no inference, qualification, or release authority is established."
       ],
-      "observed_at": "2026-09-24T12:38:42.870557Z",
+      "observed_at": "2026-09-25T15:22:08.140768Z",
       "probes": [
         {
           "application": {},
@@ -372,10 +372,10 @@
           "bytes_observed": 4288,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 828,
+          "elapsed_ms": 218,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:43.702786Z",
+          "observed_at": "2026-09-25T15:22:08.316037Z",
           "path": "/",
           "truncated": false,
           "url": "https://szlholdings-holographic-unify.hf.space/"
@@ -389,10 +389,10 @@
           "bytes_observed": 425,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 906,
+          "elapsed_ms": 110,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:44.528069Z",
+          "observed_at": "2026-09-25T15:22:08.534200Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-holographic-unify.hf.space/healthz"
@@ -414,10 +414,10 @@
               "value": "7d03a8c45f97ece18b5da1bb23b1387a89e123b5"
             }
           ],
-          "elapsed_ms": 500,
+          "elapsed_ms": 140,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:45.436806Z",
+          "observed_at": "2026-09-25T15:22:08.637597Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-holographic-unify.hf.space/readyz"
@@ -431,29 +431,29 @@
     },
     {
       "errors": [],
-      "expected_hf_revision": "05d1928797b7808ae329e0de5067230d1d2379e6",
+      "expected_hf_revision": "6aa234f3cb575b8d1b2122e1c8b4476da122a454",
       "functional_inference_verified": false,
       "host": "szlholdings-immune.hf.space",
       "host_source": "live_provider_metadata",
-      "hub_observed_revision": "05d1928797b7808ae329e0de5067230d1d2379e6",
+      "hub_observed_revision": "6aa234f3cb575b8d1b2122e1c8b4476da122a454",
       "hub_revision_matches_snapshot": true,
       "id": "huggingface-space/szlholdings/immune",
       "notes": [
         "HTTP and health declarations only; no inference, qualification, or release authority is established."
       ],
-      "observed_at": "2026-09-24T12:38:45.689615Z",
+      "observed_at": "2026-09-25T15:22:08.574496Z",
       "probes": [
         {
           "application": {},
           "body_hash_scope": "complete_response_body",
-          "body_sha256": "26b423d323f6a20e8f699fbf7b76f84453a884e6413dca64e39783f40e0a0de5",
-          "bytes_observed": 2827,
+          "body_sha256": "2e054cfaeed534df2f1b01bd733cfdd806baae686adf08fcf229dc18b5f2e95c",
+          "bytes_observed": 2828,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 625,
+          "elapsed_ms": 250,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:46.021574Z",
+          "observed_at": "2026-09-25T15:22:08.697864Z",
           "path": "/",
           "truncated": false,
           "url": "https://szlholdings-immune.hf.space/"
@@ -467,10 +467,10 @@
           "bytes_observed": 136,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 375,
+          "elapsed_ms": 94,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:46.632860Z",
+          "observed_at": "2026-09-25T15:22:08.957739Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-immune.hf.space/healthz"
@@ -479,25 +479,25 @@
           "application": {
             "ready": true,
             "source": {
-              "revision": "6ae9554c310399521812706bc19859c5aaa838f8"
+              "revision": "cb5768dd39b4485d8a253ee760d8343c376468cc"
             },
             "status": "ready"
           },
           "body_hash_scope": "complete_response_body",
-          "body_sha256": "8142d4ad9be6df220fac0e04c9b76cec3c610855d4fc34f39ed09d4c4e2f2514",
-          "bytes_observed": 1235,
+          "body_sha256": "872cb7ce10aad45d8010cec6c4e20fc7eb823a576982d9e895e2d0fd68ea5140",
+          "bytes_observed": 1236,
           "content_type": "application/json",
           "declared_revisions": [
             {
               "binding": "declared_only",
               "field": "source.revision",
-              "value": "6ae9554c310399521812706bc19859c5aaa838f8"
+              "value": "cb5768dd39b4485d8a253ee760d8343c376468cc"
             }
           ],
-          "elapsed_ms": 828,
+          "elapsed_ms": 141,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:47.007862Z",
+          "observed_at": "2026-09-25T15:22:09.048604Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-immune.hf.space/readyz"
@@ -505,7 +505,7 @@
       ],
       "provider_stage": "RUNNING",
       "runtime": "HEALTH_RESPONSE_OBSERVED",
-      "runtime_observed_revision": "05d1928797b7808ae329e0de5067230d1d2379e6",
+      "runtime_observed_revision": "6aa234f3cb575b8d1b2122e1c8b4476da122a454",
       "runtime_revision_matches_snapshot": true,
       "space": "SZLHOLDINGS/immune"
     },
@@ -521,7 +521,7 @@
       "notes": [
         "HTTP and health declarations only; no inference, qualification, or release authority is established."
       ],
-      "observed_at": "2026-09-24T12:38:45.929476Z",
+      "observed_at": "2026-09-25T15:22:08.682708Z",
       "probes": [
         {
           "application": {},
@@ -530,10 +530,10 @@
           "bytes_observed": 7648,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 531,
+          "elapsed_ms": 156,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:46.231048Z",
+          "observed_at": "2026-09-25T15:22:08.786415Z",
           "path": "/",
           "truncated": false,
           "url": "https://szlholdings-immune-lattice.hf.space/"
@@ -545,14 +545,14 @@
             "status": "ready"
           },
           "body_hash_scope": "complete_response_body",
-          "body_sha256": "a97ca1d2fc7dd9b1f865bf2220515282d7b15ef8d26575e8fd3945cb4666c703",
+          "body_sha256": "b82c8546ba8f2ff1371a20118da9d096a0997cb2e2d66530fc2cd46ce7d6cd82",
           "bytes_observed": 1616,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 359,
+          "elapsed_ms": 78,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:46.760869Z",
+          "observed_at": "2026-09-25T15:22:08.945770Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-immune-lattice.hf.space/healthz"
@@ -564,14 +564,14 @@
             "status": "ready"
           },
           "body_hash_scope": "complete_response_body",
-          "body_sha256": "a97ca1d2fc7dd9b1f865bf2220515282d7b15ef8d26575e8fd3945cb4666c703",
+          "body_sha256": "b82c8546ba8f2ff1371a20118da9d096a0997cb2e2d66530fc2cd46ce7d6cd82",
           "bytes_observed": 1616,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 610,
+          "elapsed_ms": 78,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:47.129861Z",
+          "observed_at": "2026-09-25T15:22:09.031463Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-immune-lattice.hf.space/readyz"
@@ -585,17 +585,17 @@
     },
     {
       "errors": [],
-      "expected_hf_revision": "78fd884942a047c79b0296a84a6ef19601395877",
+      "expected_hf_revision": "daeb8bb9c0cfcfe63ac26aeb770e48f0f7cf14da",
       "functional_inference_verified": false,
       "host": "szlholdings-killinchu.hf.space",
       "host_source": "live_provider_metadata",
-      "hub_observed_revision": "78fd884942a047c79b0296a84a6ef19601395877",
+      "hub_observed_revision": "daeb8bb9c0cfcfe63ac26aeb770e48f0f7cf14da",
       "hub_revision_matches_snapshot": true,
       "id": "huggingface-space/szlholdings/killinchu",
       "notes": [
         "HTTP and health declarations only; no inference, qualification, or release authority is established."
       ],
-      "observed_at": "2026-09-24T12:38:46.013255Z",
+      "observed_at": "2026-09-25T15:22:08.697864Z",
       "probes": [
         {
           "application": {},
@@ -604,10 +604,10 @@
           "bytes_observed": 60289,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 750,
+          "elapsed_ms": 187,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:46.297736Z",
+          "observed_at": "2026-09-25T15:22:08.801677Z",
           "path": "/",
           "truncated": false,
           "url": "https://szlholdings-killinchu.hf.space/"
@@ -621,10 +621,10 @@
           "bytes_observed": 92,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 688,
+          "elapsed_ms": 79,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:47.051744Z",
+          "observed_at": "2026-09-25T15:22:08.983039Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-killinchu.hf.space/healthz"
@@ -638,10 +638,10 @@
           "bytes_observed": 166,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 437,
+          "elapsed_ms": 93,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:47.731450Z",
+          "observed_at": "2026-09-25T15:22:09.063466Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-killinchu.hf.space/readyz"
@@ -649,23 +649,23 @@
       ],
       "provider_stage": "RUNNING",
       "runtime": "HEALTH_RESPONSE_OBSERVED",
-      "runtime_observed_revision": "78fd884942a047c79b0296a84a6ef19601395877",
+      "runtime_observed_revision": "daeb8bb9c0cfcfe63ac26aeb770e48f0f7cf14da",
       "runtime_revision_matches_snapshot": true,
       "space": "SZLHOLDINGS/killinchu"
     },
     {
       "errors": [],
-      "expected_hf_revision": "e8923ad90f503a7de774bd2afd7c5cf08e7abdce",
+      "expected_hf_revision": "cfbbf7e62317404561b9565c0021e7c4a391a9ea",
       "functional_inference_verified": false,
       "host": "szlholdings-llm-router-live.hf.space",
       "host_source": "live_provider_metadata",
-      "hub_observed_revision": "e8923ad90f503a7de774bd2afd7c5cf08e7abdce",
+      "hub_observed_revision": "cfbbf7e62317404561b9565c0021e7c4a391a9ea",
       "hub_revision_matches_snapshot": true,
       "id": "huggingface-space/szlholdings/llm-router-live",
       "notes": [
         "HTTP and health declarations only; no inference, qualification, or release authority is established."
       ],
-      "observed_at": "2026-09-24T12:38:46.133163Z",
+      "observed_at": "2026-09-25T15:22:08.770767Z",
       "probes": [
         {
           "application": {},
@@ -674,10 +674,10 @@
           "bytes_observed": 24452,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 594,
+          "elapsed_ms": 110,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:46.294140Z",
+          "observed_at": "2026-09-25T15:22:08.863414Z",
           "path": "/",
           "truncated": false,
           "url": "https://szlholdings-llm-router-live.hf.space/"
@@ -689,10 +689,10 @@
           "bytes_observed": 303,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 719,
+          "elapsed_ms": 109,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:46.884570Z",
+          "observed_at": "2026-09-25T15:22:08.970680Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-llm-router-live.hf.space/healthz"
@@ -706,10 +706,10 @@
           "bytes_observed": 358,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 437,
+          "elapsed_ms": 63,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:47.612467Z",
+          "observed_at": "2026-09-25T15:22:09.077304Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-llm-router-live.hf.space/readyz"
@@ -717,7 +717,7 @@
       ],
       "provider_stage": "RUNNING",
       "runtime": "HEALTH_RESPONSE_OBSERVED",
-      "runtime_observed_revision": "e8923ad90f503a7de774bd2afd7c5cf08e7abdce",
+      "runtime_observed_revision": "cfbbf7e62317404561b9565c0021e7c4a391a9ea",
       "runtime_revision_matches_snapshot": true,
       "space": "SZLHOLDINGS/llm-router-live"
     },
@@ -733,7 +733,7 @@
       "notes": [
         "HTTP and health declarations only; no inference, qualification, or release authority is established."
       ],
-      "observed_at": "2026-09-24T12:38:46.914129Z",
+      "observed_at": "2026-09-25T15:22:09.017525Z",
       "probes": [
         {
           "application": {},
@@ -742,10 +742,10 @@
           "bytes_observed": 36669,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 812,
+          "elapsed_ms": 156,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:47.805014Z",
+          "observed_at": "2026-09-25T15:22:09.126211Z",
           "path": "/",
           "truncated": false,
           "url": "https://szlholdings-lyte.hf.space/"
@@ -756,7 +756,7 @@
             "source_revision": "9ce4e6b5f36fe0b094a07308abe3665cd2a210c1"
           },
           "body_hash_scope": "complete_response_body",
-          "body_sha256": "53d210b822e05bdfda590e234473b25983223065ca40f11e86491ba3b16f9594",
+          "body_sha256": "0922a5aa15fc66caecb82fe2936e47491812c90d487f4f95eb37abdd9a83311c",
           "bytes_observed": 394,
           "content_type": "application/json",
           "declared_revisions": [
@@ -766,10 +766,10 @@
               "value": "9ce4e6b5f36fe0b094a07308abe3665cd2a210c1"
             }
           ],
-          "elapsed_ms": 500,
+          "elapsed_ms": 63,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:48.622291Z",
+          "observed_at": "2026-09-25T15:22:09.277891Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-lyte.hf.space/healthz"
@@ -798,10 +798,10 @@
               "value": "9ce4e6b5f36fe0b094a07308abe3665cd2a210c1"
             }
           ],
-          "elapsed_ms": 1204,
+          "elapsed_ms": 62,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:49.126251Z",
+          "observed_at": "2026-09-25T15:22:09.343501Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-lyte.hf.space/readyz"
@@ -826,15 +826,15 @@
         "HTTP and health declarations only; no inference, qualification, or release authority is established.",
         "Provider runtime revision is absent; repository HEAD and application source declarations do not bind deployed code."
       ],
-      "observed_at": "2026-09-24T12:38:47.732240Z",
+      "observed_at": "2026-09-25T15:22:09.102059Z",
       "probes": [
         {
           "application": {},
           "declared_revisions": [],
-          "elapsed_ms": 1046,
+          "elapsed_ms": 219,
           "error": "REDIRECT_REJECTED",
           "http_status": null,
-          "observed_at": "2026-09-24T12:38:48.203009Z",
+          "observed_at": "2026-09-25T15:22:09.193868Z",
           "path": "/",
           "url": "https://szlholdings-readme.static.hf.space/"
         },
@@ -845,10 +845,10 @@
           "bytes_observed": 15,
           "content_type": "text/plain",
           "declared_revisions": [],
-          "elapsed_ms": 1204,
+          "elapsed_ms": 94,
           "error": null,
           "http_status": 404,
-          "observed_at": "2026-09-24T12:38:49.255531Z",
+          "observed_at": "2026-09-25T15:22:09.418061Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-readme.static.hf.space/healthz"
@@ -860,10 +860,10 @@
           "bytes_observed": 15,
           "content_type": "text/plain",
           "declared_revisions": [],
-          "elapsed_ms": 1421,
+          "elapsed_ms": 93,
           "error": null,
           "http_status": 404,
-          "observed_at": "2026-09-24T12:38:50.457261Z",
+          "observed_at": "2026-09-25T15:22:09.519920Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-readme.static.hf.space/readyz"
@@ -887,7 +887,7 @@
       "notes": [
         "HTTP and health declarations only; no inference, qualification, or release authority is established."
       ],
-      "observed_at": "2026-09-24T12:38:47.836091Z",
+      "observed_at": "2026-09-25T15:22:09.144535Z",
       "probes": [
         {
           "application": {},
@@ -896,10 +896,10 @@
           "bytes_observed": 8492,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 422,
+          "elapsed_ms": 109,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:48.162285Z",
+          "observed_at": "2026-09-25T15:22:09.218704Z",
           "path": "/",
           "truncated": false,
           "url": "https://szlholdings-sentra.hf.space/"
@@ -913,10 +913,10 @@
           "bytes_observed": 184,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 484,
+          "elapsed_ms": 63,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:48.576140Z",
+          "observed_at": "2026-09-25T15:22:09.325093Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-sentra.hf.space/healthz"
@@ -930,10 +930,10 @@
           "bytes_observed": 225,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 406,
+          "elapsed_ms": 62,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:49.058286Z",
+          "observed_at": "2026-09-25T15:22:09.393948Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-sentra.hf.space/readyz"
@@ -957,7 +957,7 @@
       "notes": [
         "HTTP and health declarations only; no inference, qualification, or release authority is established."
       ],
-      "observed_at": "2026-09-24T12:38:48.046080Z",
+      "observed_at": "2026-09-25T15:22:09.153418Z",
       "probes": [
         {
           "application": {},
@@ -966,10 +966,10 @@
           "bytes_observed": 5375,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 515,
+          "elapsed_ms": 204,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:48.608320Z",
+          "observed_at": "2026-09-25T15:22:09.234239Z",
           "path": "/",
           "truncated": false,
           "url": "https://szlholdings-szl-atelier.hf.space/"
@@ -983,10 +983,10 @@
           "bytes_observed": 42,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 1063,
+          "elapsed_ms": 78,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:49.125253Z",
+          "observed_at": "2026-09-25T15:22:09.438643Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-szl-atelier.hf.space/healthz"
@@ -1009,10 +1009,10 @@
               "value": "508ec8995b9be199f4bba26a7e98951e388a159e"
             }
           ],
-          "elapsed_ms": 859,
+          "elapsed_ms": 78,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:50.189680Z",
+          "observed_at": "2026-09-25T15:22:09.506170Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-szl-atelier.hf.space/readyz"
@@ -1036,7 +1036,7 @@
       "notes": [
         "HTTP and health declarations only; no inference, qualification, or release authority is established."
       ],
-      "observed_at": "2026-09-24T12:38:48.172382Z",
+      "observed_at": "2026-09-25T15:22:09.185519Z",
       "probes": [
         {
           "application": {},
@@ -1045,10 +1045,10 @@
           "bytes_observed": 62370,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 2031,
+          "elapsed_ms": 297,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:48.723632Z",
+          "observed_at": "2026-09-25T15:22:09.268635Z",
           "path": "/",
           "truncated": false,
           "url": "https://szlholdings-szl-command-lab.hf.space/"
@@ -1063,10 +1063,10 @@
           "bytes_observed": 567,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 391,
+          "elapsed_ms": 203,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:50.754663Z",
+          "observed_at": "2026-09-25T15:22:09.556051Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-szl-command-lab.hf.space/healthz"
@@ -1081,10 +1081,10 @@
           "bytes_observed": 567,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 1156,
+          "elapsed_ms": 93,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:51.138395Z",
+          "observed_at": "2026-09-25T15:22:09.762413Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-szl-command-lab.hf.space/readyz"
@@ -1098,17 +1098,17 @@
     },
     {
       "errors": [],
-      "expected_hf_revision": "6af285afe2582d9951f95f4aa77de2c3735ce524",
+      "expected_hf_revision": "de68f6e0aa84e8d62534ce5259d16c395eceeb6a",
       "functional_inference_verified": false,
       "host": "szlholdings-szl-constellation.hf.space",
       "host_source": "live_provider_metadata",
-      "hub_observed_revision": "6af285afe2582d9951f95f4aa77de2c3735ce524",
+      "hub_observed_revision": "de68f6e0aa84e8d62534ce5259d16c395eceeb6a",
       "hub_revision_matches_snapshot": true,
       "id": "huggingface-space/szlholdings/szl-constellation",
       "notes": [
         "HTTP and health declarations only; no inference, qualification, or release authority is established."
       ],
-      "observed_at": "2026-09-24T12:38:48.479199Z",
+      "observed_at": "2026-09-25T15:22:09.407055Z",
       "probes": [
         {
           "application": {},
@@ -1117,10 +1117,10 @@
           "bytes_observed": 34836,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 656,
+          "elapsed_ms": 172,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:48.815513Z",
+          "observed_at": "2026-09-25T15:22:09.467752Z",
           "path": "/",
           "truncated": false,
           "url": "https://szlholdings-szl-constellation.hf.space/"
@@ -1131,14 +1131,14 @@
             "status": "ok"
           },
           "body_hash_scope": "complete_response_body",
-          "body_sha256": "60cab67b4250fc9add32c0ab3e811b5a229559ae069e3cff24f5d5286fe8c4ea",
+          "body_sha256": "0a7d304593f9dd59108b06262efb0bed32d5b5d60ee39664eb4b008f34bada52",
           "bytes_observed": 135,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 953,
+          "elapsed_ms": 93,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:49.470808Z",
+          "observed_at": "2026-09-25T15:22:09.639133Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-szl-constellation.hf.space/healthz"
@@ -1147,24 +1147,24 @@
           "application": {
             "ready": true,
             "source": {
-              "source_revision": "6af285afe2582d9951f95f4aa77de2c3735ce524"
+              "source_revision": "de68f6e0aa84e8d62534ce5259d16c395eceeb6a"
             }
           },
           "body_hash_scope": "complete_response_body",
-          "body_sha256": "38a0d46e034dca64352297b34847fec902470ba87c90f655a3456389986a30e5",
+          "body_sha256": "9d330f9e676d48ed4ab63ee6ac388821b2a1abd95f4eb5ee2c9ad4b2ea9c2a2a",
           "bytes_observed": 824,
           "content_type": "application/json",
           "declared_revisions": [
             {
               "binding": "declared_only",
               "field": "source.source_revision",
-              "value": "6af285afe2582d9951f95f4aa77de2c3735ce524"
+              "value": "de68f6e0aa84e8d62534ce5259d16c395eceeb6a"
             }
           ],
-          "elapsed_ms": 750,
+          "elapsed_ms": 204,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:50.425194Z",
+          "observed_at": "2026-09-25T15:22:09.732493Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-szl-constellation.hf.space/readyz"
@@ -1172,35 +1172,106 @@
       ],
       "provider_stage": "RUNNING",
       "runtime": "HEALTH_RESPONSE_OBSERVED",
-      "runtime_observed_revision": "6af285afe2582d9951f95f4aa77de2c3735ce524",
+      "runtime_observed_revision": "de68f6e0aa84e8d62534ce5259d16c395eceeb6a",
       "runtime_revision_matches_snapshot": true,
       "space": "SZLHOLDINGS/szl-constellation"
     },
     {
       "errors": [],
-      "expected_hf_revision": "3a0935e614f6e39397c0222ff55b61cb82877273",
+      "expected_hf_revision": "cbe6cec1bbd496952a40e6f82d25eca0d5fcaa09",
+      "functional_inference_verified": false,
+      "host": "szlholdings-szl-constellation-staging.hf.space",
+      "host_source": "live_provider_metadata",
+      "hub_observed_revision": "cbe6cec1bbd496952a40e6f82d25eca0d5fcaa09",
+      "hub_revision_matches_snapshot": true,
+      "id": "huggingface-space/szlholdings/szl-constellation-staging",
+      "notes": [
+        "HTTP and health declarations only; no inference, qualification, or release authority is established."
+      ],
+      "observed_at": "2026-09-25T15:22:09.457253Z",
+      "probes": [
+        {
+          "application": {},
+          "body_hash_scope": "complete_response_body",
+          "body_sha256": "4ccae985977cbb7dda9d39fed46c35d74fa4eca50d1d2474e17abb65d7a46464",
+          "bytes_observed": 35411,
+          "content_type": "text/html",
+          "declared_revisions": [],
+          "elapsed_ms": 109,
+          "error": null,
+          "http_status": 200,
+          "observed_at": "2026-09-25T15:22:09.539938Z",
+          "path": "/",
+          "truncated": false,
+          "url": "https://szlholdings-szl-constellation-staging.hf.space/"
+        },
+        {
+          "application": {
+            "ok": true,
+            "status": "ok"
+          },
+          "body_hash_scope": "complete_response_body",
+          "body_sha256": "cd74ae267b6c21cd6779fb65d47d8b8ffd8bca3ce9dbd90595df673ab6027e13",
+          "bytes_observed": 135,
+          "content_type": "application/json",
+          "declared_revisions": [],
+          "elapsed_ms": 63,
+          "error": null,
+          "http_status": 200,
+          "observed_at": "2026-09-25T15:22:09.651282Z",
+          "path": "/healthz",
+          "truncated": false,
+          "url": "https://szlholdings-szl-constellation-staging.hf.space/healthz"
+        },
+        {
+          "application": {
+            "ready": false
+          },
+          "body_hash_scope": "complete_response_body",
+          "body_sha256": "6fe5b43e3674350a851b614800a7d632794fde42df3c1b04657e1ba233d867b2",
+          "bytes_observed": 579,
+          "content_type": "application/json",
+          "declared_revisions": [],
+          "elapsed_ms": 172,
+          "error": null,
+          "http_status": 503,
+          "observed_at": "2026-09-25T15:22:09.714895Z",
+          "path": "/readyz",
+          "truncated": false,
+          "url": "https://szlholdings-szl-constellation-staging.hf.space/readyz"
+        }
+      ],
+      "provider_stage": "RUNNING",
+      "runtime": "FAIL",
+      "runtime_observed_revision": "cbe6cec1bbd496952a40e6f82d25eca0d5fcaa09",
+      "runtime_revision_matches_snapshot": true,
+      "space": "SZLHOLDINGS/szl-constellation-staging"
+    },
+    {
+      "errors": [],
+      "expected_hf_revision": "04d99222b5741bdb275d06170ba1a58616ede42a",
       "functional_inference_verified": false,
       "host": "szlholdings-szl-frontier.hf.space",
       "host_source": "live_provider_metadata",
-      "hub_observed_revision": "3a0935e614f6e39397c0222ff55b61cb82877273",
+      "hub_observed_revision": "04d99222b5741bdb275d06170ba1a58616ede42a",
       "hub_revision_matches_snapshot": true,
       "id": "huggingface-space/szlholdings/szl-frontier",
       "notes": [
         "HTTP and health declarations only; no inference, qualification, or release authority is established."
       ],
-      "observed_at": "2026-09-24T12:38:49.470808Z",
+      "observed_at": "2026-09-25T15:22:09.589176Z",
       "probes": [
         {
           "application": {},
           "body_hash_scope": "complete_response_body",
-          "body_sha256": "7f0f58200a5b0ed0512d6c8497c1aaf46d728bf6789bb651088bfdda8f64e3a6",
+          "body_sha256": "dffba30f1a41142a75c74218c811087c027f4ce0748ff63ef75fa7078437a5e8",
           "bytes_observed": 14178,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 1282,
+          "elapsed_ms": 172,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:50.756679Z",
+          "observed_at": "2026-09-25T15:22:09.667420Z",
           "path": "/",
           "truncated": false,
           "url": "https://szlholdings-szl-frontier.hf.space/"
@@ -1208,14 +1279,14 @@
         {
           "application": {},
           "body_hash_scope": "complete_response_body",
-          "body_sha256": "d2931619a20b2f7866ef526b15ec2c454df6a43dbf89c3969b0c0d3d2df1c090",
+          "body_sha256": "990757e86a475655d396dce98fb8979cd19efa197fb14cc9062a0bc331f2662e",
           "bytes_observed": 13724,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 890,
+          "elapsed_ms": 78,
           "error": null,
           "http_status": 404,
-          "observed_at": "2026-09-24T12:38:52.035493Z",
+          "observed_at": "2026-09-25T15:22:09.833319Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-szl-frontier.hf.space/healthz"
@@ -1223,14 +1294,14 @@
         {
           "application": {},
           "body_hash_scope": "complete_response_body",
-          "body_sha256": "bdb1da5ecf3fde5a628e1fdaf0cf07568dce18d7eae5f4c19924a83284dad25e",
+          "body_sha256": "4638131b67ccc12de29d917e1d6601bf71ebda485e56022fe4cf17ac8a24cf8b",
           "bytes_observed": 13724,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 360,
+          "elapsed_ms": 94,
           "error": null,
           "http_status": 404,
-          "observed_at": "2026-09-24T12:38:52.927918Z",
+          "observed_at": "2026-09-25T15:22:09.912298Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-szl-frontier.hf.space/readyz"
@@ -1238,26 +1309,23 @@
       ],
       "provider_stage": "RUNNING",
       "runtime": "UNKNOWN",
-      "runtime_observed_revision": "3a0935e614f6e39397c0222ff55b61cb82877273",
+      "runtime_observed_revision": "04d99222b5741bdb275d06170ba1a58616ede42a",
       "runtime_revision_matches_snapshot": true,
       "space": "SZLHOLDINGS/szl-frontier"
     },
     {
-      "errors": [
-        "HUB_REVISION_DRIFT",
-        "RUNTIME_REVISION_MISMATCH"
-      ],
-      "expected_hf_revision": "077742f85c47b695105ba36d22939165a9cf1438",
+      "errors": [],
+      "expected_hf_revision": "bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde",
       "functional_inference_verified": false,
       "host": "szlholdings-szl-khipu.hf.space",
       "host_source": "live_provider_metadata",
-      "hub_observed_revision": "1150d83c791b129864feba34ab13926151e2ad26",
-      "hub_revision_matches_snapshot": false,
+      "hub_observed_revision": "bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde",
+      "hub_revision_matches_snapshot": true,
       "id": "huggingface-space/szlholdings/szl-khipu",
       "notes": [
         "HTTP and health declarations only; no inference, qualification, or release authority is established."
       ],
-      "observed_at": "2026-09-24T12:38:50.320694Z",
+      "observed_at": "2026-09-25T15:22:09.608288Z",
       "probes": [
         {
           "application": {},
@@ -1266,10 +1334,10 @@
           "bytes_observed": 11372,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 1031,
+          "elapsed_ms": 78,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:52.035493Z",
+          "observed_at": "2026-09-25T15:22:09.699099Z",
           "path": "/",
           "truncated": false,
           "url": "https://szlholdings-szl-khipu.hf.space/"
@@ -1283,10 +1351,10 @@
           "bytes_observed": 512,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 672,
+          "elapsed_ms": 94,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:53.061091Z",
+          "observed_at": "2026-09-25T15:22:09.785497Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-szl-khipu.hf.space/healthz"
@@ -1300,19 +1368,19 @@
           "bytes_observed": 512,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 1203,
+          "elapsed_ms": 63,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:53.732247Z",
+          "observed_at": "2026-09-25T15:22:09.865009Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-szl-khipu.hf.space/readyz"
         }
       ],
       "provider_stage": "RUNNING",
-      "runtime": "FAIL",
-      "runtime_observed_revision": "1150d83c791b129864feba34ab13926151e2ad26",
-      "runtime_revision_matches_snapshot": false,
+      "runtime": "HEALTH_RESPONSE_OBSERVED",
+      "runtime_observed_revision": "bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde",
+      "runtime_revision_matches_snapshot": true,
       "space": "SZLHOLDINGS/szl-khipu"
     },
     {
@@ -1327,7 +1395,7 @@
       "notes": [
         "HTTP and health declarations only; no inference, qualification, or release authority is established."
       ],
-      "observed_at": "2026-09-24T12:38:51.041499Z",
+      "observed_at": "2026-09-25T15:22:09.849242Z",
       "probes": [
         {
           "application": {},
@@ -1336,10 +1404,10 @@
           "bytes_observed": 18179,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 1219,
+          "elapsed_ms": 172,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:52.520715Z",
+          "observed_at": "2026-09-25T15:22:09.943637Z",
           "path": "/",
           "truncated": false,
           "url": "https://szlholdings-szl-model-inference-lab.hf.space/"
@@ -1353,10 +1421,10 @@
           "bytes_observed": 18,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 1047,
+          "elapsed_ms": 63,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:53.734262Z",
+          "observed_at": "2026-09-25T15:22:10.118904Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-szl-model-inference-lab.hf.space/healthz"
@@ -1370,10 +1438,10 @@
           "bytes_observed": 140,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 328,
+          "elapsed_ms": 78,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:54.777913Z",
+          "observed_at": "2026-09-25T15:22:10.183818Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-szl-model-inference-lab.hf.space/readyz"
@@ -1397,7 +1465,7 @@
       "notes": [
         "HTTP and health declarations only; no inference, qualification, or release authority is established."
       ],
-      "observed_at": "2026-09-24T12:38:51.170082Z",
+      "observed_at": "2026-09-25T15:22:09.892123Z",
       "probes": [
         {
           "application": {},
@@ -1406,10 +1474,10 @@
           "bytes_observed": 7113,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 797,
+          "elapsed_ms": 218,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:52.519703Z",
+          "observed_at": "2026-09-25T15:22:10.011418Z",
           "path": "/",
           "truncated": false,
           "url": "https://szlholdings-terra.hf.space/"
@@ -1423,10 +1491,10 @@
           "bytes_observed": 133,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 844,
+          "elapsed_ms": 79,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:53.318266Z",
+          "observed_at": "2026-09-25T15:22:10.224271Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-terra.hf.space/healthz"
@@ -1440,10 +1508,10 @@
           "bytes_observed": 225,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 781,
+          "elapsed_ms": 62,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:54.160019Z",
+          "observed_at": "2026-09-25T15:22:10.303181Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-terra.hf.space/readyz"
@@ -1467,7 +1535,7 @@
       "notes": [
         "HTTP and health declarations only; no inference, qualification, or release authority is established."
       ],
-      "observed_at": "2026-09-24T12:38:51.871887Z",
+      "observed_at": "2026-09-25T15:22:09.928942Z",
       "probes": [
         {
           "application": {},
@@ -1476,10 +1544,10 @@
           "bytes_observed": 7198,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 906,
+          "elapsed_ms": 172,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:53.099165Z",
+          "observed_at": "2026-09-25T15:22:10.046174Z",
           "path": "/",
           "truncated": false,
           "url": "https://szlholdings-vertical-services.hf.space/"
@@ -1509,10 +1577,10 @@
               "value": "d018c1f2c892bd36f8ba7e9c85ee0430da348a17"
             }
           ],
-          "elapsed_ms": 704,
+          "elapsed_ms": 78,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:53.998072Z",
+          "observed_at": "2026-09-25T15:22:10.209799Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-vertical-services.hf.space/healthz"
@@ -1541,10 +1609,10 @@
               "value": "d018c1f2c892bd36f8ba7e9c85ee0430da348a17"
             }
           ],
-          "elapsed_ms": 375,
+          "elapsed_ms": 125,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:54.696683Z",
+          "observed_at": "2026-09-25T15:22:10.287273Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-vertical-services.hf.space/readyz"
@@ -1558,17 +1626,17 @@
     },
     {
       "errors": [],
-      "expected_hf_revision": "3201cf748ce82f8600f2185bcbeb1f9124b93e5d",
+      "expected_hf_revision": "8a6a273b3081a9783e50ecfacdd2e4cca05ea024",
       "functional_inference_verified": false,
       "host": "szlholdings-yarqa.hf.space",
       "host_source": "live_provider_metadata",
-      "hub_observed_revision": "3201cf748ce82f8600f2185bcbeb1f9124b93e5d",
+      "hub_observed_revision": "8a6a273b3081a9783e50ecfacdd2e4cca05ea024",
       "hub_revision_matches_snapshot": true,
       "id": "huggingface-space/szlholdings/yarqa",
       "notes": [
         "HTTP and health declarations only; no inference, qualification, or release authority is established."
       ],
-      "observed_at": "2026-09-24T12:38:52.291417Z",
+      "observed_at": "2026-09-25T15:22:09.928942Z",
       "probes": [
         {
           "application": {},
@@ -1577,10 +1645,10 @@
           "bytes_observed": 9902,
           "content_type": "text/html",
           "declared_revisions": [],
-          "elapsed_ms": 969,
+          "elapsed_ms": 110,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:53.192463Z",
+          "observed_at": "2026-09-25T15:22:10.031656Z",
           "path": "/",
           "truncated": false,
           "url": "https://szlholdings-yarqa.hf.space/"
@@ -1590,14 +1658,14 @@
             "ok": true
           },
           "body_hash_scope": "complete_response_body",
-          "body_sha256": "16201e4eca45253e857a1a86f0fc6c0ea2963e7bff9b84bfcf4e43018035a9cd",
+          "body_sha256": "5dd627e66a115db4fc16db8d4687f19796d846a2fdee23872038ce6d121c09e1",
           "bytes_observed": 1303,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 1656,
+          "elapsed_ms": 1031,
           "error": null,
           "http_status": 200,
-          "observed_at": "2026-09-24T12:38:54.158905Z",
+          "observed_at": "2026-09-25T15:22:10.134826Z",
           "path": "/healthz",
           "truncated": false,
           "url": "https://szlholdings-yarqa.hf.space/healthz"
@@ -1609,10 +1677,10 @@
           "bytes_observed": 22,
           "content_type": "application/json",
           "declared_revisions": [],
-          "elapsed_ms": 203,
+          "elapsed_ms": 94,
           "error": null,
           "http_status": 404,
-          "observed_at": "2026-09-24T12:38:55.817561Z",
+          "observed_at": "2026-09-25T15:22:11.169634Z",
           "path": "/readyz",
           "truncated": false,
           "url": "https://szlholdings-yarqa.hf.space/readyz"
@@ -1620,24 +1688,18 @@
       ],
       "provider_stage": "RUNNING",
       "runtime": "HEALTH_RESPONSE_OBSERVED",
-      "runtime_observed_revision": "3201cf748ce82f8600f2185bcbeb1f9124b93e5d",
+      "runtime_observed_revision": "8a6a273b3081a9783e50ecfacdd2e4cca05ea024",
       "runtime_revision_matches_snapshot": true,
       "space": "SZLHOLDINGS/yarqa"
     }
   ],
-  "assessment": {
-    "assessment_code_sha256": "6bf335ebb186c9d2736d962f134e091d832ed961fa63efb6ce9081898b0c4361",
-    "method": "OFFLINE_RECLASSIFICATION_OF_RETAINED_PROBES",
-    "original_report_sha256": "b530963ed208206012fca2a0d57f8bd608093c281de4fa1a7adec760eca8ee23",
-    "reason": "A refused redirect is an unobserved target, not an observed outage. All measured statuses, revisions, hashes and times are preserved."
-  },
   "authenticated_metadata": true,
   "by_runtime": {
     "FAIL": 1,
-    "HEALTH_RESPONSE_OBSERVED": 19,
+    "HEALTH_RESPONSE_OBSERVED": 20,
     "UNKNOWN": 2
   },
-  "completed_at": "2026-09-24T12:38:56.019813Z",
+  "completed_at": "2026-09-25T15:22:11.262419Z",
   "functional_inference_verified": false,
   "limits": {
     "response_bytes": 131072,
@@ -1652,10 +1714,10 @@
   ],
   "schema": "szl.public-runtime-witness/v1",
   "snapshot_receipt": {
-    "completed_at": "2026-09-24T12:27:27.812508Z",
+    "completed_at": "2026-09-25T15:20:10.439083Z",
     "path": "data/snapshots/snapshot_receipt.json",
-    "sha256": "ad4ef9ed79dca7ffe61e3e1adaafed92698a8a7ad148cdd841fea2c9663c51f7",
-    "space_snapshot_sha256": "d43a56de50e493027eccf1ce4e1e65721b4f48d88113f6f94d75c319f4b24216"
+    "sha256": "424299738c7009f3ac313d119ca7e948f02182307775b9c5990b3287e4be78dc",
+    "space_snapshot_sha256": "6c356d73b43aefd2da5b6caa1e2009fecf300c2e1ee11ea27457e36e2f1dab16"
   },
-  "started_at": "2026-09-24T12:38:41.200476Z"
+  "started_at": "2026-09-25T15:22:08.139768Z"
 }

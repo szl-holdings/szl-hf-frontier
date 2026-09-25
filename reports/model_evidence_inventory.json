@@ -5,8 +5,8 @@
     "adapter_weight_candidates_file_count": 28,
     "adapter_weight_candidates_model_count": 14,
     "by_source_classification": {
-      "mirror_distribution": 25,
-      "unresolved": 24
+      "mirror_distribution": 27,
+      "unresolved": 22
     },
     "configuration_candidates_file_count": 104,
     "configuration_candidates_model_count": 16,
@@ -19,7 +19,7 @@
     "no_weight_candidates_in_observed_inventory_count": 32,
     "qualified_model_count": 0,
     "serving_verified_count": 0,
-    "source_mapping_observed_count": 25,
+    "source_mapping_observed_count": 27,
     "training_log_or_receipt_candidates_file_count": 62,
     "training_log_or_receipt_candidates_model_count": 37,
     "training_verified_count": 0,
@@ -28,11 +28,11 @@
     "weight_candidates_model_count": 17
   },
   "evidence_label": "FILE_LIST_OBSERVATION_ONLY",
-  "generated_at": "2026-09-24T12:29:58Z",
+  "generated_at": "2026-09-25T15:21:25Z",
   "input_bindings": {
-    "model_snapshot_sha256": "230b205ed5525604199d00a0abae43b9bdcf1f29ea9b24dc40d7c22a24424ba1",
-    "snapshot_receipt_sha256": "ad4ef9ed79dca7ffe61e3e1adaafed92698a8a7ad148cdd841fea2c9663c51f7",
-    "source_reviews_sha256": "3dea411d3538ab3504fdd2d372ea5a4c093e441c9e1495f5eaa68cc583fe6e36"
+    "model_snapshot_sha256": "9fb5c477d81ee954fe1dc43cda026f8386039ffda00887523a10a9efcbae6840",
+    "snapshot_receipt_sha256": "424299738c7009f3ac313d119ca7e948f02182307775b9c5990b3287e4be78dc",
+    "source_reviews_sha256": "c923bf9d4dbf701116e5101a36d6de5b999ef7af64a6225c100835b9bb5a636d"
   },
   "limits": [
     "Candidate names are taken only from retained provider file lists; file bodies and weight integrity were not inspected.",
@@ -42,19 +42,19 @@
   ],
   "models": [
     {
-      "canonical_source_mapping": "https://github.com/szl-holdings/szl-forge/blob/main/a11oy_mini/",
+      "canonical_source_mapping": "https://github.com/szl-holdings/szl-forge/blob/a6b58f623185820eddfb0b279d21b7d81b87137c/chaski_r2/a11oy_mini_r2_gguf/gguf_receipt.json",
       "evaluation_verified": false,
       "evidence_label": "FILE_LIST_OBSERVATION_ONLY",
       "file_inventory_available": true,
       "file_inventory_evidence": {
-        "bytes": 414,
+        "bytes": 1672,
         "kind": "file_inventory",
-        "path": "data/source-evidence/blobs/553fb366ab3c5d20fdbe94c09457063d32d73ef3e123130091f9ea6389696e8c.json",
-        "revision": "c936dc749743c94586706345a0142c79094a581c",
-        "sha256": "553fb366ab3c5d20fdbe94c09457063d32d73ef3e123130091f9ea6389696e8c",
+        "path": "data/source-evidence/blobs/afa42a5035d725af90ec679cb155e74c538613ec30cc1bffa94fd00482f0a07a.json",
+        "revision": "b3a22b40af1f6dbfb1e6db36db63cc57fc36b812",
+        "sha256": "afa42a5035d725af90ec679cb155e74c538613ec30cc1bffa94fd00482f0a07a",
         "source_path": "",
         "status": "observed",
-        "url": "https://huggingface.co/api/models/SZLHOLDINGS/A11OY-MINI/revision/c936dc749743c94586706345a0142c79094a581c"
+        "url": "https://huggingface.co/api/models/SZLHOLDINGS/A11OY-MINI/revision/b3a22b40af1f6dbfb1e6db36db63cc57fc36b812"
       },
       "findings": {
         "adapter_configuration_candidates": {
@@ -96,9 +96,9 @@
       },
       "id": "huggingface-model/szlholdings/a11oy-mini",
       "license_metadata": "apache-2.0",
-      "listed_file_count": 12,
+      "listed_file_count": 30,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:48Z",
+      "observed_at": "2026-09-25T15:21:21Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/A11OY-MINI",
@@ -132,7 +132,7 @@
           "required": "Before serving claims, retain a functional runtime probe bound to the exact deployed artifact and source revisions."
         }
       ],
-      "revision": "c936dc749743c94586706345a0142c79094a581c",
+      "revision": "b3a22b40af1f6dbfb1e6db36db63cc57fc36b812",
       "serving_verified": false,
       "source_audit_status": "UNREVIEWED",
       "source_classification": {
@@ -200,7 +200,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 45,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:49Z",
+      "observed_at": "2026-09-25T15:21:21Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/a11oy-v19-substrate",
@@ -241,19 +241,19 @@
       "weight_integrity_verified": false
     },
     {
-      "canonical_source_mapping": null,
+      "canonical_source_mapping": "https://github.com/szl-holdings/szl-forge/blob/a6b58f623185820eddfb0b279d21b7d81b87137c/frontier/evaluation/gate_runs/brain-navigator-r2_ad510c4b0542_20260915T040842Z_receipt.json",
       "evaluation_verified": false,
       "evidence_label": "FILE_LIST_OBSERVATION_ONLY",
       "file_inventory_available": true,
       "file_inventory_evidence": {
         "bytes": 524,
         "kind": "file_inventory",
-        "path": "data/source-evidence/blobs/5634ed056b927b8a3f75071f75bd5c6d6bfe41065fab91713998e35a6d59d569.json",
-        "revision": "ad510c4b05429acb862b216718f098ace6d05af3",
-        "sha256": "5634ed056b927b8a3f75071f75bd5c6d6bfe41065fab91713998e35a6d59d569",
+        "path": "data/source-evidence/blobs/e03fadd1d4ca2c67fc3e8fe699dc01f25f9ac93bdfaa6ece2028751ac997e2ea.json",
+        "revision": "7fe3872fcb78ec8f5cc2f0c7464538b50b34e4b2",
+        "sha256": "e03fadd1d4ca2c67fc3e8fe699dc01f25f9ac93bdfaa6ece2028751ac997e2ea",
         "source_path": "",
         "status": "observed",
-        "url": "https://huggingface.co/api/models/SZLHOLDINGS/brain-navigator-r2/revision/ad510c4b05429acb862b216718f098ace6d05af3"
+        "url": "https://huggingface.co/api/models/SZLHOLDINGS/brain-navigator-r2/revision/7fe3872fcb78ec8f5cc2f0c7464538b50b34e4b2"
       },
       "findings": {
         "adapter_configuration_candidates": {
@@ -308,30 +308,22 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 18,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:49Z",
+      "observed_at": "2026-09-25T15:21:21Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/brain-navigator-r2",
       "required_next_evidence": [
         {
-          "gate": "canonical_source_mapping",
-          "required": "Resolve an explicit canonical implementation or support source from retained source evidence."
+          "gate": "source_revision_binding",
+          "required": "Verify the relationship between the mapped implementation revision and Hub artifact bytes."
         },
         {
           "gate": "artifact_contract",
           "required": "Review whether this model-namespace repository contains a checkpoint, software, a record, or another artifact type."
         },
         {
-          "gate": "weight_bytes_and_integrity",
-          "required": "Inspect actual checkpoint bytes and verify their format, immutable content manifest and integrity; filenames alone do not prove weights."
-        },
-        {
-          "gate": "training_or_derivation_lineage",
-          "required": "Bind training, adaptation or conversion records to the actual checkpoint digest and declared parent/data/code revisions."
-        },
-        {
-          "gate": "evaluation_qualification",
-          "required": "Verify the evaluation protocol, held-out samples, baselines and sample-level results for those exact checkpoint bytes."
+          "gate": "software_verification",
+          "required": "Verify executable source, dependencies and retained test results before software operation claims; do not assume a checkpoint is required."
         },
         {
           "gate": "license_review",
@@ -342,13 +334,13 @@
           "required": "Before serving claims, retain a functional runtime probe bound to the exact deployed artifact and source revisions."
         }
       ],
-      "revision": "ad510c4b05429acb862b216718f098ace6d05af3",
+      "revision": "7fe3872fcb78ec8f5cc2f0c7464538b50b34e4b2",
       "serving_verified": false,
-      "source_audit_status": "NEEDS_CANONICAL_MAPPING",
+      "source_audit_status": "UNREVIEWED",
       "source_classification": {
-        "artifact_class": "model",
-        "classification": "unresolved",
-        "status": "EXPERIMENTAL"
+        "artifact_class": "kernel",
+        "classification": "mirror_distribution",
+        "status": "SOFTWARE"
       },
       "training_verified": false,
       "url": "https://huggingface.co/SZLHOLDINGS/brain-navigator-r2",
@@ -409,7 +401,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 8,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:49Z",
+      "observed_at": "2026-09-25T15:21:21Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/chakana",
@@ -534,7 +526,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 31,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:49Z",
+      "observed_at": "2026-09-25T15:21:21Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/chaski",
@@ -656,7 +648,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 26,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:49Z",
+      "observed_at": "2026-09-25T15:21:21Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/chaski-5050",
@@ -705,19 +697,19 @@
       "weight_integrity_verified": false
     },
     {
-      "canonical_source_mapping": "https://github.com/szl-holdings/szl-forge/blob/main/chaski-r2/card/README.md",
+      "canonical_source_mapping": "https://github.com/szl-holdings/szl-forge/blob/a6b58f623185820eddfb0b279d21b7d81b87137c/frontier/evaluation/gate_runs/chaski-r2_4ef29684c56d_20260915T093042Z_receipt.json",
       "evaluation_verified": false,
       "evidence_label": "FILE_LIST_OBSERVATION_ONLY",
       "file_inventory_available": true,
       "file_inventory_evidence": {
         "bytes": 1137,
         "kind": "file_inventory",
-        "path": "data/source-evidence/blobs/f90066efdb8a1a44d17a0f1488df16de252b0fbfe2e862735cccaa3873daa3e6.json",
-        "revision": "4ef29684c56de07626b1cefb4b93a1b486de2aa1",
-        "sha256": "f90066efdb8a1a44d17a0f1488df16de252b0fbfe2e862735cccaa3873daa3e6",
+        "path": "data/source-evidence/blobs/4d6c9b55e7d352cb612cae7dc43da0cf62d330864d2429aa4d7119bfcac7c356.json",
+        "revision": "661f8ee9ff6ab8b11dda6e7a9d42c14d3124c6dd",
+        "sha256": "4d6c9b55e7d352cb612cae7dc43da0cf62d330864d2429aa4d7119bfcac7c356",
         "source_path": "",
         "status": "observed",
-        "url": "https://huggingface.co/api/models/SZLHOLDINGS/chaski-r2/revision/4ef29684c56de07626b1cefb4b93a1b486de2aa1"
+        "url": "https://huggingface.co/api/models/SZLHOLDINGS/chaski-r2/revision/661f8ee9ff6ab8b11dda6e7a9d42c14d3124c6dd"
       },
       "findings": {
         "adapter_configuration_candidates": {
@@ -782,7 +774,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 35,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:49Z",
+      "observed_at": "2026-09-25T15:21:21Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/chaski-r2",
@@ -816,7 +808,7 @@
           "required": "Before serving claims, retain a functional runtime probe bound to the exact deployed artifact and source revisions."
         }
       ],
-      "revision": "4ef29684c56de07626b1cefb4b93a1b486de2aa1",
+      "revision": "661f8ee9ff6ab8b11dda6e7a9d42c14d3124c6dd",
       "serving_verified": false,
       "source_audit_status": "UNREVIEWED",
       "source_classification": {
@@ -838,12 +830,12 @@
       "file_inventory_evidence": {
         "bytes": 1012,
         "kind": "file_inventory",
-        "path": "data/source-evidence/blobs/68bfb0a53ab1e6e3874e2ad0ec1428818767ff56dae750a93d45adffd551265b.json",
-        "revision": "9b602eda073db9628e0771253edeb66b50ac33e4",
-        "sha256": "68bfb0a53ab1e6e3874e2ad0ec1428818767ff56dae750a93d45adffd551265b",
+        "path": "data/source-evidence/blobs/d48a0a80d6c8b6f81cd3587b40568e650e7ac2c9498c3afdcc40a77b4969ce10.json",
+        "revision": "5049f8ec259a5356d5b8eeaf11b85d3e9c1fea74",
+        "sha256": "d48a0a80d6c8b6f81cd3587b40568e650e7ac2c9498c3afdcc40a77b4969ce10",
         "source_path": "",
         "status": "observed",
-        "url": "https://huggingface.co/api/models/SZLHOLDINGS/governed-inference-meter/revision/9b602eda073db9628e0771253edeb66b50ac33e4"
+        "url": "https://huggingface.co/api/models/SZLHOLDINGS/governed-inference-meter/revision/5049f8ec259a5356d5b8eeaf11b85d3e9c1fea74"
       },
       "findings": {
         "adapter_configuration_candidates": {
@@ -881,7 +873,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 26,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:51Z",
+      "observed_at": "2026-09-25T15:21:21Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/governed-inference-meter",
@@ -915,7 +907,7 @@
           "required": "Before serving claims, retain a functional runtime probe bound to the exact deployed artifact and source revisions."
         }
       ],
-      "revision": "9b602eda073db9628e0771253edeb66b50ac33e4",
+      "revision": "5049f8ec259a5356d5b8eeaf11b85d3e9c1fea74",
       "serving_verified": false,
       "source_audit_status": "NEEDS_CANONICAL_MAPPING",
       "source_classification": {
@@ -997,7 +989,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 21,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:51Z",
+      "observed_at": "2026-09-25T15:21:21Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/KHIPU-R2",
@@ -1046,19 +1038,19 @@
       "weight_integrity_verified": false
     },
     {
-      "canonical_source_mapping": "https://github.com/szl-holdings/szl-forge/tree/main/khipu",
+      "canonical_source_mapping": "https://github.com/szl-holdings/szl-forge/blob/a6b58f623185820eddfb0b279d21b7d81b87137c/frontier/evaluation/gate_runs/khipu-r3_89807a2680e2_20260915T040737Z_receipt.json",
       "evaluation_verified": false,
       "evidence_label": "FILE_LIST_OBSERVATION_ONLY",
       "file_inventory_available": true,
       "file_inventory_evidence": {
         "bytes": 517,
         "kind": "file_inventory",
-        "path": "data/source-evidence/blobs/bfc4245abfdcd423b55f183d60338ecb7fc721d323d07df35722c06192c8f47c.json",
-        "revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988",
-        "sha256": "bfc4245abfdcd423b55f183d60338ecb7fc721d323d07df35722c06192c8f47c",
+        "path": "data/source-evidence/blobs/3e040ef0599e5ab5fc86dc7171b4eae53e64f0a2f783fde97d877040fe7d398e.json",
+        "revision": "90af1d3c2d3e79e60d8e1c82fa99a723e6888b90",
+        "sha256": "3e040ef0599e5ab5fc86dc7171b4eae53e64f0a2f783fde97d877040fe7d398e",
         "source_path": "",
         "status": "observed",
-        "url": "https://huggingface.co/api/models/SZLHOLDINGS/khipu-r3/revision/89807a2680e2400bbbc7523772aa6ff4b86a7988"
+        "url": "https://huggingface.co/api/models/SZLHOLDINGS/khipu-r3/revision/90af1d3c2d3e79e60d8e1c82fa99a723e6888b90"
       },
       "findings": {
         "adapter_configuration_candidates": {
@@ -1111,7 +1103,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 17,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:51Z",
+      "observed_at": "2026-09-25T15:21:21Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/khipu-r3",
@@ -1145,7 +1137,7 @@
           "required": "Before serving claims, retain a functional runtime probe bound to the exact deployed artifact and source revisions."
         }
       ],
-      "revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988",
+      "revision": "90af1d3c2d3e79e60d8e1c82fa99a723e6888b90",
       "serving_verified": false,
       "source_audit_status": "UNREVIEWED",
       "source_classification": {
@@ -1212,7 +1204,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 5,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:51Z",
+      "observed_at": "2026-09-25T15:21:21Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/KILLINCHU-EYE",
@@ -1315,7 +1307,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 9,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:51Z",
+      "observed_at": "2026-09-25T15:21:21Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/MiniEmbed-Nano",
@@ -1418,7 +1410,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 9,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:52Z",
+      "observed_at": "2026-09-25T15:21:22Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/Moons-Nano",
@@ -1517,7 +1509,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 7,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:53Z",
+      "observed_at": "2026-09-25T15:21:22Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/oac-clinical-transport-health-v1",
@@ -1573,12 +1565,12 @@
       "file_inventory_evidence": {
         "bytes": 238,
         "kind": "file_inventory",
-        "path": "data/source-evidence/blobs/1b315052247fe2e767f0584f8e1ec76991e285381cb4f02202406d33c81068ab.json",
-        "revision": "1e6d76e931e2d84f3a54932ab110631b7097d2f8",
-        "sha256": "1b315052247fe2e767f0584f8e1ec76991e285381cb4f02202406d33c81068ab",
+        "path": "data/source-evidence/blobs/6dfc5e3bd323ebaa5b0f281465a2f8e6aa0e316067e726130e3deb68af711e0d.json",
+        "revision": "dd7d109813abcd90c5250106dc2eabd2804e7ac3",
+        "sha256": "6dfc5e3bd323ebaa5b0f281465a2f8e6aa0e316067e726130e3deb68af711e0d",
         "source_path": "",
         "status": "observed",
-        "url": "https://huggingface.co/api/models/SZLHOLDINGS/oac-system-health-v1/revision/1e6d76e931e2d84f3a54932ab110631b7097d2f8"
+        "url": "https://huggingface.co/api/models/SZLHOLDINGS/oac-system-health-v1/revision/dd7d109813abcd90c5250106dc2eabd2804e7ac3"
       },
       "findings": {
         "adapter_configuration_candidates": {
@@ -1616,7 +1608,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 7,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:53Z",
+      "observed_at": "2026-09-25T15:21:22Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/oac-system-health-v1",
@@ -1650,7 +1642,7 @@
           "required": "Before serving claims, retain a functional runtime probe bound to the exact deployed artifact and source revisions."
         }
       ],
-      "revision": "1e6d76e931e2d84f3a54932ab110631b7097d2f8",
+      "revision": "dd7d109813abcd90c5250106dc2eabd2804e7ac3",
       "serving_verified": false,
       "source_audit_status": "UNREVIEWED",
       "source_classification": {
@@ -1717,7 +1709,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 8,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:53Z",
+      "observed_at": "2026-09-25T15:21:22Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/qantu",
@@ -1820,7 +1812,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 8,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:53Z",
+      "observed_at": "2026-09-25T15:21:22Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/ReceiptAgent-Nano",
@@ -1876,12 +1868,12 @@
       "file_inventory_evidence": {
         "bytes": 443,
         "kind": "file_inventory",
-        "path": "data/source-evidence/blobs/84a103617bcef2d74d7808b1e0971e1ad3ecb74a35b76a251561bb8a24c48c30.json",
-        "revision": "7d186065363c0941634103f69b34a3bc649b9011",
-        "sha256": "84a103617bcef2d74d7808b1e0971e1ad3ecb74a35b76a251561bb8a24c48c30",
+        "path": "data/source-evidence/blobs/bccbae0de58685edafe3e845d3e8f6b0106ae1f240af26efe8d34ee2fa4c1f35.json",
+        "revision": "b5e86e4038e630eda94e3bd83cee1c5729d6d826",
+        "sha256": "bccbae0de58685edafe3e845d3e8f6b0106ae1f240af26efe8d34ee2fa4c1f35",
         "source_path": "",
         "status": "observed",
-        "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-block-kv/revision/7d186065363c0941634103f69b34a3bc649b9011"
+        "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-block-kv/revision/b5e86e4038e630eda94e3bd83cee1c5729d6d826"
       },
       "findings": {
         "adapter_configuration_candidates": {
@@ -1921,7 +1913,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 14,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:53Z",
+      "observed_at": "2026-09-25T15:21:22Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-block-kv",
@@ -1947,7 +1939,7 @@
           "required": "Before serving claims, retain a functional runtime probe bound to the exact deployed artifact and source revisions."
         }
       ],
-      "revision": "7d186065363c0941634103f69b34a3bc649b9011",
+      "revision": "b5e86e4038e630eda94e3bd83cee1c5729d6d826",
       "serving_verified": false,
       "source_audit_status": "NEEDS_CANONICAL_MAPPING",
       "source_classification": {
@@ -1969,12 +1961,12 @@
       "file_inventory_evidence": {
         "bytes": 882,
         "kind": "file_inventory",
-        "path": "data/source-evidence/blobs/b8f09c7fc3ee3c351a5ec7574ba1d772b7f11a0988e8a0d3ebd653ea8db50fde.json",
-        "revision": "c5f2c03f2abfc1b63a2d66d2b7715f3b167acfb4",
-        "sha256": "b8f09c7fc3ee3c351a5ec7574ba1d772b7f11a0988e8a0d3ebd653ea8db50fde",
+        "path": "data/source-evidence/blobs/07ac324e07672437b6a832f150c63492681b11e94cf0826da447a29f8f81c528.json",
+        "revision": "e0789bc05101b8771dd245c5b647b0032ca28cbd",
+        "sha256": "07ac324e07672437b6a832f150c63492681b11e94cf0826da447a29f8f81c528",
         "source_path": "",
         "status": "observed",
-        "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-blocked/revision/c5f2c03f2abfc1b63a2d66d2b7715f3b167acfb4"
+        "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-blocked/revision/e0789bc05101b8771dd245c5b647b0032ca28cbd"
       },
       "findings": {
         "adapter_configuration_candidates": {
@@ -2017,7 +2009,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 23,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:53Z",
+      "observed_at": "2026-09-25T15:21:22Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-blocked",
@@ -2043,7 +2035,7 @@
           "required": "Before serving claims, retain a functional runtime probe bound to the exact deployed artifact and source revisions."
         }
       ],
-      "revision": "c5f2c03f2abfc1b63a2d66d2b7715f3b167acfb4",
+      "revision": "e0789bc05101b8771dd245c5b647b0032ca28cbd",
       "serving_verified": false,
       "source_audit_status": "UNREVIEWED",
       "source_classification": {
@@ -2108,7 +2100,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 3,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:54Z",
+      "observed_at": "2026-09-25T15:21:22Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-energy-attest",
@@ -2223,7 +2215,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 20,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:54Z",
+      "observed_at": "2026-09-25T15:21:22Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/SZL-Forge-1.5B-ReceiptAgent",
@@ -2327,7 +2319,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 20,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:54Z",
+      "observed_at": "2026-09-25T15:21:22Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-formulas",
@@ -2373,14 +2365,14 @@
       "evidence_label": "FILE_LIST_OBSERVATION_ONLY",
       "file_inventory_available": true,
       "file_inventory_evidence": {
-        "bytes": 861,
+        "bytes": 1082,
         "kind": "file_inventory",
-        "path": "data/source-evidence/blobs/5e9c73e50218efb08f8efdb83ba89c8cb13489f3a5d4ab9776925e5945079da0.json",
-        "revision": "cc5fde2296369b43652d454072b63d49fc3241ad",
-        "sha256": "5e9c73e50218efb08f8efdb83ba89c8cb13489f3a5d4ab9776925e5945079da0",
+        "path": "data/source-evidence/blobs/aeacde9bdc3ddfde4b5360d3be34811d0a49d939839b877b4e23d4366fcebdce.json",
+        "revision": "16776a536a875a609317537f3fa987c8604652bb",
+        "sha256": "aeacde9bdc3ddfde4b5360d3be34811d0a49d939839b877b4e23d4366fcebdce",
         "source_path": "",
         "status": "observed",
-        "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-governed-norm/revision/cc5fde2296369b43652d454072b63d49fc3241ad"
+        "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-governed-norm/revision/16776a536a875a609317537f3fa987c8604652bb"
       },
       "findings": {
         "adapter_configuration_candidates": {
@@ -2421,9 +2413,9 @@
       },
       "id": "huggingface-model/szlholdings/szl-governed-norm",
       "license_metadata": "apache-2.0",
-      "listed_file_count": 24,
+      "listed_file_count": 28,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:54Z",
+      "observed_at": "2026-09-25T15:21:22Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-governed-norm",
@@ -2449,7 +2441,7 @@
           "required": "Before serving claims, retain a functional runtime probe bound to the exact deployed artifact and source revisions."
         }
       ],
-      "revision": "cc5fde2296369b43652d454072b63d49fc3241ad",
+      "revision": "16776a536a875a609317537f3fa987c8604652bb",
       "serving_verified": false,
       "source_audit_status": "NEEDS_CANONICAL_MAPPING",
       "source_classification": {
@@ -2519,7 +2511,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 20,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:54Z",
+      "observed_at": "2026-09-25T15:21:22Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-govsign",
@@ -2615,7 +2607,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 18,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:54Z",
+      "observed_at": "2026-09-25T15:21:22Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-invariants",
@@ -2713,7 +2705,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 50,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:54Z",
+      "observed_at": "2026-09-25T15:21:22Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-kernels",
@@ -2818,7 +2810,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 178,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:54Z",
+      "observed_at": "2026-09-25T15:21:22Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-khipu",
@@ -2866,12 +2858,12 @@
       "file_inventory_evidence": {
         "bytes": 1160,
         "kind": "file_inventory",
-        "path": "data/source-evidence/blobs/fb4138bfcb347eaacb1a895fa640c08031db9ceb6cd92bfe4c6ad677c863d8e4.json",
-        "revision": "8d3032dcf954f347b98f80050de107169d69eb7e",
-        "sha256": "fb4138bfcb347eaacb1a895fa640c08031db9ceb6cd92bfe4c6ad677c863d8e4",
+        "path": "data/source-evidence/blobs/b3e0e8ac3cbbfd11bc24b9a392b01ffd753a0c91ecc907a51b6f50d3f750c032.json",
+        "revision": "3d2959da1149a386ef96eea69818707d6c9cc47f",
+        "sha256": "b3e0e8ac3cbbfd11bc24b9a392b01ffd753a0c91ecc907a51b6f50d3f750c032",
         "source_path": "",
         "status": "observed",
-        "url": "https://huggingface.co/api/models/SZLHOLDINGS/SZL-Khipu-1.5B/revision/8d3032dcf954f347b98f80050de107169d69eb7e"
+        "url": "https://huggingface.co/api/models/SZLHOLDINGS/SZL-Khipu-1.5B/revision/3d2959da1149a386ef96eea69818707d6c9cc47f"
       },
       "findings": {
         "adapter_configuration_candidates": {
@@ -2928,7 +2920,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 36,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:55Z",
+      "observed_at": "2026-09-25T15:21:22Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/SZL-Khipu-1.5B",
@@ -2962,7 +2954,7 @@
           "required": "Before serving claims, retain a functional runtime probe bound to the exact deployed artifact and source revisions."
         }
       ],
-      "revision": "8d3032dcf954f347b98f80050de107169d69eb7e",
+      "revision": "3d2959da1149a386ef96eea69818707d6c9cc47f",
       "serving_verified": false,
       "source_audit_status": "UNREVIEWED",
       "source_classification": {
@@ -3043,7 +3035,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 19,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:55Z",
+      "observed_at": "2026-09-25T15:21:22Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/SZL-Khipu-1.5B-abstain",
@@ -3151,7 +3143,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 16,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:55Z",
+      "observed_at": "2026-09-25T15:21:23Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/SZL-Khipu-1.5B-GGUF",
@@ -3252,7 +3244,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 40,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:55Z",
+      "observed_at": "2026-09-25T15:21:23Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-khipu-kernels",
@@ -3298,14 +3290,14 @@
       "evidence_label": "FILE_LIST_OBSERVATION_ONLY",
       "file_inventory_available": true,
       "file_inventory_evidence": {
-        "bytes": 753,
+        "bytes": 1134,
         "kind": "file_inventory",
-        "path": "data/source-evidence/blobs/9a47ab8c3e2d8754c84d6e48693d9b7e38dcee0191d3f32e8d111326b34a7325.json",
-        "revision": "c9abda7882b0b4e79bbc9a50b359ff987db37494",
-        "sha256": "9a47ab8c3e2d8754c84d6e48693d9b7e38dcee0191d3f32e8d111326b34a7325",
+        "path": "data/source-evidence/blobs/655bee79fedae0ebd1083bbafc2a134c3524ef7419b2af060ce90f7c04a8f058.json",
+        "revision": "e304321776a21fa4d573e814b9f4e005052eaf84",
+        "sha256": "655bee79fedae0ebd1083bbafc2a134c3524ef7419b2af060ce90f7c04a8f058",
         "source_path": "",
         "status": "observed",
-        "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-lambda-gate/revision/c9abda7882b0b4e79bbc9a50b359ff987db37494"
+        "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-lambda-gate/revision/e304321776a21fa4d573e814b9f4e005052eaf84"
       },
       "findings": {
         "adapter_configuration_candidates": {
@@ -3346,9 +3338,9 @@
       },
       "id": "huggingface-model/szlholdings/szl-lambda-gate",
       "license_metadata": "apache-2.0",
-      "listed_file_count": 21,
+      "listed_file_count": 27,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:55Z",
+      "observed_at": "2026-09-25T15:21:23Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-lambda-gate",
@@ -3382,7 +3374,7 @@
           "required": "Before serving claims, retain a functional runtime probe bound to the exact deployed artifact and source revisions."
         }
       ],
-      "revision": "c9abda7882b0b4e79bbc9a50b359ff987db37494",
+      "revision": "e304321776a21fa4d573e814b9f4e005052eaf84",
       "serving_verified": false,
       "source_audit_status": "NEEDS_CANONICAL_MAPPING",
       "source_classification": {
@@ -3404,12 +3396,12 @@
       "file_inventory_evidence": {
         "bytes": 422,
         "kind": "file_inventory",
-        "path": "data/source-evidence/blobs/4b7323008019d2710b63e04c8e298860eb4e96a192fcc1674df06fb156ff3bf1.json",
-        "revision": "cfb9bd9af615860921828ac04dd01afd20b2527a",
-        "sha256": "4b7323008019d2710b63e04c8e298860eb4e96a192fcc1674df06fb156ff3bf1",
+        "path": "data/source-evidence/blobs/227aadd74e3938dbd02837accde036dae51733968fa345aa123158b1c8ac8ee5.json",
+        "revision": "654a01aaaf86d06471f019cf2f84305703ccc260",
+        "sha256": "227aadd74e3938dbd02837accde036dae51733968fa345aa123158b1c8ac8ee5",
         "source_path": "",
         "status": "observed",
-        "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-maskmod/revision/cfb9bd9af615860921828ac04dd01afd20b2527a"
+        "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-maskmod/revision/654a01aaaf86d06471f019cf2f84305703ccc260"
       },
       "findings": {
         "adapter_configuration_candidates": {
@@ -3449,7 +3441,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 13,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:56Z",
+      "observed_at": "2026-09-25T15:21:23Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-maskmod",
@@ -3475,7 +3467,7 @@
           "required": "Before serving claims, retain a functional runtime probe bound to the exact deployed artifact and source revisions."
         }
       ],
-      "revision": "cfb9bd9af615860921828ac04dd01afd20b2527a",
+      "revision": "654a01aaaf86d06471f019cf2f84305703ccc260",
       "serving_verified": false,
       "source_audit_status": "NEEDS_CANONICAL_MAPPING",
       "source_classification": {
@@ -3545,7 +3537,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 16,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:56Z",
+      "observed_at": "2026-09-25T15:21:23Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-nemo",
@@ -3649,7 +3641,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 20,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:56Z",
+      "observed_at": "2026-09-25T15:21:23Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-ouroboros",
@@ -3745,7 +3737,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 20,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:56Z",
+      "observed_at": "2026-09-25T15:21:23Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-provctl",
@@ -3793,12 +3785,12 @@
       "file_inventory_evidence": {
         "bytes": 857,
         "kind": "file_inventory",
-        "path": "data/source-evidence/blobs/44ebac1c11bc8de4ff5c18e3e9b9a21fe5cc7a1439c2544da7e54330cb362425.json",
-        "revision": "6bd7d6320b25e076d0c645045699d2b3c57a917c",
-        "sha256": "44ebac1c11bc8de4ff5c18e3e9b9a21fe5cc7a1439c2544da7e54330cb362425",
+        "path": "data/source-evidence/blobs/51fc718815efa209c9bc716a5159f5b7c0de28d0d73546b2dbaf61f560697b9f.json",
+        "revision": "e1383537e2dd74316a07fcbb683352af62dd24b0",
+        "sha256": "51fc718815efa209c9bc716a5159f5b7c0de28d0d73546b2dbaf61f560697b9f",
         "source_path": "",
         "status": "observed",
-        "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-receipt-attn/revision/6bd7d6320b25e076d0c645045699d2b3c57a917c"
+        "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-receipt-attn/revision/e1383537e2dd74316a07fcbb683352af62dd24b0"
       },
       "findings": {
         "adapter_configuration_candidates": {
@@ -3838,7 +3830,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 23,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:56Z",
+      "observed_at": "2026-09-25T15:21:23Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-receipt-attn",
@@ -3864,7 +3856,7 @@
           "required": "Before serving claims, retain a functional runtime probe bound to the exact deployed artifact and source revisions."
         }
       ],
-      "revision": "6bd7d6320b25e076d0c645045699d2b3c57a917c",
+      "revision": "e1383537e2dd74316a07fcbb683352af62dd24b0",
       "serving_verified": false,
       "source_audit_status": "NEEDS_CANONICAL_MAPPING",
       "source_classification": {
@@ -3953,7 +3945,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 40,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:56Z",
+      "observed_at": "2026-09-25T15:21:23Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2",
@@ -4002,19 +3994,19 @@
       "weight_integrity_verified": false
     },
     {
-      "canonical_source_mapping": null,
+      "canonical_source_mapping": "https://github.com/szl-holdings/szl-forge/blob/a6b58f623185820eddfb0b279d21b7d81b87137c/frontier/qwen35-receiptagent-v2-merged/publication.json",
       "evaluation_verified": false,
       "evidence_label": "FILE_LIST_OBSERVATION_ONLY",
       "file_inventory_available": true,
       "file_inventory_evidence": {
         "bytes": 269,
         "kind": "file_inventory",
-        "path": "data/source-evidence/blobs/b66f0d1b67e11553fe239132fc9768557f0d20ffe93096fccc3c5b5252b5cd83.json",
-        "revision": "6f7dc8e2215b689aa2b7d2a28d794d29f5ba3079",
-        "sha256": "b66f0d1b67e11553fe239132fc9768557f0d20ffe93096fccc3c5b5252b5cd83",
+        "path": "data/source-evidence/blobs/a0ef0481c3037be4ec00763f4a82d8ee0ad4198640390bd94a6b41a58fa0421d.json",
+        "revision": "b770792751f00069fb042e04ee60f28f9faf5ebf",
+        "sha256": "a0ef0481c3037be4ec00763f4a82d8ee0ad4198640390bd94a6b41a58fa0421d",
         "source_path": "",
         "status": "observed",
-        "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2-merged/revision/6f7dc8e2215b689aa2b7d2a28d794d29f5ba3079"
+        "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2-merged/revision/b770792751f00069fb042e04ee60f28f9faf5ebf"
       },
       "findings": {
         "adapter_configuration_candidates": {
@@ -4058,14 +4050,14 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 8,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:56Z",
+      "observed_at": "2026-09-25T15:21:23Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2-merged",
       "required_next_evidence": [
         {
-          "gate": "canonical_source_mapping",
-          "required": "Resolve an explicit canonical implementation or support source from retained source evidence."
+          "gate": "source_revision_binding",
+          "required": "Verify the relationship between the mapped implementation revision and Hub artifact bytes."
         },
         {
           "gate": "artifact_contract",
@@ -4092,12 +4084,12 @@
           "required": "Before serving claims, retain a functional runtime probe bound to the exact deployed artifact and source revisions."
         }
       ],
-      "revision": "6f7dc8e2215b689aa2b7d2a28d794d29f5ba3079",
+      "revision": "b770792751f00069fb042e04ee60f28f9faf5ebf",
       "serving_verified": false,
-      "source_audit_status": "NEEDS_CANONICAL_MAPPING",
+      "source_audit_status": "UNREVIEWED",
       "source_classification": {
         "artifact_class": "model",
-        "classification": "unresolved",
+        "classification": "mirror_distribution",
         "status": "EXPERIMENTAL"
       },
       "training_verified": false,
@@ -4107,19 +4099,19 @@
       "weight_integrity_verified": false
     },
     {
-      "canonical_source_mapping": "https://github.com/szl-holdings/szl-forge/tree/main/frontier/qwen35-receiptagent-v3",
+      "canonical_source_mapping": "https://github.com/szl-holdings/szl-forge/tree/a6b58f623185820eddfb0b279d21b7d81b87137c/frontier/qwen35-receiptagent-v3",
       "evaluation_verified": false,
       "evidence_label": "FILE_LIST_OBSERVATION_ONLY",
       "file_inventory_available": true,
       "file_inventory_evidence": {
         "bytes": 579,
         "kind": "file_inventory",
-        "path": "data/source-evidence/blobs/9873c11078e5ac67f442d486e63411e3ad948053eddc86056c578bf891eb2bb1.json",
-        "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
-        "sha256": "9873c11078e5ac67f442d486e63411e3ad948053eddc86056c578bf891eb2bb1",
+        "path": "data/source-evidence/blobs/4ca666594933865540fd3f640b5f1450ebb96a4194efd87fde26127c4b57566c.json",
+        "revision": "108835f1622615f96d7cb74f8b30f9c488923683",
+        "sha256": "4ca666594933865540fd3f640b5f1450ebb96a4194efd87fde26127c4b57566c",
         "source_path": "",
         "status": "observed",
-        "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3/revision/fe7564886100316d0843d147abd38da39beb3a4f"
+        "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3/revision/108835f1622615f96d7cb74f8b30f9c488923683"
       },
       "findings": {
         "adapter_configuration_candidates": {
@@ -4174,7 +4166,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 19,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:57Z",
+      "observed_at": "2026-09-25T15:21:23Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
@@ -4208,7 +4200,7 @@
           "required": "Before serving claims, retain a functional runtime probe bound to the exact deployed artifact and source revisions."
         }
       ],
-      "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
+      "revision": "108835f1622615f96d7cb74f8b30f9c488923683",
       "serving_verified": false,
       "source_audit_status": "UNREVIEWED",
       "source_classification": {
@@ -4278,7 +4270,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 17,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:57Z",
+      "observed_at": "2026-09-25T15:21:23Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-training-scripts",
@@ -4380,7 +4372,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 11,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:57Z",
+      "observed_at": "2026-09-25T15:21:24Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-triage-qwen3.5-0.8b-lora",
@@ -4436,12 +4428,12 @@
       "file_inventory_evidence": {
         "bytes": 5857,
         "kind": "file_inventory",
-        "path": "data/source-evidence/blobs/85283f8c634d452b43ff7740aa8df9297ee2aa20b4e91caf14e5a4af27eb6c0e.json",
-        "revision": "962fd88b726c299f82ab06756377fe09819f8cd1",
-        "sha256": "85283f8c634d452b43ff7740aa8df9297ee2aa20b4e91caf14e5a4af27eb6c0e",
+        "path": "data/source-evidence/blobs/57df1eb2269ff2a585b3d8fe27bb09c5b9a0bab4c9e78780b7e76768d63c90a0.json",
+        "revision": "6854d5b8e0bd95b3bcd3cadede6a40002b9dc438",
+        "sha256": "57df1eb2269ff2a585b3d8fe27bb09c5b9a0bab4c9e78780b7e76768d63c90a0",
         "source_path": "",
         "status": "observed",
-        "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-triage-qwen3.5-0.8b-lora-study5/revision/962fd88b726c299f82ab06756377fe09819f8cd1"
+        "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-triage-qwen3.5-0.8b-lora-study5/revision/6854d5b8e0bd95b3bcd3cadede6a40002b9dc438"
       },
       "findings": {
         "adapter_configuration_candidates": {
@@ -4603,7 +4595,7 @@
       "license_metadata": null,
       "listed_file_count": 139,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:57Z",
+      "observed_at": "2026-09-25T15:21:24Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/szl-triage-qwen3.5-0.8b-lora-study5",
@@ -4637,7 +4629,7 @@
           "required": "Before serving claims, retain a functional runtime probe bound to the exact deployed artifact and source revisions."
         }
       ],
-      "revision": "962fd88b726c299f82ab06756377fe09819f8cd1",
+      "revision": "6854d5b8e0bd95b3bcd3cadede6a40002b9dc438",
       "serving_verified": false,
       "source_audit_status": "NEEDS_CANONICAL_MAPPING",
       "source_classification": {
@@ -4702,7 +4694,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 5,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:58Z",
+      "observed_at": "2026-09-25T15:21:24Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/SZLHOLDINGS",
@@ -4795,7 +4787,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 8,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:58Z",
+      "observed_at": "2026-09-25T15:21:24Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/tinku",
@@ -4898,7 +4890,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 8,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:58Z",
+      "observed_at": "2026-09-25T15:21:24Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/TinyKhipu-Nano",
@@ -4999,7 +4991,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 8,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:58Z",
+      "observed_at": "2026-09-25T15:21:24Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/waman",
@@ -5118,7 +5110,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 25,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:58Z",
+      "observed_at": "2026-09-25T15:21:25Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/WILLAY",
@@ -5174,12 +5166,12 @@
       "file_inventory_evidence": {
         "bytes": 745,
         "kind": "file_inventory",
-        "path": "data/source-evidence/blobs/c3a2cb2883e0e90e1eddb3a84a0b9f660c622da267f99a552e59737c4a1c484c.json",
-        "revision": "f30b9225214cc468ff19856ed81cb60c552925f0",
-        "sha256": "c3a2cb2883e0e90e1eddb3a84a0b9f660c622da267f99a552e59737c4a1c484c",
+        "path": "data/source-evidence/blobs/6a8537137264f72d111ed065e99486d31d5557dfd9efbac7fe3cd6065316d8a4.json",
+        "revision": "d6aeb4f24655c07acc155eed7acade5ad249724f",
+        "sha256": "6a8537137264f72d111ed065e99486d31d5557dfd9efbac7fe3cd6065316d8a4",
         "source_path": "",
         "status": "observed",
-        "url": "https://huggingface.co/api/models/SZLHOLDINGS/YARQA-ATTN/revision/f30b9225214cc468ff19856ed81cb60c552925f0"
+        "url": "https://huggingface.co/api/models/SZLHOLDINGS/YARQA-ATTN/revision/d6aeb4f24655c07acc155eed7acade5ad249724f"
       },
       "findings": {
         "adapter_configuration_candidates": {
@@ -5221,7 +5213,7 @@
       "license_metadata": "apache-2.0",
       "listed_file_count": 26,
       "observation_errors": [],
-      "observed_at": "2026-09-24T12:29:58Z",
+      "observed_at": "2026-09-25T15:21:25Z",
       "promotion_eligible": false,
       "qualification_status": "UNKNOWN",
       "repository": "SZLHOLDINGS/YARQA-ATTN",
@@ -5247,7 +5239,7 @@
           "required": "Before serving claims, retain a functional runtime probe bound to the exact deployed artifact and source revisions."
         }
       ],
-      "revision": "f30b9225214cc468ff19856ed81cb60c552925f0",
+      "revision": "d6aeb4f24655c07acc155eed7acade5ad249724f",
       "serving_verified": false,
       "source_audit_status": "NEEDS_CANONICAL_MAPPING",
       "source_classification": {

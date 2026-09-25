@@ -1,14 +1,14 @@
 {
-  "artifact_count": 224,
-  "generated_at": "2026-09-24T12:30:02Z",
+  "artifact_count": 226,
+  "generated_at": "2026-09-25T15:21:27Z",
   "promotion_eligible": false,
   "signature_status": "UNSIGNED",
   "summary": {
-    "alignment-review": 127,
-    "canonical-route": 89,
-    "license": 19,
-    "source-classification": 25,
-    "source-review": 97
+    "alignment-review": 132,
+    "canonical-route": 85,
+    "license": 18,
+    "source-classification": 23,
+    "source-review": 94
   },
   "unresolved_gaps": [
     {
@@ -839,27 +839,6 @@
     },
     {
       "gate": "canonical-route",
-      "id": "huggingface-model/szlholdings/brain-navigator-r2",
-      "owner": "szl-holdings",
-      "reason": "Canonical GitHub implementation or support source remains unresolved.",
-      "severity": "high"
-    },
-    {
-      "gate": "source-classification",
-      "id": "huggingface-model/szlholdings/brain-navigator-r2",
-      "owner": "szl-holdings",
-      "reason": "Source-level relationship classification remains unresolved.",
-      "severity": "high"
-    },
-    {
-      "gate": "source-review",
-      "id": "huggingface-model/szlholdings/brain-navigator-r2",
-      "owner": "szl-holdings",
-      "reason": "Source review disposition: NEEDS_CANONICAL_MAPPING.",
-      "severity": "high"
-    },
-    {
-      "gate": "canonical-route",
       "id": "huggingface-model/szlholdings/chakana",
       "owner": "szl-holdings",
       "reason": "Canonical GitHub implementation or support source remains unresolved.",
@@ -1148,27 +1127,6 @@
     {
       "gate": "source-review",
       "id": "huggingface-model/szlholdings/szl-receipt-attn",
-      "owner": "szl-holdings",
-      "reason": "Source review disposition: NEEDS_CANONICAL_MAPPING.",
-      "severity": "high"
-    },
-    {
-      "gate": "canonical-route",
-      "id": "huggingface-model/szlholdings/szl-receiptagent-qwen35-0.8b-v2-merged",
-      "owner": "szl-holdings",
-      "reason": "Canonical GitHub implementation or support source remains unresolved.",
-      "severity": "high"
-    },
-    {
-      "gate": "source-classification",
-      "id": "huggingface-model/szlholdings/szl-receiptagent-qwen35-0.8b-v2-merged",
-      "owner": "szl-holdings",
-      "reason": "Source-level relationship classification remains unresolved.",
-      "severity": "high"
-    },
-    {
-      "gate": "source-review",
-      "id": "huggingface-model/szlholdings/szl-receiptagent-qwen35-0.8b-v2-merged",
       "owner": "szl-holdings",
       "reason": "Source review disposition: NEEDS_CANONICAL_MAPPING.",
       "severity": "high"
@@ -1377,6 +1335,13 @@
       "severity": "high"
     },
     {
+      "gate": "source-review",
+      "id": "huggingface-space/szlholdings/killinchu",
+      "owner": "szl-holdings",
+      "reason": "Source review disposition: NEEDS_CANONICAL_MAPPING.",
+      "severity": "high"
+    },
+    {
       "gate": "canonical-route",
       "id": "huggingface-space/szlholdings/lyte",
       "owner": "szl-holdings",
@@ -1420,20 +1385,6 @@
     },
     {
       "gate": "canonical-route",
-      "id": "huggingface-space/szlholdings/szl-frontier",
-      "owner": "szl-holdings",
-      "reason": "Canonical GitHub implementation or support source remains unresolved.",
-      "severity": "high"
-    },
-    {
-      "gate": "source-review",
-      "id": "huggingface-space/szlholdings/szl-frontier",
-      "owner": "szl-holdings",
-      "reason": "Source review disposition: NEEDS_CANONICAL_MAPPING.",
-      "severity": "high"
-    },
-    {
-      "gate": "canonical-route",
       "id": "huggingface-space/szlholdings/szl-model-inference-lab",
       "owner": "szl-holdings",
       "reason": "Canonical GitHub implementation or support source remains unresolved.",
@@ -1470,20 +1421,6 @@
     {
       "gate": "source-review",
       "id": "huggingface-space/szlholdings/vertical-services",
-      "owner": "szl-holdings",
-      "reason": "Source review disposition: NEEDS_CANONICAL_MAPPING.",
-      "severity": "high"
-    },
-    {
-      "gate": "canonical-route",
-      "id": "huggingface-space/szlholdings/yarqa",
-      "owner": "szl-holdings",
-      "reason": "Canonical GitHub implementation or support source remains unresolved.",
-      "severity": "high"
-    },
-    {
-      "gate": "source-review",
-      "id": "huggingface-space/szlholdings/yarqa",
       "owner": "szl-holdings",
       "reason": "Source review disposition: NEEDS_CANONICAL_MAPPING.",
       "severity": "high"
@@ -2071,6 +2008,13 @@
     },
     {
       "gate": "alignment-review",
+      "id": "github/szl-holdings/szl-seismic-review",
+      "owner": "szl-holdings",
+      "reason": "Extracted source relationships do not complete the public card and operational evidence gates.",
+      "severity": "medium"
+    },
+    {
+      "gate": "alignment-review",
       "id": "github/szl-holdings/szl-serve",
       "owner": "szl-holdings",
       "reason": "Extracted source relationships do not complete the public card and operational evidence gates.",
@@ -2175,6 +2119,13 @@
       "severity": "medium"
     },
     {
+      "gate": "license",
+      "id": "huggingface-dataset/szlholdings/david-leads-data",
+      "owner": "szl-holdings",
+      "reason": "License requires source-level review.",
+      "severity": "medium"
+    },
+    {
       "gate": "alignment-review",
       "id": "huggingface-dataset/szlholdings/lean-theorem-tree",
       "owner": "szl-holdings",
@@ -2240,6 +2191,13 @@
     {
       "gate": "alignment-review",
       "id": "huggingface-model/szlholdings/a11oy-v19-substrate",
+      "owner": "szl-holdings",
+      "reason": "Extracted source relationships do not complete the public card and operational evidence gates.",
+      "severity": "medium"
+    },
+    {
+      "gate": "alignment-review",
+      "id": "huggingface-model/szlholdings/brain-navigator-r2",
       "owner": "szl-holdings",
       "reason": "Extracted source relationships do not complete the public card and operational evidence gates.",
       "severity": "medium"
@@ -2393,6 +2351,13 @@
     },
     {
       "gate": "alignment-review",
+      "id": "huggingface-model/szlholdings/szl-receiptagent-qwen35-0.8b-v2-merged",
+      "owner": "szl-holdings",
+      "reason": "Extracted source relationships do not complete the public card and operational evidence gates.",
+      "severity": "medium"
+    },
+    {
+      "gate": "alignment-review",
       "id": "huggingface-model/szlholdings/szl-receiptagent-qwen35-0.8b-v3",
       "owner": "szl-holdings",
       "reason": "Extracted source relationships do not complete the public card and operational evidence gates.",
@@ -2456,13 +2421,6 @@
     },
     {
       "gate": "alignment-review",
-      "id": "huggingface-space/szlholdings/killinchu",
-      "owner": "szl-holdings",
-      "reason": "Extracted source relationships do not complete the public card and operational evidence gates.",
-      "severity": "medium"
-    },
-    {
-      "gate": "alignment-review",
       "id": "huggingface-space/szlholdings/llm-router-live",
       "owner": "szl-holdings",
       "reason": "Extracted source relationships do not complete the public card and operational evidence gates.",
@@ -2490,10 +2448,17 @@
       "severity": "medium"
     },
     {
-      "gate": "license",
-      "id": "huggingface-space/szlholdings/szl-constellation",
+      "gate": "alignment-review",
+      "id": "huggingface-space/szlholdings/szl-constellation-staging",
       "owner": "szl-holdings",
-      "reason": "License requires source-level review.",
+      "reason": "Extracted source relationships do not complete the public card and operational evidence gates.",
+      "severity": "medium"
+    },
+    {
+      "gate": "alignment-review",
+      "id": "huggingface-space/szlholdings/szl-frontier",
+      "owner": "szl-holdings",
+      "reason": "Extracted source relationships do not complete the public card and operational evidence gates.",
       "severity": "medium"
     },
     {
@@ -2504,10 +2469,10 @@
       "severity": "medium"
     },
     {
-      "gate": "license",
+      "gate": "alignment-review",
       "id": "huggingface-space/szlholdings/yarqa",
       "owner": "szl-holdings",
-      "reason": "License requires source-level review.",
+      "reason": "Extracted source relationships do not complete the public card and operational evidence gates.",
       "severity": "medium"
     }
   ]

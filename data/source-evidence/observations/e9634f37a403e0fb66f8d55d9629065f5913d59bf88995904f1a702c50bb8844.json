@@ -46,6 +46,6 @@
     "training_receipt.signed.json"
   ],
   "id": "huggingface-model/szlholdings/szl-forge-1.5b-receiptagent",
-  "observed_at": "2026-09-24T12:29:54Z",
+  "observed_at": "2026-09-25T15:21:22Z",
   "observed_revision": "8aa18ba91259b043a886f78ae78f4ff7c08852dd"
 }

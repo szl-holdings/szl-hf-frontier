@@ -37,6 +37,6 @@
     "valid/readiness-audit-receipt.json"
   ],
   "id": "huggingface-dataset/szlholdings/governed-receipts-bench",
-  "observed_at": "2026-09-24T12:29:43Z",
+  "observed_at": "2026-09-25T15:21:19Z",
   "observed_revision": "235ef348dce7b9eaca915c8668158039d6831a8c"
 }

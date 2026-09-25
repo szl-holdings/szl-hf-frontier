@@ -1,20 +1,20 @@
 {
-  "card": "---\ntitle: Evidence Studio\nemoji: \u2696\ufe0f\ncolorFrom: yellow\ncolorTo: gray\nsdk: docker\napp_port: 7860\npinned: false\nlicense: apache-2.0\nsuggested_hardware: cpu-basic\nshort_description: Merge sink. One writer. Receipts, not a flagship.\n---\n\n# Evidence Studio\n\nCanonical merge sink for holographic and receipt Spaces. **One writer.**\nPacket sources stay listed. This Space does not delete them.\n\nPOST `/api/merge` accepts a known packet id and returns an UNSIGNED-honest\nreceipt. Unknown packets fail closed. Energy UNAVAILABLE. \u039b = Conjecture 1.\n\nNot a second flagship. Not live inference. BIND_AS_A11OY_PACKAGE.\n\nSource: [szl-holdings/evidence-studio](https://github.com/szl-holdings/evidence-studio).\nHub writes go through Immune.\n",
+  "card": "---\ntitle: Evidence Studio\nemoji: \u2696\ufe0f\ncolorFrom: yellow\ncolorTo: gray\nsdk: docker\napp_port: 7860\npinned: false\nlicense: apache-2.0\nsuggested_hardware: cpu-basic\nshort_description: Merge sink. One writer. Receipts, not a flagship.\n---\n\n# Evidence Studio\n\nCanonical merge sink for holographic and receipt Spaces. **One writer.**\nPacket sources stay listed. This Space does not delete them.\n\nPOST `/api/merge` accepts a known packet id and returns an UNSIGNED-honest\nreceipt. Accepted writes are serialized on the server-authoritative ledger\nhead. A nonempty `prev_hash` must be exact canonical lowercase SHA-256 hex and\nmust equal that head; whitespace is rejected, never normalized away. A missing\nor empty-string precondition retains automatic ancestry selection. Rejected\nancestry does not append to the ledger. Unknown packets fail closed. Energy\nUNAVAILABLE. \u039b = Conjecture 1.\n\nNot a second flagship. Not live inference. BIND_AS_A11OY_PACKAGE.\n\nSource: [szl-holdings/evidence-studio](https://github.com/szl-holdings/evidence-studio).\nHub writes go through Immune.\n\n## HTTP writer boundary\n\nThe public page is a read-only catalog. Selecting a packet does not create a\nreceipt. `GET /api/packets`, `/api/ledger`, and `/healthz` remain public; do not\nsubmit confidential evidence because the ledger is publicly readable.\n\n`POST /api/merge` is reserved for a trusted backend. Configure\n`EVIDENCE_STUDIO_WRITE_TOKEN` in the service's secret store with a high-entropy\nvalue of at least 32 bytes and no whitespace. The backend sends that value in\nthe `Authorization: Bearer` header over HTTPS. Never put it in frontend code,\nbrowser storage, repository files, receipts, or logs. No credential is provisioned\nby this source change. An absent/invalid configuration returns 503; missing or\nincorrect authorization returns 401 without reading the request body or appending\nto the ledger.\n\nAuthorized requests require `Content-Type: application/json`, one valid\n`Content-Length`, at most 16 KiB, and a JSON object with string fields `packet`,\n`evidence`, and `prev_hash` when supplied. Duplicate JSON keys and chunked\ntransfer encoding are rejected. Body reads have a five-second socket timeout.\nThese are input bounds, not a production rate limiter or complete denial-of-service\ndefense; deploy behind an appropriate reverse proxy.\n\nThis boundary authenticates the caller only. It does not verify evidence content,\nprovide durable storage, or turn an unsigned hash into a signature. The existing\nledger is process-local and is lost on restart. `/healthz` reports liveness, not\nwriter configuration or end-to-end readiness. The process-local lock prevents\nconcurrent accepted writes from forking this in-memory ledger; it does not\ncoordinate multiple processes or provide durable storage. Authentication and\nancestry are both checked before an accepted append. The HTTP contract and\nreceipt hash format are unchanged; direct non-string ancestry also fails closed.\n",
   "errors": [],
   "evidence": [
     {
-      "bytes": 731,
+      "bytes": 2959,
       "kind": "source_card",
-      "path": "data/source-evidence/blobs/4f06d4c514f6686aa550b5854ce9a6334e8937d812569b1bf9b93556a68e8bd4.md",
-      "revision": "6098d598ee1e21170393abdc446691d8340100cc",
-      "sha256": "4f06d4c514f6686aa550b5854ce9a6334e8937d812569b1bf9b93556a68e8bd4",
+      "path": "data/source-evidence/blobs/d283a8178571cdc046347db4a5150d643902caf59ce791562df4c2377229cd7c.md",
+      "revision": "777c3bf16e7c7ac5fa4c226d64ace962244ddab8",
+      "sha256": "d283a8178571cdc046347db4a5150d643902caf59ce791562df4c2377229cd7c",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/evidence-studio/blob/6098d598ee1e21170393abdc446691d8340100cc/README.md"
+      "url": "https://github.com/szl-holdings/evidence-studio/blob/777c3bf16e7c7ac5fa4c226d64ace962244ddab8/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/evidence-studio",
-  "observed_at": "2026-09-24T12:29:28Z",
-  "observed_revision": "6098d598ee1e21170393abdc446691d8340100cc"
+  "observed_at": "2026-09-25T15:21:06Z",
+  "observed_revision": "777c3bf16e7c7ac5fa4c226d64ace962244ddab8"
 }

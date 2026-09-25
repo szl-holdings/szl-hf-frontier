@@ -66,6 +66,6 @@
     "torch-ext/szl_khipu/__init__.py"
   ],
   "id": "huggingface-model/szlholdings/szl-khipu-kernels",
-  "observed_at": "2026-09-24T12:29:55Z",
+  "observed_at": "2026-09-25T15:21:23Z",
   "observed_revision": "de8cb70313269b135cf6ea2a9a842d3a39426dd0"
 }

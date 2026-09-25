@@ -1,0 +1,32 @@
+{
+  "files": [
+    ".gitattributes",
+    "BENCH.laptop-blackwell.json",
+    "LICENSE",
+    "MODEL_PROVENANCE.json",
+    "MODEL_PROVENANCE_CORRECTION.2026-09-24.json",
+    "OPERATIONAL.json",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "SECURITY.md",
+    "SOURCE_CPU_TESTS.2026-09-24.json",
+    "SZL_ESTATE_MANAGED.json",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "build.toml",
+    "build/torch-universal/szl_lambda_gate/__init__.py",
+    "build/torch-universal/szl_lambda_gate/_lambda.py",
+    "build/torch-universal/szl_lambda_gate/_ops.py",
+    "build/torch-universal/szl_lambda_gate/layers.py",
+    "build/torch-universal/szl_lambda_gate/metadata.json",
+    "doctrine.py",
+    "evidence/source-cpu-tests/2026-09-24/github-lambda-folded-baseline.log",
+    "evidence/source-cpu-tests/2026-09-24/github-lambda-folded-baseline.xml",
+    "evidence/source-cpu-tests/2026-09-24/github-lambda-msvc.log",
+    "evidence/source-cpu-tests/2026-09-24/github-lambda-msvc.xml",
+    "lambda_gate.py",
+    "scripts/eval.py",
+    "scripts/forge.py"
+  ],
+  "revision": "e304321776a21fa4d573e814b9f4e005052eaf84"
+}

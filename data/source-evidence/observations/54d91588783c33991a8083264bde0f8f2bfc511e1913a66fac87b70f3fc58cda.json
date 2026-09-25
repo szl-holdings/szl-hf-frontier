@@ -1,26 +1,26 @@
 {
-  "card": "---\nlicense: apache-2.0\nbase_model: Qwen/Qwen3.5-0.8B\nbase_model_relation: adapter\nlibrary_name: peft\npipeline_tag: text-generation\ntags:\n  - qwen3.5\n  - peft\n  - lora\n  - unsloth\n  - governed-ai\n  - receipt-agent\n  - szl-holdings\n---\n\n> **NON-RELEASE / PLACEHOLDER.** Not a ReceiptAgent tournament winner.\n> `publication_eligible=false`. `autonomy_eligible=false`.\n> Do not treat this ID as flagship.\n\n# SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3\n\nLaptop Blackwell Unsloth **bf16 LoRA** (r=16 \u03b1=32) on `Qwen/Qwen3.5-0.8B`.\nSeparate SKU from v2. **Does not overwrite**\n`SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2` or\n`SZLHOLDINGS/SZL-Forge-1.5B-ReceiptAgent`.\n\n| Claim | Status |\n|---|---|\n| Train loss 0.0537 | MEASURED (train metric, not eval) |\n| Training rows | 180 (committed v3 `train.jsonl`) |\n| Dataset SHA256 | `ad30ce9b478eff50d78064f387143b750be3f746b459f98f7961784b9ce1081f` |\n| Adapter SHA256 | `339efa6ea0ed0719db0dede26ee836f290048deb1b6ce68403ab07cb255b28d0` |\n| Held-out generate / 1024 eval | DEV n=12 MEASURED 12/12 (4 draft / 4 recovery / 4 refuse). `test.jsonl` never opened |\n| QLoRA | forbidden on Qwen3.5; this SKU is bf16 LoRA (`load_in_4bit=false`) |\n| Rosie WSL 4bit supervised launch | not this card |\n| publication_eligible | false |\n| autonomy_eligible | false |\n| \u039b uniqueness | Conjecture 1, never a theorem |\n\n## Artifact truth card\n\n| Field | Classification |\n|---|---|\n| Artifact | Trained LoRA adapter weights for `Qwen/Qwen3.5-0.8B`, not a from-scratch model. |\n| Value | Proposal-only receipt drafts. Validation, approval, execution, and minting stay outside the weights. |\n| Evidence | Train loss MEASURED on the 180-row committed split. No held-out eval on this card. |\n| Limits | Small synthetic curriculum. No broad capability, factuality, safety, or third-party benchmark claim. |\n| Runtime | Drafts only. Not an autonomous agent. |\n\nGitHub source: https://github.com/szl-holdings/szl-forge/tree/main/frontier/qwen35-receiptagent-v3\n\nHardware: NVIDIA GeForce RTX 5050 Laptop GPU 8GB, torch 2.10.0+cu128, Unsloth 2026.7.2, Windows.\n",
+  "card": "---\nlicense: apache-2.0\nbase_model: Qwen/Qwen3.5-0.8B\nbase_model_relation: adapter\nlibrary_name: peft\npipeline_tag: text-generation\ntags:\n  - qwen3.5\n  - peft\n  - lora\n  - unsloth\n  - governed-ai\n  - receipt-agent\n  - szl-holdings\n---\n\n> **NON-RELEASE PLACEHOLDER \u00b7 SEPARATE SKU \u00b7 NOT PROMOTABLE**\n> Published research bytes are present. `publication_eligible=false` and\n> `autonomy_eligible=false`; this is not a ReceiptAgent tournament winner.\n\n# SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3\n\nThis is a separate research bf16 LoRA adapter (r=16, alpha=32) on\n`Qwen/Qwen3.5-0.8B`, with a derived merged artifact also present in the repository.\n\"Placeholder\" describes release status, not absence of weights. It does not\noverwrite [ReceiptAgent v2](https://huggingface.co/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2)\nor [SZL-Forge-1.5B-ReceiptAgent](https://huggingface.co/SZLHOLDINGS/SZL-Forge-1.5B-ReceiptAgent).\n\n## Artifact identity and evidence\n\nThe [training receipt](https://huggingface.co/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3/blob/fe7564886100316d0843d147abd38da39beb3a4f/training_receipt.laptop-blackwell.json) records\n180 training rows and train loss **0.0537**. Training loss is not evaluation.\nThe receipt describes the local laptop Blackwell bf16 run, not the Rosie\nsupervised 4-bit lane; `load_in_4bit=false`.\n\nThe published [development evaluation](https://huggingface.co/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3/blob/fe7564886100316d0843d147abd38da39beb3a4f/eval_dev_named_n.json) records:\n\n| Scope | Recorded result |\n|---|---|\n| Split and count | DEV, n=12 |\n| Total | **11/12** |\n| Draft | 4/4 |\n| Recovery | **3/4**, one unparseable output |\n| Refuse | 4/4 |\n| Test split opened | `opened_test_jsonl=false` |\n\nThe earlier card's 12/12 statement contradicted this committed receipt.\nThe failure remains part of the evidence. This is a small owner-run development\ncheck, not a held-out test, 1024-case evaluation, public leaderboard result,\nor third-party benchmark. The receipt does not establish exact current public\nadapter/merged-byte binding or transfer its result to the later merge.\n\nThe [merge receipt](https://huggingface.co/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3/blob/fe7564886100316d0843d147abd38da39beb3a4f/merge_receipt.json) records the 2026-09-14 repair of\nan empty base-copy merge, applying the root adapter to 96/96 modules with maximum\nweight delta 0.0037259478121995926. This repair is artifact construction evidence,\nnot a fresh behavioral evaluation.\n\n## Release, deployment, and authority boundary\n\nProposal-only drafts. Validation, approval, execution, and receipt minting stay\noutside the weights. No autonomy, deployment, promotion, or flagship selection\nis authorized. The [published status record](https://huggingface.co/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3/blob/fe7564886100316d0843d147abd38da39beb3a4f/status.json) retains\nblocked lineage, consent, privacy, training-suitability, and deployment fields;\nits publication status concerns its license-candidate record, not model promotion.\nLambda uniqueness remains Conjecture 1, advisory and open, never a theorem.\n\n## Source of truth and relationships\n\nUse the linked immutable Hub receipts at `fe7564886100316d0843d147abd38da39beb3a4f` and the canonical\n[v3 source directory](https://github.com/szl-holdings/szl-forge/tree/a6b58f623185820eddfb0b279d21b7d81b87137c/frontier/qwen35-receiptagent-v3).\nThe v2 adapter, this v3 research SKU, the derived merged bytes, and the 1.5B\nReceiptAgent remain separate artifacts with separate evidence scopes.\n",
   "errors": [],
   "evidence": [
     {
       "bytes": 579,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/9873c11078e5ac67f442d486e63411e3ad948053eddc86056c578bf891eb2bb1.json",
-      "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
-      "sha256": "9873c11078e5ac67f442d486e63411e3ad948053eddc86056c578bf891eb2bb1",
+      "path": "data/source-evidence/blobs/4ca666594933865540fd3f640b5f1450ebb96a4194efd87fde26127c4b57566c.json",
+      "revision": "108835f1622615f96d7cb74f8b30f9c488923683",
+      "sha256": "4ca666594933865540fd3f640b5f1450ebb96a4194efd87fde26127c4b57566c",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3/revision/fe7564886100316d0843d147abd38da39beb3a4f"
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3/revision/108835f1622615f96d7cb74f8b30f9c488923683"
     },
     {
-      "bytes": 2078,
+      "bytes": 3564,
       "kind": "source_card",
-      "path": "data/source-evidence/blobs/60cd939103ead4a7f81e2bbe1ef2a2d25b4b27084b5d25fe4356d408ba45cab5.md",
-      "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
-      "sha256": "60cd939103ead4a7f81e2bbe1ef2a2d25b4b27084b5d25fe4356d408ba45cab5",
+      "path": "data/source-evidence/blobs/6860c70c34ca97a19ef11930e785b5dffb10858bdd6178d2ce7f35cdba1f0425.md",
+      "revision": "108835f1622615f96d7cb74f8b30f9c488923683",
+      "sha256": "6860c70c34ca97a19ef11930e785b5dffb10858bdd6178d2ce7f35cdba1f0425",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://huggingface.co/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3/resolve/fe7564886100316d0843d147abd38da39beb3a4f/README.md"
+      "url": "https://huggingface.co/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3/resolve/108835f1622615f96d7cb74f8b30f9c488923683/README.md"
     }
   ],
   "files": [
@@ -45,6 +45,6 @@
     "training_receipt.laptop-blackwell.json"
   ],
   "id": "huggingface-model/szlholdings/szl-receiptagent-qwen35-0.8b-v3",
-  "observed_at": "2026-09-24T12:29:57Z",
-  "observed_revision": "fe7564886100316d0843d147abd38da39beb3a4f"
+  "observed_at": "2026-09-25T15:21:23Z",
+  "observed_revision": "108835f1622615f96d7cb74f8b30f9c488923683"
 }

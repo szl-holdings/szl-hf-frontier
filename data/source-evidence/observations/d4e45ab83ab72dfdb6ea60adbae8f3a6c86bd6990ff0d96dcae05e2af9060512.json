@@ -37,6 +37,6 @@
     "training_args.bin"
   ],
   "id": "huggingface-model/szlholdings/szl-triage-qwen3.5-0.8b-lora",
-  "observed_at": "2026-09-24T12:29:57Z",
+  "observed_at": "2026-09-25T15:21:24Z",
   "observed_revision": "24b5c44494434e88b89d9915daad32f1f8e8d03d"
 }

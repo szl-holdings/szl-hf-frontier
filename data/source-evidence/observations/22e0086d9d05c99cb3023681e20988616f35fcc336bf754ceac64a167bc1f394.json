@@ -5,22 +5,22 @@
     {
       "bytes": 5857,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/85283f8c634d452b43ff7740aa8df9297ee2aa20b4e91caf14e5a4af27eb6c0e.json",
-      "revision": "962fd88b726c299f82ab06756377fe09819f8cd1",
-      "sha256": "85283f8c634d452b43ff7740aa8df9297ee2aa20b4e91caf14e5a4af27eb6c0e",
+      "path": "data/source-evidence/blobs/57df1eb2269ff2a585b3d8fe27bb09c5b9a0bab4c9e78780b7e76768d63c90a0.json",
+      "revision": "6854d5b8e0bd95b3bcd3cadede6a40002b9dc438",
+      "sha256": "57df1eb2269ff2a585b3d8fe27bb09c5b9a0bab4c9e78780b7e76768d63c90a0",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-triage-qwen3.5-0.8b-lora-study5/revision/962fd88b726c299f82ab06756377fe09819f8cd1"
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-triage-qwen3.5-0.8b-lora-study5/revision/6854d5b8e0bd95b3bcd3cadede6a40002b9dc438"
     },
     {
       "bytes": 6007,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/8be94f79264f721fcc64ea514101aa28e76cdef42aadbb0455dd6bbadf0296d5.md",
-      "revision": "962fd88b726c299f82ab06756377fe09819f8cd1",
+      "revision": "6854d5b8e0bd95b3bcd3cadede6a40002b9dc438",
       "sha256": "8be94f79264f721fcc64ea514101aa28e76cdef42aadbb0455dd6bbadf0296d5",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://huggingface.co/SZLHOLDINGS/szl-triage-qwen3.5-0.8b-lora-study5/resolve/962fd88b726c299f82ab06756377fe09819f8cd1/README.md"
+      "url": "https://huggingface.co/SZLHOLDINGS/szl-triage-qwen3.5-0.8b-lora-study5/resolve/6854d5b8e0bd95b3bcd3cadede6a40002b9dc438/README.md"
     }
   ],
   "files": [
@@ -165,6 +165,6 @@
     "training_args.bin"
   ],
   "id": "huggingface-model/szlholdings/szl-triage-qwen3.5-0.8b-lora-study5",
-  "observed_at": "2026-09-24T12:29:57Z",
-  "observed_revision": "962fd88b726c299f82ab06756377fe09819f8cd1"
+  "observed_at": "2026-09-25T15:21:24Z",
+  "observed_revision": "6854d5b8e0bd95b3bcd3cadede6a40002b9dc438"
 }

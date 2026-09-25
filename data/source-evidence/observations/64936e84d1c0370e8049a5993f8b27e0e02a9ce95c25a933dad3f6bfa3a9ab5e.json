@@ -6,15 +6,15 @@
       "bytes": 12936,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/bef78aff7132fc897ead28f6df4e15654178796c981b52e257cf34f7ae5efa07.md",
-      "revision": "f7e290a197922134076ff190118d7fca2e4975db",
+      "revision": "29a0bd9149bac28bb21e0ff4cf017dfb09a9805a",
       "sha256": "bef78aff7132fc897ead28f6df4e15654178796c981b52e257cf34f7ae5efa07",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/szl-lambda-gate/blob/f7e290a197922134076ff190118d7fca2e4975db/README.md"
+      "url": "https://github.com/szl-holdings/szl-lambda-gate/blob/29a0bd9149bac28bb21e0ff4cf017dfb09a9805a/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/szl-lambda-gate",
-  "observed_at": "2026-09-24T12:29:37Z",
-  "observed_revision": "f7e290a197922134076ff190118d7fca2e4975db"
+  "observed_at": "2026-09-25T15:21:14Z",
+  "observed_revision": "29a0bd9149bac28bb21e0ff4cf017dfb09a9805a"
 }
