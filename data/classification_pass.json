@@ -1,4 +1,5 @@
 {
+  "generated_at": "2026-09-27T20:08:44.374673+00:00",
   "method": "deterministic evidence scan (no LLM)",
   "signed": false,
   "promotion_eligible": false,
@@ -14,18 +15,18 @@
   },
   "status_counts": {
     "PROVISIONAL": 99,
-    "EVIDENCE": 74,
-    "UNREVIEWED": 53
+    "EVIDENCE": 75,
+    "UNREVIEWED": 52
   },
   "role_counts": {
     "canonical-source": 91,
     "archived-provenance": 28,
-    "UNREVIEWED": 53,
+    "UNREVIEWED": 52,
     "paper-dataset-receipt-support": 12,
     "mirror-distribution": 28,
-    "runtime-surface": 14
+    "runtime-surface": 15
   },
-  "hf_assets_with_evidenced_github_source": 46,
+  "hf_assets_with_evidenced_github_source": 47,
   "hf_readmes_unreadable": 1,
   "artifacts": [
     {
@@ -35,7 +36,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -46,7 +47,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -57,7 +58,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -68,7 +69,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -79,7 +80,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -90,7 +91,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -101,7 +102,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -138,7 +139,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -185,7 +186,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -196,7 +197,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -233,7 +234,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -244,7 +245,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -279,7 +280,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -290,7 +291,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -301,7 +302,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -312,7 +313,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -336,7 +337,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -372,7 +373,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -384,7 +385,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -395,7 +396,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -430,7 +431,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -441,7 +442,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -452,7 +453,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -463,7 +464,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -487,7 +488,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -498,7 +499,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -509,7 +510,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -532,7 +533,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -543,7 +544,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -554,7 +555,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -565,7 +566,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -576,7 +577,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -587,7 +588,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -598,7 +599,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -609,7 +610,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -621,7 +622,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -632,7 +633,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -643,7 +644,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -667,7 +668,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -678,7 +679,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -689,7 +690,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -701,7 +702,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -712,7 +713,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -723,7 +724,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -734,7 +735,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -769,7 +770,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -792,7 +793,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -803,7 +804,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -814,7 +815,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -836,7 +837,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -847,7 +848,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -858,7 +859,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -869,7 +870,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -880,7 +881,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -891,7 +892,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -902,7 +903,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -925,7 +926,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -936,7 +937,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -947,7 +948,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -958,7 +959,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -969,7 +970,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -980,7 +981,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1014,7 +1015,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1025,7 +1026,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1037,7 +1038,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1048,7 +1049,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1059,7 +1060,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1082,7 +1083,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1093,7 +1094,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1104,7 +1105,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1115,7 +1116,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1126,7 +1127,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1137,7 +1138,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1148,7 +1149,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1159,7 +1160,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1170,7 +1171,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1181,7 +1182,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1192,7 +1193,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1203,7 +1204,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1214,7 +1215,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1225,7 +1226,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1248,7 +1249,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1260,7 +1261,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1284,7 +1285,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1295,7 +1296,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1306,7 +1307,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1317,7 +1318,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1328,7 +1329,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1339,7 +1340,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1362,7 +1363,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1373,7 +1374,7 @@
       ],
       "role": "canonical-source",
       "status": "PROVISIONAL",
-      "basis": "org policy: GitHub is canonical; mirror/successor status not yet reviewed",
+      "basis": "org policy: GitHub canonical; not yet reviewed",
       "linked_github_source": null,
       "evidence_url": null
     },
@@ -1436,7 +1437,7 @@
       ],
       "role": "paper-dataset-receipt-support",
       "status": "PROVISIONAL",
-      "basis": "role by asset type; no GitHub link in README",
+      "basis": "role by asset type; no GitHub link",
       "linked_github_source": null,
       "evidence_url": "https://huggingface.co/datasets/szlholdings/david-leads-data/resolve/main/README.md"
     },
@@ -1572,7 +1573,7 @@
       ],
       "role": "paper-dataset-receipt-support",
       "status": "PROVISIONAL",
-      "basis": "role by asset type; no GitHub link in README",
+      "basis": "role by asset type; no GitHub link",
       "linked_github_source": null,
       "evidence_url": "https://huggingface.co/datasets/szlholdings/model-bom/resolve/main/README.md"
     },
@@ -1703,7 +1704,7 @@
       ],
       "role": "paper-dataset-receipt-support",
       "status": "PROVISIONAL",
-      "basis": "role by asset type; no GitHub link in README",
+      "basis": "role by asset type; no GitHub link",
       "linked_github_source": null,
       "evidence_url": "https://huggingface.co/datasets/szlholdings/szl-estate-graph/resolve/main/README.md"
     },
@@ -1770,7 +1771,7 @@
       ],
       "role": "paper-dataset-receipt-support",
       "status": "PROVISIONAL",
-      "basis": "role by asset type; no GitHub link in README",
+      "basis": "role by asset type; no GitHub link",
       "linked_github_source": null,
       "evidence_url": "https://huggingface.co/datasets/szlholdings/szl-second-brain-inrepo/resolve/main/README.md"
     },
@@ -1898,7 +1899,7 @@
       ],
       "role": "paper-dataset-receipt-support",
       "status": "PROVISIONAL",
-      "basis": "role by asset type; no GitHub link in README",
+      "basis": "role by asset type; no GitHub link",
       "linked_github_source": null,
       "evidence_url": "https://huggingface.co/datasets/szlholdings/why-we-lead/resolve/main/README.md"
     },
@@ -2609,15 +2610,11 @@
       "open_gates": [
         "alignment-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
-      "evidence_url": "https://huggingface.co/spaces/szlholdings/finance/resolve/main/README.md",
-      "candidates": [
-        "szl-holdings/a11oy",
-        "szl-holdings/puriq-live"
-      ]
+      "role": "runtime-surface",
+      "status": "EVIDENCE",
+      "basis": "README links exactly one szl-holdings repo",
+      "linked_github_source": "szl-holdings/a11oy",
+      "evidence_url": "https://huggingface.co/spaces/szlholdings/finance/resolve/main/README.md"
     },
     {
       "id": "huggingface-space/szlholdings/holographic-unify",
@@ -2627,7 +2624,7 @@
       ],
       "role": "runtime-surface",
       "status": "PROVISIONAL",
-      "basis": "role by asset type; no GitHub link in README",
+      "basis": "role by asset type; no GitHub link",
       "linked_github_source": null,
       "evidence_url": "https://huggingface.co/spaces/szlholdings/holographic-unify/resolve/main/README.md"
     },
@@ -2696,7 +2693,7 @@
       ],
       "role": "runtime-surface",
       "status": "PROVISIONAL",
-      "basis": "role by asset type; no GitHub link in README",
+      "basis": "role by asset type; no GitHub link",
       "linked_github_source": null,
       "evidence_url": "https://huggingface.co/spaces/szlholdings/lyte/resolve/main/README.md"
     },
@@ -2737,7 +2734,7 @@
       ],
       "role": "runtime-surface",
       "status": "PROVISIONAL",
-      "basis": "role by asset type; no GitHub link in README",
+      "basis": "role by asset type; no GitHub link",
       "linked_github_source": null,
       "evidence_url": "https://huggingface.co/spaces/szlholdings/szl-atelier/resolve/main/README.md"
     },
@@ -2866,6 +2863,5 @@
       "linked_github_source": "szl-holdings/yarqa",
       "evidence_url": "https://huggingface.co/spaces/szlholdings/yarqa/resolve/main/README.md"
     }
-  ],
-  "generated_at": "2026-09-25T19:04:03.419044+00:00"
+  ]
 }
