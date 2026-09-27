@@ -13,19 +13,19 @@
     "license": 18
   },
   "status_counts": {
-    "PROVISIONAL": 99,
-    "EVIDENCE": 74,
-    "UNREVIEWED": 53
+    "PROVISIONAL": 113,
+    "EVIDENCE": 87,
+    "UNREVIEWED": 26
   },
   "role_counts": {
     "canonical-source": 91,
     "archived-provenance": 28,
-    "UNREVIEWED": 53,
-    "paper-dataset-receipt-support": 12,
-    "mirror-distribution": 28,
-    "runtime-surface": 14
+    "paper-dataset-receipt-support": 21,
+    "UNREVIEWED": 26,
+    "mirror-distribution": 40,
+    "runtime-surface": 20
   },
-  "hf_assets_with_evidenced_github_source": 46,
+  "hf_assets_with_evidenced_github_source": 73,
   "hf_readmes_unreadable": 1,
   "artifacts": [
     {
@@ -1382,10 +1382,10 @@
       "open_gates": [
         "alignment-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "paper-dataset-receipt-support",
+      "status": "PROVISIONAL",
+      "basis": "mapped 2026-09-27: name prefix + README link",
+      "linked_github_source": "szl-holdings/a11oy",
       "evidence_url": "https://huggingface.co/datasets/szlholdings/a11oy-verifiable-corpus/resolve/main/README.md",
       "candidates": [
         "szl-holdings/.github",
@@ -1393,7 +1393,9 @@
         "szl-holdings/governed-receipt-spec",
         "szl-holdings/lutar-lean",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "MEDIUM",
+      "mapping_basis": "name prefix + README link"
     },
     {
       "id": "huggingface-dataset/szlholdings/alloy-sovereign-eval-runs",
@@ -1409,7 +1411,10 @@
       "candidates": [
         "szl-holdings/governed-receipt-spec",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "LOW",
+      "mapping_basis": "guess",
+      "suggested_repo": "szl-holdings/governed-receipt-spec"
     },
     {
       "id": "huggingface-dataset/szlholdings/canonical-formulas-v1",
@@ -1425,7 +1430,10 @@
       "candidates": [
         "szl-holdings/.github",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "LOW",
+      "mapping_basis": "guess",
+      "suggested_repo": "szl-holdings/szl-papers"
     },
     {
       "id": "huggingface-dataset/szlholdings/david-leads-data",
@@ -1454,7 +1462,10 @@
       "candidates": [
         "szl-holdings/.github",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "LOW",
+      "mapping_basis": "guess; szl-doctrine may fit better",
+      "suggested_repo": "szl-holdings/szl-papers"
     },
     {
       "id": "huggingface-dataset/szlholdings/energy-attested-runs",
@@ -1471,7 +1482,10 @@
         "szl-holdings/.github",
         "szl-holdings/governed-receipt-spec",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "LOW",
+      "mapping_basis": "guess; szl-energy-attest may fit better",
+      "suggested_repo": "szl-holdings/governed-receipt-spec"
     },
     {
       "id": "huggingface-dataset/szlholdings/governed-agent-bench",
@@ -1491,16 +1505,18 @@
         "canonical-route",
         "source-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "paper-dataset-receipt-support",
+      "status": "PROVISIONAL",
+      "basis": "mapped 2026-09-27: receipt benchmark; spec repo replays it",
+      "linked_github_source": "szl-holdings/governed-receipt-spec",
       "evidence_url": "https://huggingface.co/datasets/szlholdings/governed-receipts-bench/resolve/main/README.md",
       "candidates": [
         "szl-holdings/.github",
         "szl-holdings/governed-receipt-spec",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "MEDIUM",
+      "mapping_basis": "receipt benchmark; spec repo replays it"
     },
     {
       "id": "huggingface-dataset/szlholdings/k-verify-benchmark-v1",
@@ -1516,7 +1532,10 @@
       "candidates": [
         "szl-holdings/.github",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "LOW",
+      "mapping_basis": "guess",
+      "suggested_repo": "szl-holdings/szl-papers"
     },
     {
       "id": "huggingface-dataset/szlholdings/killinchu-osint-corpus",
@@ -1545,24 +1564,29 @@
         "szl-holdings/.github",
         "szl-holdings/governed-receipt-spec",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "LOW",
+      "mapping_basis": "name suggests lutar-lean; README does not link it",
+      "suggested_repo": "szl-holdings/lutar-lean"
     },
     {
       "id": "huggingface-dataset/szlholdings/lean-theorem-tree",
       "open_gates": [
         "alignment-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "paper-dataset-receipt-support",
+      "status": "PROVISIONAL",
+      "basis": "mapped 2026-09-27: Lean content + README link",
+      "linked_github_source": "szl-holdings/lutar-lean",
       "evidence_url": "https://huggingface.co/datasets/szlholdings/lean-theorem-tree/resolve/main/README.md",
       "candidates": [
         "szl-holdings/.github",
         "szl-holdings/a11oy",
         "szl-holdings/lutar-lean",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "MEDIUM",
+      "mapping_basis": "Lean content + README link"
     },
     {
       "id": "huggingface-dataset/szlholdings/model-bom",
@@ -1592,17 +1616,19 @@
       "open_gates": [
         "alignment-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "paper-dataset-receipt-support",
+      "status": "PROVISIONAL",
+      "basis": "mapped 2026-09-27: preprint + README link",
+      "linked_github_source": "szl-holdings/szl-papers",
       "evidence_url": "https://huggingface.co/datasets/szlholdings/ouroboros-arxiv-preprint/resolve/main/README.md",
       "candidates": [
         "szl-holdings/.github",
         "szl-holdings/a11oy",
         "szl-holdings/lutar-lean",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "MEDIUM",
+      "mapping_basis": "preprint + README link"
     },
     {
       "id": "huggingface-dataset/szlholdings/rag-corpus-v1",
@@ -1618,7 +1644,10 @@
       "candidates": [
         "szl-holdings/.github",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "LOW",
+      "mapping_basis": "guess",
+      "suggested_repo": "szl-holdings/szl-papers"
     },
     {
       "id": "huggingface-dataset/szlholdings/readiness-runs",
@@ -1634,7 +1663,10 @@
       "candidates": [
         "szl-holdings/governed-receipt-spec",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "LOW",
+      "mapping_basis": "guess",
+      "suggested_repo": "szl-holdings/governed-receipt-spec"
     },
     {
       "id": "huggingface-dataset/szlholdings/receipted-unsloth",
@@ -1659,22 +1691,26 @@
       "status": "UNREVIEWED",
       "basis": "README not readable (HTTP 404)",
       "linked_github_source": null,
-      "evidence_url": "https://huggingface.co/datasets/szlholdings/release-assets/resolve/main/README.md"
+      "evidence_url": "https://huggingface.co/datasets/szlholdings/release-assets/resolve/main/README.md",
+      "mapping_confidence": "OWNER",
+      "mapping_basis": "owner decision"
     },
     {
       "id": "huggingface-dataset/szlholdings/szl-1-doctrine-sft",
       "open_gates": [
         "alignment-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "paper-dataset-receipt-support",
+      "status": "PROVISIONAL",
+      "basis": "mapped 2026-09-27: training data + README link",
+      "linked_github_source": "szl-holdings/szl-forge",
       "evidence_url": "https://huggingface.co/datasets/szlholdings/szl-1-doctrine-sft/resolve/main/README.md",
       "candidates": [
         "szl-holdings/.github",
         "szl-holdings/szl-forge"
-      ]
+      ],
+      "mapping_confidence": "MEDIUM",
+      "mapping_basis": "training data + README link"
     },
     {
       "id": "huggingface-dataset/szlholdings/szl-artifacts",
@@ -1692,7 +1728,9 @@
         "szl-holdings/a11oy",
         "szl-holdings/lutar-lean",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "OWNER",
+      "mapping_basis": "owner decision"
     },
     {
       "id": "huggingface-dataset/szlholdings/szl-estate-graph",
@@ -1724,15 +1762,17 @@
         "canonical-route",
         "source-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "paper-dataset-receipt-support",
+      "status": "PROVISIONAL",
+      "basis": "mapped 2026-09-27: eval receipts + README link",
+      "linked_github_source": "szl-holdings/szl-forge",
       "evidence_url": "https://huggingface.co/datasets/szlholdings/szl-frontier-evaluation-receipts/resolve/main/README.md",
       "candidates": [
         "szl-holdings/governed-receipt-spec",
         "szl-holdings/szl-forge"
-      ]
+      ],
+      "mapping_confidence": "MEDIUM",
+      "mapping_basis": "eval receipts + README link"
     },
     {
       "id": "huggingface-dataset/szlholdings/szl-lake",
@@ -1740,15 +1780,17 @@
         "canonical-route",
         "source-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "paper-dataset-receipt-support",
+      "status": "PROVISIONAL",
+      "basis": "mapped 2026-09-27: same-name repo (verified live)",
+      "linked_github_source": "szl-holdings/szl-lake",
       "evidence_url": "https://huggingface.co/datasets/szlholdings/szl-lake/resolve/main/README.md",
       "candidates": [
         "szl-holdings/lutar-lean",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "MEDIUM",
+      "mapping_basis": "same-name repo (verified live)"
     },
     {
       "id": "huggingface-dataset/szlholdings/szl-quant-sft-v1",
@@ -1800,7 +1842,10 @@
       "candidates": [
         "szl-holdings/.github",
         "szl-holdings/hatun-mcp"
-      ]
+      ],
+      "mapping_confidence": "LOW",
+      "mapping_basis": "guess",
+      "suggested_repo": "szl-holdings/hatun-mcp"
     },
     {
       "id": "huggingface-dataset/szlholdings/thesis-corpus-v18",
@@ -1808,15 +1853,17 @@
         "canonical-route",
         "source-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "paper-dataset-receipt-support",
+      "status": "PROVISIONAL",
+      "basis": "mapped 2026-09-27: thesis corpus + README link",
+      "linked_github_source": "szl-holdings/szl-papers",
       "evidence_url": "https://huggingface.co/datasets/szlholdings/thesis-corpus-v18/resolve/main/README.md",
       "candidates": [
         "szl-holdings/.github",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "MEDIUM",
+      "mapping_basis": "thesis corpus + README link"
     },
     {
       "id": "huggingface-dataset/szlholdings/thesis-v18-formal-verification",
@@ -1824,17 +1871,19 @@
         "canonical-route",
         "source-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "paper-dataset-receipt-support",
+      "status": "PROVISIONAL",
+      "basis": "mapped 2026-09-27: thesis artifact + README link",
+      "linked_github_source": "szl-holdings/szl-papers",
       "evidence_url": "https://huggingface.co/datasets/szlholdings/thesis-v18-formal-verification/resolve/main/README.md",
       "candidates": [
         "szl-holdings/.github",
         "szl-holdings/a11oy",
         "szl-holdings/lutar-lean",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "MEDIUM",
+      "mapping_basis": "thesis artifact + README link"
     },
     {
       "id": "huggingface-dataset/szlholdings/uds-bundles-v1",
@@ -1850,7 +1899,9 @@
       "candidates": [
         "szl-holdings/.github",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "OWNER",
+      "mapping_basis": "owner decision"
     },
     {
       "id": "huggingface-dataset/szlholdings/uds-governance-receipts",
@@ -1868,7 +1919,9 @@
         "szl-holdings/a11oy",
         "szl-holdings/lutar-lean",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "OWNER",
+      "mapping_basis": "owner decision"
     },
     {
       "id": "huggingface-dataset/szlholdings/uds-spans-receipts",
@@ -1888,7 +1941,9 @@
         "szl-holdings/hatun-mcp",
         "szl-holdings/lutar-lean",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "OWNER",
+      "mapping_basis": "owner decision"
     },
     {
       "id": "huggingface-dataset/szlholdings/why-we-lead",
@@ -1946,7 +2001,9 @@
       "status": "UNREVIEWED",
       "basis": "README has no szl-holdings GitHub link",
       "linked_github_source": null,
-      "evidence_url": "https://huggingface.co/szlholdings/chakana/resolve/main/README.md"
+      "evidence_url": "https://huggingface.co/szlholdings/chakana/resolve/main/README.md",
+      "mapping_confidence": "OWNER",
+      "mapping_basis": "README has no GitHub link and no same-name repo exists"
     },
     {
       "id": "huggingface-model/szlholdings/chaski",
@@ -1990,15 +2047,17 @@
         "source-classification",
         "source-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "mirror-distribution",
+      "status": "EVIDENCE",
+      "basis": "mapped 2026-09-27: exact name match + README link (source repo is archived)",
+      "linked_github_source": "szl-holdings/governed-inference-meter",
       "evidence_url": "https://huggingface.co/szlholdings/governed-inference-meter/resolve/main/README.md",
       "candidates": [
         "szl-holdings/governed-inference-meter",
         "szl-holdings/szl-energy-attest"
-      ]
+      ],
+      "mapping_confidence": "HIGH",
+      "mapping_basis": "exact name match + README link"
     },
     {
       "id": "huggingface-model/szlholdings/khipu-r2",
@@ -2011,7 +2070,9 @@
       "status": "UNREVIEWED",
       "basis": "README has no szl-holdings GitHub link",
       "linked_github_source": null,
-      "evidence_url": "https://huggingface.co/szlholdings/khipu-r2/resolve/main/README.md"
+      "evidence_url": "https://huggingface.co/szlholdings/khipu-r2/resolve/main/README.md",
+      "mapping_confidence": "OWNER",
+      "mapping_basis": "README has no GitHub link and no same-name repo exists"
     },
     {
       "id": "huggingface-model/szlholdings/khipu-r3",
@@ -2090,7 +2151,9 @@
       "status": "UNREVIEWED",
       "basis": "README has no szl-holdings GitHub link",
       "linked_github_source": null,
-      "evidence_url": "https://huggingface.co/szlholdings/qantu/resolve/main/README.md"
+      "evidence_url": "https://huggingface.co/szlholdings/qantu/resolve/main/README.md",
+      "mapping_confidence": "OWNER",
+      "mapping_basis": "README has no GitHub link and no same-name repo exists"
     },
     {
       "id": "huggingface-model/szlholdings/receiptagent-nano",
@@ -2103,7 +2166,9 @@
       "status": "UNREVIEWED",
       "basis": "README has no szl-holdings GitHub link",
       "linked_github_source": null,
-      "evidence_url": "https://huggingface.co/szlholdings/receiptagent-nano/resolve/main/README.md"
+      "evidence_url": "https://huggingface.co/szlholdings/receiptagent-nano/resolve/main/README.md",
+      "mapping_confidence": "OWNER",
+      "mapping_basis": "README has no GitHub link and no same-name repo exists"
     },
     {
       "id": "huggingface-model/szlholdings/szl-block-kv",
@@ -2112,15 +2177,17 @@
         "source-classification",
         "source-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "mirror-distribution",
+      "status": "EVIDENCE",
+      "basis": "mapped 2026-09-27: exact name match + README link",
+      "linked_github_source": "szl-holdings/szl-block-kv",
       "evidence_url": "https://huggingface.co/szlholdings/szl-block-kv/resolve/main/README.md",
       "candidates": [
         "szl-holdings/szl-block-kv",
         "szl-holdings/szl-khipu"
-      ]
+      ],
+      "mapping_confidence": "HIGH",
+      "mapping_basis": "exact name match + README link"
     },
     {
       "id": "huggingface-model/szlholdings/szl-blocked",
@@ -2173,10 +2240,10 @@
         "source-classification",
         "source-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "mirror-distribution",
+      "status": "EVIDENCE",
+      "basis": "mapped 2026-09-27: exact name match + README link (source repo is archived)",
+      "linked_github_source": "szl-holdings/szl-governed-norm",
       "evidence_url": "https://huggingface.co/szlholdings/szl-governed-norm/resolve/main/README.md",
       "candidates": [
         "szl-holdings/.github",
@@ -2185,7 +2252,9 @@
         "szl-holdings/szl-khipu",
         "szl-holdings/szl-lambda-gate",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "HIGH",
+      "mapping_basis": "exact name match + README link"
     },
     {
       "id": "huggingface-model/szlholdings/szl-govsign",
@@ -2214,10 +2283,10 @@
       "open_gates": [
         "alignment-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "mirror-distribution",
+      "status": "EVIDENCE",
+      "basis": "mapped 2026-09-27: exact name match + README link",
+      "linked_github_source": "szl-holdings/szl-kernels",
       "evidence_url": "https://huggingface.co/szlholdings/szl-kernels/resolve/main/README.md",
       "candidates": [
         "szl-holdings/.github",
@@ -2225,7 +2294,9 @@
         "szl-holdings/szl-forge",
         "szl-holdings/szl-kernels",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "HIGH",
+      "mapping_basis": "exact name match + README link"
     },
     {
       "id": "huggingface-model/szlholdings/szl-khipu",
@@ -2234,32 +2305,36 @@
         "source-classification",
         "source-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "mirror-distribution",
+      "status": "EVIDENCE",
+      "basis": "mapped 2026-09-27: exact name match + README link",
+      "linked_github_source": "szl-holdings/szl-khipu",
       "evidence_url": "https://huggingface.co/szlholdings/szl-khipu/resolve/main/README.md",
       "candidates": [
         "szl-holdings/anatomy",
         "szl-holdings/khipu-pages",
         "szl-holdings/szl-gov",
         "szl-holdings/szl-khipu"
-      ]
+      ],
+      "mapping_confidence": "HIGH",
+      "mapping_basis": "exact name match + README link"
     },
     {
       "id": "huggingface-model/szlholdings/szl-khipu-1.5b",
       "open_gates": [
         "alignment-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "mirror-distribution",
+      "status": "PROVISIONAL",
+      "basis": "mapped 2026-09-27: trained model + README link",
+      "linked_github_source": "szl-holdings/szl-forge",
       "evidence_url": "https://huggingface.co/szlholdings/szl-khipu-1.5b/resolve/main/README.md",
       "candidates": [
         "szl-holdings/.github",
         "szl-holdings/szl-forge"
-      ]
+      ],
+      "mapping_confidence": "MEDIUM",
+      "mapping_basis": "trained model + README link"
     },
     {
       "id": "huggingface-model/szlholdings/szl-khipu-1.5b-abstain",
@@ -2279,16 +2354,18 @@
         "source-classification",
         "source-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "mirror-distribution",
+      "status": "PROVISIONAL",
+      "basis": "mapped 2026-09-27: trained model export + README link",
+      "linked_github_source": "szl-holdings/szl-forge",
       "evidence_url": "https://huggingface.co/szlholdings/szl-khipu-1.5b-gguf/resolve/main/README.md",
       "candidates": [
         "szl-holdings/.github",
         "szl-holdings/szl-forge",
         "szl-holdings/szl-serve"
-      ]
+      ],
+      "mapping_confidence": "MEDIUM",
+      "mapping_basis": "trained model export + README link"
     },
     {
       "id": "huggingface-model/szlholdings/szl-khipu-kernels",
@@ -2308,10 +2385,10 @@
         "source-classification",
         "source-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "mirror-distribution",
+      "status": "EVIDENCE",
+      "basis": "mapped 2026-09-27: exact name match + README link",
+      "linked_github_source": "szl-holdings/szl-lambda-gate",
       "evidence_url": "https://huggingface.co/szlholdings/szl-lambda-gate/resolve/main/README.md",
       "candidates": [
         "szl-holdings/.github",
@@ -2320,7 +2397,9 @@
         "szl-holdings/szl-khipu",
         "szl-holdings/szl-lambda-gate",
         "szl-holdings/szl-papers"
-      ]
+      ],
+      "mapping_confidence": "HIGH",
+      "mapping_basis": "exact name match + README link"
     },
     {
       "id": "huggingface-model/szlholdings/szl-maskmod",
@@ -2329,15 +2408,17 @@
         "source-classification",
         "source-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "mirror-distribution",
+      "status": "EVIDENCE",
+      "basis": "mapped 2026-09-27: exact name match + README link",
+      "linked_github_source": "szl-holdings/szl-maskmod",
       "evidence_url": "https://huggingface.co/szlholdings/szl-maskmod/resolve/main/README.md",
       "candidates": [
         "szl-holdings/szl-khipu",
         "szl-holdings/szl-maskmod"
-      ]
+      ],
+      "mapping_confidence": "HIGH",
+      "mapping_basis": "exact name match + README link"
     },
     {
       "id": "huggingface-model/szlholdings/szl-nemo",
@@ -2357,16 +2438,18 @@
         "source-classification",
         "source-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "mirror-distribution",
+      "status": "EVIDENCE",
+      "basis": "mapped 2026-09-27: exact name match + README link",
+      "linked_github_source": "szl-holdings/szl-ouroboros",
       "evidence_url": "https://huggingface.co/szlholdings/szl-ouroboros/resolve/main/README.md",
       "candidates": [
         "szl-holdings/ouroboros",
         "szl-holdings/szl-khipu",
         "szl-holdings/szl-ouroboros"
-      ]
+      ],
+      "mapping_confidence": "HIGH",
+      "mapping_basis": "exact name match + README link"
     },
     {
       "id": "huggingface-model/szlholdings/szl-provctl",
@@ -2386,15 +2469,17 @@
         "source-classification",
         "source-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "mirror-distribution",
+      "status": "EVIDENCE",
+      "basis": "mapped 2026-09-27: exact name match + README link",
+      "linked_github_source": "szl-holdings/szl-receipt-attn",
       "evidence_url": "https://huggingface.co/szlholdings/szl-receipt-attn/resolve/main/README.md",
       "candidates": [
         "szl-holdings/szl-khipu",
         "szl-holdings/szl-receipt-attn"
-      ]
+      ],
+      "mapping_confidence": "HIGH",
+      "mapping_basis": "exact name match + README link"
     },
     {
       "id": "huggingface-model/szlholdings/szl-receiptagent-qwen35-0.8b-v2",
@@ -2440,7 +2525,9 @@
       "status": "UNREVIEWED",
       "basis": "README has no szl-holdings GitHub link",
       "linked_github_source": null,
-      "evidence_url": "https://huggingface.co/szlholdings/szl-training-scripts/resolve/main/README.md"
+      "evidence_url": "https://huggingface.co/szlholdings/szl-training-scripts/resolve/main/README.md",
+      "mapping_confidence": "OWNER",
+      "mapping_basis": "README has no GitHub link and no same-name repo exists"
     },
     {
       "id": "huggingface-model/szlholdings/szl-triage-qwen3.5-0.8b-lora",
@@ -2491,7 +2578,9 @@
       "status": "UNREVIEWED",
       "basis": "README has no szl-holdings GitHub link",
       "linked_github_source": null,
-      "evidence_url": "https://huggingface.co/szlholdings/tinku/resolve/main/README.md"
+      "evidence_url": "https://huggingface.co/szlholdings/tinku/resolve/main/README.md",
+      "mapping_confidence": "OWNER",
+      "mapping_basis": "README has no GitHub link and no same-name repo exists"
     },
     {
       "id": "huggingface-model/szlholdings/tinykhipu-nano",
@@ -2504,7 +2593,9 @@
       "status": "UNREVIEWED",
       "basis": "README has no szl-holdings GitHub link",
       "linked_github_source": null,
-      "evidence_url": "https://huggingface.co/szlholdings/tinykhipu-nano/resolve/main/README.md"
+      "evidence_url": "https://huggingface.co/szlholdings/tinykhipu-nano/resolve/main/README.md",
+      "mapping_confidence": "OWNER",
+      "mapping_basis": "README has no GitHub link and no same-name repo exists"
     },
     {
       "id": "huggingface-model/szlholdings/waman",
@@ -2517,7 +2608,9 @@
       "status": "UNREVIEWED",
       "basis": "README has no szl-holdings GitHub link",
       "linked_github_source": null,
-      "evidence_url": "https://huggingface.co/szlholdings/waman/resolve/main/README.md"
+      "evidence_url": "https://huggingface.co/szlholdings/waman/resolve/main/README.md",
+      "mapping_confidence": "OWNER",
+      "mapping_basis": "README has no GitHub link and no same-name repo exists"
     },
     {
       "id": "huggingface-model/szlholdings/willay",
@@ -2530,7 +2623,9 @@
       "status": "UNREVIEWED",
       "basis": "README has no szl-holdings GitHub link",
       "linked_github_source": null,
-      "evidence_url": "https://huggingface.co/szlholdings/willay/resolve/main/README.md"
+      "evidence_url": "https://huggingface.co/szlholdings/willay/resolve/main/README.md",
+      "mapping_confidence": "OWNER",
+      "mapping_basis": "README has no GitHub link and no same-name repo exists"
     },
     {
       "id": "huggingface-model/szlholdings/yarqa-attn",
@@ -2539,17 +2634,19 @@
         "source-classification",
         "source-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "mirror-distribution",
+      "status": "EVIDENCE",
+      "basis": "mapped 2026-09-27: exact name match + README link",
+      "linked_github_source": "szl-holdings/yarqa-attn",
       "evidence_url": "https://huggingface.co/szlholdings/yarqa-attn/resolve/main/README.md",
       "candidates": [
         "szl-holdings/szl-khipu",
         "szl-holdings/szl-receipt-attn",
         "szl-holdings/yarqa",
         "szl-holdings/yarqa-attn"
-      ]
+      ],
+      "mapping_confidence": "HIGH",
+      "mapping_basis": "exact name match + README link"
     },
     {
       "id": "huggingface-space/szlholdings/a11oy",
@@ -2557,10 +2654,10 @@
         "canonical-route",
         "source-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "runtime-surface",
+      "status": "EVIDENCE",
+      "basis": "mapped 2026-09-27: exact name match + README link",
+      "linked_github_source": "szl-holdings/a11oy",
       "evidence_url": "https://huggingface.co/spaces/szlholdings/a11oy/resolve/main/README.md",
       "candidates": [
         "szl-holdings/a11oy",
@@ -2569,7 +2666,9 @@
         "szl-holdings/killinchu",
         "szl-holdings/lutar-lean",
         "szl-holdings/szl-cookbook"
-      ]
+      ],
+      "mapping_confidence": "HIGH",
+      "mapping_basis": "exact name match + README link"
     },
     {
       "id": "huggingface-space/szlholdings/ayllu",
@@ -2617,7 +2716,9 @@
       "candidates": [
         "szl-holdings/a11oy",
         "szl-holdings/puriq-live"
-      ]
+      ],
+      "mapping_confidence": "OWNER",
+      "mapping_basis": "owner decision"
     },
     {
       "id": "huggingface-space/szlholdings/holographic-unify",
@@ -2659,10 +2760,10 @@
         "canonical-route",
         "source-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "runtime-surface",
+      "status": "EVIDENCE",
+      "basis": "mapped 2026-09-27: exact name match + README link",
+      "linked_github_source": "szl-holdings/killinchu",
       "evidence_url": "https://huggingface.co/spaces/szlholdings/killinchu/resolve/main/README.md",
       "candidates": [
         "szl-holdings/.github",
@@ -2675,7 +2776,9 @@
         "szl-holdings/platform",
         "szl-holdings/szl-cookbook",
         "szl-holdings/szl-formula-ledger"
-      ]
+      ],
+      "mapping_confidence": "HIGH",
+      "mapping_basis": "exact name match + README link"
     },
     {
       "id": "huggingface-space/szlholdings/llm-router-live",
@@ -2716,7 +2819,9 @@
         "szl-holdings/a11oy",
         "szl-holdings/killinchu",
         "szl-holdings/szl-router"
-      ]
+      ],
+      "mapping_confidence": "OWNER",
+      "mapping_basis": "owner decision"
     },
     {
       "id": "huggingface-space/szlholdings/sentra",
@@ -2757,47 +2862,53 @@
       "open_gates": [
         "alignment-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "runtime-surface",
+      "status": "EVIDENCE",
+      "basis": "mapped 2026-09-27: exact name match + README link",
+      "linked_github_source": "szl-holdings/szl-constellation",
       "evidence_url": "https://huggingface.co/spaces/szlholdings/szl-constellation/resolve/main/README.md",
       "candidates": [
         "szl-holdings/lutar-lean",
         "szl-holdings/szl-constellation"
-      ]
+      ],
+      "mapping_confidence": "HIGH",
+      "mapping_basis": "exact name match + README link"
     },
     {
       "id": "huggingface-space/szlholdings/szl-constellation-staging",
       "open_gates": [
         "alignment-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "runtime-surface",
+      "status": "PROVISIONAL",
+      "basis": "mapped 2026-09-27: staging Space of szl-constellation",
+      "linked_github_source": "szl-holdings/szl-constellation",
       "evidence_url": "https://huggingface.co/spaces/szlholdings/szl-constellation-staging/resolve/main/README.md",
       "candidates": [
         "szl-holdings/lutar-lean",
         "szl-holdings/szl-constellation"
-      ]
+      ],
+      "mapping_confidence": "MEDIUM",
+      "mapping_basis": "staging Space of szl-constellation"
     },
     {
       "id": "huggingface-space/szlholdings/szl-frontier",
       "open_gates": [
         "alignment-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "runtime-surface",
+      "status": "PROVISIONAL",
+      "basis": "mapped 2026-09-27: same-name repo (verified live)",
+      "linked_github_source": "szl-holdings/szl-frontier",
       "evidence_url": "https://huggingface.co/spaces/szlholdings/szl-frontier/resolve/main/README.md",
       "candidates": [
         "szl-holdings/a11oy",
         "szl-holdings/immune",
         "szl-holdings/lutar-lean",
         "szl-holdings/szl-second-brain"
-      ]
+      ],
+      "mapping_confidence": "MEDIUM",
+      "mapping_basis": "same-name repo (verified live)"
     },
     {
       "id": "huggingface-space/szlholdings/szl-khipu",
@@ -2816,15 +2927,17 @@
         "canonical-route",
         "source-review"
       ],
-      "role": "UNREVIEWED",
-      "status": "UNREVIEWED",
-      "basis": "README links multiple repos; needs human pick",
-      "linked_github_source": null,
+      "role": "runtime-surface",
+      "status": "PROVISIONAL",
+      "basis": "mapped 2026-09-27: inference lab + README link",
+      "linked_github_source": "szl-holdings/szl-forge",
       "evidence_url": "https://huggingface.co/spaces/szlholdings/szl-model-inference-lab/resolve/main/README.md",
       "candidates": [
         "szl-holdings/.github",
         "szl-holdings/szl-forge"
-      ]
+      ],
+      "mapping_confidence": "MEDIUM",
+      "mapping_basis": "inference lab + README link"
     },
     {
       "id": "huggingface-space/szlholdings/terra",
@@ -2841,7 +2954,10 @@
         "szl-holdings/a11oy",
         "szl-holdings/szl-real-estate",
         "szl-holdings/szl-vertical-forge"
-      ]
+      ],
+      "mapping_confidence": "LOW",
+      "mapping_basis": "guess",
+      "suggested_repo": "szl-holdings/szl-real-estate"
     },
     {
       "id": "huggingface-space/szlholdings/vertical-services",
@@ -2867,5 +2983,6 @@
       "evidence_url": "https://huggingface.co/spaces/szlholdings/yarqa/resolve/main/README.md"
     }
   ],
-  "generated_at": "2026-09-25T19:04:03.419044+00:00"
+  "generated_at": "2026-09-25T19:04:03.419044+00:00",
+  "mapping_pass_at": "2026-09-27T20:34:47.160832+00:00"
 }

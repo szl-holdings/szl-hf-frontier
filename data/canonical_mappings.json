@@ -1,0 +1,430 @@
+{
+  "generated_at": "2026-09-27T20:34:47.160832+00:00",
+  "rule": "HIGH=EVIDENCE, MEDIUM=PROVISIONAL, LOW/OWNER unchanged; .github never chosen as source",
+  "rows": [
+    {
+      "id": "huggingface-dataset/szlholdings/a11oy-verifiable-corpus",
+      "confidence": "MEDIUM",
+      "repo": "szl-holdings/a11oy",
+      "applied": true,
+      "archived_source": false,
+      "basis": "name prefix + README link"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/alloy-sovereign-eval-runs",
+      "confidence": "LOW",
+      "repo": "szl-holdings/governed-receipt-spec",
+      "applied": false,
+      "archived_source": false,
+      "basis": "guess"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/canonical-formulas-v1",
+      "confidence": "LOW",
+      "repo": "szl-holdings/szl-papers",
+      "applied": false,
+      "archived_source": false,
+      "basis": "guess"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/doctrine-v10-v11",
+      "confidence": "LOW",
+      "repo": "szl-holdings/szl-papers",
+      "applied": false,
+      "archived_source": false,
+      "basis": "guess; szl-doctrine may fit better"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/energy-attested-runs",
+      "confidence": "LOW",
+      "repo": "szl-holdings/governed-receipt-spec",
+      "applied": false,
+      "archived_source": false,
+      "basis": "guess; szl-energy-attest may fit better"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/governed-receipts-bench",
+      "confidence": "MEDIUM",
+      "repo": "szl-holdings/governed-receipt-spec",
+      "applied": true,
+      "archived_source": false,
+      "basis": "receipt benchmark; spec repo replays it"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/k-verify-benchmark-v1",
+      "confidence": "LOW",
+      "repo": "szl-holdings/szl-papers",
+      "applied": false,
+      "archived_source": false,
+      "basis": "guess"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/lean-proofs-v1",
+      "confidence": "LOW",
+      "repo": "szl-holdings/lutar-lean",
+      "applied": false,
+      "archived_source": false,
+      "basis": "name suggests lutar-lean; README does not link it"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/lean-theorem-tree",
+      "confidence": "MEDIUM",
+      "repo": "szl-holdings/lutar-lean",
+      "applied": true,
+      "archived_source": false,
+      "basis": "Lean content + README link"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/ouroboros-arxiv-preprint",
+      "confidence": "MEDIUM",
+      "repo": "szl-holdings/szl-papers",
+      "applied": true,
+      "archived_source": false,
+      "basis": "preprint + README link"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/rag-corpus-v1",
+      "confidence": "LOW",
+      "repo": "szl-holdings/szl-papers",
+      "applied": false,
+      "archived_source": false,
+      "basis": "guess"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/readiness-runs",
+      "confidence": "LOW",
+      "repo": "szl-holdings/governed-receipt-spec",
+      "applied": false,
+      "archived_source": false,
+      "basis": "guess"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/release-assets",
+      "confidence": "OWNER",
+      "repo": null,
+      "applied": false,
+      "archived_source": null,
+      "basis": "owner decision"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/szl-1-doctrine-sft",
+      "confidence": "MEDIUM",
+      "repo": "szl-holdings/szl-forge",
+      "applied": true,
+      "archived_source": false,
+      "basis": "training data + README link"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/szl-artifacts",
+      "confidence": "OWNER",
+      "repo": null,
+      "applied": false,
+      "archived_source": null,
+      "basis": "owner decision"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/szl-frontier-evaluation-receipts",
+      "confidence": "MEDIUM",
+      "repo": "szl-holdings/szl-forge",
+      "applied": true,
+      "archived_source": false,
+      "basis": "eval receipts + README link"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/szl-lake",
+      "confidence": "MEDIUM",
+      "repo": "szl-holdings/szl-lake",
+      "applied": true,
+      "archived_source": false,
+      "basis": "same-name repo (verified live)"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/test-results",
+      "confidence": "LOW",
+      "repo": "szl-holdings/hatun-mcp",
+      "applied": false,
+      "archived_source": false,
+      "basis": "guess"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/thesis-corpus-v18",
+      "confidence": "MEDIUM",
+      "repo": "szl-holdings/szl-papers",
+      "applied": true,
+      "archived_source": false,
+      "basis": "thesis corpus + README link"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/thesis-v18-formal-verification",
+      "confidence": "MEDIUM",
+      "repo": "szl-holdings/szl-papers",
+      "applied": true,
+      "archived_source": false,
+      "basis": "thesis artifact + README link"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/uds-bundles-v1",
+      "confidence": "OWNER",
+      "repo": null,
+      "applied": false,
+      "archived_source": null,
+      "basis": "owner decision"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/uds-governance-receipts",
+      "confidence": "OWNER",
+      "repo": null,
+      "applied": false,
+      "archived_source": null,
+      "basis": "owner decision"
+    },
+    {
+      "id": "huggingface-dataset/szlholdings/uds-spans-receipts",
+      "confidence": "OWNER",
+      "repo": null,
+      "applied": false,
+      "archived_source": null,
+      "basis": "owner decision"
+    },
+    {
+      "id": "huggingface-model/szlholdings/chakana",
+      "confidence": "OWNER",
+      "repo": null,
+      "applied": false,
+      "archived_source": null,
+      "basis": "README has no GitHub link and no same-name repo exists"
+    },
+    {
+      "id": "huggingface-model/szlholdings/governed-inference-meter",
+      "confidence": "HIGH",
+      "repo": "szl-holdings/governed-inference-meter",
+      "applied": true,
+      "archived_source": true,
+      "basis": "exact name match + README link"
+    },
+    {
+      "id": "huggingface-model/szlholdings/khipu-r2",
+      "confidence": "OWNER",
+      "repo": null,
+      "applied": false,
+      "archived_source": null,
+      "basis": "README has no GitHub link and no same-name repo exists"
+    },
+    {
+      "id": "huggingface-model/szlholdings/qantu",
+      "confidence": "OWNER",
+      "repo": null,
+      "applied": false,
+      "archived_source": null,
+      "basis": "README has no GitHub link and no same-name repo exists"
+    },
+    {
+      "id": "huggingface-model/szlholdings/receiptagent-nano",
+      "confidence": "OWNER",
+      "repo": null,
+      "applied": false,
+      "archived_source": null,
+      "basis": "README has no GitHub link and no same-name repo exists"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-block-kv",
+      "confidence": "HIGH",
+      "repo": "szl-holdings/szl-block-kv",
+      "applied": true,
+      "archived_source": false,
+      "basis": "exact name match + README link"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-governed-norm",
+      "confidence": "HIGH",
+      "repo": "szl-holdings/szl-governed-norm",
+      "applied": true,
+      "archived_source": true,
+      "basis": "exact name match + README link"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-kernels",
+      "confidence": "HIGH",
+      "repo": "szl-holdings/szl-kernels",
+      "applied": true,
+      "archived_source": false,
+      "basis": "exact name match + README link"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-khipu",
+      "confidence": "HIGH",
+      "repo": "szl-holdings/szl-khipu",
+      "applied": true,
+      "archived_source": false,
+      "basis": "exact name match + README link"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-khipu-1.5b",
+      "confidence": "MEDIUM",
+      "repo": "szl-holdings/szl-forge",
+      "applied": true,
+      "archived_source": false,
+      "basis": "trained model + README link"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-khipu-1.5b-gguf",
+      "confidence": "MEDIUM",
+      "repo": "szl-holdings/szl-forge",
+      "applied": true,
+      "archived_source": false,
+      "basis": "trained model export + README link"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-lambda-gate",
+      "confidence": "HIGH",
+      "repo": "szl-holdings/szl-lambda-gate",
+      "applied": true,
+      "archived_source": false,
+      "basis": "exact name match + README link"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-maskmod",
+      "confidence": "HIGH",
+      "repo": "szl-holdings/szl-maskmod",
+      "applied": true,
+      "archived_source": false,
+      "basis": "exact name match + README link"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-ouroboros",
+      "confidence": "HIGH",
+      "repo": "szl-holdings/szl-ouroboros",
+      "applied": true,
+      "archived_source": false,
+      "basis": "exact name match + README link"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-receipt-attn",
+      "confidence": "HIGH",
+      "repo": "szl-holdings/szl-receipt-attn",
+      "applied": true,
+      "archived_source": false,
+      "basis": "exact name match + README link"
+    },
+    {
+      "id": "huggingface-model/szlholdings/szl-training-scripts",
+      "confidence": "OWNER",
+      "repo": null,
+      "applied": false,
+      "archived_source": null,
+      "basis": "README has no GitHub link and no same-name repo exists"
+    },
+    {
+      "id": "huggingface-model/szlholdings/tinku",
+      "confidence": "OWNER",
+      "repo": null,
+      "applied": false,
+      "archived_source": null,
+      "basis": "README has no GitHub link and no same-name repo exists"
+    },
+    {
+      "id": "huggingface-model/szlholdings/tinykhipu-nano",
+      "confidence": "OWNER",
+      "repo": null,
+      "applied": false,
+      "archived_source": null,
+      "basis": "README has no GitHub link and no same-name repo exists"
+    },
+    {
+      "id": "huggingface-model/szlholdings/waman",
+      "confidence": "OWNER",
+      "repo": null,
+      "applied": false,
+      "archived_source": null,
+      "basis": "README has no GitHub link and no same-name repo exists"
+    },
+    {
+      "id": "huggingface-model/szlholdings/willay",
+      "confidence": "OWNER",
+      "repo": null,
+      "applied": false,
+      "archived_source": null,
+      "basis": "README has no GitHub link and no same-name repo exists"
+    },
+    {
+      "id": "huggingface-model/szlholdings/yarqa-attn",
+      "confidence": "HIGH",
+      "repo": "szl-holdings/yarqa-attn",
+      "applied": true,
+      "archived_source": false,
+      "basis": "exact name match + README link"
+    },
+    {
+      "id": "huggingface-space/szlholdings/a11oy",
+      "confidence": "HIGH",
+      "repo": "szl-holdings/a11oy",
+      "applied": true,
+      "archived_source": false,
+      "basis": "exact name match + README link"
+    },
+    {
+      "id": "huggingface-space/szlholdings/finance",
+      "confidence": "OWNER",
+      "repo": null,
+      "applied": false,
+      "archived_source": null,
+      "basis": "owner decision"
+    },
+    {
+      "id": "huggingface-space/szlholdings/killinchu",
+      "confidence": "HIGH",
+      "repo": "szl-holdings/killinchu",
+      "applied": true,
+      "archived_source": false,
+      "basis": "exact name match + README link"
+    },
+    {
+      "id": "huggingface-space/szlholdings/readme",
+      "confidence": "OWNER",
+      "repo": null,
+      "applied": false,
+      "archived_source": null,
+      "basis": "owner decision"
+    },
+    {
+      "id": "huggingface-space/szlholdings/szl-constellation",
+      "confidence": "HIGH",
+      "repo": "szl-holdings/szl-constellation",
+      "applied": true,
+      "archived_source": false,
+      "basis": "exact name match + README link"
+    },
+    {
+      "id": "huggingface-space/szlholdings/szl-constellation-staging",
+      "confidence": "MEDIUM",
+      "repo": "szl-holdings/szl-constellation",
+      "applied": true,
+      "archived_source": false,
+      "basis": "staging Space of szl-constellation"
+    },
+    {
+      "id": "huggingface-space/szlholdings/szl-frontier",
+      "confidence": "MEDIUM",
+      "repo": "szl-holdings/szl-frontier",
+      "applied": true,
+      "archived_source": false,
+      "basis": "same-name repo (verified live)"
+    },
+    {
+      "id": "huggingface-space/szlholdings/szl-model-inference-lab",
+      "confidence": "MEDIUM",
+      "repo": "szl-holdings/szl-forge",
+      "applied": true,
+      "archived_source": false,
+      "basis": "inference lab + README link"
+    },
+    {
+      "id": "huggingface-space/szlholdings/terra",
+      "confidence": "LOW",
+      "repo": "szl-holdings/szl-real-estate",
+      "applied": false,
+      "archived_source": false,
+      "basis": "guess"
+    }
+  ]
+}
