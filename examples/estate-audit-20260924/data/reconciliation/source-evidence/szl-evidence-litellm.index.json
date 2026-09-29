@@ -1,0 +1,32 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 20993,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:59Z",
+      "path": "data/reconciliation/source-evidence/3d0d68b5b4e467035081f53562950b88ae2387f8768755bac8ad634ee0930ca1.json",
+      "revision": "578228481c6ecac1bd7067f1b7173a03d4beebb8",
+      "sha256": "3d0d68b5b4e467035081f53562950b88ae2387f8768755bac8ad634ee0930ca1",
+      "source_identity": "github/szl-holdings/szl-evidence-litellm",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/trees/578228481c6ecac1bd7067f1b7173a03d4beebb8?recursive=1"
+    }
+  ],
+  "file_count": 51,
+  "id": "github/szl-holdings/szl-evidence-litellm",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "578228481c6ecac1bd7067f1b7173a03d4beebb8",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "LICENSE",
+    "Makefile",
+    "PROVENANCE.md",
+    "README.md",
+    "packages",
+    "releases"
+  ]
+}

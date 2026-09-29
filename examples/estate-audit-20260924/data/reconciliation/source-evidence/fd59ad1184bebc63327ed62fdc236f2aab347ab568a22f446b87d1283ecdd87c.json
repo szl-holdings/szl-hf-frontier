@@ -1,0 +1,749 @@
+{
+  "sha": "34de439674dac89c1e05d75596328a549f823bc1",
+  "tree": [
+    {
+      "mode": "100644",
+      "path": ".dockerignore",
+      "sha": "7ef22c3cc5c58108116332528777ecb38d2614fd",
+      "size": 41,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/7ef22c3cc5c58108116332528777ecb38d2614fd"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitattributes",
+      "sha": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/a6344aac8c09253b3b630fb776ae94478aa0275b"
+    },
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "b058207a72b91ba2c0d8eee1047c0d4971b32726",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/trees/b058207a72b91ba2c0d8eee1047c0d4971b32726"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODEOWNERS",
+      "sha": "5c3d60d2e173f38916e13078a9bda8429626302b",
+      "size": 74,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/5c3d60d2e173f38916e13078a9bda8429626302b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "sha": "415a0a14aebe0102d5db82dcc51dde5db16619f0",
+      "size": 600,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/415a0a14aebe0102d5db82dcc51dde5db16619f0"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CONTRIBUTING.md",
+      "sha": "b013eea77ae4da59662fff55dc10f2ae3dc7fb47",
+      "size": 449,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/b013eea77ae4da59662fff55dc10f2ae3dc7fb47"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/ISSUE_TEMPLATE",
+      "sha": "b406cf7e4f23537f8539f6f81f4cbb4d2eae3f2b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/trees/b406cf7e4f23537f8539f6f81f4cbb4d2eae3f2b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha": "a7c1834f7f391ab52cb7efafe6dffe86e69d54d7",
+      "size": 156,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/a7c1834f7f391ab52cb7efafe6dffe86e69d54d7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "2c7fa02994b4d1e777139a1056acfe0cfc48b806",
+      "size": 224,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/2c7fa02994b4d1e777139a1056acfe0cfc48b806"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha": "2172fe4a415edecdbe763328b04d826137d25987",
+      "size": 169,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/2172fe4a415edecdbe763328b04d826137d25987"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/dependabot.yml",
+      "sha": "4afb10f2a219c94a5bfdb28030c2094ce14f32d8",
+      "size": 1357,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/4afb10f2a219c94a5bfdb28030c2094ce14f32d8"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/hf-module-drift-allow.json",
+      "sha": "af5ea819fe15bd94c47e6866f0d94f8fc064ef2b",
+      "size": 616,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/af5ea819fe15bd94c47e6866f0d94f8fc064ef2b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/pull_request_template.md",
+      "sha": "c057fedcf31e477160cfd0d4c5b5d06bc8bfdf7c",
+      "size": 332,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/c057fedcf31e477160cfd0d4c5b5d06bc8bfdf7c"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "e3ce5bf384288d1d6562a577b3ed564d13bb193c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/trees/e3ce5bf384288d1d6562a577b3ed564d13bb193c"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "27a2c27c19179524dc7092254319200813c1b306",
+      "size": 4439,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/27a2c27c19179524dc7092254319200813c1b306"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/codeql.yml",
+      "sha": "28ada48edd29f1d4b3f8651d287abb9e29bf2f6b",
+      "size": 1672,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/28ada48edd29f1d4b3f8651d287abb9e29bf2f6b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/gitleaks.yml",
+      "sha": "adc1bc690269fbb2bbaab21724b6e9efd31fc7c7",
+      "size": 2037,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/adc1bc690269fbb2bbaab21724b6e9efd31fc7c7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-deploy-contract.yml",
+      "sha": "bdc8d793a6ae3e2ac70ed0e2bf10887e800fc21c",
+      "size": 1989,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/bdc8d793a6ae3e2ac70ed0e2bf10887e800fc21c"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-drift-check.yml",
+      "sha": "7dc463187bc061d6043cdebcf9a5312d591d18be",
+      "size": 2851,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/7dc463187bc061d6043cdebcf9a5312d591d18be"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/overclaim-guard.yml",
+      "sha": "a1a132b0cbe542579fba2fc640506085711cd9ba",
+      "size": 727,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/a1a132b0cbe542579fba2fc640506085711cd9ba"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/pin-check.yml",
+      "sha": "f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621",
+      "size": 586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/sbom.yml",
+      "sha": "5459f3947d23a743c0608df4cb0204508109f437",
+      "size": 2552,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/5459f3947d23a743c0608df4cb0204508109f437"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/scorecard.yml",
+      "sha": "eb884cfe63487a457940fa8308474dc8f7da2b6b",
+      "size": 625,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/eb884cfe63487a457940fa8308474dc8f7da2b6b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/trivy.yml",
+      "sha": "457077a87a6c3da203672984f4a7716087fcae02",
+      "size": 1319,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/457077a87a6c3da203672984f4a7716087fcae02"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "b67b7c13ff8096a8652f2498c54c79d2eb324751",
+      "size": 76,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/b67b7c13ff8096a8652f2498c54c79d2eb324751"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitleaks.toml",
+      "sha": "5d3de89faab003f59e2e31703e53b2fc24c87d88",
+      "size": 1092,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/5d3de89faab003f59e2e31703e53b2fc24c87d88"
+    },
+    {
+      "mode": "100644",
+      "path": "ARCHITECTURE.md",
+      "sha": "138089382a517b34484fdcecf2ec071fb04ab0b1",
+      "size": 5443,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/138089382a517b34484fdcecf2ec071fb04ab0b1"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "2d1f65d13610bc8ea7c6bc336f38e5a8ba5d0ece",
+      "size": 438,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/2d1f65d13610bc8ea7c6bc336f38e5a8ba5d0ece"
+    },
+    {
+      "mode": "100644",
+      "path": "CONTRIBUTING.md",
+      "sha": "04ee501bcb0e657ece494b53ae6ff0083c452710",
+      "size": 930,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/04ee501bcb0e657ece494b53ae6ff0083c452710"
+    },
+    {
+      "mode": "100644",
+      "path": "DEPRECATED.md",
+      "sha": "7c3cb265088960224cf19dca8407c55f297b7271",
+      "size": 2938,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/7c3cb265088960224cf19dca8407c55f297b7271"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile",
+      "sha": "338849df6925e9857feda9c42059693f7445f650",
+      "size": 3055,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/338849df6925e9857feda9c42059693f7445f650"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "PUBKEY_szlholdings-ec-p256.pem",
+      "sha": "cf3385dc35cbb645b6d6c8eb2b4d0269841ac667",
+      "size": 178,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/cf3385dc35cbb645b6d6c8eb2b4d0269841ac667"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "6ca21624c320381bdd945ef79136aa263dd8cd4a",
+      "size": 20456,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/6ca21624c320381bdd945ef79136aa263dd8cd4a"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "6a84f6f41b1f98c3a54e70d1661c218f7c23913d",
+      "size": 1217,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/6a84f6f41b1f98c3a54e70d1661c218f7c23913d"
+    },
+    {
+      "mode": "100644",
+      "path": "STATUS.md",
+      "sha": "edfc07c0d21fcf2a0dd8b1f5e9b10caeda5b96d8",
+      "size": 3140,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/edfc07c0d21fcf2a0dd8b1f5e9b10caeda5b96d8"
+    },
+    {
+      "mode": "100644",
+      "path": "SZL_ESTATE_BINDING.json",
+      "sha": "5468aaf1fbd33ad6996e9858a1a2da8e7d26f465",
+      "size": 521,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/5468aaf1fbd33ad6996e9858a1a2da8e7d26f465"
+    },
+    {
+      "mode": "040000",
+      "path": "clients",
+      "sha": "0cc9702f6b98b9c187b58982a48a7e94b43056db",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/trees/0cc9702f6b98b9c187b58982a48a7e94b43056db"
+    },
+    {
+      "mode": "100644",
+      "path": "clients/.cursorrules",
+      "sha": "32a4428b2ac2305eae859359e494da0cb8e67a75",
+      "size": 557,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/32a4428b2ac2305eae859359e494da0cb8e67a75"
+    },
+    {
+      "mode": "100644",
+      "path": "clients/claude_desktop_config.json",
+      "sha": "cee5b9f152d31f2235623da7c42af9777a01cade",
+      "size": 239,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/cee5b9f152d31f2235623da7c42af9777a01cade"
+    },
+    {
+      "mode": "100644",
+      "path": "clients/cursor_mcp.json",
+      "sha": "173e08acd40f06e767aad1b81bca8a3bbb0aeeb5",
+      "size": 171,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/173e08acd40f06e767aad1b81bca8a3bbb0aeeb5"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "90ca4ccfde6fb73ae9ea3b6a4812b09c0248f91e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/trees/90ca4ccfde6fb73ae9ea3b6a4812b09c0248f91e"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/COSIGNING_PROPOSAL.md",
+      "sha": "270bbaab4d563d0b30da7a2830337d0082d6103d",
+      "size": 4046,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/270bbaab4d563d0b30da7a2830337d0082d6103d"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/DSSE_KEY_INJECTION.md",
+      "sha": "446307519133f384c840935d5928f186bda88c83",
+      "size": 3686,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/446307519133f384c840935d5928f186bda88c83"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/HATUN_SURFACE_CONTRACT.md",
+      "sha": "2af140d05d3c2dc14a2e7ce59825b87e804be374",
+      "size": 3639,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/2af140d05d3c2dc14a2e7ce59825b87e804be374"
+    },
+    {
+      "mode": "040000",
+      "path": "examples",
+      "sha": "3b26640090c3eb2185ff5d9fe005426ffef851c7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/trees/3b26640090c3eb2185ff5d9fe005426ffef851c7"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/claude-desktop-config.json",
+      "sha": "1b0cd5e8cc39b7fa288665e29b62bc7df91536f9",
+      "size": 508,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/1b0cd5e8cc39b7fa288665e29b62bc7df91536f9"
+    },
+    {
+      "mode": "040000",
+      "path": "hatun_mcp",
+      "sha": "15fca0391957a0330e4f32563fd21646809e4b5c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/trees/15fca0391957a0330e4f32563fd21646809e4b5c"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/__init__.py",
+      "sha": "11ec2b2dc5f0f2124c2b1e7f11c9ab95c33c78b2",
+      "size": 422,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/11ec2b2dc5f0f2124c2b1e7f11c9ab95c33c78b2"
+    },
+    {
+      "mode": "040000",
+      "path": "hatun_mcp/adapters",
+      "sha": "180163ee41cb13210d79606a7367559c1f75eae6",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/trees/180163ee41cb13210d79606a7367559c1f75eae6"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/adapters/__init__.py",
+      "sha": "618cad7034e0a0f03202c243954e213281548fd2",
+      "size": 1904,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/618cad7034e0a0f03202c243954e213281548fd2"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/adapters/a11oy.py",
+      "sha": "f66a303cd0786d26b5e970dcaa950aff67982257",
+      "size": 1833,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/f66a303cd0786d26b5e970dcaa950aff67982257"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/adapters/anatomy.py",
+      "sha": "6398d769ba223511c57d145e8e52b34e408345d2",
+      "size": 2832,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/6398d769ba223511c57d145e8e52b34e408345d2"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/adapters/base.py",
+      "sha": "84efedea4c30b2dcd26d2bddac2710c073d0e62e",
+      "size": 17912,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/84efedea4c30b2dcd26d2bddac2710c073d0e62e"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/adapters/companion.py",
+      "sha": "0ce55a0f015a74506ba447a966d1f265d429d872",
+      "size": 3296,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/0ce55a0f015a74506ba447a966d1f265d429d872"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/adapters/immune.py",
+      "sha": "b35040654f28b0b562af50e5572281b1fead24a3",
+      "size": 4904,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/b35040654f28b0b562af50e5572281b1fead24a3"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/adapters/killinchu.py",
+      "sha": "5335ed1e82f9de415f260ee84157d67935b66546",
+      "size": 1246,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/5335ed1e82f9de415f260ee84157d67935b66546"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/adapters/llm.py",
+      "sha": "43bf9db684e3e71a77d5c2a4279375eb41bc777e",
+      "size": 3645,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/43bf9db684e3e71a77d5c2a4279375eb41bc777e"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/adapters/second_brain.py",
+      "sha": "87b939c5c72ee5dbf5368a86255b75211cf9d3dd",
+      "size": 2959,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/87b939c5c72ee5dbf5368a86255b75211cf9d3dd"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/backends.py",
+      "sha": "1360c42cdfa890e6469c9b361bc4288023f843ba",
+      "size": 39933,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/1360c42cdfa890e6469c9b361bc4288023f843ba"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/console.py",
+      "sha": "23484d904935c4db9c3a59d1fc6c79cb45c9bb21",
+      "size": 434,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/23484d904935c4db9c3a59d1fc6c79cb45c9bb21"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/console_v2.py",
+      "sha": "bf754433064ea8a2fda7822803de67c458e7236c",
+      "size": 30295,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/bf754433064ea8a2fda7822803de67c458e7236c"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/dsse.py",
+      "sha": "217780e6cd87bcab9704d54226942b383fbd1d36",
+      "size": 7494,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/217780e6cd87bcab9704d54226942b383fbd1d36"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/governance.py",
+      "sha": "8b75b6fb45d54c0bc64f76f42bbf5471cc641794",
+      "size": 20185,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/8b75b6fb45d54c0bc64f76f42bbf5471cc641794"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/loop.py",
+      "sha": "4ae77aabf96f96931564007a3f01a7be3e2afaec",
+      "size": 6911,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/4ae77aabf96f96931564007a3f01a7be3e2afaec"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/puriq.py",
+      "sha": "34cd2b2fb985ba8caf5c4056812072e8f35af6f2",
+      "size": 7807,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/34cd2b2fb985ba8caf5c4056812072e8f35af6f2"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/quorum.py",
+      "sha": "4c236cc362ab37cd162aa5c1729bd7be53d990ac",
+      "size": 15289,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/4c236cc362ab37cd162aa5c1729bd7be53d990ac"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/server.py",
+      "sha": "14b409b99119e9bc276c58c38bbfb35c971480f6",
+      "size": 36508,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/14b409b99119e9bc276c58c38bbfb35c971480f6"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/server_http.py",
+      "sha": "896e2f234390f1e3f0c2f9eeaff3e88c80afe3a9",
+      "size": 25536,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/896e2f234390f1e3f0c2f9eeaff3e88c80afe3a9"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/state.py",
+      "sha": "fb47825dadb9abfa30ff6b3f01fbf79bb369d2aa",
+      "size": 9868,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/fb47825dadb9abfa30ff6b3f01fbf79bb369d2aa"
+    },
+    {
+      "mode": "040000",
+      "path": "hatun_mcp/tools",
+      "sha": "29803621ffad42209c47b9ce25f161c5b10fbadc",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/trees/29803621ffad42209c47b9ce25f161c5b10fbadc"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/tools/__init__.py",
+      "sha": "6502815596a065a3fdba063ffc51048ecb3b927d",
+      "size": 1214,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/6502815596a065a3fdba063ffc51048ecb3b927d"
+    },
+    {
+      "mode": "100644",
+      "path": "hatun_mcp/tools/governance_tools.py",
+      "sha": "923e6a82b0ebe8f55bc0532fecf1d3bbdc9b9170",
+      "size": 8962,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/923e6a82b0ebe8f55bc0532fecf1d3bbdc9b9170"
+    },
+    {
+      "mode": "100644",
+      "path": "push_to_hf.py",
+      "sha": "be916c9885dd4e983bfdb1445cc699823d2beedf",
+      "size": 1082,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/be916c9885dd4e983bfdb1445cc699823d2beedf"
+    },
+    {
+      "mode": "100644",
+      "path": "renovate.json",
+      "sha": "38ef17468a1ce0dd10866f6dcb17c7a3481df70d",
+      "size": 385,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/38ef17468a1ce0dd10866f6dcb17c7a3481df70d"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements.txt",
+      "sha": "328d544332b927a1a6942535ed1b00f89e1e567c",
+      "size": 690,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/328d544332b927a1a6942535ed1b00f89e1e567c"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "8a008a005f15747f9997de9113971088c4bd3d05",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/trees/8a008a005f15747f9997de9113971088c4bd3d05"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/PROOF_TRANSCRIPT.txt",
+      "sha": "605186d123dcd75458a9e6aeeec26fa393fe0c27",
+      "size": 7591,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/605186d123dcd75458a9e6aeeec26fa393fe0c27"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/proof_inmemory.py",
+      "sha": "a6c70bc5663edc70750d4a256c8df051bba9648c",
+      "size": 4662,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/a6c70bc5663edc70750d4a256c8df051bba9648c"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/smoke_mcp_client.py",
+      "sha": "e908896ff26b4006bbdfbb1f464e892b8a83c240",
+      "size": 3065,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/e908896ff26b4006bbdfbb1f464e892b8a83c240"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_adapters.py",
+      "sha": "13c26c7fe8111648a4e9a28228ad616d53e271b0",
+      "size": 7315,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/13c26c7fe8111648a4e9a28228ad616d53e271b0"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_console_state.py",
+      "sha": "782da69be581c8efabc2cc3054cb5c3a22303405",
+      "size": 6339,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/782da69be581c8efabc2cc3054cb5c3a22303405"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_dependency_contract.py",
+      "sha": "db4b9fa45bf20a500d9eb6e3a4afd6419f52b07b",
+      "size": 1537,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/db4b9fa45bf20a500d9eb6e3a4afd6419f52b07b"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_github_estate_snapshot.py",
+      "sha": "942f28622b2d93c9a5b8a024f04cd0b790792aa8",
+      "size": 28804,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/942f28622b2d93c9a5b8a024f04cd0b790792aa8"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_governance.py",
+      "sha": "d348fe8a5dcb0e66bac53b5dbd84cf0333a5cbc7",
+      "size": 8407,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/d348fe8a5dcb0e66bac53b5dbd84cf0333a5cbc7"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_hf_deploy_contract.py",
+      "sha": "0d7623595767a8ddf04d5aab7a18219e24b3d582",
+      "size": 6349,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/0d7623595767a8ddf04d5aab7a18219e24b3d582"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_http_routes.py",
+      "sha": "b3fb5701a607c75bb30144c24e9c5027ef31577d",
+      "size": 12503,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/b3fb5701a607c75bb30144c24e9c5027ef31577d"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_ledger_forward.py",
+      "sha": "13f934c353a2dcf2adb2896895e076f164f82ea1",
+      "size": 1492,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/13f934c353a2dcf2adb2896895e076f164f82ea1"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_loop.py",
+      "sha": "71ec7f36f84f4498fc6ce2dadf3dbd6579f0ac01",
+      "size": 5675,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/71ec7f36f84f4498fc6ce2dadf3dbd6579f0ac01"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_no_mock.py",
+      "sha": "37109973c14cdccdd423a15e9af2a6ef98cb8814",
+      "size": 2134,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/37109973c14cdccdd423a15e9af2a6ef98cb8814"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_puriq_real.py",
+      "sha": "49ad2fa2e11aa7256cd39fe86fd7e5a70fc72b75",
+      "size": 4725,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/49ad2fa2e11aa7256cd39fe86fd7e5a70fc72b75"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_quorum.py",
+      "sha": "52350ae45c926ca9a32f74d48ada1a62293c1088",
+      "size": 12947,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/52350ae45c926ca9a32f74d48ada1a62293c1088"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_second_brain_anatomy.py",
+      "sha": "38a7a3872bf3a4f2e65bf9001de8d9cc4386b547",
+      "size": 1122,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/38a7a3872bf3a4f2e65bf9001de8d9cc4386b547"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_server.py",
+      "sha": "ea7901a1002082dd497991463b73ff81a86f78bf",
+      "size": 15086,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/blobs/ea7901a1002082dd497991463b73ff81a86f78bf"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/trees/34de439674dac89c1e05d75596328a549f823bc1"
+}

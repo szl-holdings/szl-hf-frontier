@@ -1,0 +1,39 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 20054,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:49Z",
+      "path": "data/reconciliation/source-evidence/c6df9c17305717abab99792741ecf369806aee75f9397573663614d44b3bcbdf.json",
+      "revision": "419b4d8725bcabcdc661c81eb5d92b500b9b6e47",
+      "sha256": "c6df9c17305717abab99792741ecf369806aee75f9397573663614d44b3bcbdf",
+      "source_identity": "github/szl-holdings/governed-receipt-spec",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/trees/419b4d8725bcabcdc661c81eb5d92b500b9b6e47?recursive=1"
+    }
+  ],
+  "file_count": 53,
+  "id": "github/szl-holdings/governed-receipt-spec",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "419b4d8725bcabcdc661c81eb5d92b500b9b6e47",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "conformance",
+    "docs",
+    "examples",
+    "governed_action.py",
+    "requirements.txt",
+    "schema",
+    "tests",
+    "verify.py"
+  ]
+}

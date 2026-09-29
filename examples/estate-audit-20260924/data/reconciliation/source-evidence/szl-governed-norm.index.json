@@ -1,0 +1,39 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 9416,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:00Z",
+      "path": "data/reconciliation/source-evidence/281e5231b5db6b58c677e6e25217501287ad0bbb7c33a77fe0f700c5b6a48da4.json",
+      "revision": "c68d06d35058542ea77dc6bad4c8bde2361cc16a",
+      "sha256": "281e5231b5db6b58c677e6e25217501287ad0bbb7c33a77fe0f700c5b6a48da4",
+      "source_identity": "github/szl-holdings/szl-governed-norm",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/trees/c68d06d35058542ea77dc6bad4c8bde2361cc16a?recursive=1"
+    }
+  ],
+  "file_count": 26,
+  "id": "github/szl-holdings/szl-governed-norm",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "c68d06d35058542ea77dc6bad4c8bde2361cc16a",
+  "root_paths": [
+    ".gitattributes",
+    ".github",
+    ".gitignore",
+    "CITATION.cff",
+    "COMPLIANCE.md",
+    "DEPRECATED.md",
+    "LICENSE",
+    "README.md",
+    "benchmark.py",
+    "benchmark_sample_output.txt",
+    "build.toml",
+    "flake.nix",
+    "pyproject.toml",
+    "tests",
+    "torch-ext"
+  ]
+}

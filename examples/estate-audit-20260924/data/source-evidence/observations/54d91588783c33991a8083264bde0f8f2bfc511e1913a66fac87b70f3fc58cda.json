@@ -1,0 +1,50 @@
+{
+  "card": "---\nlicense: apache-2.0\nbase_model: Qwen/Qwen3.5-0.8B\nbase_model_relation: adapter\nlibrary_name: peft\npipeline_tag: text-generation\ntags:\n  - qwen3.5\n  - peft\n  - lora\n  - unsloth\n  - governed-ai\n  - receipt-agent\n  - szl-holdings\n---\n\n> **NON-RELEASE / PLACEHOLDER.** Not a ReceiptAgent tournament winner.\n> `publication_eligible=false`. `autonomy_eligible=false`.\n> Do not treat this ID as flagship.\n\n# SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3\n\nLaptop Blackwell Unsloth **bf16 LoRA** (r=16 \u03b1=32) on `Qwen/Qwen3.5-0.8B`.\nSeparate SKU from v2. **Does not overwrite**\n`SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2` or\n`SZLHOLDINGS/SZL-Forge-1.5B-ReceiptAgent`.\n\n| Claim | Status |\n|---|---|\n| Train loss 0.0537 | MEASURED (train metric, not eval) |\n| Training rows | 180 (committed v3 `train.jsonl`) |\n| Dataset SHA256 | `ad30ce9b478eff50d78064f387143b750be3f746b459f98f7961784b9ce1081f` |\n| Adapter SHA256 | `339efa6ea0ed0719db0dede26ee836f290048deb1b6ce68403ab07cb255b28d0` |\n| Held-out generate / 1024 eval | DEV n=12 MEASURED 12/12 (4 draft / 4 recovery / 4 refuse). `test.jsonl` never opened |\n| QLoRA | forbidden on Qwen3.5; this SKU is bf16 LoRA (`load_in_4bit=false`) |\n| Rosie WSL 4bit supervised launch | not this card |\n| publication_eligible | false |\n| autonomy_eligible | false |\n| \u039b uniqueness | Conjecture 1, never a theorem |\n\n## Artifact truth card\n\n| Field | Classification |\n|---|---|\n| Artifact | Trained LoRA adapter weights for `Qwen/Qwen3.5-0.8B`, not a from-scratch model. |\n| Value | Proposal-only receipt drafts. Validation, approval, execution, and minting stay outside the weights. |\n| Evidence | Train loss MEASURED on the 180-row committed split. No held-out eval on this card. |\n| Limits | Small synthetic curriculum. No broad capability, factuality, safety, or third-party benchmark claim. |\n| Runtime | Drafts only. Not an autonomous agent. |\n\nGitHub source: https://github.com/szl-holdings/szl-forge/tree/main/frontier/qwen35-receiptagent-v3\n\nHardware: NVIDIA GeForce RTX 5050 Laptop GPU 8GB, torch 2.10.0+cu128, Unsloth 2026.7.2, Windows.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 579,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/9873c11078e5ac67f442d486e63411e3ad948053eddc86056c578bf891eb2bb1.json",
+      "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
+      "sha256": "9873c11078e5ac67f442d486e63411e3ad948053eddc86056c578bf891eb2bb1",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3/revision/fe7564886100316d0843d147abd38da39beb3a4f"
+    },
+    {
+      "bytes": 2078,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/60cd939103ead4a7f81e2bbe1ef2a2d25b4b27084b5d25fe4356d408ba45cab5.md",
+      "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
+      "sha256": "60cd939103ead4a7f81e2bbe1ef2a2d25b4b27084b5d25fe4356d408ba45cab5",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3/resolve/fe7564886100316d0843d147abd38da39beb3a4f/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "adapter_config.json",
+    "adapter_model.safetensors",
+    "bom/model-bom.cdx.json",
+    "chat_template.jinja",
+    "config.json",
+    "eval_dev_named_n.json",
+    "frontier_gpu_summary.json",
+    "generation_config.json",
+    "merge_receipt.json",
+    "model.safetensors",
+    "processor_config.json",
+    "provenance.json",
+    "status.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "training_receipt.laptop-blackwell.json"
+  ],
+  "id": "huggingface-model/szlholdings/szl-receiptagent-qwen35-0.8b-v3",
+  "observed_at": "2026-09-24T12:29:57Z",
+  "observed_revision": "fe7564886100316d0843d147abd38da39beb3a4f"
+}

@@ -1,0 +1,38 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 8528,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:02Z",
+      "path": "data/reconciliation/source-evidence/16f534c55d096b533e5d4e21cb5e7635b683afee7b0fe54624079af3f3c03c1e.json",
+      "revision": "8c22afce8d7f9b1569b9caa775a81e0d86e0375c",
+      "sha256": "16f534c55d096b533e5d4e21cb5e7635b683afee7b0fe54624079af3f3c03c1e",
+      "source_identity": "github/szl-holdings/szl-maskmod",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/trees/8c22afce8d7f9b1569b9caa775a81e0d86e0375c?recursive=1"
+    }
+  ],
+  "file_count": 23,
+  "id": "github/szl-holdings/szl-maskmod",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "8c22afce8d7f9b1569b9caa775a81e0d86e0375c",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    ".zenodo.json",
+    "CARD.md",
+    "CITATION.cff",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "build.toml",
+    "flake.nix",
+    "pyproject.toml",
+    "scripts",
+    "tests",
+    "torch-ext"
+  ]
+}

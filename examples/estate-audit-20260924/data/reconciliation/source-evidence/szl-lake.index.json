@@ -1,0 +1,47 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 174514,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:02Z",
+      "path": "data/reconciliation/source-evidence/a27b18bacbc9d7714c551387f1db3d9a232504e21c3a1e4b575c50f44ba3bc6c.json",
+      "revision": "aa89bb1bbb6d606dbad6b9f8e4df78ae688db5ef",
+      "sha256": "a27b18bacbc9d7714c551387f1db3d9a232504e21c3a1e4b575c50f44ba3bc6c",
+      "source_identity": "github/szl-holdings/szl-lake",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/aa89bb1bbb6d606dbad6b9f8e4df78ae688db5ef?recursive=1"
+    }
+  ],
+  "file_count": 467,
+  "id": "github/szl-holdings/szl-lake",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "aa89bb1bbb6d606dbad6b9f8e4df78ae688db5ef",
+  "root_paths": [
+    ".compliance",
+    ".github",
+    ".gitignore",
+    "CITATION.cff",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "attestations",
+    "data",
+    "doctrine",
+    "huggingface",
+    "keys",
+    "lake_index.json",
+    "requirements-attest.txt",
+    "scripts",
+    "szl_lake_client.py",
+    "szl_lake_query.py",
+    "szl_lake_receipt.py",
+    "szl_lake_server.py",
+    "szl_lake_store.py",
+    "tools"
+  ]
+}

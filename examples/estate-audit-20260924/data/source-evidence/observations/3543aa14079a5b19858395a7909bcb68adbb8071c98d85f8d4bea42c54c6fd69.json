@@ -1,0 +1,42 @@
+{
+  "card": "---\nlicense: apache-2.0\npretty_name: governed-agent-bench\ntask_categories:\n- other\ntags:\n- governance\n- agents\n- evaluation\n- receipts\n- rollback\n---\n\n# governed-agent-bench v0\n\nThis dataset is the immutable public mirror of\n[`szl-holdings/a11oy@1b40fcbe0f65c1ad1e07776f83aa01abb067e864`](https://github.com/szl-holdings/a11oy/tree/1b40fcbe0f65c1ad1e07776f83aa01abb067e864/benchmarks/governed-agent-bench).\n\nIt measures five governability axes:\n\n1. fail-closed behavior;\n2. non-increasing authority across delegation;\n3. false-success rejection;\n4. receipt completeness; and\n5. rollback discipline.\n\n## Evidence labels\n\n- Corpus: **SAMPLE**\n- Scores: **COMPUTED**\n- Receipt verification: **STRUCTURE_ONLY**\n- Cryptographic verification: **false**\n\nThe reference result proves that the evaluator and known-good fixture close\ntheir deterministic contract. It is not a model-quality or production claim.\nThe public leaderboard contains zero eligible model submissions until an exact\nsubmission is evaluated and published with its receipt.\n\n## Reproduce\n\n```bash\npython score.py submissions/reference-conformance.jsonl --strict\n```\n\nThe canonical source, schema, evaluator, reference submission, result, and\npublication manifest are all included in this dataset revision. The companion\nSpace is <https://huggingface.co/spaces/SZLHOLDINGS/governed-agent-bench>.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 369,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/f4a23cde1bd69291c8b4a9d378724b593334a9cfe15e71f80fdf21d8b8441c23.json",
+      "revision": "24045d8ff21117f275541d2d1954e3692706caec",
+      "sha256": "f4a23cde1bd69291c8b4a9d378724b593334a9cfe15e71f80fdf21d8b8441c23",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/datasets/SZLHOLDINGS/governed-agent-bench/revision/24045d8ff21117f275541d2d1954e3692706caec"
+    },
+    {
+      "bytes": 1357,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/c265e02e7ac9cf8904ef0daddc36aea9c5699f8223969509c09b5cd55db3b718.md",
+      "revision": "24045d8ff21117f275541d2d1954e3692706caec",
+      "sha256": "c265e02e7ac9cf8904ef0daddc36aea9c5699f8223969509c09b5cd55db3b718",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/datasets/SZLHOLDINGS/governed-agent-bench/resolve/24045d8ff21117f275541d2d1954e3692706caec/README.md"
+    }
+  ],
+  "files": [
+    "LICENSE",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "cases.jsonl",
+    "leaderboard.json",
+    "manifest.json",
+    "publication-manifest.json",
+    "results/reference-conformance.json",
+    "schema.json",
+    "score.py",
+    "submissions/reference-conformance.jsonl"
+  ],
+  "id": "huggingface-dataset/szlholdings/governed-agent-bench",
+  "observed_at": "2026-09-24T12:29:43Z",
+  "observed_revision": "24045d8ff21117f275541d2d1954e3692706caec"
+}

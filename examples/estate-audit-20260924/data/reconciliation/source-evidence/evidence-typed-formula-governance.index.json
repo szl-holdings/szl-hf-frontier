@@ -1,0 +1,24 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 845,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:48Z",
+      "path": "data/reconciliation/source-evidence/8eb04101655c47c2ec4c8ff1b7699db54f94ef6d14b96646d856025ff8166f52.json",
+      "revision": "775ee23b5d4cf6a0e238ac330ce4deb41fe89a7b",
+      "sha256": "8eb04101655c47c2ec4c8ff1b7699db54f94ef6d14b96646d856025ff8166f52",
+      "source_identity": "github/szl-holdings/evidence-typed-formula-governance",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-typed-formula-governance/git/trees/775ee23b5d4cf6a0e238ac330ce4deb41fe89a7b?recursive=1"
+    }
+  ],
+  "file_count": 2,
+  "id": "github/szl-holdings/evidence-typed-formula-governance",
+  "license_paths": [],
+  "observed_revision": "775ee23b5d4cf6a0e238ac330ce4deb41fe89a7b",
+  "root_paths": [
+    ".zenodo.json",
+    "README.md"
+  ]
+}

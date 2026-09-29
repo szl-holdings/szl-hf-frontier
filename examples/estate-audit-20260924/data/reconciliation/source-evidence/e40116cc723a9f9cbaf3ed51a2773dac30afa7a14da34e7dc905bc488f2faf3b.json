@@ -1,0 +1,1202 @@
+{
+  "sha": "508ec8995b9be199f4bba26a7e98951e388a159e",
+  "tree": [
+    {
+      "mode": "100644",
+      "path": ".dockerignore",
+      "sha": "1e9a25c9b66bb67be8ee1f953595aa7c02300d21",
+      "size": 79,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/1e9a25c9b66bb67be8ee1f953595aa7c02300d21"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitattributes",
+      "sha": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/a6344aac8c09253b3b630fb776ae94478aa0275b"
+    },
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "4f31525a760fa7294c1c6df717b856f3f971e030",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/trees/4f31525a760fa7294c1c6df717b856f3f971e030"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "e82dcb72ddda9f7de6e37c3a50485ce3d0d35c85",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/trees/e82dcb72ddda9f7de6e37c3a50485ce3d0d35c85"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/archive-revival-showcase-ci.yml",
+      "sha": "27069e8f427b576d66f1cda96f819832fef1a1d4",
+      "size": 4756,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/27069e8f427b576d66f1cda96f819832fef1a1d4"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/atelier-v3.yml",
+      "sha": "83f9913ecdb8696baaba58bcca25ed75c0b7b0f2",
+      "size": 9465,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/83f9913ecdb8696baaba58bcca25ed75c0b7b0f2"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "66e509d5dee896d76067e72ea8d1844f3fd909d9",
+      "size": 2237,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/66e509d5dee896d76067e72ea8d1844f3fd909d9"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-space.yml",
+      "sha": "8506b37cde08d59747675e41a99034144f4dcb29",
+      "size": 4941,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/8506b37cde08d59747675e41a99034144f4dcb29"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "68d7612dc71f2a288b8db8031cdba1b8dc420777",
+      "size": 57,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/68d7612dc71f2a288b8db8031cdba1b8dc420777"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile",
+      "sha": "d7d90652dc600154626ee706f51f1ae610c9bb64",
+      "size": 661,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/d7d90652dc600154626ee706f51f1ae610c9bb64"
+    },
+    {
+      "mode": "100644",
+      "path": "FRONTIER_PLAN.md",
+      "sha": "eeeefa95f0d11fcc0c25564e40b10036fbe0ff6d",
+      "size": 586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/eeeefa95f0d11fcc0c25564e40b10036fbe0ff6d"
+    },
+    {
+      "mode": "100644",
+      "path": "GOVERNANCE.md",
+      "sha": "5dcb706dcfe71c5eae5dfc7bcb2f87aa154d2630",
+      "size": 557,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/5dcb706dcfe71c5eae5dfc7bcb2f87aa154d2630"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "56bf1b2f65d50375bee357da127ca065974318c9",
+      "size": 11375,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/56bf1b2f65d50375bee357da127ca065974318c9"
+    },
+    {
+      "mode": "100644",
+      "path": "MODELS.txt",
+      "sha": "d3ef01ebdedecc96a7f9575651bf779f9850ce86",
+      "size": 225,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/d3ef01ebdedecc96a7f9575651bf779f9850ce86"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "8d03805efd7a5f2b9fd084271ba35245bb375b09",
+      "size": 3156,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/8d03805efd7a5f2b9fd084271ba35245bb375b09"
+    },
+    {
+      "mode": "100644",
+      "path": "RELEASE.json",
+      "sha": "1b2b2c87688b3713c56a8a79572a3e71b61d3174",
+      "size": 1069,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/1b2b2c87688b3713c56a8a79572a3e71b61d3174"
+    },
+    {
+      "mode": "100644",
+      "path": "SPACE_PROVENANCE_FRONTIER.json",
+      "sha": "e776d5cdeb9b3cf96a71af873f945acb848e537f",
+      "size": 1135,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/e776d5cdeb9b3cf96a71af873f945acb848e537f"
+    },
+    {
+      "mode": "100644",
+      "path": "app.js",
+      "sha": "1d9c7a5be12468761fcef607e84c16a6218c60cf",
+      "size": 32670,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/1d9c7a5be12468761fcef607e84c16a6218c60cf"
+    },
+    {
+      "mode": "100644",
+      "path": "backend-status.js",
+      "sha": "349cb08a362b933099dfde38debd123f174891fc",
+      "size": 3481,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/349cb08a362b933099dfde38debd123f174891fc"
+    },
+    {
+      "mode": "040000",
+      "path": "cards",
+      "sha": "0a9fd7588d8733b42c1cbefe71976eac9d9eadb8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/trees/0a9fd7588d8733b42c1cbefe71976eac9d9eadb8"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/A11OY-MINI.md",
+      "sha": "eba5dbfa031e81e1c589ba015ea62131efee4e2d",
+      "size": 1459,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/eba5dbfa031e81e1c589ba015ea62131efee4e2d"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/ARCHIVE-REVIVAL-V2.md",
+      "sha": "741d446edcdd0efdec9c6537397455c72c99308c",
+      "size": 1534,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/741d446edcdd0efdec9c6537397455c72c99308c"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/INDEX.md",
+      "sha": "9fc7d61e7333e4543052215c914d5dcfc9001411",
+      "size": 5743,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/9fc7d61e7333e4543052215c914d5dcfc9001411"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/KHIPU-R2.md",
+      "sha": "23be9c2f810856ea595a450fc98e2f1a9b7b34c3",
+      "size": 1676,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/23be9c2f810856ea595a450fc98e2f1a9b7b34c3"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/KILLINCHU-EYE.md",
+      "sha": "e50a2f975432b481a7563b6ef65c1cbaf4f0e7ea",
+      "size": 1666,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/e50a2f975432b481a7563b6ef65c1cbaf4f0e7ea"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/MiniEmbed-Nano.md",
+      "sha": "2d7e6cb997262988ec410ea928f03e506c9fbd5e",
+      "size": 1737,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/2d7e6cb997262988ec410ea928f03e506c9fbd5e"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/Moons-Nano.md",
+      "sha": "ed45e3d548f3673bfe164de4d11cb62d493a9735",
+      "size": 1608,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/ed45e3d548f3673bfe164de4d11cb62d493a9735"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/ReceiptAgent-Nano.md",
+      "sha": "1e176fa998d644105b9acaffbfe8c05b0e10dcff",
+      "size": 1701,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/1e176fa998d644105b9acaffbfe8c05b0e10dcff"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/SZL-Forge-1.5B-ReceiptAgent.md",
+      "sha": "3a1b9b1d1239b203c25cb8990fe0b7cb86263e2d",
+      "size": 1768,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/3a1b9b1d1239b203c25cb8990fe0b7cb86263e2d"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/SZL-Khipu-1.5B-GGUF.md",
+      "sha": "937372f6b964c6e3f7bc4fec9c9dca0d31d5822d",
+      "size": 1691,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/937372f6b964c6e3f7bc4fec9c9dca0d31d5822d"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/SZL-Khipu-1.5B-abstain.md",
+      "sha": "030b9fb3c09997c9006bc5e6668c63c03e6dc09e",
+      "size": 1640,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/030b9fb3c09997c9006bc5e6668c63c03e6dc09e"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/SZL-Khipu-1.5B.md",
+      "sha": "eade939e1ded32513f41756821ad2a78f8657b66",
+      "size": 1808,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/eade939e1ded32513f41756821ad2a78f8657b66"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/SZL-MESH-COMMAND.md",
+      "sha": "51ee742e6a70506a7e7d65662d5fef06d09bd5e3",
+      "size": 1171,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/51ee742e6a70506a7e7d65662d5fef06d09bd5e3"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/SZL-SOVEREIGN-ROUTER.md",
+      "sha": "2ca2d467d4ed6d6d5a964df3ff328e163c8e6652",
+      "size": 1385,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/2ca2d467d4ed6d6d5a964df3ff328e163c8e6652"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/SZLHOLDINGS.md",
+      "sha": "dff2ba5fb42f55b2743a4a13b472c2d6f4b94e6d",
+      "size": 1225,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/dff2ba5fb42f55b2743a4a13b472c2d6f4b94e6d"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/TinyKhipu-Nano.md",
+      "sha": "4705ffdd9bcdaf48b94ca754505da271ce1536cc",
+      "size": 1715,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/4705ffdd9bcdaf48b94ca754505da271ce1536cc"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/UDS-BUNDLE-OBSERVATORY.md",
+      "sha": "808f53e2fcb1cf2bbdb77149f752a2f17109a4b8",
+      "size": 1266,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/808f53e2fcb1cf2bbdb77149f752a2f17109a4b8"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/WILLAY.md",
+      "sha": "647ada6bee09a3a254c04b835f43388936a8056d",
+      "size": 1669,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/647ada6bee09a3a254c04b835f43388936a8056d"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/YARQA-ATTN.md",
+      "sha": "b80445dd0b455983d24833fc8c56b14ad1a2e252",
+      "size": 1559,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/b80445dd0b455983d24833fc8c56b14ad1a2e252"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/a11oy-v19-substrate.md",
+      "sha": "76a2e0dbcbd5a8992af269c65572c241c4098c32",
+      "size": 1360,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/76a2e0dbcbd5a8992af269c65572c241c4098c32"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/chakana.md",
+      "sha": "bc4da4dca1832469b1a7c256d431c034d2cae390",
+      "size": 1256,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/bc4da4dca1832469b1a7c256d431c034d2cae390"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/chaski-5050.md",
+      "sha": "36d726d93db5768350e6ad87c9861b4ed1c04146",
+      "size": 1528,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/36d726d93db5768350e6ad87c9861b4ed1c04146"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/chaski-r2.md",
+      "sha": "6b41998842e6bf576680b01455d47eab66e30555",
+      "size": 1422,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/6b41998842e6bf576680b01455d47eab66e30555"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/chaski.md",
+      "sha": "45e25a623b4f445c5f07acd4c1c2ad33a852640d",
+      "size": 1638,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/45e25a623b4f445c5f07acd4c1c2ad33a852640d"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/governed-inference-meter.md",
+      "sha": "58f4913cfcef69f24f70d4188875b339959f0c8d",
+      "size": 1594,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/58f4913cfcef69f24f70d4188875b339959f0c8d"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/qantu.md",
+      "sha": "bdd6d285cfc188c782caa31679161c9d30a694f8",
+      "size": 1314,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/bdd6d285cfc188c782caa31679161c9d30a694f8"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/szl-block-kv.md",
+      "sha": "f11efe0bd1844cec00bb6b200ed834e2fda3482b",
+      "size": 1438,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/f11efe0bd1844cec00bb6b200ed834e2fda3482b"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/szl-blocked.md",
+      "sha": "c6ef36d4c18e5195d3fcdd30c782c4ae1e55d1c2",
+      "size": 1391,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/c6ef36d4c18e5195d3fcdd30c782c4ae1e55d1c2"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/szl-formulas.md",
+      "sha": "13cc4eafc614f01e499139a116ad1f2c597dba5e",
+      "size": 1452,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/13cc4eafc614f01e499139a116ad1f2c597dba5e"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/szl-governed-norm.md",
+      "sha": "f5aaf40c46bb98b7ac30321e8fd68664d81ee755",
+      "size": 1412,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/f5aaf40c46bb98b7ac30321e8fd68664d81ee755"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/szl-govsign.md",
+      "sha": "c077f78456a7ea27dafc7e68025c2e939e7e27a6",
+      "size": 1239,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/c077f78456a7ea27dafc7e68025c2e939e7e27a6"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/szl-invariants.md",
+      "sha": "5af61f19dbf419980c3fe74617e1c4d59675295e",
+      "size": 1465,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/5af61f19dbf419980c3fe74617e1c4d59675295e"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/szl-kernels.md",
+      "sha": "a90531dfeb1d33a8aee9346d504f22afd6e3737d",
+      "size": 1365,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/a90531dfeb1d33a8aee9346d504f22afd6e3737d"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/szl-khipu-kernels.md",
+      "sha": "d3a58567c67a503a3b7455372504fadfc28a522d",
+      "size": 1319,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/d3a58567c67a503a3b7455372504fadfc28a522d"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/szl-khipu.md",
+      "sha": "6054faac5015c4da64e11a4ac271240603804358",
+      "size": 1607,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/6054faac5015c4da64e11a4ac271240603804358"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/szl-lambda-gate.md",
+      "sha": "c42c55e0c3c810e99ea162382e7a1b924aca483e",
+      "size": 1309,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/c42c55e0c3c810e99ea162382e7a1b924aca483e"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/szl-maskmod.md",
+      "sha": "923d3a37ba8d29dd9be7d7b8e80747d98412610c",
+      "size": 1316,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/923d3a37ba8d29dd9be7d7b8e80747d98412610c"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/szl-nemo.md",
+      "sha": "6b82f5287d9ff86f6e4d70014d7dc104bebc8d2d",
+      "size": 1678,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/6b82f5287d9ff86f6e4d70014d7dc104bebc8d2d"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/szl-ouroboros.md",
+      "sha": "8f8a0d8a4b45750fa95ee28bad0a2d17b428f21f",
+      "size": 1387,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/8f8a0d8a4b45750fa95ee28bad0a2d17b428f21f"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/szl-provctl.md",
+      "sha": "83079fe2c242f31563512d35ae15eac18e43ed41",
+      "size": 1388,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/83079fe2c242f31563512d35ae15eac18e43ed41"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/szl-receipt-attn.md",
+      "sha": "aa3ecb7f0b0ddae08b352d4093d7a0d10dd0ae8a",
+      "size": 1415,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/aa3ecb7f0b0ddae08b352d4093d7a0d10dd0ae8a"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/szl-receiptagent-qwen35-0.8b-v2.md",
+      "sha": "0bac8a033921a7432f9165b2c118c6f4b11e7038",
+      "size": 1672,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/0bac8a033921a7432f9165b2c118c6f4b11e7038"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/szl-training-scripts.md",
+      "sha": "b2ad0d9c1a28a39b569b868bf844e345cea9e447",
+      "size": 1504,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/b2ad0d9c1a28a39b569b868bf844e345cea9e447"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/tinku.md",
+      "sha": "fa2cfbc92b3f3e7ea4b1e6814e2e93ee3d7ac731",
+      "size": 1308,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/fa2cfbc92b3f3e7ea4b1e6814e2e93ee3d7ac731"
+    },
+    {
+      "mode": "100644",
+      "path": "cards/waman.md",
+      "sha": "9cfd0df95d0772a03427ff5d60ea90917d6f0c1b",
+      "size": 1183,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/9cfd0df95d0772a03427ff5d60ea90917d6f0c1b"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "a1500e55f62abf52bea32fe83da4cd00a5d52ef2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/trees/a1500e55f62abf52bea32fe83da4cd00a5d52ef2"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/ARCHIVE_REVIVAL_SHOWCASE_V2.md",
+      "sha": "c47577d502978cafbb3b6efbcb2d1d770555f1ca",
+      "size": 3718,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/c47577d502978cafbb3b6efbcb2d1d770555f1ca"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier-worker.js",
+      "sha": "41ba6243c040e29201a99cb74b6af8d4fa7ad02c",
+      "size": 4761,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/41ba6243c040e29201a99cb74b6af8d4fa7ad02c"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier.js",
+      "sha": "b6f139eadc2a4cc50b1a6e1f407024360a59d162",
+      "size": 21002,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/b6f139eadc2a4cc50b1a6e1f407024360a59d162"
+    },
+    {
+      "mode": "040000",
+      "path": "frontier",
+      "sha": "ad2a400ba1956497d804fe76640fd3d40d3e27b2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/trees/ad2a400ba1956497d804fe76640fd3d40d3e27b2"
+    },
+    {
+      "mode": "040000",
+      "path": "frontier/atelier_v3",
+      "sha": "ec1e417e63ab1c95070cb057375d603a7184df69",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/trees/ec1e417e63ab1c95070cb057375d603a7184df69"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/atelier_v3/Dockerfile",
+      "sha": "eb33d0f4a051d2a1ff846b3c66ace94c512e3710",
+      "size": 822,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/eb33d0f4a051d2a1ff846b3c66ace94c512e3710"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/atelier_v3/PUBLICATION.json",
+      "sha": "3a833c9d23aa1cc9d5e001d958275f7a3103d97f",
+      "size": 1993,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/3a833c9d23aa1cc9d5e001d958275f7a3103d97f"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/atelier_v3/README.md",
+      "sha": "7a4117b76ef018f7a2832966e860d7de2de11cb6",
+      "size": 2387,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/7a4117b76ef018f7a2832966e860d7de2de11cb6"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/atelier_v3/SPACE_DOCKERFILE",
+      "sha": "6f1f19a01c10555793dba5e0a6e7115a8abeed12",
+      "size": 704,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/6f1f19a01c10555793dba5e0a6e7115a8abeed12"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/atelier_v3/SPACE_README.md",
+      "sha": "5e6a75a0592ca140237adaf1dcac0c0bbc68465d",
+      "size": 1181,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/5e6a75a0592ca140237adaf1dcac0c0bbc68465d"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/atelier_v3/app.py",
+      "sha": "b3045019b042ddf096886d7f485a32da42997c6e",
+      "size": 11498,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/b3045019b042ddf096886d7f485a32da42997c6e"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/atelier_v3/build_publication.py",
+      "sha": "95b58901de46651b05c1ae5ab90e581e051f632b",
+      "size": 7950,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/95b58901de46651b05c1ae5ab90e581e051f632b"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/atelier_v3/catalog.py",
+      "sha": "5592d1c037102753f0152acb9fcb40f425eab3e6",
+      "size": 4006,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/5592d1c037102753f0152acb9fcb40f425eab3e6"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/atelier_v3/publish_space.py",
+      "sha": "c4a2cd4488bfac9162ea09adc7b42497d05c806e",
+      "size": 13516,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/c4a2cd4488bfac9162ea09adc7b42497d05c806e"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/atelier_v3/requirements-publish.txt",
+      "sha": "1e466dd636a99f38f7c0cfaeeed70b69101e5e60",
+      "size": 24,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/1e466dd636a99f38f7c0cfaeeed70b69101e5e60"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/atelier_v3/requirements.txt",
+      "sha": "2b2d450bc7698f17b0526f0a6ac4fa65ea169ea6",
+      "size": 89,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/2b2d450bc7698f17b0526f0a6ac4fa65ea169ea6"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/atelier_v3/run.py",
+      "sha": "027fa435528c6df0b4241b0fb249fe349f26b9e1",
+      "size": 932,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/027fa435528c6df0b4241b0fb249fe349f26b9e1"
+    },
+    {
+      "mode": "040000",
+      "path": "frontier/atelier_v3/static",
+      "sha": "80e49fb11bcd28538c9497f6edb3e087c11ba2de",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/trees/80e49fb11bcd28538c9497f6edb3e087c11ba2de"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/atelier_v3/static/app.js",
+      "sha": "c817ba0402782456a7cbbd48908368eb4770a4d6",
+      "size": 8537,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/c817ba0402782456a7cbbd48908368eb4770a4d6"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/atelier_v3/static/index.html",
+      "sha": "612eb72d2874a0fb922990892b52d616620cd656",
+      "size": 5375,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/612eb72d2874a0fb922990892b52d616620cd656"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/atelier_v3/static/styles.css",
+      "sha": "64bb3e5182a3927954d5d466fcdf7d338f412888",
+      "size": 13769,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/64bb3e5182a3927954d5d466fcdf7d338f412888"
+    },
+    {
+      "mode": "040000",
+      "path": "frontier/atelier_v3/tests",
+      "sha": "ed6e46492f63091b3bd636eeca9527fec3856a0a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/trees/ed6e46492f63091b3bd636eeca9527fec3856a0a"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/atelier_v3/tests/test_app.py",
+      "sha": "6e00850e239f08ca338fd31cec4bedc2597cf528",
+      "size": 5559,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/6e00850e239f08ca338fd31cec4bedc2597cf528"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/atelier_v3/tests/test_publication.py",
+      "sha": "add6321c2bd5795a03c6560b7d9105935334e859",
+      "size": 3421,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/add6321c2bd5795a03c6560b7d9105935334e859"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/atelier_v3/tests/test_publication_builder.py",
+      "sha": "6b7f4008f426da0e28c332b3ba279cbffd59e064",
+      "size": 4389,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/6b7f4008f426da0e28c332b3ba279cbffd59e064"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/atelier_v3/tests/test_publish_space.py",
+      "sha": "8e2db61201b785916e3c96e2361aa7d53b41394a",
+      "size": 3593,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/8e2db61201b785916e3c96e2361aa7d53b41394a"
+    },
+    {
+      "mode": "100644",
+      "path": "index.html",
+      "sha": "d25c8d9be3e03d448acd50159698ccf34b006512",
+      "size": 1821,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/d25c8d9be3e03d448acd50159698ccf34b006512"
+    },
+    {
+      "mode": "040000",
+      "path": "kit",
+      "sha": "693daae5a5d52824775f7562a2743e1ebb8381fa",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/trees/693daae5a5d52824775f7562a2743e1ebb8381fa"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/README.md",
+      "sha": "c71d326401837f54c970ff90739cd91620baba42",
+      "size": 3124,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/c71d326401837f54c970ff90739cd91620baba42"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/bench_governed.py",
+      "sha": "2abefa8f6f42697ce7b3ada904e6efec91aec966",
+      "size": 2017,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/2abefa8f6f42697ce7b3ada904e6efec91aec966"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/export_npz.py",
+      "sha": "df56d487b1d394eb3c9cee418c66a1dca496f058",
+      "size": 2709,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/df56d487b1d394eb3c9cee418c66a1dca496f058"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/forge_nemo.py",
+      "sha": "47e7138585693804a4aeb06d81f255fdcb64316e",
+      "size": 1838,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/47e7138585693804a4aeb06d81f255fdcb64316e"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/infer_khipu.py",
+      "sha": "262aac041831194c5dd6fde886707cc11408822f",
+      "size": 1137,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/262aac041831194c5dd6fde886707cc11408822f"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/kernel_smoke.py",
+      "sha": "607ab6bb74f8a075243f6c5296a5721954947f01",
+      "size": 510,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/607ab6bb74f8a075243f6c5296a5721954947f01"
+    },
+    {
+      "mode": "040000",
+      "path": "kit/kernels",
+      "sha": "7e6c06886c90a542780c7ccd15460b8188c799da",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/trees/7e6c06886c90a542780c7ccd15460b8188c799da"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/kernels/README.md",
+      "sha": "38d5e670f4f098fd1bd443b551237289499203fc",
+      "size": 1003,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/38d5e670f4f098fd1bd443b551237289499203fc"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/kernels/__init__.py",
+      "sha": "65abc9077891426cab9376361fc7a01bfb33821e",
+      "size": 225,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/65abc9077891426cab9376361fc7a01bfb33821e"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/kernels/block_kv.py",
+      "sha": "02140e02e49d2c8bf693e7c067bd96ae13176371",
+      "size": 2989,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/02140e02e49d2c8bf693e7c067bd96ae13176371"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/kernels/blocked.py",
+      "sha": "afed302918b9162f2042558f3307792c02098aa8",
+      "size": 1427,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/afed302918b9162f2042558f3307792c02098aa8"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/kernels/chain.py",
+      "sha": "129f832f623507345c7a74f83a0181bd70724e7f",
+      "size": 5979,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/129f832f623507345c7a74f83a0181bd70724e7f"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/kernels/doctrine.py",
+      "sha": "916dbe3170097af7abb2852d37f32bec58f0bce2",
+      "size": 2656,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/916dbe3170097af7abb2852d37f32bec58f0bce2"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/kernels/formulas.py",
+      "sha": "769e2eb9870002ab704f014e84548f5e4c627bbe",
+      "size": 8706,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/769e2eb9870002ab704f014e84548f5e4c627bbe"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/kernels/governed_norm.py",
+      "sha": "7636e5dba40c03a7f99aed7f97cf1fc437cbd0e5",
+      "size": 2180,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/7636e5dba40c03a7f99aed7f97cf1fc437cbd0e5"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/kernels/lambda_gate.py",
+      "sha": "6e1e2afacb82b22e29a4ebf51852b8a37a21e49d",
+      "size": 4635,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/6e1e2afacb82b22e29a4ebf51852b8a37a21e49d"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/kernels/maskmod.py",
+      "sha": "cded1d566d883271bdd54bdf8013645bfed6b77b",
+      "size": 2476,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/cded1d566d883271bdd54bdf8013645bfed6b77b"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/kernels/nemo_rules.py",
+      "sha": "b5224d366f5841cc815d00f77797b155d23ab88d",
+      "size": 2997,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/b5224d366f5841cc815d00f77797b155d23ab88d"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/kernels/ouroboros.py",
+      "sha": "9ac1f96d71c49a1ef828558e84590add205bb1bf",
+      "size": 1955,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/9ac1f96d71c49a1ef828558e84590add205bb1bf"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/kernels/receipt_attn.py",
+      "sha": "eb8ced96fa4e4361d3563f284f066b5c1cd5f44f",
+      "size": 3421,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/eb8ced96fa4e4361d3563f284f066b5c1cd5f44f"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/kernels/yarqa.py",
+      "sha": "e97e330ce1fff9534456adbbc8c321be9005ca4a",
+      "size": 3186,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/e97e330ce1fff9534456adbbc8c321be9005ca4a"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/maskmod_smoke.py",
+      "sha": "660cc42d72b5bcc08fafae825f2602c45f8b05f2",
+      "size": 360,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/660cc42d72b5bcc08fafae825f2602c45f8b05f2"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/ouroboros_smoke.py",
+      "sha": "d9746836f399832dd6195719684bcef4dafad6be",
+      "size": 367,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/d9746836f399832dd6195719684bcef4dafad6be"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/receipted_unsloth.py",
+      "sha": "6551943acbdc5ea9fd73edb6c0e638420189088b",
+      "size": 12165,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/6551943acbdc5ea9fd73edb6c0e638420189088b"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/train_cohort.py",
+      "sha": "944d42a05a3fa3055f255aa4943d5f73a7af3b79",
+      "size": 17351,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/944d42a05a3fa3055f255aa4943d5f73a7af3b79"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/train_nano.py",
+      "sha": "196600a4d5b9ab0744d00383e05cf2f4a154b4ed",
+      "size": 12359,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/196600a4d5b9ab0744d00383e05cf2f4a154b4ed"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/yarqa_smoke.py",
+      "sha": "089e31877f3d37200531529efb5cb83d6c3e44ca",
+      "size": 420,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/089e31877f3d37200531529efb5cb83d6c3e44ca"
+    },
+    {
+      "mode": "100644",
+      "path": "kit/yuyay_smoke.py",
+      "sha": "14aae9e7473f9c6cae57ffe67985625713c5a850",
+      "size": 305,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/14aae9e7473f9c6cae57ffe67985625713c5a850"
+    },
+    {
+      "mode": "100644",
+      "path": "models.json",
+      "sha": "37b52a9a70758f0ae0d8ea7cbee4753c79201c7b",
+      "size": 71370,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/37b52a9a70758f0ae0d8ea7cbee4753c79201c7b"
+    },
+    {
+      "mode": "100644",
+      "path": "nano-weights.json",
+      "sha": "8287654e1a2a4ce547468176c1af4231a192d7dd",
+      "size": 67755,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/8287654e1a2a4ce547468176c1af4231a192d7dd"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements-dev.txt",
+      "sha": "a1ea67942c7a3ced268740cff076437daad883d1",
+      "size": 101,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/a1ea67942c7a3ced268740cff076437daad883d1"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements-revival-test.txt",
+      "sha": "b3b2b3ca4cc6a6428cd759f8d359a32bb92c125a",
+      "size": 14,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/b3b2b3ca4cc6a6428cd759f8d359a32bb92c125a"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements.txt",
+      "sha": "a4c245dbe8661c8ad43a7825e58f7c02af546fd1",
+      "size": 45,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/a4c245dbe8661c8ad43a7825e58f7c02af546fd1"
+    },
+    {
+      "mode": "040000",
+      "path": "revival",
+      "sha": "e2fef64bc02ad50f129069f5d23479dff0b3734f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/trees/e2fef64bc02ad50f129069f5d23479dff0b3734f"
+    },
+    {
+      "mode": "100644",
+      "path": "revival/app.js",
+      "sha": "d0ccd4fb4b5def764d44b6e5594fd7560e262797",
+      "size": 8298,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/d0ccd4fb4b5def764d44b6e5594fd7560e262797"
+    },
+    {
+      "mode": "100644",
+      "path": "revival/catalog.json",
+      "sha": "31221f5a805a225cfb4195e436b6d83da93c23db",
+      "size": 3865,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/31221f5a805a225cfb4195e436b6d83da93c23db"
+    },
+    {
+      "mode": "100644",
+      "path": "revival/index.html",
+      "sha": "86385bcd8544253884bcb08bbfb46272002f1268",
+      "size": 5554,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/86385bcd8544253884bcb08bbfb46272002f1268"
+    },
+    {
+      "mode": "100644",
+      "path": "revival/styles.css",
+      "sha": "74abe0294db863a3f5ea934a2fc7b8d6f534e4de",
+      "size": 13623,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/74abe0294db863a3f5ea934a2fc7b8d6f534e4de"
+    },
+    {
+      "mode": "100644",
+      "path": "server.py",
+      "sha": "f93ac59206f948f45c65e6576bc4f8f77067685b",
+      "size": 9120,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/f93ac59206f948f45c65e6576bc4f8f77067685b"
+    },
+    {
+      "mode": "100644",
+      "path": "style.css",
+      "sha": "114adf441e9032febb46bc056b2a8bb651075f0d",
+      "size": 388,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/114adf441e9032febb46bc056b2a8bb651075f0d"
+    },
+    {
+      "mode": "100644",
+      "path": "styles.css",
+      "sha": "f5ccf4de5e46857a5369f7ff3adc0e1601e07983",
+      "size": 10787,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/f5ccf4de5e46857a5369f7ff3adc0e1601e07983"
+    },
+    {
+      "mode": "100644",
+      "path": "szl-holo-v2.css",
+      "sha": "6716702ffbe846080d5d78addd7de0e77e27f4fc",
+      "size": 24190,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/6716702ffbe846080d5d78addd7de0e77e27f4fc"
+    },
+    {
+      "mode": "100644",
+      "path": "szl-holo-v2.js",
+      "sha": "cf936340b8c349d36491baa64f58bd31690b15a5",
+      "size": 15997,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/cf936340b8c349d36491baa64f58bd31690b15a5"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "bf114949148e86cb0dd48cb1931bc236bf61b8b3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/trees/bf114949148e86cb0dd48cb1931bc236bf61b8b3"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_archive_revival_showcase_v2.py",
+      "sha": "7c9b14083e79649644a392f709da95c450f3397a",
+      "size": 7623,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/7c9b14083e79649644a392f709da95c450f3397a"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_server.py",
+      "sha": "a11ef8d862cbac342800f23ad842d99b87f87483",
+      "size": 2301,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/a11ef8d862cbac342800f23ad842d99b87f87483"
+    },
+    {
+      "mode": "100644",
+      "path": "unsloth-recipes.json",
+      "sha": "b392ad629ceee3a4c41f97e8b092894b52816439",
+      "size": 16247,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/b392ad629ceee3a4c41f97e8b092894b52816439"
+    },
+    {
+      "mode": "040000",
+      "path": "weights",
+      "sha": "104522aa3786fca1bbbca8896e7463084c3b7091",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/trees/104522aa3786fca1bbbca8896e7463084c3b7091"
+    },
+    {
+      "mode": "100644",
+      "path": "weights/chaski.npz",
+      "sha": "9ad26f1cf6f0d027d532561be28dffd4b0ae4717",
+      "size": 129,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/9ad26f1cf6f0d027d532561be28dffd4b0ae4717"
+    },
+    {
+      "mode": "100644",
+      "path": "weights/chaski_5050.npz",
+      "sha": "7451b33763f04531e5d4bb30490ad58922d8532b",
+      "size": 129,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/7451b33763f04531e5d4bb30490ad58922d8532b"
+    },
+    {
+      "mode": "100644",
+      "path": "weights/chaski_r2.npz",
+      "sha": "42689b945ac9531b9951596ebb1ea6aaee35b064",
+      "size": 129,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/42689b945ac9531b9951596ebb1ea6aaee35b064"
+    },
+    {
+      "mode": "100644",
+      "path": "weights/lambda_gate.npz",
+      "sha": "b1628880afa9f74c3e9e5800d64700298f544ff8",
+      "size": 129,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/b1628880afa9f74c3e9e5800d64700298f544ff8"
+    },
+    {
+      "mode": "100644",
+      "path": "weights/mini_embed.npz",
+      "sha": "6f478df8f3007711dbc12e51feddbcfd5d8bb5ba",
+      "size": 129,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/6f478df8f3007711dbc12e51feddbcfd5d8bb5ba"
+    },
+    {
+      "mode": "100644",
+      "path": "weights/moons.npz",
+      "sha": "8a0fe475d59605c4c56c0adec92446a6242e8f2c",
+      "size": 129,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/8a0fe475d59605c4c56c0adec92446a6242e8f2c"
+    },
+    {
+      "mode": "100644",
+      "path": "weights/receipt_agent.npz",
+      "sha": "7b603c9106de529fee325b307674f7e370b80743",
+      "size": 129,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/7b603c9106de529fee325b307674f7e370b80743"
+    },
+    {
+      "mode": "100644",
+      "path": "weights/tiny_khipu.npz",
+      "sha": "cf95db7e710663a4ac83de6dbe09b0543239b66d",
+      "size": 129,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/cf95db7e710663a4ac83de6dbe09b0543239b66d"
+    },
+    {
+      "mode": "100644",
+      "path": "weights/willay.npz",
+      "sha": "c4f172bb5fd86313a82d1bb73c5601fe1079cb2b",
+      "size": 129,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/blobs/c4f172bb5fd86313a82d1bb73c5601fe1079cb2b"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/trees/508ec8995b9be199f4bba26a7e98951e388a159e"
+}

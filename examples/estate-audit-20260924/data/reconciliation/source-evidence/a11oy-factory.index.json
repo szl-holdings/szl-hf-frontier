@@ -1,0 +1,51 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 74297,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:44Z",
+      "path": "data/reconciliation/source-evidence/9614b71ce05e60a821f5d650d4358959f649b75497ccc89230c3d1a7c631859f.json",
+      "revision": "f3c016630acd75f4cf54300ae1ebbec97e251ef7",
+      "sha256": "9614b71ce05e60a821f5d650d4358959f649b75497ccc89230c3d1a7c631859f",
+      "source_identity": "github/szl-holdings/a11oy-factory",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/a11oy-factory/git/trees/f3c016630acd75f4cf54300ae1ebbec97e251ef7?recursive=1"
+    }
+  ],
+  "file_count": 215,
+  "id": "github/szl-holdings/a11oy-factory",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "f3c016630acd75f4cf54300ae1ebbec97e251ef7",
+  "root_paths": [
+    ".dockerignore",
+    ".github",
+    ".gitignore",
+    ".node_modules.lock",
+    ".prettierrc",
+    "COMPILER.md",
+    "Dockerfile",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "a11oy_factory",
+    "eslint.config.mjs",
+    "factory",
+    "migrations",
+    "package-lock.json",
+    "package.json",
+    "public",
+    "pyproject.toml",
+    "scripts",
+    "server",
+    "space",
+    "spaces",
+    "src",
+    "startup.sh",
+    "tests",
+    "tsconfig.json",
+    "vite.config.ts"
+  ]
+}

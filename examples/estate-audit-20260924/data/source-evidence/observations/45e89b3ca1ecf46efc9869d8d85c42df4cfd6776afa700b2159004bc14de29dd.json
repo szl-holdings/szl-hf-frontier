@@ -1,0 +1,20 @@
+{
+  "card": "---\ntitle: SZL Experiments\nemoji: \u2697\ufe0f\ncolorFrom: yellow\ncolorTo: green\nsdk: docker\napp_port: 7860\npinned: false\nlicense: apache-2.0\nshort_description: Allodial, neuroplasticity, chain of title. Experimental.\ntags:\n  - experimental\n  - allodial\n  - neuroplasticity\n  - governance\n---\n\n# SZL Experiments\n\nThe a-11-oy.com experimental surfaces, split out so they are **runnable** and\n**honestly labeled EXPERIMENTAL**. They do **not** join the locked eight\nformulas. \u039b uniqueness stays Conjecture 1.\n\n| Lab | What runs |\n|---|---|\n| Allodial AI | SEAL + HHI sovereignty score, Goguen-Meseguer non-interference, Denning lattice |\n| Neuroplasticity | Hebb / Oja / BCM / STDP / EWC / dormant-unit health |\n| Chain of title | L6 deed assembler \u2014 structure only, UNSIGNED until a signer exists |\n\nProduct: [a-11-oy.com](https://a-11-oy.com) \u00b7 Proof: [a11oy.net](https://a11oy.net) \u00b7\nSource: [github.com/szl-holdings/szl-experiments](https://github.com/szl-holdings/szl-experiments)\n\n## Honesty\n\n- EXPERIMENTAL, not locked-8.\n- No fabricated LIVE, no fabricated signature, no \u039b theorem.\n- Allodial is architectural sovereignty, not a sovereign-citizen claim.\n- Neuroplasticity formulas are cited prior art, not a claim that the council \"learns weights\" in this Space.\n\nApache-2.0 \u00b7 Doctrine v11.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 1297,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/8e8359b9c8fdfca9dc5f0d7edb560df073389339dcad613f29e1fbb27ed6fad9.md",
+      "revision": "2d2980ce7f0063b5692fe2b46163dee6df2831e1",
+      "sha256": "8e8359b9c8fdfca9dc5f0d7edb560df073389339dcad613f29e1fbb27ed6fad9",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-experiments/blob/2d2980ce7f0063b5692fe2b46163dee6df2831e1/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-experiments",
+  "observed_at": "2026-09-24T12:29:33Z",
+  "observed_revision": "2d2980ce7f0063b5692fe2b46163dee6df2831e1"
+}

@@ -1,0 +1,35 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 11446,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:07Z",
+      "path": "data/reconciliation/source-evidence/413729fbc092423f3ecb3a214eb2ac95930a0ed5fd25537e00ebc15a80f10086.json",
+      "revision": "201a7b3dd45098d83162acd149ee3f4d17432761",
+      "sha256": "413729fbc092423f3ecb3a214eb2ac95930a0ed5fd25537e00ebc15a80f10086",
+      "source_identity": "github/szl-holdings/szl-serve",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-serve/git/trees/201a7b3dd45098d83162acd149ee3f4d17432761?recursive=1"
+    }
+  ],
+  "file_count": 32,
+  "id": "github/szl-holdings/szl-serve",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "201a7b3dd45098d83162acd149ee3f4d17432761",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "CARD.md",
+    "CODEOWNERS",
+    "LICENSE",
+    "README.md",
+    "frontier",
+    "pyproject.toml",
+    "schemas",
+    "szl_serve",
+    "tests"
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "sha": "a0735738982f4e3e66d3a951c243c64ba7992dbf",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "d3bde8848967a6c4a422254c250ffff8ed424978",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/trees/d3bde8848967a6c4a422254c250ffff8ed424978"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "7505345f4f2f926b70457056de078613b3dcc75e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/trees/7505345f4f2f926b70457056de078613b3dcc75e"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "4a300c619cc48c5f1eceb4f2957feb7759b4c143",
+      "size": 4377,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/blobs/4a300c619cc48c5f1eceb4f2957feb7759b4c143"
+    },
+    {
+      "mode": "100644",
+      "path": ".zenodo.json",
+      "sha": "f8ec5e28ed6e1c4aa39eac4be1cfa9dee52501ff",
+      "size": 943,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/blobs/f8ec5e28ed6e1c4aa39eac4be1cfa9dee52501ff"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "1c5038f507091c38b723a529af04636db98f73f9",
+      "size": 11342,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/blobs/1c5038f507091c38b723a529af04636db98f73f9"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "64d2b5bf0ee8bf909b1c642e92e29ae4a7602dec",
+      "size": 2788,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/blobs/64d2b5bf0ee8bf909b1c642e92e29ae4a7602dec"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "d280d174f6222b7a6c883a498c88878e42868e56",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/trees/d280d174f6222b7a6c883a498c88878e42868e56"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/SZL_SELF_ASSESSMENT.md",
+      "sha": "3885464022172537c59a24d0ac789fb7096fafd9",
+      "size": 3531,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/blobs/3885464022172537c59a24d0ac789fb7096fafd9"
+    },
+    {
+      "mode": "100644",
+      "path": "package.json",
+      "sha": "3fcade6aa7c5f3ce6fad01bf72f69bba703d79a7",
+      "size": 857,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/blobs/3fcade6aa7c5f3ce6fad01bf72f69bba703d79a7"
+    },
+    {
+      "mode": "100644",
+      "path": "pnpm-workspace.yaml",
+      "sha": "33be74626df71ec51066090f12381d25b7066ef6",
+      "size": 70,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/blobs/33be74626df71ec51066090f12381d25b7066ef6"
+    },
+    {
+      "mode": "040000",
+      "path": "python",
+      "sha": "0f9c7637032550463b2edb6bde97d47c153b5216",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/trees/0f9c7637032550463b2edb6bde97d47c153b5216"
+    },
+    {
+      "mode": "100644",
+      "path": "python/.gitignore",
+      "sha": "43ae0e2a6c6d8fca34872506ca0f2e64194fec7c",
+      "size": 23,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/blobs/43ae0e2a6c6d8fca34872506ca0f2e64194fec7c"
+    },
+    {
+      "mode": "100644",
+      "path": "python/evidence_doctrine.py",
+      "sha": "cd48c816970e7748d761c5c30707876e3c23a8a5",
+      "size": 8396,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/blobs/cd48c816970e7748d761c5c30707876e3c23a8a5"
+    },
+    {
+      "mode": "100644",
+      "path": "python/test_evidence_doctrine.py",
+      "sha": "498b02d0bf7cda327535a89e7815125abfe5d1cf",
+      "size": 8800,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/blobs/498b02d0bf7cda327535a89e7815125abfe5d1cf"
+    },
+    {
+      "mode": "040000",
+      "path": "specs",
+      "sha": "5c87d7435ea95b5c4757a587c27ff638cbc31879",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/trees/5c87d7435ea95b5c4757a587c27ff638cbc31879"
+    },
+    {
+      "mode": "100644",
+      "path": "specs/DSLSA-v14.md",
+      "sha": "5ca88d06292c20845b321081cdaef42a4c3ae52f",
+      "size": 4950,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/blobs/5ca88d06292c20845b321081cdaef42a4c3ae52f"
+    },
+    {
+      "mode": "040000",
+      "path": "src",
+      "sha": "b7f6d25495832bb68d44e6b1f6735e67c766481e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/trees/b7f6d25495832bb68d44e6b1f6735e67c766481e"
+    },
+    {
+      "mode": "100644",
+      "path": "src/index.test.ts",
+      "sha": "6a4ae50272a6af424a96c6f1fbe05880ab359fdc",
+      "size": 7543,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/blobs/6a4ae50272a6af424a96c6f1fbe05880ab359fdc"
+    },
+    {
+      "mode": "100644",
+      "path": "src/index.ts",
+      "sha": "73ae5bae9148aec1d8e5edcd1eee04ba717e890d",
+      "size": 10708,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/blobs/73ae5bae9148aec1d8e5edcd1eee04ba717e890d"
+    },
+    {
+      "mode": "100644",
+      "path": "tsconfig.json",
+      "sha": "1c74d01a2bbebe4f82a8b1807e89def5df6ce6ac",
+      "size": 554,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/blobs/1c74d01a2bbebe4f82a8b1807e89def5df6ce6ac"
+    },
+    {
+      "mode": "100644",
+      "path": "turbo.json",
+      "sha": "4b92caeced5113a706c437ed9894c363d7fc2377",
+      "size": 133,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/blobs/4b92caeced5113a706c437ed9894c363d7fc2377"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/trees/a0735738982f4e3e66d3a951c243c64ba7992dbf"
+}

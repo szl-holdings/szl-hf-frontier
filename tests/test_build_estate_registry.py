@@ -1,11 +1,14 @@
 from __future__ import annotations
 import hashlib
 import json
+import os
 import subprocess
 import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
+from tools import build_estate_registry as builder
 from tools.build_estate_registry import SNAPSHOTS, build_registry, gap_report, write_json
 
 REV = "a" * 40
@@ -160,6 +163,80 @@ class EstateRegistryBuilderTests(unittest.TestCase):
         self.assertEqual(draft.returncode, 0, draft.stderr)
         self.assertNotEqual(release.returncode, 0)
         self.assertIn("FAIL:", release.stderr)
+
+    def invoke_cli(self, *args):
+        original = Path.cwd()
+        try:
+            os.chdir(self.repo)
+            with mock.patch.object(builder, "ROOT", self.repo):
+                builder.main(["--input", str(self.root), *args])
+        finally:
+            os.chdir(original)
+
+    def set_scope(self, scope):
+        path = self.root / "snapshot_receipt.json"
+        value = json.loads(path.read_text())
+        value["scope"] = scope
+        write_json(path, value)
+
+    def make_private_input(self):
+        self.rows["huggingface_models.json"][0]["private"] = True
+        self.save()
+        self.set_scope("TOKEN_VISIBLE")
+
+    def test_direct_cli_blocks_private_input_before_default_output_writes(self):
+        self.make_private_input()
+        with self.assertRaisesRegex(ValueError, "PRIVATE_INPUT_REQUIRES_LOCAL_OUTPUTS"):
+            self.invoke_cli()
+        self.assertFalse((self.repo / "data/estate_registry.json").exists())
+        self.assertFalse((self.repo / "reports/unresolved_gaps.json").exists())
+
+    def test_direct_cli_checks_both_destinations_before_writing_either(self):
+        self.make_private_input()
+        for flag, name in (("--registry", "registry.json"), ("--gaps", "gaps.json")):
+            with self.subTest(flag=flag):
+                destination = self.repo / ".estate-private" / name
+                with self.assertRaisesRegex(ValueError, "PRIVATE_INPUT_REQUIRES_LOCAL_OUTPUTS"):
+                    self.invoke_cli(flag, str(destination))
+                self.assertFalse(destination.exists())
+
+    def test_direct_cli_preserves_explicit_local_private_build(self):
+        self.make_private_input()
+        registry = self.repo / ".estate-private/registry.json"
+        gaps = self.repo / ".estate-private/gaps.json"
+        self.invoke_cli("--registry", str(registry), "--gaps", str(gaps))
+        self.assertEqual(sum(row["visibility"] == "private" for row in json.loads(registry.read_text())), 1)
+        self.assertGreater(len(json.loads(gaps.read_text())["unresolved_gaps"]), 0)
+
+    def test_direct_cli_allows_explicit_external_private_outputs(self):
+        self.make_private_input()
+        with tempfile.TemporaryDirectory() as folder:
+            registry, gaps = Path(folder) / "registry.json", Path(folder) / "gaps.json"
+            self.invoke_cli("--registry", str(registry), "--gaps", str(gaps))
+            self.assertTrue(registry.is_file() and gaps.is_file())
+
+    def test_token_visible_scope_requires_local_outputs_even_if_rows_are_public(self):
+        self.set_scope("TOKEN_VISIBLE")
+        with self.assertRaisesRegex(ValueError, "PRIVATE_INPUT_REQUIRES_LOCAL_OUTPUTS"):
+            self.invoke_cli()
+
+    def test_private_rows_cannot_bypass_guard_by_claiming_public_scope(self):
+        self.make_private_input()
+        self.set_scope("PUBLIC_PROJECTION_OF_AUTHENTICATED_CENSUS")
+        with self.assertRaisesRegex(ValueError, "PRIVATE_INPUT_REQUIRES_LOCAL_OUTPUTS"):
+            self.invoke_cli()
+
+    def test_private_destination_cannot_escape_ignored_directory(self):
+        self.make_private_input()
+        with self.assertRaisesRegex(ValueError, "PRIVATE_INPUT_REQUIRES_LOCAL_OUTPUTS"):
+            self.invoke_cli("--registry", ".estate-private/../data/registry.json",
+                            "--gaps", ".estate-private/gaps.json")
+
+    def test_direct_cli_can_compile_public_projection_to_default_outputs(self):
+        self.set_scope("PUBLIC_PROJECTION_OF_AUTHENTICATED_CENSUS")
+        self.invoke_cli()
+        self.assertTrue((self.repo / "data/estate_registry.json").is_file())
+        self.assertTrue((self.repo / "reports/unresolved_gaps.json").is_file())
 
 if __name__ == "__main__":
     unittest.main()

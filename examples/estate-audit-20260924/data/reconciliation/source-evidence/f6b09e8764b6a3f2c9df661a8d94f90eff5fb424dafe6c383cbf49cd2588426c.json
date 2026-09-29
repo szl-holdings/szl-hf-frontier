@@ -1,0 +1,221 @@
+{
+  "sha": "26135bcc03e9d55f35dd8d7ed8f043631ea30cd2",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "47677d09871a2965a02cff900566a4c840e60637",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/trees/47677d09871a2965a02cff900566a4c840e60637"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "ebd47ec6cbdd5169721ecc1f70592e9084119be5",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/trees/ebd47ec6cbdd5169721ecc1f70592e9084119be5"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/bench.yml",
+      "sha": "4c18e4af8ee01575dd2027059cd13ef0a629805d",
+      "size": 759,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/blobs/4c18e4af8ee01575dd2027059cd13ef0a629805d"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "87a888289d8ac71529aecff06d7a0554546c064e",
+      "size": 471,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/blobs/87a888289d8ac71529aecff06d7a0554546c064e"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile",
+      "sha": "95f61cf0e170135caf8007630032eeb721ba26d0",
+      "size": 227,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/blobs/95f61cf0e170135caf8007630032eeb721ba26d0"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "6fc753f052612a992ee59f6d13f8e0e393bc45ae",
+      "size": 11361,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/blobs/6fc753f052612a992ee59f6d13f8e0e393bc45ae"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "3202e19cb149eb8b60d15cccb81f859d2b79f620",
+      "size": 2717,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/blobs/3202e19cb149eb8b60d15cccb81f859d2b79f620"
+    },
+    {
+      "mode": "040000",
+      "path": "app",
+      "sha": "aaa3f3b1db92eb6170383859daa05fac4cae632d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/trees/aaa3f3b1db92eb6170383859daa05fac4cae632d"
+    },
+    {
+      "mode": "100644",
+      "path": "app/main.py",
+      "sha": "621a9a60eab932a36395a85d43c447c476140cdb",
+      "size": 1173,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/blobs/621a9a60eab932a36395a85d43c447c476140cdb"
+    },
+    {
+      "mode": "040000",
+      "path": "deploy",
+      "sha": "b7b69d6ee11e6bdbe4ab71531e1171101f699ca3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/trees/b7b69d6ee11e6bdbe4ab71531e1171101f699ca3"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/RUNBOOK.md",
+      "sha": "d645ce632aaa934fd5d6ad4c257175fa627aafe3",
+      "size": 1111,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/blobs/d645ce632aaa934fd5d6ad4c257175fa627aafe3"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/docker-compose.yml",
+      "sha": "59fd40b02a3be0edfec1383e1bd2dd1e07109cd1",
+      "size": 370,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/blobs/59fd40b02a3be0edfec1383e1bd2dd1e07109cd1"
+    },
+    {
+      "mode": "040000",
+      "path": "evidence",
+      "sha": "749892d65006a36c6075e62f31a8adb72a05eb35",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/trees/749892d65006a36c6075e62f31a8adb72a05eb35"
+    },
+    {
+      "mode": "100644",
+      "path": "evidence/eclipse-native-repaired-20260905.json",
+      "sha": "554ff09f293410e234af93e90dc5d5ff9ad8346b",
+      "size": 5959,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/blobs/554ff09f293410e234af93e90dc5d5ff9ad8346b"
+    },
+    {
+      "mode": "040000",
+      "path": "quant_curve",
+      "sha": "d2826c3af0087baa96e720008207c18988980dc6",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/trees/d2826c3af0087baa96e720008207c18988980dc6"
+    },
+    {
+      "mode": "100644",
+      "path": "quant_curve/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "mode": "100644",
+      "path": "quant_curve/gates.py",
+      "sha": "6c2eec7dcab8508fd6eb2b5ed9c1d2bc86776397",
+      "size": 5180,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/blobs/6c2eec7dcab8508fd6eb2b5ed9c1d2bc86776397"
+    },
+    {
+      "mode": "100644",
+      "path": "quant_curve/pareto.py",
+      "sha": "bc48c265288bacd4fb284efae28e151045f15d26",
+      "size": 2247,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/blobs/bc48c265288bacd4fb284efae28e151045f15d26"
+    },
+    {
+      "mode": "040000",
+      "path": "receipts",
+      "sha": "00294a4cbc7f385d23748b5c5545a8be16ad43d2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/trees/00294a4cbc7f385d23748b5c5545a8be16ad43d2"
+    },
+    {
+      "mode": "100644",
+      "path": "receipts/000-genesis.json",
+      "sha": "e6fb14c5c0023a1b2d5767294a15e18ac95b6776",
+      "size": 426,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/blobs/e6fb14c5c0023a1b2d5767294a15e18ac95b6776"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements.txt",
+      "sha": "c60a450337e644897d6a55536731244a9845cd21",
+      "size": 39,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/blobs/c60a450337e644897d6a55536731244a9845cd21"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "1549c104794220149e64f224c2be70aa886fba16",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/trees/1549c104794220149e64f224c2be70aa886fba16"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_quant_curve.py",
+      "sha": "85177ccea94746eabe8369854e9cfc396343edd9",
+      "size": 4545,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/blobs/85177ccea94746eabe8369854e9cfc396343edd9"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_verifier.py",
+      "sha": "d326ac4d7edc73c24ed3733b0945c70df8d4701f",
+      "size": 2372,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/blobs/d326ac4d7edc73c24ed3733b0945c70df8d4701f"
+    },
+    {
+      "mode": "040000",
+      "path": "tools",
+      "sha": "22aed46dfea7881c23eec855e1af94c59443c7be",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/trees/22aed46dfea7881c23eec855e1af94c59443c7be"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/sync_results.py",
+      "sha": "0ffc4f1b96585a60f5deaa1521d22805193d4c3d",
+      "size": 1606,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/blobs/0ffc4f1b96585a60f5deaa1521d22805193d4c3d"
+    },
+    {
+      "mode": "040000",
+      "path": "verify",
+      "sha": "f140c317158cde5b5e5a0ba489fc00c3391b218d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/trees/f140c317158cde5b5e5a0ba489fc00c3391b218d"
+    },
+    {
+      "mode": "100644",
+      "path": "verify/verifier.py",
+      "sha": "d416a550ff01bc1360f2a92691469fd8af6209b5",
+      "size": 3179,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/blobs/d416a550ff01bc1360f2a92691469fd8af6209b5"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/trees/26135bcc03e9d55f35dd8d7ed8f043631ea30cd2"
+}

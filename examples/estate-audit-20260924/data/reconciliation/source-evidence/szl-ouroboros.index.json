@@ -1,0 +1,44 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 16769,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:03Z",
+      "path": "data/reconciliation/source-evidence/e11808f5fa40aeddc982056b179748e75a07eafc61cc19500aaaa3433a8531d8.json",
+      "revision": "209a64394ae9a8baa9c2e4e9405f77580b4f9d1e",
+      "sha256": "e11808f5fa40aeddc982056b179748e75a07eafc61cc19500aaaa3433a8531d8",
+      "source_identity": "github/szl-holdings/szl-ouroboros",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ouroboros/git/trees/209a64394ae9a8baa9c2e4e9405f77580b4f9d1e?recursive=1"
+    }
+  ],
+  "file_count": 43,
+  "id": "github/szl-holdings/szl-ouroboros",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "209a64394ae9a8baa9c2e4e9405f77580b4f9d1e",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    ".zenodo.json",
+    "CHANGELOG.md",
+    "CITATION.cff",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "SECURITY.md",
+    "build.toml",
+    "build",
+    "codex",
+    "prompts",
+    "pyproject.toml",
+    "schemas",
+    "scripts",
+    "tests",
+    "torch-ext"
+  ]
+}

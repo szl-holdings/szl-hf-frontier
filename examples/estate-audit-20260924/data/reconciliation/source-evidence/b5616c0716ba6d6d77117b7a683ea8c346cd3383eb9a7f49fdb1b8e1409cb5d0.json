@@ -1,0 +1,397 @@
+{
+  "sha": "f7e290a197922134076ff190118d7fca2e4975db",
+  "tree": [
+    {
+      "mode": "100644",
+      "path": ".gitattributes",
+      "sha": "56415cd8d57dfddbea43d2d674ad2fa5f7fe3253",
+      "size": 1866,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/56415cd8d57dfddbea43d2d674ad2fa5f7fe3253"
+    },
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "f0f7c7775ba064b71474d7a48c36a4624505e414",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/trees/f0f7c7775ba064b71474d7a48c36a4624505e414"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/dependabot.yml",
+      "sha": "d681a59ca66a35a066072a06fa57afa3910804e1",
+      "size": 686,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/d681a59ca66a35a066072a06fa57afa3910804e1"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/hf-mirror.json",
+      "sha": "0d40b211cc532e771b51ac20ace59ac2cc17960c",
+      "size": 1114,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/0d40b211cc532e771b51ac20ace59ac2cc17960c"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "497b9de457b032bf3e6204951cf982d3649e395b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/trees/497b9de457b032bf3e6204951cf982d3649e395b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "58e4a1c6730a99dd5cdb54cc9583ae75045ff53c",
+      "size": 1073,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/58e4a1c6730a99dd5cdb54cc9583ae75045ff53c"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/codeql.yml",
+      "sha": "48aac054a48ddd213aab7f6ddcf19fda114061a9",
+      "size": 1658,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/48aac054a48ddd213aab7f6ddcf19fda114061a9"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-mirror.yml",
+      "sha": "336831da414d11bceec4b0e2ee1f95575a8148d5",
+      "size": 9445,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/336831da414d11bceec4b0e2ee1f95575a8148d5"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/overclaim-guard.yml",
+      "sha": "a1a132b0cbe542579fba2fc640506085711cd9ba",
+      "size": 727,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/a1a132b0cbe542579fba2fc640506085711cd9ba"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/pin-check.yml",
+      "sha": "f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621",
+      "size": 586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/sbom.yml",
+      "sha": "cab06d5590175f4b831ada93c570bd881fe746fe",
+      "size": 496,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/cab06d5590175f4b831ada93c570bd881fe746fe"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/scorecard.yml",
+      "sha": "92ad91c80f26aaf0f6d7d9ec1731e44406654eb5",
+      "size": 625,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/92ad91c80f26aaf0f6d7d9ec1731e44406654eb5"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/trivy.yml",
+      "sha": "94cac142860bdae0f4e78a78fb143ae95932ba1c",
+      "size": 514,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/94cac142860bdae0f4e78a78fb143ae95932ba1c"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "66169a9534894b4df1c33bcf26d0573d0e746362",
+      "size": 320,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/66169a9534894b4df1c33bcf26d0573d0e746362"
+    },
+    {
+      "mode": "100644",
+      "path": ".zenodo.json",
+      "sha": "f0bdcb8584d3eee01c9f0a772fd77fcf86b0ee3a",
+      "size": 911,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/f0bdcb8584d3eee01c9f0a772fd77fcf86b0ee3a"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "2632b001e806eeca445554c929f76bf80f56167f",
+      "size": 1001,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/2632b001e806eeca445554c929f76bf80f56167f"
+    },
+    {
+      "mode": "100644",
+      "path": "CODEOWNERS",
+      "sha": "bb847479aa7f36c62e092fe878c3e3e9ff6d7163",
+      "size": 52,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/bb847479aa7f36c62e092fe878c3e3e9ff6d7163"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "6a400e011f1cf8f455404c167c99d81d7b3ba1ab",
+      "size": 11343,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/6a400e011f1cf8f455404c167c99d81d7b3ba1ab"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "865fa55d1e2b94b8baf5520f4170b1ea655d5bc7",
+      "size": 12936,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/865fa55d1e2b94b8baf5520f4170b1ea655d5bc7"
+    },
+    {
+      "mode": "100644",
+      "path": "build.toml",
+      "sha": "3a697919f940eddae92364f3ca29c3e7f9c114c1",
+      "size": 61,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/3a697919f940eddae92364f3ca29c3e7f9c114c1"
+    },
+    {
+      "mode": "100644",
+      "path": "flake.nix",
+      "sha": "91f3364627ce3033ffe3d0e2a7274f277d74dbd3",
+      "size": 287,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/91f3364627ce3033ffe3d0e2a7274f277d74dbd3"
+    },
+    {
+      "mode": "040000",
+      "path": "frontier",
+      "sha": "415927a01888928a9ed397e79a5cbb2c33107b9b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/trees/415927a01888928a9ed397e79a5cbb2c33107b9b"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/compile_matrix.json",
+      "sha": "a0538af9ea46733405c20b0238a8bffc7fa7c1ff",
+      "size": 793,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/a0538af9ea46733405c20b0238a8bffc7fa7c1ff"
+    },
+    {
+      "mode": "040000",
+      "path": "hf-kernels",
+      "sha": "1e7d95e62184bc67702ed6a31dfe656b519dda89",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/trees/1e7d95e62184bc67702ed6a31dfe656b519dda89"
+    },
+    {
+      "mode": "040000",
+      "path": "hf-kernels/szl-governed-norm",
+      "sha": "a8d6f96796d936daadeacefa9b171186add1d2e4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/trees/a8d6f96796d936daadeacefa9b171186add1d2e4"
+    },
+    {
+      "mode": "100644",
+      "path": "hf-kernels/szl-governed-norm/README.md",
+      "sha": "5779fd76a629edd2ac5d976a0c0a8e5e95daf8e4",
+      "size": 640,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/5779fd76a629edd2ac5d976a0c0a8e5e95daf8e4"
+    },
+    {
+      "mode": "100644",
+      "path": "hf-kernels/szl-governed-norm/contract.json",
+      "sha": "8b63ce1a4c1c12073009ae9ec636ea955532ac5c",
+      "size": 320,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/8b63ce1a4c1c12073009ae9ec636ea955532ac5c"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "3550a6e585f5f0c17cfb65616ef8e06837598ab7",
+      "size": 1326,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/3550a6e585f5f0c17cfb65616ef8e06837598ab7"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "69bd147dbdb7e6a25b379e74535f967743f62e3a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/trees/69bd147dbdb7e6a25b379e74535f967743f62e3a"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/render_model_card.py",
+      "sha": "be90d25b14f7b0493ac975075a27345ff0669bf9",
+      "size": 3592,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/be90d25b14f7b0493ac975075a27345ff0669bf9"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "b20c8e85a39117b329e96e482d1ac237d6fb39fd",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/trees/b20c8e85a39117b329e96e482d1ac237d6fb39fd"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/governed_norm_test_correctness.py",
+      "sha": "b6a657e59cbe0ff83567beca9f273e0026794335",
+      "size": 5999,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/b6a657e59cbe0ff83567beca9f273e0026794335"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/governed_norm_test_norm.py",
+      "sha": "c0bc71a0d33df4f409a6826aee5de6a505c7d77d",
+      "size": 2277,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/c0bc71a0d33df4f409a6826aee5de6a505c7d77d"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/governed_norm_test_receipts.py",
+      "sha": "de19f00e84919b4c5759ff077221c852272c38d9",
+      "size": 10227,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/de19f00e84919b4c5759ff077221c852272c38d9"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/lambda_aggregator_source.py",
+      "sha": "de9c99e27edfe388d8bffa9943ad0c90dfb16fa5",
+      "size": 1878,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/de9c99e27edfe388d8bffa9943ad0c90dfb16fa5"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_compile_matrix.py",
+      "sha": "b64a997182959ddbd4c7f42e6ac325e88060f43a",
+      "size": 669,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/b64a997182959ddbd4c7f42e6ac325e88060f43a"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_hf_governed_norm_contract.py",
+      "sha": "cd80d744f4ba2fd28843513733f4f8794a2707bc",
+      "size": 1221,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/cd80d744f4ba2fd28843513733f4f8794a2707bc"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_hf_mirror_oidc_contract.py",
+      "sha": "9ebad6829c286f53320e2618da0b4c4c1c6227d6",
+      "size": 975,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/9ebad6829c286f53320e2618da0b4c4c1c6227d6"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_lambda.py",
+      "sha": "688a106b9d023049a1fa8f33101f4ed49637e8dd",
+      "size": 26327,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/688a106b9d023049a1fa8f33101f4ed49637e8dd"
+    },
+    {
+      "mode": "040000",
+      "path": "torch-ext",
+      "sha": "c021e06ca40933e0ce732527bbf38a78fe063ebe",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/trees/c021e06ca40933e0ce732527bbf38a78fe063ebe"
+    },
+    {
+      "mode": "040000",
+      "path": "torch-ext/szl_lambda_gate",
+      "sha": "c500917a801f07d97a9610c5ff3303f38b9b8d32",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/trees/c500917a801f07d97a9610c5ff3303f38b9b8d32"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_lambda_gate/__init__.py",
+      "sha": "6fcb0aafac26c02dfdea6d8313e204674c57cb77",
+      "size": 8254,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/6fcb0aafac26c02dfdea6d8313e204674c57cb77"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_lambda_gate/_lambda.py",
+      "sha": "73e53b25cde595ff349a8220c22ffbbf54a77b2c",
+      "size": 22531,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/73e53b25cde595ff349a8220c22ffbbf54a77b2c"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_lambda_gate/_ops.py",
+      "sha": "706dbc5d36369bbcf9441a88b228209b4e578e6b",
+      "size": 357,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/706dbc5d36369bbcf9441a88b228209b4e578e6b"
+    },
+    {
+      "mode": "040000",
+      "path": "torch-ext/szl_lambda_gate/governed_norm",
+      "sha": "486f6e5fc1179552ed093602515ee64b6f0ee826",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/trees/486f6e5fc1179552ed093602515ee64b6f0ee826"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_lambda_gate/governed_norm/__init__.py",
+      "sha": "5e6241d17116275bf531bef2909b51197f2f8eaf",
+      "size": 11224,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/5e6241d17116275bf531bef2909b51197f2f8eaf"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_lambda_gate/governed_norm/_norm.py",
+      "sha": "efeb82b88976dd6e88d90fd2a142e7d8c46ee2a1",
+      "size": 10259,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/efeb82b88976dd6e88d90fd2a142e7d8c46ee2a1"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_lambda_gate/governed_norm/_receipt.py",
+      "sha": "77c09db9d6e1712931b27ce1b744685542e939a6",
+      "size": 10338,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/77c09db9d6e1712931b27ce1b744685542e939a6"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_lambda_gate/governed_norm/layers.py",
+      "sha": "1d564e9a32a473ed6717673b46680389c84fdb26",
+      "size": 2404,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/1d564e9a32a473ed6717673b46680389c84fdb26"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_lambda_gate/layers.py",
+      "sha": "2ae8809f3f50e522378ea2997f4f05c6f2247c77",
+      "size": 1901,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/blobs/2ae8809f3f50e522378ea2997f4f05c6f2247c77"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/trees/f7e290a197922134076ff190118d7fca2e4975db"
+}

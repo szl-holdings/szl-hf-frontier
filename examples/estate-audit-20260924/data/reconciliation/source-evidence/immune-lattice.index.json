@@ -1,0 +1,58 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 46523,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:50Z",
+      "path": "data/reconciliation/source-evidence/d56ee84e1a0cb0c1b43c7e8a89255d675236d796e559ab838004a2d7ed9bcabf.json",
+      "revision": "bcee352e584feab4bac16f4f1677a799effc1e50",
+      "sha256": "d56ee84e1a0cb0c1b43c7e8a89255d675236d796e559ab838004a2d7ed9bcabf",
+      "source_identity": "github/szl-holdings/immune-lattice",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/bcee352e584feab4bac16f4f1677a799effc1e50?recursive=1"
+    },
+    {
+      "bytes": 553,
+      "kind": "license_file",
+      "observed_at": "2026-09-24T13:26:50Z",
+      "path": "data/reconciliation/source-evidence/29d29dfa8b5aa6569b203f8b9000eb370fad9cd3826a33fe048f495cb744d9cf.txt",
+      "revision": "bcee352e584feab4bac16f4f1677a799effc1e50",
+      "sha256": "29d29dfa8b5aa6569b203f8b9000eb370fad9cd3826a33fe048f495cb744d9cf",
+      "source_identity": "github/szl-holdings/immune-lattice",
+      "source_path": "LICENSE",
+      "url": "https://github.com/szl-holdings/immune-lattice/blob/bcee352e584feab4bac16f4f1677a799effc1e50/LICENSE"
+    }
+  ],
+  "file_count": 132,
+  "id": "github/szl-holdings/immune-lattice",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "bcee352e584feab4bac16f4f1677a799effc1e50",
+  "root_paths": [
+    ".dockerignore",
+    ".gitignore",
+    ".grok",
+    ".node_modules.lock",
+    ".prettierrc",
+    ".project_id",
+    "Dockerfile",
+    "LICENSE",
+    "README.md",
+    "eslint.config.mjs",
+    "immune",
+    "migrations",
+    "package-lock.json",
+    "package.json",
+    "public",
+    "requirements.txt",
+    "scripts",
+    "server",
+    "space",
+    "src",
+    "startup.sh",
+    "tsconfig.json",
+    "vite.config.ts"
+  ]
+}

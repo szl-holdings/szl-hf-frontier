@@ -1,0 +1,40 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 10121,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:56Z",
+      "path": "data/reconciliation/source-evidence/fff78fe21a8c8b052c70ae6b882ebca78e6907b2a1553c14f9f6fc7e74a1496b.json",
+      "revision": "27ef2f7100694f5cb1049747566eeeb639e8a99f",
+      "sha256": "fff78fe21a8c8b052c70ae6b882ebca78e6907b2a1553c14f9f6fc7e74a1496b",
+      "source_identity": "github/szl-holdings/szl-block-kv",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-block-kv/git/trees/27ef2f7100694f5cb1049747566eeeb639e8a99f?recursive=1"
+    }
+  ],
+  "file_count": 28,
+  "id": "github/szl-holdings/szl-block-kv",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "27ef2f7100694f5cb1049747566eeeb639e8a99f",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    ".zenodo.json",
+    "CARD.md",
+    "CITATION.cff",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "SECURITY.md",
+    "build.toml",
+    "flake.nix",
+    "pyproject.toml",
+    "tests",
+    "torch-ext"
+  ]
+}

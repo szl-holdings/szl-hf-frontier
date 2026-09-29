@@ -1,0 +1,15 @@
+{
+  "sha": "40d1b710ac89cecbeee21f97110c761f8b83b950",
+  "tree": [
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "667b36cefa05898fc2066f29de325be9fe5a2d31",
+      "size": 2005,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/fail-closed-governed-ai-services/git/blobs/667b36cefa05898fc2066f29de325be9fe5a2d31"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/fail-closed-governed-ai-services/git/trees/40d1b710ac89cecbeee21f97110c761f8b83b950"
+}

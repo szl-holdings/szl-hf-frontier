@@ -1,0 +1,28 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 2182,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:07Z",
+      "path": "data/reconciliation/source-evidence/0b2e6b2238e31e7aabddc1761b34d65d410cc3d4f12337125eb2ba7d8c871cbf.json",
+      "revision": "ef519c090c9e2c19852e8b5c774fc41c750d9ec5",
+      "sha256": "0b2e6b2238e31e7aabddc1761b34d65d410cc3d4f12337125eb2ba7d8c871cbf",
+      "source_identity": "github/szl-holdings/szl-telemetry",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-telemetry/git/trees/ef519c090c9e2c19852e8b5c774fc41c750d9ec5?recursive=1"
+    }
+  ],
+  "file_count": 4,
+  "id": "github/szl-holdings/szl-telemetry",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "ef519c090c9e2c19852e8b5c774fc41c750d9ec5",
+  "root_paths": [
+    ".github",
+    "LICENSE",
+    "README.md",
+    "scripts"
+  ]
+}

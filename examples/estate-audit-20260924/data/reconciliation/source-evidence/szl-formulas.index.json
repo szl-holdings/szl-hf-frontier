@@ -1,0 +1,40 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 12897,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:00Z",
+      "path": "data/reconciliation/source-evidence/29b6a2a60be2a04a82930473085e45890e8fa26d5189d859f3d4943be56299fd.json",
+      "revision": "d0e8110ac815a47612a2b5e7729e4a805335735e",
+      "sha256": "29b6a2a60be2a04a82930473085e45890e8fa26d5189d859f3d4943be56299fd",
+      "source_identity": "github/szl-holdings/szl-formulas",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/trees/d0e8110ac815a47612a2b5e7729e4a805335735e?recursive=1"
+    }
+  ],
+  "file_count": 33,
+  "id": "github/szl-holdings/szl-formulas",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "d0e8110ac815a47612a2b5e7729e4a805335735e",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    ".zenodo.json",
+    "CHANGELOG.md",
+    "CITATION.cff",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "SECURITY.md",
+    "atlas",
+    "build.toml",
+    "build",
+    "pyproject.toml",
+    "scripts",
+    "tests",
+    "torch-ext"
+  ]
+}

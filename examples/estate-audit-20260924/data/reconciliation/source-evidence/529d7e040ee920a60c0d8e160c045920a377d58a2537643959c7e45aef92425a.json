@@ -1,0 +1,136 @@
+{
+  "sha": "ceaef540eba6c5acf85091faf4a20cd9aef480f9",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "305a0763573f0ad478121661ad92e19adcb1e40f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formula-ledger/git/trees/305a0763573f0ad478121661ad92e19adcb1e40f"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "806937ed5d2700ed63408b7427d9472e01d12d26",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formula-ledger/git/trees/806937ed5d2700ed63408b7427d9472e01d12d26"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ledger-check.yml",
+      "sha": "2f9058d1b4ee95f0f4ab69615d36dad4d5673322",
+      "size": 983,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formula-ledger/git/blobs/2f9058d1b4ee95f0f4ab69615d36dad4d5673322"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "43ae0e2a6c6d8fca34872506ca0f2e64194fec7c",
+      "size": 23,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formula-ledger/git/blobs/43ae0e2a6c6d8fca34872506ca0f2e64194fec7c"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formula-ledger/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "77979175a747768cad604f337ea49269afcc569d",
+      "size": 5376,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formula-ledger/git/blobs/77979175a747768cad604f337ea49269afcc569d"
+    },
+    {
+      "mode": "040000",
+      "path": "formulas",
+      "sha": "9aa366fc058a3a8c2186f47848f4d12c67935b90",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formula-ledger/git/trees/9aa366fc058a3a8c2186f47848f4d12c67935b90"
+    },
+    {
+      "mode": "100644",
+      "path": "formulas/corpus.json",
+      "sha": "600654f89cb062320acae4284cb5220ff881eb3c",
+      "size": 10050,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formula-ledger/git/blobs/600654f89cb062320acae4284cb5220ff881eb3c"
+    },
+    {
+      "mode": "040000",
+      "path": "harness",
+      "sha": "3c32f5aa5fda742f561d29f99b86aee880f1d946",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formula-ledger/git/trees/3c32f5aa5fda742f561d29f99b86aee880f1d946"
+    },
+    {
+      "mode": "100644",
+      "path": "harness/harness.py",
+      "sha": "a489ad41adda7595f950175ebf444e71585f3609",
+      "size": 15298,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formula-ledger/git/blobs/a489ad41adda7595f950175ebf444e71585f3609"
+    },
+    {
+      "mode": "040000",
+      "path": "hf-kernels",
+      "sha": "c603fb0dc6afb2fac18efffcb52a8577b0ba2696",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formula-ledger/git/trees/c603fb0dc6afb2fac18efffcb52a8577b0ba2696"
+    },
+    {
+      "mode": "040000",
+      "path": "hf-kernels/szl-blocked",
+      "sha": "26693eb92d26e465f434bbb81f0f79a633bc05ad",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formula-ledger/git/trees/26693eb92d26e465f434bbb81f0f79a633bc05ad"
+    },
+    {
+      "mode": "100644",
+      "path": "hf-kernels/szl-blocked/README.md",
+      "sha": "93a1a530c1ea495150d0091f4873e15b15d15291",
+      "size": 1193,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formula-ledger/git/blobs/93a1a530c1ea495150d0091f4873e15b15d15291"
+    },
+    {
+      "mode": "100644",
+      "path": "hf-kernels/szl-blocked/contract.json",
+      "sha": "40fd7408378a6486bd4aa259acfabd9f8e2745cb",
+      "size": 463,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formula-ledger/git/blobs/40fd7408378a6486bd4aa259acfabd9f8e2745cb"
+    },
+    {
+      "mode": "100644",
+      "path": "ledger.json",
+      "sha": "efbf2b5dfc07796d8c165cea399793918f0dcc13",
+      "size": 8343,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formula-ledger/git/blobs/efbf2b5dfc07796d8c165cea399793918f0dcc13"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "3c2d997786ff11958fcf2955d2f6ddb72cc9d27a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formula-ledger/git/trees/3c2d997786ff11958fcf2955d2f6ddb72cc9d27a"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_hf_kernel_contract.py",
+      "sha": "ed70cd207bd09a84f7027c50d5aa68dfb09c5f7b",
+      "size": 1387,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formula-ledger/git/blobs/ed70cd207bd09a84f7027c50d5aa68dfb09c5f7b"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-formula-ledger/git/trees/ceaef540eba6c5acf85091faf4a20cd9aef480f9"
+}

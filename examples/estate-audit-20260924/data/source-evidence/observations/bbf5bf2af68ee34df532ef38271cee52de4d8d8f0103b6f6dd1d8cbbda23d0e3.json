@@ -1,0 +1,20 @@
+{
+  "card": "---\ntitle: Ayllu Counsel\nemoji: \ud83d\udca0\ncolorFrom: green\ncolorTo: yellow\nsdk: docker\napp_port: 7860\npinned: false\nlicense: apache-2.0\nshort_description: Legal Matter Command. 11 seats. Maskaq vertical search. Conjecture 1.\ntags:\n  - agent-council\n  - holographic\n  - governance\n  - fail-closed\n  - quechua\n  - legal\n  - vertical-search\n---\n\n# Ayllu \u2014 Hugging Face Space bind\n\nThis repository is the **org-side Space slot** for Ayllu Counsel.\n\n| Role | Origin |\n|---|---|\n| Canonical Python product | [szl-holdings/ayllu](https://github.com/szl-holdings/ayllu) |\n| Hugging Face Space | [SZLHOLDINGS/ayllu](https://huggingface.co/spaces/SZLHOLDINGS/ayllu) |\n| Product | [a-11-oy.com](https://a-11-oy.com) |\n| Proof | [a11oy.net](https://a11oy.net) |\n\n**Honesty:** this repo is a bind target, not a second product. Do not fork the council here. Sync from `szl-holdings/ayllu` and publish with `HF_TOKEN`.\n\nThe Space is a **vertical search + kinship counsel**:\n- Maskaq retrieve over the public 575-chunk Second Brain projection (handles only)\n- Eleven Quechua seats, fail-closed \u039b-gate, UNSIGNED receipts\n- Legal Matter Command as continuance of retired Counsel\n\n\u039b uniqueness is **Conjecture 1** and is never a theorem.\n\n## Terminal handoff (Grok in terminal)\n\nSee [TERMINAL_HANDOFF.md](TERMINAL_HANDOFF.md).\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 1307,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/25cb00df31bda8ac04846c12141cf2938236d4305bbff761cc048e1e5239827f.md",
+      "revision": "4ab0f246e6cf46113706f3af2dfc011dc1268f44",
+      "sha256": "25cb00df31bda8ac04846c12141cf2938236d4305bbff761cc048e1e5239827f",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/ayllu-hf-space/blob/4ab0f246e6cf46113706f3af2dfc011dc1268f44/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/ayllu-hf-space",
+  "observed_at": "2026-09-24T12:29:26Z",
+  "observed_revision": "4ab0f246e6cf46113706f3af2dfc011dc1268f44"
+}

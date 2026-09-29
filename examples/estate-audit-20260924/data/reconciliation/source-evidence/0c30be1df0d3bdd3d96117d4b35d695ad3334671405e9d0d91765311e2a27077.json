@@ -1,0 +1,640 @@
+{
+  "sha": "79ec6351daf9cf3acf3505a50d112ee8b0f06a13",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "2c66a66021b8c6189dfe27270e621cad05562500",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/trees/2c66a66021b8c6189dfe27270e621cad05562500"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODEOWNERS",
+      "sha": "51b4b77fe10673366eadd19b40742aabb897e641",
+      "size": 25,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/51b4b77fe10673366eadd19b40742aabb897e641"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/dependabot.yml",
+      "sha": "ffea88645fcdfe6a90bee976fdae638135e3acb5",
+      "size": 372,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/ffea88645fcdfe6a90bee976fdae638135e3acb5"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "e35526c9bb94264a345c0c8ed8606d8d64b2844b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/trees/e35526c9bb94264a345c0c8ed8606d8d64b2844b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/bundle-ref-check.yml",
+      "sha": "f610e1a4fe67678fef10395681a99956fe4634f1",
+      "size": 1321,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/f610e1a4fe67678fef10395681a99956fe4634f1"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "ba7c6665c33788456b3a11c24b6c03c591027c31",
+      "size": 7864,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/ba7c6665c33788456b3a11c24b6c03c591027c31"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/dco.yml",
+      "sha": "6b3588ebd86227cbd3395a87075c41134f7e16a9",
+      "size": 1983,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/6b3588ebd86227cbd3395a87075c41134f7e16a9"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/doctrine.yml",
+      "sha": "c8bd3571770985aedeb02771bb19ae44deb834dd",
+      "size": 184,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/c8bd3571770985aedeb02771bb19ae44deb834dd"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/k3d-smoke.yml",
+      "sha": "48b5583942189f3f7398d240eb080f74f3d71bba",
+      "size": 25229,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/48b5583942189f3f7398d240eb080f74f3d71bba"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/overclaim-guard.yml",
+      "sha": "7d6be6ea81d2fb1f4829869c1f06c416f581d633",
+      "size": 691,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/7d6be6ea81d2fb1f4829869c1f06c416f581d633"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/pin-check.yml",
+      "sha": "f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621",
+      "size": 586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/release.yml",
+      "sha": "c02c375c5fd2beb0205f6cf7655813402d130391",
+      "size": 1951,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/c02c375c5fd2beb0205f6cf7655813402d130391"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/scorecard.yml",
+      "sha": "fd926e958caf5bedf370765c7359374e2d8be4f2",
+      "size": 1518,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/fd926e958caf5bedf370765c7359374e2d8be4f2"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/v0.2.0-release-recovery-verify.yml",
+      "sha": "53e7f06ab49bc3da1513b611c3b47a333093c676",
+      "size": 16216,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/53e7f06ab49bc3da1513b611c3b47a333093c676"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/zarf-package-sign.yml",
+      "sha": "6a7b092d0867fc522d93e1226c7c21d552fb21d6",
+      "size": 25527,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/6a7b092d0867fc522d93e1226c7c21d552fb21d6"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "13654b18bcfe66c5dfd048c08b63e2673e4ffa4b",
+      "size": 348,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/13654b18bcfe66c5dfd048c08b63e2673e4ffa4b"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "aa8a5ba1c931e08ebe983f61c5deb8c60439a0c2",
+      "size": 726,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/aa8a5ba1c931e08ebe983f61c5deb8c60439a0c2"
+    },
+    {
+      "mode": "100644",
+      "path": "CONTRIBUTING.md",
+      "sha": "6fd50d9dec5b0627aa55eda90392b0dcde1d5c1f",
+      "size": 2230,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/6fd50d9dec5b0627aa55eda90392b0dcde1d5c1f"
+    },
+    {
+      "mode": "100644",
+      "path": "HONEST_ROLES.md",
+      "sha": "8a2b4a36a6b966f5131090e125acbe02aeb556c6",
+      "size": 2122,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/8a2b4a36a6b966f5131090e125acbe02aeb556c6"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "Makefile",
+      "sha": "09f07efedb0ac15dfc7753815229ce26472bda02",
+      "size": 10571,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/09f07efedb0ac15dfc7753815229ce26472bda02"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "f7c77c4c9810887125cf869d7ae3cc006a7021c8",
+      "size": 15311,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/f7c77c4c9810887125cf869d7ae3cc006a7021c8"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "43ae2a9661008ec1eb0490ee0f4a574240d1abd5",
+      "size": 3104,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/43ae2a9661008ec1eb0490ee0f4a574240d1abd5"
+    },
+    {
+      "mode": "100644",
+      "path": "SZL_FLEET_OVERLAY_DESIGN.md",
+      "sha": "058106bbdb18e8f5bf56f0aa316b01a8ef48019b",
+      "size": 22232,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/058106bbdb18e8f5bf56f0aa316b01a8ef48019b"
+    },
+    {
+      "mode": "040000",
+      "path": "chart",
+      "sha": "da8d913698ed193b58d3cf3546171d4e29d6cb6a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/trees/da8d913698ed193b58d3cf3546171d4e29d6cb6a"
+    },
+    {
+      "mode": "100644",
+      "path": "chart/Chart.yaml",
+      "sha": "fd6a74b57f69beb06f576df47a36444759689521",
+      "size": 514,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/fd6a74b57f69beb06f576df47a36444759689521"
+    },
+    {
+      "mode": "040000",
+      "path": "chart/templates",
+      "sha": "e71fc326bdd2ff7a75f34b6ba8b38492ba405349",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/trees/e71fc326bdd2ff7a75f34b6ba8b38492ba405349"
+    },
+    {
+      "mode": "100644",
+      "path": "chart/templates/_helpers.tpl",
+      "sha": "c7dced0c86efd595f58c8b8bcdea21504901ae66",
+      "size": 3607,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/c7dced0c86efd595f58c8b8bcdea21504901ae66"
+    },
+    {
+      "mode": "100644",
+      "path": "chart/templates/package-a11oy.yaml",
+      "sha": "39d56291fe1c8cdafb98ebde6f0d48c656ef8058",
+      "size": 168,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/39d56291fe1c8cdafb98ebde6f0d48c656ef8058"
+    },
+    {
+      "mode": "100644",
+      "path": "chart/templates/package-amaru.yaml",
+      "sha": "b62924b7fa4795f90528366517387a1cf14c9f1b",
+      "size": 168,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/b62924b7fa4795f90528366517387a1cf14c9f1b"
+    },
+    {
+      "mode": "100644",
+      "path": "chart/templates/package-defensive-control-plane.yaml",
+      "sha": "b3bfe014192c855c11003a9548f84e4f0dcb522e",
+      "size": 737,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/b3bfe014192c855c11003a9548f84e4f0dcb522e"
+    },
+    {
+      "mode": "100644",
+      "path": "chart/templates/package-killinchu.yaml",
+      "sha": "5df5eeb363e9ed2c80302bddaa8390579d45c5ab",
+      "size": 180,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/5df5eeb363e9ed2c80302bddaa8390579d45c5ab"
+    },
+    {
+      "mode": "100644",
+      "path": "chart/templates/package-rosie.yaml",
+      "sha": "6c7f7fe9b833d0ea88910b1879fdfb77a05761ae",
+      "size": 168,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/6c7f7fe9b833d0ea88910b1879fdfb77a05761ae"
+    },
+    {
+      "mode": "100644",
+      "path": "chart/templates/package-sentra.yaml",
+      "sha": "b9b8660aa1e0663ec7b45f1f10d98b6e94163b22",
+      "size": 171,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/b9b8660aa1e0663ec7b45f1f10d98b6e94163b22"
+    },
+    {
+      "mode": "100644",
+      "path": "chart/templates/workload-defensive-control-plane.yaml",
+      "sha": "781d9c047eb01c59b0cf6e76a8c496af72f6851c",
+      "size": 7435,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/781d9c047eb01c59b0cf6e76a8c496af72f6851c"
+    },
+    {
+      "mode": "100644",
+      "path": "chart/values.yaml",
+      "sha": "b35f5c1f0818204c526f3bab9cba9e6a93e092e4",
+      "size": 2008,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/b35f5c1f0818204c526f3bab9cba9e6a93e092e4"
+    },
+    {
+      "mode": "040000",
+      "path": "chart/values",
+      "sha": "0b2a3734cfcc82de38f497120efdbc1501224d1d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/trees/0b2a3734cfcc82de38f497120efdbc1501224d1d"
+    },
+    {
+      "mode": "100644",
+      "path": "chart/values/dev.yaml",
+      "sha": "2ddd45d389fb0040eb4f3e861e3b751c13ad2086",
+      "size": 1385,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/2ddd45d389fb0040eb4f3e861e3b751c13ad2086"
+    },
+    {
+      "mode": "100644",
+      "path": "chart/values/prod.yaml",
+      "sha": "8bcc4302f8b9c5dfbc917cf62bdde99dfd9bcc43",
+      "size": 1298,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/8bcc4302f8b9c5dfbc917cf62bdde99dfd9bcc43"
+    },
+    {
+      "mode": "100644",
+      "path": "chart/values/staging.yaml",
+      "sha": "ffd14113f56aa31f18370cf5772aee0132973483",
+      "size": 1306,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/ffd14113f56aa31f18370cf5772aee0132973483"
+    },
+    {
+      "mode": "040000",
+      "path": "configs",
+      "sha": "bd634bffaa5d1f9a314017bd182496e315196627",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/trees/bd634bffaa5d1f9a314017bd182496e315196627"
+    },
+    {
+      "mode": "100644",
+      "path": "configs/namespaces.yaml",
+      "sha": "f0d52f91f3521633d38ca43d1775a4953dfa3f3f",
+      "size": 893,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/f0d52f91f3521633d38ca43d1775a4953dfa3f3f"
+    },
+    {
+      "mode": "040000",
+      "path": "configs/packages",
+      "sha": "c2b76fa4d4c0057d8d011c9eec5eab8129c6d6dc",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/trees/c2b76fa4d4c0057d8d011c9eec5eab8129c6d6dc"
+    },
+    {
+      "mode": "100644",
+      "path": "configs/packages/package-a11oy.yaml",
+      "sha": "1401842bf1fbbaeb64536674d2702399c9f6c4d7",
+      "size": 1826,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/1401842bf1fbbaeb64536674d2702399c9f6c4d7"
+    },
+    {
+      "mode": "100644",
+      "path": "configs/packages/package-amaru.yaml",
+      "sha": "d6f353b2a038c176848d137b96ff45d541c38c48",
+      "size": 1826,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/d6f353b2a038c176848d137b96ff45d541c38c48"
+    },
+    {
+      "mode": "100644",
+      "path": "configs/packages/package-defensive-control-plane.yaml",
+      "sha": "da585e30f5f7b56f1f46f16838e61cef20f40c5c",
+      "size": 796,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/da585e30f5f7b56f1f46f16838e61cef20f40c5c"
+    },
+    {
+      "mode": "100644",
+      "path": "configs/packages/package-killinchu.yaml",
+      "sha": "1c62d10e1d8ac09ee6d667e8b684db708106f80c",
+      "size": 1882,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/1c62d10e1d8ac09ee6d667e8b684db708106f80c"
+    },
+    {
+      "mode": "100644",
+      "path": "configs/packages/package-rosie.yaml",
+      "sha": "67bf27f091ded394144cd9723b94de61d7db4647",
+      "size": 1826,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/67bf27f091ded394144cd9723b94de61d7db4647"
+    },
+    {
+      "mode": "100644",
+      "path": "configs/packages/package-sentra.yaml",
+      "sha": "07ebe0179f60acc2678d05cb439117fc72da6e6a",
+      "size": 1840,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/07ebe0179f60acc2678d05cb439117fc72da6e6a"
+    },
+    {
+      "mode": "040000",
+      "path": "configs/peat",
+      "sha": "851a3c9bdc5531ffc17b0dd30c9914fe2b06c4ec",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/trees/851a3c9bdc5531ffc17b0dd30c9914fe2b06c4ec"
+    },
+    {
+      "mode": "100644",
+      "path": "configs/peat/peat-node-a11oy.yaml",
+      "sha": "625e676771cb025fe462fa3a9a81af1a3e09aed8",
+      "size": 670,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/625e676771cb025fe462fa3a9a81af1a3e09aed8"
+    },
+    {
+      "mode": "100644",
+      "path": "configs/peat/peat-node-amaru.yaml",
+      "sha": "1a60492d423430ae79d55736f87c3edd7a3a6c4a",
+      "size": 670,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/1a60492d423430ae79d55736f87c3edd7a3a6c4a"
+    },
+    {
+      "mode": "100644",
+      "path": "configs/peat/peat-node-killinchu.yaml",
+      "sha": "ef03b878f5edb2d6d850b8aed4f8a7225afd9ff7",
+      "size": 690,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/ef03b878f5edb2d6d850b8aed4f8a7225afd9ff7"
+    },
+    {
+      "mode": "100644",
+      "path": "configs/peat/peat-node-rosie.yaml",
+      "sha": "85961c0ee67f9b24d0d80f8659558b8096e186ae",
+      "size": 670,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/85961c0ee67f9b24d0d80f8659558b8096e186ae"
+    },
+    {
+      "mode": "100644",
+      "path": "configs/peat/peat-node-sentra.yaml",
+      "sha": "a5a3655bbef6a8bfb6900853b4574790d7ba1d5c",
+      "size": 675,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/a5a3655bbef6a8bfb6900853b4574790d7ba1d5c"
+    },
+    {
+      "mode": "040000",
+      "path": "configs/workloads",
+      "sha": "4ff0806bd03c3715e7b735260a07afc89d8ccfbd",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/trees/4ff0806bd03c3715e7b735260a07afc89d8ccfbd"
+    },
+    {
+      "mode": "100644",
+      "path": "configs/workloads/defensive-control-plane.yaml",
+      "sha": "2e0bc47f04acef861a4e91ef66a4d6d9851dfeb5",
+      "size": 5874,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/2e0bc47f04acef861a4e91ef66a4d6d9851dfeb5"
+    },
+    {
+      "mode": "040000",
+      "path": "deploy",
+      "sha": "29746b35b0c0f87243d2777b15886d75cb309148",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/trees/29746b35b0c0f87243d2777b15886d75cb309148"
+    },
+    {
+      "mode": "040000",
+      "path": "deploy/flagships",
+      "sha": "f9b1ba1afff1e1dbdbff07778dc60d8896aae8aa",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/trees/f9b1ba1afff1e1dbdbff07778dc60d8896aae8aa"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/flagships/deployments.yaml",
+      "sha": "44efa26c03e9d636d9093dbfd4685e5d207e814f",
+      "size": 11266,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/44efa26c03e9d636d9093dbfd4685e5d207e814f"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "d3c7aea04687820c41767fe3e5aab85e9395c0e3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/trees/d3c7aea04687820c41767fe3e5aab85e9395c0e3"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/WARHACKER_DEMO_RUNBOOK.md",
+      "sha": "592f11dc1e46743c048b414e1dc9892cc82b47d9",
+      "size": 19269,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/592f11dc1e46743c048b414e1dc9892cc82b47d9"
+    },
+    {
+      "mode": "040000",
+      "path": "receipts",
+      "sha": "8be648f82c110dd060d09b608f240cbf1701d791",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/trees/8be648f82c110dd060d09b608f240cbf1701d791"
+    },
+    {
+      "mode": "100644",
+      "path": "receipts/checksums.txt",
+      "sha": "33b64bafe1dea6fdfbd919eb1baa8c1172689038",
+      "size": 3608,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/33b64bafe1dea6fdfbd919eb1baa8c1172689038"
+    },
+    {
+      "mode": "100644",
+      "path": "receipts/demo-receipts-summary.md",
+      "sha": "5db6b136fe7f2705fbf0207fb12f1d7aa23f13a7",
+      "size": 2035,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/5db6b136fe7f2705fbf0207fb12f1d7aa23f13a7"
+    },
+    {
+      "mode": "100644",
+      "path": "receipts/demo-receipts.jsonl",
+      "sha": "8f95cdbbde44458215e08671d98a2859279ab837",
+      "size": 30724,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/8f95cdbbde44458215e08671d98a2859279ab837"
+    },
+    {
+      "mode": "100644",
+      "path": "receipts/doctrine-pin.yaml",
+      "sha": "6c27cfdd7a54d69e612515c3535521a3539f3de3",
+      "size": 1491,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/6c27cfdd7a54d69e612515c3535521a3539f3de3"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "86dde26861f882aef79d22dc311182a31bf5cc7e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/trees/86dde26861f882aef79d22dc311182a31bf5cc7e"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/preflight.sh",
+      "sha": "21eb33e73ee0204c665cb94de1d86308e0fe48fb",
+      "size": 10857,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/21eb33e73ee0204c665cb94de1d86308e0fe48fb"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/seed-receipts.py",
+      "sha": "7de31fd4c32f56eb8fb03126ac5c8da6a7381aa9",
+      "size": 12528,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/7de31fd4c32f56eb8fb03126ac5c8da6a7381aa9"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/source_checksums.py",
+      "sha": "7e0f52d9a2384da014a23f5e58846898e352a24f",
+      "size": 2800,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/7e0f52d9a2384da014a23f5e58846898e352a24f"
+    },
+    {
+      "mode": "100644",
+      "path": "tasks.yaml",
+      "sha": "f1dd9dd32898ffb2da46348e194686d3ee57ad07",
+      "size": 17888,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/f1dd9dd32898ffb2da46348e194686d3ee57ad07"
+    },
+    {
+      "mode": "100644",
+      "path": "uds-bundle.yaml",
+      "sha": "07ba39c85c08a0b6001f1bc4b5be85350d6f77e2",
+      "size": 831,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/07ba39c85c08a0b6001f1bc4b5be85350d6f77e2"
+    },
+    {
+      "mode": "040000",
+      "path": "uds-packages",
+      "sha": "9a0b0349a9fc5cb0ccead94f6a7e63965f8f3089",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/trees/9a0b0349a9fc5cb0ccead94f6a7e63965f8f3089"
+    },
+    {
+      "mode": "100644",
+      "path": "uds-packages/a11oy.yaml",
+      "sha": "89020b562055aed91272d97dd11c9db34d7db982",
+      "size": 2960,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/89020b562055aed91272d97dd11c9db34d7db982"
+    },
+    {
+      "mode": "100644",
+      "path": "uds-packages/amaru.yaml",
+      "sha": "4fb86af6a65edd15ef54ec80cdcfd660dd20a07b",
+      "size": 2960,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/4fb86af6a65edd15ef54ec80cdcfd660dd20a07b"
+    },
+    {
+      "mode": "100644",
+      "path": "uds-packages/defensive-control-plane.yaml",
+      "sha": "f0f780c216d0c60a63f0fa427ba653e6b3a44f83",
+      "size": 881,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/f0f780c216d0c60a63f0fa427ba653e6b3a44f83"
+    },
+    {
+      "mode": "100644",
+      "path": "uds-packages/killinchu.yaml",
+      "sha": "69c4504a22ae00a5ce27f3c093e318a85f8ab0f7",
+      "size": 3024,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/69c4504a22ae00a5ce27f3c093e318a85f8ab0f7"
+    },
+    {
+      "mode": "100644",
+      "path": "uds-packages/rosie.yaml",
+      "sha": "1dacf27a6a2340638a43ca8add0aba5c72fcdb95",
+      "size": 2960,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/1dacf27a6a2340638a43ca8add0aba5c72fcdb95"
+    },
+    {
+      "mode": "100644",
+      "path": "uds-packages/sentra.yaml",
+      "sha": "5cd6be4d5320757c2970df2137be86fc3385972a",
+      "size": 2976,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/5cd6be4d5320757c2970df2137be86fc3385972a"
+    },
+    {
+      "mode": "100644",
+      "path": "zarf.yaml",
+      "sha": "659c5e6ed43c6b2930da587a3c28fea866116e22",
+      "size": 4428,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/blobs/659c5e6ed43c6b2930da587a3c28fea866116e22"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/trees/79ec6351daf9cf3acf3505a50d112ee8b0f06a13"
+}

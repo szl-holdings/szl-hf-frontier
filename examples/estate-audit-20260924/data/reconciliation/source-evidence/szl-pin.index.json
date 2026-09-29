@@ -1,0 +1,42 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 4078,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:04Z",
+      "path": "data/reconciliation/source-evidence/4ffd8c57a69552022f83b7dbe5e93a1b0fd6d7a4bdd2e1fa7f639f8b09afa3ef.json",
+      "revision": "6af7659994980b76ce9fff1e07625d5c24c90a6d",
+      "sha256": "4ffd8c57a69552022f83b7dbe5e93a1b0fd6d7a4bdd2e1fa7f639f8b09afa3ef",
+      "source_identity": "github/szl-holdings/szl-pin",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-pin/git/trees/6af7659994980b76ce9fff1e07625d5c24c90a6d?recursive=1"
+    },
+    {
+      "bytes": 324,
+      "kind": "license_file",
+      "observed_at": "2026-09-24T13:27:04Z",
+      "path": "data/reconciliation/source-evidence/514287b5eaf490515e2966319ed34d98e4dd616c97f97b65fecd966f0cfc1718.txt",
+      "revision": "6af7659994980b76ce9fff1e07625d5c24c90a6d",
+      "sha256": "514287b5eaf490515e2966319ed34d98e4dd616c97f97b65fecd966f0cfc1718",
+      "source_identity": "github/szl-holdings/szl-pin",
+      "source_path": "LICENSE",
+      "url": "https://github.com/szl-holdings/szl-pin/blob/6af7659994980b76ce9fff1e07625d5c24c90a6d/LICENSE"
+    }
+  ],
+  "file_count": 8,
+  "id": "github/szl-holdings/szl-pin",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "6af7659994980b76ce9fff1e07625d5c24c90a6d",
+  "root_paths": [
+    ".github",
+    "LICENSE",
+    "README.md",
+    "pyproject.toml",
+    "receipts",
+    "src",
+    "tests"
+  ]
+}

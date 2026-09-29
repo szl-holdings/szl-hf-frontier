@@ -1,0 +1,39 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 22242,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:10Z",
+      "path": "data/reconciliation/source-evidence/096611f3680d081da9e36492c55097bf9fde36c0be8cfa6485a71f7a9c220d2f.json",
+      "revision": "633b5905fb5d428f499789d20fdcf7c47f01bb61",
+      "sha256": "096611f3680d081da9e36492c55097bf9fde36c0be8cfa6485a71f7a9c220d2f",
+      "source_identity": "github/szl-holdings/yarqa",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/yarqa/git/trees/633b5905fb5d428f499789d20fdcf7c47f01bb61?recursive=1"
+    }
+  ],
+  "file_count": 65,
+  "id": "github/szl-holdings/yarqa",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "633b5905fb5d428f499789d20fdcf7c47f01bb61",
+  "root_paths": [
+    ".dockerignore",
+    ".gitattributes",
+    ".github",
+    ".gitignore",
+    ".gitleaks.toml",
+    "CITATIONS.md",
+    "LICENSE",
+    "PROVENANCE.md",
+    "README.md",
+    "examples",
+    "pyproject.toml",
+    "scripts",
+    "space",
+    "tests",
+    "yarqa"
+  ]
+}

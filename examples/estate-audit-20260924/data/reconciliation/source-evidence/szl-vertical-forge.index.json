@@ -1,0 +1,45 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 12538,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:08Z",
+      "path": "data/reconciliation/source-evidence/8a9625db7a1236e2026eff24969af0ca662f65fca608458b7e64dc9c9571ec93.json",
+      "revision": "6a05a17004d245f929176e01e29b20a0ab0e8bb3",
+      "sha256": "8a9625db7a1236e2026eff24969af0ca662f65fca608458b7e64dc9c9571ec93",
+      "source_identity": "github/szl-holdings/szl-vertical-forge",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-vertical-forge/git/trees/6a05a17004d245f929176e01e29b20a0ab0e8bb3?recursive=1"
+    },
+    {
+      "bytes": 324,
+      "kind": "license_file",
+      "observed_at": "2026-09-24T13:27:08Z",
+      "path": "data/reconciliation/source-evidence/514287b5eaf490515e2966319ed34d98e4dd616c97f97b65fecd966f0cfc1718.txt",
+      "revision": "6a05a17004d245f929176e01e29b20a0ab0e8bb3",
+      "sha256": "514287b5eaf490515e2966319ed34d98e4dd616c97f97b65fecd966f0cfc1718",
+      "source_identity": "github/szl-holdings/szl-vertical-forge",
+      "source_path": "LICENSE",
+      "url": "https://github.com/szl-holdings/szl-vertical-forge/blob/6a05a17004d245f929176e01e29b20a0ab0e8bb3/LICENSE"
+    }
+  ],
+  "file_count": 28,
+  "id": "github/szl-holdings/szl-vertical-forge",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "6a05a17004d245f929176e01e29b20a0ab0e8bb3",
+  "root_paths": [
+    ".gitattributes",
+    ".github",
+    ".gitignore",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "dist",
+    "pyproject.toml",
+    "src",
+    "tests"
+  ]
+}

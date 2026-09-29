@@ -1,0 +1,468 @@
+{
+  "sha": "dadba9d06d47bd3b83c2bb89290fb3cd57b9a70d",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "8f48660823121ef68d012a35c42dde0648b1b1e2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/trees/8f48660823121ef68d012a35c42dde0648b1b1e2"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/dependabot.yml",
+      "sha": "d681a59ca66a35a066072a06fa57afa3910804e1",
+      "size": 686,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/d681a59ca66a35a066072a06fa57afa3910804e1"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "2b97be8ac98ede8a9842dd4d1c8f9076776e6311",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/trees/2b97be8ac98ede8a9842dd4d1c8f9076776e6311"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "c9919333b135c220c468a3a7685b0eb2f046a51c",
+      "size": 695,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/c9919333b135c220c468a3a7685b0eb2f046a51c"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/codeql.yml",
+      "sha": "48aac054a48ddd213aab7f6ddcf19fda114061a9",
+      "size": 1658,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/48aac054a48ddd213aab7f6ddcf19fda114061a9"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/overclaim-guard.yml",
+      "sha": "20e00b308ca90af4dfa925c861db46b9dcd6179a",
+      "size": 734,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/20e00b308ca90af4dfa925c861db46b9dcd6179a"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/pin-check.yml",
+      "sha": "f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621",
+      "size": 586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/sbom.yml",
+      "sha": "cab06d5590175f4b831ada93c570bd881fe746fe",
+      "size": 496,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/cab06d5590175f4b831ada93c570bd881fe746fe"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/scorecard.yml",
+      "sha": "92ad91c80f26aaf0f6d7d9ec1731e44406654eb5",
+      "size": 625,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/92ad91c80f26aaf0f6d7d9ec1731e44406654eb5"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/trivy.yml",
+      "sha": "94cac142860bdae0f4e78a78fb143ae95932ba1c",
+      "size": 514,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/94cac142860bdae0f4e78a78fb143ae95932ba1c"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "bafac4e568816e9855d8e27d74ea3a90959257c2",
+      "size": 301,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/bafac4e568816e9855d8e27d74ea3a90959257c2"
+    },
+    {
+      "mode": "100644",
+      "path": ".zenodo.json",
+      "sha": "8fadf570421aafbe7847276b76ff93d936154a4f",
+      "size": 897,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/8fadf570421aafbe7847276b76ff93d936154a4f"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "70f112ad60ee4141a4b1057ed711ac49aba3f249",
+      "size": 1133,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/70f112ad60ee4141a4b1057ed711ac49aba3f249"
+    },
+    {
+      "mode": "100644",
+      "path": "CODEOWNERS",
+      "sha": "bb847479aa7f36c62e092fe878c3e3e9ff6d7163",
+      "size": 52,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/bb847479aa7f36c62e092fe878c3e3e9ff6d7163"
+    },
+    {
+      "mode": "100644",
+      "path": "HUB_MIRROR_STATUS.json",
+      "sha": "6426edda4f5ea66058b80f13059bb3cb7a326f49",
+      "size": 685,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/6426edda4f5ea66058b80f13059bb3cb7a326f49"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "6a400e011f1cf8f455404c167c99d81d7b3ba1ab",
+      "size": 11343,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/6a400e011f1cf8f455404c167c99d81d7b3ba1ab"
+    },
+    {
+      "mode": "100644",
+      "path": "MIGRATION_PROVENANCE.json",
+      "sha": "a6c968aa3c1cd4c182f28c4652f293894984122a",
+      "size": 3356,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/a6c968aa3c1cd4c182f28c4652f293894984122a"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "f68f1c5f18312240fc181920d7878316f8f82aa9",
+      "size": 16767,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/f68f1c5f18312240fc181920d7878316f8f82aa9"
+    },
+    {
+      "mode": "100644",
+      "path": "SPEC.md",
+      "sha": "248634c383fb20c60a384420b4db228d7b1982b9",
+      "size": 7738,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/248634c383fb20c60a384420b4db228d7b1982b9"
+    },
+    {
+      "mode": "040000",
+      "path": "energy_core",
+      "sha": "90f557bd12cf16fd728ef96e0cc565413fe4b242",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/trees/90f557bd12cf16fd728ef96e0cc565413fe4b242"
+    },
+    {
+      "mode": "100644",
+      "path": "energy_core/README.md",
+      "sha": "91b4cc97026b41432bfd487ab40c7c2361bd2db8",
+      "size": 2696,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/91b4cc97026b41432bfd487ab40c7c2361bd2db8"
+    },
+    {
+      "mode": "100644",
+      "path": "energy_core/demo.py",
+      "sha": "b0773d30d0ccb717efb32fbc9f295aa9a9435f76",
+      "size": 5570,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/b0773d30d0ccb717efb32fbc9f295aa9a9435f76"
+    },
+    {
+      "mode": "100644",
+      "path": "energy_core/pyproject.toml",
+      "sha": "5a2844242ca1c3f98b8b4117d6ec248a9334d559",
+      "size": 413,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/5a2844242ca1c3f98b8b4117d6ec248a9334d559"
+    },
+    {
+      "mode": "040000",
+      "path": "energy_core/szl_energy_core",
+      "sha": "2b24fa679d50663fa2aa5dd0ae2cec3a125d3f2f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/trees/2b24fa679d50663fa2aa5dd0ae2cec3a125d3f2f"
+    },
+    {
+      "mode": "100644",
+      "path": "energy_core/szl_energy_core/__init__.py",
+      "sha": "3a98402698a43832c98b6938c393809e1ed59e52",
+      "size": 30195,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/3a98402698a43832c98b6938c393809e1ed59e52"
+    },
+    {
+      "mode": "040000",
+      "path": "energy_core/tests",
+      "sha": "384123ec2b061b1d6ab622dd799e0cc1359f5ecd",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/trees/384123ec2b061b1d6ab622dd799e0cc1359f5ecd"
+    },
+    {
+      "mode": "100644",
+      "path": "energy_core/tests/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "mode": "100644",
+      "path": "energy_core/tests/test_energy_core.py",
+      "sha": "d33ab3274408c3eba6ad9b8d29980180a014f6f1",
+      "size": 8734,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/d33ab3274408c3eba6ad9b8d29980180a014f6f1"
+    },
+    {
+      "mode": "100644",
+      "path": "energy_core/tests/test_hardening.py",
+      "sha": "a2e352b5c9fe416867ed6969cf48ddd339be05dc",
+      "size": 11238,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/a2e352b5c9fe416867ed6969cf48ddd339be05dc"
+    },
+    {
+      "mode": "040000",
+      "path": "examples",
+      "sha": "dc815bf44322e7f25ce37771bcf5ebc274ba5f50",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/trees/dc815bf44322e7f25ce37771bcf5ebc274ba5f50"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/sample_receipt.json",
+      "sha": "adc5c730da0fe9f40e7ca1eb69f345766c8fe701",
+      "size": 1854,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/adc5c730da0fe9f40e7ca1eb69f345766c8fe701"
+    },
+    {
+      "mode": "040000",
+      "path": "hf-kernels",
+      "sha": "79038075e63275ebb618354d04db843dd8b58860",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/trees/79038075e63275ebb618354d04db843dd8b58860"
+    },
+    {
+      "mode": "040000",
+      "path": "hf-kernels/governed-inference-meter",
+      "sha": "6b1e2118fd36d8f963b6c41e1cf307e655c91693",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/trees/6b1e2118fd36d8f963b6c41e1cf307e655c91693"
+    },
+    {
+      "mode": "100644",
+      "path": "hf-kernels/governed-inference-meter/README.md",
+      "sha": "1d266226fac23bdc78c571267cf25472f979720b",
+      "size": 704,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/1d266226fac23bdc78c571267cf25472f979720b"
+    },
+    {
+      "mode": "100644",
+      "path": "hf-kernels/governed-inference-meter/contract.json",
+      "sha": "7d50df2606f612b62125a0e6a73e5e43bd04d963",
+      "size": 333,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/7d50df2606f612b62125a0e6a73e5e43bd04d963"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "0ef5420ee1616f49276de278e0fb58e3ec62f818",
+      "size": 1538,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/0ef5420ee1616f49276de278e0fb58e3ec62f818"
+    },
+    {
+      "mode": "040000",
+      "path": "szl_energy_attest",
+      "sha": "9e9fdd70d94a8a71c1a8fe541eca80f9ae961d8c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/trees/9e9fdd70d94a8a71c1a8fe541eca80f9ae961d8c"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_energy_attest/__init__.py",
+      "sha": "050e20e3a0373384f0f9f4c2619fd61502dbf817",
+      "size": 35879,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/050e20e3a0373384f0f9f4c2619fd61502dbf817"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_energy_attest/_attest.py",
+      "sha": "244ed405fcf09fa9c94e21897dd13ca3bf0a9a1f",
+      "size": 13699,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/244ed405fcf09fa9c94e21897dd13ca3bf0a9a1f"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_energy_attest/_grid.py",
+      "sha": "a60d65a3bd3b9c4378b460c8c48d7c212a98a476",
+      "size": 12524,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/a60d65a3bd3b9c4378b460c8c48d7c212a98a476"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_energy_attest/cli.py",
+      "sha": "46cb9df5cf40faa7e25a85b93a5089deedff3393",
+      "size": 5744,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/46cb9df5cf40faa7e25a85b93a5089deedff3393"
+    },
+    {
+      "mode": "040000",
+      "path": "szl_energy_attest/inference_meter",
+      "sha": "ef423cc13a9658a0ec6fee0f2b38af68a8a6240a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/trees/ef423cc13a9658a0ec6fee0f2b38af68a8a6240a"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_energy_attest/inference_meter/__init__.py",
+      "sha": "9cc3839ce70a3cd4f109cefe0d2325599256a0d0",
+      "size": 12050,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/9cc3839ce70a3cd4f109cefe0d2325599256a0d0"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_energy_attest/inference_meter/_attest.py",
+      "sha": "013ccf05e740352cd238ea18532e3e2b7e8ef927",
+      "size": 9739,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/013ccf05e740352cd238ea18532e3e2b7e8ef927"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_energy_attest/inference_meter/_energy.py",
+      "sha": "4e09d2607713dc8d25e5b9e8fa491f76a5d439c9",
+      "size": 9098,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/4e09d2607713dc8d25e5b9e8fa491f76a5d439c9"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_energy_attest/inference_meter/_policy.py",
+      "sha": "2a304e09773a6a1ad6c53b6647dd82548a073dce",
+      "size": 3204,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/2a304e09773a6a1ad6c53b6647dd82548a073dce"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_energy_attest/inference_meter/_receipt.py",
+      "sha": "fa28052715d4fc98820acb58e83424d0b1f33330",
+      "size": 8201,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/fa28052715d4fc98820acb58e83424d0b1f33330"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_energy_attest/inference_meter/_spine.py",
+      "sha": "b3c75f3ccdf45c35b103597ad5b829843e35dd23",
+      "size": 14718,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/b3c75f3ccdf45c35b103597ad5b829843e35dd23"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_meter2_exporter.py",
+      "sha": "a502d3b857ac61d6a50b588e3211346066439334",
+      "size": 4035,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/a502d3b857ac61d6a50b588e3211346066439334"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "b24904a7e531a6b0b394c814ddf784ae2cbe3cfe",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/trees/b24904a7e531a6b0b394c814ddf784ae2cbe3cfe"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_attest.py",
+      "sha": "dfbdae34612df3475da512240afc57f2a432afd2",
+      "size": 2567,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/dfbdae34612df3475da512240afc57f2a432afd2"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_emit_receipt.py",
+      "sha": "7fb04458bf3d524732c84376246dff315d13624d",
+      "size": 5835,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/7fb04458bf3d524732c84376246dff315d13624d"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_grid_context.py",
+      "sha": "8009bdb6d3cb1b23d4853d27b67d405940e8729d",
+      "size": 9588,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/8009bdb6d3cb1b23d4853d27b67d405940e8729d"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_hardening.py",
+      "sha": "394f48c201aa478f5abf32b1b569ca63eac65667",
+      "size": 13741,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/394f48c201aa478f5abf32b1b569ca63eac65667"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_hf_kernel_contract.py",
+      "sha": "e8514c2c3382e2adade62b388a01feb534aaf6b8",
+      "size": 1200,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/e8514c2c3382e2adade62b388a01feb534aaf6b8"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_inference_meter.py",
+      "sha": "7e8f2e7431110510f407c7688d0276bfe83b5f1d",
+      "size": 3442,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/7e8f2e7431110510f407c7688d0276bfe83b5f1d"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_inference_meter_migration.py",
+      "sha": "ad68b89caec27573f6b7131238959b037bc1e5e1",
+      "size": 2057,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/ad68b89caec27573f6b7131238959b037bc1e5e1"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_intoto_attest.py",
+      "sha": "63c95654caff49f784ce6f8527f131d3d4bc3b40",
+      "size": 4082,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/63c95654caff49f784ce6f8527f131d3d4bc3b40"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_signing.py",
+      "sha": "e9dbbc0b571287a4efe6ec53d71be6f080ce40c2",
+      "size": 1959,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/blobs/e9dbbc0b571287a4efe6ec53d71be6f080ce40c2"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/trees/dadba9d06d47bd3b83c2bb89290fb3cd57b9a70d"
+}

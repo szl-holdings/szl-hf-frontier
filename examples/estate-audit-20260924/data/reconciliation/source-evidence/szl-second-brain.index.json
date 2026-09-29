@@ -1,0 +1,48 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 23047,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:07Z",
+      "path": "data/reconciliation/source-evidence/4928d5811f853ff73802cf3230b38149f6a7d82607233a10eacabd48470629df.json",
+      "revision": "25c12301e2fdcb8876352f6566dc2f4d2c6710fc",
+      "sha256": "4928d5811f853ff73802cf3230b38149f6a7d82607233a10eacabd48470629df",
+      "source_identity": "github/szl-holdings/szl-second-brain",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/trees/25c12301e2fdcb8876352f6566dc2f4d2c6710fc?recursive=1"
+    }
+  ],
+  "file_count": 65,
+  "id": "github/szl-holdings/szl-second-brain",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "25c12301e2fdcb8876352f6566dc2f4d2c6710fc",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "CODEOWNERS",
+    "CONTRIBUTING.md",
+    "Dockerfile",
+    "FOLD.md",
+    "LICENSE",
+    "NEOMME_CACHE.md",
+    "README.md",
+    "UPGRADE_1_4.md",
+    "app.py",
+    "app_operational.py",
+    "data",
+    "evidence",
+    "frontier",
+    "hub",
+    "pyproject.toml",
+    "requirements.txt",
+    "scripts",
+    "second_brain",
+    "static",
+    "tests",
+    "tools",
+    "train"
+  ]
+}

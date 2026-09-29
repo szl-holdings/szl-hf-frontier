@@ -1,0 +1,57 @@
+{
+  "card": "---\nlicense: apache-2.0\nlanguage:\n  - en\nbase_model: Qwen/Qwen3.5-0.8B\nbase_model_relation: adapter\nlibrary_name: peft\npipeline_tag: text-generation\ntags:\n  - lora\n  - peft\n  - governed-ai\n  - proposal-only\n  - research-only\n  - szl-holdings\n  - chaski\n  - cutting\nszl:\n  doctrine: v11-LOCKED\n  lean: \"749/14/163\"\n  lambda: \"Conjecture 1 \u2014 advisory, never a theorem\"\n  artifact_class: ADAPTER\n  originality: FINETUNE_DISCLOSED_BASE\n  jobs: local-5050\n  job_id: local-5050\n  weights: AVAILABLE\n  evals: none-this-run\n  publication_eligible: false\n  autonomy_eligible: false\n  never_overwrite: SZLHOLDINGS/chaski\n  copied_live_chaski_weights: false\n  train_loss: 2.228136855544466\n  train_loss_label: MEASURED\n  adapter_sha256: 620b3488fac2ebc6518090424de5b3c6a182293cf52dfd5bd9f886f54aef0df5\n---\n\n> **QUARANTINE.** Research residue. Strip owner-machine absolute paths.\n> Not flagship. Not a production checkpoint.\n\n<p align=\"center\">\n  <img src=\"holo-banner.svg\" alt=\"Chaski-5050 \u2014 holographic 50/50 banner\" width=\"100%\"/>\n</p>\n\n<h1 align=\"center\">C H A S K I \u00b7 5 0 5 0</h1>\n\n<p align=\"center\"><em>Curriculum as identity. The filename is the experiment.</em></p>\n\n<p align=\"center\">\n  <img alt=\"Base: Qwen3.5-0.8B\" src=\"https://img.shields.io/badge/base-Qwen3.5--0.8B-334155?style=flat-square\"/>\n  <img alt=\"Downloads\" src=\"https://img.shields.io/huggingface/dt/SZLHOLDINGS/chaski-5050?style=flat-square&color=e879a9&label=downloads\"/>\n  <img alt=\"Artifact: bf16 LoRA r=16 a=16\" src=\"https://img.shields.io/badge/artifact-bf16%20LoRA%20r16%20a16-22d3ee?style=flat-square\"/>\n  <img alt=\"QUARANTINE \u2014 research residue\" src=\"https://img.shields.io/badge/QUARANTINE-research%20residue-dc2626?style=flat-square\"/>\n  <img alt=\"Evals: none this run\" src=\"https://img.shields.io/badge/evals-none%20this%20run-b45309?style=flat-square\"/>\n  <a href=\"https://huggingface.co/SZLHOLDINGS/chaski\"><img alt=\"Lineage: never overwrites chaski\" src=\"https://img.shields.io/badge/lineage-never%20overwrites%20chaski-fda4af?style=flat-square\"/></a>\n</p>\n\n<p align=\"center\">\n  <code>KANCHAY</code> \u00b7 Doctrine v11 \u00b7 Lean <code>749/14/163</code> \u00b7 \u039b = Conjecture 1 (advisory) \u00b7 <a href=\"https://a-11-oy.com\">a-11-oy.com</a>\n</p>\n\nAdapters are present in the target model repository. Evaluation state: none-this-run; no evaluation score is claimed by this card. This card-only release updates documentation and an exact-source binding; it does not modify model artifacts or provider settings.\n\nOwner-GPU recut on an RTX 5050 Laptop (bf16 LoRA, not QLoRA). Original SZL cut of disclosed Apache [`Qwen/Qwen3.5-0.8B`](https://huggingface.co/Qwen/Qwen3.5-0.8B). Not a republish of Qwen tensors. Not an Unsloth-default card. CUTTING.\n\n<!-- SZL-ATELIER-CUT:v1:START -->\n## The cut\n\nMix-ratio is usually a blog footnote. We named the model after the mix. 50/50 is the cut.\n\nCurriculum as identity. The filename is the experiment.\n\n### Silhouette \u2192 leave \u2192 SZL\n\n| Leader | Take, then tweak |\n|---|---|\n| Anthropic | Balanced helpful/harmless mix, as a named checkpoint. |\n| NVIDIA | Recipe variant, published. |\n| Unsloth | LoRA on Qwen3.5-0.8B, cutting tag. |\n\nThe differentiator is inspectability: the mix is named, the adapter digest is recorded, the evaluation gap stays visible, and the publication controller cannot promote the model.\n\n## Intended use\n\nAblation sibling of chaski.\n\n## Limitations\n\n- proposal-only and research-only\n- No signed held-out evaluation receipt for this 5050 adapter is present in this source tree.\n- Publishing this card is a documentation update, not model promotion or autonomy approval.\n\nCanonical GitHub: [`chaski/README_5050.md`](https://github.com/szl-holdings/szl-forge/blob/main/chaski/README_5050.md)\n<!-- SZL-ATELIER-CUT:v1:END -->\n\n## Specification\n\n| | |\n|---|---|\n| **Artifact** | `adapter_model.safetensors` 25,587,104 bytes **AVAILABLE** (sha256 `620b3488fac2ebc6518090424de5b3c6a182293cf52dfd5bd9f886f54aef0df5`) |\n| **Job** | `local-5050` (owner metal, **not** an HF Job) |\n| **Does NOT overwrite** | [`SZLHOLDINGS/chaski`](https://huggingface.co/SZLHOLDINGS/chaski) |\n| **Dataset** | [`SZLHOLDINGS/szl-1-doctrine-sft`](https://huggingface.co/datasets/SZLHOLDINGS/szl-1-doctrine-sft) \u00b7 41 rows \u00b7 jsonl sha256 `ddc5594b\u20260611a243` |\n| **Publication / autonomy** | false / false |\n| **Card publication** | Card, banner, and source binding only; weights, adapter, configs, evals, visibility, hardware, collection, and runtime state unchanged |\n| **License** | Apache-2.0 |\n\n## Evaluation\n\n**Status: none-this-run.** No JSON/refusal gate ran. Not 5/5. Not 6/6. Do not load this ID into the Khipu lab.\n\n`train_loss` MEASURED `2.228136855544466` is a **train metric**, not an eval (method: Unsloth trainer log, N=41 rows, 3 epochs, 33 steps, `train_runtime` 883.2224s, 2026-08-28 17:56 UTC). File: `training_receipt.json`.\n\n## Training (MEASURED this run)\n\n- Recipe: `train_chaski_bf16_5050.py` \u00b7 Unsloth 2026.7.2 \u00b7 transformers 5.5.0 \u00b7 torch 2.10.0+cu128\n- GPU: NVIDIA GeForce RTX 5050 Laptop, 7.96 GB\n- LoRA r=16 \u03b1=16, bf16, batch 1, ga 4, lr 2e-4, adamw_8bit, seed 11, max_seq 2048\n- `copied_live_chaski_weights: false`\n\n## What this is NOT\n\n- Not live Chaski\n- Not a Qwen rehost\n- Not a GGUF of this adapter. Mini GGUFs are LIVE on [`A11OY-MINI`](https://huggingface.co/SZLHOLDINGS/A11OY-MINI) (evals none-this-run; they do not inherit this card)\n- Not production. Lab load forbidden.\n\n## Load\n\n```python\nfrom peft import PeftModel\nfrom transformers import AutoModelForCausalLM, AutoTokenizer\n\nbase_id = \"Qwen/Qwen3.5-0.8B\"\ntok = AutoTokenizer.from_pretrained(base_id)\nbase = AutoModelForCausalLM.from_pretrained(base_id)\nmodel = PeftModel.from_pretrained(base, \"SZLHOLDINGS/chaski-5050\")\n```\n\nDoctrine v11 LOCKED. \u039b = Conjecture 1 (advisory, never a theorem). Owner: Stephen Lutar / SZL Holdings.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 895,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/bf3cadf75e432eb6fbee415c26b8ae3e74182b752d7ad31cf7e3a14c18c6bb38.json",
+      "revision": "63ea80915ccb663b4aa589cbf2ce52a1dec574fe",
+      "sha256": "bf3cadf75e432eb6fbee415c26b8ae3e74182b752d7ad31cf7e3a14c18c6bb38",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/chaski-5050/revision/63ea80915ccb663b4aa589cbf2ce52a1dec574fe"
+    },
+    {
+      "bytes": 5838,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/5b140eaf64b4fa32fd58880c9f5c3d7a9457c4c3e3b90fc7174489031ee150a2.md",
+      "revision": "63ea80915ccb663b4aa589cbf2ce52a1dec574fe",
+      "sha256": "5b140eaf64b4fa32fd58880c9f5c3d7a9457c4c3e3b90fc7174489031ee150a2",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/SZLHOLDINGS/chaski-5050/resolve/63ea80915ccb663b4aa589cbf2ce52a1dec574fe/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "adapter-unsloth/README.md",
+    "adapter-unsloth/adapter_config.json",
+    "adapter-unsloth/adapter_model.safetensors",
+    "adapter-unsloth/chat_template.jinja",
+    "adapter-unsloth/processor_config.json",
+    "adapter-unsloth/tokenizer.json",
+    "adapter-unsloth/tokenizer_config.json",
+    "adapter-unsloth/training_receipt.json",
+    "adapter_config.json",
+    "adapter_model.safetensors",
+    "bom/model-bom.cdx.json",
+    "chaski_5050.npz",
+    "chat_template.jinja",
+    "config.json",
+    "generation_config.json",
+    "holo-banner.svg",
+    "merge_receipt.json",
+    "model.safetensors",
+    "processor_config.json",
+    "szl-source-binding.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "train_receipted_unsloth.py",
+    "training_receipt.json"
+  ],
+  "id": "huggingface-model/szlholdings/chaski-5050",
+  "observed_at": "2026-09-24T12:29:49Z",
+  "observed_revision": "63ea80915ccb663b4aa589cbf2ce52a1dec574fe"
+}

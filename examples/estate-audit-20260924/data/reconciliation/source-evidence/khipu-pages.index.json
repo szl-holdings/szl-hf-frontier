@@ -1,0 +1,25 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 1610,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:50Z",
+      "path": "data/reconciliation/source-evidence/5a720a1a2492aeaf238c5b5a164382b4edb612e21878f1eda00a0d3840a6038d.json",
+      "revision": "f56e5327b61c548f656ee7c88f539e8c5228525d",
+      "sha256": "5a720a1a2492aeaf238c5b5a164382b4edb612e21878f1eda00a0d3840a6038d",
+      "source_identity": "github/szl-holdings/khipu-pages",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-pages/git/trees/f56e5327b61c548f656ee7c88f539e8c5228525d?recursive=1"
+    }
+  ],
+  "file_count": 3,
+  "id": "github/szl-holdings/khipu-pages",
+  "license_paths": [],
+  "observed_revision": "f56e5327b61c548f656ee7c88f539e8c5228525d",
+  "root_paths": [
+    ".github",
+    "README.md",
+    "index.html"
+  ]
+}

@@ -1,0 +1,4008 @@
+{
+  "sha": "d24d7a224d1e608f5df6ab6bfc896875d78bfb47",
+  "tree": [
+    {
+      "mode": "100644",
+      "path": ".dockerignore",
+      "sha": "a1bd2d496b36a377a99c3df84df3d643f90e17c5",
+      "size": 115,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/a1bd2d496b36a377a99c3df84df3d643f90e17c5"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitattributes",
+      "sha": "c50ecac2fa9b1d63ab3a988c063fc72668034c97",
+      "size": 125,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/c50ecac2fa9b1d63ab3a988c063fc72668034c97"
+    },
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "0bdf9287b5394b902ee83771b00701719e86b57b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/0bdf9287b5394b902ee83771b00701719e86b57b"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/scripts",
+      "sha": "7c01bef5f8c916128d92a9ec0bb19bbcdbe226fc",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/7c01bef5f8c916128d92a9ec0bb19bbcdbe226fc"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/outside_seat_previous.py",
+      "sha": "1cf3285ef3d9370194806744bfaf8823742c63fd",
+      "size": 15522,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/1cf3285ef3d9370194806744bfaf8823742c63fd"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/publish_frontier.py",
+      "sha": "4b3f92459a5777dea1d8445b90f9b78370662b63",
+      "size": 4444,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/4b3f92459a5777dea1d8445b90f9b78370662b63"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "3b4bbb469db2cae8a47af43a7a9ace18410bdc87",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/3b4bbb469db2cae8a47af43a7a9ace18410bdc87"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "1c494582452af0c8fa639fa78c56bc654466fbfe",
+      "size": 1807,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/1c494582452af0c8fa639fa78c56bc654466fbfe"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/edge-source-witness.yml",
+      "sha": "02f2c26d3705bce564f7fffc907ee128bc105998",
+      "size": 2158,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/02f2c26d3705bce564f7fffc907ee128bc105998"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/estate-outside-seat.yml",
+      "sha": "043c8af5d3205d9d74324785c0beeea1095d5ce0",
+      "size": 3430,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/043c8af5d3205d9d74324785c0beeea1095d5ce0"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/frontier-family-intake.yml",
+      "sha": "d8324ae0d9378f1ed370d0b56e07c0f94967ee2b",
+      "size": 1940,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/d8324ae0d9378f1ed370d0b56e07c0f94967ee2b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/frontier-proof.yml",
+      "sha": "24e60212c6885233848a5886ad95716398cc469d",
+      "size": 1889,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/24e60212c6885233848a5886ad95716398cc469d"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/frontier-watch.yml",
+      "sha": "d352570d53151c15c84f6035b0e9e2f1e358fe59",
+      "size": 6903,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/d352570d53151c15c84f6035b0e9e2f1e358fe59"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-sync.yml",
+      "sha": "587c6f09a749bf1cd0b438a00eeed75a43f55d2f",
+      "size": 3275,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/587c6f09a749bf1cd0b438a00eeed75a43f55d2f"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "f9a7bf281615032906642a8f7d8ffce802169563",
+      "size": 183,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/f9a7bf281615032906642a8f7d8ffce802169563"
+    },
+    {
+      "mode": "100644",
+      "path": ".prettierrc",
+      "sha": "bccee911b6b0dac9051d360fbc5e0a6303eed8fb",
+      "size": 90,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/bccee911b6b0dac9051d360fbc5e0a6303eed8fb"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile",
+      "sha": "0bd181330ca0a4b0bdd88770cab10e8d30a09c07",
+      "size": 715,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/0bd181330ca0a4b0bdd88770cab10e8d30a09c07"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "e3e20ec09888751b5e65c7536df66f93b63358af",
+      "size": 4905,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e3e20ec09888751b5e65c7536df66f93b63358af"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "360686a9189da88cdf5de37700df9e85e694b10b",
+      "size": 309,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/360686a9189da88cdf5de37700df9e85e694b10b"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "b53b7601624e064970a0368644f5f6973e144a32",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/b53b7601624e064970a0368644f5f6973e144a32"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/BRAIN_NEOMME_1_4_1.md",
+      "sha": "d39b70d7f8b89fc528494b4630873b41da9a0855",
+      "size": 4204,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/d39b70d7f8b89fc528494b4630873b41da9a0855"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_ATRIA_DAWN_PREVIEW_2026-09-15.md",
+      "sha": "78b1e9b1abc1292e86ca07372c1810513b27f7e0",
+      "size": 4927,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/78b1e9b1abc1292e86ca07372c1810513b27f7e0"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_COSMOS3_MODELOPT_FP8_POLICY_2026-09-14.md",
+      "sha": "27b881f9574580e8633abc746aeee8e1ba3aa63b",
+      "size": 4485,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/27b881f9574580e8633abc746aeee8e1ba3aa63b"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_ESTATE_ALIGNMENT_RESIDUAL_PRODUCT_PROOF_2026-09-15.md",
+      "sha": "894ef807bcdc0425f0952e1953d71b40fde9ee33",
+      "size": 4623,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/894ef807bcdc0425f0952e1953d71b40fde9ee33"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_FRONTIER_WAVE_2026-09-07.md",
+      "sha": "ca5512a63248bb01896f8e6e36491bc14b424c2f",
+      "size": 10758,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ca5512a63248bb01896f8e6e36491bc14b424c2f"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_HF_CORE_STACK_20260910.md",
+      "sha": "49536996cd86089385e02edf0596fdce01cb2a4f",
+      "size": 3070,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/49536996cd86089385e02edf0596fdce01cb2a4f"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_HF_GHLORE_030_PROJECT_MEMORY.md",
+      "sha": "04ec0ef5699acfddc413d3a32cc3ca23a49e6e9c",
+      "size": 2525,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/04ec0ef5699acfddc413d3a32cc3ca23a49e6e9c"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_HF_GHLORE_PROJECT_MEMORY.md",
+      "sha": "7b6b3440e4628286b3cc6dcc77dc40a7298f0954",
+      "size": 1239,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/7b6b3440e4628286b3cc6dcc77dc40a7298f0954"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_HF_HARBOR_EVAL_INFRA.md",
+      "sha": "0c9de2c11f26b0822944570cc1774134df9f03b2",
+      "size": 1570,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/0c9de2c11f26b0822944570cc1774134df9f03b2"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_HF_HARBOR_PRIVATE_DATASETS.md",
+      "sha": "b4ef67b35411cf43ac109e76d0f92602c4196ec3",
+      "size": 2344,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/b4ef67b35411cf43ac109e76d0f92602c4196ec3"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_HF_HARBOR_PROVIDER_REFS.md",
+      "sha": "75f6a232e31923c6eecb940dffd4a771912d3898",
+      "size": 3206,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/75f6a232e31923c6eecb940dffd4a771912d3898"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_HF_HUB_130_REPO_REVISION_BINDING.md",
+      "sha": "22729a85f9402f7c239b580d5f0fb0aa05f51ea7",
+      "size": 3856,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/22729a85f9402f7c239b580d5f0fb0aa05f51ea7"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_HF_HUB_131_STABLE.md",
+      "sha": "fcf0e61b6366436211c32a30a48dfb536c099cb1",
+      "size": 2124,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/fcf0e61b6366436211c32a30a48dfb536c099cb1"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_HF_HUB_1_32_RELEASE_CONVERGENCE_2026-09-17.md",
+      "sha": "c72865c9a220a0d1b4c9bb4d029d58111a1caf82",
+      "size": 4338,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/c72865c9a220a0d1b4c9bb4d029d58111a1caf82"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_HF_HUB_SANDBOX_SECURITY_SUCCESSOR_2026-09-14.md",
+      "sha": "87b6e12489eaaed36157f52ea25341dcfa7f8d99",
+      "size": 5764,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/87b6e12489eaaed36157f52ea25341dcfa7f8d99"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_HF_KERNEL_0161_MIGRATION.md",
+      "sha": "8b828d79f5e40620bffd2abc67c82a39150a0431",
+      "size": 4237,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/8b828d79f5e40620bffd2abc67c82a39150a0431"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_HF_REPO2RLENV_SYNTHESIS.md",
+      "sha": "de49b79512baa4d8354638e0ec9667ca6fb10d44",
+      "size": 1916,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/de49b79512baa4d8354638e0ec9667ca6fb10d44"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_HF_TAU_042_RELEASE.md",
+      "sha": "d7559a56681ad9baef8abee06117cadd0cadc803",
+      "size": 2820,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/d7559a56681ad9baef8abee06117cadd0cadc803"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_HF_TAU_AGENT_HARNESS.md",
+      "sha": "890251a8934c0d8768e562bed4241dadec327b32",
+      "size": 2818,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/890251a8934c0d8768e562bed4241dadec327b32"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_HF_TEI_V1_9_4_2026-09-15.md",
+      "sha": "158939b8d61dd11becbaeae5c8675cc22d59afab",
+      "size": 5773,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/158939b8d61dd11becbaeae5c8675cc22d59afab"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_INTEGRITY_SUCCESSORS_2026-09-17.md",
+      "sha": "3152d16061ca74679f15a29ec4d0c3ada1385c03",
+      "size": 6603,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/3152d16061ca74679f15a29ec4d0c3ada1385c03"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_KIMI_HY4_SPARK.md",
+      "sha": "b94c8868e630157bd7ce3a8b07186b02890abd43",
+      "size": 5126,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/b94c8868e630157bd7ce3a8b07186b02890abd43"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_LATE_CORRECTNESS_SUCCESSORS_2026-09-17.md",
+      "sha": "9a292673a34747bc2304a04f6c4cfece31355e64",
+      "size": 6415,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/9a292673a34747bc2304a04f6c4cfece31355e64"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_LATE_RUNTIME_CORRECTNESS_SUCCESSORS_2026-09-16.md",
+      "sha": "e511e6ab10a50c5fb37688a1aa799c5397520a68",
+      "size": 6347,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e511e6ab10a50c5fb37688a1aa799c5397520a68"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_MINICPM5_EDGE_LANE.md",
+      "sha": "bf66fc9eb11d228cf71400f01dd2f79db40518bf",
+      "size": 7079,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/bf66fc9eb11d228cf71400f01dd2f79db40518bf"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_MINICPM5_GGUF.md",
+      "sha": "8b7f7a8aae18e271173669f6c41fcf7bb747f453",
+      "size": 2261,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/8b7f7a8aae18e271173669f6c41fcf7bb747f453"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_POST_WAVE_RUNTIME_CORRECTNESS_SUCCESSORS_2026-09-16.md",
+      "sha": "1104a681d39bfc9f51d5fcb88db5e1dd87a606e0",
+      "size": 7770,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/1104a681d39bfc9f51d5fcb88db5e1dd87a606e0"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_RUNTIME_CORRECTNESS_SUCCESSORS_2026-09-16.md",
+      "sha": "ab4151fa135d21ce11ed6bbd38b83a49375f0df9",
+      "size": 6687,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ab4151fa135d21ce11ed6bbd38b83a49375f0df9"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_RUNTIME_CORRECTNESS_SUCCESSORS_2026-09-17.md",
+      "sha": "49bffa3e3daef917a27483336375de5d13a11921",
+      "size": 4712,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/49bffa3e3daef917a27483336375de5d13a11921"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_SENTENCE_TRANSFORMERS_FAISS_METRIC_2026-09-16.md",
+      "sha": "8caa89cadb3c8ad5439310e8bf6ad17479034d1e",
+      "size": 3846,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/8caa89cadb3c8ad5439310e8bf6ad17479034d1e"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_SGLANG_DEEPSEEK_V41_KERNEL_STACK_2026-09-16.md",
+      "sha": "00478f9d9c45abc97737c654bc5b9236c3982651",
+      "size": 6102,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/00478f9d9c45abc97737c654bc5b9236c3982651"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_SGLANG_DEEPSEEK_V4_NATIVE_RENDERER_2026-09-14.md",
+      "sha": "3a9585afe6f462ab2a819f7c8a982bd78257e518",
+      "size": 4591,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/3a9585afe6f462ab2a819f7c8a982bd78257e518"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_TRANSFORMERS_PEFT_020_LOAD_FLOOR_2026-09-14.md",
+      "sha": "4c3ec23931a81e7beb8c789ea1d8fcc0a1c064e8",
+      "size": 3712,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/4c3ec23931a81e7beb8c789ea1d8fcc0a1c064e8"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_TRANSFORMERS_PEFT_MODULES_TO_SAVE_SUCCESSOR_2026-09-14.md",
+      "sha": "b3ddb411164716c47c45f8279535a514bf3f384c",
+      "size": 6114,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/b3ddb411164716c47c45f8279535a514bf3f384c"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_TRANSFORMERS_QWEN35_MOE_GGUF_2026-09-15.md",
+      "sha": "9327c4b4bbd1ac6d16e71c3778c3a27dedeff2e8",
+      "size": 5027,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/9327c4b4bbd1ac6d16e71c3778c3a27dedeff2e8"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_TRL_ASYNCGRPO_LORA_VLLM_SYNC.md",
+      "sha": "02afdaf86916ecb7b027971177520610d4690708",
+      "size": 2358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/02afdaf86916ecb7b027971177520610d4690708"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_VLLM_ADAPTIVE_ACCEPTANCE_ESTIMATOR_2026-09-14.md",
+      "sha": "5f7f600bb90edf518151cb899e746a1052ed996b",
+      "size": 4436,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/5f7f600bb90edf518151cb899e746a1052ed996b"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_VLLM_DEEPSEEK_V41_GENERATION_PROMPT_2026-09-15.md",
+      "sha": "bfb0d22920671453d3ed507ed4e4cf498ea176cc",
+      "size": 5999,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/bfb0d22920671453d3ed507ed4e4cf498ea176cc"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_VLLM_KVCR_SECONDARY_TIER_2026-09-15.md",
+      "sha": "ee7e215717b92382853ff19b305ebe27e64ad391",
+      "size": 5653,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ee7e215717b92382853ff19b305ebe27e64ad391"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CODEX_VLLM_REASONING_BOUNDARY_PARSER_2026-09-16.md",
+      "sha": "3f5c2f647c9bfff0937ec6a339e80bf79b89f191",
+      "size": 3039,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/3f5c2f647c9bfff0937ec6a339e80bf79b89f191"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/ESTATE_OUTSIDE_SEAT.md",
+      "sha": "f4896a2ab7bec669741c1e5c92c899823ccc7a59",
+      "size": 8664,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/f4896a2ab7bec669741c1e5c92c899823ccc7a59"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/GOVERNED_INFERENCE_BINDING.md",
+      "sha": "b63abae426e8a18528183d7990762477831fd494",
+      "size": 3706,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/b63abae426e8a18528183d7990762477831fd494"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/GROK_TERMINAL.md",
+      "sha": "694f7ec67a490fded7bbbac40b7325140b418f78",
+      "size": 3331,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/694f7ec67a490fded7bbbac40b7325140b418f78"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/HUGGING_FACE_FRONTIER_EVALUATION.md",
+      "sha": "d4a724ff48634b7ef7fb5fc6f78223390a3ad6f2",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/d4a724ff48634b7ef7fb5fc6f78223390a3ad6f2"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/KHIPU_HOLO_ATLAS_KNOT_2026-09-20.md",
+      "sha": "4db51d455c1f2504f8961f8f0aa94eb9c09c94ca",
+      "size": 2303,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/4db51d455c1f2504f8961f8f0aa94eb9c09c94ca"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/NEOMME_MEASURED_SMOKE.md",
+      "sha": "c8ebb0ccf34031421170e1a587cc033bb4b464bc",
+      "size": 3876,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/c8ebb0ccf34031421170e1a587cc033bb4b464bc"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/PINNED_WAVE_PREPARATION.md",
+      "sha": "e8f29f4cb2abe076f0ae050960d69d01e5188f39",
+      "size": 3539,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e8f29f4cb2abe076f0ae050960d69d01e5188f39"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/PYTHON_FRONTIER_CONTROL_PLANE.md",
+      "sha": "1101fe9444bc3d3581b47bb68f9a3e912e582d74",
+      "size": 7746,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/1101fe9444bc3d3581b47bb68f9a3e912e582d74"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/RESIDUAL_CAPTURE.md",
+      "sha": "521480d54fb4c81e4d4da9a85e91b1f688bb1ff5",
+      "size": 3021,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/521480d54fb4c81e4d4da9a85e91b1f688bb1ff5"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/TOP_CHOICE_INTEGRATIONS_2026-09-07.md",
+      "sha": "256d09f84e890328f86f58edd259f05c2836760d",
+      "size": 7561,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/256d09f84e890328f86f58edd259f05c2836760d"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/WORKSPACE_READOUT_PREPARATION.md",
+      "sha": "1730aee39a580d33ec95fd5de22123ceace73c69",
+      "size": 3615,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/1730aee39a580d33ec95fd5de22123ceace73c69"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/WORKSPACE_READOUT_RECEIPT.md",
+      "sha": "8a94d13af72a716d8b93c804c3356e81bd98f103",
+      "size": 5308,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/8a94d13af72a716d8b93c804c3356e81bd98f103"
+    },
+    {
+      "mode": "100644",
+      "path": "eslint.config.mjs",
+      "sha": "bfc3c2560b42997c103f92bb5b681ce46163eb0c",
+      "size": 1277,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/bfc3c2560b42997c103f92bb5b681ce46163eb0c"
+    },
+    {
+      "mode": "040000",
+      "path": "frontier",
+      "sha": "b2623cbe1abc9f91f6188eaf80e774174845fadb",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/b2623cbe1abc9f91f6188eaf80e774174845fadb"
+    },
+    {
+      "mode": "040000",
+      "path": "frontier/evidence",
+      "sha": "59167410ad471ca01b814c731baf8d2f24f63fbf",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/59167410ad471ca01b814c731baf8d2f24f63fbf"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/evidence/2026-09-07-upstream-model-pins.json",
+      "sha": "7a814f20a945e1b09d0930315588ae6a92687c30",
+      "size": 4088,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/7a814f20a945e1b09d0930315588ae6a92687c30"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/evidence/2026-09-11-authority-chain.json",
+      "sha": "ced480e3a00e8f8071951dc639936ae9a29ca63a",
+      "size": 1437,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ced480e3a00e8f8071951dc639936ae9a29ca63a"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/evidence/2026-09-11-identity-bind.json",
+      "sha": "9460ee761fbaa88416c8b71b0d3dc4c23a62eac4",
+      "size": 2070,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/9460ee761fbaa88416c8b71b0d3dc4c23a62eac4"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/evidence/vllm-0-29-artifact-selection.json",
+      "sha": "d70ff886d596cb105faafe8e7e556d4e767d88cc",
+      "size": 2580,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/d70ff886d596cb105faafe8e7e556d4e767d88cc"
+    },
+    {
+      "mode": "040000",
+      "path": "frontier/handoffs",
+      "sha": "640101900e2daf5fb27405250a68221f044628ef",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/640101900e2daf5fb27405250a68221f044628ef"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/handoffs/2026-09-14-deepseek-v4-1-flash.json",
+      "sha": "232f8dcf4bedfb341bd35961dcff62269308c4a1",
+      "size": 1152,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/232f8dcf4bedfb341bd35961dcff62269308c4a1"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/handoffs/2026-09-14-tencent-auk-speech.json",
+      "sha": "283bdc861631bc85fdee921eb81ad2f59c6dc4c7",
+      "size": 1103,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/283bdc861631bc85fdee921eb81ad2f59c6dc4c7"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/handoffs/2026-09-20-wave5-payload-binding-lucas.json",
+      "sha": "ca7de99015d81a99efad6b0c9fcbfcaacf1ca073",
+      "size": 3040,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ca7de99015d81a99efad6b0c9fcbfcaacf1ca073"
+    },
+    {
+      "mode": "040000",
+      "path": "frontier/waves",
+      "sha": "d352cb642409cf60c8c459bad597104dc1671d37",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/d352cb642409cf60c8c459bad597104dc1671d37"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-07.json",
+      "sha": "58ca3321981de3c735108168932364e8b4dbe0c0",
+      "size": 7475,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/58ca3321981de3c735108168932364e8b4dbe0c0"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-08-kimi-hy4-spark.json",
+      "sha": "b92109f9953b374562615f0a0f97d86371f4209b",
+      "size": 8625,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/b92109f9953b374562615f0a0f97d86371f4209b"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-08-minicpm5-gguf.json",
+      "sha": "1610c2e956ab034fda675f0fdd708d4cdde0cd3d",
+      "size": 5143,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/1610c2e956ab034fda675f0fdd708d4cdde0cd3d"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-08-minicpm5-matched-worker.json",
+      "sha": "6c62fee904ded0f207177d5c6f147d8d629cadb7",
+      "size": 4580,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/6c62fee904ded0f207177d5c6f147d8d629cadb7"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-08-proof-alignment.json",
+      "sha": "f6ca0263528ed30f251ba70ab9ad0a07dc610c99",
+      "size": 3643,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/f6ca0263528ed30f251ba70ab9ad0a07dc610c99"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-08-runtime-retrieval.json",
+      "sha": "31b7168c754a5e7eaeb305c3261591e141eb4bad",
+      "size": 10007,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/31b7168c754a5e7eaeb305c3261591e141eb4bad"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-08-watch-signal-hygiene.json",
+      "sha": "1bebb260d85de3b6235b48df401bd232fb65f9f8",
+      "size": 4739,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/1bebb260d85de3b6235b48df401bd232fb65f9f8"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-09-hf-ghlore-project-memory.json",
+      "sha": "dc3dda3ed6aed375ebdfeaa08fe0279a28e01dac",
+      "size": 2111,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/dc3dda3ed6aed375ebdfeaa08fe0279a28e01dac"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-09-hf-kernel-0161-migration.json",
+      "sha": "7376beda105b061a60c50a10ec89c369b5bc79ef",
+      "size": 8267,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/7376beda105b061a60c50a10ec89c369b5bc79ef"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-09-hf-tau-agent-harness.json",
+      "sha": "876b866dcafc2a90105c4772d3b4692b86779347",
+      "size": 4797,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/876b866dcafc2a90105c4772d3b4692b86779347"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-10-hf-core-stack.json",
+      "sha": "ee0547732c587e11880fb1acf89560eeb90e5aca",
+      "size": 6564,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ee0547732c587e11880fb1acf89560eeb90e5aca"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-10-hf-harbor-eval-infra.json",
+      "sha": "b120b8b7ede6082462494169766e6235ff043997",
+      "size": 3098,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/b120b8b7ede6082462494169766e6235ff043997"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-10-hf-harbor-provider-refs.json",
+      "sha": "1d97c62d1e00b91d713611d86d30330cbdc81ab6",
+      "size": 4262,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/1d97c62d1e00b91d713611d86d30330cbdc81ab6"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-10-hf-hub-130-repo-revision-binding.json",
+      "sha": "cbc833ad3c4536a2137276470d165bfc74e63ca0",
+      "size": 6685,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/cbc833ad3c4536a2137276470d165bfc74e63ca0"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-10-hf-hub-131-stable.json",
+      "sha": "22c5dc4e61d4461ca00201b650201872a4db0b9e",
+      "size": 2964,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/22c5dc4e61d4461ca00201b650201872a4db0b9e"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-10-hf-repo2rlenv-synthesis.json",
+      "sha": "394e59ae8000635a2536ad92ec48c5a8c7974d49",
+      "size": 3372,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/394e59ae8000635a2536ad92ec48c5a8c7974d49"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-10-hf-tau-0-4-2-release.json",
+      "sha": "ac3bf1b2e2a00a48dc9764b6eeb0ebb191a59c38",
+      "size": 6280,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ac3bf1b2e2a00a48dc9764b6eeb0ebb191a59c38"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-10-trl-asyncgrpo-lora-vllm-sync.json",
+      "sha": "58434a91b6771ac180e6c03dfbd3fdfbcdc3a9b9",
+      "size": 2772,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/58434a91b6771ac180e6c03dfbd3fdfbcdc3a9b9"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-11-command-readout.json",
+      "sha": "6638b013d26d49690357a81357d7929d617c797d",
+      "size": 3334,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/6638b013d26d49690357a81357d7929d617c797d"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-11-governed-inference-binding-contract.json",
+      "sha": "26af5b52cc83470e82f1a7f729355c3990fa814e",
+      "size": 4213,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/26af5b52cc83470e82f1a7f729355c3990fa814e"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-11-hf-ghlore-030-project-memory.json",
+      "sha": "742d70f8bb7dff0a2ad07f9f987d16e25a50e73a",
+      "size": 3299,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/742d70f8bb7dff0a2ad07f9f987d16e25a50e73a"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-11-hf-harbor-local-parent-artifacts.json",
+      "sha": "ab4e12163bddcc83636d2afe0f35b7a2e807d1ac",
+      "size": 4353,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ab4e12163bddcc83636d2afe0f35b7a2e807d1ac"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-11-hf-harbor-private-datasets.json",
+      "sha": "db9630b26c654fea6a6c9b00a8a9ba3b5917d6a2",
+      "size": 4265,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/db9630b26c654fea6a6c9b00a8a9ba3b5917d6a2"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-11-hf-hub-checkpoint-deserialization-hardening.json",
+      "sha": "0b803c9db3af25647e40048c6549992b967085bf",
+      "size": 4170,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/0b803c9db3af25647e40048c6549992b967085bf"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-11-identity-bind.json",
+      "sha": "9ceb5a3d4f550b8645d2626369ce06419558e94c",
+      "size": 3688,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/9ceb5a3d4f550b8645d2626369ce06419558e94c"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-11-residual-capture-harness-contract.json",
+      "sha": "bbeb393ad8871b6fba11df53b2d96b2bb265b259",
+      "size": 3446,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/bbeb393ad8871b6fba11df53b2d96b2bb265b259"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-11-workspace-readout-preparation.json",
+      "sha": "d65d3a73cda911b1020247030d5712429929947f",
+      "size": 3634,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/d65d3a73cda911b1020247030d5712429929947f"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-11-workspace-readout-receipt-contract.json",
+      "sha": "dafa297895fc882ac526ddb2de10d8f662b4552b",
+      "size": 4328,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/dafa297895fc882ac526ddb2de10d8f662b4552b"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-12-bound-route-execution-contract.json",
+      "sha": "f380025ccd02cfb00ab2b0b355034447c40a5a3c",
+      "size": 4529,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/f380025ccd02cfb00ab2b0b355034447c40a5a3c"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-12-estate-alignment-drift.json",
+      "sha": "4edf47d99273c0a9e8a3aa82ff860de69e3e840b",
+      "size": 12458,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/4edf47d99273c0a9e8a3aa82ff860de69e3e840b"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-12-governed-inference-chain-receipt.json",
+      "sha": "e66cf07babb537215dd0706362634bc330340831",
+      "size": 4084,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e66cf07babb537215dd0706362634bc330340831"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-12-granite-patchtst-fm-r2.json",
+      "sha": "87a8aaf91470b7f716f3acba5a7684af9e4bc6af",
+      "size": 4331,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/87a8aaf91470b7f716f3acba5a7684af9e4bc6af"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-12-hf-harbor-replacement-stabilization.json",
+      "sha": "1be31fc803d86b843e0173f885af16d80dd2cbbb",
+      "size": 5963,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/1be31fc803d86b843e0173f885af16d80dd2cbbb"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-12-hf-harbor-reviewed-replacements.json",
+      "sha": "aa04e468339a3189810147e07417b2d65413711e",
+      "size": 5859,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/aa04e468339a3189810147e07417b2d65413711e"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-12-k2-horizon-mova-36b-a4b.json",
+      "sha": "6c628fb58f0d689118e7193e6762219dbe80040b",
+      "size": 4398,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/6c628fb58f0d689118e7193e6762219dbe80040b"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-12-keystone-verification-harness.json",
+      "sha": "423bba218301d1b9a371cbdc856586758b1ca85c",
+      "size": 2706,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/423bba218301d1b9a371cbdc856586758b1ca85c"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-12-neomme-multimodal-native-encoders.json",
+      "sha": "8ae45af9504a86b0e2751fa5b3a97b671900a60d",
+      "size": 4516,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/8ae45af9504a86b0e2751fa5b3a97b671900a60d"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-12-peft-distributed-lora-export-integrity.json",
+      "sha": "5b4ccba01b5288c1059b45a18b65da18bbbeb2f3",
+      "size": 4523,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/5b4ccba01b5288c1059b45a18b65da18bbbeb2f3"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-12-transformers-fsdp2-expert-parallel.json",
+      "sha": "f8febdf4fdd363d4f6e1a3003a8f0ed8ea0e55e1",
+      "size": 6112,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/f8febdf4fdd363d4f6e1a3003a8f0ed8ea0e55e1"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-12-transformers-pp-tp-inference.json",
+      "sha": "a98fe9152330b6aa1648823074467eeeb5a44fc9",
+      "size": 5082,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/a98fe9152330b6aa1648823074467eeeb5a44fc9"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-12-trl-grpo-structured-output-recipe.json",
+      "sha": "b8a82460de647bcd02265b1b2b81e1669523e975",
+      "size": 4458,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/b8a82460de647bcd02265b1b2b81e1669523e975"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-12-vlm-run-gateway.json",
+      "sha": "fb3b4be3829962effb85caa5e401ad25a356465d",
+      "size": 3840,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/fb3b4be3829962effb85caa5e401ad25a356465d"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-13-bound-route-execution-validator.json",
+      "sha": "b51a75f297385c688cef2e559aeb0bad3a7bf0dc",
+      "size": 6449,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/b51a75f297385c688cef2e559aeb0bad3a7bf0dc"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-13-chain-receipt-reconciliation-01.json",
+      "sha": "6d55cc2f3e0b7ca96e02bd278f8be1fe4183fcbb",
+      "size": 5137,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/6d55cc2f3e0b7ca96e02bd278f8be1fe4183fcbb"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-13-estate-audit-reconciliation-01.json",
+      "sha": "46c8be2edbba3a272b009c36cfec9c61fb9cd33d",
+      "size": 6014,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/46c8be2edbba3a272b009c36cfec9c61fb9cd33d"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-13-vllm-0-29-trl.json",
+      "sha": "eacac23513acfce9bcfd8928f23a84c52d746cb1",
+      "size": 6102,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/eacac23513acfce9bcfd8928f23a84c52d746cb1"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-13-vllm-0.29-trl-compatibility.json",
+      "sha": "9fb4ce4fea062999cf7f048ff9ad40c5efa21154",
+      "size": 4951,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/9fb4ce4fea062999cf7f048ff9ad40c5efa21154"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-13-vllm-omni-0.29.0rc1.json",
+      "sha": "964a2d6aaf73c16014e3917a92056c4db144fda9",
+      "size": 7399,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/964a2d6aaf73c16014e3917a92056c4db144fda9"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-14-canonical-watch-dedup-repair.json",
+      "sha": "44560d3c20a3125a7bc0323aa8f0adcc89637563",
+      "size": 2020,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/44560d3c20a3125a7bc0323aa8f0adcc89637563"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-14-cosmos3-modelopt-fp8-policy.json",
+      "sha": "bd1b3a06283344911fe095da0463b443d4a6b0b3",
+      "size": 4494,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/bd1b3a06283344911fe095da0463b443d4a6b0b3"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-14-deepseek-v4-1-flash.json",
+      "sha": "80920140c3d2a2893031e49daedb2784ababa6b9",
+      "size": 7409,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/80920140c3d2a2893031e49daedb2784ababa6b9"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-14-hf-hub-sandbox-security-successor.json",
+      "sha": "9603386706f7bd606764de1d97a04c13b1786d08",
+      "size": 7176,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/9603386706f7bd606764de1d97a04c13b1786d08"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-14-sglang-deepseek-v4-native-renderer.json",
+      "sha": "d5be8e61c2ec2f1992fc3b814983726f0431cebe",
+      "size": 4484,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/d5be8e61c2ec2f1992fc3b814983726f0431cebe"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-14-tencent-auk-speech.json",
+      "sha": "e568f2889c3cc85cc43d661cbc6029bfd7823a15",
+      "size": 7107,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e568f2889c3cc85cc43d661cbc6029bfd7823a15"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-14-transformers-peft-020-load-floor.json",
+      "sha": "57b8535b75d8438ad4ad4745a13d704cca0a36e8",
+      "size": 6857,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/57b8535b75d8438ad4ad4745a13d704cca0a36e8"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-14-vllm-adaptive-acceptance-estimator.json",
+      "sha": "3ce7dd224bc6a623f276629865012efd9b8e26fb",
+      "size": 4845,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/3ce7dd224bc6a623f276629865012efd9b8e26fb"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-15-atria-dawn-preview.json",
+      "sha": "e250062dc572b6553f7da12a8ef4093ac7aa5897",
+      "size": 3581,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e250062dc572b6553f7da12a8ef4093ac7aa5897"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-15-estate-alignment-residual-product-proof.json",
+      "sha": "7a3dbfcaac177e0973320796e665c9288a2f00a0",
+      "size": 5085,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/7a3dbfcaac177e0973320796e665c9288a2f00a0"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-15-estate-alignment-successor.json",
+      "sha": "a488584b5cd4d93ad44f2a2b02eef5f3bd6b4f8c",
+      "size": 8704,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/a488584b5cd4d93ad44f2a2b02eef5f3bd6b4f8c"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-15-hf-kernels-0-17.json",
+      "sha": "47d537c5d5e60584a713fe1567a67a51c9511969",
+      "size": 4318,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/47d537c5d5e60584a713fe1567a67a51c9511969"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-15-hf-tei-v1.9.4.json",
+      "sha": "bf0d22e8f707a04bef66f0110c32a79d52572e06",
+      "size": 3705,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/bf0d22e8f707a04bef66f0110c32a79d52572e06"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-15-transformers-qwen35-moe-gguf.json",
+      "sha": "772643f12223223ca128af3fdb2bb16e803b433c",
+      "size": 3572,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/772643f12223223ca128af3fdb2bb16e803b433c"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-15-trl-activation-offload-successor.json",
+      "sha": "fa7873f048beb762cf6ef77770b35fbd0803dbbf",
+      "size": 6896,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/fa7873f048beb762cf6ef77770b35fbd0803dbbf"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-15-vllm-deepseek-v41-generation-prompt.json",
+      "sha": "975a7186f83645a9e34fb5b19fa600110c4a9ee6",
+      "size": 4495,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/975a7186f83645a9e34fb5b19fa600110c4a9ee6"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-15-vllm-kvcr-secondary-tier.json",
+      "sha": "3048be5448b6fb89675b3531cfcc6f10e9e13033",
+      "size": 5015,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/3048be5448b6fb89675b3531cfcc6f10e9e13033"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-16-late-runtime-correctness-successors.json",
+      "sha": "facfe0c19a013591d0ee19c96cd14b9750b19449",
+      "size": 9722,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/facfe0c19a013591d0ee19c96cd14b9750b19449"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-16-post-wave-runtime-correctness-successors.json",
+      "sha": "e02fdd08ed2195508abf2ec8fa35860461b31bec",
+      "size": 9292,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e02fdd08ed2195508abf2ec8fa35860461b31bec"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-16-runtime-correctness-successors.json",
+      "sha": "c1e5a936cab5d0681717f41bb03863cc8d7e9e01",
+      "size": 7468,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/c1e5a936cab5d0681717f41bb03863cc8d7e9e01"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-16-sentence-transformers-faiss-metric.json",
+      "sha": "c7bb8f2e7de49780160990b285011a0f358c33f2",
+      "size": 3789,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/c7bb8f2e7de49780160990b285011a0f358c33f2"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-16-sglang-deepseek-v41-kernel-stack.json",
+      "sha": "d154a4f0f989775a6b7da3723fc6e52aace28a03",
+      "size": 5182,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/d154a4f0f989775a6b7da3723fc6e52aace28a03"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-16-vllm-reasoning-boundary-parser.json",
+      "sha": "ec5587783efcdb2e7f386d9c3aee1d9f044a6a72",
+      "size": 3871,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ec5587783efcdb2e7f386d9c3aee1d9f044a6a72"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-17-hf-hub-1-32-release-convergence.json",
+      "sha": "17faa764d1449d97e22adceb731e3e724a3c4be2",
+      "size": 4887,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/17faa764d1449d97e22adceb731e3e724a3c4be2"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-17-integrity-successors.json",
+      "sha": "c5bad6da0efc7fdb56f2a9671f342c70b8518f86",
+      "size": 12275,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/c5bad6da0efc7fdb56f2a9671f342c70b8518f86"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-17-late-correctness-successors.json",
+      "sha": "a102317a08760cb2c3e642be63608b0ca7251a7e",
+      "size": 8325,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/a102317a08760cb2c3e642be63608b0ca7251a7e"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-17-runtime-correctness-successors.json",
+      "sha": "b00be9c675a811c94886fd441dea0f3663244244",
+      "size": 8621,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/b00be9c675a811c94886fd441dea0f3663244244"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-19-counterfactual-rehearsal.json",
+      "sha": "c76ff7a1c2f00544b0fa6912170951c9441f099d",
+      "size": 4802,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/c76ff7a1c2f00544b0fa6912170951c9441f099d"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-20-claim-scout.json",
+      "sha": "aeb42bfac03405b5076d5a13759f327b8a260097",
+      "size": 3264,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/aeb42bfac03405b5076d5a13759f327b8a260097"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/waves/2026-09-20-khipu-holo-atlas-knot.json",
+      "sha": "14b9d4e0d97e73a2a2e775b5dcf1f0e3273fb98b",
+      "size": 5090,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/14b9d4e0d97e73a2a2e775b5dcf1f0e3273fb98b"
+    },
+    {
+      "mode": "040000",
+      "path": "hf",
+      "sha": "ccce8225c80593b84ec2dfebda1e926d9a639100",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/ccce8225c80593b84ec2dfebda1e926d9a639100"
+    },
+    {
+      "mode": "040000",
+      "path": "hf/dataset",
+      "sha": "0bbf370655e49b07eb2fa7609c0efd2cbb4f4adf",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/0bbf370655e49b07eb2fa7609c0efd2cbb4f4adf"
+    },
+    {
+      "mode": "100644",
+      "path": "hf/dataset/README.md",
+      "sha": "27e2abe5fe6e554dcf114991a73da493fa743f70",
+      "size": 1920,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/27e2abe5fe6e554dcf114991a73da493fa743f70"
+    },
+    {
+      "mode": "100644",
+      "path": "hf/dataset/brain-neomme-1.4.1.json",
+      "sha": "0e4dad0cc0a976dcbfd176bd0d20c5eb7eadbe62",
+      "size": 5033,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/0e4dad0cc0a976dcbfd176bd0d20c5eb7eadbe62"
+    },
+    {
+      "mode": "100644",
+      "path": "hf/dataset/formulas.jsonl",
+      "sha": "73383330c3c9fb2709acb96eff41c3a723db21fd",
+      "size": 802,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/73383330c3c9fb2709acb96eff41c3a723db21fd"
+    },
+    {
+      "mode": "100644",
+      "path": "hf/dataset/frontier-edge-agent.v1.json",
+      "sha": "e89d45ec8b7433184596aa79bd80a9653d334416",
+      "size": 3602,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e89d45ec8b7433184596aa79bd80a9653d334416"
+    },
+    {
+      "mode": "100644",
+      "path": "hf/dataset/frontier-top-choices.v1.jsonl",
+      "sha": "20568594a1f5bf270372e205595bff2dd12d3277",
+      "size": 2264,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/20568594a1f5bf270372e205595bff2dd12d3277"
+    },
+    {
+      "mode": "100644",
+      "path": "hf/dataset/gates.jsonl",
+      "sha": "468fd780c123a06a7589e5629ae6861f4cb1a735",
+      "size": 1648,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/468fd780c123a06a7589e5629ae6861f4cb1a735"
+    },
+    {
+      "mode": "100644",
+      "path": "hf/dataset/kimi-hy4-spark-intake.v1.json",
+      "sha": "b92109f9953b374562615f0a0f97d86371f4209b",
+      "size": 8625,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/b92109f9953b374562615f0a0f97d86371f4209b"
+    },
+    {
+      "mode": "100644",
+      "path": "hf/dataset/minicpm5-matched-evidence.v1.json",
+      "sha": "6c62fee904ded0f207177d5c6f147d8d629cadb7",
+      "size": 4580,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/6c62fee904ded0f207177d5c6f147d8d629cadb7"
+    },
+    {
+      "mode": "100644",
+      "path": "hf/dataset/neomme-smoke.v1.json",
+      "sha": "5bca0865045a9a480585d47a5d0fca80aa52cb50",
+      "size": 9825,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/5bca0865045a9a480585d47a5d0fca80aa52cb50"
+    },
+    {
+      "mode": "100644",
+      "path": "hf/dataset/posture.json",
+      "sha": "fbfd28e9a54e2fb8f1ddf8ef2c898f7a051682d8",
+      "size": 662,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/fbfd28e9a54e2fb8f1ddf8ef2c898f7a051682d8"
+    },
+    {
+      "mode": "040000",
+      "path": "migrations",
+      "sha": "281e531fc6383e1a2a302223472f3329dbdb3e9f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/281e531fc6383e1a2a302223472f3329dbdb3e9f"
+    },
+    {
+      "mode": "040000",
+      "path": "migrations/auth",
+      "sha": "b477f508560256912e6b39ccdf375d6e152fa6b4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/b477f508560256912e6b39ccdf375d6e152fa6b4"
+    },
+    {
+      "mode": "100644",
+      "path": "migrations/auth/0001_auth.sql",
+      "sha": "08c6b01fef9b46e72470fb66ea967d5f84e9bdb5",
+      "size": 2739,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/08c6b01fef9b46e72470fb66ea967d5f84e9bdb5"
+    },
+    {
+      "mode": "100644",
+      "path": "package-lock.json",
+      "sha": "76e2583a19e25354f196cb2f43643ee8b51ababf",
+      "size": 267899,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/76e2583a19e25354f196cb2f43643ee8b51ababf"
+    },
+    {
+      "mode": "100644",
+      "path": "package.json",
+      "sha": "0f601c7d0251c4d1fdd943d772173e587ef34538",
+      "size": 3450,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/0f601c7d0251c4d1fdd943d772173e587ef34538"
+    },
+    {
+      "mode": "040000",
+      "path": "public",
+      "sha": "361c443633c730449288008c3fd7ba893b41e5c7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/361c443633c730449288008c3fd7ba893b41e5c7"
+    },
+    {
+      "mode": "040000",
+      "path": "public/__grok",
+      "sha": "8a105f78b4d99bc82bebb0788d19346d2de3fa7d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/8a105f78b4d99bc82bebb0788d19346d2de3fa7d"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/icon-180.png",
+      "sha": "e9d2ac1c646a76979136bb2f8b2c483d81a33f54",
+      "size": 2100,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e9d2ac1c646a76979136bb2f8b2c483d81a33f54"
+    },
+    {
+      "mode": "040000",
+      "path": "public/__grok/install",
+      "sha": "7194f7a0101e4ce9419328b1e6a0cb33e7aca00c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/7194f7a0101e4ce9419328b1e6a0cb33e7aca00c"
+    },
+    {
+      "mode": "040000",
+      "path": "public/__grok/install/assets",
+      "sha": "7092fafb4a209024c348f77b39246904c1aa4d8d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/7092fafb4a209024c348f77b39246904c1aa4d8d"
+    },
+    {
+      "mode": "040000",
+      "path": "public/__grok/install/assets/homescreen",
+      "sha": "f2a9ecb608022b69bb5d810a49fac84b30b28ee3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/f2a9ecb608022b69bb5d810a49fac84b30b28ee3"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/install/assets/homescreen/glass-puzzle.svg",
+      "sha": "df0defc5e1a653dd83304cac5fce08f3dd5fc0a0",
+      "size": 1811,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/df0defc5e1a653dd83304cac5fce08f3dd5fc0a0"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/install/assets/homescreen/glass-share.svg",
+      "sha": "051eb8931f8bacb7499f840cf39140f705a6ff0e",
+      "size": 2388,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/051eb8931f8bacb7499f840cf39140f705a6ff0e"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/install/assets/homescreen/logo-grok.svg",
+      "sha": "930144f4d3ac08286b6bbe475c880a01804e4601",
+      "size": 1059,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/930144f4d3ac08286b6bbe475c880a01804e4601"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/install/assets/homescreen/ob-ipad.png",
+      "sha": "c2d4a0d3e111b0c6d9eaca7bbde0a5cafcafc58d",
+      "size": 101843,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/c2d4a0d3e111b0c6d9eaca7bbde0a5cafcafc58d"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/install/assets/homescreen/ob-phone.png",
+      "sha": "1862fb7fd7fbe1fe8098edfde67923a027486779",
+      "size": 103612,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/1862fb7fd7fbe1fe8098edfde67923a027486779"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/install/assets/homescreen/plus.svg",
+      "sha": "bc893abc91f74e2f8a3d12803e8cabbdcda8311f",
+      "size": 2401,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/bc893abc91f74e2f8a3d12803e8cabbdcda8311f"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/install/styles.css",
+      "sha": "445d3afc7d8ef0cf76eb87640ab698a31b0476c8",
+      "size": 6717,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/445d3afc7d8ef0cf76eb87640ab698a31b0476c8"
+    },
+    {
+      "mode": "100644",
+      "path": "public/brain-corpus.public.jsonl",
+      "sha": "c9bd5777f1d0905f4e2e42b1210fbf660f33fed9",
+      "size": 551172,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/c9bd5777f1d0905f4e2e42b1210fbf660f33fed9"
+    },
+    {
+      "mode": "100644",
+      "path": "public/favicon.svg",
+      "sha": "ad2309f97df5fc2beda6001a51ed0b88c77f105c",
+      "size": 356,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ad2309f97df5fc2beda6001a51ed0b88c77f105c"
+    },
+    {
+      "mode": "040000",
+      "path": "public/frontier",
+      "sha": "c550c0e259d9754960b496807c4ed967c192610c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/c550c0e259d9754960b496807c4ed967c192610c"
+    },
+    {
+      "mode": "100644",
+      "path": "public/frontier/brain-neomme-1.4.1.json",
+      "sha": "0e4dad0cc0a976dcbfd176bd0d20c5eb7eadbe62",
+      "size": 5033,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/0e4dad0cc0a976dcbfd176bd0d20c5eb7eadbe62"
+    },
+    {
+      "mode": "100644",
+      "path": "public/frontier/edge-agent-evaluation.v1.json",
+      "sha": "e89d45ec8b7433184596aa79bd80a9653d334416",
+      "size": 3602,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e89d45ec8b7433184596aa79bd80a9653d334416"
+    },
+    {
+      "mode": "100644",
+      "path": "public/frontier/estate-pin.contract.v1.json",
+      "sha": "0ac377b974cd7ffa507d9de4ad656ceb9e015bad",
+      "size": 1841,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/0ac377b974cd7ffa507d9de4ad656ceb9e015bad"
+    },
+    {
+      "mode": "100644",
+      "path": "public/frontier/glm-5-3-flash-evaluation.v1.json",
+      "sha": "fabac078db932a7d63a833dafbb13429422c721c",
+      "size": 2215,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/fabac078db932a7d63a833dafbb13429422c721c"
+    },
+    {
+      "mode": "100644",
+      "path": "public/frontier/kimi-hy4-spark-intake.v1.json",
+      "sha": "b92109f9953b374562615f0a0f97d86371f4209b",
+      "size": 8625,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/b92109f9953b374562615f0a0f97d86371f4209b"
+    },
+    {
+      "mode": "100644",
+      "path": "public/frontier/minicpm5-matched-evidence.v1.json",
+      "sha": "6c62fee904ded0f207177d5c6f147d8d629cadb7",
+      "size": 4580,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/6c62fee904ded0f207177d5c6f147d8d629cadb7"
+    },
+    {
+      "mode": "100644",
+      "path": "public/frontier/neomme-evidence.js",
+      "sha": "284a0236fb431fdcaaa5e2c97a29cfe45f975b3f",
+      "size": 4035,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/284a0236fb431fdcaaa5e2c97a29cfe45f975b3f"
+    },
+    {
+      "mode": "100644",
+      "path": "public/frontier/neomme-smoke.v1.json",
+      "sha": "5bca0865045a9a480585d47a5d0fca80aa52cb50",
+      "size": 9825,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/5bca0865045a9a480585d47a5d0fca80aa52cb50"
+    },
+    {
+      "mode": "100644",
+      "path": "public/frontier/neomme.html",
+      "sha": "b964a02334c4d23d086aa71b70624b552fdd1cab",
+      "size": 5605,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/b964a02334c4d23d086aa71b70624b552fdd1cab"
+    },
+    {
+      "mode": "100644",
+      "path": "public/frontier/release-evaluation-manifest.v1.json",
+      "sha": "486ccf9e15302d280cda8476485b4734bd943433",
+      "size": 35036,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/486ccf9e15302d280cda8476485b4734bd943433"
+    },
+    {
+      "mode": "100644",
+      "path": "public/frontier/top-choice-integration-matrix.v1.json",
+      "sha": "17518d1d01b1f4cec87b42c92fa420e348299426",
+      "size": 3407,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/17518d1d01b1f4cec87b42c92fa420e348299426"
+    },
+    {
+      "mode": "100644",
+      "path": "public/og.jpg",
+      "sha": "24851c397185bc96c531d8c0e012eff0a3950650",
+      "size": 21324,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/24851c397185bc96c531d8c0e012eff0a3950650"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "4e7da096d2b4b721a85066116a932e5282019e1d",
+      "size": 540,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/4e7da096d2b4b721a85066116a932e5282019e1d"
+    },
+    {
+      "mode": "040000",
+      "path": "python",
+      "sha": "e4d50290080bda2707e0f56b36b4fbdb46d2a470",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/e4d50290080bda2707e0f56b36b4fbdb46d2a470"
+    },
+    {
+      "mode": "040000",
+      "path": "python/szl_frontier",
+      "sha": "f761fbb29a14e8fdc81339bff8806d97a50a4817",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/f761fbb29a14e8fdc81339bff8806d97a50a4817"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/__init__.py",
+      "sha": "cc41a096ba0855f5be1226b805afc432b59afaa4",
+      "size": 266,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/cc41a096ba0855f5be1226b805afc432b59afaa4"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/__main__.py",
+      "sha": "4e28416e104515e90fca4b69cc60d0c61fd15d61",
+      "size": 30,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/4e28416e104515e90fca4b69cc60d0c61fd15d61"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/admissions.py",
+      "sha": "087e3bf38996e0d00489fe8fa26406459f71dfb4",
+      "size": 20118,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/087e3bf38996e0d00489fe8fa26406459f71dfb4"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/catalog.py",
+      "sha": "d810cf7a135c1630d0e09bdba8e637baa01336ca",
+      "size": 6437,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/d810cf7a135c1630d0e09bdba8e637baa01336ca"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/cli.py",
+      "sha": "29cc0ac820b3d2122c42bafa0cad2a967433b4d0",
+      "size": 11636,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/29cc0ac820b3d2122c42bafa0cad2a967433b4d0"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/domain.py",
+      "sha": "5c2b21b05be062b2470e0752905c290cbfd29aec",
+      "size": 13066,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/5c2b21b05be062b2470e0752905c290cbfd29aec"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/edge_lane.py",
+      "sha": "e6d8d9a76f1cdbbe4217e81bcd2f62c2ca421601",
+      "size": 19849,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e6d8d9a76f1cdbbe4217e81bcd2f62c2ca421601"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/edge_witness.py",
+      "sha": "06b58856339b6d017fd4733d2e451b105614609c",
+      "size": 8799,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/06b58856339b6d017fd4733d2e451b105614609c"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/engine.py",
+      "sha": "600b2b2f5d39623dedbdb3f997dd1a6ef03ae440",
+      "size": 8225,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/600b2b2f5d39623dedbdb3f997dd1a6ef03ae440"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/evaluation.py",
+      "sha": "e03d252273e93d595cf894f3c1dcddaefc40b4fd",
+      "size": 14098,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e03d252273e93d595cf894f3c1dcddaefc40b4fd"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/family_intake.py",
+      "sha": "f1b762ee454facfa5af7bb4ac18ad2e42922bbd1",
+      "size": 12228,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/f1b762ee454facfa5af7bb4ac18ad2e42922bbd1"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/formula_evidence.py",
+      "sha": "2fe1a2b6f850b4d741b1bf4f93f39c12249c1fc7",
+      "size": 4799,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/2fe1a2b6f850b4d741b1bf4f93f39c12249c1fc7"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/huggingface.py",
+      "sha": "692035254bb07023f88d2ff1fa4fdc39c22524c4",
+      "size": 10731,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/692035254bb07023f88d2ff1fa4fdc39c22524c4"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/invariants.py",
+      "sha": "0ce9d4ee46aa8c542f5c1a64cbb29c937085d217",
+      "size": 7661,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/0ce9d4ee46aa8c542f5c1a64cbb29c937085d217"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/lambda_gate.py",
+      "sha": "53c16be3ad690b26ae5e58b414ee72eda9b3353c",
+      "size": 9387,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/53c16be3ad690b26ae5e58b414ee72eda9b3353c"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/ouroboros.py",
+      "sha": "144ce55bb2b78509f5209f5f1914eb53531585b8",
+      "size": 23620,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/144ce55bb2b78509f5209f5f1914eb53531585b8"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/policy.py",
+      "sha": "104addc11aecdc5d66fc830a6577793fe5c979c3",
+      "size": 3099,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/104addc11aecdc5d66fc830a6577793fe5c979c3"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/receipts.py",
+      "sha": "775516e1785da79581f509c3b92f1493efa592db",
+      "size": 9577,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/775516e1785da79581f509c3b92f1493efa592db"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/seeded_ledger.py",
+      "sha": "27ecefb1b7817834d65c225be25cb0bbcf988400",
+      "size": 9961,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/27ecefb1b7817834d65c225be25cb0bbcf988400"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/state.py",
+      "sha": "d4793d9957d04534bce14d44b65038024baa58f4",
+      "size": 2836,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/d4793d9957d04534bce14d44b65038024baa58f4"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/watch_materiality.py",
+      "sha": "7c45c69ff07026512139d502c1a64622339243e9",
+      "size": 6336,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/7c45c69ff07026512139d502c1a64622339243e9"
+    },
+    {
+      "mode": "100644",
+      "path": "python/szl_frontier/wave_plan.py",
+      "sha": "c00c4600b9db4e48fbcdf2a15205e28ae8e6f7d7",
+      "size": 12560,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/c00c4600b9db4e48fbcdf2a15205e28ae8e6f7d7"
+    },
+    {
+      "mode": "040000",
+      "path": "python/tests",
+      "sha": "02bb6e124327f7073303db2c8f489a2f4a00c822",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/02bb6e124327f7073303db2c8f489a2f4a00c822"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/helpers.py",
+      "sha": "dbd442fd4f35437d5f26f75ffee39f02a10fc8f5",
+      "size": 2190,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/dbd442fd4f35437d5f26f75ffee39f02a10fc8f5"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_brain_neomme_execution.py",
+      "sha": "f7593dfead0a0d28fd2924a0dad0c945587530a4",
+      "size": 4286,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/f7593dfead0a0d28fd2924a0dad0c945587530a4"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_catalog.py",
+      "sha": "82a9c9e9c1e70299a53a3b23d112babc305cd4aa",
+      "size": 2387,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/82a9c9e9c1e70299a53a3b23d112babc305cd4aa"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_cli.py",
+      "sha": "cbbf9848d9bf5322a43a7b4f5c73ddf2b147c5f7",
+      "size": 1140,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/cbbf9848d9bf5322a43a7b4f5c73ddf2b147c5f7"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_domain.py",
+      "sha": "4f83a09730f99ac5a7af69dd9e00f552f69f2417",
+      "size": 1038,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/4f83a09730f99ac5a7af69dd9e00f552f69f2417"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_edge_lane.py",
+      "sha": "6664cd1aae50a10a63452e8c7f6d0eb8e57eb3d0",
+      "size": 13011,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/6664cd1aae50a10a63452e8c7f6d0eb8e57eb3d0"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_edge_lane_projections.py",
+      "sha": "46186c73d3208bcdfa07077baaafbabd801ff48d",
+      "size": 1932,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/46186c73d3208bcdfa07077baaafbabd801ff48d"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_edge_witness.py",
+      "sha": "37de0d3300f5854ff621ece7c5b6d70a17c4cd4f",
+      "size": 9673,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/37de0d3300f5854ff621ece7c5b6d70a17c4cd4f"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_engine.py",
+      "sha": "369908a2e89d037c486df20116d31b6504783222",
+      "size": 5446,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/369908a2e89d037c486df20116d31b6504783222"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_family_intake.py",
+      "sha": "94a1d1348f0c2a895748d24fd042ae3508efc6ef",
+      "size": 6923,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/94a1d1348f0c2a895748d24fd042ae3508efc6ef"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_family_wave_integration.py",
+      "sha": "841301fab7c06339fdd6f9646e3c1312c482695b",
+      "size": 2213,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/841301fab7c06339fdd6f9646e3c1312c482695b"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_formula_evidence.py",
+      "sha": "984c78a00136872ecba3a93b302feb305d6b5f8b",
+      "size": 3194,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/984c78a00136872ecba3a93b302feb305d6b5f8b"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_gguf_wave.py",
+      "sha": "d4881f582fd5432632f157d4d077559e8ce324d5",
+      "size": 3192,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/d4881f582fd5432632f157d4d077559e8ce324d5"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_glm_provider_evidence.py",
+      "sha": "693bb74d8ef4222407d2c32f12fcd6c0d701ab02",
+      "size": 3430,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/693bb74d8ef4222407d2c32f12fcd6c0d701ab02"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_hf_source_witness.py",
+      "sha": "1263a23cc783766431161a3ed35cbe3a46b592cf",
+      "size": 2297,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/1263a23cc783766431161a3ed35cbe3a46b592cf"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_huggingface.py",
+      "sha": "78c55196f5c805ea29ad6cc328c3ceed4d1ea833",
+      "size": 4415,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/78c55196f5c805ea29ad6cc328c3ceed4d1ea833"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_invariants.py",
+      "sha": "45f76f20a27d1182a81f6b90decc9747c35746ee",
+      "size": 4662,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/45f76f20a27d1182a81f6b90decc9747c35746ee"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_lambda_gate.py",
+      "sha": "b17b3e12894e58b04c57ff3f3c002dd8fed42057",
+      "size": 5347,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/b17b3e12894e58b04c57ff3f3c002dd8fed42057"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_matched_gguf_wave.py",
+      "sha": "7be8271e231df310425376ca360a9a293e7c861e",
+      "size": 3565,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/7be8271e231df310425376ca360a9a293e7c861e"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_neomme_evidence.py",
+      "sha": "997f47b3d7ee160c034912efddb2ec6605ab65ba",
+      "size": 5379,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/997f47b3d7ee160c034912efddb2ec6605ab65ba"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_ouroboros.py",
+      "sha": "0f576b4b7b6b8f3e8d879e46d6a9ca0edf31fb72",
+      "size": 7931,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/0f576b4b7b6b8f3e8d879e46d6a9ca0edf31fb72"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_policy_and_plans.py",
+      "sha": "ba4306a1dc61b18fec75d4cb7e5ae4dce864d303",
+      "size": 4620,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ba4306a1dc61b18fec75d4cb7e5ae4dce864d303"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_receipts_and_state.py",
+      "sha": "cb16a07ea924efdb3e8d907d5cf88789c2fab6bb",
+      "size": 2476,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/cb16a07ea924efdb3e8d907d5cf88789c2fab6bb"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_top_choices.py",
+      "sha": "9c2929bc62533ff58faa0e5f8b9289144e23afa1",
+      "size": 3022,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/9c2929bc62533ff58faa0e5f8b9289144e23afa1"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_watch_delivery.py",
+      "sha": "b303b64673f2357ed776a1a73f5d310617fd8b96",
+      "size": 4365,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/b303b64673f2357ed776a1a73f5d310617fd8b96"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_watch_materiality.py",
+      "sha": "7f9ed4c5a899e62bcffb5cef069b05a740a24c04",
+      "size": 3482,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/7f9ed4c5a899e62bcffb5cef069b05a740a24c04"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_wave_plan.py",
+      "sha": "a958bdb3ba5dc80833f2633391db47c3c2b46221",
+      "size": 9599,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/a958bdb3ba5dc80833f2633391db47c3c2b46221"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_wave_plan_repository.py",
+      "sha": "f4f9fde76d770fabfb76232b5ef3021c6f2f1693",
+      "size": 1627,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/f4f9fde76d770fabfb76232b5ef3021c6f2f1693"
+    },
+    {
+      "mode": "040000",
+      "path": "python/wave5",
+      "sha": "4117b04dcdf5ece8930ac9aa82fff42ac8a54303",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/4117b04dcdf5ece8930ac9aa82fff42ac8a54303"
+    },
+    {
+      "mode": "100644",
+      "path": "python/wave5/__init__.py",
+      "sha": "00c6ea96599069565478325e04d2f3727d69dd0e",
+      "size": 112,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/00c6ea96599069565478325e04d2f3727d69dd0e"
+    },
+    {
+      "mode": "100644",
+      "path": "python/wave5/test_wave5_engines.py",
+      "sha": "7313584e3c7c0a0664fd0449338d99c2822e7794",
+      "size": 5046,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/7313584e3c7c0a0664fd0449338d99c2822e7794"
+    },
+    {
+      "mode": "100644",
+      "path": "python/wave5/wave5_engines.py",
+      "sha": "85bbf89173784689107b3b667df41da936ff0e48",
+      "size": 9242,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/85bbf89173784689107b3b667df41da936ff0e48"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "f04cbec747e4d92f604a7212ca345ab738fcd4a0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/f04cbec747e4d92f604a7212ca345ab738fcd4a0"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/app-env-plugin.mjs",
+      "sha": "9b9b69e071c99fb2ed1b56a759bead15169b2fe8",
+      "size": 1278,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/9b9b69e071c99fb2ed1b56a759bead15169b2fe8"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/brand-check.mjs",
+      "sha": "89a9e587c6cad6ee9944af28160fbfdc05fde1ac",
+      "size": 9609,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/89a9e587c6cad6ee9944af28160fbfdc05fde1ac"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/brand-check.test.mjs",
+      "sha": "bda0e9b6208db4bdb8a2b4ad84502680d30af7c9",
+      "size": 15084,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/bda0e9b6208db4bdb8a2b4ad84502680d30af7c9"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/browser-guard.mjs",
+      "sha": "ebfbdb147f0b266a4ca46fe451daae1ae023c2db",
+      "size": 1724,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ebfbdb147f0b266a4ca46fe451daae1ae023c2db"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/browser-smoke-verdict.mjs",
+      "sha": "020dd9991778b477e0003316064275db0d0fe3d8",
+      "size": 4663,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/020dd9991778b477e0003316064275db0d0fe3d8"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/browser-smoke-verdict.test.mjs",
+      "sha": "d326fd3a6e4ed2f6f5d8c40b53086f9f85bae3e1",
+      "size": 15643,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/d326fd3a6e4ed2f6f5d8c40b53086f9f85bae3e1"
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/browser-smoke.mjs",
+      "sha": "c1ae5d1216ebcada1dde366328dc3b2aef446e67",
+      "size": 6042,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/c1ae5d1216ebcada1dde366328dc3b2aef446e67"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/check-auth-invariant.mjs",
+      "sha": "b558378c35f88069e34e344579391c395f565640",
+      "size": 4203,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/b558378c35f88069e34e344579391c395f565640"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/check-auth-invariant.test.mjs",
+      "sha": "4cc9b6faa28b56c83a498003bfc9a2b200aad276",
+      "size": 4218,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/4cc9b6faa28b56c83a498003bfc9a2b200aad276"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/docker-entrypoint.test.mjs",
+      "sha": "ce70ebbc34c0a0fc61526ce07c6d5300826bd3c7",
+      "size": 1436,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ce70ebbc34c0a0fc61526ce07c6d5300826bd3c7"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/filter-frontier-candidates.mjs",
+      "sha": "22938490e2ba064d7041fbd519a4a41e10cb72d3",
+      "size": 4773,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/22938490e2ba064d7041fbd519a4a41e10cb72d3"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/filter-frontier-candidates.test.mjs",
+      "sha": "5b8db8142424222b6338d108d1770577c7c115b4",
+      "size": 5006,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/5b8db8142424222b6338d108d1770577c7c115b4"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-atria-dawn-preview.test.mjs",
+      "sha": "ef3e0872ecb8cd002a6ce5255e42fb7c0f0109b8",
+      "size": 1572,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ef3e0872ecb8cd002a6ce5255e42fb7c0f0109b8"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-bound-route-execution-contract.test.mjs",
+      "sha": "b5ad10449985cf5c54e4a24b8903af392ca4fee6",
+      "size": 4139,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/b5ad10449985cf5c54e4a24b8903af392ca4fee6"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-bound-route-execution-validator.test.mjs",
+      "sha": "da241efb36892435003beac49a6b02a7a7dcc74b",
+      "size": 17346,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/da241efb36892435003beac49a6b02a7a7dcc74b"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-catalog-wave.test.mjs",
+      "sha": "59e743adf3707fe0bef5806416b2000e0ee979c1",
+      "size": 3052,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/59e743adf3707fe0bef5806416b2000e0ee979c1"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-chain-receipt-reconciliation.test.mjs",
+      "sha": "c36e10c071ffb906f81c49d008ceda9a138f2655",
+      "size": 5756,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/c36e10c071ffb906f81c49d008ceda9a138f2655"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-cosmos3-modelopt-fp8-policy.test.mjs",
+      "sha": "a37015661e2ddb1265bc8772677fcb7427eb1d29",
+      "size": 2993,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/a37015661e2ddb1265bc8772677fcb7427eb1d29"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-counterfactual-rehearsal-2026-09-19.test.mjs",
+      "sha": "ce88fd6c87eba09a2f05eb242ff151aab28aab8e",
+      "size": 2663,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ce88fd6c87eba09a2f05eb242ff151aab28aab8e"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-deepseek-v4-1-flash.test.mjs",
+      "sha": "233534c9e06ebc8cbed4eacdef3767ad21d5d08e",
+      "size": 3675,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/233534c9e06ebc8cbed4eacdef3767ad21d5d08e"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-deepseek-v4-1-handoffs.test.mjs",
+      "sha": "1eb1a8d903700f25fb2b8771d2595008d2cd7b77",
+      "size": 1492,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/1eb1a8d903700f25fb2b8771d2595008d2cd7b77"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-estate-alignment-closure.test.mjs",
+      "sha": "babc80fb082c367bea0770e5d59525987b74fec0",
+      "size": 6121,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/babc80fb082c367bea0770e5d59525987b74fec0"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-estate-alignment-drift.test.mjs",
+      "sha": "c25acd37cd8c0481ed034ef31d42c92f353c88c0",
+      "size": 7539,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/c25acd37cd8c0481ed034ef31d42c92f353c88c0"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-estate-alignment-residual-product-proof.test.mjs",
+      "sha": "1c86e3f1791cfa7fe19fdac42ed1c38b9cbff51a",
+      "size": 3563,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/1c86e3f1791cfa7fe19fdac42ed1c38b9cbff51a"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-estate-alignment-successor.test.mjs",
+      "sha": "6823749ce011d101d815a82184984ea60ac74d75",
+      "size": 6066,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/6823749ce011d101d815a82184984ea60ac74d75"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-estate-audit-reconciliation.test.mjs",
+      "sha": "057b469ea55b7f4b84b3204f224e5cbc0ffac210",
+      "size": 4607,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/057b469ea55b7f4b84b3204f224e5cbc0ffac210"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-execution-witness-check.mjs",
+      "sha": "40e4f49e4b13d5852d7fe739f7101abe5885d31c",
+      "size": 12952,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/40e4f49e4b13d5852d7fe739f7101abe5885d31c"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-governed-inference-binding.test.mjs",
+      "sha": "a06e3f0859dcbfc0499e49771ba50ab5f35bc486",
+      "size": 3568,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/a06e3f0859dcbfc0499e49771ba50ab5f35bc486"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-governed-inference-chain.test.mjs",
+      "sha": "33d1f64a6ccd19b917d887b66e26cb46ce0bb4a1",
+      "size": 4185,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/33d1f64a6ccd19b917d887b66e26cb46ce0bb4a1"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-granite-patchtst-fm-r2.test.mjs",
+      "sha": "8c3a588f99d4dd5bfd0e17baef3253b62c11a15d",
+      "size": 2101,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/8c3a588f99d4dd5bfd0e17baef3253b62c11a15d"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-hf-core-stack.test.mjs",
+      "sha": "2f95bc7f14a503b4b0e2808b7b769f3ee89ed2b9",
+      "size": 2216,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/2f95bc7f14a503b4b0e2808b7b769f3ee89ed2b9"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-hf-ghlore-030-project-memory.test.mjs",
+      "sha": "5018dacca22366d976cf2d7999aa5e926bd7f7fe",
+      "size": 1844,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/5018dacca22366d976cf2d7999aa5e926bd7f7fe"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-hf-ghlore-project-memory.test.mjs",
+      "sha": "d50f1b2aeb0ac983dc0debbee01008607a7e8474",
+      "size": 1263,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/d50f1b2aeb0ac983dc0debbee01008607a7e8474"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-hf-harbor-eval-infra.test.mjs",
+      "sha": "8a5c82913b6fa0258eefab36f1dfa6a9a9e2b7a2",
+      "size": 1422,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/8a5c82913b6fa0258eefab36f1dfa6a9a9e2b7a2"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-hf-harbor-local-parent-artifacts.test.mjs",
+      "sha": "07816a48196e9a5a14228cbec138392f3886b8f2",
+      "size": 2181,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/07816a48196e9a5a14228cbec138392f3886b8f2"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-hf-harbor-private-datasets.test.mjs",
+      "sha": "291917eba55d5cde50878dcbced48ce0f5cfa18b",
+      "size": 2241,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/291917eba55d5cde50878dcbced48ce0f5cfa18b"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-hf-harbor-provider-refs.test.mjs",
+      "sha": "4d5973acf289783ebee9d0b0b701e9ce9e9ec7ef",
+      "size": 2140,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/4d5973acf289783ebee9d0b0b701e9ce9e9ec7ef"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-hf-harbor-replacement-stabilization.test.mjs",
+      "sha": "c0d4779b4de12992bd599af4c167e2ba1afe2d36",
+      "size": 3079,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/c0d4779b4de12992bd599af4c167e2ba1afe2d36"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-hf-harbor-reviewed-replacements.test.mjs",
+      "sha": "e4207a43406c36e6fffb7d15844197d868b9a9bd",
+      "size": 3235,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e4207a43406c36e6fffb7d15844197d868b9a9bd"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-hf-hub-1-32-release-convergence-2026-09-17.test.mjs",
+      "sha": "e1f993770f42a1baa12f1b9def578b0fc9d9fb10",
+      "size": 2989,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e1f993770f42a1baa12f1b9def578b0fc9d9fb10"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-hf-hub-130-repo-revision-binding.test.mjs",
+      "sha": "6e8ab72bec2cb7fb9f761cd1f22beb4ed839ecc9",
+      "size": 2606,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/6e8ab72bec2cb7fb9f761cd1f22beb4ed839ecc9"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-hf-hub-131-stable.test.mjs",
+      "sha": "5fed3d255fc98e2f693918ab7473e3187f24703f",
+      "size": 2322,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/5fed3d255fc98e2f693918ab7473e3187f24703f"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-hf-hub-checkpoint-deserialization-hardening.test.mjs",
+      "sha": "ccbe9a83f353299cd31d2f9d71180512a73f7ff7",
+      "size": 3287,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ccbe9a83f353299cd31d2f9d71180512a73f7ff7"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-hf-hub-sandbox-security-successor.test.mjs",
+      "sha": "4907df0b813cf161e6cf5025881d06b9fe8d7c35",
+      "size": 4353,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/4907df0b813cf161e6cf5025881d06b9fe8d7c35"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-hf-kernel-0161-migration.test.mjs",
+      "sha": "7ea6b2eca9e0fdbc874c106737f5cac001c5b3c6",
+      "size": 4350,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/7ea6b2eca9e0fdbc874c106737f5cac001c5b3c6"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-hf-kernels-0-17.test.mjs",
+      "sha": "b4ad6af2f4de5cbd2f168a8fe1da7984a7e1a946",
+      "size": 3399,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/b4ad6af2f4de5cbd2f168a8fe1da7984a7e1a946"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-hf-repo2rlenv-synthesis.test.mjs",
+      "sha": "e36ba6cc476387b780bf085b92453a7c087cc647",
+      "size": 1424,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e36ba6cc476387b780bf085b92453a7c087cc647"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-hf-tau-042-release.test.mjs",
+      "sha": "90275ed61073ff69cdfd92d694d411ab6c09f0ec",
+      "size": 3091,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/90275ed61073ff69cdfd92d694d411ab6c09f0ec"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-hf-tau-agent-harness.test.mjs",
+      "sha": "7e1a4a9316115c1503c721df6fc6f228f055a4c2",
+      "size": 2170,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/7e1a4a9316115c1503c721df6fc6f228f055a4c2"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-hf-tei-v1.9.4.test.mjs",
+      "sha": "ba220e5959c13908509391fba5bc55276a6d3a96",
+      "size": 1883,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ba220e5959c13908509391fba5bc55276a6d3a96"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-integrity-successors-2026-09-17.test.mjs",
+      "sha": "fdd761bb03c6b106e8c70182ba1b1f1ee664b489",
+      "size": 4979,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/fdd761bb03c6b106e8c70182ba1b1f1ee664b489"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-k2-horizon-mova-36b-a4b.test.mjs",
+      "sha": "e5df9ab3a42dfa69af47af1ba43d6ec7d7e87e1e",
+      "size": 2361,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e5df9ab3a42dfa69af47af1ba43d6ec7d7e87e1e"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-keystone-verification-harness.test.mjs",
+      "sha": "1d459e95935dfa1f36f4fb0613da58607a9ef0fe",
+      "size": 3939,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/1d459e95935dfa1f36f4fb0613da58607a9ef0fe"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-late-correctness-successors-2026-09-17.test.mjs",
+      "sha": "f829f902f52890c9e8b0fddc44a43a08e5f5d2c7",
+      "size": 4321,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/f829f902f52890c9e8b0fddc44a43a08e5f5d2c7"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-late-runtime-correctness-successors-2026-09-16.test.mjs",
+      "sha": "2e48489721d0f1c6b1b6443910f6133900d00023",
+      "size": 4367,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/2e48489721d0f1c6b1b6443910f6133900d00023"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-neomme-multimodal-native-encoders.test.mjs",
+      "sha": "98c6577b569f255742d31974bc321e21030b46fd",
+      "size": 2115,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/98c6577b569f255742d31974bc321e21030b46fd"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-peft-distributed-lora-export-integrity.test.mjs",
+      "sha": "b6646d5001e808d4ec5aaa94d11060b79a8b87c1",
+      "size": 2884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/b6646d5001e808d4ec5aaa94d11060b79a8b87c1"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-post-wave-runtime-correctness-successors-2026-09-16.test.mjs",
+      "sha": "653acb6629367d2b414dd3ea2d43e44ec444d05e",
+      "size": 4539,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/653acb6629367d2b414dd3ea2d43e44ec444d05e"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-projection.test.mjs",
+      "sha": "9197c1f682835bab36d81e47e43d35bb9b446515",
+      "size": 4216,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/9197c1f682835bab36d81e47e43d35bb9b446515"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-proof-alignment.test.mjs",
+      "sha": "87b67881669a83421f609755ac913b922c2a6ebb",
+      "size": 2731,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/87b67881669a83421f609755ac913b922c2a6ebb"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-proof.mjs",
+      "sha": "d2fd044e974bb52792d22d09d754d8c4ab80f2e1",
+      "size": 1402,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/d2fd044e974bb52792d22d09d754d8c4ab80f2e1"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-release-watch.mjs",
+      "sha": "4583505934617395f1f3ecc5059704a6cedc95d8",
+      "size": 17863,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/4583505934617395f1f3ecc5059704a6cedc95d8"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-release-watch.test.mjs",
+      "sha": "21c5c3bf721f866563f6733f833da6be26dbb817",
+      "size": 6019,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/21c5c3bf721f866563f6733f833da6be26dbb817"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-residual-capture-harness.test.mjs",
+      "sha": "2a9969cdde75d3db85fe63246c684efdec9ce719",
+      "size": 3721,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/2a9969cdde75d3db85fe63246c684efdec9ce719"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-runtime-correctness-successors-2026-09-16.test.mjs",
+      "sha": "416c50beba54699cb2c6e1fe214b5ee4d264a6dd",
+      "size": 3440,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/416c50beba54699cb2c6e1fe214b5ee4d264a6dd"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-runtime-correctness-successors-2026-09-17.test.mjs",
+      "sha": "dc18432c5e354f27e70dc26cebc82d9316193962",
+      "size": 3674,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/dc18432c5e354f27e70dc26cebc82d9316193962"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-runtime-retrieval-wave.test.mjs",
+      "sha": "ca2d4a91dc9b69fa352beadc4eba43bff53e3d63",
+      "size": 4525,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ca2d4a91dc9b69fa352beadc4eba43bff53e3d63"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-sentence-transformers-faiss-metric-2026-09-16.test.mjs",
+      "sha": "9fc8b6f5301aecd42ba8d753b2ba7cbd03c1165e",
+      "size": 1870,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/9fc8b6f5301aecd42ba8d753b2ba7cbd03c1165e"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-sglang-deepseek-v4-native-renderer.test.mjs",
+      "sha": "402136b4cd16ce07abe0c2370e3bfceacaae4e7a",
+      "size": 2855,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/402136b4cd16ce07abe0c2370e3bfceacaae4e7a"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-sglang-deepseek-v41-kernel-stack-2026-09-16.test.mjs",
+      "sha": "366c9071516cbebe101006518e607ad5d0ec1fab",
+      "size": 3232,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/366c9071516cbebe101006518e607ad5d0ec1fab"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-tencent-auk-speech-handoffs.test.mjs",
+      "sha": "834ec070ebf3eb6ee54b62ae540fc61827026915",
+      "size": 1389,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/834ec070ebf3eb6ee54b62ae540fc61827026915"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-tencent-auk-speech.test.mjs",
+      "sha": "17e088ef198472d29a788b17d9291cd888ee6655",
+      "size": 3458,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/17e088ef198472d29a788b17d9291cd888ee6655"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-transformers-fsdp2-expert-parallel.test.mjs",
+      "sha": "a676ff6032f5b96ff194cdd65a602b0f08adeba8",
+      "size": 3647,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/a676ff6032f5b96ff194cdd65a602b0f08adeba8"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-transformers-peft-020-load-floor.test.mjs",
+      "sha": "d12b8cd70d4c7eb101642efb3f22c28bf9ce3706",
+      "size": 5097,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/d12b8cd70d4c7eb101642efb3f22c28bf9ce3706"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-transformers-pp-tp-inference.test.mjs",
+      "sha": "5abd9b04137ade25d3f168459b6836bd279e44d4",
+      "size": 2983,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/5abd9b04137ade25d3f168459b6836bd279e44d4"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-transformers-qwen35-moe-gguf.test.mjs",
+      "sha": "37eb91be1524f23bb27479aa8ca48ca926cf7585",
+      "size": 1661,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/37eb91be1524f23bb27479aa8ca48ca926cf7585"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-trl-activation-offload-successor.test.mjs",
+      "sha": "d67bc2363bf5d3589c860ff0665cf9ba00812372",
+      "size": 5061,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/d67bc2363bf5d3589c860ff0665cf9ba00812372"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-trl-asyncgrpo-lora-vllm-sync.test.mjs",
+      "sha": "6b875367dc1dc5b3915446ca8a8270da976cd5ae",
+      "size": 1968,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/6b875367dc1dc5b3915446ca8a8270da976cd5ae"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-trl-grpo-structured-output-recipe.test.mjs",
+      "sha": "a617458766c58384824fc21615078989ab85c17e",
+      "size": 2202,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/a617458766c58384824fc21615078989ab85c17e"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-upstream-pins.test.mjs",
+      "sha": "b9ff3cfb97485ac5186518cea0a787713c2e3d34",
+      "size": 4820,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/b9ff3cfb97485ac5186518cea0a787713c2e3d34"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-vllm-0-29-trl-wave.test.mjs",
+      "sha": "71a55a808f5aa3e3ab3bc85e2f26fe566f29f2b3",
+      "size": 3561,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/71a55a808f5aa3e3ab3bc85e2f26fe566f29f2b3"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-vllm-029-trl-compat.test.mjs",
+      "sha": "5af6f592d089690f2bbfe9c015161bdc54af7a4f",
+      "size": 2330,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/5af6f592d089690f2bbfe9c015161bdc54af7a4f"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-vllm-adaptive-acceptance-estimator.test.mjs",
+      "sha": "ae8b794cc4b93e93aa82bfb393c4a43a8788d4c0",
+      "size": 2942,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ae8b794cc4b93e93aa82bfb393c4a43a8788d4c0"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-vllm-artifact-selection.test.mjs",
+      "sha": "73c94349885cce270fcc12cfc8184be38fda7215",
+      "size": 1890,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/73c94349885cce270fcc12cfc8184be38fda7215"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-vllm-deepseek-v41-generation-prompt.test.mjs",
+      "sha": "a04e16bb4cf153cbd47563664f9f2c2c4cf0433b",
+      "size": 3265,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/a04e16bb4cf153cbd47563664f9f2c2c4cf0433b"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-vllm-kvcr-secondary-tier.test.mjs",
+      "sha": "0a418d322c0af13d5df1e0fe5c6a0dd6bfcf011c",
+      "size": 3665,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/0a418d322c0af13d5df1e0fe5c6a0dd6bfcf011c"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-vllm-omni-029rc1.test.mjs",
+      "sha": "7f8cabd084e29f1354c1b19a1b6952caacf5512c",
+      "size": 4012,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/7f8cabd084e29f1354c1b19a1b6952caacf5512c"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-vllm-reasoning-boundary-parser-2026-09-16.test.mjs",
+      "sha": "91dbbed599b1e596e3a545ecbe0d8676300dcb58",
+      "size": 1561,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/91dbbed599b1e596e3a545ecbe0d8676300dcb58"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-vlm-run-gateway.test.mjs",
+      "sha": "2ed3ef3abe9c79fd833e10e049efe4115fe1619d",
+      "size": 1934,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/2ed3ef3abe9c79fd833e10e049efe4115fe1619d"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-watch-materiality.test.mjs",
+      "sha": "50f8fe364c895ee9fbcad63fcf7edcd5215497c0",
+      "size": 3065,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/50f8fe364c895ee9fbcad63fcf7edcd5215497c0"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-wave-contract.test.mjs",
+      "sha": "87303b2a4ab63f3f6a889af87b8a0a3e4431d22c",
+      "size": 5144,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/87303b2a4ab63f3f6a889af87b8a0a3e4431d22c"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-workspace-readout-preparation.test.mjs",
+      "sha": "7abe02cd2f554732295cea9a87cb2e0067e619cc",
+      "size": 3355,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/7abe02cd2f554732295cea9a87cb2e0067e619cc"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-workspace-readout-receipt.test.mjs",
+      "sha": "67252c9825b103eef28e9244b442224db8d11f8a",
+      "size": 5260,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/67252c9825b103eef28e9244b442224db8d11f8a"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/frontier-yachay-harbor.test.mjs",
+      "sha": "7831f705fb888caae517ee250d28a920c9eedfa8",
+      "size": 788,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/7831f705fb888caae517ee250d28a920c9eedfa8"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/generate-frontier-release-manifest.mjs",
+      "sha": "52fb8f80ad7a409a3d5c0960b111f8c8bfdfc03a",
+      "size": 1203,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/52fb8f80ad7a409a3d5c0960b111f8c8bfdfc03a"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/grok-pwa-plugin.mjs",
+      "sha": "97821e8b28840b612d13c35bb95f6dfd07ffa006",
+      "size": 6615,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/97821e8b28840b612d13c35bb95f6dfd07ffa006"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/grok-pwa-plugin.test.mjs",
+      "sha": "69b32de8995a01c68550a6870fb7c1187e6f55a3",
+      "size": 20320,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/69b32de8995a01c68550a6870fb7c1187e6f55a3"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/grok-pwa-shared.d.mts",
+      "sha": "609ea6b65670d68ac9261d569bd8a0a8d092c6a4",
+      "size": 3144,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/609ea6b65670d68ac9261d569bd8a0a8d092c6a4"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/grok-pwa-shared.mjs",
+      "sha": "e0aae02b45849f6dff89e0cdb6e51894a4ab863f",
+      "size": 17675,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e0aae02b45849f6dff89e0cdb6e51894a4ab863f"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/grok_payload.py",
+      "sha": "76c8793d72326d4abe4d8e3995361283c60aadc3",
+      "size": 987,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/76c8793d72326d4abe4d8e3995361283c60aadc3"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/hf-provider-host.test.mjs",
+      "sha": "d4990a8deda308e2cc735575c1c5d1e7afd02406",
+      "size": 662,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/d4990a8deda308e2cc735575c1c5d1e7afd02406"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/install-page.html",
+      "sha": "f1d3bdbd1a1a1c5337a019d7f188cfd1ce19b33d",
+      "size": 5658,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/f1d3bdbd1a1a1c5337a019d7f188cfd1ce19b33d"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/migrate.mjs",
+      "sha": "7b3dc087119d24d283b4ad89f1d8ab77f9d2ec9b",
+      "size": 3181,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/7b3dc087119d24d283b4ad89f1d8ab77f9d2ec9b"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/migration-plan.mjs",
+      "sha": "861450f0849ab6f56a00c30ddeb91ac4262cc1f7",
+      "size": 1525,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/861450f0849ab6f56a00c30ddeb91ac4262cc1f7"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/migration-plan.test.mjs",
+      "sha": "ae2ffa74f0f722e0f99f0c6003c0aa367d1d06a1",
+      "size": 3558,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ae2ffa74f0f722e0f99f0c6003c0aa367d1d06a1"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/open-frontier-alerts.mjs",
+      "sha": "97d67bf627db27a6517dba643a41adbf2b025a0c",
+      "size": 10048,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/97d67bf627db27a6517dba643a41adbf2b025a0c"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/open-frontier-alerts.test.mjs",
+      "sha": "48654028e618c1b8dcf97de7d989d1e131784b4e",
+      "size": 4179,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/48654028e618c1b8dcf97de7d989d1e131784b4e"
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/preview-thumbnail.mjs",
+      "sha": "dd2afaed2b10ece67a7b8a5320b35d76edf0de09",
+      "size": 1762,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/dd2afaed2b10ece67a7b8a5320b35d76edf0de09"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/preview.mjs",
+      "sha": "cab7a4d0cc0e35dd7734362f70d3bbf64f6e42b5",
+      "size": 11074,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/cab7a4d0cc0e35dd7734362f70d3bbf64f6e42b5"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/preview.test.mjs",
+      "sha": "cf39aecf27ccf30de42a28da07a88dd6b884095f",
+      "size": 9207,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/cf39aecf27ccf30de42a28da07a88dd6b884095f"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/sign-out-plan.mjs",
+      "sha": "cfcd425d3fc423d2d3f9e7b9efd9f6d4721dfab6",
+      "size": 5971,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/cfcd425d3fc423d2d3f9e7b9efd9f6d4721dfab6"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/sign-out-plan.test.mjs",
+      "sha": "7c20d88df5ef0d8a448d007fe5e0aae9ae2e8883",
+      "size": 8659,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/7c20d88df5ef0d8a448d007fe5e0aae9ae2e8883"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/szl_claim_scout.mjs",
+      "sha": "257d1d8c35f276982d13f0a593db6766850596bf",
+      "size": 7901,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/257d1d8c35f276982d13f0a593db6766850596bf"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/szl_counterfactual_rehearsal.mjs",
+      "sha": "37eea83ff2e97225862d029a4b186d3b44671d38",
+      "size": 18114,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/37eea83ff2e97225862d029a4b186d3b44671d38"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/szl_counterfactual_rehearsal.test.mjs",
+      "sha": "aa299ee1f92ca1783ab6a96c23667635d43cbb2f",
+      "size": 4367,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/aa299ee1f92ca1783ab6a96c23667635d43cbb2f"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/with-app-env.mjs",
+      "sha": "e48dfafa69fa33d5288269ce939236956ff75e9c",
+      "size": 4601,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e48dfafa69fa33d5288269ce939236956ff75e9c"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/with-app-env.test.mjs",
+      "sha": "823092f39cbf708d84a9abd5c0f4e658687b7265",
+      "size": 4466,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/823092f39cbf708d84a9abd5c0f4e658687b7265"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/write-atomic.mjs",
+      "sha": "293e2951f4c0b729174f21a79baa0a717f1b03f0",
+      "size": 3607,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/293e2951f4c0b729174f21a79baa0a717f1b03f0"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/write-atomic.test.mjs",
+      "sha": "6df411a7d88059be2113bf1138ceb5982fcfb16e",
+      "size": 7505,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/6df411a7d88059be2113bf1138ceb5982fcfb16e"
+    },
+    {
+      "mode": "040000",
+      "path": "server",
+      "sha": "2d4cfc78f759f4a941a9528cabd11f1b244c6560",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/2d4cfc78f759f4a941a9528cabd11f1b244c6560"
+    },
+    {
+      "mode": "040000",
+      "path": "server/middleware",
+      "sha": "ea9b4bd06ea67ed99f612bd10b52c2cc8be9c41a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/ea9b4bd06ea67ed99f612bd10b52c2cc8be9c41a"
+    },
+    {
+      "mode": "100644",
+      "path": "server/middleware/grok-pwa.ts",
+      "sha": "1575de8f0a478af1482b3b9fae8c5a7ad0c06230",
+      "size": 3606,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/1575de8f0a478af1482b3b9fae8c5a7ad0c06230"
+    },
+    {
+      "mode": "100644",
+      "path": "server/virtual-grok-og-identity.d.ts",
+      "sha": "2baed2dbb4a24d8374b25158e37f1e2bda8fab0d",
+      "size": 262,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/2baed2dbb4a24d8374b25158e37f1e2bda8fab0d"
+    },
+    {
+      "mode": "040000",
+      "path": "src",
+      "sha": "1149f4ca69a584eefb13012cad3c21a0bdd9e3c6",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/1149f4ca69a584eefb13012cad3c21a0bdd9e3c6"
+    },
+    {
+      "mode": "040000",
+      "path": "src/components",
+      "sha": "cc1d7ed54379ea7add9dd428c0ed791f364eee9b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/cc1d7ed54379ea7add9dd428c0ed791f364eee9b"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/app-shell.tsx",
+      "sha": "555969fa62512a3caeaa06219c28d0a5a50ce018",
+      "size": 6349,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/555969fa62512a3caeaa06219c28d0a5a50ce018"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/identity-bar.tsx",
+      "sha": "792a0660ca3344f8cb3a1c694d3db6522a0513b0",
+      "size": 2360,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/792a0660ca3344f8cb3a1c694d3db6522a0513b0"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/mark.tsx",
+      "sha": "71840c2e37f71683f78776e5af55bc20417ea56e",
+      "size": 479,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/71840c2e37f71683f78776e5af55bc20417ea56e"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/page-header.tsx",
+      "sha": "fb1176bfbd6691db54513c4ae82496cfe69b8dee",
+      "size": 656,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/fb1176bfbd6691db54513c4ae82496cfe69b8dee"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/preview-host-bridge.tsx",
+      "sha": "98cb15d443328b2fdb5d9ae9e3bdab0eff453612",
+      "size": 668,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/98cb15d443328b2fdb5d9ae9e3bdab0eff453612"
+    },
+    {
+      "mode": "040000",
+      "path": "src/components/ui",
+      "sha": "890d20a9c5e74b7bc1466a518aa8e002764537e2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/890d20a9c5e74b7bc1466a518aa8e002764537e2"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/ui/badge.tsx",
+      "sha": "9a637b8c2054d60e8636035cc7792c396f40eb12",
+      "size": 923,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/9a637b8c2054d60e8636035cc7792c396f40eb12"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/ui/button.tsx",
+      "sha": "be2821f6274baf8a0edf05b53f4dcf9b497a2e89",
+      "size": 1826,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/be2821f6274baf8a0edf05b53f4dcf9b497a2e89"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/ui/card.tsx",
+      "sha": "a5e3f313233231f431f29b22cfb12967df20badb",
+      "size": 1062,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/a5e3f313233231f431f29b22cfb12967df20badb"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/ui/input.tsx",
+      "sha": "12bf080c7c196e0b0eb84b8f0c20117f65f6a5aa",
+      "size": 1037,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/12bf080c7c196e0b0eb84b8f0c20117f65f6a5aa"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/ui/select.tsx",
+      "sha": "e039b86ff9b322c7e830b50fd17c76653238d958",
+      "size": 813,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e039b86ff9b322c7e830b50fd17c76653238d958"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/ui/separator.tsx",
+      "sha": "1f18d916ff4fe797a3e02a72e5c630fab9780127",
+      "size": 225,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/1f18d916ff4fe797a3e02a72e5c630fab9780127"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib",
+      "sha": "81abefb95b85495fd9cf08302bd41752d2357f06",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/81abefb95b85495fd9cf08302bd41752d2357f06"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/actions",
+      "sha": "31636e486eddac0148bb45aad68f10b82a20c528",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/31636e486eddac0148bb45aad68f10b82a20c528"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/actions/adapter.ts",
+      "sha": "ca715433127f8cb470dade82a873dc1bbad4711b",
+      "size": 2397,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ca715433127f8cb470dade82a873dc1bbad4711b"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/adversary",
+      "sha": "0f6f61b2df596d1f232b342aed443404ff6376dd",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/0f6f61b2df596d1f232b342aed443404ff6376dd"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/adversary/campaign.ts",
+      "sha": "163e9c0a85431a641d0a7a56f63348fc1c5adcae",
+      "size": 5729,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/163e9c0a85431a641d0a7a56f63348fc1c5adcae"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/ai",
+      "sha": "04f4c62b8f3cba0c7ee14beced5bf14617739771",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/04f4c62b8f3cba0c7ee14beced5bf14617739771"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/ai/expand-idea.ts",
+      "sha": "4c35b68a9aa688a7c491a76b0a21baffdd854c76",
+      "size": 1716,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/4c35b68a9aa688a7c491a76b0a21baffdd854c76"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/app-data",
+      "sha": "47df08f658bd3a77b1ce935f053a421d94c8a829",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/47df08f658bd3a77b1ce935f053a421d94c8a829"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/app-data/app-data.test.ts",
+      "sha": "58001d00a96e3ff108077f9acc6c762199fd5a91",
+      "size": 11834,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/58001d00a96e3ff108077f9acc6c762199fd5a91"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/app-data/client.server.ts",
+      "sha": "eb2f6e882bd083c09da1edd5b96a4d6b14aee142",
+      "size": 9879,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/eb2f6e882bd083c09da1edd5b96a4d6b14aee142"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/app-data/errors.ts",
+      "sha": "81517744c90d47ba30dd42be7feff3198879ecc7",
+      "size": 1377,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/81517744c90d47ba30dd42be7feff3198879ecc7"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/app-data/index.ts",
+      "sha": "32a32a72214e18b28da1ea3d08e4e9f6a59f5e99",
+      "size": 398,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/32a32a72214e18b28da1ea3d08e4e9f6a59f5e99"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/app-data/login.ts",
+      "sha": "83ada786ee8a1f7fc8a450a5fba7d46eef034437",
+      "size": 719,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/83ada786ee8a1f7fc8a450a5fba7d46eef034437"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/app-data/server-only.ts",
+      "sha": "27567c57626c596986c681e119bf78d4cf67b201",
+      "size": 476,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/27567c57626c596986c681e119bf78d4cf67b201"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/app-data/types.ts",
+      "sha": "ea1b107c022a1acd4803f01c9c14934c60b94df2",
+      "size": 968,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ea1b107c022a1acd4803f01c9c14934c60b94df2"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/auth",
+      "sha": "8affd49aa50ce5eb9d9ba4681342c901b6a65eb3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/8affd49aa50ce5eb9d9ba4681342c901b6a65eb3"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/client.ts",
+      "sha": "d3b267d3de8b9d5e31545ee56ed7a3ff240c601d",
+      "size": 9714,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/d3b267d3de8b9d5e31545ee56ed7a3ff240c601d"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/email-password.ts",
+      "sha": "3abb01461af8b6c8293e9a996ec639b7009843a8",
+      "size": 442,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/3abb01461af8b6c8293e9a996ec639b7009843a8"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/gate-identity.server.ts",
+      "sha": "db8380095b75e0e6cd702c5df7c066c18e512e2b",
+      "size": 4982,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/db8380095b75e0e6cd702c5df7c066c18e512e2b"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/gate-identity.test.ts",
+      "sha": "ccae9f8b56f406265af82c9cb9bc5139f59f909f",
+      "size": 9499,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ccae9f8b56f406265af82c9cb9bc5139f59f909f"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/gate-session.server.ts",
+      "sha": "a73d02c3eb8ddd9fc2d6039fe90f94c9ce42b6e1",
+      "size": 10125,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/a73d02c3eb8ddd9fc2d6039fe90f94c9ce42b6e1"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/gates.tsx",
+      "sha": "259b21a6900044681d1898e3f696d84aaeaba3c3",
+      "size": 3452,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/259b21a6900044681d1898e3f696d84aaeaba3c3"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/isolation.server.ts",
+      "sha": "f070e0801221046b3a1c26954cc714250addecff",
+      "size": 2386,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/f070e0801221046b3a1c26954cc714250addecff"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/middleware.ts",
+      "sha": "c6a734242f2a63c02e365eb7303a0238b3b5bf5c",
+      "size": 2462,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/c6a734242f2a63c02e365eb7303a0238b3b5bf5c"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/pglite-dialect.ts",
+      "sha": "e23357c3a027360d55ad37c018883111976687d9",
+      "size": 4088,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e23357c3a027360d55ad37c018883111976687d9"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/popup.server.ts",
+      "sha": "9e686ae29e2b0463b7868ce755dd066479ebe8a3",
+      "size": 6133,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/9e686ae29e2b0463b7868ce755dd066479ebe8a3"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/preview.ts",
+      "sha": "b8822e87c83be13fb834714f53fb5a09d07588cd",
+      "size": 1679,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/b8822e87c83be13fb834714f53fb5a09d07588cd"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/provider.tsx",
+      "sha": "4dd72618670f44c166ff93da6020a71ab8046f05",
+      "size": 593,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/4dd72618670f44c166ff93da6020a71ab8046f05"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/providers.ts",
+      "sha": "cd53b6faf1bf1ba4cef1193c42e533401bec4e65",
+      "size": 1486,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/cd53b6faf1bf1ba4cef1193c42e533401bec4e65"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/server.ts",
+      "sha": "66d94be9eb10e78fe46e2da2e7d950eef82580d0",
+      "size": 12548,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/66d94be9eb10e78fe46e2da2e7d950eef82580d0"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/use-current-user.ts",
+      "sha": "bf9d3affa6417e89b36785a567a6ac05ddcf8429",
+      "size": 3315,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/bf9d3affa6417e89b36785a567a6ac05ddcf8429"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/verify.server.ts",
+      "sha": "2bf5acc72dd13134b1ec86781aa7591e1b2dca5c",
+      "size": 3874,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/2bf5acc72dd13134b1ec86781aa7591e1b2dca5c"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/brain",
+      "sha": "7a1723d8de617ee167ebc883cecf3f284172d34c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/7a1723d8de617ee167ebc883cecf3f284172d34c"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/brain/index.ts",
+      "sha": "81cbcb01f6eb100b0da3bae1c104e37c7a19ae59",
+      "size": 8007,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/81cbcb01f6eb100b0da3bae1c104e37c7a19ae59"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/covenant",
+      "sha": "60a51abce50e34d45906defb722a210e3da45f82",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/60a51abce50e34d45906defb722a210e3da45f82"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/covenant/engine.ts",
+      "sha": "28f4804c58499c7411247f26740241ff25043ed7",
+      "size": 14218,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/28f4804c58499c7411247f26740241ff25043ed7"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/covenant/formulas.ts",
+      "sha": "9b86fe54df4d8ea2a85b2717b489168cc8548d44",
+      "size": 931,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/9b86fe54df4d8ea2a85b2717b489168cc8548d44"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/covenant/gates-yachay-harbor.ts",
+      "sha": "a9151f5564b79d7872be54d88256c17683f0f62c",
+      "size": 3866,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/a9151f5564b79d7872be54d88256c17683f0f62c"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/covenant/gates.ts",
+      "sha": "7c7e4f5fcb62b15c38a74df839b08c480f585633",
+      "size": 19729,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/7c7e4f5fcb62b15c38a74df839b08c480f585633"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/covenant/index-engine.ts",
+      "sha": "ea76e0e982955162579f5abbc2fde53052f1b6a5",
+      "size": 1554,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ea76e0e982955162579f5abbc2fde53052f1b6a5"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/covenant/policy.ts",
+      "sha": "fa97db739a60c0ea6372959dce9740402ccf55ba",
+      "size": 4006,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/fa97db739a60c0ea6372959dce9740402ccf55ba"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/covenant/seed.ts",
+      "sha": "785a3a16fff75a3f1aae35a8395eebbe72d3a306",
+      "size": 7464,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/785a3a16fff75a3f1aae35a8395eebbe72d3a306"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/covenant/sha256.ts",
+      "sha": "10038808c0a665d018403c0174fa08970ca79d08",
+      "size": 467,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/10038808c0a665d018403c0174fa08970ca79d08"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/covenant/types.ts",
+      "sha": "d53ecada006bbc34785c9be04a89b5757bd27923",
+      "size": 6392,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/d53ecada006bbc34785c9be04a89b5757bd27923"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/db.ts",
+      "sha": "49777ade8f9d5613a25f7b5272a6bf88edbe709a",
+      "size": 9525,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/49777ade8f9d5613a25f7b5272a6bf88edbe709a"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/error-component.tsx",
+      "sha": "ed63b914a50e85d75d725a90edff58586215815d",
+      "size": 796,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ed63b914a50e85d75d725a90edff58586215815d"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/frontier",
+      "sha": "c5282573e2ec292afc875d727558c7cec85462eb",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/c5282573e2ec292afc875d727558c7cec85462eb"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/frontier/kernel.ts",
+      "sha": "264e2728a6c28644ff06de1b768628626b6947ec",
+      "size": 2893,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/264e2728a6c28644ff06de1b768628626b6947ec"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/frontier/release-catalog.js",
+      "sha": "415723fdadef55626c9dd7b27fb8a234f1946304",
+      "size": 29490,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/415723fdadef55626c9dd7b27fb8a234f1946304"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/frontier/watch-materiality.js",
+      "sha": "5b5f064452bd816f54d26d2431cf551b72cf5502",
+      "size": 5473,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/5b5f064452bd816f54d26d2431cf551b72cf5502"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/frontier/webgpu-probe.ts",
+      "sha": "626dcf194d01d9a1cede00c05aab1950e53eda57",
+      "size": 2325,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/626dcf194d01d9a1cede00c05aab1950e53eda57"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/harbor",
+      "sha": "83ff09e98f0cf9307f976b55f1798bc0b6aeb2e1",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/83ff09e98f0cf9307f976b55f1798bc0b6aeb2e1"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/harbor/evaluate.ts",
+      "sha": "c8ccef4b95226534e68876f7a31f9a0c22320681",
+      "size": 3140,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/c8ccef4b95226534e68876f7a31f9a0c22320681"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/ingest",
+      "sha": "f419ea86ad4eaf59618313cf24bc093aad0b6a26",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/f419ea86ad4eaf59618313cf24bc093aad0b6a26"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/ingest/catalog.ts",
+      "sha": "e4ce3145d9f9d4dc8977cf76d51762c683c34585",
+      "size": 1287,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e4ce3145d9f9d4dc8977cf76d51762c683c34585"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/intel",
+      "sha": "ec68997429544c7b77782c28a16400e8b240149d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/ec68997429544c7b77782c28a16400e8b240149d"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/intel/feed.ts",
+      "sha": "817b2345b0f905af29d6d6058295e5d4bd9c7cfb",
+      "size": 2725,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/817b2345b0f905af29d6d6058295e5d4bd9c7cfb"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/models",
+      "sha": "b0152fbd115adeb7da0c55b6d22564a4f8f86911",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/b0152fbd115adeb7da0c55b6d22564a4f8f86911"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/models/registry.ts",
+      "sha": "a5495945d02d5dfae93903aa133239225395c038",
+      "size": 2312,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/a5495945d02d5dfae93903aa133239225395c038"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/multiplayer",
+      "sha": "31bf2b2d7e9e36ba23b23baf955cef814cc48958",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/31bf2b2d7e9e36ba23b23baf955cef814cc48958"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/multiplayer/index.ts",
+      "sha": "431865e237e5098f378ddb923dfa30716a632f86",
+      "size": 169,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/431865e237e5098f378ddb923dfa30716a632f86"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/multiplayer/p2p.ts",
+      "sha": "3dff0109c67f9d2790bf22be439f3298871f5253",
+      "size": 20579,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/3dff0109c67f9d2790bf22be439f3298871f5253"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/og",
+      "sha": "426def896a9caf6ca8684237b7e51e7c7023c786",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/426def896a9caf6ca8684237b7e51e7c7023c786"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/og/site.json",
+      "sha": "4446d7143ce1678a86efc163b38645ac43b7f17f",
+      "size": 50,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/4446d7143ce1678a86efc163b38645ac43b7f17f"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/ouroboros",
+      "sha": "1e93ca7a883e3cc58139da0f347f7bdfb85006ea",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/1e93ca7a883e3cc58139da0f347f7bdfb85006ea"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/ouroboros/cycle-client.ts",
+      "sha": "cd0a4c91ef74b13b1d318b0cd4b8cf985506ec0f",
+      "size": 734,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/cd0a4c91ef74b13b1d318b0cd4b8cf985506ec0f"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/ouroboros/lambda-gate.ts",
+      "sha": "e749283207bd79983c55b7384adcefbc02b746d4",
+      "size": 4326,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e749283207bd79983c55b7384adcefbc02b746d4"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/ouroboros/paint.test.ts",
+      "sha": "bdab5be6d8600e44157d2acfceab04008ac63a22",
+      "size": 3813,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/bdab5be6d8600e44157d2acfceab04008ac63a22"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/ouroboros/paint.ts",
+      "sha": "1c79a9e5a101a559639207f8845dfd7d3bcc1c7a",
+      "size": 2269,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/1c79a9e5a101a559639207f8845dfd7d3bcc1c7a"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/preview-embedder-origin.ts",
+      "sha": "0c248bc9ff13421683d0edc75c7a5c75bdd4318d",
+      "size": 1855,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/0c248bc9ff13421683d0edc75c7a5c75bdd4318d"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/preview-host-bridge.ts",
+      "sha": "ef40a5e8c789a49d7f927894396cf7b96b078dd7",
+      "size": 8723,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/ef40a5e8c789a49d7f927894396cf7b96b078dd7"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/utils.ts",
+      "sha": "7db136d803c66ee46cd6153b7442738364a4fa43",
+      "size": 960,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/7db136d803c66ee46cd6153b7442738364a4fa43"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routeTree.gen.ts",
+      "sha": "0e9812aaa8f7d2c725b072079eb903fad49f3bb5",
+      "size": 8735,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/0e9812aaa8f7d2c725b072079eb903fad49f3bb5"
+    },
+    {
+      "mode": "100644",
+      "path": "src/router.tsx",
+      "sha": "a0e7546fd5d60f17e3e625b12938a829ce4dcada",
+      "size": 272,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/a0e7546fd5d60f17e3e625b12938a829ce4dcada"
+    },
+    {
+      "mode": "040000",
+      "path": "src/routes",
+      "sha": "14443dd8916cf18bcf384000e03e5599320d5d31",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/14443dd8916cf18bcf384000e03e5599320d5d31"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routes/__root.tsx",
+      "sha": "748db899bda011e79c042e44bfb0958984f66b1f",
+      "size": 2099,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/748db899bda011e79c042e44bfb0958984f66b1f"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routes/actions.tsx",
+      "sha": "105406dcc21b01f537522fed26d7ca6b6999e9f3",
+      "size": 4354,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/105406dcc21b01f537522fed26d7ca6b6999e9f3"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routes/adversary.tsx",
+      "sha": "270ca5d8a26c437a4f0f63d266b84d9638427b7a",
+      "size": 3955,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/270ca5d8a26c437a4f0f63d266b84d9638427b7a"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routes/brain.tsx",
+      "sha": "c723d2933ca0d769463c9817b09c07185103ed22",
+      "size": 6901,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/c723d2933ca0d769463c9817b09c07185103ed22"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routes/frontier.tsx",
+      "sha": "0fa3193e9dd778a318036319c9e4123a9efede15",
+      "size": 5211,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/0fa3193e9dd778a318036319c9e4123a9efede15"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routes/gates.tsx",
+      "sha": "2adbc4223303bda2bd81db6bd915d9bd2be8eb79",
+      "size": 4260,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/2adbc4223303bda2bd81db6bd915d9bd2be8eb79"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routes/harbor.tsx",
+      "sha": "573b3686bcefa942a7a177a28118aa5a1382cdda",
+      "size": 3715,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/573b3686bcefa942a7a177a28118aa5a1382cdda"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routes/index.tsx",
+      "sha": "dcc03fdf3f88fbe4d4db06dadb585810828a53d0",
+      "size": 11435,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/dcc03fdf3f88fbe4d4db06dadb585810828a53d0"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routes/ingest.tsx",
+      "sha": "dd6c16dc20850170bab65a2f3fc63af003f15bec",
+      "size": 5108,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/dd6c16dc20850170bab65a2f3fc63af003f15bec"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routes/intel.tsx",
+      "sha": "a4480708f6c753185c387a0199ab0997bc880444",
+      "size": 5524,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/a4480708f6c753185c387a0199ab0997bc880444"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routes/memory.tsx",
+      "sha": "9a80c7d486116f879c3de527092243a5e8ad2c53",
+      "size": 8926,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/9a80c7d486116f879c3de527092243a5e8ad2c53"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routes/mesh.tsx",
+      "sha": "6d2c8a6219f57c50c461b864fa2d0066eae71fe4",
+      "size": 4751,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/6d2c8a6219f57c50c461b864fa2d0066eae71fe4"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routes/models.tsx",
+      "sha": "9790341c6189361025cbc91a88511e4ebc2ab12b",
+      "size": 4535,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/9790341c6189361025cbc91a88511e4ebc2ab12b"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routes/proof.tsx",
+      "sha": "28490b88258bea943a99729e600dc70e92f71cc4",
+      "size": 4805,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/28490b88258bea943a99729e600dc70e92f71cc4"
+    },
+    {
+      "mode": "040000",
+      "path": "src/stores",
+      "sha": "d18a000cc988edc696ee3b20564bf7412fa4db56",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/d18a000cc988edc696ee3b20564bf7412fa4db56"
+    },
+    {
+      "mode": "100644",
+      "path": "src/stores/orchestrator.ts",
+      "sha": "80408b3345e4e7575dcf61bb28ffbc861e98af2d",
+      "size": 28270,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/80408b3345e4e7575dcf61bb28ffbc861e98af2d"
+    },
+    {
+      "mode": "100644",
+      "path": "src/styles.css",
+      "sha": "4d1aa0353420d0ff8bebe279d547ab94d7e0f26c",
+      "size": 1732,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/4d1aa0353420d0ff8bebe279d547ab94d7e0f26c"
+    },
+    {
+      "mode": "100755",
+      "path": "startup.sh",
+      "sha": "c4d943c1cf5c78df19a8126a2747b482de2ba0fd",
+      "size": 191,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/c4d943c1cf5c78df19a8126a2747b482de2ba0fd"
+    },
+    {
+      "mode": "040000",
+      "path": "tools",
+      "sha": "f66ab196a580252e7b6b06e6d9a451683f626de9",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/f66ab196a580252e7b6b06e6d9a451683f626de9"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/estate_outside_seat.py",
+      "sha": "baac5d8061a45657dab29f477418176c27d610c5",
+      "size": 38359,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/baac5d8061a45657dab29f477418176c27d610c5"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/khipu_holo.py",
+      "sha": "cc512151e127f4217e0f03c04f5fd45a6225d3fb",
+      "size": 7595,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/cc512151e127f4217e0f03c04f5fd45a6225d3fb"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/test_estate_outside_seat.py",
+      "sha": "a95456746c1991df2fa8e8a2f8e9138e95df53e3",
+      "size": 26480,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/a95456746c1991df2fa8e8a2f8e9138e95df53e3"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/test_estate_runtime_revision.py",
+      "sha": "a7257b3bc4607a494e28b18600a5521b0e68502e",
+      "size": 16319,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/a7257b3bc4607a494e28b18600a5521b0e68502e"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/test_khipu_holo.py",
+      "sha": "91921697d0b2bd00e5e2d7821f36658def60a1e3",
+      "size": 2195,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/91921697d0b2bd00e5e2d7821f36658def60a1e3"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/test_outside_seat_previous.py",
+      "sha": "e05976dd277cf867106809f8737fc618fb31dc0a",
+      "size": 11747,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/e05976dd277cf867106809f8737fc618fb31dc0a"
+    },
+    {
+      "mode": "100644",
+      "path": "tsconfig.json",
+      "sha": "88b15efc8660413c4937067a6f621ebd171c5964",
+      "size": 722,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/88b15efc8660413c4937067a6f621ebd171c5964"
+    },
+    {
+      "mode": "100644",
+      "path": "vite.config.ts",
+      "sha": "3034ed9bd7375a3751d22d3adf9be22d318ee4aa",
+      "size": 6969,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/blobs/3034ed9bd7375a3751d22d3adf9be22d318ee4aa"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/d24d7a224d1e608f5df6ab6bfc896875d78bfb47"
+}

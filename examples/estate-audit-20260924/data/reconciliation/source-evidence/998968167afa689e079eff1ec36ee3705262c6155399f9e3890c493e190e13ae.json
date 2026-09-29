@@ -1,0 +1,250 @@
+{
+  "sha": "8961ba7e36865e1d55262ca4f719041c01d7f770",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "2a4a1edecf1624d3ca1ff74fd2bb02666e401868",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/trees/2a4a1edecf1624d3ca1ff74fd2bb02666e401868"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODEOWNERS",
+      "sha": "ad61f4cc26ddd4be4eecf73abef96dcf611f8a8d",
+      "size": 22,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/ad61f4cc26ddd4be4eecf73abef96dcf611f8a8d"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "b3cad8bfb5df359fd1859385d74d84b63c417135",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/trees/b3cad8bfb5df359fd1859385d74d84b63c417135"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "24e790208c889c2042974237bb33e4f24fda978c",
+      "size": 412,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/24e790208c889c2042974237bb33e4f24fda978c"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-space.yml",
+      "sha": "88d21806a311aa129020246a422ccf223e1a7e49",
+      "size": 2699,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/88d21806a311aa129020246a422ccf223e1a7e49"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/public-experience-frontier-v4.yml",
+      "sha": "8c3b75b3f4f4fba1255bc86cc3408b2c0f7bce6e",
+      "size": 1086,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/8c3b75b3f4f4fba1255bc86cc3408b2c0f7bce6e"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "08b5f1abfb99fd9a65aa81988b367219eaed3855",
+      "size": 69,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/08b5f1abfb99fd9a65aa81988b367219eaed3855"
+    },
+    {
+      "mode": "100644",
+      "path": ".hf-space.json",
+      "sha": "581690e3158775b7e238b7f1ea1f98cca6da10d5",
+      "size": 288,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/581690e3158775b7e238b7f1ea1f98cca6da10d5"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile",
+      "sha": "c8ae4950fbc0df9748e9ff6b5f129ee0801143a4",
+      "size": 431,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/c8ae4950fbc0df9748e9ff6b5f129ee0801143a4"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "NOTICE",
+      "sha": "b58a1b9470555638786831cc910e0bbcbcf7e9a8",
+      "size": 659,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/b58a1b9470555638786831cc910e0bbcbcf7e9a8"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "5863d566a8c93ce74203dd35178bdf70b06199e2",
+      "size": 2537,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/5863d566a8c93ce74203dd35178bdf70b06199e2"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "6d75e9765253c6e8706f4979ad25f8a4727f08f3",
+      "size": 94,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/6d75e9765253c6e8706f4979ad25f8a4727f08f3"
+    },
+    {
+      "mode": "100644",
+      "path": "SOURCE_PIN.md",
+      "sha": "821b3fe091f8025074763caea3bfd7565ab1e253",
+      "size": 1680,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/821b3fe091f8025074763caea3bfd7565ab1e253"
+    },
+    {
+      "mode": "100644",
+      "path": "SZL_ESTATE_BINDING.json",
+      "sha": "fabd2cd9d3a9e00328b9cc9d5fc14bd8a26aa358",
+      "size": 612,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/fabd2cd9d3a9e00328b9cc9d5fc14bd8a26aa358"
+    },
+    {
+      "mode": "100644",
+      "path": "app.py",
+      "sha": "adfaea2f735c871d1d4da69861f0d9d187ed93c3",
+      "size": 3853,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/adfaea2f735c871d1d4da69861f0d9d187ed93c3"
+    },
+    {
+      "mode": "100644",
+      "path": "index.html",
+      "sha": "4d668bee4b9bd4fdee625ef5bc56e1d6d05d67ec",
+      "size": 2497,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/4d668bee4b9bd4fdee625ef5bc56e1d6d05d67ec"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "2c8d0e7e50ecda653efc7308611608377cd032f0",
+      "size": 258,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/2c8d0e7e50ecda653efc7308611608377cd032f0"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements.txt",
+      "sha": "7124780f0fb32516835b345e4c19d31a950514c9",
+      "size": 66,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/7124780f0fb32516835b345e4c19d31a950514c9"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "2b1e712071effa8e4c2e92b1edf2fafeecfcb069",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/trees/2b1e712071effa8e4c2e92b1edf2fafeecfcb069"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/verify_terra_delegation.py",
+      "sha": "46504fff48a8db7b364a5a26ef26cbeb28ce0a20",
+      "size": 9031,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/46504fff48a8db7b364a5a26ef26cbeb28ce0a20"
+    },
+    {
+      "mode": "100644",
+      "path": "szl-space-hologram-base.css",
+      "sha": "86369d5db0667b4d5277877e90c7a4fbefef2683",
+      "size": 20389,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/86369d5db0667b4d5277877e90c7a4fbefef2683"
+    },
+    {
+      "mode": "100644",
+      "path": "szl-space-hologram.css",
+      "sha": "3ad28597f050942623e2c62a219194d10f01ee89",
+      "size": 1001,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/3ad28597f050942623e2c62a219194d10f01ee89"
+    },
+    {
+      "mode": "100644",
+      "path": "szl-space-hologram.js",
+      "sha": "80c3f5afe37bd04b83656285a50f24546832c062",
+      "size": 25628,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/80c3f5afe37bd04b83656285a50f24546832c062"
+    },
+    {
+      "mode": "040000",
+      "path": "szl_re",
+      "sha": "489dc0d39b2f456d469e6ab5e2d3b10e2702e9b1",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/trees/489dc0d39b2f456d469e6ab5e2d3b10e2702e9b1"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_re/__init__.py",
+      "sha": "b968b9a4fcd1255a5f9412e5324e3b24342e2959",
+      "size": 200,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/b968b9a4fcd1255a5f9412e5324e3b24342e2959"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_re/underwrite.py",
+      "sha": "362eba160bcad91be151ed42b53124363acf86f0",
+      "size": 7002,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/362eba160bcad91be151ed42b53124363acf86f0"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_space_brain.py",
+      "sha": "30e2eb2c38fe5fc126e237d3a7c936ee016aed4c",
+      "size": 3382,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/30e2eb2c38fe5fc126e237d3a7c936ee016aed4c"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "f32f05c0910b25e58745f662753ec2f5fed131e4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/trees/f32f05c0910b25e58745f662753ec2f5fed131e4"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_underwrite.py",
+      "sha": "f712f6f7d69c7f2734785e0d7b550d9c03b23f04",
+      "size": 827,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/f712f6f7d69c7f2734785e0d7b550d9c03b23f04"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_verify_terra_delegation.py",
+      "sha": "d0dc04d99117e06188c04d169263191fcb778b19",
+      "size": 8584,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/blobs/d0dc04d99117e06188c04d169263191fcb778b19"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/trees/8961ba7e36865e1d55262ca4f719041c01d7f770"
+}

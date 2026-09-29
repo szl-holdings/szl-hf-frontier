@@ -1,0 +1,43 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 45919,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:09Z",
+      "path": "data/reconciliation/source-evidence/6377906366603045212660fe63215fe2ab15727df1e6df24a2ea2de28d4a1123.json",
+      "revision": "f487dc0fdc71af52841e3634bf7b9c6bf9fb6448",
+      "sha256": "6377906366603045212660fe63215fe2ab15727df1e6df24a2ea2de28d4a1123",
+      "source_identity": "github/szl-holdings/vertical-services",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/f487dc0fdc71af52841e3634bf7b9c6bf9fb6448?recursive=1"
+    }
+  ],
+  "file_count": 128,
+  "id": "github/szl-holdings/vertical-services",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "f487dc0fdc71af52841e3634bf7b9c6bf9fb6448",
+  "root_paths": [
+    ".dockerignore",
+    ".github",
+    ".gitignore",
+    "Dockerfile",
+    "Dockerfile.frontier",
+    "LICENSE",
+    "README.md",
+    "contracts",
+    "deploy",
+    "docs",
+    "frontier",
+    "frontier_app.py",
+    "frontier_fabric",
+    "requirements-test.txt",
+    "requirements.txt",
+    "scripts",
+    "services",
+    "tests",
+    "tools"
+  ]
+}

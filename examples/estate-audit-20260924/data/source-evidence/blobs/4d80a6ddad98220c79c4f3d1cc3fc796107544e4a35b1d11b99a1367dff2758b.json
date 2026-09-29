@@ -1,0 +1,21 @@
+{
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "SZL-Khipu-1.5B-F16.gguf",
+    "SZL-Khipu-1.5B-Q4_K_M.gguf",
+    "SZL-Khipu-1.5B-Q5_K_M.gguf",
+    "SZL-Khipu-1.5B-Q8_0.gguf",
+    "SZL_ESTATE_MANAGED.json",
+    "bom/model-bom.cdx.json",
+    "card/holo-banner.svg",
+    "eval_receipt.signed.json",
+    "khipu.schema.json",
+    "owner_pubkey.json",
+    "publication.json",
+    "training_receipt.signed.json"
+  ],
+  "revision": "0989e96e35b49968ff2e21bdec6e135c08df3f63"
+}

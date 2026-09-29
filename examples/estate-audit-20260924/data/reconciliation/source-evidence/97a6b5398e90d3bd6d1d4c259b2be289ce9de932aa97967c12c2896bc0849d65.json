@@ -1,0 +1,109 @@
+{
+  "sha": "7395a69b6d38903a555ddf88d7b20bc9afc01395",
+  "tree": [
+    {
+      "mode": "100644",
+      "path": "ALIGN.md",
+      "sha": "3cdbc7ee590324b4ea571155a6651d7356d65f81",
+      "size": 480,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/the-grid/git/blobs/3cdbc7ee590324b4ea571155a6651d7356d65f81"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile",
+      "sha": "0f7b49182b29e8fe3f168c629b410f852280225a",
+      "size": 306,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/the-grid/git/blobs/0f7b49182b29e8fe3f168c629b410f852280225a"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "6fc753f052612a992ee59f6d13f8e0e393bc45ae",
+      "size": 11361,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/the-grid/git/blobs/6fc753f052612a992ee59f6d13f8e0e393bc45ae"
+    },
+    {
+      "mode": "100644",
+      "path": "PAYLOAD-01-ALIGN-PUSH.md",
+      "sha": "59d61e7505165844c01b2d028eb422103af10fea",
+      "size": 471,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/the-grid/git/blobs/59d61e7505165844c01b2d028eb422103af10fea"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "c336e6c94d30e0fa3555e924f04d79f81b167ee7",
+      "size": 1338,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/the-grid/git/blobs/c336e6c94d30e0fa3555e924f04d79f81b167ee7"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "e6046d39fb5443156579824ecceac5c0a43fa9bb",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/the-grid/git/trees/e6046d39fb5443156579824ecceac5c0a43fa9bb"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/FRONTIER.md",
+      "sha": "3d80f452d5ef59531a2329dac5a35bd1ab0409ca",
+      "size": 461,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/the-grid/git/blobs/3d80f452d5ef59531a2329dac5a35bd1ab0409ca"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/OPERATIONAL.md",
+      "sha": "55dc2d6dd81fe8fd86fdc05b3f4c0ea2b9bd3c18",
+      "size": 418,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/the-grid/git/blobs/55dc2d6dd81fe8fd86fdc05b3f4c0ea2b9bd3c18"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/STATUS_2026-09-11.md",
+      "sha": "358f19b384ddc47b8e809cc101f8935470af2a2e",
+      "size": 346,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/the-grid/git/blobs/358f19b384ddc47b8e809cc101f8935470af2a2e"
+    },
+    {
+      "mode": "100644",
+      "path": "index.html",
+      "sha": "9c0c6fd61bf0cd87c648d639bdd7211c09ef97df",
+      "size": 174,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/the-grid/git/blobs/9c0c6fd61bf0cd87c648d639bdd7211c09ef97df"
+    },
+    {
+      "mode": "100644",
+      "path": "play.html",
+      "sha": "7ac9ddd3a102b02cdcf85f85576fcc492716d72d",
+      "size": 9031,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/the-grid/git/blobs/7ac9ddd3a102b02cdcf85f85576fcc492716d72d"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "d7158c1ab0b5cc2334b3f0c38b76573b7c840133",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/the-grid/git/trees/d7158c1ab0b5cc2334b3f0c38b76573b7c840133"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/payload01_align_push.py",
+      "sha": "b2f7fc807d3a559e2f99a0be03f8004769c98522",
+      "size": 2226,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/the-grid/git/blobs/b2f7fc807d3a559e2f99a0be03f8004769c98522"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/the-grid/git/trees/7395a69b6d38903a555ddf88d7b20bc9afc01395"
+}

@@ -1,0 +1,33 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 5139,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:59Z",
+      "path": "data/reconciliation/source-evidence/529d7e040ee920a60c0d8e160c045920a377d58a2537643959c7e45aef92425a.json",
+      "revision": "ceaef540eba6c5acf85091faf4a20cd9aef480f9",
+      "sha256": "529d7e040ee920a60c0d8e160c045920a377d58a2537643959c7e45aef92425a",
+      "source_identity": "github/szl-holdings/szl-formula-ledger",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formula-ledger/git/trees/ceaef540eba6c5acf85091faf4a20cd9aef480f9?recursive=1"
+    }
+  ],
+  "file_count": 10,
+  "id": "github/szl-holdings/szl-formula-ledger",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "ceaef540eba6c5acf85091faf4a20cd9aef480f9",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "formulas",
+    "harness",
+    "hf-kernels",
+    "ledger.json",
+    "tests"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 12606,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:09Z",
+      "path": "data/reconciliation/source-evidence/00ef0b84ae21b3dc55c0ea8f032b235cfe964ee19d20a2a967f984254c36b68e.json",
+      "revision": "0c68abbc41f9327fdf4ffad88a474bcc01eb8e6b",
+      "sha256": "00ef0b84ae21b3dc55c0ea8f032b235cfe964ee19d20a2a967f984254c36b68e",
+      "source_identity": "github/szl-holdings/warhacker-demo",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/trees/0c68abbc41f9327fdf4ffad88a474bcc01eb8e6b?recursive=1"
+    }
+  ],
+  "file_count": 37,
+  "id": "github/szl-holdings/warhacker-demo",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "0c68abbc41f9327fdf4ffad88a474bcc01eb8e6b",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "CITATION.cff",
+    "CODEOWNERS",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "Makefile",
+    "NOTICE",
+    "README.md",
+    "SECURITY.md",
+    "fixtures",
+    "proof_packet.md",
+    "scripts"
+  ]
+}

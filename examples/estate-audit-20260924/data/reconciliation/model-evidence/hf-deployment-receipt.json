@@ -1,0 +1,14 @@
+{
+  "artifact_name": "szl-khipu-hf-provenance-v3-attempt-1-manifest-5be53ff2213031e63ccd76e851e00b8bf41c127906d05c30d49dc20f7210cd3f-hf-bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde",
+  "artifact_name_prefix": "szl-khipu-hf-provenance-v3",
+  "hf_repository": "SZLHOLDINGS/szl-khipu",
+  "hf_revision": "bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde",
+  "manifest_sha256": "5be53ff2213031e63ccd76e851e00b8bf41c127906d05c30d49dc20f7210cd3f",
+  "schema": "szl.hf-deployment-receipt/v3",
+  "source_commit": "ef7e85a162428a26a361b5e2c2cb32a3b3d082dc",
+  "source_repository": "szl-holdings/szl-khipu",
+  "tree_sha256": "a4be009262b2032b94ba53247367603433f0586a963d566971b2228ffb1661be",
+  "workflow_name": "publish-hf",
+  "workflow_run_attempt": 1,
+  "workflow_run_id": 36008397058
+}

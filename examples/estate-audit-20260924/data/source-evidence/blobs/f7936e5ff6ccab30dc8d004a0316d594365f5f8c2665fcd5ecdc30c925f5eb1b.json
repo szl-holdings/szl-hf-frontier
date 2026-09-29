@@ -1,0 +1,22 @@
+{
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "bom/model-bom.cdx.json",
+    "provenance.json",
+    "receipted_unsloth.py",
+    "receipts/chaski-5050-unsloth.json",
+    "receipts/chaski-r2-unsloth.json",
+    "receipts/chaski-unsloth.json",
+    "receipts/willay-unsloth.json",
+    "status.json",
+    "szl_khipu_eval.py",
+    "train_cohort.py",
+    "train_receipted_unsloth.py",
+    "train_willay.py",
+    "training_receipt.unsloth.json",
+    "unsloth-recipes.json"
+  ],
+  "revision": "d8663fc07df8d91026584ff8ea235ce523c02638"
+}

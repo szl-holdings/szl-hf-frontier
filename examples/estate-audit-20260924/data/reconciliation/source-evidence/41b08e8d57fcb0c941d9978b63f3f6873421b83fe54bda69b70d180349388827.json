@@ -1,0 +1,342 @@
+{
+  "sha": "aee6466ecaaa1f311d42885f7927331e2f6508c8",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".devcontainer",
+      "sha": "b0373231818bc1f0669f10b82022bb810ceaeb25",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/trees/b0373231818bc1f0669f10b82022bb810ceaeb25"
+    },
+    {
+      "mode": "100644",
+      "path": ".devcontainer/devcontainer.json",
+      "sha": "f82320c4fc07480c8cbc6a0e0e6a0cc38310be45",
+      "size": 839,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/f82320c4fc07480c8cbc6a0e0e6a0cc38310be45"
+    },
+    {
+      "mode": "100644",
+      "path": ".editorconfig",
+      "sha": "ee76d0144b06307f32bfb3ee823596ea1e7f7b6f",
+      "size": 278,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/ee76d0144b06307f32bfb3ee823596ea1e7f7b6f"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitattributes",
+      "sha": "a340658fc2f406e50e35212d343c9363820bccc9",
+      "size": 983,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/a340658fc2f406e50e35212d343c9363820bccc9"
+    },
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "af41a3bb23b685560b123666a68027e3b710c372",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/trees/af41a3bb23b685560b123666a68027e3b710c372"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODEOWNERS",
+      "sha": "7b316c63d4e12f5c1abb13e5c57c45c8ad224399",
+      "size": 1047,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/7b316c63d4e12f5c1abb13e5c57c45c8ad224399"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "eb9e69c02d4a724fdbbb45cd2d7e72f0dfe3c639",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/trees/eb9e69c02d4a724fdbbb45cd2d7e72f0dfe3c639"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "ce456fb974595bb6bf8f17ccb6c37340110d51e3",
+      "size": 662,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/ce456fb974595bb6bf8f17ccb6c37340110d51e3"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/codeql.yml",
+      "sha": "54f9b12444305dfe81848ba4d97d434132140528",
+      "size": 1658,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/54f9b12444305dfe81848ba4d97d434132140528"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-mirror-drift-check.yml",
+      "sha": "bb8a83752c39c5879b8a97b0e2ecf2bf70def3ef",
+      "size": 3035,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/bb8a83752c39c5879b8a97b0e2ecf2bf70def3ef"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-mirror.yml",
+      "sha": "8fcb3e03556078ca5591fa9632a35a129d4a4eac",
+      "size": 2172,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/8fcb3e03556078ca5591fa9632a35a129d4a4eac"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/pin-check.yml",
+      "sha": "f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621",
+      "size": 586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "406eb48efe6a6e3365601aab6d2f1e713c3a6095",
+      "size": 50,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/406eb48efe6a6e3365601aab6d2f1e713c3a6095"
+    },
+    {
+      "mode": "100644",
+      "path": "AGENTS.md",
+      "sha": "d98cc1ada5de958df57e8d9246cc4ade8a0481de",
+      "size": 1997,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/d98cc1ada5de958df57e8d9246cc4ade8a0481de"
+    },
+    {
+      "mode": "100644",
+      "path": "CLAUDE.md",
+      "sha": "617d097dbccf3cac26c487da4a59b5563432b797",
+      "size": 423,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/617d097dbccf3cac26c487da4a59b5563432b797"
+    },
+    {
+      "mode": "100644",
+      "path": "DEPRECATED.md",
+      "sha": "8632c11041fe24d076fd790d9ecf192630928f38",
+      "size": 5138,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/8632c11041fe24d076fd790d9ecf192630928f38"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "17bc687965d71979159d5b8110745c0d8cd917ad",
+      "size": 16217,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/17bc687965d71979159d5b8110745c0d8cd917ad"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "69173946e782baeea3c2b46c8f64a1fabcb06b5b",
+      "size": 2169,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/69173946e782baeea3c2b46c8f64a1fabcb06b5b"
+    },
+    {
+      "mode": "100644",
+      "path": "build.toml",
+      "sha": "5c3a9d1962a95bb99840f33e13d3839a60ff634c",
+      "size": 70,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/5c3a9d1962a95bb99840f33e13d3839a60ff634c"
+    },
+    {
+      "mode": "040000",
+      "path": "build",
+      "sha": "43aee03ce68617ef714e55e4d9f2444fe4ae3fdf",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/trees/43aee03ce68617ef714e55e4d9f2444fe4ae3fdf"
+    },
+    {
+      "mode": "040000",
+      "path": "build/torch-universal",
+      "sha": "5f790b042947a30d3ce22dc2324b5306931b55b9",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/trees/5f790b042947a30d3ce22dc2324b5306931b55b9"
+    },
+    {
+      "mode": "040000",
+      "path": "build/torch-universal/governed_inference_meter",
+      "sha": "9301ba0333ad059b6227c8a9ef5ffa5e583c12d5",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/trees/9301ba0333ad059b6227c8a9ef5ffa5e583c12d5"
+    },
+    {
+      "mode": "100644",
+      "path": "build/torch-universal/governed_inference_meter/__init__.py",
+      "sha": "299d67ee4641eff6fe52228816a0203ea65c68f3",
+      "size": 11549,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/299d67ee4641eff6fe52228816a0203ea65c68f3"
+    },
+    {
+      "mode": "100644",
+      "path": "build/torch-universal/governed_inference_meter/_attest.py",
+      "sha": "b38cff8a9fdd9d89a03d5a9905b00c73edb13109",
+      "size": 9737,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/b38cff8a9fdd9d89a03d5a9905b00c73edb13109"
+    },
+    {
+      "mode": "100644",
+      "path": "build/torch-universal/governed_inference_meter/_energy.py",
+      "sha": "4e09d2607713dc8d25e5b9e8fa491f76a5d439c9",
+      "size": 9098,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/4e09d2607713dc8d25e5b9e8fa491f76a5d439c9"
+    },
+    {
+      "mode": "100644",
+      "path": "build/torch-universal/governed_inference_meter/_policy.py",
+      "sha": "2a304e09773a6a1ad6c53b6647dd82548a073dce",
+      "size": 3204,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/2a304e09773a6a1ad6c53b6647dd82548a073dce"
+    },
+    {
+      "mode": "100644",
+      "path": "build/torch-universal/governed_inference_meter/_receipt.py",
+      "sha": "fa28052715d4fc98820acb58e83424d0b1f33330",
+      "size": 8201,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/fa28052715d4fc98820acb58e83424d0b1f33330"
+    },
+    {
+      "mode": "100644",
+      "path": "build/torch-universal/governed_inference_meter/_spine.py",
+      "sha": "e3b895d4a592a23a7265ee8f77c27841a701ba1b",
+      "size": 14711,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/e3b895d4a592a23a7265ee8f77c27841a701ba1b"
+    },
+    {
+      "mode": "100644",
+      "path": "build/torch-universal/governed_inference_meter/metadata.json",
+      "sha": "2a3b92976307b65ef7bd53db831405dd07538a97",
+      "size": 819,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/2a3b92976307b65ef7bd53db831405dd07538a97"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "14ee84a31ec906e5db5f0ba42b8c915ba0493e79",
+      "size": 2298,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/14ee84a31ec906e5db5f0ba42b8c915ba0493e79"
+    },
+    {
+      "mode": "040000",
+      "path": "requirements",
+      "sha": "4554d60cd07a2fafda3090f1472343cdbe62503a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/trees/4554d60cd07a2fafda3090f1472343cdbe62503a"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements/hf-mirror.lock",
+      "sha": "d071a4b4b3daa8e43d88fc5125c6e9bc542af9a2",
+      "size": 1907,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/d071a4b4b3daa8e43d88fc5125c6e9bc542af9a2"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "aaec03a0d8013683b292983e35383dffc54459e0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/trees/aaec03a0d8013683b292983e35383dffc54459e0"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/hf_mirror.py",
+      "sha": "e8bb516efa2fe85e6d557ed830993cb9dcbae8f0",
+      "size": 25263,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/e8bb516efa2fe85e6d557ed830993cb9dcbae8f0"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/hf_mirror_drift_check.py",
+      "sha": "50f44c42513c34a1954d70421f3db1ea2a4817f6",
+      "size": 1358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/50f44c42513c34a1954d70421f3db1ea2a4817f6"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "c068c5b1afe98af12a21e61af9f29311b7d75b09",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/trees/c068c5b1afe98af12a21e61af9f29311b7d75b09"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_attest.py",
+      "sha": "b246d2475c72e6bb258d080af2a95ec99c05a764",
+      "size": 4615,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/b246d2475c72e6bb258d080af2a95ec99c05a764"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_chain_hardening.py",
+      "sha": "3ac52ba7363ed89a58a203285df35185b19cb6a2",
+      "size": 4460,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/3ac52ba7363ed89a58a203285df35185b19cb6a2"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_hf_mirror_contract.py",
+      "sha": "fab9f6df5ffe012f32be793688571dabb235e636",
+      "size": 22617,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/fab9f6df5ffe012f32be793688571dabb235e636"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_meter.py",
+      "sha": "ea3944862fb9fd465758860d3a484b5e8eab23fb",
+      "size": 3407,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/ea3944862fb9fd465758860d3a484b5e8eab23fb"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_signing.py",
+      "sha": "e2326836721f899463dc9356f771dfb9429f202b",
+      "size": 1971,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/e2326836721f899463dc9356f771dfb9429f202b"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_spine.py",
+      "sha": "36778d14dab0ce02aa42c20ca40a22fd25e23800",
+      "size": 8146,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/blobs/36778d14dab0ce02aa42c20ca40a22fd25e23800"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/trees/aee6466ecaaa1f311d42885f7927331e2f6508c8"
+}

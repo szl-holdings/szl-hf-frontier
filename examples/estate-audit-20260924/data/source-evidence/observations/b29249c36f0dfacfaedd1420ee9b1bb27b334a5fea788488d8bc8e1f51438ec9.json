@@ -1,0 +1,43 @@
+{
+  "card": "---\nthumbnail: https://huggingface.co/SZLHOLDINGS/A11OY-MINI/resolve/main/og-card.png\nlicense: apache-2.0\nlanguage:\n  - en\npipeline_tag: text-generation\nlibrary_name: llama.cpp\ntags:\n  - szl-holdings\n  - series-a\n  - doctrine-v11\n  - governed-ai\n  - gguf\nszl:\n  doctrine: v11-LOCKED\n  lean: \"749/14/163\"\n  lambda: \"Conjecture 1 \u2014 advisory, never a theorem\"\n  artifact_class: GGUF\n  originality: QUANT_OF_SZL_ORIGINAL\n  parent: SZLHOLDINGS/chaski\n  parent_hub_sha: 1c55df8652e9d0f7b84356b1e2d54849165ae884\n  forbidden_parent: SZLHOLDINGS/chaski-5050\n  base: Qwen/Qwen3.5-0.8B\n  seed: 11\n  evals: none-this-run\n  publication_eligible: false\n  autonomy_eligible: false\n  lab_load: forbidden\n  gpu: UNAVAILABLE\n  status: BYTES_AVAILABLE\n  weights: AVAILABLE\n  khipu_lab_pin: false\n  tok_s_claim: false\n  third_llm: false\n  new_train: false\n  r2_rebuild: 2026-09-17\n  r2_gate: \"5/5 + 6/6 MEASURED ollama\"\n---\n\n> **Rebuilt 2026-09-17 from the chaski-r2 winner (named-N gate champion).** Legacy GGUFs below are DEPRECATED failed-parent lineage. Not flagship. Not a11oy production.\n\n<p align=\"center\">\n  <img src=\"holo-banner.svg\" alt=\"A11OY-MINI \u2014 holographic KANCHAY banner\" width=\"100%\"/>\n</p>\n\n<h1 align=\"center\">A 1 1 O Y &nbsp;M I N I</h1>\n\n<p align=\"center\"><em>Kanchay \u2014 Quechua for light. Folded small enough to carry.</em></p>\n\n<p align=\"center\">\n  <img alt=\"Artifact: GGUF quant of chaski\" src=\"https://img.shields.io/badge/artifact-GGUF%20quant%20of%20chaski-C9B787?style=flat-square\"/>\n  <img alt=\"Downloads\" src=\"https://img.shields.io/huggingface/dt/SZLHOLDINGS/A11OY-MINI?style=flat-square&color=fbbf24&label=downloads\"/>\n  <img alt=\"Bytes: F16 + Q4_K_M sha256 MEASURED\" src=\"https://img.shields.io/badge/bytes-F16%20%2B%20Q4_K_M%20sha256%20MEASURED-fde68a?style=flat-square\"/>\n  <img alt=\"Evals: none \u2014 bytes are not an eval\" src=\"https://img.shields.io/badge/evals-none%20%C2%B7%20bytes%20are%20not%20an%20eval-b45309?style=flat-square\"/>\n  <img alt=\"Lab load: forbidden\" src=\"https://img.shields.io/badge/lab%20load-forbidden-991b1b?style=flat-square\"/>\n  <img alt=\"License: Apache-2.0\" src=\"https://img.shields.io/badge/License-Apache--2.0-7e8aa3?style=flat-square\"/>\n</p>\n\n`KANCHAY` \u00b7 Doctrine v11 \u00b7 Lean `749/14/163` \u00b7 \u039b = Conjecture 1 (advisory) \u00b7 [a-11-oy.com](https://a-11-oy.com)\n\nGGUFs are on this repo. GGUF AVAILABLE. Bytes MEASURED (size + sha256 below, ATELIER-verified). Evals none-this-run. Not MEASURED as an eval. `publication_eligible: false`. Quality ROADMAP in prose only. Lab load forbidden. GPU **UNAVAILABLE**.\n\nSKU of live [`SZLHOLDINGS/chaski`](https://huggingface.co/SZLHOLDINGS/chaski) merged shard `1c55df8`. Not a new train. Not [`SZLHOLDINGS/chaski-5050`](https://huggingface.co/SZLHOLDINGS/chaski-5050). Not a Hub `base_model_relation: quantized` child until a Chaski eval gate passes.\n\n<!-- SZL-ATELIER-CUT:v1:START -->\n## The cut\n\nA11oy is a Space and a substrate. The mini is the voice you can actually load. Not the organ. Not the mesh.\n\nA governed command voice that fits in llama.cpp.\n\n### Silhouette \u2192 leave \u2192 SZL\n\n| Leader | Take, then tweak |\n|---|---|\n| Anthropic | A small Claude-shaped mouth with a much stricter constitution. |\n| NVIDIA | A NIM-less local runtime. |\n| Unsloth | GGUF path. |\n\nNobody else ships this combination. That is the point of a one-of-one.\n\n## Intended use\n\nLocal doctrine voice. Proposal-only if wired to tools.\n\n## Limitations\n\n- Derived quant.\n- Not a11oy-v19-substrate.\n\nCanonical GitHub: [`szl-holdings/szl-forge`](https://github.com/szl-holdings/szl-forge/blob/main/a11oy_mini/)\n<!-- SZL-ATELIER-CUT:v1:END -->\n\n| | |\n|---|---|\n| **SKU** | `SZLHOLDINGS/A11OY-MINI` |\n| **Parent** | live `SZLHOLDINGS/chaski` merged shard `1c55df8652e9d0f7b84356b1e2d54849165ae884` |\n| **Not parent** | `SZLHOLDINGS/chaski-5050` |\n| **Silhouette base** | `Qwen/Qwen3.5-0.8B` (named in prose only; no YAML `base_model`) |\n| **F16** | `a11oy-mini-f16.gguf` 1557662240 sha256 `a5df00e4e3ca07f65a4b43aad4ef1505625952a3105e6dcc0dba87f2fa35fc57` **MEASURED** |\n| **Q4_K_M** | `a11oy-mini-q4_k_m.gguf` 541903392 sha256 `06136ba385b2e052cf4cdb3dc8d333948e0b612bd15a541b314e170399c2faa6` **MEASURED** |\n| **R2 parent** | `chaski-r2` local named-N winner (GitHub receipts only; no Hub page) |\n| **R2 Q4_K_M** | `a11oy-mini-r2-Q4_K_M.gguf` 541903328 sha256 `6d42341c932a76e91b2c04a859a4248e7d2c77308f998a32771f43802f097b62` **MEASURED** - GGUF gate 5/5 + 6/6 (ollama, 2026-09-17) |\n| **R2 mmproj** | `a11oy-mini-r2-BF16-mmproj.gguf` 207346048 sha256 `4855efe034435b9b3b289b2c07d09b263c088749d1f85c43c1cf4672bc7fcbf2` **MEASURED** (vision projector pair) |\n| **Convert** | llama.cpp F16 then Q4_K_M |\n| **Banned** | Direct safetensors\u2192Ollama. Lab load. |\n| **Evals** | none-this-run. Not 5/5. Bytes MEASURED is not an eval. |\n| **Quality** | ROADMAP (prose only; YAML tag omitted) |\n| **Publication** | `publication_eligible: false` |\n| **Lab** | **Forbidden.** House CPU lab stays Khipu GGUF. Do not load this SKU in inference-lab. |\n| **License** | Apache-2.0 |\n| **Doctrine** | v11 LOCKED. Seed 11. \u039b = Conjecture 1 (advisory, never a theorem). |\n\n## What this is NOT\n\n- Not a published model eval and not 5/5\n- Not `chaski-5050`\n- Not a `base_model_relation: quantized` Hub child (Chaski eval gate has not passed)\n- Not a lab pin and not loadable in the house lab\n- Not a tokens/s claim\n- Not a new train and not a third LLM\n\n---\n\n<p align=\"center\">\n  Hub: <a href=\"https://huggingface.co/SZLHOLDINGS/A11OY-MINI\">SZLHOLDINGS/A11OY-MINI</a>\n</p>\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 414,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/553fb366ab3c5d20fdbe94c09457063d32d73ef3e123130091f9ea6389696e8c.json",
+      "revision": "c936dc749743c94586706345a0142c79094a581c",
+      "sha256": "553fb366ab3c5d20fdbe94c09457063d32d73ef3e123130091f9ea6389696e8c",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/A11OY-MINI/revision/c936dc749743c94586706345a0142c79094a581c"
+    },
+    {
+      "bytes": 5523,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/1f85add7fe8aaccc4fbb4e77fbf937ae8b02b137d0bb8c58eee59498adb43f5b.md",
+      "revision": "c936dc749743c94586706345a0142c79094a581c",
+      "sha256": "1f85add7fe8aaccc4fbb4e77fbf937ae8b02b137d0bb8c58eee59498adb43f5b",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/SZLHOLDINGS/A11OY-MINI/resolve/c936dc749743c94586706345a0142c79094a581c/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "Modelfile.a11oy-r2.gguf",
+    "README.md",
+    "a11oy-mini-f16.gguf",
+    "a11oy-mini-q4_k_m.gguf",
+    "a11oy-mini-r2-BF16-mmproj.gguf",
+    "a11oy-mini-r2-Q4_K_M.gguf",
+    "bom/model-bom.cdx.json",
+    "conversion_receipt.json",
+    "gguf_gate_receipt.json",
+    "hub_put_receipt.json",
+    "og-card.png"
+  ],
+  "id": "huggingface-model/szlholdings/a11oy-mini",
+  "observed_at": "2026-09-24T12:29:48Z",
+  "observed_revision": "c936dc749743c94586706345a0142c79094a581c"
+}

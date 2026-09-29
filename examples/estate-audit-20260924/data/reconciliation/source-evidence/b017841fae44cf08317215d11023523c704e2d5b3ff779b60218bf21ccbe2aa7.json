@@ -1,0 +1,263 @@
+{
+  "sha": "4cf66f6080594f28314075664891f3a39c23fa5f",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "5410e50df22dc90523a647868d2e496545d48b0b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/trees/5410e50df22dc90523a647868d2e496545d48b0b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODEOWNERS",
+      "sha": "bb847479aa7f36c62e092fe878c3e3e9ff6d7163",
+      "size": 52,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/bb847479aa7f36c62e092fe878c3e3e9ff6d7163"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/dependabot.yml",
+      "sha": "ffea88645fcdfe6a90bee976fdae638135e3acb5",
+      "size": 372,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/ffea88645fcdfe6a90bee976fdae638135e3acb5"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/release-boundary",
+      "sha": "ce0ed33da460cc8363943ed45eaac9a5a6bb207b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/trees/ce0ed33da460cc8363943ed45eaac9a5a6bb207b"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/release-boundary/fixtures",
+      "sha": "e75e0ce110247b75a5a843339e74ef11e059e49b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/trees/e75e0ce110247b75a5a843339e74ef11e059e49b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/release-boundary/fixtures/hf-kernel-space.yml",
+      "sha": "72c000fbadc862b2c95cb26faeb005d6e0ba4830",
+      "size": 53356,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/72c000fbadc862b2c95cb26faeb005d6e0ba4830"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/release-boundary/fixtures/hf-static-space.yml",
+      "sha": "24f237546b30e2dc8a3cedc76039e50dbb07d1a0",
+      "size": 42884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/24f237546b30e2dc8a3cedc76039e50dbb07d1a0"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/release-boundary/manifest.json",
+      "sha": "13bbdeb4a1af5d456026fb80e8f300f07add7997",
+      "size": 95038,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/13bbdeb4a1af5d456026fb80e8f300f07add7997"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/requirements",
+      "sha": "962f349b071b9d8bc6e498fbb7d8c5f9b8abdf9d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/trees/962f349b071b9d8bc6e498fbb7d8c5f9b8abdf9d"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/requirements/release-boundary.lock",
+      "sha": "5453aa4d15aa9b14fbc580cd7531d78331fd45c7",
+      "size": 93,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/5453aa4d15aa9b14fbc580cd7531d78331fd45c7"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/scripts",
+      "sha": "e9e6b66ad948c9e5e2c5fdc2f202d903fffcee9e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/trees/e9e6b66ad948c9e5e2c5fdc2f202d903fffcee9e"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/dco_required.py",
+      "sha": "5c7e52aeb7e355915f360845d1e0014d4de91e93",
+      "size": 21003,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/5c7e52aeb7e355915f360845d1e0014d4de91e93"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/scripts/fixtures",
+      "sha": "d37eb9cd82c2b2b8188aab84193298d396a6ba25",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/trees/d37eb9cd82c2b2b8188aab84193298d396a6ba25"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/fixtures/hf-static-space.yml",
+      "sha": "ea7588976bd2eb1448fb819ff9b69b9f230523db",
+      "size": 38573,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/ea7588976bd2eb1448fb819ff9b69b9f230523db"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/release_boundary.py",
+      "sha": "6cb2f057c10fa0e4ed9b4b5c748f169747aff71d",
+      "size": 124352,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/6cb2f057c10fa0e4ed9b4b5c748f169747aff71d"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/test_dco_required.py",
+      "sha": "89eebab0da8d02a1c1c3fa7465af2038c194a882",
+      "size": 49267,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/89eebab0da8d02a1c1c3fa7465af2038c194a882"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/test_release_boundary.py",
+      "sha": "49df179c99a56a496b5bcd6101d66a2aca7095f7",
+      "size": 46155,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/49df179c99a56a496b5bcd6101d66a2aca7095f7"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "bfc14d4e8f46d8e088e406ec07bdcf44779542c8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/trees/bfc14d4e8f46d8e088e406ec07bdcf44779542c8"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/codeql.yml",
+      "sha": "0b368140c8deecebf7573a5c8986785aed5b09f0",
+      "size": 568,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/0b368140c8deecebf7573a5c8986785aed5b09f0"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/naming-canon.yml",
+      "sha": "3227b9fea64a13d0401356d88d53152fcb6f1bdc",
+      "size": 1514,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/3227b9fea64a13d0401356d88d53152fcb6f1bdc"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/overclaim-guard.yml",
+      "sha": "20e00b308ca90af4dfa925c861db46b9dcd6179a",
+      "size": 734,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/20e00b308ca90af4dfa925c861db46b9dcd6179a"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/pin-check.yml",
+      "sha": "15d93761952be61f460aae45938754f2e7427e0a",
+      "size": 696,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/15d93761952be61f460aae45938754f2e7427e0a"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/release-boundary-required.yml",
+      "sha": "ead04ad86a3e6f1a9915d98b3320dcb30fc8ee48",
+      "size": 7978,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/ead04ad86a3e6f1a9915d98b3320dcb30fc8ee48"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/sbom.yml",
+      "sha": "cab06d5590175f4b831ada93c570bd881fe746fe",
+      "size": 496,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/cab06d5590175f4b831ada93c570bd881fe746fe"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/scorecard.yml",
+      "sha": "92ad91c80f26aaf0f6d7d9ec1731e44406654eb5",
+      "size": 625,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/92ad91c80f26aaf0f6d7d9ec1731e44406654eb5"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "5e9908a212b4ce3f075071943514b1763a1dd313",
+      "size": 455,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/5e9908a212b4ce3f075071943514b1763a1dd313"
+    },
+    {
+      "mode": "100644",
+      "path": "FOUNDER_SECRETS_RUNBOOK.md",
+      "sha": "31b958d52754bbc783b6fdc4e73bd1d5621a5fc6",
+      "size": 2300,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/31b958d52754bbc783b6fdc4e73bd1d5621a5fc6"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "NAMING_CANON.md",
+      "sha": "b7eeb79f0597c151b152203dd89c1c5d43cd5ec7",
+      "size": 4726,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/b7eeb79f0597c151b152203dd89c1c5d43cd5ec7"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "39e20eeae8616076e6c544f939f85050cdca9e12",
+      "size": 8888,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/39e20eeae8616076e6c544f939f85050cdca9e12"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "d7acca49075aa0960868142cc194ad8e75da3c5e",
+      "size": 251,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/d7acca49075aa0960868142cc194ad8e75da3c5e"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "05972ebf7a9ae0f99d34c08ae2f8e2ac97f057a2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/trees/05972ebf7a9ae0f99d34c08ae2f8e2ac97f057a2"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/check_naming_canon.py",
+      "sha": "e90d36942badc8ff776d27221e6b134657a4a4c4",
+      "size": 18629,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/blobs/e90d36942badc8ff776d27221e6b134657a4a4c4"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/trees/4cf66f6080594f28314075664891f3a39c23fa5f"
+}

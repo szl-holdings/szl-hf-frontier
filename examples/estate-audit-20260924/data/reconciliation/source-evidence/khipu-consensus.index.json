@@ -1,0 +1,38 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 20595,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:50Z",
+      "path": "data/reconciliation/source-evidence/cd28b68eb7457a23f24ebf6dce09cc7bd1711e55bc0f16eb0e36d0a5107b06c5.json",
+      "revision": "07a68c192c93dadda700e677ad45a9cd7fbd1d91",
+      "sha256": "cd28b68eb7457a23f24ebf6dce09cc7bd1711e55bc0f16eb0e36d0a5107b06c5",
+      "source_identity": "github/szl-holdings/khipu-consensus",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/trees/07a68c192c93dadda700e677ad45a9cd7fbd1d91?recursive=1"
+    }
+  ],
+  "file_count": 56,
+  "id": "github/szl-holdings/khipu-consensus",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "07a68c192c93dadda700e677ad45a9cd7fbd1d91",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "CITATION.cff",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "SECURITY.md",
+    "docs",
+    "go",
+    "python",
+    "service",
+    "testdata",
+    "typescript"
+  ]
+}

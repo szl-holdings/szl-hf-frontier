@@ -1,0 +1,1231 @@
+{
+  "sha": "bcee352e584feab4bac16f4f1677a799effc1e50",
+  "tree": [
+    {
+      "mode": "100644",
+      "path": ".dockerignore",
+      "sha": "119fb0ac0d05bd02ad5878a348a1f88be036bea8",
+      "size": 88,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/119fb0ac0d05bd02ad5878a348a1f88be036bea8"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "7a60b85e148f80966a550e5ab6a762a907c69ca6",
+      "size": 19,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/7a60b85e148f80966a550e5ab6a762a907c69ca6"
+    },
+    {
+      "mode": "040000",
+      "path": ".grok",
+      "sha": "463794023e0b056d101b987afb80c98fc13b5759",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/463794023e0b056d101b987afb80c98fc13b5759"
+    },
+    {
+      "mode": "100644",
+      "path": ".grok/app-env.json",
+      "sha": "871b62331a1263e140ce9c2d572fd6ca19bbce36",
+      "size": 30,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/871b62331a1263e140ce9c2d572fd6ca19bbce36"
+    },
+    {
+      "mode": "100644",
+      "path": ".node_modules.lock",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "mode": "100644",
+      "path": ".prettierrc",
+      "sha": "bccee911b6b0dac9051d360fbc5e0a6303eed8fb",
+      "size": 90,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/bccee911b6b0dac9051d360fbc5e0a6303eed8fb"
+    },
+    {
+      "mode": "100644",
+      "path": ".project_id",
+      "sha": "38f3bd95768a27f12de22f850a56586f10997858",
+      "size": 36,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/38f3bd95768a27f12de22f850a56586f10997858"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile",
+      "sha": "1c9f587dbb3b81aec0068777aea0a70179edaef8",
+      "size": 629,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/1c9f587dbb3b81aec0068777aea0a70179edaef8"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "be03f79d4ef224757dcad3564b780cb58efde543",
+      "size": 553,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/be03f79d4ef224757dcad3564b780cb58efde543"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "04e86a7206690a311baaf28562dd03f65f17c76e",
+      "size": 862,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/04e86a7206690a311baaf28562dd03f65f17c76e"
+    },
+    {
+      "mode": "100644",
+      "path": "eslint.config.mjs",
+      "sha": "bfc3c2560b42997c103f92bb5b681ce46163eb0c",
+      "size": 1277,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/bfc3c2560b42997c103f92bb5b681ce46163eb0c"
+    },
+    {
+      "mode": "040000",
+      "path": "immune",
+      "sha": "024d553736ec0b8964e5168dad1e3ac5d8aef64d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/024d553736ec0b8964e5168dad1e3ac5d8aef64d"
+    },
+    {
+      "mode": "100644",
+      "path": "immune/__init__.py",
+      "sha": "bf6afb045d4eec5a0947e885691fdd1afefe4b57",
+      "size": 588,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/bf6afb045d4eec5a0947e885691fdd1afefe4b57"
+    },
+    {
+      "mode": "100644",
+      "path": "immune/__main__.py",
+      "sha": "f5f6e402df1b5c89dadf67fce4c71897dba19cc1",
+      "size": 64,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/f5f6e402df1b5c89dadf67fce4c71897dba19cc1"
+    },
+    {
+      "mode": "100644",
+      "path": "immune/canonical.py",
+      "sha": "fdfc05a7eedf399ad360b082cd2aba7ace5ca8d6",
+      "size": 1910,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/fdfc05a7eedf399ad360b082cd2aba7ace5ca8d6"
+    },
+    {
+      "mode": "100644",
+      "path": "immune/dome.py",
+      "sha": "7d23a0488603a5ad8c81d5ca6e39bfb9e18371a3",
+      "size": 3325,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/7d23a0488603a5ad8c81d5ca6e39bfb9e18371a3"
+    },
+    {
+      "mode": "100644",
+      "path": "immune/field.py",
+      "sha": "2148cedcbc10eb45f11511c4bf742821da282710",
+      "size": 4054,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/2148cedcbc10eb45f11511c4bf742821da282710"
+    },
+    {
+      "mode": "100644",
+      "path": "immune/frontier.py",
+      "sha": "cc3a71c00472234ee04bd56376e6645987a125b2",
+      "size": 4054,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/cc3a71c00472234ee04bd56376e6645987a125b2"
+    },
+    {
+      "mode": "100644",
+      "path": "immune/huklla.py",
+      "sha": "ac447a2b7999b158c5f38921ef83c655f11ff3ad",
+      "size": 2651,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/ac447a2b7999b158c5f38921ef83c655f11ff3ad"
+    },
+    {
+      "mode": "100644",
+      "path": "immune/mesh.py",
+      "sha": "e10e41afd76dc2220025bcc63d82cc819062cb75",
+      "size": 1763,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/e10e41afd76dc2220025bcc63d82cc819062cb75"
+    },
+    {
+      "mode": "100644",
+      "path": "immune/organs.py",
+      "sha": "bae2304b2163ca6d19346eb4025639d158cddce3",
+      "size": 7002,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/bae2304b2163ca6d19346eb4025639d158cddce3"
+    },
+    {
+      "mode": "100644",
+      "path": "immune/persist.py",
+      "sha": "a159e6415dfb10ec05a13483e8d0a10e50187e04",
+      "size": 2295,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/a159e6415dfb10ec05a13483e8d0a10e50187e04"
+    },
+    {
+      "mode": "100644",
+      "path": "immune/runtime.py",
+      "sha": "f1d575b81809839ad2e5d2aa811621512bd12139",
+      "size": 15492,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/f1d575b81809839ad2e5d2aa811621512bd12139"
+    },
+    {
+      "mode": "100644",
+      "path": "immune/second_brain.py",
+      "sha": "249e410b714f8604e035df8976393467062beeb3",
+      "size": 6468,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/249e410b714f8604e035df8976393467062beeb3"
+    },
+    {
+      "mode": "100644",
+      "path": "immune/sentra.py",
+      "sha": "dee36d81309207b5c0a16fa261851aafbd64974e",
+      "size": 4200,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/dee36d81309207b5c0a16fa261851aafbd64974e"
+    },
+    {
+      "mode": "100644",
+      "path": "immune/server.py",
+      "sha": "4357992f2c9b7322d8c251c01022e0f74de6bf64",
+      "size": 11082,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/4357992f2c9b7322d8c251c01022e0f74de6bf64"
+    },
+    {
+      "mode": "040000",
+      "path": "migrations",
+      "sha": "281e531fc6383e1a2a302223472f3329dbdb3e9f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/281e531fc6383e1a2a302223472f3329dbdb3e9f"
+    },
+    {
+      "mode": "040000",
+      "path": "migrations/auth",
+      "sha": "b477f508560256912e6b39ccdf375d6e152fa6b4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/b477f508560256912e6b39ccdf375d6e152fa6b4"
+    },
+    {
+      "mode": "100644",
+      "path": "migrations/auth/0001_auth.sql",
+      "sha": "08c6b01fef9b46e72470fb66ea967d5f84e9bdb5",
+      "size": 2739,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/08c6b01fef9b46e72470fb66ea967d5f84e9bdb5"
+    },
+    {
+      "mode": "100644",
+      "path": "package-lock.json",
+      "sha": "8f06bc90209a9db1b1af6b4888ed42b407307e59",
+      "size": 287856,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/8f06bc90209a9db1b1af6b4888ed42b407307e59"
+    },
+    {
+      "mode": "100644",
+      "path": "package.json",
+      "sha": "2f43803a21dd6d17eb33dd7c18d2d81a43259aeb",
+      "size": 3556,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/2f43803a21dd6d17eb33dd7c18d2d81a43259aeb"
+    },
+    {
+      "mode": "040000",
+      "path": "public",
+      "sha": "13c73f15172b0fc28a98c7fdaabb6ed169811284",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/13c73f15172b0fc28a98c7fdaabb6ed169811284"
+    },
+    {
+      "mode": "040000",
+      "path": "public/__grok",
+      "sha": "8a105f78b4d99bc82bebb0788d19346d2de3fa7d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/8a105f78b4d99bc82bebb0788d19346d2de3fa7d"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/icon-180.png",
+      "sha": "e9d2ac1c646a76979136bb2f8b2c483d81a33f54",
+      "size": 2100,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/e9d2ac1c646a76979136bb2f8b2c483d81a33f54"
+    },
+    {
+      "mode": "040000",
+      "path": "public/__grok/install",
+      "sha": "7194f7a0101e4ce9419328b1e6a0cb33e7aca00c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/7194f7a0101e4ce9419328b1e6a0cb33e7aca00c"
+    },
+    {
+      "mode": "040000",
+      "path": "public/__grok/install/assets",
+      "sha": "7092fafb4a209024c348f77b39246904c1aa4d8d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/7092fafb4a209024c348f77b39246904c1aa4d8d"
+    },
+    {
+      "mode": "040000",
+      "path": "public/__grok/install/assets/homescreen",
+      "sha": "f2a9ecb608022b69bb5d810a49fac84b30b28ee3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/f2a9ecb608022b69bb5d810a49fac84b30b28ee3"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/install/assets/homescreen/glass-puzzle.svg",
+      "sha": "df0defc5e1a653dd83304cac5fce08f3dd5fc0a0",
+      "size": 1811,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/df0defc5e1a653dd83304cac5fce08f3dd5fc0a0"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/install/assets/homescreen/glass-share.svg",
+      "sha": "051eb8931f8bacb7499f840cf39140f705a6ff0e",
+      "size": 2388,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/051eb8931f8bacb7499f840cf39140f705a6ff0e"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/install/assets/homescreen/logo-grok.svg",
+      "sha": "930144f4d3ac08286b6bbe475c880a01804e4601",
+      "size": 1059,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/930144f4d3ac08286b6bbe475c880a01804e4601"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/install/assets/homescreen/ob-ipad.png",
+      "sha": "c2d4a0d3e111b0c6d9eaca7bbde0a5cafcafc58d",
+      "size": 101843,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/c2d4a0d3e111b0c6d9eaca7bbde0a5cafcafc58d"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/install/assets/homescreen/ob-phone.png",
+      "sha": "1862fb7fd7fbe1fe8098edfde67923a027486779",
+      "size": 103612,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/1862fb7fd7fbe1fe8098edfde67923a027486779"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/install/assets/homescreen/plus.svg",
+      "sha": "bc893abc91f74e2f8a3d12803e8cabbdcda8311f",
+      "size": 2401,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/bc893abc91f74e2f8a3d12803e8cabbdcda8311f"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/install/styles.css",
+      "sha": "445d3afc7d8ef0cf76eb87640ab698a31b0476c8",
+      "size": 6717,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/445d3afc7d8ef0cf76eb87640ab698a31b0476c8"
+    },
+    {
+      "mode": "100644",
+      "path": "public/favicon.svg",
+      "sha": "5b75403d0978bc933fa7225b76e02449ff16c82c",
+      "size": 371,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/5b75403d0978bc933fa7225b76e02449ff16c82c"
+    },
+    {
+      "mode": "100644",
+      "path": "public/og.jpg",
+      "sha": "a4d2f45101a308565af00578f2aa70786042aefa",
+      "size": 68808,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/a4d2f45101a308565af00578f2aa70786042aefa"
+    },
+    {
+      "mode": "100644",
+      "path": "public/x-banner.jpg",
+      "sha": "9a8c5c9e418de2849e2504c6fc4b28cbfd26d951",
+      "size": 21068,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/9a8c5c9e418de2849e2504c6fc4b28cbfd26d951"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements.txt",
+      "sha": "e30c06fab62e598331788623d8a7095934ee5ff1",
+      "size": 21,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/e30c06fab62e598331788623d8a7095934ee5ff1"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "3647ca45512642aeb1a86a45276e43e8adde3f92",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/3647ca45512642aeb1a86a45276e43e8adde3f92"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/app-env-plugin.mjs",
+      "sha": "9b9b69e071c99fb2ed1b56a759bead15169b2fe8",
+      "size": 1278,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/9b9b69e071c99fb2ed1b56a759bead15169b2fe8"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/brand-check.mjs",
+      "sha": "89a9e587c6cad6ee9944af28160fbfdc05fde1ac",
+      "size": 9609,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/89a9e587c6cad6ee9944af28160fbfdc05fde1ac"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/brand-check.test.mjs",
+      "sha": "bda0e9b6208db4bdb8a2b4ad84502680d30af7c9",
+      "size": 15084,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/bda0e9b6208db4bdb8a2b4ad84502680d30af7c9"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/browser-guard.mjs",
+      "sha": "ebfbdb147f0b266a4ca46fe451daae1ae023c2db",
+      "size": 1724,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/ebfbdb147f0b266a4ca46fe451daae1ae023c2db"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/browser-smoke-verdict.mjs",
+      "sha": "020dd9991778b477e0003316064275db0d0fe3d8",
+      "size": 4663,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/020dd9991778b477e0003316064275db0d0fe3d8"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/browser-smoke-verdict.test.mjs",
+      "sha": "d326fd3a6e4ed2f6f5d8c40b53086f9f85bae3e1",
+      "size": 15643,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/d326fd3a6e4ed2f6f5d8c40b53086f9f85bae3e1"
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/browser-smoke.mjs",
+      "sha": "c1ae5d1216ebcada1dde366328dc3b2aef446e67",
+      "size": 6042,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/c1ae5d1216ebcada1dde366328dc3b2aef446e67"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/check-auth-invariant.mjs",
+      "sha": "b558378c35f88069e34e344579391c395f565640",
+      "size": 4203,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/b558378c35f88069e34e344579391c395f565640"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/check-auth-invariant.test.mjs",
+      "sha": "4cc9b6faa28b56c83a498003bfc9a2b200aad276",
+      "size": 4218,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/4cc9b6faa28b56c83a498003bfc9a2b200aad276"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/grok-pwa-plugin.mjs",
+      "sha": "97821e8b28840b612d13c35bb95f6dfd07ffa006",
+      "size": 6615,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/97821e8b28840b612d13c35bb95f6dfd07ffa006"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/grok-pwa-plugin.test.mjs",
+      "sha": "69b32de8995a01c68550a6870fb7c1187e6f55a3",
+      "size": 20320,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/69b32de8995a01c68550a6870fb7c1187e6f55a3"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/grok-pwa-shared.d.mts",
+      "sha": "609ea6b65670d68ac9261d569bd8a0a8d092c6a4",
+      "size": 3144,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/609ea6b65670d68ac9261d569bd8a0a8d092c6a4"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/grok-pwa-shared.mjs",
+      "sha": "e0aae02b45849f6dff89e0cdb6e51894a4ab863f",
+      "size": 17675,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/e0aae02b45849f6dff89e0cdb6e51894a4ab863f"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/install-page.html",
+      "sha": "f1d3bdbd1a1a1c5337a019d7f188cfd1ce19b33d",
+      "size": 5658,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/f1d3bdbd1a1a1c5337a019d7f188cfd1ce19b33d"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/migrate.mjs",
+      "sha": "7b3dc087119d24d283b4ad89f1d8ab77f9d2ec9b",
+      "size": 3181,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/7b3dc087119d24d283b4ad89f1d8ab77f9d2ec9b"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/migration-plan.mjs",
+      "sha": "861450f0849ab6f56a00c30ddeb91ac4262cc1f7",
+      "size": 1525,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/861450f0849ab6f56a00c30ddeb91ac4262cc1f7"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/migration-plan.test.mjs",
+      "sha": "ae2ffa74f0f722e0f99f0c6003c0aa367d1d06a1",
+      "size": 3558,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/ae2ffa74f0f722e0f99f0c6003c0aa367d1d06a1"
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/preview-thumbnail.mjs",
+      "sha": "dd2afaed2b10ece67a7b8a5320b35d76edf0de09",
+      "size": 1762,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/dd2afaed2b10ece67a7b8a5320b35d76edf0de09"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/preview.mjs",
+      "sha": "cab7a4d0cc0e35dd7734362f70d3bbf64f6e42b5",
+      "size": 11074,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/cab7a4d0cc0e35dd7734362f70d3bbf64f6e42b5"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/preview.test.mjs",
+      "sha": "cf39aecf27ccf30de42a28da07a88dd6b884095f",
+      "size": 9207,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/cf39aecf27ccf30de42a28da07a88dd6b884095f"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/sign-out-plan.mjs",
+      "sha": "cfcd425d3fc423d2d3f9e7b9efd9f6d4721dfab6",
+      "size": 5971,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/cfcd425d3fc423d2d3f9e7b9efd9f6d4721dfab6"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/sign-out-plan.test.mjs",
+      "sha": "7c20d88df5ef0d8a448d007fe5e0aae9ae2e8883",
+      "size": 8659,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/7c20d88df5ef0d8a448d007fe5e0aae9ae2e8883"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/with-app-env.mjs",
+      "sha": "e48dfafa69fa33d5288269ce939236956ff75e9c",
+      "size": 4601,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/e48dfafa69fa33d5288269ce939236956ff75e9c"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/with-app-env.test.mjs",
+      "sha": "823092f39cbf708d84a9abd5c0f4e658687b7265",
+      "size": 4466,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/823092f39cbf708d84a9abd5c0f4e658687b7265"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/write-atomic.mjs",
+      "sha": "293e2951f4c0b729174f21a79baa0a717f1b03f0",
+      "size": 3607,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/293e2951f4c0b729174f21a79baa0a717f1b03f0"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/write-atomic.test.mjs",
+      "sha": "6df411a7d88059be2113bf1138ceb5982fcfb16e",
+      "size": 7505,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/6df411a7d88059be2113bf1138ceb5982fcfb16e"
+    },
+    {
+      "mode": "040000",
+      "path": "server",
+      "sha": "2d4cfc78f759f4a941a9528cabd11f1b244c6560",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/2d4cfc78f759f4a941a9528cabd11f1b244c6560"
+    },
+    {
+      "mode": "040000",
+      "path": "server/middleware",
+      "sha": "ea9b4bd06ea67ed99f612bd10b52c2cc8be9c41a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/ea9b4bd06ea67ed99f612bd10b52c2cc8be9c41a"
+    },
+    {
+      "mode": "100644",
+      "path": "server/middleware/grok-pwa.ts",
+      "sha": "1575de8f0a478af1482b3b9fae8c5a7ad0c06230",
+      "size": 3606,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/1575de8f0a478af1482b3b9fae8c5a7ad0c06230"
+    },
+    {
+      "mode": "100644",
+      "path": "server/virtual-grok-og-identity.d.ts",
+      "sha": "2baed2dbb4a24d8374b25158e37f1e2bda8fab0d",
+      "size": 262,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/2baed2dbb4a24d8374b25158e37f1e2bda8fab0d"
+    },
+    {
+      "mode": "040000",
+      "path": "space",
+      "sha": "fe36f2ea50b6f6bcf9de6b64c3e02abdba768362",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/fe36f2ea50b6f6bcf9de6b64c3e02abdba768362"
+    },
+    {
+      "mode": "100644",
+      "path": "space/README.md",
+      "sha": "e9455be00c0f947a7f0d9b9d477caf49151b2409",
+      "size": 841,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/e9455be00c0f947a7f0d9b9d477caf49151b2409"
+    },
+    {
+      "mode": "100644",
+      "path": "space/index.html",
+      "sha": "608d93e130ccfbe306ba7e0248a3f172698dcb57",
+      "size": 11274,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/608d93e130ccfbe306ba7e0248a3f172698dcb57"
+    },
+    {
+      "mode": "100644",
+      "path": "space/requirements.txt",
+      "sha": "e30c06fab62e598331788623d8a7095934ee5ff1",
+      "size": 21,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/e30c06fab62e598331788623d8a7095934ee5ff1"
+    },
+    {
+      "mode": "100644",
+      "path": "space/server.py",
+      "sha": "3dcc439b8f0216411a4a31c880c774ead9ac1a8e",
+      "size": 448,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/3dcc439b8f0216411a4a31c880c774ead9ac1a8e"
+    },
+    {
+      "mode": "040000",
+      "path": "src",
+      "sha": "73268f66dab41c9052da3cbaaa32baa946f23f0a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/73268f66dab41c9052da3cbaaa32baa946f23f0a"
+    },
+    {
+      "mode": "040000",
+      "path": "src/components",
+      "sha": "8163a891d819043385f92b4295843f47c1499e74",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/8163a891d819043385f92b4295843f47c1499e74"
+    },
+    {
+      "mode": "040000",
+      "path": "src/components/immune",
+      "sha": "6fd2b8d19d1dbf3e811f307b7a8c1daf26f6553c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/6fd2b8d19d1dbf3e811f307b7a8c1daf26f6553c"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/immune/CommandCenter.tsx",
+      "sha": "4fddd1f0d6ea2b14a8e4fe023c82a9bdf3ddcce6",
+      "size": 7810,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/4fddd1f0d6ea2b14a8e4fe023c82a9bdf3ddcce6"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/immune/EchoView.tsx",
+      "sha": "507338f16c2ef067475ad500a76a6dd2bf610aad",
+      "size": 6837,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/507338f16c2ef067475ad500a76a6dd2bf610aad"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/immune/LatticeGlobe.tsx",
+      "sha": "507bb53a0e259bcbfe239766a0a8ca60262d7db3",
+      "size": 8205,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/507bb53a0e259bcbfe239766a0a8ca60262d7db3"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/immune/WraithView.tsx",
+      "sha": "62e534e1840eca6b29d0f63b91e2d71fecfd17e9",
+      "size": 11098,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/62e534e1840eca6b29d0f63b91e2d71fecfd17e9"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/immune/panels.tsx",
+      "sha": "e60523a17563ab5db2236901631b5a380cd67099",
+      "size": 57982,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/e60523a17563ab5db2236901631b5a380cd67099"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/preview-host-bridge.tsx",
+      "sha": "98cb15d443328b2fdb5d9ae9e3bdab0eff453612",
+      "size": 668,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/98cb15d443328b2fdb5d9ae9e3bdab0eff453612"
+    },
+    {
+      "mode": "040000",
+      "path": "src/components/ui",
+      "sha": "e3504b32474ae3435662e681cafe9d97558a1ee9",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/e3504b32474ae3435662e681cafe9d97558a1ee9"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/ui/badge.tsx",
+      "sha": "59bfad17e42710a9d80fc2594fdc595ad777db12",
+      "size": 828,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/59bfad17e42710a9d80fc2594fdc595ad777db12"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/ui/button.tsx",
+      "sha": "5ab62c90e9aa260c9fd3f137c5fd39b2e507ee5d",
+      "size": 1650,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/5ab62c90e9aa260c9fd3f137c5fd39b2e507ee5d"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib",
+      "sha": "be37484cb8f427d2789ab36a158249d5bccf8050",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/be37484cb8f427d2789ab36a158249d5bccf8050"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/app-data",
+      "sha": "47df08f658bd3a77b1ce935f053a421d94c8a829",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/47df08f658bd3a77b1ce935f053a421d94c8a829"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/app-data/app-data.test.ts",
+      "sha": "58001d00a96e3ff108077f9acc6c762199fd5a91",
+      "size": 11834,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/58001d00a96e3ff108077f9acc6c762199fd5a91"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/app-data/client.server.ts",
+      "sha": "eb2f6e882bd083c09da1edd5b96a4d6b14aee142",
+      "size": 9879,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/eb2f6e882bd083c09da1edd5b96a4d6b14aee142"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/app-data/errors.ts",
+      "sha": "81517744c90d47ba30dd42be7feff3198879ecc7",
+      "size": 1377,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/81517744c90d47ba30dd42be7feff3198879ecc7"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/app-data/index.ts",
+      "sha": "32a32a72214e18b28da1ea3d08e4e9f6a59f5e99",
+      "size": 398,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/32a32a72214e18b28da1ea3d08e4e9f6a59f5e99"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/app-data/login.ts",
+      "sha": "83ada786ee8a1f7fc8a450a5fba7d46eef034437",
+      "size": 719,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/83ada786ee8a1f7fc8a450a5fba7d46eef034437"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/app-data/server-only.ts",
+      "sha": "27567c57626c596986c681e119bf78d4cf67b201",
+      "size": 476,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/27567c57626c596986c681e119bf78d4cf67b201"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/app-data/types.ts",
+      "sha": "ea1b107c022a1acd4803f01c9c14934c60b94df2",
+      "size": 968,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/ea1b107c022a1acd4803f01c9c14934c60b94df2"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/auth",
+      "sha": "8affd49aa50ce5eb9d9ba4681342c901b6a65eb3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/8affd49aa50ce5eb9d9ba4681342c901b6a65eb3"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/client.ts",
+      "sha": "d3b267d3de8b9d5e31545ee56ed7a3ff240c601d",
+      "size": 9714,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/d3b267d3de8b9d5e31545ee56ed7a3ff240c601d"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/email-password.ts",
+      "sha": "3abb01461af8b6c8293e9a996ec639b7009843a8",
+      "size": 442,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/3abb01461af8b6c8293e9a996ec639b7009843a8"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/gate-identity.server.ts",
+      "sha": "db8380095b75e0e6cd702c5df7c066c18e512e2b",
+      "size": 4982,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/db8380095b75e0e6cd702c5df7c066c18e512e2b"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/gate-identity.test.ts",
+      "sha": "ccae9f8b56f406265af82c9cb9bc5139f59f909f",
+      "size": 9499,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/ccae9f8b56f406265af82c9cb9bc5139f59f909f"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/gate-session.server.ts",
+      "sha": "a73d02c3eb8ddd9fc2d6039fe90f94c9ce42b6e1",
+      "size": 10125,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/a73d02c3eb8ddd9fc2d6039fe90f94c9ce42b6e1"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/gates.tsx",
+      "sha": "259b21a6900044681d1898e3f696d84aaeaba3c3",
+      "size": 3452,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/259b21a6900044681d1898e3f696d84aaeaba3c3"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/isolation.server.ts",
+      "sha": "f070e0801221046b3a1c26954cc714250addecff",
+      "size": 2386,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/f070e0801221046b3a1c26954cc714250addecff"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/middleware.ts",
+      "sha": "c6a734242f2a63c02e365eb7303a0238b3b5bf5c",
+      "size": 2462,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/c6a734242f2a63c02e365eb7303a0238b3b5bf5c"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/pglite-dialect.ts",
+      "sha": "e23357c3a027360d55ad37c018883111976687d9",
+      "size": 4088,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/e23357c3a027360d55ad37c018883111976687d9"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/popup.server.ts",
+      "sha": "9e686ae29e2b0463b7868ce755dd066479ebe8a3",
+      "size": 6133,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/9e686ae29e2b0463b7868ce755dd066479ebe8a3"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/preview.ts",
+      "sha": "b8822e87c83be13fb834714f53fb5a09d07588cd",
+      "size": 1679,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/b8822e87c83be13fb834714f53fb5a09d07588cd"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/provider.tsx",
+      "sha": "4dd72618670f44c166ff93da6020a71ab8046f05",
+      "size": 593,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/4dd72618670f44c166ff93da6020a71ab8046f05"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/providers.ts",
+      "sha": "cd53b6faf1bf1ba4cef1193c42e533401bec4e65",
+      "size": 1486,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/cd53b6faf1bf1ba4cef1193c42e533401bec4e65"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/server.ts",
+      "sha": "66d94be9eb10e78fe46e2da2e7d950eef82580d0",
+      "size": 12548,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/66d94be9eb10e78fe46e2da2e7d950eef82580d0"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/use-current-user.ts",
+      "sha": "bf9d3affa6417e89b36785a567a6ac05ddcf8429",
+      "size": 3315,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/bf9d3affa6417e89b36785a567a6ac05ddcf8429"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/verify.server.ts",
+      "sha": "2bf5acc72dd13134b1ec86781aa7591e1b2dca5c",
+      "size": 3874,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/2bf5acc72dd13134b1ec86781aa7591e1b2dca5c"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/db.ts",
+      "sha": "49777ade8f9d5613a25f7b5272a6bf88edbe709a",
+      "size": 9525,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/49777ade8f9d5613a25f7b5272a6bf88edbe709a"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/error-component.tsx",
+      "sha": "ed63b914a50e85d75d725a90edff58586215815d",
+      "size": 796,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/ed63b914a50e85d75d725a90edff58586215815d"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/immune",
+      "sha": "652ab3c84db1469d61dfcb5c37df6adc933c8fae",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/652ab3c84db1469d61dfcb5c37df6adc933c8fae"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/immune/cycle.ts",
+      "sha": "c7953532e6552585bac6015d02a7d031a6f0f4a8",
+      "size": 1620,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/c7953532e6552585bac6015d02a7d031a6f0f4a8"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/immune/doctrine.ts",
+      "sha": "5a5da9b695be1de0597c351df739c14f81c79aa0",
+      "size": 11895,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/5a5da9b695be1de0597c351df739c14f81c79aa0"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/immune/dome.ts",
+      "sha": "889048db31392dcee6ec7a607123856d67a1ebf3",
+      "size": 3818,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/889048db31392dcee6ec7a607123856d67a1ebf3"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/immune/echo.ts",
+      "sha": "7496dac6135d11dc8431c2db588d1fcf741a1a89",
+      "size": 2726,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/7496dac6135d11dc8431c2db588d1fcf741a1a89"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/immune/feeds.ts",
+      "sha": "ae2c1be1fa7fc7b6273cee021e1681111c3ba30c",
+      "size": 9662,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/ae2c1be1fa7fc7b6273cee021e1681111c3ba30c"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/immune/field.ts",
+      "sha": "c78493d950147307dc0516cb8dde8776619efec9",
+      "size": 3666,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/c78493d950147307dc0516cb8dde8776619efec9"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/immune/ghost.ts",
+      "sha": "5145f7b15a71a90c07f4268efc3f377450f952a8",
+      "size": 7289,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/5145f7b15a71a90c07f4268efc3f377450f952a8"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/immune/huklla.ts",
+      "sha": "de22373093334d1984b46605afd9098381f95816",
+      "size": 5951,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/de22373093334d1984b46605afd9098381f95816"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/immune/ledger.ts",
+      "sha": "8c692605d3631c81c9aa8fe21bf021efa9358b3a",
+      "size": 2224,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/8c692605d3631c81c9aa8fe21bf021efa9358b3a"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/immune/radar.ts",
+      "sha": "aefadd4cb16d27e612f8ac22c5dec91c32815eec",
+      "size": 17078,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/aefadd4cb16d27e612f8ac22c5dec91c32815eec"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/immune/sentra.ts",
+      "sha": "0dfc805d1db99e3d80353d2fa827bbf926c250b3",
+      "size": 4626,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/0dfc805d1db99e3d80353d2fa827bbf926c250b3"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/immune/store.ts",
+      "sha": "3b0ca7ec8c0f42a99d17c98940b473f60b065bc3",
+      "size": 33728,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/3b0ca7ec8c0f42a99d17c98940b473f60b065bc3"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/immune/types.ts",
+      "sha": "a7d8ea1a17119076bd1c3a3917875f3c365aea8f",
+      "size": 4872,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/a7d8ea1a17119076bd1c3a3917875f3c365aea8f"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/immune/wraith.ts",
+      "sha": "02b849cf9a657049e4c4151b35529899e895f243",
+      "size": 9405,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/02b849cf9a657049e4c4151b35529899e895f243"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/multiplayer",
+      "sha": "31bf2b2d7e9e36ba23b23baf955cef814cc48958",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/31bf2b2d7e9e36ba23b23baf955cef814cc48958"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/multiplayer/index.ts",
+      "sha": "431865e237e5098f378ddb923dfa30716a632f86",
+      "size": 169,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/431865e237e5098f378ddb923dfa30716a632f86"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/multiplayer/p2p.ts",
+      "sha": "3dff0109c67f9d2790bf22be439f3298871f5253",
+      "size": 20579,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/3dff0109c67f9d2790bf22be439f3298871f5253"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/og",
+      "sha": "7e079277b4bfe7cb3f222c9fe1decaa7e9b0ed9b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/7e079277b4bfe7cb3f222c9fe1decaa7e9b0ed9b"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/og/site.json",
+      "sha": "70b977531822b23ee0878615696b76355ca276c1",
+      "size": 137,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/70b977531822b23ee0878615696b76355ca276c1"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/preview-embedder-origin.ts",
+      "sha": "0c248bc9ff13421683d0edc75c7a5c75bdd4318d",
+      "size": 1855,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/0c248bc9ff13421683d0edc75c7a5c75bdd4318d"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/preview-host-bridge.ts",
+      "sha": "ef40a5e8c789a49d7f927894396cf7b96b078dd7",
+      "size": 8723,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/ef40a5e8c789a49d7f927894396cf7b96b078dd7"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/utils.ts",
+      "sha": "a5ef193506d07d0459fec4f187af08283094d7c8",
+      "size": 169,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/a5ef193506d07d0459fec4f187af08283094d7c8"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routeTree.gen.ts",
+      "sha": "dceedffdc12c32138e81bb63787cac7ae5d97fcd",
+      "size": 1741,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/dceedffdc12c32138e81bb63787cac7ae5d97fcd"
+    },
+    {
+      "mode": "100644",
+      "path": "src/router.tsx",
+      "sha": "a0e7546fd5d60f17e3e625b12938a829ce4dcada",
+      "size": 272,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/a0e7546fd5d60f17e3e625b12938a829ce4dcada"
+    },
+    {
+      "mode": "040000",
+      "path": "src/routes",
+      "sha": "40690ecf759d6cba7a8fe7de3243b9161a0c3935",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/40690ecf759d6cba7a8fe7de3243b9161a0c3935"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routes/__root.tsx",
+      "sha": "51c9a3bf8a412e0cc0fb133aa4c1e5b31bbc6519",
+      "size": 1629,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/51c9a3bf8a412e0cc0fb133aa4c1e5b31bbc6519"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routes/index.tsx",
+      "sha": "c2b86bfda7dc62d855cf779e4746ff91fc3de829",
+      "size": 239,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/c2b86bfda7dc62d855cf779e4746ff91fc3de829"
+    },
+    {
+      "mode": "100644",
+      "path": "src/styles.css",
+      "sha": "fa9431bdad11913a0234ecf28b818725626f87f0",
+      "size": 3008,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/fa9431bdad11913a0234ecf28b818725626f87f0"
+    },
+    {
+      "mode": "100755",
+      "path": "startup.sh",
+      "sha": "c4d943c1cf5c78df19a8126a2747b482de2ba0fd",
+      "size": 191,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/c4d943c1cf5c78df19a8126a2747b482de2ba0fd"
+    },
+    {
+      "mode": "100644",
+      "path": "tsconfig.json",
+      "sha": "88b15efc8660413c4937067a6f621ebd171c5964",
+      "size": 722,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/88b15efc8660413c4937067a6f621ebd171c5964"
+    },
+    {
+      "mode": "100644",
+      "path": "vite.config.ts",
+      "sha": "f0aa67ddb6b5067c5aece4678259caa57638aa5a",
+      "size": 6750,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/blobs/f0aa67ddb6b5067c5aece4678259caa57638aa5a"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/immune-lattice/git/trees/bcee352e584feab4bac16f4f1677a799effc1e50"
+}

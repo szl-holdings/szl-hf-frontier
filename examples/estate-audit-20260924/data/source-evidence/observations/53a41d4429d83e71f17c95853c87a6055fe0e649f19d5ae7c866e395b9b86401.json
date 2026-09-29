@@ -1,0 +1,39 @@
+{
+  "card": "---\nlibrary_name: transformers\nlicense: apache-2.0\nbase_model: unsloth/Qwen3.5-0.8B\npipeline_tag: text-generation\n---\n\n# szl-receiptagent-qwen35-0.8b-v2-merged\n\n**Status: QUALIFIED, NOT YET PUBLISHED** \u2014 this card is the admission draft;\nthe repository goes live only through the canonical publisher.\n\nMerged full-model build of the governed, proposal-only ReceiptAgent v2: the\nqualified LoRA adapter merged into the correct multimodal base, so it runs\nwithout PEFT.\n\n## Evidence\n\n- Merge key map: 372/372 keys matched, 0 dropped (the original broken merge\n  dropped all 372 and was excluded from publication before ever shipping)\n- Max weight delta vs base: 0.00422 across 186 tensors \u2014 a real merge, not a\n  byte-copy\n- Behavioral equivalence: 100% exact-match vs the adapter on real eval prompts\n  under greedy decoding\n\n## Boundary\n\nProposal-only. Every output is an evidence-bound, approval-gated decision\nDRAFT (`decision=DRAFT`, `approvalRequired=true`, `executed=false`). The model\nnever finalizes, never executes, and never fabricates citations or receipts.\n\n## Predecessor\n\nFrozen comparator: `SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2`\n(adapter SHA-256 `885fc29f...`). This SKU does not replace it; it is derived\nfrom it.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 269,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/b66f0d1b67e11553fe239132fc9768557f0d20ffe93096fccc3c5b5252b5cd83.json",
+      "revision": "6f7dc8e2215b689aa2b7d2a28d794d29f5ba3079",
+      "sha256": "b66f0d1b67e11553fe239132fc9768557f0d20ffe93096fccc3c5b5252b5cd83",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2-merged/revision/6f7dc8e2215b689aa2b7d2a28d794d29f5ba3079"
+    },
+    {
+      "bytes": 1239,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/9cb8e14cd3d0789f4d5eeffa5fc6b4b9996ba0cfee5823601423f2c4a435cf7d.md",
+      "revision": "6f7dc8e2215b689aa2b7d2a28d794d29f5ba3079",
+      "sha256": "9cb8e14cd3d0789f4d5eeffa5fc6b4b9996ba0cfee5823601423f2c4a435cf7d",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2-merged/resolve/6f7dc8e2215b689aa2b7d2a28d794d29f5ba3079/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "chat_template.jinja",
+    "config.json",
+    "generation_config.json",
+    "model.safetensors",
+    "tokenizer.json",
+    "tokenizer_config.json"
+  ],
+  "id": "huggingface-model/szlholdings/szl-receiptagent-qwen35-0.8b-v2-merged",
+  "observed_at": "2026-09-24T12:29:56Z",
+  "observed_revision": "6f7dc8e2215b689aa2b7d2a28d794d29f5ba3079"
+}

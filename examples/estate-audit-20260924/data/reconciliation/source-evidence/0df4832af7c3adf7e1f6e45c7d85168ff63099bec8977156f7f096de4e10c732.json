@@ -1,0 +1,225 @@
+{
+  "sha": "6a7973aa4c24cfb5a88b732f4d54bed849adcd77",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "02ef997a04cc7b9691a701304f3bc1b175c17a23",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/trees/02ef997a04cc7b9691a701304f3bc1b175c17a23"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "7ec2f7b1edd2fd7f75d68fc22a96ce8736028ebd",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/trees/7ec2f7b1edd2fd7f75d68fc22a96ce8736028ebd"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "9ee438f77a930a94d1cb6c94eadb59eb4f55c328",
+      "size": 1073,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/9ee438f77a930a94d1cb6c94eadb59eb4f55c328"
+    },
+    {
+      "mode": "100644",
+      "path": "CHANGELOG.md",
+      "sha": "1448a68d1dd7f334d94eec29148c1a17c83ec35e",
+      "size": 1110,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/1448a68d1dd7f334d94eec29148c1a17c83ec35e"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "1c5038f507091c38b723a529af04636db98f73f9",
+      "size": 11342,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/1c5038f507091c38b723a529af04636db98f73f9"
+    },
+    {
+      "mode": "100644",
+      "path": "OPERATIONS.md",
+      "sha": "86a655b10aadd888d245f9af1ef51aba9a34553a",
+      "size": 2883,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/86a655b10aadd888d245f9af1ef51aba9a34553a"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "7102a925973e43776d26cacbdd707334e42b8173",
+      "size": 2743,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/7102a925973e43776d26cacbdd707334e42b8173"
+    },
+    {
+      "mode": "040000",
+      "path": "deploy",
+      "sha": "fc858528ceaf0135086b2e6a29bf01ecf77aac9c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/trees/fc858528ceaf0135086b2e6a29bf01ecf77aac9c"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/grafana-alerts.yaml",
+      "sha": "dbfb54980c764fbc64ffce466c2f356e25841257",
+      "size": 1192,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/dbfb54980c764fbc64ffce466c2f356e25841257"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/prometheus.yml",
+      "sha": "acf2ea5092186b09fe60585daabc637a1db72c94",
+      "size": 127,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/acf2ea5092186b09fe60585daabc637a1db72c94"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/uvicorn.conf.py",
+      "sha": "133df2e909f4ee0f75329527d8d39183c350e840",
+      "size": 522,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/133df2e909f4ee0f75329527d8d39183c350e840"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "02124a245bc1ae027342d281991734c973a6b150",
+      "size": 669,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/02124a245bc1ae027342d281991734c973a6b150"
+    },
+    {
+      "mode": "040000",
+      "path": "src",
+      "sha": "57a37670ad8c03e089881329f5e22a508aa42d50",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/trees/57a37670ad8c03e089881329f5e22a508aa42d50"
+    },
+    {
+      "mode": "040000",
+      "path": "src/szl_calibration",
+      "sha": "e22eb81da7e3901014b01778a8aa8ba01bc27200",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/trees/e22eb81da7e3901014b01778a8aa8ba01bc27200"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_calibration/__init__.py",
+      "sha": "facf24bae83d1437946682dfb57e596f28c69e1f",
+      "size": 165,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/facf24bae83d1437946682dfb57e596f28c69e1f"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_calibration/gate_cli.py",
+      "sha": "0d085e74c74ad588ccd1e60b281da0138094c55c",
+      "size": 820,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/0d085e74c74ad588ccd1e60b281da0138094c55c"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_calibration/gates.py",
+      "sha": "17134a148e459a73f880988bce755b2021debf9a",
+      "size": 5187,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/17134a148e459a73f880988bce755b2021debf9a"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_calibration/metrics.py",
+      "sha": "75ee7b0e85281feebd83235b09f32239a5cb0480",
+      "size": 3349,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/75ee7b0e85281feebd83235b09f32239a5cb0480"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_calibration/receipts.py",
+      "sha": "301bf059efaae0e99cf0085e06e106c585af25f4",
+      "size": 2836,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/301bf059efaae0e99cf0085e06e106c585af25f4"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_calibration/service.py",
+      "sha": "8c524ee37f3b848ecef51d6055d39719e82b2835",
+      "size": 3919,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/8c524ee37f3b848ecef51d6055d39719e82b2835"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "e1c259146a2a612dc7580ac95c17b5afa7570905",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/trees/e1c259146a2a612dc7580ac95c17b5afa7570905"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/conftest.py",
+      "sha": "5cf4300936eb4b4928a8c65cd3e2214632dc73e3",
+      "size": 188,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/5cf4300936eb4b4928a8c65cd3e2214632dc73e3"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/make_fixtures.py",
+      "sha": "5ce2850a37d3954189f5f626810d00eb218c0784",
+      "size": 658,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/5ce2850a37d3954189f5f626810d00eb218c0784"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_gate_cli.py",
+      "sha": "7c374a3534358bb3d245ecf5018fa946a4356fc8",
+      "size": 625,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/7c374a3534358bb3d245ecf5018fa946a4356fc8"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_gates.py",
+      "sha": "02b04740c841f62a5a464cd5f7a616b9eb9162de",
+      "size": 3160,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/02b04740c841f62a5a464cd5f7a616b9eb9162de"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_metrics.py",
+      "sha": "4a1f1ecb5634f45f9dedd5967987a9c678658536",
+      "size": 1333,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/4a1f1ecb5634f45f9dedd5967987a9c678658536"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_receipts.py",
+      "sha": "2b679e3f581825cc1a262b897189839c7cc70ce3",
+      "size": 2251,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/2b679e3f581825cc1a262b897189839c7cc70ce3"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_service.py",
+      "sha": "ee53c5f14d1c820b0b9116fd4dc98281a4462e64",
+      "size": 2363,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/blobs/ee53c5f14d1c820b0b9116fd4dc98281a4462e64"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/trees/6a7973aa4c24cfb5a88b732f4d54bed849adcd77"
+}

@@ -1,0 +1,41 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 16891,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:48Z",
+      "path": "data/reconciliation/source-evidence/bb36a3d9db8fb8dbbaa013f174272b36457b073afd0295c9f7ba5ad0bd8dd6b6.json",
+      "revision": "6a813593e46688f021a114ce5eb16816535bfde2",
+      "sha256": "bb36a3d9db8fb8dbbaa013f174272b36457b073afd0295c9f7ba5ad0bd8dd6b6",
+      "source_identity": "github/szl-holdings/frontier-bench",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/trees/6a813593e46688f021a114ce5eb16816535bfde2?recursive=1"
+    }
+  ],
+  "file_count": 44,
+  "id": "github/szl-holdings/frontier-bench",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "6a813593e46688f021a114ce5eb16816535bfde2",
+  "root_paths": [
+    ".gitattributes",
+    ".github",
+    ".gitignore",
+    "Dockerfile",
+    "LICENSE",
+    "README.md",
+    "app",
+    "configs",
+    "deploy",
+    "evidence",
+    "harness",
+    "receipts",
+    "requirements.txt",
+    "site",
+    "tests",
+    "tools",
+    "verify"
+  ]
+}

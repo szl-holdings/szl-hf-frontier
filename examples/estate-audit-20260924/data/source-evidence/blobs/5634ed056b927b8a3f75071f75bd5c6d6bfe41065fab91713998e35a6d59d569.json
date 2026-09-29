@@ -1,0 +1,23 @@
+{
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "adapter_config.json",
+    "adapter_model.safetensors",
+    "bom/model-bom.cdx.json",
+    "chat_template.jinja",
+    "config.json",
+    "eval_report.json",
+    "generation_config.json",
+    "merge_receipt.json",
+    "model.safetensors",
+    "processor_config.json",
+    "provenance.json",
+    "status.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "training_receipt.json"
+  ],
+  "revision": "ad510c4b05429acb862b216718f098ace6d05af3"
+}

@@ -1,0 +1,36 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 6269,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:47Z",
+      "path": "data/reconciliation/source-evidence/7fdc839de01b86668af573e6f39049fe566ddd9c64357230a2e1b8d07a785ca1.json",
+      "revision": "a0735738982f4e3e66d3a951c243c64ba7992dbf",
+      "sha256": "7fdc839de01b86668af573e6f39049fe566ddd9c64357230a2e1b8d07a785ca1",
+      "source_identity": "github/szl-holdings/evidence-doctrine",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-doctrine/git/trees/a0735738982f4e3e66d3a951c243c64ba7992dbf?recursive=1"
+    }
+  ],
+  "file_count": 15,
+  "id": "github/szl-holdings/evidence-doctrine",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "a0735738982f4e3e66d3a951c243c64ba7992dbf",
+  "root_paths": [
+    ".github",
+    ".zenodo.json",
+    "LICENSE",
+    "README.md",
+    "docs",
+    "package.json",
+    "pnpm-workspace.yaml",
+    "python",
+    "specs",
+    "src",
+    "tsconfig.json",
+    "turbo.json"
+  ]
+}

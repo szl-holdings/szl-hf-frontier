@@ -1,0 +1,52 @@
+{
+  "kind": "szl-khipu-r3-laptop-blackwell-receipt",
+  "schema": "szl.frontier-training-run/v1",
+  "artifact": "SZLHOLDINGS/khipu-r3",
+  "github_source": "https://github.com/szl-holdings/szl-forge/tree/main/khipu",
+  "canonical_base": "Qwen/Qwen3.5-0.8B",
+  "qlora": false,
+  "load_in_4bit": false,
+  "load_in_16bit": true,
+  "quant": "bf16-lora",
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "seed": 11,
+  "num_train_epochs": 3,
+  "dataset_files": [
+    "train.jsonl",
+    "train.abstain.jsonl"
+  ],
+  "dataset_sha256": {
+    "train.jsonl": "14f9bdde66446d8e29e7f23f927df780982a9c9d17d3d6bac870ff747df215d5",
+    "train.abstain.jsonl": "1c72e898f96f0262a6d9424f7126b1eaba8627599358d651b1d9bbe7aec3ee35"
+  },
+  "training_rows": 23,
+  "finalTrainLoss": "0.4397",
+  "train_loss_label": "MEASURED",
+  "adapterSha256": "e90188bc72dcaa56a9567ed565c5e940192a9e54d969f6f31b5e8208da2cae62",
+  "weights": "LOCAL",
+  "does_not_overwrite": [
+    "SZLHOLDINGS/SZL-Khipu-1.5B",
+    "SZLHOLDINGS/SZL-Khipu-1.5B-GGUF",
+    "SZLHOLDINGS/KHIPU-R2",
+    "SZLHOLDINGS/brain-navigator-r2",
+    "SZLHOLDINGS/SZL-Khipu-1.5B-BrainNavigator"
+  ],
+  "push_to_hub": false,
+  "publication_eligible": false,
+  "autonomy_eligible": false,
+  "evals": "none-this-run",
+  "gpu": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.9",
+    "nvidia_smi": "NVIDIA GeForce RTX 5050 Laptop GPU, 8151 MiB, 7910 MiB, 610.47",
+    "torch": "2.10.0+cu128",
+    "cuda": true,
+    "gpu_name": "NVIDIA GeForce RTX 5050 Laptop GPU",
+    "gpu_mem_gb": 7.96
+  },
+  "lambda": "Conjecture 1",
+  "doctrine": "v11 LOCKED",
+  "claim_boundary": "Laptop Blackwell Unsloth bf16 LoRA over forge khipu train.jsonl + train.abstain.jsonl. Does not overwrite signed 1.5B, KHIPU-R2, or brain-navigator-r2. Train loss is not eval. publication_eligible false.",
+  "computed_at": "2026-08-29T16:53:15.572674+00:00"
+}

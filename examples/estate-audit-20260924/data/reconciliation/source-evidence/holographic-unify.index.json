@@ -1,0 +1,44 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 19683,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:49Z",
+      "path": "data/reconciliation/source-evidence/e76f90f22652cc87ade949b1c7d57b7c2b01bfa098dbb40a4b40c1f8c1711336.json",
+      "revision": "7d03a8c45f97ece18b5da1bb23b1387a89e123b5",
+      "sha256": "e76f90f22652cc87ade949b1c7d57b7c2b01bfa098dbb40a4b40c1f8c1711336",
+      "source_identity": "github/szl-holdings/holographic-unify",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/holographic-unify/git/trees/7d03a8c45f97ece18b5da1bb23b1387a89e123b5?recursive=1"
+    }
+  ],
+  "file_count": 55,
+  "id": "github/szl-holdings/holographic-unify",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "7d03a8c45f97ece18b5da1bb23b1387a89e123b5",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "ALIGN.md",
+    "DESTINATION.md",
+    "Dockerfile",
+    "LICENSE",
+    "NOTICE",
+    "OTHER-DESKS.md",
+    "README.md",
+    "eslint.config.mjs",
+    "operational.json",
+    "package.json",
+    "public",
+    "scripts",
+    "space",
+    "src",
+    "startup.sh",
+    "tests",
+    "tsconfig.json",
+    "vite.config.ts"
+  ]
+}

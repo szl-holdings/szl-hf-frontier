@@ -1,0 +1,48 @@
+{
+  "card": "---\nlicense: apache-2.0\nbase_model: Qwen/Qwen3.5-0.8B\nbase_model_relation: adapter\nlibrary_name: peft\npipeline_tag: text-generation\ntags:\n  - unsloth\n  - lora\n  - szl-holdings\n  - khipu\n---\n\n# SZLHOLDINGS/khipu-r3\n\nLaptop Blackwell Unsloth **bf16 LoRA** (r=16 \u03b1=32) of the forge `khipu/` curriculum\n(`train.jsonl` + `train.abstain.jsonl`, 23 rows) on `Qwen/Qwen3.5-0.8B`.\n\n| Claim | Status |\n|---|---|\n| Train loss 0.4397 | MEASURED (train metric, not eval) |\n| Held-out generate | MEASURED grounding 4/5, abstain 0/6 (NAVIGATE instead of ABSTAIN) |\n| publication_eligible | false |\n| Overwrites 1.5B / KHIPU-R2 / brain-navigator-r2 | never |\n| QLoRA | forbidden on Qwen3.5; this SKU is bf16 LoRA |\n| \u039b uniqueness | Conjecture 1, never a theorem |\n\nGitHub source: https://github.com/szl-holdings/szl-forge/tree/main/khipu\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 517,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/bfc4245abfdcd423b55f183d60338ecb7fc721d323d07df35722c06192c8f47c.json",
+      "revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988",
+      "sha256": "bfc4245abfdcd423b55f183d60338ecb7fc721d323d07df35722c06192c8f47c",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/khipu-r3/revision/89807a2680e2400bbbc7523772aa6ff4b86a7988"
+    },
+    {
+      "bytes": 824,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/1270e90ca7440ff2f55670a592e597458901e4868bd51f1db6507fd88a9d14b9.md",
+      "revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988",
+      "sha256": "1270e90ca7440ff2f55670a592e597458901e4868bd51f1db6507fd88a9d14b9",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/SZLHOLDINGS/khipu-r3/resolve/89807a2680e2400bbbc7523772aa6ff4b86a7988/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "adapter_config.json",
+    "adapter_model.safetensors",
+    "bom/model-bom.cdx.json",
+    "chat_template.jinja",
+    "config.json",
+    "generation_config.json",
+    "merge_receipt.json",
+    "model.safetensors",
+    "processor_config.json",
+    "provenance.json",
+    "status.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "training_receipt.laptop-blackwell.json"
+  ],
+  "id": "huggingface-model/szlholdings/khipu-r3",
+  "observed_at": "2026-09-24T12:29:51Z",
+  "observed_revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988"
+}

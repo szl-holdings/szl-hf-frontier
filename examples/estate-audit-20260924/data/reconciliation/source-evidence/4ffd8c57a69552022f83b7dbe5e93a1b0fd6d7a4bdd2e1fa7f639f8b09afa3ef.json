@@ -1,0 +1,113 @@
+{
+  "sha": "6af7659994980b76ce9fff1e07625d5c24c90a6d",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "c4cdb9a3c2c956540afba180cf25761dafa62b31",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-pin/git/trees/c4cdb9a3c2c956540afba180cf25761dafa62b31"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "44545e2bbdaed771e55cf10ce4961969f43549ea",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-pin/git/trees/44545e2bbdaed771e55cf10ce4961969f43549ea"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/tests.yml",
+      "sha": "60a97092df2795189fb9460a9535d2f7874f4702",
+      "size": 497,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-pin/git/blobs/60a97092df2795189fb9460a9535d2f7874f4702"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "63db4f55536704c05f7c4430519ee2611cf1bcd6",
+      "size": 324,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-pin/git/blobs/63db4f55536704c05f7c4430519ee2611cf1bcd6"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "8eb6b9ab52b9e15f56e8d8e6a8077cd90eebb898",
+      "size": 2528,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-pin/git/blobs/8eb6b9ab52b9e15f56e8d8e6a8077cd90eebb898"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "3afaab099bf0e4d8676c4b1821ba6061472999bc",
+      "size": 415,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-pin/git/blobs/3afaab099bf0e4d8676c4b1821ba6061472999bc"
+    },
+    {
+      "mode": "040000",
+      "path": "receipts",
+      "sha": "1b743b00b60cca917e32c21dd09fd148b7426cf2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-pin/git/trees/1b743b00b60cca917e32c21dd09fd148b7426cf2"
+    },
+    {
+      "mode": "100644",
+      "path": "receipts/2026-09-05T00:51Z-alignment-sweep-1.json",
+      "sha": "57c6cb502365e29c839fe476a089706bd0a54130",
+      "size": 4335,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-pin/git/blobs/57c6cb502365e29c839fe476a089706bd0a54130"
+    },
+    {
+      "mode": "040000",
+      "path": "src",
+      "sha": "d8ee58938ce6cc41b4bb2901586c9561134ccc85",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-pin/git/trees/d8ee58938ce6cc41b4bb2901586c9561134ccc85"
+    },
+    {
+      "mode": "040000",
+      "path": "src/szl_pin",
+      "sha": "d6c783ec352cccc8d5e3c2e006c3f8f0b4aae26e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-pin/git/trees/d6c783ec352cccc8d5e3c2e006c3f8f0b4aae26e"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_pin/__init__.py",
+      "sha": "376bd40f53822a2fa198d40d41744a12494a5abf",
+      "size": 152,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-pin/git/blobs/376bd40f53822a2fa198d40d41744a12494a5abf"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_pin/pin.py",
+      "sha": "427ddde8fb6b33cd2a660e1f5c485988cacae831",
+      "size": 7368,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-pin/git/blobs/427ddde8fb6b33cd2a660e1f5c485988cacae831"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "a99b032969f36cc9bc37242d4c3c28561e689f4b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-pin/git/trees/a99b032969f36cc9bc37242d4c3c28561e689f4b"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_pin.py",
+      "sha": "9584ce91d398cf470f3b5c41aa9189e3da97f28d",
+      "size": 3317,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-pin/git/blobs/9584ce91d398cf470f3b5c41aa9189e3da97f28d"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-pin/git/trees/6af7659994980b76ce9fff1e07625d5c24c90a6d"
+}

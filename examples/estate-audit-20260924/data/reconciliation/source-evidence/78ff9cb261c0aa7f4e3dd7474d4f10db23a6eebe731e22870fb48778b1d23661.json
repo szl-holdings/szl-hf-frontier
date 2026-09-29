@@ -1,0 +1,242 @@
+{
+  "sha": "2d2980ce7f0063b5692fe2b46163dee6df2831e1",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "c1d873597cc42e7518446f7cb547fbe925f4d30b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/trees/c1d873597cc42e7518446f7cb547fbe925f4d30b"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "98fd16d9a26752668975170fc7782df6aec3454f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/trees/98fd16d9a26752668975170fc7782df6aec3454f"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "c6c4d619c628024da88d5bedd014512357e11904",
+      "size": 512,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/c6c4d619c628024da88d5bedd014512357e11904"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-space.yml",
+      "sha": "6ab1eb8015217ee767e024ee4076a823b5eedc13",
+      "size": 1388,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/6ab1eb8015217ee767e024ee4076a823b5eedc13"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/publish-sibling-spaces.yml",
+      "sha": "708ee4fe2733c8568104055244b3bf612359f0a1",
+      "size": 5609,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/708ee4fe2733c8568104055244b3bf612359f0a1"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "99b40f3d2ddaed3147588267be8e782bbe217008",
+      "size": 46,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/99b40f3d2ddaed3147588267be8e782bbe217008"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile",
+      "sha": "1777cc7cbc8f159c9d339091a8073dcb7c541610",
+      "size": 256,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/1777cc7cbc8f159c9d339091a8073dcb7c541610"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "17f2aab2941c766fc1bc246f258dcc4e6ec01051",
+      "size": 1297,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/17f2aab2941c766fc1bc246f258dcc4e6ec01051"
+    },
+    {
+      "mode": "100644",
+      "path": "RESTORED.md",
+      "sha": "fa3fb73f0b715a7e8d192d100f3f566bd23c6a36",
+      "size": 1379,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/fa3fb73f0b715a7e8d192d100f3f566bd23c6a36"
+    },
+    {
+      "mode": "100644",
+      "path": "app.py",
+      "sha": "0c5a4c1b7b8d929359627beef4f01e2f43e88bd1",
+      "size": 7389,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/0c5a4c1b7b8d929359627beef4f01e2f43e88bd1"
+    },
+    {
+      "mode": "040000",
+      "path": "formulas",
+      "sha": "43e7ff8b44ad740add5ae95870ca5de1d6fe03c9",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/trees/43e7ff8b44ad740add5ae95870ca5de1d6fe03c9"
+    },
+    {
+      "mode": "100644",
+      "path": "formulas/experimental_tier.py",
+      "sha": "f994d12861468af4087ae791eb7631bba1baf22d",
+      "size": 12485,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/f994d12861468af4087ae791eb7631bba1baf22d"
+    },
+    {
+      "mode": "100644",
+      "path": "formulas/szl_allodial.py",
+      "sha": "38734077cfb406e62d61880d86a4c766b87440fe",
+      "size": 18495,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/38734077cfb406e62d61880d86a4c766b87440fe"
+    },
+    {
+      "mode": "100644",
+      "path": "formulas/szl_chain_of_title.py",
+      "sha": "98da08dccedfa8b736bea25677b02f9b1041a504",
+      "size": 10670,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/98da08dccedfa8b736bea25677b02f9b1041a504"
+    },
+    {
+      "mode": "100644",
+      "path": "formulas/szl_conjecture_factory.py",
+      "sha": "ec367e498060f4fd9781443284766f3dd2509d70",
+      "size": 13501,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/ec367e498060f4fd9781443284766f3dd2509d70"
+    },
+    {
+      "mode": "100644",
+      "path": "formulas/szl_cuas_formulas.py",
+      "sha": "1525414f76858bc1906df3fa04a9aa3c85311f74",
+      "size": 54927,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/1525414f76858bc1906df3fa04a9aa3c85311f74"
+    },
+    {
+      "mode": "100644",
+      "path": "formulas/szl_entanglement.py",
+      "sha": "ddda02f184aacbb4ca75e00ac4f5ddc6ea717d2e",
+      "size": 17065,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/ddda02f184aacbb4ca75e00ac4f5ddc6ea717d2e"
+    },
+    {
+      "mode": "100644",
+      "path": "formulas/szl_neuromorphic.py",
+      "sha": "52bbd8dec4f1e6e3efa22a314abc2d552c786912",
+      "size": 12472,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/52bbd8dec4f1e6e3efa22a314abc2d552c786912"
+    },
+    {
+      "mode": "100644",
+      "path": "formulas/szl_neuroplasticity.py",
+      "sha": "2a60bc49a2acc992c79a7c1228931e5e22698edb",
+      "size": 13095,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/2a60bc49a2acc992c79a7c1228931e5e22698edb"
+    },
+    {
+      "mode": "100644",
+      "path": "formulas/szl_quantum_bio.py",
+      "sha": "fee9857b678ec592c6db3687d9620b37a644fcf0",
+      "size": 14178,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/fee9857b678ec592c6db3687d9620b37a644fcf0"
+    },
+    {
+      "mode": "100644",
+      "path": "formulas/szl_restraint.py",
+      "sha": "f064dea23b99ae5764f94c66e08e9ea0cb3cdc58",
+      "size": 32653,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/f064dea23b99ae5764f94c66e08e9ea0cb3cdc58"
+    },
+    {
+      "mode": "100644",
+      "path": "formulas/szl_sapa.py",
+      "sha": "6e4b54b4070200b15e418fb39ee833264c31de5f",
+      "size": 23098,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/6e4b54b4070200b15e418fb39ee833264c31de5f"
+    },
+    {
+      "mode": "100644",
+      "path": "formulas/szl_scaling.py",
+      "sha": "905d5a3466464e30b4d2fa0acb09f4f41cd772f2",
+      "size": 22465,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/905d5a3466464e30b4d2fa0acb09f4f41cd772f2"
+    },
+    {
+      "mode": "100644",
+      "path": "formulas/szl_unified_formulas.py",
+      "sha": "fa5302415ba6c1c60ff87f477e4de2b4837671a1",
+      "size": 11880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/fa5302415ba6c1c60ff87f477e4de2b4837671a1"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements.txt",
+      "sha": "d84dedbd2b2c64bef61d4fe180f86f1c8b6398e9",
+      "size": 57,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/d84dedbd2b2c64bef61d4fe180f86f1c8b6398e9"
+    },
+    {
+      "mode": "040000",
+      "path": "static",
+      "sha": "0efe0bc4e52d8198f30c3e239fc0c99b1783739c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/trees/0efe0bc4e52d8198f30c3e239fc0c99b1783739c"
+    },
+    {
+      "mode": "100644",
+      "path": "static/chamber.html",
+      "sha": "a75584e3e9885a2bafc5a4d818e03b8b88ea29e0",
+      "size": 10303,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/a75584e3e9885a2bafc5a4d818e03b8b88ea29e0"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "31b7b20a62425bb1ff0c7523e48a8316639b39c8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/trees/31b7b20a62425bb1ff0c7523e48a8316639b39c8"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_api.py",
+      "sha": "20133fb538f8f26490fce5cc71d86d0df2c7b2bd",
+      "size": 3635,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/blobs/20133fb538f8f26490fce5cc71d86d0df2c7b2bd"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/trees/2d2980ce7f0063b5692fe2b46163dee6df2831e1"
+}

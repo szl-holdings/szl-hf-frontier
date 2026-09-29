@@ -1,0 +1,41 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 18936,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:56Z",
+      "path": "data/reconciliation/source-evidence/1732f850c0699d57af9455b7f2c87b2c65ba4a7e1ebb148c1bd0374d4c106161.json",
+      "revision": "f5c9408d0dd0a0438769e6a88ef798f901680574",
+      "sha256": "1732f850c0699d57af9455b7f2c87b2c65ba4a7e1ebb148c1bd0374d4c106161",
+      "source_identity": "github/szl-holdings/szl-build-env",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-build-env/git/trees/f5c9408d0dd0a0438769e6a88ef798f901680574?recursive=1"
+    }
+  ],
+  "file_count": 48,
+  "id": "github/szl-holdings/szl-build-env",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "f5c9408d0dd0a0438769e6a88ef798f901680574",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "CITATION.cff",
+    "HONEST_GAPS.md",
+    "LICENSE",
+    "Makefile",
+    "README.md",
+    "SECURITY.md",
+    "bootstrap",
+    "demo",
+    "deploy",
+    "docs",
+    "keys",
+    "kind",
+    "manifests",
+    "scripts",
+    "verify"
+  ]
+}

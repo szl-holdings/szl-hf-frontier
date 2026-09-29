@@ -1,0 +1,58 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 52023,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:46Z",
+      "path": "data/reconciliation/source-evidence/a2ce7a09cfa78bf4c84b15ede233faba803b5d845ff31e80372c97f0ef0daa7c.json",
+      "revision": "40f0ac9849adfd101f97994998481b73adb44d6c",
+      "sha256": "a2ce7a09cfa78bf4c84b15ede233faba803b5d845ff31e80372c97f0ef0daa7c",
+      "source_identity": "github/szl-holdings/david-leads",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/trees/40f0ac9849adfd101f97994998481b73adb44d6c?recursive=1"
+    }
+  ],
+  "file_count": 159,
+  "id": "github/szl-holdings/david-leads",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "40f0ac9849adfd101f97994998481b73adb44d6c",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "DAVID_ABRAHAM_WALKTHROUGH.md",
+    "DESIGN_RESEARCH_2026-07-29.md",
+    "David_Leads_Access_and_Tour.docx",
+    "David_Leads_Broker_Field_Guide_2026.docx",
+    "David_Leads_Broker_Guide.docx",
+    "David_Leads_PORTABLE.html",
+    "Dockerfile",
+    "FOR_DAVID.md",
+    "HANDOFF_FOR_STEPHEN.md",
+    "LICENSE",
+    "PUBLICATION_READINESS.md",
+    "PUBLIC_DATA_OPERATING_MODEL.md",
+    "README.md",
+    "README_FOR_STEPHEN.txt",
+    "SPACE_PROVENANCE.json",
+    "SPEC.md",
+    "THIRD_PARTY_NOTICES.md",
+    "V8_SELFTEST.json",
+    "app",
+    "backend_frontend_qa.md",
+    "build_portable.py",
+    "doc_build_make_doc.js",
+    "docs",
+    "live_audit.md",
+    "ops",
+    "qa",
+    "requirements-dev.txt",
+    "requirements-ingestor.txt",
+    "requirements.txt",
+    "research",
+    "tests",
+    "tools"
+  ]
+}

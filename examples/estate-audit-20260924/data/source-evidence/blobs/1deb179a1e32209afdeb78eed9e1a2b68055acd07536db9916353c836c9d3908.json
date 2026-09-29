@@ -1,0 +1,30 @@
+{
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "adapter-unsloth/README.md",
+    "adapter-unsloth/adapter_config.json",
+    "adapter-unsloth/adapter_model.safetensors",
+    "adapter-unsloth/chat_template.jinja",
+    "adapter-unsloth/tokenizer.json",
+    "adapter-unsloth/tokenizer_config.json",
+    "adapter-unsloth/training_receipt.json",
+    "adapter_config.json",
+    "adapter_model.safetensors",
+    "bom/model-bom.cdx.json",
+    "chat_template.jinja",
+    "config.json",
+    "generation_config.json",
+    "merge_receipt.json",
+    "model.safetensors",
+    "provenance.json",
+    "status.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "train_receipted_unsloth.py",
+    "training_args.json",
+    "willay.npz"
+  ],
+  "revision": "375a007ec961f125ab051747b70c3e3b7dcd64c7"
+}

@@ -1,0 +1,115 @@
+{
+  "sha": "6098d598ee1e21170393abdc446691d8340100cc",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "e7de918893a6fb96f0460da4333067e45eec89b5",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-studio/git/trees/e7de918893a6fb96f0460da4333067e45eec89b5"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "b4d6b60fa332f836a351db55af539d681e6e0ad6",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-studio/git/trees/b4d6b60fa332f836a351db55af539d681e6e0ad6"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "5e0308a3ab15e610ed9731ee8f7afae3154672be",
+      "size": 575,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-studio/git/blobs/5e0308a3ab15e610ed9731ee8f7afae3154672be"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "00f2d38d8063d0c6b219c0081e51888063b0c55e",
+      "size": 26,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-studio/git/blobs/00f2d38d8063d0c6b219c0081e51888063b0c55e"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile",
+      "sha": "859511dc9911b2d0893994920cfea7fadcad2d76",
+      "size": 301,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-studio/git/blobs/859511dc9911b2d0893994920cfea7fadcad2d76"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-studio/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "NOTICE",
+      "sha": "b58a1b9470555638786831cc910e0bbcbcf7e9a8",
+      "size": 659,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-studio/git/blobs/b58a1b9470555638786831cc910e0bbcbcf7e9a8"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "706ae82eebdcb01ee2a772c3f0bbfdc5400c61f2",
+      "size": 731,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-studio/git/blobs/706ae82eebdcb01ee2a772c3f0bbfdc5400c61f2"
+    },
+    {
+      "mode": "040000",
+      "path": "space",
+      "sha": "135c5567b15e2d56d0a10bd0e6552ba0c4110ed2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-studio/git/trees/135c5567b15e2d56d0a10bd0e6552ba0c4110ed2"
+    },
+    {
+      "mode": "100644",
+      "path": "space/__init__.py",
+      "sha": "0143ed5edf77bcbd8b4f51d31d4d54a7a62e2890",
+      "size": 43,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-studio/git/blobs/0143ed5edf77bcbd8b4f51d31d4d54a7a62e2890"
+    },
+    {
+      "mode": "100644",
+      "path": "space/index.html",
+      "sha": "f8ef7c07a82ecbfa9bfbfff652c8b7410325b13d",
+      "size": 3410,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-studio/git/blobs/f8ef7c07a82ecbfa9bfbfff652c8b7410325b13d"
+    },
+    {
+      "mode": "100644",
+      "path": "space/server.py",
+      "sha": "23ac4f8eb2a5f4467e3db13948fa539b65b21ee7",
+      "size": 6145,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-studio/git/blobs/23ac4f8eb2a5f4467e3db13948fa539b65b21ee7"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "562de607ad33a9b23a01dcc710453062b1583fb3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-studio/git/trees/562de607ad33a9b23a01dcc710453062b1583fb3"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_sink.py",
+      "sha": "fc743749274990fece14eb67dfad5d9e94a53a4a",
+      "size": 907,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-studio/git/blobs/fc743749274990fece14eb67dfad5d9e94a53a4a"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/evidence-studio/git/trees/6098d598ee1e21170393abdc446691d8340100cc"
+}

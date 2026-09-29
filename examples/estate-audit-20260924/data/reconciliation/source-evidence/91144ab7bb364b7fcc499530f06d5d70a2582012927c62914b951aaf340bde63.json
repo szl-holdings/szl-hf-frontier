@@ -1,0 +1,679 @@
+{
+  "sha": "4572983d19f8d8b262c3762dd4e5bdbb250093be",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "8d7078be858d087e49c58dcec5ad4e539a91b3f8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/trees/8d7078be858d087e49c58dcec5ad4e539a91b3f8"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/ISSUE_TEMPLATE",
+      "sha": "d5c0087dc81e8ce6fcb8871475465528418b650a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/trees/d5c0087dc81e8ce6fcb8871475465528418b650a"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha": "e7528e82952e7882096165c66bd7aa4cc516bd53",
+      "size": 1773,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/e7528e82952e7882096165c66bd7aa4cc516bd53"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "ea552b8fa3eea9aba4e64d06cceed702a117217e",
+      "size": 597,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/ea552b8fa3eea9aba4e64d06cceed702a117217e"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "5b76b22dd93c4f36251e33031c3d6bff526a2325",
+      "size": 678,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/5b76b22dd93c4f36251e33031c3d6bff526a2325"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "e367a8a851f439be75291eba1aa1a06bf08a6649",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/trees/e367a8a851f439be75291eba1aa1a06bf08a6649"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/base-python-ci.yml",
+      "sha": "e68a73b3425241a15215fffddaeef11d0e9897f6",
+      "size": 2856,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/e68a73b3425241a15215fffddaeef11d0e9897f6"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/forbidden-domain.yml",
+      "sha": "0ceaa9cbb7ba391ebc78b0ec08c74ebc1c0fac73",
+      "size": 1525,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/0ceaa9cbb7ba391ebc78b0ec08c74ebc1c0fac73"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/gates.yml",
+      "sha": "631466a191336105b6e5df60d429dba59b3e980d",
+      "size": 4326,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/631466a191336105b6e5df60d429dba59b3e980d"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "3319c09c854bf2f87db93e266a68354c608578ea",
+      "size": 169,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/3319c09c854bf2f87db93e266a68354c608578ea"
+    },
+    {
+      "mode": "100644",
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "8ef338732f66fee91dd8ddedd0e5348b75ef98e4",
+      "size": 1408,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/8ef338732f66fee91dd8ddedd0e5348b75ef98e4"
+    },
+    {
+      "mode": "100644",
+      "path": "CONTRIBUTING.md",
+      "sha": "aa6ce6db42061537bd5043c5ad87bff2645c0b7a",
+      "size": 1529,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/aa6ce6db42061537bd5043c5ad87bff2645c0b7a"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "mode": "100644",
+      "path": "NOTICE",
+      "sha": "c0fbfe6a1afe871cc4a4c819ebc5bc8bb438a179",
+      "size": 1351,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/c0fbfe6a1afe871cc4a4c819ebc5bc8bb438a179"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "ba04f2cc09ff08892693aeed10507b4a1d6cdec6",
+      "size": 3839,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/ba04f2cc09ff08892693aeed10507b4a1d6cdec6"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "663624f333f57ffcc314d6c192582b5ad9754834",
+      "size": 1492,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/663624f333f57ffcc314d6c192582b5ad9754834"
+    },
+    {
+      "mode": "100644",
+      "path": "SZL_MASTER_PAYLOAD.md",
+      "sha": "c673cece1e4c129ed11e9c4b40eeda81543cc363",
+      "size": 9463,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/c673cece1e4c129ed11e9c4b40eeda81543cc363"
+    },
+    {
+      "mode": "040000",
+      "path": "audit_data",
+      "sha": "09f40134dd9ce61ea58a15340b678f7c4d3e23f8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/trees/09f40134dd9ce61ea58a15340b678f7c4d3e23f8"
+    },
+    {
+      "mode": "100644",
+      "path": "audit_data/gh_repos.json",
+      "sha": "bbe76611a8107b7b636fe863aff4b3a3a94bfcd2",
+      "size": 38672,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/bbe76611a8107b7b636fe863aff4b3a3a94bfcd2"
+    },
+    {
+      "mode": "100644",
+      "path": "audit_data/hf_licenses.json",
+      "sha": "b224a6eacd08d7f47bafcfe32d0a78d551433eae",
+      "size": 16281,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/b224a6eacd08d7f47bafcfe32d0a78d551433eae"
+    },
+    {
+      "mode": "100644",
+      "path": "audit_data/hf_org_listing.json",
+      "sha": "8d38b59172c4086a6f17dad16eb43628ffb6b4e3",
+      "size": 28378,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/8d38b59172c4086a6f17dad16eb43628ffb6b4e3"
+    },
+    {
+      "mode": "100644",
+      "path": "audit_data/hf_whoami.json",
+      "sha": "05c402a9569dee4cfa9046ebbdd967607b2b9d2e",
+      "size": 1044,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/05c402a9569dee4cfa9046ebbdd967607b2b9d2e"
+    },
+    {
+      "mode": "040000",
+      "path": "audit_data/probes",
+      "sha": "74c2f84eea86e77874fb6baa4fafbdc4a62c7e84",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/trees/74c2f84eea86e77874fb6baa4fafbdc4a62c7e84"
+    },
+    {
+      "mode": "100644",
+      "path": "audit_data/probes/domains.json",
+      "sha": "54aa384f224bf2fa7c2da581f5227b024ab2bd5c",
+      "size": 108,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/54aa384f224bf2fa7c2da581f5227b024ab2bd5c"
+    },
+    {
+      "mode": "100644",
+      "path": "audit_data/probes/space_README.json",
+      "sha": "3e50e407a5f3054057e9a0d913068a718c023633",
+      "size": 1767,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/3e50e407a5f3054057e9a0d913068a718c023633"
+    },
+    {
+      "mode": "100644",
+      "path": "audit_data/probes/space_a11oy.json",
+      "sha": "101ef64d982bad29d9fbdd5eab907174ff1ed7cb",
+      "size": 92264,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/101ef64d982bad29d9fbdd5eab907174ff1ed7cb"
+    },
+    {
+      "mode": "100644",
+      "path": "audit_data/probes/space_governed-receipt-verifier.json",
+      "sha": "a9c3be60a13e048f8935e46d3eacf578d6802325",
+      "size": 1515,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/a9c3be60a13e048f8935e46d3eacf578d6802325"
+    },
+    {
+      "mode": "100644",
+      "path": "audit_data/probes/space_immune.json",
+      "sha": "986aee51806d1808be906224371bedd8a79b69d8",
+      "size": 1587,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/986aee51806d1808be906224371bedd8a79b69d8"
+    },
+    {
+      "mode": "100644",
+      "path": "audit_data/probes/space_killinchu.json",
+      "sha": "1f2b714802107a1454d588ad784d4b1a4cb16127",
+      "size": 56215,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/1f2b714802107a1454d588ad784d4b1a4cb16127"
+    },
+    {
+      "mode": "100644",
+      "path": "audit_data/probes/space_szl-atelier.json",
+      "sha": "407968593c9054211623fd9052769df67a73b335",
+      "size": 4822,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/407968593c9054211623fd9052769df67a73b335"
+    },
+    {
+      "mode": "100644",
+      "path": "audit_data/probes/space_szl-khipu.json",
+      "sha": "838618eb66cbfe0e4baee8db647b8eb5628ef484",
+      "size": 2646,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/838618eb66cbfe0e4baee8db647b8eb5628ef484"
+    },
+    {
+      "mode": "040000",
+      "path": "audit_data/readmes",
+      "sha": "882c3410ac3c3c953f2b301bb3f8f5fc73e89dd4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/trees/882c3410ac3c3c953f2b301bb3f8f5fc73e89dd4"
+    },
+    {
+      "mode": "100644",
+      "path": "audit_data/readmes/README.md",
+      "sha": "74cf319e3e32defe529559a4a823c12c162bf19a",
+      "size": 5557,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/74cf319e3e32defe529559a4a823c12c162bf19a"
+    },
+    {
+      "mode": "100644",
+      "path": "audit_data/readmes/a11oy.md",
+      "sha": "0c7d88102793f7f34d962c090590c4107592eead",
+      "size": 9454,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/0c7d88102793f7f34d962c090590c4107592eead"
+    },
+    {
+      "mode": "100644",
+      "path": "audit_data/readmes/governed-receipt-verifier.md",
+      "sha": "73d49d89ddec83d4f415460d3df63da543befff0",
+      "size": 6048,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/73d49d89ddec83d4f415460d3df63da543befff0"
+    },
+    {
+      "mode": "100644",
+      "path": "audit_data/readmes/immune.md",
+      "sha": "dbdff54b3f6d6df7154cd1ce4df432c4540235f1",
+      "size": 4486,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/dbdff54b3f6d6df7154cd1ce4df432c4540235f1"
+    },
+    {
+      "mode": "100644",
+      "path": "audit_data/readmes/killinchu.md",
+      "sha": "10d06a607c07838ca008f7650ba7b5c995ee77d5",
+      "size": 33780,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/10d06a607c07838ca008f7650ba7b5c995ee77d5"
+    },
+    {
+      "mode": "100644",
+      "path": "audit_data/readmes/szl-atelier.md",
+      "sha": "7ab90125f0bc349790ab443f1f169103efd72c89",
+      "size": 2283,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/7ab90125f0bc349790ab443f1f169103efd72c89"
+    },
+    {
+      "mode": "100644",
+      "path": "audit_data/readmes/szl-khipu.md",
+      "sha": "b012c8ba0e7647e6f429ac439ff24e1731a814f3",
+      "size": 1355,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/b012c8ba0e7647e6f429ac439ff24e1731a814f3"
+    },
+    {
+      "mode": "040000",
+      "path": "commercial",
+      "sha": "b07c4c61b4e70487a7aa7e5d84cdfadedee9ace1",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/trees/b07c4c61b4e70487a7aa7e5d84cdfadedee9ace1"
+    },
+    {
+      "mode": "100644",
+      "path": "commercial/index.html",
+      "sha": "1c122b43bf834853796126f2d2ffc4ad396117dc",
+      "size": 9280,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/1c122b43bf834853796126f2d2ffc4ad396117dc"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "5d80accc1feda0c21b0706311cc46a265c5ceee5",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/trees/5d80accc1feda0c21b0706311cc46a265c5ceee5"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/ARTICLE_12_CONFORMANCE.yaml",
+      "sha": "63e9224d59cabbcf1274e201779e0e5c2f620936",
+      "size": 3224,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/63e9224d59cabbcf1274e201779e0e5c2f620936"
+    },
+    {
+      "mode": "040000",
+      "path": "docs/hardware",
+      "sha": "b771553e63ce5eb14988c194ef7d018c4cc0ece9",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/trees/b771553e63ce5eb14988c194ef7d018c4cc0ece9"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/hardware/BEACON_PHYS1_RFQ_extract.md",
+      "sha": "7d8f7a1522caccf1ff987cb2792a501ab0dbfbad",
+      "size": 46566,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/7d8f7a1522caccf1ff987cb2792a501ab0dbfbad"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/hardware/RC1_ACCEPTANCE_BINDING.md",
+      "sha": "ba0699c323d3553941e2bfd9b91fd0d5046af725",
+      "size": 4688,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/ba0699c323d3553941e2bfd9b91fd0d5046af725"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/hardware/README.md",
+      "sha": "2dd8ae442f6cc54594b7c4a105e68a0b478cc99e",
+      "size": 4108,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/2dd8ae442f6cc54594b7c4a105e68a0b478cc99e"
+    },
+    {
+      "mode": "040000",
+      "path": "docs/positioning",
+      "sha": "2a6ee79991f8eb80260a921a5d3b146af851dc6b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/trees/2a6ee79991f8eb80260a921a5d3b146af851dc6b"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/positioning/AUTO_REVIEW_DELTA.md",
+      "sha": "8a84c792e002cb985e27bce1f02f7f0ba6e56ed0",
+      "size": 1950,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/8a84c792e002cb985e27bce1f02f7f0ba6e56ed0"
+    },
+    {
+      "mode": "040000",
+      "path": "keys",
+      "sha": "54847a15d5e97afcd8c91dfdc50884667cdff41c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/trees/54847a15d5e97afcd8c91dfdc50884667cdff41c"
+    },
+    {
+      "mode": "100644",
+      "path": "keys/szl-audit-ed25519.pub.pem",
+      "sha": "3930c10ab9d78719540e6065cb0c09b63a48c8b9",
+      "size": 113,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/3930c10ab9d78719540e6065cb0c09b63a48c8b9"
+    },
+    {
+      "mode": "040000",
+      "path": "ledgers",
+      "sha": "4c06baf031d25c1eb08b6d726acbeb07bd3b986b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/trees/4c06baf031d25c1eb08b6d726acbeb07bd3b986b"
+    },
+    {
+      "mode": "100644",
+      "path": "ledgers/CLAIMS_LEDGER.yaml",
+      "sha": "4d82f7a01b6202ee406ae06232bc8afd7a8d682b",
+      "size": 4098,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/4d82f7a01b6202ee406ae06232bc8afd7a8d682b"
+    },
+    {
+      "mode": "100644",
+      "path": "ledgers/COMMERCIAL_LEDGER.yaml",
+      "sha": "60178c2800d0f650bc8af03ceb3ac9e863558f56",
+      "size": 5220,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/60178c2800d0f650bc8af03ceb3ac9e863558f56"
+    },
+    {
+      "mode": "100644",
+      "path": "ledgers/CONTRADICTION_REGISTER.yaml",
+      "sha": "cb605152e0bbbf667b217e4c5fcaa58985866f65",
+      "size": 3951,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/cb605152e0bbbf667b217e4c5fcaa58985866f65"
+    },
+    {
+      "mode": "100644",
+      "path": "ledgers/DATASET_LICENSE_REGISTER.yaml",
+      "sha": "b6fbc7f30ebeb4aa676d2e24a9ba39dd294f29c1",
+      "size": 6375,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/b6fbc7f30ebeb4aa676d2e24a9ba39dd294f29c1"
+    },
+    {
+      "mode": "100644",
+      "path": "ledgers/ESTATE_INVENTORY.yaml",
+      "sha": "c2468521a0a0c7c14177ed2f23475309b99403eb",
+      "size": 43061,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/c2468521a0a0c7c14177ed2f23475309b99403eb"
+    },
+    {
+      "mode": "100644",
+      "path": "ledgers/MODEL_BOM.yaml",
+      "sha": "29178a5daa436042fdbac89c24319d50b2782033",
+      "size": 12165,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/29178a5daa436042fdbac89c24319d50b2782033"
+    },
+    {
+      "mode": "100644",
+      "path": "ledgers/spaces_tiering.json",
+      "sha": "aaeaf73419f3daa8d739dc1732bf4c08f9e78925",
+      "size": 28764,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/aaeaf73419f3daa8d739dc1732bf4c08f9e78925"
+    },
+    {
+      "mode": "040000",
+      "path": "outreach",
+      "sha": "372a31f668899d794c323c5b32d53bc345456910",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/trees/372a31f668899d794c323c5b32d53bc345456910"
+    },
+    {
+      "mode": "100644",
+      "path": "outreach/README.md",
+      "sha": "cee6a33ba9e61ee148940c9996e92474f07eceec",
+      "size": 3936,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/cee6a33ba9e61ee148940c9996e92474f07eceec"
+    },
+    {
+      "mode": "100644",
+      "path": "outreach/email-1-cold.md",
+      "sha": "b8fcfbda25581649d63be281f114227cb5c1d861",
+      "size": 1119,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/b8fcfbda25581649d63be281f114227cb5c1d861"
+    },
+    {
+      "mode": "100644",
+      "path": "outreach/email-2-followup.md",
+      "sha": "be6bad52d1af8b0274f0be4df26a5a5b535520bc",
+      "size": 917,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/be6bad52d1af8b0274f0be4df26a5a5b535520bc"
+    },
+    {
+      "mode": "100644",
+      "path": "outreach/email-3-proof.md",
+      "sha": "24f93f563641de01d761dc9d827bdb1f4a911472",
+      "size": 828,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/24f93f563641de01d761dc9d827bdb1f4a911472"
+    },
+    {
+      "mode": "100644",
+      "path": "outreach/linkedin-note.md",
+      "sha": "452c50e7940159bafb6159fb47dc53edf9bbe5ba",
+      "size": 1109,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/452c50e7940159bafb6159fb47dc53edf9bbe5ba"
+    },
+    {
+      "mode": "100644",
+      "path": "outreach/targets.md",
+      "sha": "37ba87cf7380afab7f512205e570fac9842c6041",
+      "size": 2130,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/37ba87cf7380afab7f512205e570fac9842c6041"
+    },
+    {
+      "mode": "040000",
+      "path": "patches",
+      "sha": "e986e7ec657f233717afab26a7a582f5f7664478",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/trees/e986e7ec657f233717afab26a7a582f5f7664478"
+    },
+    {
+      "mode": "100644",
+      "path": "patches/README.README.md",
+      "sha": "3deec55f50b93fc6428bc71786528e522436a48d",
+      "size": 5655,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/3deec55f50b93fc6428bc71786528e522436a48d"
+    },
+    {
+      "mode": "100755",
+      "path": "patches/apply_backlinks.sh",
+      "sha": "bb1e60ca2914ad2e6f22d7ec8f23d8a024c3b04d",
+      "size": 1503,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/bb1e60ca2914ad2e6f22d7ec8f23d8a024c3b04d"
+    },
+    {
+      "mode": "100644",
+      "path": "patches/governed-receipt-verifier.README.md",
+      "sha": "8397a7a51d488bebdecdf0a58806b05a94428e69",
+      "size": 6132,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/8397a7a51d488bebdecdf0a58806b05a94428e69"
+    },
+    {
+      "mode": "100644",
+      "path": "patches/immune.README.md",
+      "sha": "2e000f83f12f1b49b8afaf92976a5d521b4a84f1",
+      "size": 4548,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/2e000f83f12f1b49b8afaf92976a5d521b4a84f1"
+    },
+    {
+      "mode": "040000",
+      "path": "receipts",
+      "sha": "603a40df3e6e0ba6a8b62a511b81b53af2e2c6cf",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/trees/603a40df3e6e0ba6a8b62a511b81b53af2e2c6cf"
+    },
+    {
+      "mode": "100644",
+      "path": "receipts/audit-receipt-2026-08-30.dsse.json",
+      "sha": "c05fcc3b00616bfe8081d5eeb0e8680a751ccdc1",
+      "size": 3270,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/c05fcc3b00616bfe8081d5eeb0e8680a751ccdc1"
+    },
+    {
+      "mode": "040000",
+      "path": "tools",
+      "sha": "93dda618f08e4e6366c4f6c56ffe48ac42d4b792",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/trees/93dda618f08e4e6366c4f6c56ffe48ac42d4b792"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/audit_data_builder.py",
+      "sha": "cde01155b7d3c581bf7db41bb89c276d2d5fb270",
+      "size": 5667,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/cde01155b7d3c581bf7db41bb89c276d2d5fb270"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/build_bom.py",
+      "sha": "89c86f1542ec606a99baaab8c5b6900d69c6807d",
+      "size": 3672,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/89c86f1542ec606a99baaab8c5b6900d69c6807d"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/build_ledgers.py",
+      "sha": "7c827fe26eafd40ce4d8cfb1c4369bed966f78f5",
+      "size": 15920,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/7c827fe26eafd40ce4d8cfb1c4369bed966f78f5"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/lexicon_gate.py",
+      "sha": "886d3970e73dfd69d9fdbe7c11f2dd0e57587ef4",
+      "size": 3243,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/886d3970e73dfd69d9fdbe7c11f2dd0e57587ef4"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/receipt.py",
+      "sha": "ea1d947aa86e0f344f2a4a92ded03eed9eeae4f5",
+      "size": 6978,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/ea1d947aa86e0f344f2a4a92ded03eed9eeae4f5"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/release_gate.py",
+      "sha": "76378f4271905e091760b3f1304ec0b4cd320f91",
+      "size": 2093,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/76378f4271905e091760b3f1304ec0b4cd320f91"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/spaces_gate.py",
+      "sha": "48ccf50000d54a819118d423ed03badb5bb058a5",
+      "size": 3269,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/48ccf50000d54a819118d423ed03badb5bb058a5"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/szl_master_bootstrap.py",
+      "sha": "b879c04d656f348a31dcbb9a558905335297ef01",
+      "size": 6268,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/b879c04d656f348a31dcbb9a558905335297ef01"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/test_receipt.py",
+      "sha": "74e263fb188fef4f1d1bed06e79984ce5f98f2da",
+      "size": 5956,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/74e263fb188fef4f1d1bed06e79984ce5f98f2da"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/tier_spaces.py",
+      "sha": "2d967f36854ef9671dd4dfb21ea2d93eef78b738",
+      "size": 4713,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/2d967f36854ef9671dd4dfb21ea2d93eef78b738"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/verify_receipt.py",
+      "sha": "f039e361df24ada45a7d8c338f4dde707473b3b3",
+      "size": 1365,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/f039e361df24ada45a7d8c338f4dde707473b3b3"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/yamlite.py",
+      "sha": "b4a0a787d72f07ca28abd0b67e48936685a07bf9",
+      "size": 3329,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/blobs/b4a0a787d72f07ca28abd0b67e48936685a07bf9"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/trees/4572983d19f8d8b262c3762dd4e5bdbb250093be"
+}

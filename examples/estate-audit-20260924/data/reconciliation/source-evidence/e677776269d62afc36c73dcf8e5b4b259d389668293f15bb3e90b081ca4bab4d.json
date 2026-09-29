@@ -1,0 +1,123 @@
+{
+  "sha": "c5ec41b9c1dfa11d568f54aeb67ba3f6462c5a67",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "7821cc60cea3e34ccdf6b68b1fae04a7da6c2ff4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-engine-bench/git/trees/7821cc60cea3e34ccdf6b68b1fae04a7da6c2ff4"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "86ea0571b8a41f6466e5b3e1e0ecbf6d3e5b88bc",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-engine-bench/git/trees/86ea0571b8a41f6466e5b3e1e0ecbf6d3e5b88bc"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "e95bc3105bf46cc04a2620884152c222e030e477",
+      "size": 770,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-engine-bench/git/blobs/e95bc3105bf46cc04a2620884152c222e030e477"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "b35d5de893fd00301d1f743d8921883f4e71812a",
+      "size": 70,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-engine-bench/git/blobs/b35d5de893fd00301d1f743d8921883f4e71812a"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "1c5038f507091c38b723a529af04636db98f73f9",
+      "size": 11342,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-engine-bench/git/blobs/1c5038f507091c38b723a529af04636db98f73f9"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "ae55a6243dee4150fd37aa7baa9c0f28e920801c",
+      "size": 9714,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-engine-bench/git/blobs/ae55a6243dee4150fd37aa7baa9c0f28e920801c"
+    },
+    {
+      "mode": "100644",
+      "path": "benchmark_manifest.py",
+      "sha": "972a4afffe93a3b2e5d999611ccf3995652e3423",
+      "size": 11170,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-engine-bench/git/blobs/972a4afffe93a3b2e5d999611ccf3995652e3423"
+    },
+    {
+      "mode": "100644",
+      "path": "engine_bench.py",
+      "sha": "f593bd8873e6a007453d9caa667167a8f3afccb5",
+      "size": 27952,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-engine-bench/git/blobs/f593bd8873e6a007453d9caa667167a8f3afccb5"
+    },
+    {
+      "mode": "040000",
+      "path": "examples",
+      "sha": "10bbc43723e85660ad4a2d3874fdaf9465723273",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-engine-bench/git/trees/10bbc43723e85660ad4a2d3874fdaf9465723273"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/comparison.synthetic.json",
+      "sha": "8043353f974c74977bb49f5f310f5c6222e2fc16",
+      "size": 1859,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-engine-bench/git/blobs/8043353f974c74977bb49f5f310f5c6222e2fc16"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "7223757f616cbd35031408672a1215bc4f37fcb8",
+      "size": 448,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-engine-bench/git/blobs/7223757f616cbd35031408672a1215bc4f37fcb8"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "abbfcbd2f4b7f216491fa0302cf74fad9fb4d1e6",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-engine-bench/git/trees/abbfcbd2f4b7f216491fa0302cf74fad9fb4d1e6"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_benchmark_manifest.py",
+      "sha": "f481cbfe80560a673fce1bbdb24ec02ffec79df4",
+      "size": 14773,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-engine-bench/git/blobs/f481cbfe80560a673fce1bbdb24ec02ffec79df4"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_bound_metric_contract.py",
+      "sha": "305fbb538c2b2f84d79be8102dd6c9664e9154d1",
+      "size": 3475,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-engine-bench/git/blobs/305fbb538c2b2f84d79be8102dd6c9664e9154d1"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_engine_bench.py",
+      "sha": "d80fbfccb5b65218784a50d483a82716461c7a56",
+      "size": 15645,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-engine-bench/git/blobs/d80fbfccb5b65218784a50d483a82716461c7a56"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-engine-bench/git/trees/c5ec41b9c1dfa11d568f54aeb67ba3f6462c5a67"
+}

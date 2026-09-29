@@ -1,0 +1,150 @@
+test_demo_anatomy_fail_closed (test_cli.CliParser.test_demo_anatomy_fail_closed) ... ok
+test_demo_lambda_advisory_and_zero_route (test_cli.CliParser.test_demo_lambda_advisory_and_zero_route) ... ok
+test_demo_yarqa_leaked (test_cli.CliParser.test_demo_yarqa_leaked) ... ok
+test_help_exits_zero (test_cli.CliParser.test_help_exits_zero) ... ok
+test_proven_trust_locked_false (test_cli.CliParser.test_proven_trust_locked_false) ... ok
+test_subcommands (test_cli.CliParser.test_subcommands) ... ok
+test_train_and_verify_receipt (test_cli.CliParser.test_train_and_verify_receipt) ... ok
+test_what_not_forbids_one_point_five_b_and_joules (test_cli.CliParser.test_what_not_forbids_one_point_five_b_and_joules) ... ok
+test_atlas_nano_cards_preserve_canonical_publisher_scope (test_hf_model_metadata.ModelMetadataContractTests.test_atlas_nano_cards_preserve_canonical_publisher_scope) ... ok
+test_frontmatter_requires_exact_delimiter_lines (test_hf_model_metadata.ModelMetadataContractTests.test_frontmatter_requires_exact_delimiter_lines) ... ok
+test_historical_stub_declares_license_without_pipeline_tag (test_hf_model_metadata.ModelMetadataContractTests.test_historical_stub_declares_license_without_pipeline_tag) ... ok
+test_protected_model_card_copies_remain_in_parity (test_hf_model_metadata.ModelMetadataContractTests.test_protected_model_card_copies_remain_in_parity) ... ok
+test_reference_cards_distinguish_artifact_presence_from_readiness (test_hf_model_metadata.ModelMetadataContractTests.test_reference_cards_distinguish_artifact_presence_from_readiness) ... ok
+test_reference_cards_preserve_matching_document_copies (test_hf_model_metadata.ModelMetadataContractTests.test_reference_cards_preserve_matching_document_copies) ... ok
+test_kernel_card_get_kernel (test_honesty_docs.HonestyDocs.test_kernel_card_get_kernel) ... ok
+test_never_claims_joules_measured (test_honesty_docs.HonestyDocs.test_never_claims_joules_measured) ... ok
+test_no_proven_trust_true (test_honesty_docs.HonestyDocs.test_no_proven_trust_true) ... ok
+test_pyproject (test_honesty_docs.HonestyDocs.test_pyproject) ... ok
+test_readme_frontmatter (test_honesty_docs.HonestyDocs.test_readme_frontmatter) ... ok
+test_readme_names_anatomy (test_honesty_docs.HonestyDocs.test_readme_names_anatomy) ... ok
+test_required_phrases (test_honesty_docs.HonestyDocs.test_required_phrases) ... ok
+test_space_holographic_chrome (test_honesty_docs.HonestyDocs.test_space_holographic_chrome) ... ok
+test_space_yaml (test_honesty_docs.HonestyDocs.test_space_yaml) ... ok
+test_tiny_and_agent_cards (test_honesty_docs.HonestyDocs.test_tiny_and_agent_cards) ... ok
+test_anatomy_fail_closed_and_no_joule (test_http_app.HttpAppTests.test_anatomy_fail_closed_and_no_joule) ... 127.0.0.1 - "POST /api/anatomy HTTP/1.1" 200 -
+127.0.0.1 - "POST /api/anatomy HTTP/1.1" 200 -
+127.0.0.1 - "POST /api/anatomy HTTP/1.1" 200 -
+ok
+test_greenlight_fail_closed (test_http_app.HttpAppTests.test_greenlight_fail_closed) ... 127.0.0.1 - "POST /api/greenlight HTTP/1.1" 200 -
+127.0.0.1 - "POST /api/greenlight HTTP/1.1" 200 -
+127.0.0.1 - "POST /api/greenlight HTTP/1.1" 200 -
+127.0.0.1 - "POST /api/greenlight HTTP/1.1" 200 -
+ok
+test_head_health (test_http_app.HttpAppTests.test_head_health) ... 127.0.0.1 - "HEAD /healthz HTTP/1.1" 200 -
+ok
+test_health_and_version (test_http_app.HttpAppTests.test_health_and_version) ... 127.0.0.1 - "GET /healthz HTTP/1.1" 200 -
+127.0.0.1 - "GET /version HTTP/1.1" 200 -
+ok
+test_index_is_python_frontend (test_http_app.HttpAppTests.test_index_is_python_frontend) ... 127.0.0.1 - "GET / HTTP/1.1" 200 -
+ok
+test_lambda_zero_route (test_http_app.HttpAppTests.test_lambda_zero_route) ... 127.0.0.1 - "POST /api/lambda HTTP/1.1" 200 -
+127.0.0.1 - "POST /api/lambda HTTP/1.1" 200 -
+ok
+test_prefix_route_bench_infer (test_http_app.HttpAppTests.test_prefix_route_bench_infer) ... 127.0.0.1 - "POST /api/prefix HTTP/1.1" 200 -
+127.0.0.1 - "POST /api/prefix HTTP/1.1" 200 -
+127.0.0.1 - "POST /api/route HTTP/1.1" 200 -
+127.0.0.1 - "POST /api/route HTTP/1.1" 200 -
+127.0.0.1 - "POST /api/bench HTTP/1.1" 200 -
+127.0.0.1 - "POST /api/infer HTTP/1.1" 200 -
+127.0.0.1 - "POST /api/infer HTTP/1.1" 200 -
+ok
+test_unknown_is_404 (test_http_app.HttpAppTests.test_unknown_is_404) ... 127.0.0.1 - "GET /nope HTTP/1.1" 404 -
+ok
+test_yarqa_and_grid (test_http_app.HttpAppTests.test_yarqa_and_grid) ... 127.0.0.1 - "POST /api/yarqa HTTP/1.1" 200 -
+127.0.0.1 - "POST /api/tiledigest HTTP/1.1" 200 -
+ok
+test_default_five_live (test_kernels.AnatomyTests.test_default_five_live) ... ok
+test_fabricated_joule_refused (test_kernels.AnatomyTests.test_fabricated_joule_refused) ... ok
+test_leak_canal_fail_closes_brain (test_kernels.AnatomyTests.test_leak_canal_fail_closes_brain) ... ok
+test_sorry_cannot_be_green (test_kernels.AnatomyTests.test_sorry_cannot_be_green) ... ok
+test_tamper_yawar_fail_closes (test_kernels.AnatomyTests.test_tamper_yawar_fail_closes) ... ok
+test_willay_veto_with_organs_live (test_kernels.AnatomyTests.test_willay_veto_with_organs_live) ... ok
+test_zero_heart_fail_closes (test_kernels.AnatomyTests.test_zero_heart_fail_closes) ... ok
+test_causal_future_mass (test_kernels.AttnTests.test_causal_future_mass) ... ok
+test_tiled_residual (test_kernels.AttnTests.test_tiled_residual) ... ok
+test_yarqa_leak (test_kernels.AttnTests.test_yarqa_leak) ... ok
+test_block_witness_swap_changes_gather (test_kernels.ChainNormBlockTests.test_block_witness_swap_changes_gather) ... ok
+test_canon_sorted (test_kernels.ChainNormBlockTests.test_canon_sorted) ... ok
+test_chain_verify (test_kernels.ChainNormBlockTests.test_chain_verify) ... ok
+test_doctrine_locked (test_kernels.ChainNormBlockTests.test_doctrine_locked) ... ok
+test_evaluate_lambda_zero_blocks (test_kernels.ChainNormBlockTests.test_evaluate_lambda_zero_blocks) ... ok
+test_a3_egyptian (test_kernels.LambdaTests.test_a3_egyptian) ... ok
+test_lambda_gate_advisory (test_kernels.LambdaTests.test_lambda_gate_advisory) ... ok
+test_nonfinite_zero_routes (test_kernels.LambdaTests.test_nonfinite_zero_routes) ... ok
+test_weights_must_sum_to_one (test_kernels.LambdaTests.test_weights_must_sum_to_one) ... ok
+test_zero_route (test_kernels.LambdaTests.test_zero_route) ... ok
+test_blocked_output_is_none (test_kernels.OuroborosBlockedTests.test_blocked_output_is_none) ... ok
+test_loop_tax_converged (test_kernels.OuroborosBlockedTests.test_loop_tax_converged) ... ok
+test_selfcheck_numbers (test_kernels.OuroborosBlockedTests.test_selfcheck_numbers) ... ok
+test_f11_ayni (test_kernels.PuriqTests.test_f11_ayni) ... ok
+test_f7_fifo (test_kernels.PuriqTests.test_f7_fifo) ... ok
+test_run_all_separates_families (test_kernels.PuriqTests.test_run_all_separates_families) ... ok
+test_identity_skip (test_nan_cuts.AyniTests.test_identity_skip) ... ok
+test_scaled_skip_leaks (test_nan_cuts.AyniTests.test_scaled_skip_leaks) ... ok
+test_default_four_rails (test_nan_cuts.BayTests.test_default_four_rails) ... ok
+test_hub_as_proof (test_nan_cuts.BayTests.test_hub_as_proof) ... ok
+test_record_on_product (test_nan_cuts.BayTests.test_record_on_product) ... ok
+test_space_as_receipt (test_nan_cuts.BayTests.test_space_as_receipt) ... ok
+test_clean_holds (test_nan_cuts.ChaskiTests.test_clean_holds) ... ok
+test_drop_fail_closes (test_nan_cuts.ChaskiTests.test_drop_fail_closes) ... ok
+test_fifo_identity (test_nan_cuts.ChaskiTests.test_fifo_identity) ... ok
+test_swap_fail_closes (test_nan_cuts.ChaskiTests.test_swap_fail_closes) ... ok
+test_claim_proven (test_nan_cuts.GreenLightTests.test_claim_proven) ... ok
+test_fabricated_joule (test_nan_cuts.GreenLightTests.test_fabricated_joule) ... ok
+test_honest_path (test_nan_cuts.GreenLightTests.test_honest_path) ... ok
+test_paint_sorry (test_nan_cuts.GreenLightTests.test_paint_sorry) ... ok
+test_honest_cache_holds (test_nan_cuts.PrefixWitnessTests.test_honest_cache_holds) ... ok
+test_poison_fail_closes (test_nan_cuts.PrefixWitnessTests.test_poison_fail_closes) ... ok
+test_expert_swap_fail_closes (test_nan_cuts.RouteWitnessTests.test_expert_swap_fail_closes) ... ok
+test_honest_assignment_holds (test_nan_cuts.RouteWitnessTests.test_honest_assignment_holds) ... ok
+test_any_six_recover (test_nan_cuts.ShardTests.test_any_six_recover) ... ok
+test_five_cannot (test_nan_cuts.ShardTests.test_five_cannot) ... ok
+test_full_recovers (test_nan_cuts.ShardTests.test_full_recovers) ... ok
+test_clean_cover (test_nan_cuts.TileDigestTests.test_clean_cover) ... ok
+test_coarser_br_breaks (test_nan_cuts.TileDigestTests.test_coarser_br_breaks) ... ok
+test_digest_includes_schedule (test_nan_cuts.TileDigestTests.test_digest_includes_schedule) ... ok
+test_drop_last_cover_hole (test_nan_cuts.TileDigestTests.test_drop_last_cover_hole) ... ok
+test_codex_rejects_unsigned (test_nan_lab.NanLabTests.test_codex_rejects_unsigned) ... ok
+test_estate_rejects_szlholdings (test_nan_lab.NanLabTests.test_estate_rejects_szlholdings) ... ok
+test_ouroboros_fixture (test_nan_lab.NanLabTests.test_ouroboros_fixture) ... ok
+test_selftest (test_nan_lab.NanLabTests.test_selftest) ... ok
+test_honest_holds_and_tamper_breaks (test_nan_witness.NanWitnessTests.test_honest_holds_and_tamper_breaks) ... ok
+test_complex_features_are_rejected_before_lossy_float_conversion (test_receipt_agent_input.ReceiptFeatureAdmissionTests.test_complex_features_are_rejected_before_lossy_float_conversion) ... ok
+test_every_nonfinite_feature_is_blocked_even_when_finite_flag_claims_true (test_receipt_agent_input.ReceiptFeatureAdmissionTests.test_every_nonfinite_feature_is_blocked_even_when_finite_flag_claims_true) ... ok
+test_invalid_features_never_invoke_advisory_model (test_receipt_agent_input.ReceiptFeatureAdmissionTests.test_invalid_features_never_invoke_advisory_model) ... ok
+test_non_numeric_and_wrong_size_inputs_are_blocked (test_receipt_agent_input.ReceiptFeatureAdmissionTests.test_non_numeric_and_wrong_size_inputs_are_blocked) ... ok
+test_valid_features_keep_existing_rule_labels (test_receipt_agent_input.ReceiptFeatureAdmissionTests.test_valid_features_keep_existing_rule_labels) ... ok
+test_valid_features_preserve_advisory_but_kernel_wins (test_receipt_agent_input.ReceiptFeatureAdmissionTests.test_valid_features_preserve_advisory_but_kernel_wins) ... ok
+test_attested_payload_and_runtime_image_file_set_are_aligned (test_space_source_binding.SpaceSourceBindingTests.test_attested_payload_and_runtime_image_file_set_are_aligned) ... ok
+test_exact_source_attempt_artifact_tree_and_hf_revision_are_bound (test_space_source_binding.SpaceSourceBindingTests.test_exact_source_attempt_artifact_tree_and_hf_revision_are_bound) ... ok
+test_manifest_digest_changes_with_the_runtime_payload (test_space_source_binding.SpaceSourceBindingTests.test_manifest_digest_changes_with_the_runtime_payload) ... ok
+test_missing_malformed_or_divergent_evidence_fails_closed (test_space_source_binding.SpaceSourceBindingTests.test_missing_malformed_or_divergent_evidence_fails_closed) ... ok
+test_mutable_hf_head_is_never_substituted_for_runtime_evidence (test_space_source_binding.SpaceSourceBindingTests.test_mutable_hf_head_is_never_substituted_for_runtime_evidence) ... ok
+test_offline_validation_and_publication_policy_are_fail_honest (test_space_source_binding.SpaceSourceBindingTests.test_offline_validation_and_publication_policy_are_fail_honest) ... ::error::Provider publication is required for every accepted protected-main run, but HF_TOKEN / HF_ORG_TOKEN is not set; event=push is BLOCKED.
+::error::Provider publication is required for every accepted protected-main run, but HF_TOKEN / HF_ORG_TOKEN is not set; event=repository_dispatch is BLOCKED.
+ok
+test_public_metadata_binds_exact_attempt_manifest_and_hf_revision (test_space_source_binding.SpaceSourceBindingTests.test_public_metadata_binds_exact_attempt_manifest_and_hf_revision) ... ok
+test_publish_workflow_gates_every_provider_side_effect (test_space_source_binding.SpaceSourceBindingTests.test_publish_workflow_gates_every_provider_side_effect) ... ok
+test_publisher_and_runtime_build_the_same_injection_safe_artifact_name (test_space_source_binding.SpaceSourceBindingTests.test_publisher_and_runtime_build_the_same_injection_safe_artifact_name) ... ok
+test_publisher_sets_the_runtime_revision_variable (test_space_source_binding.SpaceSourceBindingTests.test_publisher_sets_the_runtime_revision_variable) ... ok
+test_workflow_authority_rejects_branch_and_client_payload_substitution (test_space_source_binding.SpaceSourceBindingTests.test_workflow_authority_rejects_branch_and_client_payload_substitution) ... ok
+test_get_and_head_serve_exact_assets_with_matching_headers (test_space_static_payload.StaticPayloadTests.test_get_and_head_serve_exact_assets_with_matching_headers) ... ok
+test_html_container_and_manifest_share_exact_asset_names (test_space_static_payload.StaticPayloadTests.test_html_container_and_manifest_share_exact_asset_names) ... ok
+test_missing_required_source_fails_before_creating_payload (test_space_static_payload.StaticPayloadTests.test_missing_required_source_fails_before_creating_payload) ... ok
+test_staging_and_manifest_include_both_referenced_assets (test_space_static_payload.StaticPayloadTests.test_staging_and_manifest_include_both_referenced_assets) ... ok
+test_unknown_and_missing_assets_remain_not_found (test_space_static_payload.StaticPayloadTests.test_unknown_and_missing_assets_remain_not_found) ... ok
+test_moons (test_train.TrainTests.test_moons) ... ok
+test_receipt_agent (test_train.TrainTests.test_receipt_agent) ... ok
+test_tiny_khipu (test_train.TrainTests.test_tiny_khipu) ... ok
+
+----------------------------------------------------------------------
+Ran 114 tests in 5.961s
+
+OK
+OK 22
+prepared staged deployment tree 9bf5a4b9ff87783856a76cf918fed1508d08af64db8fecb2f1342b947cb7fffd
+validated staged deployment tree 9bf5a4b9ff87783856a76cf918fed1508d08af64db8fecb2f1342b947cb7fffd
+::notice::Provider publication enabled after offline validation.
+::notice::Validated protected default-branch authority event=repository_dispatch actor=trusted_actor_enterprise attempt=1 sha=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.
+::notice::Validated protected default-branch authority event=push actor=trusted_actor_enterprise attempt=1 sha=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.

@@ -1,0 +1,32 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 4296,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:55Z",
+      "path": "data/reconciliation/source-evidence/189977df70132975977e408409340f7949f28c8f33f5622a6834e9c0379f56a5.json",
+      "revision": "787891967b412fd3211856ffc0b2e6e4bf6da205",
+      "sha256": "189977df70132975977e408409340f7949f28c8f33f5622a6834e9c0379f56a5",
+      "source_identity": "github/szl-holdings/receipt-chain-live",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/receipt-chain-live/git/trees/787891967b412fd3211856ffc0b2e6e4bf6da205?recursive=1"
+    }
+  ],
+  "file_count": 9,
+  "id": "github/szl-holdings/receipt-chain-live",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "787891967b412fd3211856ffc0b2e6e4bf6da205",
+  "root_paths": [
+    ".github",
+    ".hf-space.json",
+    "LICENSE",
+    "README.md",
+    "index.html",
+    "requirements",
+    "scripts",
+    "tests"
+  ]
+}

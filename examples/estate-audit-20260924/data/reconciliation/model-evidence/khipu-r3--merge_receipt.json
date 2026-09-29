@@ -1,0 +1,14 @@
+{
+  "kind": "szl-manual-lora-merge-receipt",
+  "schema": "szl.manual-lora-merge/v1",
+  "repo": "SZLHOLDINGS/khipu-r3",
+  "fixed_at": "2026-09-14",
+  "reason": "publish-wave merge was empty (base copy); audit 2026-09-14 found all 320 tensors byte-equal to the unsloth/Qwen3.5-0.8B text tower",
+  "method": "W' = W + (alpha/r) * B @ A applied to the base-copy model.safetensors; adapter fetched from repo root",
+  "r": 16,
+  "alpha": 32,
+  "scale": 2.0,
+  "modules_touched": 96,
+  "modules_total": 96,
+  "max_weight_delta": 0.0013806568458676338
+}

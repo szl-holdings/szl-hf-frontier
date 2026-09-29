@@ -1,0 +1,40 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 13353,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:51Z",
+      "path": "data/reconciliation/source-evidence/da46edb91f10cc53d59f8f5a475a5da900d28de97e2f6fcffc4a130de2c33d6c.json",
+      "revision": "5be5d14502428e0ef13bb83f8d36f6775085b03e",
+      "sha256": "da46edb91f10cc53d59f8f5a475a5da900d28de97e2f6fcffc4a130de2c33d6c",
+      "source_identity": "github/szl-holdings/lean-kernel",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/trees/5be5d14502428e0ef13bb83f8d36f6775085b03e?recursive=1"
+    }
+  ],
+  "file_count": 39,
+  "id": "github/szl-holdings/lean-kernel",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "5be5d14502428e0ef13bb83f8d36f6775085b03e",
+  "root_paths": [
+    ".gitattributes",
+    ".github",
+    "CITATION.cff",
+    "CODEOWNERS",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "Dockerfile",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "app",
+    "data",
+    "nginx.conf",
+    "requirements.txt",
+    "start.sh",
+    "tests"
+  ]
+}

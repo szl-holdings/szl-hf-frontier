@@ -1,0 +1,32 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 4267,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:51Z",
+      "path": "data/reconciliation/source-evidence/75764aeee9b788bca59af7563e8e0753995deafeecfed4f32f2244e5e935db8f.json",
+      "revision": "0303c8ae0d81b4912f01dc59a6a47d5447c32768",
+      "sha256": "75764aeee9b788bca59af7563e8e0753995deafeecfed4f32f2244e5e935db8f",
+      "source_identity": "github/szl-holdings/lambda-gate-holo",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/lambda-gate-holo/git/trees/0303c8ae0d81b4912f01dc59a6a47d5447c32768?recursive=1"
+    }
+  ],
+  "file_count": 9,
+  "id": "github/szl-holdings/lambda-gate-holo",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "0303c8ae0d81b4912f01dc59a6a47d5447c32768",
+  "root_paths": [
+    ".github",
+    ".hf-space.json",
+    "LICENSE",
+    "README.md",
+    "index.html",
+    "requirements",
+    "scripts",
+    "tests"
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "downloaded_bytes": 51231232,
+  "files": [
+    {
+      "bytes": 824,
+      "path": "README.md",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/khipu-r3",
+      "revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988",
+      "sha256": "1270e90ca7440ff2f55670a592e597458901e4868bd51f1db6507fd88a9d14b9"
+    },
+    {
+      "bytes": 1511,
+      "path": "adapter_config.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/khipu-r3",
+      "revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988",
+      "sha256": "d36472a3100231dfdf0c4aa16d3a80cb8ab53c86af33a15172b06f9d9a313193"
+    },
+    {
+      "bytes": 25587104,
+      "path": "adapter_model.safetensors",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/khipu-r3",
+      "revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988",
+      "sha256": "9a4c37d31d7c2ad133d9423c6d95de28e48fa7556c6a2034faafa53886e9ee14"
+    },
+    {
+      "bytes": 4324,
+      "path": "bom/model-bom.cdx.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/khipu-r3",
+      "revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988",
+      "sha256": "288a33222000eb510dce502e1f963135665faa285d0bea867c495ffcdd1c3bbd"
+    },
+    {
+      "bytes": 7908,
+      "path": "chat_template.jinja",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/khipu-r3",
+      "revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988",
+      "sha256": "306abaf09cf3a6c0d14128373a72925bda3d7de2616a5642804d9768c7d2f78c"
+    },
+    {
+      "bytes": 1864,
+      "path": "config.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/khipu-r3",
+      "revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988",
+      "sha256": "3c99fe1adef44efe482957540ecd2a46f1d6a6ac107ebfed4b30849148cbe950"
+    },
+    {
+      "bytes": 122,
+      "path": "generation_config.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/khipu-r3",
+      "revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988",
+      "sha256": "2bb288381005ac379cbbb8e60ce18f88054312e59432a4d8f61cbedd2e8cbabe"
+    },
+    {
+      "bytes": 560,
+      "path": "merge_receipt.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/khipu-r3",
+      "revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988",
+      "sha256": "602c7430454a2e549d39eafaeeb7566c772c9c8a90a6a130daec280e8c2a4633"
+    },
+    {
+      "bytes": 1251,
+      "path": "processor_config.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/khipu-r3",
+      "revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988",
+      "sha256": "f196d5698d1771c734bb3a24bd658ba75536fc4feafc5b83c035b7693511a2db"
+    },
+    {
+      "bytes": 1741,
+      "path": "provenance.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/khipu-r3",
+      "revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988",
+      "sha256": "b8309479cf3385a972dc590153af8977032b62ed11b4b6f5020ee0f32a2cca3d"
+    },
+    {
+      "bytes": 1382,
+      "path": "status.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/khipu-r3",
+      "revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988",
+      "sha256": "8768d044280ceb2205cc9201d6a34f50542ecb421c97a1c41f4d80a44eb527e3"
+    },
+    {
+      "bytes": 1230,
+      "path": "tokenizer_config.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/khipu-r3",
+      "revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988",
+      "sha256": "772ddf95a8938e897a0f4d5e4268ce86419862b521c9df2fa46dc136bc09fd02"
+    },
+    {
+      "bytes": 1913,
+      "path": "training_receipt.laptop-blackwell.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/khipu-r3",
+      "revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988",
+      "sha256": "ae73cddccdc3aedce089af181463279aae13605d020285fa6e0ce00f6d8e9d4f"
+    },
+    {
+      "bytes": 2078,
+      "path": "README.md",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
+      "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
+      "sha256": "60cd939103ead4a7f81e2bbe1ef2a2d25b4b27084b5d25fe4356d408ba45cab5"
+    },
+    {
+      "bytes": 1511,
+      "path": "adapter_config.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
+      "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
+      "sha256": "d36472a3100231dfdf0c4aa16d3a80cb8ab53c86af33a15172b06f9d9a313193"
+    },
+    {
+      "bytes": 25587104,
+      "path": "adapter_model.safetensors",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
+      "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
+      "sha256": "90b82ade0b2c84eca92e90cdeb56137d61d7da4b4863ff4d29fa75e9dc037870"
+    },
+    {
+      "bytes": 5039,
+      "path": "bom/model-bom.cdx.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
+      "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
+      "sha256": "7d650d2c6f106eb9a948d65b8e1db86d8bd339dd650c621874628a70d14865b2"
+    },
+    {
+      "bytes": 7908,
+      "path": "chat_template.jinja",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
+      "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
+      "sha256": "306abaf09cf3a6c0d14128373a72925bda3d7de2616a5642804d9768c7d2f78c"
+    },
+    {
+      "bytes": 1864,
+      "path": "config.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
+      "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
+      "sha256": "3c99fe1adef44efe482957540ecd2a46f1d6a6ac107ebfed4b30849148cbe950"
+    },
+    {
+      "bytes": 5441,
+      "path": "eval_dev_named_n.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
+      "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
+      "sha256": "07fd386bbdeabba16022d81dfa2f89b3e042a0905c1f07c0ae15ece0a3da9479"
+    },
+    {
+      "bytes": 463,
+      "path": "frontier_gpu_summary.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
+      "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
+      "sha256": "69af44a1238a8ba0d94112216113bfb1c2f3439838968acf5064f6101614f8df"
+    },
+    {
+      "bytes": 122,
+      "path": "generation_config.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
+      "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
+      "sha256": "2bb288381005ac379cbbb8e60ce18f88054312e59432a4d8f61cbedd2e8cbabe"
+    },
+    {
+      "bytes": 583,
+      "path": "merge_receipt.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
+      "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
+      "sha256": "742cd6eeb4ea3d0566ec7c6eada168199eeb1b4496db7efcfa23127b330f94dd"
+    },
+    {
+      "bytes": 1251,
+      "path": "processor_config.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
+      "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
+      "sha256": "f196d5698d1771c734bb3a24bd658ba75536fc4feafc5b83c035b7693511a2db"
+    },
+    {
+      "bytes": 1766,
+      "path": "provenance.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
+      "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
+      "sha256": "48879e5f49d5de9ae8027d8b47c6984c550982808f5e48810a9dd94818eace01"
+    },
+    {
+      "bytes": 1405,
+      "path": "status.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
+      "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
+      "sha256": "e2167b21f693f19241f694839c7d39fdd7fe6a75ee661d9d3df33a09197c7141"
+    },
+    {
+      "bytes": 1230,
+      "path": "tokenizer_config.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
+      "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
+      "sha256": "772ddf95a8938e897a0f4d5e4268ce86419862b521c9df2fa46dc136bc09fd02"
+    },
+    {
+      "bytes": 1733,
+      "path": "training_receipt.laptop-blackwell.json",
+      "provider_byte_identity_verified": true,
+      "repository": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
+      "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
+      "sha256": "e8ca7f3342491f25ac3797e8284c5c11d3c2cdc31ea93ffb976059c5e2d87631"
+    }
+  ],
+  "observed_at": "2026-09-24T13:21:32.782902+00:00",
+  "schema": "szl.model-artifact-bytes/v1"
+}

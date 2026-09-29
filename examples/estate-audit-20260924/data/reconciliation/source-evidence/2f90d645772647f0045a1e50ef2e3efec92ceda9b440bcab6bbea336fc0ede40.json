@@ -1,0 +1,1846 @@
+{
+  "sha": "fac651e60a4b9bf7876a80bfa7438e825cb47caa",
+  "tree": [
+    {
+      "mode": "100644",
+      "path": ".dockerignore",
+      "sha": "24256677a56a80109b801bf3b9bd8722636dfc0a",
+      "size": 75,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/24256677a56a80109b801bf3b9bd8722636dfc0a"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitattributes",
+      "sha": "6313b56c57848efce05faa7aa7e901ccfc2886ea",
+      "size": 19,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/6313b56c57848efce05faa7aa7e901ccfc2886ea"
+    },
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "3a1cfa1498e864d04c908bdfa4e14803598c0844",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/3a1cfa1498e864d04c908bdfa4e14803598c0844"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "37e1cb99d37abbaa606cf20b27e203876e3b7ff7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/37e1cb99d37abbaa606cf20b27e203876e3b7ff7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "bd3fa6ab443cbf46e5352260b8708e2c0e9b10d7",
+      "size": 523,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/bd3fa6ab443cbf46e5352260b8708e2c0e9b10d7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-deploy.yml",
+      "sha": "16da390296fc6ce4389d174c87b87be453d7f9b2",
+      "size": 2849,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/16da390296fc6ce4389d174c87b87be453d7f9b2"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "2481cb6c52ae1719b839fe15b525a247d4d6af42",
+      "size": 182,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/2481cb6c52ae1719b839fe15b525a247d4d6af42"
+    },
+    {
+      "mode": "100644",
+      "path": ".prettierrc",
+      "sha": "bccee911b6b0dac9051d360fbc5e0a6303eed8fb",
+      "size": 90,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/bccee911b6b0dac9051d360fbc5e0a6303eed8fb"
+    },
+    {
+      "mode": "040000",
+      "path": ".szl",
+      "sha": "7a99ed51cafef65c47d0e3af384e76bde1ef440a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/7a99ed51cafef65c47d0e3af384e76bde1ef440a"
+    },
+    {
+      "mode": "100644",
+      "path": ".szl/responsive-experience-v3.json",
+      "sha": "4f8e78343ed35a1612a7c4bae6d53c5760625f37",
+      "size": 971,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/4f8e78343ed35a1612a7c4bae6d53c5760625f37"
+    },
+    {
+      "mode": "100644",
+      "path": "CODEOWNERS",
+      "sha": "ad61f4cc26ddd4be4eecf73abef96dcf611f8a8d",
+      "size": 22,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/ad61f4cc26ddd4be4eecf73abef96dcf611f8a8d"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile",
+      "sha": "3d3a243772684d46a732246a1e7742380b0661e6",
+      "size": 531,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/3d3a243772684d46a732246a1e7742380b0661e6"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "56bf1b2f65d50375bee357da127ca065974318c9",
+      "size": 11375,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/56bf1b2f65d50375bee357da127ca065974318c9"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "5f2e9e997f2bc0f34a6a8840dae455f357221a2a",
+      "size": 4573,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/5f2e9e997f2bc0f34a6a8840dae455f357221a2a"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "075e522f4c6f690a05405ec0f06aaa8655f60311",
+      "size": 623,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/075e522f4c6f690a05405ec0f06aaa8655f60311"
+    },
+    {
+      "mode": "100644",
+      "path": "eslint.config.mjs",
+      "sha": "bfc3c2560b42997c103f92bb5b681ce46163eb0c",
+      "size": 1277,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/bfc3c2560b42997c103f92bb5b681ce46163eb0c"
+    },
+    {
+      "mode": "040000",
+      "path": "migrations",
+      "sha": "281e531fc6383e1a2a302223472f3329dbdb3e9f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/281e531fc6383e1a2a302223472f3329dbdb3e9f"
+    },
+    {
+      "mode": "040000",
+      "path": "migrations/auth",
+      "sha": "b477f508560256912e6b39ccdf375d6e152fa6b4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/b477f508560256912e6b39ccdf375d6e152fa6b4"
+    },
+    {
+      "mode": "100644",
+      "path": "migrations/auth/0001_auth.sql",
+      "sha": "08c6b01fef9b46e72470fb66ea967d5f84e9bdb5",
+      "size": 2739,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/08c6b01fef9b46e72470fb66ea967d5f84e9bdb5"
+    },
+    {
+      "mode": "100644",
+      "path": "package-lock.json",
+      "sha": "0e536a4d8ddeef863b366d8c572976722475be90",
+      "size": 267899,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/0e536a4d8ddeef863b366d8c572976722475be90"
+    },
+    {
+      "mode": "100644",
+      "path": "package.json",
+      "sha": "a8154c5373c86c8a971cec240fc8b945a03ffa5a",
+      "size": 3418,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/a8154c5373c86c8a971cec240fc8b945a03ffa5a"
+    },
+    {
+      "mode": "040000",
+      "path": "packets",
+      "sha": "7367643e1449bb696da8f5ac8b45ac55fe73220c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/7367643e1449bb696da8f5ac8b45ac55fe73220c"
+    },
+    {
+      "mode": "100644",
+      "path": "packets/alloy-state-fabric-frontier.json",
+      "sha": "bcdd68ae0130f70c5c3c32087442bce66639c5ca",
+      "size": 6660,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/bcdd68ae0130f70c5c3c32087442bce66639c5ca"
+    },
+    {
+      "mode": "100644",
+      "path": "packets/alloy-state-fabric-lyte-exec.json",
+      "sha": "d2d50c912c8239538fc31766f9f644195ad158a7",
+      "size": 7521,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/d2d50c912c8239538fc31766f9f644195ad158a7"
+    },
+    {
+      "mode": "100644",
+      "path": "packets/alloy-state-fabric-n1-n27.json",
+      "sha": "22105269bafa0b802448ccd90e60aeef0b7602ae",
+      "size": 6572,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/22105269bafa0b802448ccd90e60aeef0b7602ae"
+    },
+    {
+      "mode": "100644",
+      "path": "packets/alloy-state-fabric-n26-n27.json",
+      "sha": "59dca256f03cfa37f13d42e441c0c4ed748f3051",
+      "size": 1709,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/59dca256f03cfa37f13d42e441c0c4ed748f3051"
+    },
+    {
+      "mode": "100644",
+      "path": "packets/alloy-state-fabric-w1.json",
+      "sha": "ae2742fa296ad3489fbaedd2e63518a01e49e3d6",
+      "size": 2347,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/ae2742fa296ad3489fbaedd2e63518a01e49e3d6"
+    },
+    {
+      "mode": "100644",
+      "path": "packets/alloy-state-fabric-w2.json",
+      "sha": "bb511cd402878d15eac263bf48fa4197135d2748",
+      "size": 2341,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/bb511cd402878d15eac263bf48fa4197135d2748"
+    },
+    {
+      "mode": "100644",
+      "path": "packets/alloy-state-fabric-w3.json",
+      "sha": "9c789017a33638ff5d59019d0f92639a8ba079c1",
+      "size": 2403,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/9c789017a33638ff5d59019d0f92639a8ba079c1"
+    },
+    {
+      "mode": "100644",
+      "path": "packets/alloy-state-fabric-waves.json",
+      "sha": "8b7a244cc49a0f3f6506b2edf04dd3f6e802580c",
+      "size": 710,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/8b7a244cc49a0f3f6506b2edf04dd3f6e802580c"
+    },
+    {
+      "mode": "100644",
+      "path": "packets/command-centre-lyte-tab.json",
+      "sha": "a92b91fee4bca8be1057640023b246fad563ba63",
+      "size": 768,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/a92b91fee4bca8be1057640023b246fad563ba63"
+    },
+    {
+      "mode": "100644",
+      "path": "packets/estate-stall-audit-2026-09-04.json",
+      "sha": "47499d36032a9b4487baa8cd18b40f0f47864117",
+      "size": 2486,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/47499d36032a9b4487baa8cd18b40f0f47864117"
+    },
+    {
+      "mode": "100644",
+      "path": "packets/thread-operational-2026-09-04.json",
+      "sha": "2c317003f1f8a76686f12bcffdd0bad7e2b8dce6",
+      "size": 368,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/2c317003f1f8a76686f12bcffdd0bad7e2b8dce6"
+    },
+    {
+      "mode": "100644",
+      "path": "packets/unify-live-2026-09-04.json",
+      "sha": "8c8a31a4ec7e0d48d987c1a48f8b68ae24e09816",
+      "size": 627,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/8c8a31a4ec7e0d48d987c1a48f8b68ae24e09816"
+    },
+    {
+      "mode": "040000",
+      "path": "payloads",
+      "sha": "95ec0b67c52c7a1f88287f5f3a35db607cfec005",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/95ec0b67c52c7a1f88287f5f3a35db607cfec005"
+    },
+    {
+      "mode": "100644",
+      "path": "payloads/GROK-TERMINAL-FINISH.md",
+      "sha": "8ec9a97f247b7e152c05d913d646c8e74de10196",
+      "size": 4113,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/8ec9a97f247b7e152c05d913d646c8e74de10196"
+    },
+    {
+      "mode": "100644",
+      "path": "payloads/PRODUCT-DOOR.md",
+      "sha": "741e780b72693a2e6319b9b6753d09be9ab4b7e0",
+      "size": 462,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/741e780b72693a2e6319b9b6753d09be9ab4b7e0"
+    },
+    {
+      "mode": "100644",
+      "path": "payloads/THREAD-OPERATIONAL.md",
+      "sha": "d3d8e1d09e6cfefcb1f271a4a6be9ce668770f68",
+      "size": 384,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/d3d8e1d09e6cfefcb1f271a4a6be9ce668770f68"
+    },
+    {
+      "mode": "040000",
+      "path": "public",
+      "sha": "59bf6c1ed0d9ddd8a7904917a11f635a95938009",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/59bf6c1ed0d9ddd8a7904917a11f635a95938009"
+    },
+    {
+      "mode": "040000",
+      "path": "public/__grok",
+      "sha": "8a105f78b4d99bc82bebb0788d19346d2de3fa7d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/8a105f78b4d99bc82bebb0788d19346d2de3fa7d"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/icon-180.png",
+      "sha": "e9d2ac1c646a76979136bb2f8b2c483d81a33f54",
+      "size": 2100,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/e9d2ac1c646a76979136bb2f8b2c483d81a33f54"
+    },
+    {
+      "mode": "040000",
+      "path": "public/__grok/install",
+      "sha": "7194f7a0101e4ce9419328b1e6a0cb33e7aca00c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/7194f7a0101e4ce9419328b1e6a0cb33e7aca00c"
+    },
+    {
+      "mode": "040000",
+      "path": "public/__grok/install/assets",
+      "sha": "7092fafb4a209024c348f77b39246904c1aa4d8d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/7092fafb4a209024c348f77b39246904c1aa4d8d"
+    },
+    {
+      "mode": "040000",
+      "path": "public/__grok/install/assets/homescreen",
+      "sha": "f2a9ecb608022b69bb5d810a49fac84b30b28ee3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/f2a9ecb608022b69bb5d810a49fac84b30b28ee3"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/install/assets/homescreen/glass-puzzle.svg",
+      "sha": "df0defc5e1a653dd83304cac5fce08f3dd5fc0a0",
+      "size": 1811,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/df0defc5e1a653dd83304cac5fce08f3dd5fc0a0"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/install/assets/homescreen/glass-share.svg",
+      "sha": "051eb8931f8bacb7499f840cf39140f705a6ff0e",
+      "size": 2388,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/051eb8931f8bacb7499f840cf39140f705a6ff0e"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/install/assets/homescreen/logo-grok.svg",
+      "sha": "930144f4d3ac08286b6bbe475c880a01804e4601",
+      "size": 1059,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/930144f4d3ac08286b6bbe475c880a01804e4601"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/install/assets/homescreen/ob-ipad.png",
+      "sha": "c2d4a0d3e111b0c6d9eaca7bbde0a5cafcafc58d",
+      "size": 101843,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/c2d4a0d3e111b0c6d9eaca7bbde0a5cafcafc58d"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/install/assets/homescreen/ob-phone.png",
+      "sha": "1862fb7fd7fbe1fe8098edfde67923a027486779",
+      "size": 103612,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/1862fb7fd7fbe1fe8098edfde67923a027486779"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/install/assets/homescreen/plus.svg",
+      "sha": "bc893abc91f74e2f8a3d12803e8cabbdcda8311f",
+      "size": 2401,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/bc893abc91f74e2f8a3d12803e8cabbdcda8311f"
+    },
+    {
+      "mode": "100644",
+      "path": "public/__grok/install/styles.css",
+      "sha": "445d3afc7d8ef0cf76eb87640ab698a31b0476c8",
+      "size": 6717,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/445d3afc7d8ef0cf76eb87640ab698a31b0476c8"
+    },
+    {
+      "mode": "100644",
+      "path": "public/favicon.svg",
+      "sha": "4bc4de03b2a7ecc483816ae27458c84fc0be1ac4",
+      "size": 278,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/4bc4de03b2a7ecc483816ae27458c84fc0be1ac4"
+    },
+    {
+      "mode": "100644",
+      "path": "public/og.jpg",
+      "sha": "feb89e0b7a7d3861054ccac001f29a8d2cb3934b",
+      "size": 40877,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/feb89e0b7a7d3861054ccac001f29a8d2cb3934b"
+    },
+    {
+      "mode": "040000",
+      "path": "python",
+      "sha": "84b92dcebfc0edfb5d4061a9f9786cd688510d35",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/84b92dcebfc0edfb5d4061a9f9786cd688510d35"
+    },
+    {
+      "mode": "040000",
+      "path": "python/lyte_lattice",
+      "sha": "f96aed0bd590858b40eba78b00aca5500c03b661",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/f96aed0bd590858b40eba78b00aca5500c03b661"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/__init__.py",
+      "sha": "b79b955913ac183d16a0c10cbd11c720b0533c5c",
+      "size": 95,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/b79b955913ac183d16a0c10cbd11c720b0533c5c"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/__main__.py",
+      "sha": "ad85430b600c770d76f71060aea60fe074770d97",
+      "size": 2696,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/ad85430b600c770d76f71060aea60fe074770d97"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organ.py",
+      "sha": "4af0c0d6fecef71fc8c511f5518f2d31519f5887",
+      "size": 16066,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/4af0c0d6fecef71fc8c511f5518f2d31519f5887"
+    },
+    {
+      "mode": "040000",
+      "path": "python/lyte_lattice/organs",
+      "sha": "2a0db6275af4889d32bc1844a339058d019ff6b1",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/2a0db6275af4889d32bc1844a339058d019ff6b1"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/__init__.py",
+      "sha": "16c109c0f36005f01591599438440e0d8e8ca7b4",
+      "size": 84,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/16c109c0f36005f01591599438440e0d8e8ca7b4"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n01_serve.py",
+      "sha": "cc3f6207a822eeac8b3826b6c7d3cd3a0a618f5f",
+      "size": 5261,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/cc3f6207a822eeac8b3826b6c7d3cd3a0a618f5f"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n02_graph.py",
+      "sha": "684c6ba9f83957fe9a830a0a2b015ef10e42c45a",
+      "size": 10301,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/684c6ba9f83957fe9a830a0a2b015ef10e42c45a"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n03_guard.py",
+      "sha": "996babda6ca6e361cf32813f24a53d77e19f44bf",
+      "size": 5208,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/996babda6ca6e361cf32813f24a53d77e19f44bf"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n04_mosaic.py",
+      "sha": "b51d92751c8194fac6c116b8e4928ff1dd8f17fd",
+      "size": 9577,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/b51d92751c8194fac6c116b8e4928ff1dd8f17fd"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n05_lattice.py",
+      "sha": "3a698ad981d9a59620af58b8821ba70e0e54f26b",
+      "size": 4344,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/3a698ad981d9a59620af58b8821ba70e0e54f26b"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n06_cover.py",
+      "sha": "f9500c0f1258b6fca63425e37c60fa5d5b9e071a",
+      "size": 9962,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/f9500c0f1258b6fca63425e37c60fa5d5b9e071a"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n07_quant.py",
+      "sha": "edd48ee36bea1d7c6d3baf7476e48388a6baa070",
+      "size": 6350,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/edd48ee36bea1d7c6d3baf7476e48388a6baa070"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n08_title.py",
+      "sha": "c8fbaea0fa8367bf166cc538d3497476c2e70672",
+      "size": 9461,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/c8fbaea0fa8367bf166cc538d3497476c2e70672"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n09_retrieve.py",
+      "sha": "2b6ea99f5e5ed6b99b675e47a8b8f24f3454dd25",
+      "size": 8322,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/2b6ea99f5e5ed6b99b675e47a8b8f24f3454dd25"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n10_observe.py",
+      "sha": "9771432a7c9e061ac52f4616a65248a1ccd0e4ca",
+      "size": 6747,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/9771432a7c9e061ac52f4616a65248a1ccd0e4ca"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n11_tune.py",
+      "sha": "624b617b2388ce79110a6287a93dba4e390d1348",
+      "size": 6289,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/624b617b2388ce79110a6287a93dba4e390d1348"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n12_schema.py",
+      "sha": "2fa0d88b000c35aa51b53dbc362e46fe1de223a6",
+      "size": 21237,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/2fa0d88b000c35aa51b53dbc362e46fe1de223a6"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n13_energy.py",
+      "sha": "19677d2e87ffd13ece5773bcc75847e7ad295fab",
+      "size": 1464,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/19677d2e87ffd13ece5773bcc75847e7ad295fab"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n14_tool.py",
+      "sha": "b78a6eb8f7865839a47f6ede31969c66290af467",
+      "size": 6280,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/b78a6eb8f7865839a47f6ede31969c66290af467"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n15_memory.py",
+      "sha": "a44767b2727c6952c2e1a37e5c20a183c6409e0a",
+      "size": 6762,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/a44767b2727c6952c2e1a37e5c20a183c6409e0a"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n16_eval.py",
+      "sha": "12dd5f4b37245d29a35935ac83a5104432296269",
+      "size": 5260,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/12dd5f4b37245d29a35935ac83a5104432296269"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n17_mesh.py",
+      "sha": "e3454cfdc91fd57ac32bc318269079d0725051aa",
+      "size": 3101,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/e3454cfdc91fd57ac32bc318269079d0725051aa"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n18_route.py",
+      "sha": "09299d7e7c1045300eb6e59bec99abe3f1c7fa9c",
+      "size": 3826,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/09299d7e7c1045300eb6e59bec99abe3f1c7fa9c"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n19_cache.py",
+      "sha": "6720e7089bdebd3dcf6d49ebb17497b35ae8d4c5",
+      "size": 4429,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/6720e7089bdebd3dcf6d49ebb17497b35ae8d4c5"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n20_voice.py",
+      "sha": "5261fd37be2feda6bdc8aaf81320d62243fe1ce4",
+      "size": 3503,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/5261fd37be2feda6bdc8aaf81320d62243fe1ce4"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n21_sandbox.py",
+      "sha": "2b57ff4aaea086e41223b37cf296efcd6d6bb18f",
+      "size": 4650,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/2b57ff4aaea086e41223b37cf296efcd6d6bb18f"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n22_identity.py",
+      "sha": "3f3dbf9facd84c7a108cf8c4a16d4e1601cb1506",
+      "size": 3019,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/3f3dbf9facd84c7a108cf8c4a16d4e1601cb1506"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n23_rails.py",
+      "sha": "d5da346c7d3026b61df727922f1cdb20b2e1541b",
+      "size": 4331,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/d5da346c7d3026b61df727922f1cdb20b2e1541b"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n24_browser.py",
+      "sha": "b34bac627b50f025c0f53c8bfd1be63734169bd2",
+      "size": 2671,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/b34bac627b50f025c0f53c8bfd1be63734169bd2"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n25_policy.py",
+      "sha": "bfa9db21144025367c73ed4c2ff45b00cec607fe",
+      "size": 4666,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/bfa9db21144025367c73ed4c2ff45b00cec607fe"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n26_inference.py",
+      "sha": "6c6326af4770e6f70bb4a1d62ba22804400cef2e",
+      "size": 1529,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/6c6326af4770e6f70bb4a1d62ba22804400cef2e"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/organs/n27_train.py",
+      "sha": "920fdcdba707e26b5bb088955b3445d4815ae8ee",
+      "size": 1456,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/920fdcdba707e26b5bb088955b3445d4815ae8ee"
+    },
+    {
+      "mode": "100644",
+      "path": "python/lyte_lattice/registry.py",
+      "sha": "e46cef3b5476e9755c515c01783d021d1fa57ec8",
+      "size": 2445,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/e46cef3b5476e9755c515c01783d021d1fa57ec8"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "c8e54d7ab619656835ef9ea91628b5594b55d3ed",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/c8e54d7ab619656835ef9ea91628b5594b55d3ed"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/app-env-plugin.mjs",
+      "sha": "9b9b69e071c99fb2ed1b56a759bead15169b2fe8",
+      "size": 1278,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/9b9b69e071c99fb2ed1b56a759bead15169b2fe8"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/brand-check.mjs",
+      "sha": "89a9e587c6cad6ee9944af28160fbfdc05fde1ac",
+      "size": 9609,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/89a9e587c6cad6ee9944af28160fbfdc05fde1ac"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/brand-check.test.mjs",
+      "sha": "bda0e9b6208db4bdb8a2b4ad84502680d30af7c9",
+      "size": 15084,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/bda0e9b6208db4bdb8a2b4ad84502680d30af7c9"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/browser-guard.mjs",
+      "sha": "ebfbdb147f0b266a4ca46fe451daae1ae023c2db",
+      "size": 1724,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/ebfbdb147f0b266a4ca46fe451daae1ae023c2db"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/browser-smoke-verdict.mjs",
+      "sha": "020dd9991778b477e0003316064275db0d0fe3d8",
+      "size": 4663,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/020dd9991778b477e0003316064275db0d0fe3d8"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/browser-smoke-verdict.test.mjs",
+      "sha": "d326fd3a6e4ed2f6f5d8c40b53086f9f85bae3e1",
+      "size": 15643,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/d326fd3a6e4ed2f6f5d8c40b53086f9f85bae3e1"
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/browser-smoke.mjs",
+      "sha": "c1ae5d1216ebcada1dde366328dc3b2aef446e67",
+      "size": 6042,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/c1ae5d1216ebcada1dde366328dc3b2aef446e67"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/check-auth-invariant.mjs",
+      "sha": "b558378c35f88069e34e344579391c395f565640",
+      "size": 4203,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/b558378c35f88069e34e344579391c395f565640"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/check-auth-invariant.test.mjs",
+      "sha": "4cc9b6faa28b56c83a498003bfc9a2b200aad276",
+      "size": 4218,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/4cc9b6faa28b56c83a498003bfc9a2b200aad276"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/command_centre_payload.py",
+      "sha": "d1f721ddf6ce88238c7db11e537965b2b9aa3a24",
+      "size": 3254,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/d1f721ddf6ce88238c7db11e537965b2b9aa3a24"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/grok-pwa-plugin.mjs",
+      "sha": "97821e8b28840b612d13c35bb95f6dfd07ffa006",
+      "size": 6615,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/97821e8b28840b612d13c35bb95f6dfd07ffa006"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/grok-pwa-plugin.test.mjs",
+      "sha": "69b32de8995a01c68550a6870fb7c1187e6f55a3",
+      "size": 20320,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/69b32de8995a01c68550a6870fb7c1187e6f55a3"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/grok-pwa-shared.d.mts",
+      "sha": "609ea6b65670d68ac9261d569bd8a0a8d092c6a4",
+      "size": 3144,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/609ea6b65670d68ac9261d569bd8a0a8d092c6a4"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/grok-pwa-shared.mjs",
+      "sha": "e0aae02b45849f6dff89e0cdb6e51894a4ab863f",
+      "size": 17675,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/e0aae02b45849f6dff89e0cdb6e51894a4ab863f"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/hf-deploy-workflow.test.mjs",
+      "sha": "10621ac13f49d1bf4b55002acf1b3aed913ef41c",
+      "size": 1105,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/10621ac13f49d1bf4b55002acf1b3aed913ef41c"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/install-page.html",
+      "sha": "f1d3bdbd1a1a1c5337a019d7f188cfd1ce19b33d",
+      "size": 5658,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/f1d3bdbd1a1a1c5337a019d7f188cfd1ce19b33d"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/migrate.mjs",
+      "sha": "7b3dc087119d24d283b4ad89f1d8ab77f9d2ec9b",
+      "size": 3181,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/7b3dc087119d24d283b4ad89f1d8ab77f9d2ec9b"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/migration-plan.mjs",
+      "sha": "861450f0849ab6f56a00c30ddeb91ac4262cc1f7",
+      "size": 1525,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/861450f0849ab6f56a00c30ddeb91ac4262cc1f7"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/migration-plan.test.mjs",
+      "sha": "ae2ffa74f0f722e0f99f0c6003c0aa367d1d06a1",
+      "size": 3558,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/ae2ffa74f0f722e0f99f0c6003c0aa367d1d06a1"
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/preview-thumbnail.mjs",
+      "sha": "dd2afaed2b10ece67a7b8a5320b35d76edf0de09",
+      "size": 1762,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/dd2afaed2b10ece67a7b8a5320b35d76edf0de09"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/preview.mjs",
+      "sha": "cab7a4d0cc0e35dd7734362f70d3bbf64f6e42b5",
+      "size": 11074,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/cab7a4d0cc0e35dd7734362f70d3bbf64f6e42b5"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/preview.test.mjs",
+      "sha": "cf39aecf27ccf30de42a28da07a88dd6b884095f",
+      "size": 9207,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/cf39aecf27ccf30de42a28da07a88dd6b884095f"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/sign-out-plan.mjs",
+      "sha": "cfcd425d3fc423d2d3f9e7b9efd9f6d4721dfab6",
+      "size": 5971,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/cfcd425d3fc423d2d3f9e7b9efd9f6d4721dfab6"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/sign-out-plan.test.mjs",
+      "sha": "7c20d88df5ef0d8a448d007fe5e0aae9ae2e8883",
+      "size": 8659,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/7c20d88df5ef0d8a448d007fe5e0aae9ae2e8883"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/test_hf_ownership.py",
+      "sha": "e17efdf1504ecc21ca99d7c4be9e62090e2ff2cf",
+      "size": 5574,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/e17efdf1504ecc21ca99d7c4be9e62090e2ff2cf"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/unify_spaces.py",
+      "sha": "54f4a9b26292afa8b7a2969a31d152c9d6937860",
+      "size": 2216,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/54f4a9b26292afa8b7a2969a31d152c9d6937860"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/verify-hf-ownership.py",
+      "sha": "5789f970108efed6212b5c74360a641b1831c215",
+      "size": 7035,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/5789f970108efed6212b5c74360a641b1831c215"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/with-app-env.mjs",
+      "sha": "e48dfafa69fa33d5288269ce939236956ff75e9c",
+      "size": 4601,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/e48dfafa69fa33d5288269ce939236956ff75e9c"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/with-app-env.test.mjs",
+      "sha": "823092f39cbf708d84a9abd5c0f4e658687b7265",
+      "size": 4466,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/823092f39cbf708d84a9abd5c0f4e658687b7265"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/write-atomic.mjs",
+      "sha": "293e2951f4c0b729174f21a79baa0a717f1b03f0",
+      "size": 3607,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/293e2951f4c0b729174f21a79baa0a717f1b03f0"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/write-atomic.test.mjs",
+      "sha": "6df411a7d88059be2113bf1138ceb5982fcfb16e",
+      "size": 7505,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/6df411a7d88059be2113bf1138ceb5982fcfb16e"
+    },
+    {
+      "mode": "100644",
+      "path": "server.py",
+      "sha": "e8bed22ce6a0b0db522ae650ad80aeb1266a6bf1",
+      "size": 4785,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/e8bed22ce6a0b0db522ae650ad80aeb1266a6bf1"
+    },
+    {
+      "mode": "040000",
+      "path": "server",
+      "sha": "2d4cfc78f759f4a941a9528cabd11f1b244c6560",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/2d4cfc78f759f4a941a9528cabd11f1b244c6560"
+    },
+    {
+      "mode": "040000",
+      "path": "server/middleware",
+      "sha": "ea9b4bd06ea67ed99f612bd10b52c2cc8be9c41a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/ea9b4bd06ea67ed99f612bd10b52c2cc8be9c41a"
+    },
+    {
+      "mode": "100644",
+      "path": "server/middleware/grok-pwa.ts",
+      "sha": "1575de8f0a478af1482b3b9fae8c5a7ad0c06230",
+      "size": 3606,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/1575de8f0a478af1482b3b9fae8c5a7ad0c06230"
+    },
+    {
+      "mode": "100644",
+      "path": "server/virtual-grok-og-identity.d.ts",
+      "sha": "2baed2dbb4a24d8374b25158e37f1e2bda8fab0d",
+      "size": 262,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/2baed2dbb4a24d8374b25158e37f1e2bda8fab0d"
+    },
+    {
+      "mode": "040000",
+      "path": "space",
+      "sha": "d5b1e754f663645624b3eac080c8854a1de47857",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/d5b1e754f663645624b3eac080c8854a1de47857"
+    },
+    {
+      "mode": "100644",
+      "path": "space/Dockerfile",
+      "sha": "ae73b71a708f61e090d918cfd4b935f2ba1ad565",
+      "size": 364,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/ae73b71a708f61e090d918cfd4b935f2ba1ad565"
+    },
+    {
+      "mode": "100644",
+      "path": "space/index.html",
+      "sha": "1c240c3f96ecadadc5be584281637b7013088f44",
+      "size": 5812,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/1c240c3f96ecadadc5be584281637b7013088f44"
+    },
+    {
+      "mode": "100644",
+      "path": "space/server.py",
+      "sha": "1dc5bb1ff3d403a67d15da3776df477cbf8dbe53",
+      "size": 4098,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/1dc5bb1ff3d403a67d15da3776df477cbf8dbe53"
+    },
+    {
+      "mode": "100644",
+      "path": "space/szl-holo-v2.css",
+      "sha": "de5dcbe307af26602850c330b9cb697011e6844b",
+      "size": 33133,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/de5dcbe307af26602850c330b9cb697011e6844b"
+    },
+    {
+      "mode": "100644",
+      "path": "space/szl-holo-v2.js",
+      "sha": "4b6343f186c931b53676089095015051615e253e",
+      "size": 26997,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/4b6343f186c931b53676089095015051615e253e"
+    },
+    {
+      "mode": "100644",
+      "path": "space/szl-responsive-v3.css",
+      "sha": "e797133705912932faac24065e71666097b9375c",
+      "size": 9280,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/e797133705912932faac24065e71666097b9375c"
+    },
+    {
+      "mode": "040000",
+      "path": "spaces",
+      "sha": "490b510fbdc6b64bb329e361be5cb7317f15b854",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/490b510fbdc6b64bb329e361be5cb7317f15b854"
+    },
+    {
+      "mode": "100644",
+      "path": "spaces/README.md",
+      "sha": "859b3b9b9bece820cb61a9af4afd8fb3e6c94123",
+      "size": 585,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/859b3b9b9bece820cb61a9af4afd8fb3e6c94123"
+    },
+    {
+      "mode": "100644",
+      "path": "spaces/lyte-lattice.md",
+      "sha": "23e644d9788fc9e06762a8355447377db275dff8",
+      "size": 949,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/23e644d9788fc9e06762a8355447377db275dff8"
+    },
+    {
+      "mode": "040000",
+      "path": "src",
+      "sha": "099da248eeb5a944203b4091f401d3d8d60c8a2b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/099da248eeb5a944203b4091f401d3d8d60c8a2b"
+    },
+    {
+      "mode": "040000",
+      "path": "src/components",
+      "sha": "9a844a84659ae781c6e6f0446acbd9b64713e808",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/9a844a84659ae781c6e6f0446acbd9b64713e808"
+    },
+    {
+      "mode": "040000",
+      "path": "src/components/cells",
+      "sha": "7b9a9c6376f61be31a6147ce6f584284e4cddfb9",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/7b9a9c6376f61be31a6147ce6f584284e4cddfb9"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/cells/cell-frame.tsx",
+      "sha": "674634631c7f57d711d831325f9303798a909d6e",
+      "size": 2196,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/674634631c7f57d711d831325f9303798a909d6e"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/cells/cover-view.tsx",
+      "sha": "ba467f7130503f87da34ab25bdfdc65bfc24062e",
+      "size": 14980,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/ba467f7130503f87da34ab25bdfdc65bfc24062e"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/cells/graph-view.tsx",
+      "sha": "62e651aa2521b164cc21f0c48fe53efed5de5a98",
+      "size": 7364,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/62e651aa2521b164cc21f0c48fe53efed5de5a98"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/cells/guard-view.tsx",
+      "sha": "f54a196ec1dc6e0a6571425ec6dff71c57b7eb43",
+      "size": 6333,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/f54a196ec1dc6e0a6571425ec6dff71c57b7eb43"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/cells/lattice-map.tsx",
+      "sha": "7ac62a7fc9010c6cf11f26b1db7740f62748de13",
+      "size": 4019,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/7ac62a7fc9010c6cf11f26b1db7740f62748de13"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/cells/lattice-view.tsx",
+      "sha": "b2ee9c1724af45939c40c166ac8a1a59869fa69d",
+      "size": 9395,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/b2ee9c1724af45939c40c166ac8a1a59869fa69d"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/cells/lyte-view.tsx",
+      "sha": "999d3e86262e2b58e7421c876c0acb314fdaee6a",
+      "size": 8171,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/999d3e86262e2b58e7421c876c0acb314fdaee6a"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/cells/mosaic-view.tsx",
+      "sha": "2373166d3439a469b5ce40efb20769c126cbddee",
+      "size": 10052,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/2373166d3439a469b5ce40efb20769c126cbddee"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/cells/observe-view.tsx",
+      "sha": "c0bb9842a61c12d8c4f1c27c3d10a83b0beed6fa",
+      "size": 10469,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/c0bb9842a61c12d8c4f1c27c3d10a83b0beed6fa"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/cells/organ-desk.tsx",
+      "sha": "454e4ea480c06a6c36da819ecaf2db1511aa6deb",
+      "size": 6248,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/454e4ea480c06a6c36da819ecaf2db1511aa6deb"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/cells/organ-strip.tsx",
+      "sha": "680794f474fc9feec583eba4d7a7a748a9b2bcf4",
+      "size": 2032,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/680794f474fc9feec583eba4d7a7a748a9b2bcf4"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/cells/quant-view.tsx",
+      "sha": "07565734f7145aceb13fc430e268f967809bec7f",
+      "size": 10525,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/07565734f7145aceb13fc430e268f967809bec7f"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/cells/retrieve-view.tsx",
+      "sha": "c31e4825fdbc116b6be41df8147838c93d207a1b",
+      "size": 8092,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/c31e4825fdbc116b6be41df8147838c93d207a1b"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/cells/schema-view.tsx",
+      "sha": "be11af56483451c43b4ae8f80b9043b5e86b3a6b",
+      "size": 7383,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/be11af56483451c43b4ae8f80b9043b5e86b3a6b"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/cells/serve-view.tsx",
+      "sha": "27e76ad02b3bb682adaaba3662f18813e013eec2",
+      "size": 11178,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/27e76ad02b3bb682adaaba3662f18813e013eec2"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/cells/tune-view.tsx",
+      "sha": "99335df9c1791bc70f6d7dd997c3d42ed5f6cb85",
+      "size": 8693,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/99335df9c1791bc70f6d7dd997c3d42ed5f6cb85"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/preview-host-bridge.tsx",
+      "sha": "98cb15d443328b2fdb5d9ae9e3bdab0eff453612",
+      "size": 668,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/98cb15d443328b2fdb5d9ae9e3bdab0eff453612"
+    },
+    {
+      "mode": "040000",
+      "path": "src/components/shell",
+      "sha": "5c9b63e523ba30078427b8ec39f526d653821d5c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/5c9b63e523ba30078427b8ec39f526d653821d5c"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/shell/app-shell.tsx",
+      "sha": "540620fb2b416b0350d61f53e60be4ea51cbf3df",
+      "size": 5432,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/540620fb2b416b0350d61f53e60be4ea51cbf3df"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/shell/cell-link.tsx",
+      "sha": "517ee5911d2a2a747fd519eb93d0eed9c11eb3b7",
+      "size": 494,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/517ee5911d2a2a747fd519eb93d0eed9c11eb3b7"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/shell/hydrate.tsx",
+      "sha": "ee41f84526f0b85f5c90ccdece3ec8aa0ca0bd9d",
+      "size": 231,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/ee41f84526f0b85f5c90ccdece3ec8aa0ca0bd9d"
+    },
+    {
+      "mode": "040000",
+      "path": "src/components/ui",
+      "sha": "880b08ad0ce68bb0a3cd30605c3f4bfe5584015f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/880b08ad0ce68bb0a3cd30605c3f4bfe5584015f"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/ui/badge.tsx",
+      "sha": "01242a6fe644ee7e4fa9cfb2dac26ca9326d7548",
+      "size": 776,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/01242a6fe644ee7e4fa9cfb2dac26ca9326d7548"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/ui/button.tsx",
+      "sha": "e88d11ab8ea927c86898396bc3671f5674c0d384",
+      "size": 1350,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/e88d11ab8ea927c86898396bc3671f5674c0d384"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/ui/input.tsx",
+      "sha": "e0adde347012b1800146500cd7a35910f20d5016",
+      "size": 905,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/e0adde347012b1800146500cd7a35910f20d5016"
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/ui/panel.tsx",
+      "sha": "00e2e027181f04004ba63610744d529ef63c7dcc",
+      "size": 1127,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/00e2e027181f04004ba63610744d529ef63c7dcc"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib",
+      "sha": "af575a53a269e239806b326a8aa4c77066315d46",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/af575a53a269e239806b326a8aa4c77066315d46"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/app-data",
+      "sha": "47df08f658bd3a77b1ce935f053a421d94c8a829",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/47df08f658bd3a77b1ce935f053a421d94c8a829"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/app-data/app-data.test.ts",
+      "sha": "58001d00a96e3ff108077f9acc6c762199fd5a91",
+      "size": 11834,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/58001d00a96e3ff108077f9acc6c762199fd5a91"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/app-data/client.server.ts",
+      "sha": "eb2f6e882bd083c09da1edd5b96a4d6b14aee142",
+      "size": 9879,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/eb2f6e882bd083c09da1edd5b96a4d6b14aee142"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/app-data/errors.ts",
+      "sha": "81517744c90d47ba30dd42be7feff3198879ecc7",
+      "size": 1377,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/81517744c90d47ba30dd42be7feff3198879ecc7"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/app-data/index.ts",
+      "sha": "32a32a72214e18b28da1ea3d08e4e9f6a59f5e99",
+      "size": 398,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/32a32a72214e18b28da1ea3d08e4e9f6a59f5e99"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/app-data/login.ts",
+      "sha": "83ada786ee8a1f7fc8a450a5fba7d46eef034437",
+      "size": 719,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/83ada786ee8a1f7fc8a450a5fba7d46eef034437"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/app-data/server-only.ts",
+      "sha": "27567c57626c596986c681e119bf78d4cf67b201",
+      "size": 476,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/27567c57626c596986c681e119bf78d4cf67b201"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/app-data/types.ts",
+      "sha": "ea1b107c022a1acd4803f01c9c14934c60b94df2",
+      "size": 968,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/ea1b107c022a1acd4803f01c9c14934c60b94df2"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/auth",
+      "sha": "8affd49aa50ce5eb9d9ba4681342c901b6a65eb3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/8affd49aa50ce5eb9d9ba4681342c901b6a65eb3"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/client.ts",
+      "sha": "d3b267d3de8b9d5e31545ee56ed7a3ff240c601d",
+      "size": 9714,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/d3b267d3de8b9d5e31545ee56ed7a3ff240c601d"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/email-password.ts",
+      "sha": "3abb01461af8b6c8293e9a996ec639b7009843a8",
+      "size": 442,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/3abb01461af8b6c8293e9a996ec639b7009843a8"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/gate-identity.server.ts",
+      "sha": "db8380095b75e0e6cd702c5df7c066c18e512e2b",
+      "size": 4982,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/db8380095b75e0e6cd702c5df7c066c18e512e2b"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/gate-identity.test.ts",
+      "sha": "ccae9f8b56f406265af82c9cb9bc5139f59f909f",
+      "size": 9499,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/ccae9f8b56f406265af82c9cb9bc5139f59f909f"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/gate-session.server.ts",
+      "sha": "a73d02c3eb8ddd9fc2d6039fe90f94c9ce42b6e1",
+      "size": 10125,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/a73d02c3eb8ddd9fc2d6039fe90f94c9ce42b6e1"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/gates.tsx",
+      "sha": "259b21a6900044681d1898e3f696d84aaeaba3c3",
+      "size": 3452,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/259b21a6900044681d1898e3f696d84aaeaba3c3"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/isolation.server.ts",
+      "sha": "f070e0801221046b3a1c26954cc714250addecff",
+      "size": 2386,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/f070e0801221046b3a1c26954cc714250addecff"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/middleware.ts",
+      "sha": "c6a734242f2a63c02e365eb7303a0238b3b5bf5c",
+      "size": 2462,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/c6a734242f2a63c02e365eb7303a0238b3b5bf5c"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/pglite-dialect.ts",
+      "sha": "e23357c3a027360d55ad37c018883111976687d9",
+      "size": 4088,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/e23357c3a027360d55ad37c018883111976687d9"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/popup.server.ts",
+      "sha": "9e686ae29e2b0463b7868ce755dd066479ebe8a3",
+      "size": 6133,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/9e686ae29e2b0463b7868ce755dd066479ebe8a3"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/preview.ts",
+      "sha": "b8822e87c83be13fb834714f53fb5a09d07588cd",
+      "size": 1679,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/b8822e87c83be13fb834714f53fb5a09d07588cd"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/provider.tsx",
+      "sha": "4dd72618670f44c166ff93da6020a71ab8046f05",
+      "size": 593,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/4dd72618670f44c166ff93da6020a71ab8046f05"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/providers.ts",
+      "sha": "cd53b6faf1bf1ba4cef1193c42e533401bec4e65",
+      "size": 1486,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/cd53b6faf1bf1ba4cef1193c42e533401bec4e65"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/server.ts",
+      "sha": "66d94be9eb10e78fe46e2da2e7d950eef82580d0",
+      "size": 12548,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/66d94be9eb10e78fe46e2da2e7d950eef82580d0"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/use-current-user.ts",
+      "sha": "bf9d3affa6417e89b36785a567a6ac05ddcf8429",
+      "size": 3315,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/bf9d3affa6417e89b36785a567a6ac05ddcf8429"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/auth/verify.server.ts",
+      "sha": "2bf5acc72dd13134b1ec86781aa7591e1b2dca5c",
+      "size": 3874,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/2bf5acc72dd13134b1ec86781aa7591e1b2dca5c"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/cells.ts",
+      "sha": "e0c2a627157614071a4d489a6e67193cadf7b66e",
+      "size": 9001,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/e0c2a627157614071a4d489a6e67193cadf7b66e"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/db.ts",
+      "sha": "49777ade8f9d5613a25f7b5272a6bf88edbe709a",
+      "size": 9525,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/49777ade8f9d5613a25f7b5272a6bf88edbe709a"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/engines",
+      "sha": "686a33f24b3ae51a7b3f3521a8a992ab071ca69a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/686a33f24b3ae51a7b3f3521a8a992ab071ca69a"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/engines/bm25.ts",
+      "sha": "e1a89d265b3679e3ed31bdbe08e3d883c1f43087",
+      "size": 1721,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/e1a89d265b3679e3ed31bdbe08e3d883c1f43087"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/engines/chunk.ts",
+      "sha": "73256f1356f2a6bb3e0c6fbcb2577112811c7c3c",
+      "size": 828,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/73256f1356f2a6bb3e0c6fbcb2577112811c7c3c"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/engines/cover.ts",
+      "sha": "7795f4f70e112fc042eca63cd8ad376d2fe1d6ba",
+      "size": 3088,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/7795f4f70e112fc042eca63cd8ad376d2fe1d6ba"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/engines/graph-run.ts",
+      "sha": "7d90d407533c0abfdc1c325594c0d4154c7ebb05",
+      "size": 6999,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/7d90d407533c0abfdc1c325594c0d4154c7ebb05"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/engines/guard.ts",
+      "sha": "3ad18a3cdd166bebd632f4c3436051c78522628f",
+      "size": 4873,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/3ad18a3cdd166bebd632f4c3436051c78522628f"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/engines/lattice.ts",
+      "sha": "794e0ccfb643609c5a9f8bdff622d4c9fa5e8783",
+      "size": 1461,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/794e0ccfb643609c5a9f8bdff622d4c9fa5e8783"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/engines/mix.ts",
+      "sha": "ae2da9dc7c4950701dedec9046ca3cbf211159e0",
+      "size": 1406,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/ae2da9dc7c4950701dedec9046ca3cbf211159e0"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/engines/quant.ts",
+      "sha": "df5db5d69fcaa0d84151e80d8e8818ef91ff582e",
+      "size": 3839,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/df5db5d69fcaa0d84151e80d8e8818ef91ff582e"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/engines/schema.ts",
+      "sha": "b275610abcf6850869318b175299cf691e2944ac",
+      "size": 3105,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/b275610abcf6850869318b175299cf691e2944ac"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/error-component.tsx",
+      "sha": "ed63b914a50e85d75d725a90edff58586215815d",
+      "size": 796,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/ed63b914a50e85d75d725a90edff58586215815d"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/estate.ts",
+      "sha": "1c95dc885fc684857376bc519be1f7f3ac8b65b9",
+      "size": 4227,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/1c95dc885fc684857376bc519be1f7f3ac8b65b9"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/grok.ts",
+      "sha": "fa25bc95802c76864bea9f2ff0fba8748d268177",
+      "size": 3236,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/fa25bc95802c76864bea9f2ff0fba8748d268177"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/market.ts",
+      "sha": "ced31bd2dd77a923d390a3ec3c2ffe00a35a0d30",
+      "size": 1632,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/ced31bd2dd77a923d390a3ec3c2ffe00a35a0d30"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/multiplayer",
+      "sha": "31bf2b2d7e9e36ba23b23baf955cef814cc48958",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/31bf2b2d7e9e36ba23b23baf955cef814cc48958"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/multiplayer/index.ts",
+      "sha": "431865e237e5098f378ddb923dfa30716a632f86",
+      "size": 169,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/431865e237e5098f378ddb923dfa30716a632f86"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/multiplayer/p2p.ts",
+      "sha": "3dff0109c67f9d2790bf22be439f3298871f5253",
+      "size": 20579,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/3dff0109c67f9d2790bf22be439f3298871f5253"
+    },
+    {
+      "mode": "040000",
+      "path": "src/lib/og",
+      "sha": "3e35f19c099a0f23b9194855025bc83b0cd8b526",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/3e35f19c099a0f23b9194855025bc83b0cd8b526"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/og/site.json",
+      "sha": "9f9c03e996735f8f565facf6a933f98c3ed3b02e",
+      "size": 91,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/9f9c03e996735f8f565facf6a933f98c3ed3b02e"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/organ-desks.ts",
+      "sha": "290b3cc9203df51167439a4595059df294a809c0",
+      "size": 12057,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/290b3cc9203df51167439a4595059df294a809c0"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/organ.ts",
+      "sha": "6d8ab3e2594cf844a03045ef6931c3d36fca7ca3",
+      "size": 2839,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/6d8ab3e2594cf844a03045ef6931c3d36fca7ca3"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/preview-embedder-origin.ts",
+      "sha": "0c248bc9ff13421683d0edc75c7a5c75bdd4318d",
+      "size": 1855,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/0c248bc9ff13421683d0edc75c7a5c75bdd4318d"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/preview-host-bridge.ts",
+      "sha": "ef40a5e8c789a49d7f927894396cf7b96b078dd7",
+      "size": 8723,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/ef40a5e8c789a49d7f927894396cf7b96b078dd7"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/run-ai.ts",
+      "sha": "968a0713ab309e8cb992b73a8f38679c0317c03a",
+      "size": 9495,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/968a0713ab309e8cb992b73a8f38679c0317c03a"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/seed.ts",
+      "sha": "d331b3e4805ed75e5dd3ed8068e9c2345366dd3f",
+      "size": 15269,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/d331b3e4805ed75e5dd3ed8068e9c2345366dd3f"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/store.ts",
+      "sha": "f9a6cde53448e273fb9d362da613ecf7bfba7159",
+      "size": 14069,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/f9a6cde53448e273fb9d362da613ecf7bfba7159"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/stream.ts",
+      "sha": "ea6c7e509f95bcec4f32f8f114dba633d4019f30",
+      "size": 1809,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/ea6c7e509f95bcec4f32f8f114dba633d4019f30"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/types.ts",
+      "sha": "5d448ec856d8c8fcacf95d349c9077da1952fa4a",
+      "size": 5301,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/5d448ec856d8c8fcacf95d349c9077da1952fa4a"
+    },
+    {
+      "mode": "100644",
+      "path": "src/lib/utils.ts",
+      "sha": "c08786f040da721b7685a430cd63cab67b310627",
+      "size": 1439,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/c08786f040da721b7685a430cd63cab67b310627"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routeTree.gen.ts",
+      "sha": "3064844a50a02100d18eb5a9ae593e11f776b43d",
+      "size": 3559,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/3064844a50a02100d18eb5a9ae593e11f776b43d"
+    },
+    {
+      "mode": "100644",
+      "path": "src/router.tsx",
+      "sha": "a0e7546fd5d60f17e3e625b12938a829ce4dcada",
+      "size": 272,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/a0e7546fd5d60f17e3e625b12938a829ce4dcada"
+    },
+    {
+      "mode": "040000",
+      "path": "src/routes",
+      "sha": "b75d93d69f636459ff18ecc6055461f1b2c47186",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/b75d93d69f636459ff18ecc6055461f1b2c47186"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routes/$cell.tsx",
+      "sha": "4693198fbb055ecf1fc4282fc5300d22b6048d28",
+      "size": 1731,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/4693198fbb055ecf1fc4282fc5300d22b6048d28"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routes/__root.tsx",
+      "sha": "75786882d15c5555eb028c2c26d8e7f5106fca13",
+      "size": 1723,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/75786882d15c5555eb028c2c26d8e7f5106fca13"
+    },
+    {
+      "mode": "040000",
+      "path": "src/routes/api",
+      "sha": "5f9ac69bdb9bbc52142910fc3001c402b7ce84fe",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/5f9ac69bdb9bbc52142910fc3001c402b7ce84fe"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routes/api/act.ts",
+      "sha": "9e1fd0f5b020e19a5c859fb3384ce647f3f0b63b",
+      "size": 3071,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/9e1fd0f5b020e19a5c859fb3384ce647f3f0b63b"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routes/api/complete.ts",
+      "sha": "ff7f99fe17e59ae11ec00da34e9cb4ea4657ce93",
+      "size": 4232,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/ff7f99fe17e59ae11ec00da34e9cb4ea4657ce93"
+    },
+    {
+      "mode": "100644",
+      "path": "src/routes/index.tsx",
+      "sha": "fdc2b1c166bd68c14ec60cc05ab8fc11b63891a9",
+      "size": 224,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/fdc2b1c166bd68c14ec60cc05ab8fc11b63891a9"
+    },
+    {
+      "mode": "100644",
+      "path": "src/styles.css",
+      "sha": "3cf427711e6bfb21d2956aa5176ad4da2e57c0a1",
+      "size": 1815,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/3cf427711e6bfb21d2956aa5176ad4da2e57c0a1"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_space_brain.py",
+      "sha": "30e2eb2c38fe5fc126e237d3a7c936ee016aed4c",
+      "size": 3382,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/30e2eb2c38fe5fc126e237d3a7c936ee016aed4c"
+    },
+    {
+      "mode": "100644",
+      "path": "tsconfig.json",
+      "sha": "88b15efc8660413c4937067a6f621ebd171c5964",
+      "size": 722,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/88b15efc8660413c4937067a6f621ebd171c5964"
+    },
+    {
+      "mode": "100644",
+      "path": "vite.config.ts",
+      "sha": "f0aa67ddb6b5067c5aece4678259caa57638aa5a",
+      "size": 6750,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/blobs/f0aa67ddb6b5067c5aece4678259caa57638aa5a"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/fac651e60a4b9bf7876a80bfa7438e825cb47caa"
+}

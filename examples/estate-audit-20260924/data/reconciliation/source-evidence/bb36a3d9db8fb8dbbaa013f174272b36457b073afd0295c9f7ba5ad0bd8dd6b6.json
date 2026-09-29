@@ -1,0 +1,450 @@
+{
+  "sha": "6a813593e46688f021a114ce5eb16816535bfde2",
+  "tree": [
+    {
+      "mode": "100644",
+      "path": ".gitattributes",
+      "sha": "af8d593835b447a74881a238f2eb975ea2109958",
+      "size": 238,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/af8d593835b447a74881a238f2eb975ea2109958"
+    },
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "a7d3b542e5ea1bf208666c37b47ceef535125d25",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/trees/a7d3b542e5ea1bf208666c37b47ceef535125d25"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "ac6e23bf35cc68bce0ab364667bb5b1acf1452a8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/trees/ac6e23bf35cc68bce0ab364667bb5b1acf1452a8"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/bench.yml",
+      "sha": "8c8f9d854204828d9e66b196df11d83904b44423",
+      "size": 3236,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/8c8f9d854204828d9e66b196df11d83904b44423"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "2f7df7c296f53c484ec1d7c37555c8ea58ad5fa4",
+      "size": 2819,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/2f7df7c296f53c484ec1d7c37555c8ea58ad5fa4"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "b6ac80f1d1ab9db39ea94eb5eb9ed379c7391738",
+      "size": 143,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/b6ac80f1d1ab9db39ea94eb5eb9ed379c7391738"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile",
+      "sha": "95f61cf0e170135caf8007630032eeb721ba26d0",
+      "size": 227,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/95f61cf0e170135caf8007630032eeb721ba26d0"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "6fc753f052612a992ee59f6d13f8e0e393bc45ae",
+      "size": 11361,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/6fc753f052612a992ee59f6d13f8e0e393bc45ae"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "1413d35443dad6a4ff7906046d022cc2a46d1013",
+      "size": 2682,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/1413d35443dad6a4ff7906046d022cc2a46d1013"
+    },
+    {
+      "mode": "040000",
+      "path": "app",
+      "sha": "a6413cee684ecf141065584e2fc27a3801d9235f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/trees/a6413cee684ecf141065584e2fc27a3801d9235f"
+    },
+    {
+      "mode": "100644",
+      "path": "app/main.py",
+      "sha": "b3e39245789f9e78e604d5a33561d5bf760057b7",
+      "size": 1174,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/b3e39245789f9e78e604d5a33561d5bf760057b7"
+    },
+    {
+      "mode": "040000",
+      "path": "configs",
+      "sha": "682cf3c02d57869692f85822a0ed33b2d2644df0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/trees/682cf3c02d57869692f85822a0ed33b2d2644df0"
+    },
+    {
+      "mode": "100644",
+      "path": "configs/prompts.json",
+      "sha": "38079347427c4964e6cb24970409d9c203d419d0",
+      "size": 636,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/38079347427c4964e6cb24970409d9c203d419d0"
+    },
+    {
+      "mode": "040000",
+      "path": "deploy",
+      "sha": "235791eeb12023fa04c2766535e4afdcfd783fb5",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/trees/235791eeb12023fa04c2766535e4afdcfd783fb5"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/RUNBOOK.md",
+      "sha": "254d09adc914c6a286e19c85a69325dbb0675e47",
+      "size": 1499,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/254d09adc914c6a286e19c85a69325dbb0675e47"
+    },
+    {
+      "mode": "040000",
+      "path": "deploy/bench-plane",
+      "sha": "ca816a84f5fc9ac7746d547531e23a7e9c869c24",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/trees/ca816a84f5fc9ac7746d547531e23a7e9c869c24"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/bench-plane/.gitignore",
+      "sha": "93b994bda25c32d4dabf5156709123cae4752dd2",
+      "size": 58,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/93b994bda25c32d4dabf5156709123cae4752dd2"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/bench-plane/BENCH_PLANE_OPERATIONS.md",
+      "sha": "1a077fa8e606999f0c0bf8dd7343ee53ee957e90",
+      "size": 16981,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/1a077fa8e606999f0c0bf8dd7343ee53ee957e90"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/bench-plane/finish_bench_plane.py",
+      "sha": "934bc5b2a7bd8641d75aa7cfcfc641293d022600",
+      "size": 141336,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/934bc5b2a7bd8641d75aa7cfcfc641293d022600"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/bench-plane/requirements-publish.txt",
+      "sha": "1e466dd636a99f38f7c0cfaeeed70b69101e5e60",
+      "size": 24,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/1e466dd636a99f38f7c0cfaeeed70b69101e5e60"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/bench-plane/szl-bench-suite.README.md",
+      "sha": "384d81d693f2def24e6dfe6290ac597ee41f92de",
+      "size": 2224,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/384d81d693f2def24e6dfe6290ac597ee41f92de"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/bench-plane/szl-bench-suite.index.html",
+      "sha": "0bc62e2e60848aa47232fef4bacd48b33f0c48f2",
+      "size": 21058,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/0bc62e2e60848aa47232fef4bacd48b33f0c48f2"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/bench-plane/test_bench_docker.py",
+      "sha": "6ee3915816024bd7f7bab339c78a717c6189209a",
+      "size": 8284,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/6ee3915816024bd7f7bab339c78a717c6189209a"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/bench-plane/test_bench_surface.mjs",
+      "sha": "de824bf999627801082e16ecdad4ee37243012d8",
+      "size": 11049,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/de824bf999627801082e16ecdad4ee37243012d8"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/bench-plane/test_finish_bench_plane.py",
+      "sha": "6f7432ecf98eab69e35bc380a7a2a1606e9ed8f4",
+      "size": 45994,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/6f7432ecf98eab69e35bc380a7a2a1606e9ed8f4"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/docker-compose.yml",
+      "sha": "0a175691192cba80ed093d2ab4a5d08eafadb83e",
+      "size": 376,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/0a175691192cba80ed093d2ab4a5d08eafadb83e"
+    },
+    {
+      "mode": "040000",
+      "path": "evidence",
+      "sha": "8c7b4c7ae7caf4fe9eb4e5407790b8fb57b74fbf",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/trees/8c7b4c7ae7caf4fe9eb4e5407790b8fb57b74fbf"
+    },
+    {
+      "mode": "100644",
+      "path": "evidence/eclipse-native-repaired-20260905.json",
+      "sha": "5c4572675d985e69d37c9506814565c2864c3c1d",
+      "size": 5966,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/5c4572675d985e69d37c9506814565c2864c3c1d"
+    },
+    {
+      "mode": "040000",
+      "path": "harness",
+      "sha": "96a79b21f3ba7bbb49fec16fff46acde69191a9f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/trees/96a79b21f3ba7bbb49fec16fff46acde69191a9f"
+    },
+    {
+      "mode": "100644",
+      "path": "harness/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "mode": "100644",
+      "path": "harness/client.py",
+      "sha": "a2dca103854935c1f0943efaa37f900ca4ffde8d",
+      "size": 4846,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/a2dca103854935c1f0943efaa37f900ca4ffde8d"
+    },
+    {
+      "mode": "100644",
+      "path": "harness/engine_registry.py",
+      "sha": "6a5501e3e178dd2e907d91f4ac13414265b11bfe",
+      "size": 2279,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/6a5501e3e178dd2e907d91f4ac13414265b11bfe"
+    },
+    {
+      "mode": "100644",
+      "path": "harness/metrics.py",
+      "sha": "e4c2ee6c5f6193e1693e7fb358abe30af4d24932",
+      "size": 2267,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/e4c2ee6c5f6193e1693e7fb358abe30af4d24932"
+    },
+    {
+      "mode": "100644",
+      "path": "harness/runner.py",
+      "sha": "f63225946b05d44e608aae4a71215b94e2a5a3de",
+      "size": 2813,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/f63225946b05d44e608aae4a71215b94e2a5a3de"
+    },
+    {
+      "mode": "040000",
+      "path": "receipts",
+      "sha": "5d46ad4395cf4310ba4d43c619328e0598dc868a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/trees/5d46ad4395cf4310ba4d43c619328e0598dc868a"
+    },
+    {
+      "mode": "100644",
+      "path": "receipts/000-genesis.json",
+      "sha": "37e1c375e5098eeb48a236b1e1dc93738a7ae562",
+      "size": 427,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/37e1c375e5098eeb48a236b1e1dc93738a7ae562"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements.txt",
+      "sha": "c60a450337e644897d6a55536731244a9845cd21",
+      "size": 39,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/c60a450337e644897d6a55536731244a9845cd21"
+    },
+    {
+      "mode": "040000",
+      "path": "site",
+      "sha": "1e31e53c9174183b0bd6b4ae295082ffde01f5c0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/trees/1e31e53c9174183b0bd6b4ae295082ffde01f5c0"
+    },
+    {
+      "mode": "100644",
+      "path": "site/README.md",
+      "sha": "9a921b80facf72c7914f6dfde586ce143d4a57e2",
+      "size": 474,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/9a921b80facf72c7914f6dfde586ce143d4a57e2"
+    },
+    {
+      "mode": "100644",
+      "path": "site/app.js",
+      "sha": "2eb0bade5b689522b0ea91e4eb0e03b1c412a45a",
+      "size": 8350,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/2eb0bade5b689522b0ea91e4eb0e03b1c412a45a"
+    },
+    {
+      "mode": "100644",
+      "path": "site/index.html",
+      "sha": "9aaa81edeb863568c61dff9c79240ac178f5a654",
+      "size": 4359,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/9aaa81edeb863568c61dff9c79240ac178f5a654"
+    },
+    {
+      "mode": "100644",
+      "path": "site/style.css",
+      "sha": "b2b4363e45f97cce9285e12162eb733349dd37a0",
+      "size": 8139,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/b2b4363e45f97cce9285e12162eb733349dd37a0"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "969684cc06452b3731fd3d624d74d88b604af6d1",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/trees/969684cc06452b3731fd3d624d74d88b604af6d1"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/mock_server.py",
+      "sha": "684e254122509e32073054ac319933d2b64b9905",
+      "size": 1501,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/684e254122509e32073054ac319933d2b64b9905"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_client.py",
+      "sha": "cb0411a9a156e852a183f3b184c5200b74ef1057",
+      "size": 7084,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/cb0411a9a156e852a183f3b184c5200b74ef1057"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_merge_results.py",
+      "sha": "d5acdf0d369540ff8bd0ee6bd275df7ac10e8960",
+      "size": 3800,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/d5acdf0d369540ff8bd0ee6bd275df7ac10e8960"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_metrics.py",
+      "sha": "112bd9329d40fef689f04de7e9326d85cb94015f",
+      "size": 1604,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/112bd9329d40fef689f04de7e9326d85cb94015f"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_publish_space.py",
+      "sha": "0509393fbc0e08810477139e4535f1e0c841f267",
+      "size": 22576,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/0509393fbc0e08810477139e4535f1e0c841f267"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_space_bundle.py",
+      "sha": "ca9273dab62c9561e07791e7eaa669f7a2c3db0b",
+      "size": 3111,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/ca9273dab62c9561e07791e7eaa669f7a2c3db0b"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_sync_results.py",
+      "sha": "1b184f800a5fafafb4add44d4c080b91e65e84da",
+      "size": 2458,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/1b184f800a5fafafb4add44d4c080b91e65e84da"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_verifier.py",
+      "sha": "d326ac4d7edc73c24ed3733b0945c70df8d4701f",
+      "size": 2372,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/d326ac4d7edc73c24ed3733b0945c70df8d4701f"
+    },
+    {
+      "mode": "040000",
+      "path": "tools",
+      "sha": "5f7272b1e7f77aaf0f5f976b625ab0f388eaa176",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/trees/5f7272b1e7f77aaf0f5f976b625ab0f388eaa176"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/merge_results.py",
+      "sha": "44eadb222a590b13cee0d7ac8117c8dbdc09036c",
+      "size": 7018,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/44eadb222a590b13cee0d7ac8117c8dbdc09036c"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/publish_space.py",
+      "sha": "a7c8fa06c723ada3b6f912fdc9b2e30e8b5eb1e8",
+      "size": 18776,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/a7c8fa06c723ada3b6f912fdc9b2e30e8b5eb1e8"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/sync_results.py",
+      "sha": "96080a6a9ba9eae7a9fa66950eb5d2970b4e8bbe",
+      "size": 2508,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/96080a6a9ba9eae7a9fa66950eb5d2970b4e8bbe"
+    },
+    {
+      "mode": "040000",
+      "path": "verify",
+      "sha": "f140c317158cde5b5e5a0ba489fc00c3391b218d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/trees/f140c317158cde5b5e5a0ba489fc00c3391b218d"
+    },
+    {
+      "mode": "100644",
+      "path": "verify/verifier.py",
+      "sha": "d416a550ff01bc1360f2a92691469fd8af6209b5",
+      "size": 3179,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/blobs/d416a550ff01bc1360f2a92691469fd8af6209b5"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/frontier-bench/git/trees/6a813593e46688f021a114ce5eb16816535bfde2"
+}

@@ -1,0 +1,36 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 9684,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:46Z",
+      "path": "data/reconciliation/source-evidence/664440b3c195c825f1046c818ef0ee763d13b532528c2d765bb87cb6682b90be.json",
+      "revision": "af6ff5ec87e25ee057271312823d40dd4f433c20",
+      "sha256": "664440b3c195c825f1046c818ef0ee763d13b532528c2d765bb87cb6682b90be",
+      "source_identity": "github/szl-holdings/cosmos",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/cosmos/git/trees/af6ff5ec87e25ee057271312823d40dd4f433c20?recursive=1"
+    }
+  ],
+  "file_count": 28,
+  "id": "github/szl-holdings/cosmos",
+  "license_paths": [],
+  "observed_revision": "af6ff5ec87e25ee057271312823d40dd4f433c20",
+  "root_paths": [
+    ".gitattributes",
+    "Dockerfile",
+    "NOTICE",
+    "README.md",
+    "SPACE_PROVENANCE.json",
+    "app.js",
+    "data",
+    "index.html",
+    "og.png",
+    "og.svg",
+    "server.py",
+    "szl_source_attestation.py",
+    "tests",
+    "vendor"
+  ]
+}

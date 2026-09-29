@@ -1,0 +1,114 @@
+{
+  "sha": "0303c8ae0d81b4912f01dc59a6a47d5447c32768",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "eb1a25ae105d1e90f79b3f06f821596f2e25c28d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lambda-gate-holo/git/trees/eb1a25ae105d1e90f79b3f06f821596f2e25c28d"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "f34ba6c2b3b8b8461a23c9c28f0f85be5631df2e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lambda-gate-holo/git/trees/f34ba6c2b3b8b8461a23c9c28f0f85be5631df2e"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-static-space.yml",
+      "sha": "24f237546b30e2dc8a3cedc76039e50dbb07d1a0",
+      "size": 42884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lambda-gate-holo/git/blobs/24f237546b30e2dc8a3cedc76039e50dbb07d1a0"
+    },
+    {
+      "mode": "100644",
+      "path": ".hf-space.json",
+      "sha": "7d0129beb2f8565308c4b8afc76b1592ca1ae587",
+      "size": 352,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lambda-gate-holo/git/blobs/7d0129beb2f8565308c4b8afc76b1592ca1ae587"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "6a400e011f1cf8f455404c167c99d81d7b3ba1ab",
+      "size": 11343,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lambda-gate-holo/git/blobs/6a400e011f1cf8f455404c167c99d81d7b3ba1ab"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "a56010d4d1258563719008f771dd7e070e25e468",
+      "size": 2226,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lambda-gate-holo/git/blobs/a56010d4d1258563719008f771dd7e070e25e468"
+    },
+    {
+      "mode": "100644",
+      "path": "index.html",
+      "sha": "0b9a64baec84a935148432c3ce57afb2f28c16e7",
+      "size": 15581,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lambda-gate-holo/git/blobs/0b9a64baec84a935148432c3ce57afb2f28c16e7"
+    },
+    {
+      "mode": "040000",
+      "path": "requirements",
+      "sha": "c4a2349eb027c2f71bdd75c37be8d80213fd37c4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lambda-gate-holo/git/trees/c4a2349eb027c2f71bdd75c37be8d80213fd37c4"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements/hf-publisher.lock",
+      "sha": "89923e2e202cfc99961e39d5b00b8ea7196d2c58",
+      "size": 2322,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lambda-gate-holo/git/blobs/89923e2e202cfc99961e39d5b00b8ea7196d2c58"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements/hf-validator.lock",
+      "sha": "ffa192b083d49aa273afe77085b28c54f2f043dc",
+      "size": 265,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lambda-gate-holo/git/blobs/ffa192b083d49aa273afe77085b28c54f2f043dc"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "06974463da0af803f0d1ae6a0de90db37e23a17b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lambda-gate-holo/git/trees/06974463da0af803f0d1ae6a0de90db37e23a17b"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/hf_static_space.py",
+      "sha": "b98ded929819241d7ede46db288241c60d2c318b",
+      "size": 104890,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lambda-gate-holo/git/blobs/b98ded929819241d7ede46db288241c60d2c318b"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "38b420361dd06475c5dbff1e21d453cc76cd6876",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lambda-gate-holo/git/trees/38b420361dd06475c5dbff1e21d453cc76cd6876"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_hf_static_space.py",
+      "sha": "0e529be94f2e6c089c2c1532a7649add6bd034bf",
+      "size": 115407,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lambda-gate-holo/git/blobs/0e529be94f2e6c089c2c1532a7649add6bd034bf"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/lambda-gate-holo/git/trees/0303c8ae0d81b4912f01dc59a6a47d5447c32768"
+}

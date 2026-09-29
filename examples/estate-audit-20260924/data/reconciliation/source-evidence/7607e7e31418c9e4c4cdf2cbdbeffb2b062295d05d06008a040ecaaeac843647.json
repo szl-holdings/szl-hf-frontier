@@ -1,0 +1,114 @@
+{
+  "sha": "6851c00110b275d8207c8038ffc78886cdff55fb",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "bf825e4ffa36a6e15fd6c1a62603d40795b11925",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/energy-attest-holo/git/trees/bf825e4ffa36a6e15fd6c1a62603d40795b11925"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "a51d0efa8998c5924158407a276dcf8a1736a1e2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/energy-attest-holo/git/trees/a51d0efa8998c5924158407a276dcf8a1736a1e2"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-static-space.yml",
+      "sha": "bf8e531cb427a49c2ea3efebd945e6e8f6aeecb7",
+      "size": 42885,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/energy-attest-holo/git/blobs/bf8e531cb427a49c2ea3efebd945e6e8f6aeecb7"
+    },
+    {
+      "mode": "100644",
+      "path": ".hf-space.json",
+      "sha": "b52e939dec09eaf28786f92094b2dcc48c4991a5",
+      "size": 320,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/energy-attest-holo/git/blobs/b52e939dec09eaf28786f92094b2dcc48c4991a5"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "6a400e011f1cf8f455404c167c99d81d7b3ba1ab",
+      "size": 11343,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/energy-attest-holo/git/blobs/6a400e011f1cf8f455404c167c99d81d7b3ba1ab"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "dda645d8ee8a9b51d15375409c8f16cb4e2a8daa",
+      "size": 2554,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/energy-attest-holo/git/blobs/dda645d8ee8a9b51d15375409c8f16cb4e2a8daa"
+    },
+    {
+      "mode": "100644",
+      "path": "index.html",
+      "sha": "fcf8e08964d4bd7e5683afe3b064057ad8973fa0",
+      "size": 25084,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/energy-attest-holo/git/blobs/fcf8e08964d4bd7e5683afe3b064057ad8973fa0"
+    },
+    {
+      "mode": "040000",
+      "path": "requirements",
+      "sha": "c4a2349eb027c2f71bdd75c37be8d80213fd37c4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/energy-attest-holo/git/trees/c4a2349eb027c2f71bdd75c37be8d80213fd37c4"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements/hf-publisher.lock",
+      "sha": "89923e2e202cfc99961e39d5b00b8ea7196d2c58",
+      "size": 2322,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/energy-attest-holo/git/blobs/89923e2e202cfc99961e39d5b00b8ea7196d2c58"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements/hf-validator.lock",
+      "sha": "ffa192b083d49aa273afe77085b28c54f2f043dc",
+      "size": 265,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/energy-attest-holo/git/blobs/ffa192b083d49aa273afe77085b28c54f2f043dc"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "e4590071740ac7f0989dc99bb4b164eaea58f84f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/energy-attest-holo/git/trees/e4590071740ac7f0989dc99bb4b164eaea58f84f"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/hf_static_space.py",
+      "sha": "8a6c8709d04566d5224991db4238dce55f961658",
+      "size": 98062,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/energy-attest-holo/git/blobs/8a6c8709d04566d5224991db4238dce55f961658"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "19c2093b4138a8ebe3230bb2f249df26bba81ad2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/energy-attest-holo/git/trees/19c2093b4138a8ebe3230bb2f249df26bba81ad2"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_hf_static_space.py",
+      "sha": "75249b52282bc997c4330b213890edb710a7b621",
+      "size": 110595,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/energy-attest-holo/git/blobs/75249b52282bc997c4330b213890edb710a7b621"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/energy-attest-holo/git/trees/6851c00110b275d8207c8038ffc78886cdff55fb"
+}

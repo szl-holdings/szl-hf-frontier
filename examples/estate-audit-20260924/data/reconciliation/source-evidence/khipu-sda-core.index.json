@@ -1,0 +1,42 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 9930,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:51Z",
+      "path": "data/reconciliation/source-evidence/8b6e43d749fc086efc4bd1d9c2eb11305233f28208bd54c2c16c48f97a4595fe.json",
+      "revision": "bac231d7ad33c9bbee5ea2cb875e77cb08cc2b82",
+      "sha256": "8b6e43d749fc086efc4bd1d9c2eb11305233f28208bd54c2c16c48f97a4595fe",
+      "source_identity": "github/szl-holdings/khipu-sda-core",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/trees/bac231d7ad33c9bbee5ea2cb875e77cb08cc2b82?recursive=1"
+    }
+  ],
+  "file_count": 30,
+  "id": "github/szl-holdings/khipu-sda-core",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "bac231d7ad33c9bbee5ea2cb875e77cb08cc2b82",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "ATTRIBUTION.md",
+    "CODEOWNERS",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "THIRD_PARTY_NOTICES",
+    "requirements.txt",
+    "szl_confidence.py",
+    "szl_mosaic_core.py",
+    "szl_mosaic_validate.py",
+    "szl_sda_envelope.py",
+    "szl_sda_orbit.py",
+    "szl_sda_spine.py",
+    "szl_track_fusion.py",
+    "szl_witness.py",
+    "tests"
+  ]
+}

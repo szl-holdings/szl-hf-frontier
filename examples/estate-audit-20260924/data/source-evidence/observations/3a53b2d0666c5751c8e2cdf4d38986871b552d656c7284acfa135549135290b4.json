@@ -1,0 +1,49 @@
+{
+  "card": "---\nlicense: apache-2.0\npretty_name: Why We Lead \u2014 HISTORICAL Doctrine v7\nlanguage:\n  - en\ntags:\n  - historical\n  - doctrine-v7\n  - snapshot\n  - szl-holdings\n  - positioning\nsize_categories:\n  - n<1K\ntask_categories:\n  - other\n---\n\n# Why We Lead \u2014 HISTORICAL (Doctrine v7, not current)\n\n**HISTORICAL.** This dataset is a Doctrine **v7** positioning snapshot. It is **not** current Doctrine **v11**. Do not present any count in these files as current **MEASURED**. Images and text are frozen audit copies.\n\nAn investor opening this ID should treat every metric as a **SNAPSHOT** of an old document, not the live org.\n\n## What it is / is NOT\n\n- **IS:** a historical positioning corpus (Doctrine v7 era) plus images under `images/`.\n- **NOT:** current doctrine. Not a live Lean dashboard. Not current Space/dataset/model inventory. Not an Anthropic artefact.\n\n## Status\n\n| Thing | Label | Method / N / date / what-NOT |\n|---|---|---|\n| Document vintage | **SNAPSHOT** | Hub files last listed 2026-08-28 ~6:56pm ET: README + `SZL_ESTATE_MANAGED.json` + 11 images. Doctrine labeled **v7**. What-NOT: not v11. |\n| Counts in-document (Lean, Spaces, datasets) | **SNAPSHOT** | Whatever the v7 text said on its own date (one table was dated 2026-05-30). What-NOT: not current MEASURED; this ID did not re-run those counts. |\n| Current doctrine | **REACHABLE elsewhere** | Live org: [`huggingface.co/SZLHOLDINGS`](https://huggingface.co/SZLHOLDINGS). Do not read this dataset's badges as today's kernel. |\n\n\u039b = Conjecture 1 on **current** doctrine \u2014 never a theorem. This snapshot must not be used to greenwash a number.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 606,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/b57d7d085200180102f79dbd8ffc17c5b7c9e334f5399cf7a33c75495178de41.json",
+      "revision": "51df5c36889742255e9bee91b156cde58ff99bb3",
+      "sha256": "b57d7d085200180102f79dbd8ffc17c5b7c9e334f5399cf7a33c75495178de41",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/datasets/SZLHOLDINGS/why-we-lead/revision/51df5c36889742255e9bee91b156cde58ff99bb3"
+    },
+    {
+      "bytes": 1618,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/c58289fee591efa76df92c0294898923beb69705ee1d48c8a70ce24e8b88e1bd.md",
+      "revision": "51df5c36889742255e9bee91b156cde58ff99bb3",
+      "sha256": "c58289fee591efa76df92c0294898923beb69705ee1d48c8a70ce24e8b88e1bd",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/datasets/SZLHOLDINGS/why-we-lead/resolve/51df5c36889742255e9bee91b156cde58ff99bb3/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "images/anatomy_substrate_run.png",
+    "images/arch_a11oy.png",
+    "images/doi_chain.png",
+    "images/hero_keyvisual.png",
+    "images/innovation_matrix.png",
+    "images/proof_chain.png",
+    "images/proof_lean_chain.png",
+    "images/receipt_dsse.png",
+    "images/receipt_slsa.png",
+    "images/theorem_density.png",
+    "images/uds_span_topology.png",
+    "provenance.json",
+    "status.json"
+  ],
+  "id": "huggingface-dataset/szlholdings/why-we-lead",
+  "observed_at": "2026-09-24T12:29:47Z",
+  "observed_revision": "51df5c36889742255e9bee91b156cde58ff99bb3"
+}

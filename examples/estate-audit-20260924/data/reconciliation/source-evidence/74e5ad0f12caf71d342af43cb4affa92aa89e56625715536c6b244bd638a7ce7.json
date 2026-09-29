@@ -1,0 +1,1186 @@
+{
+  "sha": "172f52ecfc2cc7babac78bffde79517b38fcdb42",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".devcontainer",
+      "sha": "c7384209ef225d3f86672094459dadc8c7cf9740",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/c7384209ef225d3f86672094459dadc8c7cf9740"
+    },
+    {
+      "mode": "100644",
+      "path": ".devcontainer/devcontainer.json",
+      "sha": "d3afcd2e15c5c14d8646fb000e87dfc8dc005558",
+      "size": 741,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/d3afcd2e15c5c14d8646fb000e87dfc8dc005558"
+    },
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "c817913dc4e67205fecb45dee7967331ae5445e8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/c817913dc4e67205fecb45dee7967331ae5445e8"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODEOWNERS",
+      "sha": "e3a543f46019d7d035ea135ee4a82468956663e9",
+      "size": 72,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/e3a543f46019d7d035ea135ee4a82468956663e9"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "sha": "415a0a14aebe0102d5db82dcc51dde5db16619f0",
+      "size": 600,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/415a0a14aebe0102d5db82dcc51dde5db16619f0"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CONTRIBUTING.md",
+      "sha": "5395adb4800a22e7fa4883e023301bdc80246bcf",
+      "size": 804,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/5395adb4800a22e7fa4883e023301bdc80246bcf"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/ISSUE_TEMPLATE",
+      "sha": "b406cf7e4f23537f8539f6f81f4cbb4d2eae3f2b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/b406cf7e4f23537f8539f6f81f4cbb4d2eae3f2b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha": "a7c1834f7f391ab52cb7efafe6dffe86e69d54d7",
+      "size": 156,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/a7c1834f7f391ab52cb7efafe6dffe86e69d54d7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "2c7fa02994b4d1e777139a1056acfe0cfc48b806",
+      "size": 224,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/2c7fa02994b4d1e777139a1056acfe0cfc48b806"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha": "2172fe4a415edecdbe763328b04d826137d25987",
+      "size": 169,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/2172fe4a415edecdbe763328b04d826137d25987"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/dependabot.yml",
+      "sha": "b5c2493c6f3d7c3049bf4bc00f85e0ded268f917",
+      "size": 720,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/b5c2493c6f3d7c3049bf4bc00f85e0ded268f917"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/pull_request_template.md",
+      "sha": "fbc961ca36e0bdad281263470f3d054f6bc98d44",
+      "size": 384,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/fbc961ca36e0bdad281263470f3d054f6bc98d44"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "16f7dc3fa1db77bae41e7b82043d0d30f79fa84c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/16f7dc3fa1db77bae41e7b82043d0d30f79fa84c"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/bundle-ref-check.yml",
+      "sha": "900d8289a09784be29c0c86d1fa5fafd0465cd36",
+      "size": 1114,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/900d8289a09784be29c0c86d1fa5fafd0465cd36"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "0604b15bfb85e4af06ef8f31824c7b11895b8931",
+      "size": 1407,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/0604b15bfb85e4af06ef8f31824c7b11895b8931"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/codeql.yml",
+      "sha": "a25233876d4354067881ec4dff0050e2a845a0b2",
+      "size": 1247,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/a25233876d4354067881ec4dff0050e2a845a0b2"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/dco.yml",
+      "sha": "45673cb35d111e3f22ab496ce4decb4d79258274",
+      "size": 1660,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/45673cb35d111e3f22ab496ce4decb4d79258274"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/fuzz.yml",
+      "sha": "c343598e6e4a3f4ac7a641dab2998d23bc981729",
+      "size": 628,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/c343598e6e4a3f4ac7a641dab2998d23bc981729"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/overclaim-guard.yml",
+      "sha": "7d6be6ea81d2fb1f4829869c1f06c416f581d633",
+      "size": 691,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/7d6be6ea81d2fb1f4829869c1f06c416f581d633"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/pin-check.yml",
+      "sha": "f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621",
+      "size": 586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/release-please.yml",
+      "sha": "add55b9efbe50eb511944e0e0be7c503107e2cb3",
+      "size": 1414,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/add55b9efbe50eb511944e0e0be7c503107e2cb3"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/sbom.yml",
+      "sha": "ea3a30d3e9939146aa39b3b4e478465ddf0c9fe4",
+      "size": 1184,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/ea3a30d3e9939146aa39b3b4e478465ddf0c9fe4"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/scorecard.yml",
+      "sha": "413b7d11c683c5cd651be7ffdf3fbc8bdfd88fb5",
+      "size": 1285,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/413b7d11c683c5cd651be7ffdf3fbc8bdfd88fb5"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/tests.yml",
+      "sha": "6840b96aaad72b667884fe57e268fedb77e95a01",
+      "size": 3821,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/6840b96aaad72b667884fe57e268fedb77e95a01"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/version-doctrine.yml",
+      "sha": "e94d5905ee053e3ec076028f41b38f0812444a61",
+      "size": 1329,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/e94d5905ee053e3ec076028f41b38f0812444a61"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "48c723254026fd0de0f3101d3fe0ca0af063c16d",
+      "size": 91,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/48c723254026fd0de0f3101d3fe0ca0af063c16d"
+    },
+    {
+      "mode": "100644",
+      "path": ".markdownlint.json",
+      "sha": "d22f1b3cfc7fe6ff53f1b9e315454a8f923c9b04",
+      "size": 93,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/d22f1b3cfc7fe6ff53f1b9e315454a8f923c9b04"
+    },
+    {
+      "mode": "100644",
+      "path": ".pre-commit-config.yaml",
+      "sha": "075c1367064a0a13ae72af2e699b919879751c70",
+      "size": 447,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/075c1367064a0a13ae72af2e699b919879751c70"
+    },
+    {
+      "mode": "100644",
+      "path": ".release-please-manifest.json",
+      "sha": "37fcefaab34b8e0029e32254fbe848f1e4f73009",
+      "size": 19,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/37fcefaab34b8e0029e32254fbe848f1e4f73009"
+    },
+    {
+      "mode": "100644",
+      "path": "AGENTS.md",
+      "sha": "e3f22b04b5419f1349b869679e05acf2008c8269",
+      "size": 1962,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/e3f22b04b5419f1349b869679e05acf2008c8269"
+    },
+    {
+      "mode": "100644",
+      "path": "CANONICAL.md",
+      "sha": "74d8d621801449b61c58ad1ee299dfff95d93172",
+      "size": 2557,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/74d8d621801449b61c58ad1ee299dfff95d93172"
+    },
+    {
+      "mode": "100644",
+      "path": "CHANGELOG.md",
+      "sha": "9d82784c0e7b61ddd06faceabb8c81f5e01e64d5",
+      "size": 10747,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/9d82784c0e7b61ddd06faceabb8c81f5e01e64d5"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "dc409c195348ec860c35783ce024348035e220bb",
+      "size": 1501,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/dc409c195348ec860c35783ce024348035e220bb"
+    },
+    {
+      "mode": "100644",
+      "path": "CODEOWNERS",
+      "sha": "e4b1a947665b83a89f04657cf4ef3843c85b6aa2",
+      "size": 214,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/e4b1a947665b83a89f04657cf4ef3843c85b6aa2"
+    },
+    {
+      "mode": "100644",
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "44d54ed7336631472360ec97a73799a457bc10ad",
+      "size": 5533,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/44d54ed7336631472360ec97a73799a457bc10ad"
+    },
+    {
+      "mode": "100644",
+      "path": "CONTRIBUTING.md",
+      "sha": "74caa98c978f9da6ec2b84cfa0f83816f26d918d",
+      "size": 2025,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/74caa98c978f9da6ec2b84cfa0f83816f26d918d"
+    },
+    {
+      "mode": "100644",
+      "path": "HONEST_ROLES.md",
+      "sha": "8a2b4a36a6b966f5131090e125acbe02aeb556c6",
+      "size": 2122,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/8a2b4a36a6b966f5131090e125acbe02aeb556c6"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "e5b2ba69d9fff488b9c5fb9ab1bb2a50fa22e946",
+      "size": 9841,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/e5b2ba69d9fff488b9c5fb9ab1bb2a50fa22e946"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "15e01622b0864ef707b34c518f0fabfc71f95933",
+      "size": 2546,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/15e01622b0864ef707b34c518f0fabfc71f95933"
+    },
+    {
+      "mode": "100644",
+      "path": "STATUS.md",
+      "sha": "09ff1876ab8d08547f4b06007b9126f85878d7e4",
+      "size": 578,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/09ff1876ab8d08547f4b06007b9126f85878d7e4"
+    },
+    {
+      "mode": "100644",
+      "path": "VERSION",
+      "sha": "4829d14b00d04bc3f77fc4e9c258f03b04537471",
+      "size": 11,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/4829d14b00d04bc3f77fc4e9c258f03b04537471"
+    },
+    {
+      "mode": "040000",
+      "path": "bundles",
+      "sha": "b798639a32ad42ae0fed7b65fc1dcf9ebccfbf28",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/b798639a32ad42ae0fed7b65fc1dcf9ebccfbf28"
+    },
+    {
+      "mode": "040000",
+      "path": "bundles/v0.3.1-demo",
+      "sha": "c5f4bc9a4f8bfc35648f9f832e2851db5d996fdb",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/c5f4bc9a4f8bfc35648f9f832e2851db5d996fdb"
+    },
+    {
+      "mode": "100644",
+      "path": "bundles/v0.3.1-demo/README.md",
+      "sha": "6b8756e13e92fec0b52b694b87f7678b44ba1c32",
+      "size": 3911,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/6b8756e13e92fec0b52b694b87f7678b44ba1c32"
+    },
+    {
+      "mode": "100644",
+      "path": "bundles/v0.3.1-demo/uds-bundle.yaml",
+      "sha": "28c53727fe1a540d473c5706d2e765bb0b3677a3",
+      "size": 4560,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/28c53727fe1a540d473c5706d2e765bb0b3677a3"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "bf2f43645c931882c31ff06d5765e866b730eb24",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/bf2f43645c931882c31ff06d5765e866b730eb24"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/BFT_SINGLE_SIGNER_CAVEAT.md",
+      "sha": "fb6890d20051ea289a1fdd40853675bb2cf244b1",
+      "size": 2726,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/fb6890d20051ea289a1fdd40853675bb2cf244b1"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/FLP_CAP_CAVEAT.md",
+      "sha": "c8d2a99187cabef46678b185a9d7e7a07addabc1",
+      "size": 2183,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/c8d2a99187cabef46678b185a9d7e7a07addabc1"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/MESH.md",
+      "sha": "11ecf3e40ec147621265b5a55f453df7bfd36288",
+      "size": 15423,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/11ecf3e40ec147621265b5a55f453df7bfd36288"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/MESH_RUNBOOK.md",
+      "sha": "4fe591a56d83214c7fad5f52d9ef18a25bec57ff",
+      "size": 5884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/4fe591a56d83214c7fad5f52d9ef18a25bec57ff"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/UDS_v0.3.1_RELEASE_PLAN.md",
+      "sha": "05c6d72ee02596486aa6e71dd8c5cec35c80d782",
+      "size": 4625,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/05c6d72ee02596486aa6e71dd8c5cec35c80d782"
+    },
+    {
+      "mode": "040000",
+      "path": "docs/roadmap",
+      "sha": "20b41b5a57867ed1a8764e376906ffd914350d19",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/20b41b5a57867ed1a8764e376906ffd914350d19"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/roadmap/MESH_INTERCONNECT.md",
+      "sha": "1be4f42dee9744ada2442abb45ae950f40d58cc1",
+      "size": 6398,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/1be4f42dee9744ada2442abb45ae950f40d58cc1"
+    },
+    {
+      "mode": "100644",
+      "path": "extended-attestations.jsonl",
+      "sha": "b27a036caf57ed659bf285e8d756eed9847618cd",
+      "size": 2414,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/b27a036caf57ed659bf285e8d756eed9847618cd"
+    },
+    {
+      "mode": "100644",
+      "path": "formula_receipts.py",
+      "sha": "2d31586b003529fe405934c62d102b77135e53e9",
+      "size": 13970,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/2d31586b003529fe405934c62d102b77135e53e9"
+    },
+    {
+      "mode": "040000",
+      "path": "manifests",
+      "sha": "ad4e44ca487debdf27a066c9e28fd09e0189ca8b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/ad4e44ca487debdf27a066c9e28fd09e0189ca8b"
+    },
+    {
+      "mode": "100644",
+      "path": "manifests/README.md",
+      "sha": "bb5c1a0b1538ac68068d2a83766c1c24dc80e9fd",
+      "size": 3938,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/bb5c1a0b1538ac68068d2a83766c1c24dc80e9fd"
+    },
+    {
+      "mode": "040000",
+      "path": "manifests/istio",
+      "sha": "4d105b9d270d49de714d079352a70b1ebe37d9f5",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/4d105b9d270d49de714d079352a70b1ebe37d9f5"
+    },
+    {
+      "mode": "100644",
+      "path": "manifests/istio/destination-rule.yaml",
+      "sha": "a92a9411fafcc24ea6a93758edefb6a39a93fe2a",
+      "size": 1153,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/a92a9411fafcc24ea6a93758edefb6a39a93fe2a"
+    },
+    {
+      "mode": "100644",
+      "path": "manifests/istio/peer-authentication.yaml",
+      "sha": "dad04bf5dd514702d55c14cdf011caa572a68ac5",
+      "size": 1590,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/dad04bf5dd514702d55c14cdf011caa572a68ac5"
+    },
+    {
+      "mode": "040000",
+      "path": "manifests/netpol",
+      "sha": "2e1d44428b847f0813b1e20d70e0a08e10631101",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/2e1d44428b847f0813b1e20d70e0a08e10631101"
+    },
+    {
+      "mode": "100644",
+      "path": "manifests/netpol/network-policies.yaml",
+      "sha": "c00aa15cdb0cda209ddf761f5c538982d388e45a",
+      "size": 3556,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/c00aa15cdb0cda209ddf761f5c538982d388e45a"
+    },
+    {
+      "mode": "040000",
+      "path": "manifests/otel",
+      "sha": "347aa7f5792512b1d093087731807e6a25c203b6",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/347aa7f5792512b1d093087731807e6a25c203b6"
+    },
+    {
+      "mode": "100644",
+      "path": "manifests/otel/collector.yaml",
+      "sha": "223f40217eecb5eac3733b57c14598c317db270e",
+      "size": 4089,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/223f40217eecb5eac3733b57c14598c317db270e"
+    },
+    {
+      "mode": "040000",
+      "path": "mesh",
+      "sha": "9dbbaba74352449aea8b41028563cf7ba91579c6",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/9dbbaba74352449aea8b41028563cf7ba91579c6"
+    },
+    {
+      "mode": "100644",
+      "path": "mesh/__init__.py",
+      "sha": "823c99b0acf816e07151123940fdc45d9c10829f",
+      "size": 1411,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/823c99b0acf816e07151123940fdc45d9c10829f"
+    },
+    {
+      "mode": "040000",
+      "path": "mesh/conformance",
+      "sha": "856375b6d16b403c77f4eb0a2c9c1a07dcf8f412",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/856375b6d16b403c77f4eb0a2c9c1a07dcf8f412"
+    },
+    {
+      "mode": "100644",
+      "path": "mesh/conformance/README.md",
+      "sha": "94c0b4876320d70d41e0edfe1a2fd2dde5aca8bd",
+      "size": 1224,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/94c0b4876320d70d41e0edfe1a2fd2dde5aca8bd"
+    },
+    {
+      "mode": "100644",
+      "path": "mesh/conformance/test_schema_conformance.py",
+      "sha": "c9fe6a5cda21b2f48afa568a686fe12ef1d9e696",
+      "size": 6874,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/c9fe6a5cda21b2f48afa568a686fe12ef1d9e696"
+    },
+    {
+      "mode": "040000",
+      "path": "mesh/formulas",
+      "sha": "960473c0eb66d43fbd4b7d1434775350b402ffc7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/960473c0eb66d43fbd4b7d1434775350b402ffc7"
+    },
+    {
+      "mode": "100644",
+      "path": "mesh/formulas/__init__.py",
+      "sha": "701600b9689a91b868b7ca90e1de5086bfb2c7bb",
+      "size": 1216,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/701600b9689a91b868b7ca90e1de5086bfb2c7bb"
+    },
+    {
+      "mode": "100644",
+      "path": "mesh/formulas/bls_aggregate.py",
+      "sha": "f5b5cb48e6617d2a2c188acbdd33de03831256ed",
+      "size": 4509,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/f5b5cb48e6617d2a2c188acbdd33de03831256ed"
+    },
+    {
+      "mode": "100644",
+      "path": "mesh/formulas/pac_bayes_quorum.py",
+      "sha": "d3fd9b3668f960e9d6855ff550da521fcd28fa7e",
+      "size": 5509,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/d3fd9b3668f960e9d6855ff550da521fcd28fa7e"
+    },
+    {
+      "mode": "100644",
+      "path": "mesh/formulas/welford_streaming.py",
+      "sha": "5378d0911377d7f8284afa17401173d9934e1cee",
+      "size": 3487,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/5378d0911377d7f8284afa17401173d9934e1cee"
+    },
+    {
+      "mode": "040000",
+      "path": "mesh/sdk",
+      "sha": "084447d0154ee17b3f0ddf06b08351f2288cfcec",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/084447d0154ee17b3f0ddf06b08351f2288cfcec"
+    },
+    {
+      "mode": "100644",
+      "path": "mesh/sdk/README.md",
+      "sha": "f76c7502f54da2bdea967012370265755d632962",
+      "size": 3156,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/f76c7502f54da2bdea967012370265755d632962"
+    },
+    {
+      "mode": "100644",
+      "path": "mesh/sdk/__init__.py",
+      "sha": "2597e09ab6d5608bcda929767e7e9f411904c676",
+      "size": 273,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/2597e09ab6d5608bcda929767e7e9f411904c676"
+    },
+    {
+      "mode": "100644",
+      "path": "mesh/sdk/mesh.py",
+      "sha": "f8c01170c9b6360bf45e6c442b072695023fa9f4",
+      "size": 17095,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/f8c01170c9b6360bf45e6c442b072695023fa9f4"
+    },
+    {
+      "mode": "100644",
+      "path": "mesh/sdk/mesh.ts",
+      "sha": "3c5d8ffdfbafd7c46347a796528ba6edb4b23a1b",
+      "size": 10219,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/3c5d8ffdfbafd7c46347a796528ba6edb4b23a1b"
+    },
+    {
+      "mode": "100644",
+      "path": "mesh/sdk/package.json",
+      "sha": "5d2b3b31a2437186369cebb45c28743a17e69c75",
+      "size": 570,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/5d2b3b31a2437186369cebb45c28743a17e69c75"
+    },
+    {
+      "mode": "040000",
+      "path": "pepr",
+      "sha": "1800c863b712e7b3fcff4a572c0622243ea15e74",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/1800c863b712e7b3fcff4a572c0622243ea15e74"
+    },
+    {
+      "mode": "100644",
+      "path": "pepr/governance-receipts-pqc.ts",
+      "sha": "fafd2144d698aeaa8065add70938f8c4b6a18d35",
+      "size": 15817,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/fafd2144d698aeaa8065add70938f8c4b6a18d35"
+    },
+    {
+      "mode": "100644",
+      "path": "pinn_dsse.py",
+      "sha": "9607d6c68ab437696adf95eaf342c84d3112de20",
+      "size": 8852,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/9607d6c68ab437696adf95eaf342c84d3112de20"
+    },
+    {
+      "mode": "100644",
+      "path": "release-please-config.json",
+      "sha": "af5d6e3cefd368bd8e77678ab54f92dd9f4e1162",
+      "size": 1139,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/af5d6e3cefd368bd8e77678ab54f92dd9f4e1162"
+    },
+    {
+      "mode": "040000",
+      "path": "schemas",
+      "sha": "d5c835952e93149655e8d4f737cb8a7a0029673e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/d5c835952e93149655e8d4f737cb8a7a0029673e"
+    },
+    {
+      "mode": "040000",
+      "path": "schemas/spans",
+      "sha": "f03bd06886c6b680d50d74328e5db647d568396c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/f03bd06886c6b680d50d74328e5db647d568396c"
+    },
+    {
+      "mode": "100644",
+      "path": "schemas/spans/a11oy.graph.yaml",
+      "sha": "e61ff3a09a2686abb658b5dcdad3998323590390",
+      "size": 21186,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/e61ff3a09a2686abb658b5dcdad3998323590390"
+    },
+    {
+      "mode": "100644",
+      "path": "schemas/spans/amaru.sync.yaml",
+      "sha": "5b825b125f7d5ff47fe341237beff79640dc6120",
+      "size": 12773,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/5b825b125f7d5ff47fe341237beff79640dc6120"
+    },
+    {
+      "mode": "100644",
+      "path": "schemas/spans/killinchu.courier.yaml",
+      "sha": "ebe0136a75beb7a578af3a51b8c490a76c968fa9",
+      "size": 12886,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/ebe0136a75beb7a578af3a51b8c490a76c968fa9"
+    },
+    {
+      "mode": "100644",
+      "path": "schemas/spans/rosie.decision.yaml",
+      "sha": "7664d450c183da91fe3d38003b744e1d656ebef4",
+      "size": 12915,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/7664d450c183da91fe3d38003b744e1d656ebef4"
+    },
+    {
+      "mode": "100644",
+      "path": "schemas/spans/sda.detection.yaml",
+      "sha": "6b8b754eb673e0f645ef435e0aa9e77f68a63a59",
+      "size": 17464,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/6b8b754eb673e0f645ef435e0aa9e77f68a63a59"
+    },
+    {
+      "mode": "100644",
+      "path": "schemas/spans/sentra.gate.yaml",
+      "sha": "db7e4dc64e4485c3d26dedfc1df1c5665360de62",
+      "size": 13022,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/db7e4dc64e4485c3d26dedfc1df1c5665360de62"
+    },
+    {
+      "mode": "100755",
+      "path": "schemas/spans/test_graph_spans.sh",
+      "sha": "ace6cf7fe57b5da97679021a9c79181ae56adcf6",
+      "size": 3533,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/ace6cf7fe57b5da97679021a9c79181ae56adcf6"
+    },
+    {
+      "mode": "100644",
+      "path": "schemas/spans/test_mesh_spans.sh",
+      "sha": "05d2cd9e0b0858ad350749d141bb13a4349c0b74",
+      "size": 2790,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/05d2cd9e0b0858ad350749d141bb13a4349c0b74"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "d4d630623f10725e66e18c33bb52b8291baf3d3a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/d4d630623f10725e66e18c33bb52b8291baf3d3a"
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/check_version_doctrine.sh",
+      "sha": "2bcf06d77740be8aee001781d2df66d9e9987b1e",
+      "size": 2386,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/2bcf06d77740be8aee001781d2df66d9e9987b1e"
+    },
+    {
+      "mode": "040000",
+      "path": "src",
+      "sha": "89992f4cf251d1371e9d81d476688dc353b84a4e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/89992f4cf251d1371e9d81d476688dc353b84a4e"
+    },
+    {
+      "mode": "040000",
+      "path": "src/mesh",
+      "sha": "a58c82b192c7b219b1a2cd43c3943913a1f47537",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/a58c82b192c7b219b1a2cd43c3943913a1f47537"
+    },
+    {
+      "mode": "100644",
+      "path": "src/mesh/OTLP_BRIDGE_README.md",
+      "sha": "2d5c1bcf4582fd519e9876b4a71b3e20ffbff38e",
+      "size": 1796,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/2d5c1bcf4582fd519e9876b4a71b3e20ffbff38e"
+    },
+    {
+      "mode": "100644",
+      "path": "src/mesh/__init__.py",
+      "sha": "d2e02ca5bf263c981b47439d04e0734f681bcdf7",
+      "size": 58,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/d2e02ca5bf263c981b47439d04e0734f681bcdf7"
+    },
+    {
+      "mode": "100644",
+      "path": "src/mesh/otlp_bridge.py",
+      "sha": "c730832f3591aaa087a59a1c0fc79d7e7413b4c4",
+      "size": 8653,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/c730832f3591aaa087a59a1c0fc79d7e7413b4c4"
+    },
+    {
+      "mode": "100644",
+      "path": "src/mesh/quorum.py",
+      "sha": "3589dd7806550ecc7190f89986aacb896d2a34de",
+      "size": 7628,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/3589dd7806550ecc7190f89986aacb896d2a34de"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "605d5081723079608b205ae78f81aa57a6bf58ee",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/605d5081723079608b205ae78f81aa57a6bf58ee"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/__init__.py",
+      "sha": "2037d478d5b5d02f87b1e57b7a1532f8f3c23538",
+      "size": 88,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/2037d478d5b5d02f87b1e57b7a1532f8f3c23538"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_attestation_chain.py",
+      "sha": "74d3f59dcdb4715876a7028a0e2dcc5157b86e69",
+      "size": 4928,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/74d3f59dcdb4715876a7028a0e2dcc5157b86e69"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_bundle_manifests.py",
+      "sha": "ccb40862808a0e75222e75cd447362331e76a04f",
+      "size": 4250,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/ccb40862808a0e75222e75cd447362331e76a04f"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_formula_receipts.py",
+      "sha": "2cc5b8abbfb9a67395e5daad279ccaf6b8a1befb",
+      "size": 10429,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/2cc5b8abbfb9a67395e5daad279ccaf6b8a1befb"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_manifests.py",
+      "sha": "cf2a462f6366da1a3bb2718ba0b95dea8ea7be43",
+      "size": 4500,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/cf2a462f6366da1a3bb2718ba0b95dea8ea7be43"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_mesh_formulas.py",
+      "sha": "e9981d2833ec3dfb5be0ebb94b563499eb0f9cc4",
+      "size": 4522,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/e9981d2833ec3dfb5be0ebb94b563499eb0f9cc4"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_otlp_bridge.py",
+      "sha": "082047dba824b23b055be793aed147d051e6a454",
+      "size": 3092,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/082047dba824b23b055be793aed147d051e6a454"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_quorum.py",
+      "sha": "334df1c5e3956f541c6ab2d6eb1d367187aa1b5b",
+      "size": 6301,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/334df1c5e3956f541c6ab2d6eb1d367187aa1b5b"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_span_schemas.py",
+      "sha": "2a43746b76dc0e12a6f85b59e87b034036ff6964",
+      "size": 7966,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/2a43746b76dc0e12a6f85b59e87b034036ff6964"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_vertical_packs.py",
+      "sha": "ea8589426f9111f24cd02f5f2db104676a45169c",
+      "size": 4638,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/ea8589426f9111f24cd02f5f2db104676a45169c"
+    },
+    {
+      "mode": "100644",
+      "path": "uds-bundle.yaml",
+      "sha": "4d8b65b6ced8f9088ad32c925d37c8348f7f3716",
+      "size": 4438,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/4d8b65b6ced8f9088ad32c925d37c8348f7f3716"
+    },
+    {
+      "mode": "100644",
+      "path": "uds-mesh-pointer-manifest.yaml",
+      "sha": "b9de5a740629dc3ca04b6b964f5049ff84e90941",
+      "size": 8750,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/b9de5a740629dc3ca04b6b964f5049ff84e90941"
+    },
+    {
+      "mode": "100644",
+      "path": "uds_v18_24_substrate.py",
+      "sha": "31496ee47f56159ffc46d4f0028079a3a6d278c7",
+      "size": 59418,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/31496ee47f56159ffc46d4f0028079a3a6d278c7"
+    },
+    {
+      "mode": "040000",
+      "path": "verticals",
+      "sha": "28452cbeb59373671e6fcd24e1dbacd70d0f628a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/28452cbeb59373671e6fcd24e1dbacd70d0f628a"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/README.md",
+      "sha": "5542cad80b1c98ac708a1678cbce66e8146df8bd",
+      "size": 10957,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/5542cad80b1c98ac708a1678cbce66e8146df8bd"
+    },
+    {
+      "mode": "040000",
+      "path": "verticals/_template",
+      "sha": "7bcd8857b5d146040c806a7ff9fb138a89492d77",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/7bcd8857b5d146040c806a7ff9fb138a89492d77"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/_template/README.md",
+      "sha": "d3282b1ec81dcac26f84b7186f5732154ee7d317",
+      "size": 2273,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/d3282b1ec81dcac26f84b7186f5732154ee7d317"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/_template/adapter.yaml",
+      "sha": "4df5e648fc50ba4ac67c91bc19019c91fbb29fa1",
+      "size": 1977,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/4df5e648fc50ba4ac67c91bc19019c91fbb29fa1"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/_template/pack.yaml",
+      "sha": "199301633937170b38438801cc4a71640780314b",
+      "size": 2323,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/199301633937170b38438801cc4a71640780314b"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/_template/sample-request.json",
+      "sha": "af21e49f92c05d889ab9d488b356145d33339714",
+      "size": 308,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/af21e49f92c05d889ab9d488b356145d33339714"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/_template/sample-response.json",
+      "sha": "4b22145723c90471e1ec41d3b6880ac4f6183ebc",
+      "size": 431,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/4b22145723c90471e1ec41d3b6880ac4f6183ebc"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/_template/uds-package.yaml",
+      "sha": "f0ded7ec51eece200ccf169aabdd0eecc733239f",
+      "size": 2854,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/f0ded7ec51eece200ccf169aabdd0eecc733239f"
+    },
+    {
+      "mode": "040000",
+      "path": "verticals/counter-uas",
+      "sha": "673789fe797b0d4a72421fcef6f44ca96d6c2e37",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/673789fe797b0d4a72421fcef6f44ca96d6c2e37"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/counter-uas/README.md",
+      "sha": "1e548fe65797cb5a9908cbb0781264538cab5b28",
+      "size": 1904,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/1e548fe65797cb5a9908cbb0781264538cab5b28"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/counter-uas/adapter.yaml",
+      "sha": "1cf367bbd6b21c6ee6c6d65e9a8d152c5324127b",
+      "size": 1446,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/1cf367bbd6b21c6ee6c6d65e9a8d152c5324127b"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/counter-uas/pack.yaml",
+      "sha": "ddf3d86681b71d09c3c03134ffd0719dc1f7323a",
+      "size": 1088,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/ddf3d86681b71d09c3c03134ffd0719dc1f7323a"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/counter-uas/sample-request.json",
+      "sha": "70938daf0f9f6bd02f1fcc4e35d9032211219627",
+      "size": 321,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/70938daf0f9f6bd02f1fcc4e35d9032211219627"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/counter-uas/sample-response.json",
+      "sha": "fdb378b8376c16551b8fe8cae70f985b2d80e0ab",
+      "size": 556,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/fdb378b8376c16551b8fe8cae70f985b2d80e0ab"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/counter-uas/uds-package.yaml",
+      "sha": "dbd0cb7c16e862f0f0f4721849df7b7ec0323281",
+      "size": 2148,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/dbd0cb7c16e862f0f0f4721849df7b7ec0323281"
+    },
+    {
+      "mode": "040000",
+      "path": "verticals/intel-triage",
+      "sha": "844ab2e8fede6df57b0832df709e9899fb440f5f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/844ab2e8fede6df57b0832df709e9899fb440f5f"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/intel-triage/README.md",
+      "sha": "6ceb1e54c5b73c46c0ed5ae9742e6990864347df",
+      "size": 2022,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/6ceb1e54c5b73c46c0ed5ae9742e6990864347df"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/intel-triage/adapter.yaml",
+      "sha": "1560b2158dd3bedf36bac8ee4dfa3eecca1c4b77",
+      "size": 1467,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/1560b2158dd3bedf36bac8ee4dfa3eecca1c4b77"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/intel-triage/pack.yaml",
+      "sha": "0f45e1b1585f54d18bb24fff606281c9a3209858",
+      "size": 1257,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/0f45e1b1585f54d18bb24fff606281c9a3209858"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/intel-triage/sample-request.json",
+      "sha": "161ebe4833954a6cdf7bb17b6f0690c1df996d23",
+      "size": 423,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/161ebe4833954a6cdf7bb17b6f0690c1df996d23"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/intel-triage/sample-response.json",
+      "sha": "cabffea18047536b4d5341aa695743ee2dc7b833",
+      "size": 631,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/cabffea18047536b4d5341aa695743ee2dc7b833"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/intel-triage/uds-package.yaml",
+      "sha": "8b1edf007e15d2cf4ab2f5f816f407ca369327ab",
+      "size": 2071,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/8b1edf007e15d2cf4ab2f5f816f407ca369327ab"
+    },
+    {
+      "mode": "040000",
+      "path": "verticals/schemas",
+      "sha": "390c103b4d74f66fa06240ffa985f19fec6bd423",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/390c103b4d74f66fa06240ffa985f19fec6bd423"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/schemas/decision-request.schema.json",
+      "sha": "7ca991f3b7cf5bd11b623d3920bbf1c1c88dc1f7",
+      "size": 1526,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/7ca991f3b7cf5bd11b623d3920bbf1c1c88dc1f7"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/schemas/decision.schema.json",
+      "sha": "c5e78a399d3fd796caeff846a78a27782af7ff0c",
+      "size": 2477,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/c5e78a399d3fd796caeff846a78a27782af7ff0c"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/validate_pack.py",
+      "sha": "e245f57b374178ac3de48575baf3af9759980fcf",
+      "size": 11039,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/e245f57b374178ac3de48575baf3af9759980fcf"
+    },
+    {
+      "mode": "040000",
+      "path": "verticals/vendor-screening-889",
+      "sha": "f5b545ea020129878daf42bfe99af80d408ff7de",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/f5b545ea020129878daf42bfe99af80d408ff7de"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/vendor-screening-889/README.md",
+      "sha": "a79914df6ffeb33e4010b00673ee3e115e0f6ddc",
+      "size": 2093,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/a79914df6ffeb33e4010b00673ee3e115e0f6ddc"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/vendor-screening-889/adapter.yaml",
+      "sha": "550a38f3889314a75ec7fc6b5a6db25fb1bb45be",
+      "size": 1507,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/550a38f3889314a75ec7fc6b5a6db25fb1bb45be"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/vendor-screening-889/pack.yaml",
+      "sha": "90c85d730968ba0755dbc7696893e163b6e91aa8",
+      "size": 1433,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/90c85d730968ba0755dbc7696893e163b6e91aa8"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/vendor-screening-889/sample-request.json",
+      "sha": "b57ec87afde999d2152d4c04296410c66beca922",
+      "size": 355,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/b57ec87afde999d2152d4c04296410c66beca922"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/vendor-screening-889/sample-response.json",
+      "sha": "3f154bff7ab8adb24c48fe18d55d836e57bbcb0f",
+      "size": 568,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/3f154bff7ab8adb24c48fe18d55d836e57bbcb0f"
+    },
+    {
+      "mode": "100644",
+      "path": "verticals/vendor-screening-889/uds-package.yaml",
+      "sha": "da772eff8e7dd1db7ec37bd4d9cad38c3024a5be",
+      "size": 2095,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/blobs/da772eff8e7dd1db7ec37bd4d9cad38c3024a5be"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/172f52ecfc2cc7babac78bffde79517b38fcdb42"
+}

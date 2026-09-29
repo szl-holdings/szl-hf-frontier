@@ -1,0 +1,23 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 536,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:48Z",
+      "path": "data/reconciliation/source-evidence/c124a9e40f691f77a8b0758b099b970ba6ff8443cf9428c98f4a4337d8a1a073.json",
+      "revision": "40d1b710ac89cecbeee21f97110c761f8b83b950",
+      "sha256": "c124a9e40f691f77a8b0758b099b970ba6ff8443cf9428c98f4a4337d8a1a073",
+      "source_identity": "github/szl-holdings/fail-closed-governed-ai-services",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/fail-closed-governed-ai-services/git/trees/40d1b710ac89cecbeee21f97110c761f8b83b950?recursive=1"
+    }
+  ],
+  "file_count": 1,
+  "id": "github/szl-holdings/fail-closed-governed-ai-services",
+  "license_paths": [],
+  "observed_revision": "40d1b710ac89cecbeee21f97110c761f8b83b950",
+  "root_paths": [
+    "README.md"
+  ]
+}

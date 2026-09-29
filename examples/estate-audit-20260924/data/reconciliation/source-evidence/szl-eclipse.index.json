@@ -1,0 +1,42 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 6005,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:58Z",
+      "path": "data/reconciliation/source-evidence/005c817cdefada147117df04ae299a1905ec5150e66d180d1477ba10daafb0cb.json",
+      "revision": "8739668ad1c9a69c4a6e539da27ff1fc167cc54a",
+      "sha256": "005c817cdefada147117df04ae299a1905ec5150e66d180d1477ba10daafb0cb",
+      "source_identity": "github/szl-holdings/szl-eclipse",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/trees/8739668ad1c9a69c4a6e539da27ff1fc167cc54a?recursive=1"
+    },
+    {
+      "bytes": 324,
+      "kind": "license_file",
+      "observed_at": "2026-09-24T13:26:58Z",
+      "path": "data/reconciliation/source-evidence/514287b5eaf490515e2966319ed34d98e4dd616c97f97b65fecd966f0cfc1718.txt",
+      "revision": "8739668ad1c9a69c4a6e539da27ff1fc167cc54a",
+      "sha256": "514287b5eaf490515e2966319ed34d98e4dd616c97f97b65fecd966f0cfc1718",
+      "source_identity": "github/szl-holdings/szl-eclipse",
+      "source_path": "LICENSE",
+      "url": "https://github.com/szl-holdings/szl-eclipse/blob/8739668ad1c9a69c4a6e539da27ff1fc167cc54a/LICENSE"
+    }
+  ],
+  "file_count": 13,
+  "id": "github/szl-holdings/szl-eclipse",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "8739668ad1c9a69c4a6e539da27ff1fc167cc54a",
+  "root_paths": [
+    ".github",
+    "LICENSE",
+    "README.md",
+    "evidence",
+    "pyproject.toml",
+    "src",
+    "tests"
+  ]
+}

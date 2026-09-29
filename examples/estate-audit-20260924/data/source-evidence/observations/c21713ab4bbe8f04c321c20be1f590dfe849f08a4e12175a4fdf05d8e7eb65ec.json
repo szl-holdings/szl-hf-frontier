@@ -1,0 +1,20 @@
+{
+  "card": "---\ntitle: SZL Sovereign OS\nemoji: \ud83e\udde0\ncolorFrom: blue\ncolorTo: gray\nsdk: docker\napp_port: 7860\npinned: false\nlicense: apache-2.0\nshort_description: Fail-closed operator kernel. Five verticals.\ntags:\n  - governance\n  - receipts\n  - honest-by-design\n  - szl-holdings\n---\n\n# SZL Sovereign OS\n\n> Control before action. Evidence after.\n\nThe missing operator kernel for [szl-holdings](https://github.com/szl-holdings). One Python process. Five organs. Five verticals. Eleven category captures.\n\n**Not a rehost.** vLLM, LangGraph, Llama Guard, Mosaic, Lattice, Guidewire, QuantConnect, Zillow, Sigstore, Electricity Maps, and UDS are *cited leaders of a job*. SZL takes the job, not the code.\n\n## What it runs\n\n| Surface | Honesty |\n|---|---|\n| Five-organ kernel (YACHAY / YUYAY / YAWAR / OTel / Khipu) | LIVE, fail-closed |\n| \u039b uniqueness | Conjecture 1 OPEN |\n| Energy | UNAVAILABLE (never a fabricated joule) |\n| Signing | STRUCTURAL-ONLY hash, not a signature |\n| killinchu actuation | SIMULATED |\n| Real estate occupancy | UNAVAILABLE |\n| Hugging Face live push from this sandbox | ROADMAP until `HF_TOKEN` is in org secrets |\n\nGitHub is canonical. A Hugging Face Space named `SZLHOLDINGS/szl-sovereign-os` is the intended runtime mirror (`sdk: docker`, port 7860). This README does not claim that Space is RUNNING until Hub readback says so.\n\n## Verticals\n\n- [a11oy](https://github.com/szl-holdings/a11oy) \u2014 inference\n- [killinchu](https://github.com/szl-holdings/killinchu) \u2014 defense (SIMULATED actuation)\n- [david-leads](https://github.com/szl-holdings/david-leads) \u2014 insurance, public data\n- [szl-quant](https://github.com/szl-holdings/szl-quant) \u2014 paper-only\n- [szl-real-estate](https://github.com/szl-holdings/szl-real-estate) \u2014 public PLUTO/ACS, not an MLS\n\n## API\n\n```\nGET  /healthz\nGET  /api/selftest\nGET  /api/verticals\nGET  /api/captures\nPOST /api/organs/integrity\nPOST /api/verticals/run     {\"id\":\"a11oy\",\"signal\":\"...\"}\nPOST /api/captures/run      {\"id\":\"vllm\",\"signal\":\"...\"}\n```\n\n```bash\npython -m unittest discover -s tests -v\npython app.py\n```\n\nDoctrine v11 LOCKED \u00b7 749/14/163 \u00b7 kernel `c7c0ba17` \u00b7 locked-proven 8 \u00b7 \u039b = Conjecture 1 \u00b7 Apache-2.0\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 2183,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/6e44a9c02b2146cb7ac831cc51933ee4c852150642306583af931e53a2370d34.md",
+      "revision": "a18f76e9487568a2aa1d0c5375b543e1b228c91a",
+      "sha256": "6e44a9c02b2146cb7ac831cc51933ee4c852150642306583af931e53a2370d34",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-sovereign-os/blob/a18f76e9487568a2aa1d0c5375b543e1b228c91a/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-sovereign-os",
+  "observed_at": "2026-09-24T12:29:41Z",
+  "observed_revision": "a18f76e9487568a2aa1d0c5375b543e1b228c91a"
+}

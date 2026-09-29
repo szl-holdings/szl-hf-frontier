@@ -1,0 +1,39 @@
+{
+  "card": "---\nlicense: apache-2.0\nlibrary_name: other\ntags:\n  - governed-ai\n  - szl-holdings\n  - doctrine-v11\n  - roadmap\n  - roadmap\n  - software\n  - reference\n  - test-fixture\n---\n\n> **Status: SOFTWARE / REFERENCE / TEST FIXTURE.** Not a production model.\n\n# chakana\n\nThis repository contains a small NumPy reference artifact: evidence-class crossing silhouette: MEASURED/SIGNED/MODELED kept separate.\nThe broader organ remains roadmap work. The synthetic archive is present;\nearlier statements that this repository had no weights are superseded.\n\n## Intended use\n\nInspect synthetic artifacts and exercise software fixtures. The archive does\nnot include a packaged loader or `config.json` in this repository.\n`from_pretrained` compatibility and hosted inference are unverified.\n\n## Artifact evidence\n\n`chakana.npz` is present (3,219 bytes). SHA-256:\n\n`3849772ee86fe09e8752e98250573564de66e814231b50c36e7d29b5b6c3dbd5`\n\nThe archive hash matches `TRAINING_RECEIPT.json`. Its arrays were inspected\nwith `numpy.load(..., allow_pickle=False)`; numeric values were finite.\n\n| Array | Shape | Data type |\n| --- | --- | --- |\n| `w1` | `[12, 16]` | `float64` |\n| `b1` | `[16]` | `float64` |\n| `w2` | `[16, 3]` | `float64` |\n| `b2` | `[3]` | `float64` |\n| `holdoutAcc` | `[]` | `float64` |\n| `seed` | `[]` | `int64` |\n\nA matching unsigned receipt establishes local artifact consistency. Training\nmetrics remain reported synthetic results; this check does not independently\nreproduce training or establish deployment, general intelligence, or production readiness.\n\n## Reported training\n\nThe repository receipt reports seed `20260721`, `2000` steps,\nsynthetic accuracy `0.588333`, and loss `0.820603`.\nThese values were read from the receipt and were not independently rerun.\nThey do not establish field performance or authority to make operational decisions.\n\n## Evidence boundaries\n\n- Artifact bytes and receipt hash: checked at the pinned repository revision.\n- Training and evaluation: reported synthetic evidence only.\n- Production deployment, runtime correctness, and energy: unverified.\n- Proven trust: false in the published training receipt.\n- Lambda uniqueness remains Conjecture 1 OPEN, not a theorem.\n\nApache-2.0. Copyright 2026 SZL Holdings \u00b7 Stephen P. Lutar Jr. \u00b7 ORCID [0009-0001-0110-4173](https://orcid.org/0009-0001-0110-4173).\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 252,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/e0e6a6ce4d25f773ef66fb1054a212dc4cd3f558a8259b31018f8f66a08dead5.json",
+      "revision": "7a93ff0a18873f834e2f9c508561538d2c030838",
+      "sha256": "e0e6a6ce4d25f773ef66fb1054a212dc4cd3f558a8259b31018f8f66a08dead5",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/chakana/revision/7a93ff0a18873f834e2f9c508561538d2c030838"
+    },
+    {
+      "bytes": 2330,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/f04ff27e815f1c91d438a824512f32baa0401759c6deacde2d14ef33c8b033bc.md",
+      "revision": "7a93ff0a18873f834e2f9c508561538d2c030838",
+      "sha256": "f04ff27e815f1c91d438a824512f32baa0401759c6deacde2d14ef33c8b033bc",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/SZLHOLDINGS/chakana/resolve/7a93ff0a18873f834e2f9c508561538d2c030838/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "chakana.npz",
+    "provenance.json",
+    "status.json"
+  ],
+  "id": "huggingface-model/szlholdings/chakana",
+  "observed_at": "2026-09-24T12:29:49Z",
+  "observed_revision": "7a93ff0a18873f834e2f9c508561538d2c030838"
+}

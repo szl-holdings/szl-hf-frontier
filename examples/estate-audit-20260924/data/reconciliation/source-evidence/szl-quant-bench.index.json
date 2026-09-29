@@ -1,0 +1,30 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 5170,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:05Z",
+      "path": "data/reconciliation/source-evidence/4c4ef17e874d009e3204125db6481ea03cc75df3232e2c30b0935ff3592a8d70.json",
+      "revision": "9364ee783b058837bba656469a444e020edd607c",
+      "sha256": "4c4ef17e874d009e3204125db6481ea03cc75df3232e2c30b0935ff3592a8d70",
+      "source_identity": "github/szl-holdings/szl-quant-bench",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-quant-bench/git/trees/9364ee783b058837bba656469a444e020edd607c?recursive=1"
+    }
+  ],
+  "file_count": 12,
+  "id": "github/szl-holdings/szl-quant-bench",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "9364ee783b058837bba656469a444e020edd607c",
+  "root_paths": [
+    ".github",
+    "LICENSE",
+    "README.md",
+    "pyproject.toml",
+    "src",
+    "tests"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 62622,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:57Z",
+      "path": "data/reconciliation/source-evidence/37c48953da9a27601e162bed93d4320d22124affb6ad51ea3fa3559217ff0ac8.json",
+      "revision": "5eb303b4d611c14906cbe455c5f2d27999e9c3a4",
+      "sha256": "37c48953da9a27601e162bed93d4320d22124affb6ad51ea3fa3559217ff0ac8",
+      "source_identity": "github/szl-holdings/szl-cookbook",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/5eb303b4d611c14906cbe455c5f2d27999e9c3a4?recursive=1"
+    }
+  ],
+  "file_count": 164,
+  "id": "github/szl-holdings/szl-cookbook",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "5eb303b4d611c14906cbe455c5f2d27999e9c3a4",
+  "root_paths": [
+    ".eslintrc.json",
+    ".github",
+    ".markdownlint.json",
+    ".pre-commit-config.yaml",
+    ".prettierrc.json",
+    ".zenodo.json",
+    "AGENTS.md",
+    "CHANGELOG.md",
+    "CITATION.cff",
+    "CODEOWNERS",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "DEPRECATED.md",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "STATUS.md",
+    "assets",
+    "branding",
+    "meta",
+    "ops",
+    "recipes",
+    "skills"
+  ]
+}

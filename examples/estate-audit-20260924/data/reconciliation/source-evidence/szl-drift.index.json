@@ -1,0 +1,32 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 3565,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:58Z",
+      "path": "data/reconciliation/source-evidence/a8bad640cdc9fc4955a29351a452781b43f22d2240c1889e086991c121cb2f09.json",
+      "revision": "35c395450c71b49d7fe85a1d5ba3764c38e0714b",
+      "sha256": "a8bad640cdc9fc4955a29351a452781b43f22d2240c1889e086991c121cb2f09",
+      "source_identity": "github/szl-holdings/szl-drift",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-drift/git/trees/35c395450c71b49d7fe85a1d5ba3764c38e0714b?recursive=1"
+    }
+  ],
+  "file_count": 9,
+  "id": "github/szl-holdings/szl-drift",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "35c395450c71b49d7fe85a1d5ba3764c38e0714b",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "probe.py",
+    "ruff.toml",
+    "tests"
+  ]
+}

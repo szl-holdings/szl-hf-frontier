@@ -1,0 +1,546 @@
+{
+  "sha": "07a68c192c93dadda700e677ad45a9cd7fbd1d91",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "0d311828411acdf88d45b20506d47dd55274571e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/trees/0d311828411acdf88d45b20506d47dd55274571e"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODEOWNERS",
+      "sha": "5c3d60d2e173f38916e13078a9bda8429626302b",
+      "size": 74,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/5c3d60d2e173f38916e13078a9bda8429626302b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "sha": "415a0a14aebe0102d5db82dcc51dde5db16619f0",
+      "size": 600,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/415a0a14aebe0102d5db82dcc51dde5db16619f0"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CONTRIBUTING.md",
+      "sha": "b013eea77ae4da59662fff55dc10f2ae3dc7fb47",
+      "size": 449,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/b013eea77ae4da59662fff55dc10f2ae3dc7fb47"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/ISSUE_TEMPLATE",
+      "sha": "b406cf7e4f23537f8539f6f81f4cbb4d2eae3f2b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/trees/b406cf7e4f23537f8539f6f81f4cbb4d2eae3f2b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha": "a7c1834f7f391ab52cb7efafe6dffe86e69d54d7",
+      "size": 156,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/a7c1834f7f391ab52cb7efafe6dffe86e69d54d7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "2c7fa02994b4d1e777139a1056acfe0cfc48b806",
+      "size": 224,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/2c7fa02994b4d1e777139a1056acfe0cfc48b806"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha": "2172fe4a415edecdbe763328b04d826137d25987",
+      "size": 169,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/2172fe4a415edecdbe763328b04d826137d25987"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/dependabot.yml",
+      "sha": "be2217010b83e0565575b02c18a3a54df5300340",
+      "size": 1053,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/be2217010b83e0565575b02c18a3a54df5300340"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/pull_request_template.md",
+      "sha": "c057fedcf31e477160cfd0d4c5b5d06bc8bfdf7c",
+      "size": 332,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/c057fedcf31e477160cfd0d4c5b5d06bc8bfdf7c"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "782dd4fda4d0aee02fb16c5811182d0ccba7f546",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/trees/782dd4fda4d0aee02fb16c5811182d0ccba7f546"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "57530685dd45c1b5d2446ecb762665d1f4f2e17e",
+      "size": 1779,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/57530685dd45c1b5d2446ecb762665d1f4f2e17e"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/codeql.yml",
+      "sha": "48aac054a48ddd213aab7f6ddcf19fda114061a9",
+      "size": 1658,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/48aac054a48ddd213aab7f6ddcf19fda114061a9"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/overclaim-guard.yml",
+      "sha": "a1a132b0cbe542579fba2fc640506085711cd9ba",
+      "size": 727,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/a1a132b0cbe542579fba2fc640506085711cd9ba"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/pin-check.yml",
+      "sha": "f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621",
+      "size": 586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/sbom.yml",
+      "sha": "e385caec32afcfb78cb91b53b288ea254896fba7",
+      "size": 495,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/e385caec32afcfb78cb91b53b288ea254896fba7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/scorecard.yml",
+      "sha": "92ad91c80f26aaf0f6d7d9ec1731e44406654eb5",
+      "size": 625,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/92ad91c80f26aaf0f6d7d9ec1731e44406654eb5"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/trivy.yml",
+      "sha": "94cac142860bdae0f4e78a78fb143ae95932ba1c",
+      "size": 514,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/94cac142860bdae0f4e78a78fb143ae95932ba1c"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "316a91dbf73a9e06375dc310d88eff87bcaa5c6d",
+      "size": 171,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/316a91dbf73a9e06375dc310d88eff87bcaa5c6d"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "697a3492cd95e102496bd578148a3b8fa0b7354b",
+      "size": 712,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/697a3492cd95e102496bd578148a3b8fa0b7354b"
+    },
+    {
+      "mode": "100644",
+      "path": "CONTRIBUTING.md",
+      "sha": "b1b733eef1ade5446f7f8df157086a1f87e0236d",
+      "size": 283,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/b1b733eef1ade5446f7f8df157086a1f87e0236d"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "NOTICE",
+      "sha": "1469c56c24ed1c12ee6847e25e36a3d65ffa5c2b",
+      "size": 399,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/1469c56c24ed1c12ee6847e25e36a3d65ffa5c2b"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "80c3d7e267b9ff342366fa2887793a3c4193f7a3",
+      "size": 9708,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/80c3d7e267b9ff342366fa2887793a3c4193f7a3"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "b1fd01c2bf06a843ce86b67b0664588540760c55",
+      "size": 896,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/b1fd01c2bf06a843ce86b67b0664588540760c55"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "4f1990766f796d01738f011f991b7aaf18ead112",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/trees/4f1990766f796d01738f011f991b7aaf18ead112"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/ADVERSARIAL.md",
+      "sha": "14c993912c698215d5fbe7f00dcb084497163008",
+      "size": 5089,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/14c993912c698215d5fbe7f00dcb084497163008"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/FORMAL.md",
+      "sha": "ce2e81893529eb5b8a66f9f070e31cbefb86b935",
+      "size": 1022,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/ce2e81893529eb5b8a66f9f070e31cbefb86b935"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/REKOR.md",
+      "sha": "cacbdcc07b901d67685f941adc15d690a094b7c8",
+      "size": 917,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/cacbdcc07b901d67685f941adc15d690a094b7c8"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/WITNESS_API.md",
+      "sha": "87cdf3e430816f74362fe8324a3f83021fd8c99b",
+      "size": 7358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/87cdf3e430816f74362fe8324a3f83021fd8c99b"
+    },
+    {
+      "mode": "040000",
+      "path": "go",
+      "sha": "31278255f8e9de33ce31ceaa494b84a1e66398ba",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/trees/31278255f8e9de33ce31ceaa494b84a1e66398ba"
+    },
+    {
+      "mode": "100644",
+      "path": "go/consensus.go",
+      "sha": "79a426b977aa3edc1922ab42e7fe7808974d56c2",
+      "size": 6599,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/79a426b977aa3edc1922ab42e7fe7808974d56c2"
+    },
+    {
+      "mode": "100644",
+      "path": "go/consensus_test.go",
+      "sha": "50d5443783a97aaafa73df34b058e2e774fe4294",
+      "size": 1306,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/50d5443783a97aaafa73df34b058e2e774fe4294"
+    },
+    {
+      "mode": "100644",
+      "path": "go/go.mod",
+      "sha": "28761863cee5b23cbd54dd696439146d1c757f21",
+      "size": 59,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/28761863cee5b23cbd54dd696439146d1c757f21"
+    },
+    {
+      "mode": "040000",
+      "path": "python",
+      "sha": "5da8f029da45c0cc89b066e4edb1b1e3261ed0d1",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/trees/5da8f029da45c0cc89b066e4edb1b1e3261ed0d1"
+    },
+    {
+      "mode": "040000",
+      "path": "python/khipu_consensus",
+      "sha": "d489c9bb6cb83dc66bde0c9afdd48118e52e17a4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/trees/d489c9bb6cb83dc66bde0c9afdd48118e52e17a4"
+    },
+    {
+      "mode": "100644",
+      "path": "python/khipu_consensus/__init__.py",
+      "sha": "2075e5cbb8746fbbfc4096a4f55f72ee030593a4",
+      "size": 7264,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/2075e5cbb8746fbbfc4096a4f55f72ee030593a4"
+    },
+    {
+      "mode": "100644",
+      "path": "python/khipu_consensus/adversary.py",
+      "sha": "dd8ad34d48b6b2cc25c775d19cad12b8e67cda7d",
+      "size": 27247,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/dd8ad34d48b6b2cc25c775d19cad12b8e67cda7d"
+    },
+    {
+      "mode": "100644",
+      "path": "python/khipu_consensus/cli.py",
+      "sha": "84abcbcde98543891fc7bf864f8ea349a36853f1",
+      "size": 2103,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/84abcbcde98543891fc7bf864f8ea349a36853f1"
+    },
+    {
+      "mode": "100644",
+      "path": "python/khipu_consensus/collusion.py",
+      "sha": "2074ea67200e480d09814763d9d0b3b7483373ef",
+      "size": 3806,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/2074ea67200e480d09814763d9d0b3b7483373ef"
+    },
+    {
+      "mode": "100644",
+      "path": "python/khipu_consensus/sdk.py",
+      "sha": "50cdebbeb7bf63c2471564bca7a53f957656bb86",
+      "size": 3754,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/50cdebbeb7bf63c2471564bca7a53f957656bb86"
+    },
+    {
+      "mode": "100644",
+      "path": "python/khipu_consensus/spine.py",
+      "sha": "776e50cd81fe7588a2bc09cfc428dcdd0dcf0399",
+      "size": 12135,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/776e50cd81fe7588a2bc09cfc428dcdd0dcf0399"
+    },
+    {
+      "mode": "100644",
+      "path": "python/khipu_consensus/witness.py",
+      "sha": "762adbba4b97998a619c2d3c5c9b2e6af34c9e8e",
+      "size": 15910,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/762adbba4b97998a619c2d3c5c9b2e6af34c9e8e"
+    },
+    {
+      "mode": "100644",
+      "path": "python/pyproject.toml",
+      "sha": "04cac19f2315076c4d040331c7cda05abcff667c",
+      "size": 974,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/04cac19f2315076c4d040331c7cda05abcff667c"
+    },
+    {
+      "mode": "040000",
+      "path": "python/tests",
+      "sha": "42d5cc30a7f27d7344911399d071fddab65f2d88",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/trees/42d5cc30a7f27d7344911399d071fddab65f2d88"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_adversary.py",
+      "sha": "dda23605a65faf207ff9202ef86a8d47539da47d",
+      "size": 9137,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/dda23605a65faf207ff9202ef86a8d47539da47d"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_collusion.py",
+      "sha": "f515bae62f9f20e86b304e078ddffa46895dad56",
+      "size": 1452,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/f515bae62f9f20e86b304e078ddffa46895dad56"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_service.py",
+      "sha": "683716e4f4eef51183f5793b3b89cb51dbde538e",
+      "size": 2905,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/683716e4f4eef51183f5793b3b89cb51dbde538e"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_spine.py",
+      "sha": "8031b4a78ec16896bf8c90c76f2da978f51674d4",
+      "size": 5902,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/8031b4a78ec16896bf8c90c76f2da978f51674d4"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_vectors.py",
+      "sha": "45fa1779d8a5a5f776789948b5b3167247eb3a6a",
+      "size": 1088,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/45fa1779d8a5a5f776789948b5b3167247eb3a6a"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_witness.py",
+      "sha": "42f32cdeff3ed25f08033ae4a92683d72732667b",
+      "size": 10034,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/42f32cdeff3ed25f08033ae4a92683d72732667b"
+    },
+    {
+      "mode": "040000",
+      "path": "service",
+      "sha": "afca3704218979d526aa1c298dda5329998f6f09",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/trees/afca3704218979d526aa1c298dda5329998f6f09"
+    },
+    {
+      "mode": "100644",
+      "path": "service/app.py",
+      "sha": "39c960fe46cf66fb861b3351757f5cda1517fd3c",
+      "size": 4907,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/39c960fe46cf66fb861b3351757f5cda1517fd3c"
+    },
+    {
+      "mode": "100644",
+      "path": "service/demo_witness.py",
+      "sha": "00891c566a8147bcf04a270011aa5c0965325b00",
+      "size": 2178,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/00891c566a8147bcf04a270011aa5c0965325b00"
+    },
+    {
+      "mode": "100644",
+      "path": "service/witnesses.example.json",
+      "sha": "71a2bdb9a50d60cfd95b52d1d2634e5d21dffb36",
+      "size": 1700,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/71a2bdb9a50d60cfd95b52d1d2634e5d21dffb36"
+    },
+    {
+      "mode": "040000",
+      "path": "testdata",
+      "sha": "c0c8db029559f88bcae618c334c89fb1115df822",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/trees/c0c8db029559f88bcae618c334c89fb1115df822"
+    },
+    {
+      "mode": "100644",
+      "path": "testdata/REGEN.md",
+      "sha": "11a9df7bd696ad26e896faf27e7e0ab2230e433f",
+      "size": 1303,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/11a9df7bd696ad26e896faf27e7e0ab2230e433f"
+    },
+    {
+      "mode": "100644",
+      "path": "testdata/a11oy.test.pub",
+      "sha": "cdffb77094baa1f7e2c5322cc4d20f88bddb9745",
+      "size": 178,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/cdffb77094baa1f7e2c5322cc4d20f88bddb9745"
+    },
+    {
+      "mode": "100644",
+      "path": "testdata/amaru.test.pub",
+      "sha": "fa85669388219a06ae6e58c45acee7c0b26490c9",
+      "size": 178,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/fa85669388219a06ae6e58c45acee7c0b26490c9"
+    },
+    {
+      "mode": "100644",
+      "path": "testdata/killinchu.test.pub",
+      "sha": "225515f440e02b3a082849cee6c858139ac521ae",
+      "size": 178,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/225515f440e02b3a082849cee6c858139ac521ae"
+    },
+    {
+      "mode": "100644",
+      "path": "testdata/sentra.test.pub",
+      "sha": "5519b40f71db5736b7e39c6f3be678bd597dc943",
+      "size": 178,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/5519b40f71db5736b7e39c6f3be678bd597dc943"
+    },
+    {
+      "mode": "100644",
+      "path": "testdata/vectors.json",
+      "sha": "62d2796bf6efa497672b6cac9dd30a7b0ffbf78b",
+      "size": 18384,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/62d2796bf6efa497672b6cac9dd30a7b0ffbf78b"
+    },
+    {
+      "mode": "040000",
+      "path": "typescript",
+      "sha": "9a02363cfef418284d4a448fc50feeaf060c442d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/trees/9a02363cfef418284d4a448fc50feeaf060c442d"
+    },
+    {
+      "mode": "100644",
+      "path": "typescript/package.json",
+      "sha": "e35e7d834f86b9446ce32658bb1411b9d5ee545f",
+      "size": 531,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/e35e7d834f86b9446ce32658bb1411b9d5ee545f"
+    },
+    {
+      "mode": "040000",
+      "path": "typescript/src",
+      "sha": "1a76cb4fbb423bbfcd5f0f95af4d7e5e855711b7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/trees/1a76cb4fbb423bbfcd5f0f95af4d7e5e855711b7"
+    },
+    {
+      "mode": "100644",
+      "path": "typescript/src/index.ts",
+      "sha": "34068f8871f4c4755e9be766652c3f1237b778b5",
+      "size": 5977,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/34068f8871f4c4755e9be766652c3f1237b778b5"
+    },
+    {
+      "mode": "040000",
+      "path": "typescript/test",
+      "sha": "38303190a96a5a7f3101a3ffb2ddc2ec7d073142",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/trees/38303190a96a5a7f3101a3ffb2ddc2ec7d073142"
+    },
+    {
+      "mode": "100644",
+      "path": "typescript/test/vectors.test.ts",
+      "sha": "241073341e80fbcfc096273108e4a540f2c1e3e3",
+      "size": 1038,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/241073341e80fbcfc096273108e4a540f2c1e3e3"
+    },
+    {
+      "mode": "100644",
+      "path": "typescript/tsconfig.json",
+      "sha": "f56631edfe0cd5cea4732f40ee260f4954c8d609",
+      "size": 242,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/blobs/f56631edfe0cd5cea4732f40ee260f4954c8d609"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/khipu-consensus/git/trees/07a68c192c93dadda700e677ad45a9cd7fbd1d91"
+}

@@ -1,0 +1,59 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 72652,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:54Z",
+      "path": "data/reconciliation/source-evidence/1745bd760973490d8e4a4c6df2e9239d90f88c9b66e0bc5bba9cef46e17068df.json",
+      "revision": "0f030741f567bdf397d33c4d607790af6ed39688",
+      "sha256": "1745bd760973490d8e4a4c6df2e9239d90f88c9b66e0bc5bba9cef46e17068df",
+      "source_identity": "github/szl-holdings/ouroboros",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/0f030741f567bdf397d33c4d607790af6ed39688?recursive=1"
+    }
+  ],
+  "file_count": 198,
+  "id": "github/szl-holdings/ouroboros",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "0f030741f567bdf397d33c4d607790af6ed39688",
+  "root_paths": [
+    ".clusterfuzzlite",
+    ".devcontainer",
+    ".github",
+    ".gitignore",
+    ".node-version",
+    ".npmrc",
+    ".nvmrc",
+    ".release-please-manifest.json",
+    "AGENTS.md",
+    "CHANGELOG.md",
+    "CITATION.cff",
+    "CODEOWNERS",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "DEVELOPER_ONBOARDING.md",
+    "KNOWN_GOTCHAS.md",
+    "LICENSE",
+    "LUTAR_EVIDENCE.md",
+    "NOTICE",
+    "README.md",
+    "SECURITY.md",
+    "agentic",
+    "biome.json",
+    "docs",
+    "package.json",
+    "packages",
+    "pnpm-lock.yaml",
+    "release-please-config.json",
+    "runtime",
+    "scripts",
+    "social-preview.svg",
+    "src",
+    "tsconfig.fuzz.json",
+    "tsconfig.json",
+    "vitest.config.ts"
+  ]
+}

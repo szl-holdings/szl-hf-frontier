@@ -1,0 +1,20 @@
+{
+  "card": "# szl-evidence-litellm\n\n**Tamper-evident, hash-chained receipts for every LiteLLM request.**\n\nNo gateway or observability project \u2014 not LiteLLM itself, not Kong, Portkey,\nHelicone, Langfuse, or Phoenix \u2014 ships tamper-evident request logs. They log;\nthey trace; they dashboard. But a log line in a mutable database is an\nassertion, not evidence. This plugin adds the missing layer: every request\nproduces a `GovernedAction/v1` receipt whose identity is the sha256 of its own\ncanonical (RFC 8785) body, appended to an append-only hash chain that fails\nloudly under reorder, truncation, replay, fork, or field-level tamper.\n\nThis repository is the standalone distribution of two packages developed in\nthe SZL Holdings monorepo (`szl-platform`):\n\n| Package | Version | Role |\n|---|---|---|\n| `szl-receipts` | 14.0.0 | Trust core: RFC 8785 JCS, chunked byte digests, DSSE/in-toto envelopes, Ed25519, hash-chained append-only ledger |\n| `szl-evidence-litellm` | 0.1.0 | The LiteLLM callback plugin: synchronous receipt construction, asynchronous bounded-queue persistence, explicit fail-open/fail-closed policy, per-attempt deployment capture, OpenTelemetry mapping |\n\nProvenance: byte-exact mirror of `szl-platform@4f2b5f28f8c35daa81522d1dbc605f373df5b07c`\n(2026-08-31). See [PROVENANCE.md](PROVENANCE.md). Development happens in the\nmonorepo; this repo is the release surface.\n\n## Install\n\nUntil the packages land on PyPI, install from this repository:\n\n```bash\ngit clone https://github.com/szl-holdings/szl-evidence-litellm.git\ncd szl-evidence-litellm\npip install -e packages/szl-receipts          # the trust core FIRST (peer dependency)\npip install -e 'packages/szl-evidence-litellm[litellm,proxy]'\n```\n\nOr pin a release asset directly (each GitHub Release carries built\n`sdist`/`wheel` files with SHA256SUMS and an unsigned receipt manifest, named\n`*.unsigned.json` until the estate's production signing lane is enabled).\n\n## Quick start\n\n```python\nimport litellm\nfrom szl_evidence_litellm import EvidencePolicy, EvidenceSink, FailMode\n\npolicy = EvidencePolicy(fail_mode=FailMode.FAIL_OPEN)   # or FAIL_CLOSED\nsink = EvidenceSink(policy, path=\"receipts.jsonl\")\nlitellm.callbacks = [sink.plugin]\n```\n\nEvery call now leaves a content-addressed receipt; the chain verifies offline:\n\n```bash\npython -m szl_receipts verify receipts.jsonl\n```\n\nSee `packages/szl-evidence-litellm/README.md` for the five load-bearing\npatterns, the fail-mode matrix, the receipt schema, and the full configuration\nreference.\n\n## Verify the estate's claims about this package\n\n- 163 trust-core tests and the full plugin suite run in CI on every push\n  (Python 3.11 and 3.12), offline and hermetic.\n- The companion attack harness (19 attacks against this receipt chain \u2014 all\n  blocked) lives in the SZL estate; this distribution's chain semantics are\n  the exact code those attacks run against.\n\n## License\n\nProprietary \u2014 see each package's `pyproject.toml`. Contact SZL Holdings for\nlicensing. The format specification is published separately as an IETF\nindividual draft (`draft-lutar-governed-action-receipt`).\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 3094,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/b1f2a95d5f6f71ec257a8c2c647c8242734f20c8a2940641b1e6e83949c61e63.md",
+      "revision": "578228481c6ecac1bd7067f1b7173a03d4beebb8",
+      "sha256": "b1f2a95d5f6f71ec257a8c2c647c8242734f20c8a2940641b1e6e83949c61e63",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-evidence-litellm/blob/578228481c6ecac1bd7067f1b7173a03d4beebb8/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-evidence-litellm",
+  "observed_at": "2026-09-24T12:29:33Z",
+  "observed_revision": "578228481c6ecac1bd7067f1b7173a03d4beebb8"
+}

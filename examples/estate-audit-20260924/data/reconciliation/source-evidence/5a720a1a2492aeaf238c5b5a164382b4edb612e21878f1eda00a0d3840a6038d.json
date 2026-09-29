@@ -1,0 +1,45 @@
+{
+  "sha": "f56e5327b61c548f656ee7c88f539e8c5228525d",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "5dd11cc10158d1e2482e6aafeeadabb0e770df1c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-pages/git/trees/5dd11cc10158d1e2482e6aafeeadabb0e770df1c"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "d68760e50bcf61248adad9b396b01fa357da6917",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-pages/git/trees/d68760e50bcf61248adad9b396b01fa357da6917"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/pages.yml",
+      "sha": "9bfb10f868963924095d02ac0b71d2945e968100",
+      "size": 678,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-pages/git/blobs/9bfb10f868963924095d02ac0b71d2945e968100"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "917b8879bd48709526ac0c27390d789e5cf88451",
+      "size": 1234,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-pages/git/blobs/917b8879bd48709526ac0c27390d789e5cf88451"
+    },
+    {
+      "mode": "100644",
+      "path": "index.html",
+      "sha": "5d3e29fa4880bb626ffbe7bc01c567b30de2c748",
+      "size": 6338,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-pages/git/blobs/5d3e29fa4880bb626ffbe7bc01c567b30de2c748"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/khipu-pages/git/trees/f56e5327b61c548f656ee7c88f539e8c5228525d"
+}

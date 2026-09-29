@@ -1,0 +1,20 @@
+{
+  "card": "---\ntitle: THE GRID\nemoji: \ud83d\udfe6\ncolorFrom: cyan\ncolorTo: yellow\nsdk: docker\napp_port: 7860\npinned: false\nlicense: apache-2.0\nshort_description: Isometric extraction protocol. Survive the Convergence.\n---\n\n# THE GRID\n\nIsometric extraction protocol. Loot the lattice. Outrun the Convergence.\n\n**L4 exhibit. Live on GitHub. Not a kernel. Not a11oy. Not \u039b. `winner=null`.**\n\nPlay now: [play.html](./play.html)\n\n| Surface | Measured 2026-09-11 |\n|---|---|\n| github.com/szl-holdings/the-grid | LIVE `953c668` + this receipt |\n| play.html | LIVE 8-operator exhibit |\n| Dockerfile | LIVE python:3.12-slim :7860 |\n| spaces/SZLHOLDINGS/the-grid | DOES NOT EXIST (401) |\n| spaces/betterwithage/the-grid | DOES NOT EXIST (401) |\n| a-11-oy.com/the-grid | 404 undeclared path refused |\n| a11oy.net/the-grid | 404 |\n\nDo not host on a-11-oy.com or a11oy.net. Do not hijack Space `SZLHOLDINGS/szl-frontier`.\n\n## Play\n\nJACK IN \u2192 VESPER NYX QUILL RIVEN SABLE HELIX WRAITH AEGIS \u2192 loot cyan \u2192 Q/E EXTRACTOR \u2192 F on gold \u226520 juice before heat 100.\n\nWASD \u00b7 Q/E \u00b7 R scan \u00b7 F extract \u00b7 Space overclock \u00b7 C Convergence\n\n## Create the Spaces (founder machine only)\n\n```bash\npython3 -m pip install --user huggingface_hub\nexport GITHUB_TOKEN='ghp_YOUR_TOKEN'\nexport HF_TOKEN='hf_YOUR_HF_TOKEN'\npython3 scripts/payload01_align_push.py\n```\n\nApache-2.0.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 1338,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/589afe1e7b93cbc40d1afbfc35123bdca4e8b296454d22c6d2969126b360fd70.md",
+      "revision": "7395a69b6d38903a555ddf88d7b20bc9afc01395",
+      "sha256": "589afe1e7b93cbc40d1afbfc35123bdca4e8b296454d22c6d2969126b360fd70",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/the-grid/blob/7395a69b6d38903a555ddf88d7b20bc9afc01395/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/the-grid",
+  "observed_at": "2026-09-24T12:29:41Z",
+  "observed_revision": "7395a69b6d38903a555ddf88d7b20bc9afc01395"
+}

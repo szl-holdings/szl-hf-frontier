@@ -1,0 +1,40 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 15185,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:02Z",
+      "path": "data/reconciliation/source-evidence/b5616c0716ba6d6d77117b7a683ea8c346cd3383eb9a7f49fdb1b8e1409cb5d0.json",
+      "revision": "f7e290a197922134076ff190118d7fca2e4975db",
+      "sha256": "b5616c0716ba6d6d77117b7a683ea8c346cd3383eb9a7f49fdb1b8e1409cb5d0",
+      "source_identity": "github/szl-holdings/szl-lambda-gate",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lambda-gate/git/trees/f7e290a197922134076ff190118d7fca2e4975db?recursive=1"
+    }
+  ],
+  "file_count": 40,
+  "id": "github/szl-holdings/szl-lambda-gate",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "f7e290a197922134076ff190118d7fca2e4975db",
+  "root_paths": [
+    ".gitattributes",
+    ".github",
+    ".gitignore",
+    ".zenodo.json",
+    "CITATION.cff",
+    "CODEOWNERS",
+    "LICENSE",
+    "README.md",
+    "build.toml",
+    "flake.nix",
+    "frontier",
+    "hf-kernels",
+    "pyproject.toml",
+    "scripts",
+    "tests",
+    "torch-ext"
+  ]
+}

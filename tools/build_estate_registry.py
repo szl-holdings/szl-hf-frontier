@@ -16,6 +16,7 @@ SNAPSHOTS = ("github_repositories.json", *(f"huggingface_{kind}.json" for kind i
 REVIEW_STATUS = {"UNREVIEWED", "NEEDS_SOURCE_FIX", "NEEDS_CARD_REWRITE", "NEEDS_LINK_REPAIR", "NEEDS_STATUS_CORRECTION", "NEEDS_LICENSE_REVIEW", "NEEDS_CANONICAL_MAPPING", "UNAVAILABLE_WITH_REASON"}
 TRUTH_STATUS = {"SOURCE_BACKED", "SOFTWARE", "EXPERIMENTAL", "ADVISORY", "PROPOSAL_ONLY", "REFERENCE", "SYNTHETIC", "BLOCKED", "DEPRECATED", "ARCHIVED", "UNAVAILABLE"}
 SHA = re.compile(r"^[0-9a-f]{40}(?:[0-9a-f]{24})?$")
+ROOT = Path(__file__).resolve().parents[1]
 
 def load_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
@@ -232,16 +233,36 @@ def gap_report(registry: list[dict[str, Any]]) -> dict[str, Any]:
             "artifact_count": len(registry), "promotion_eligible": False, "signature_status": "UNSIGNED",
             "summary": dict(sorted(Counter(row["gate"] for row in gaps).items())), "unresolved_gaps": gaps}
 
-def main() -> None:
+def require_private_outputs(outputs: list[Path], *, scope: str | None = None,
+                            registry: list[dict[str, Any]] | None = None,
+                            repository_root: Path | None = None) -> None:
+    """Keep token-visible or private inventory out of repository publication paths."""
+    if scope != "TOKEN_VISIBLE" and not any(row.get("visibility") != "public" for row in (registry or [])):
+        return
+    repository = (repository_root or ROOT).resolve()
+    # Resolve each destination, but keep the ignored directory's lexical name:
+    # a symlink from .estate-private into a tracked directory must not bypass this.
+    private = repository / ".estate-private"
+    for output in outputs:
+        resolved = output.resolve()
+        if resolved.is_relative_to(repository) and not resolved.is_relative_to(private):
+            raise ValueError("PRIVATE_INPUT_REQUIRES_LOCAL_OUTPUTS")
+
+
+def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", default="data/snapshots")
     parser.add_argument("--registry", default="data/estate_registry.json")
     parser.add_argument("--gaps", default="reports/unresolved_gaps.json")
     parser.add_argument("--reviews", type=Path)
-    args = parser.parse_args()
-    registry = build_registry(Path(args.input), args.reviews)
+    args = parser.parse_args(argv)
+    input_root = Path(args.input)
+    registry = build_registry(input_root, args.reviews)
     if not registry:
         raise SystemExit("No artifacts found; registry was not written.")
+    require_private_outputs([Path(args.registry), Path(args.gaps)],
+                            scope=load_json(input_root / "snapshot_receipt.json").get("scope"),
+                            registry=registry)
     write_json(Path(args.registry), registry)
     write_json(Path(args.gaps), gap_report(registry))
     print(f"Wrote {len(registry)} draft entries; promotion remains blocked pending all gates.")

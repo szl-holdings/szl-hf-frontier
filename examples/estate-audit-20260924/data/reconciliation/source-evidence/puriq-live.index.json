@@ -1,0 +1,50 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 12300,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:54Z",
+      "path": "data/reconciliation/source-evidence/9aea17c45d6a06053a4b84aa6c6050fd35b9809dc95b611cbc2a175c5b545870.json",
+      "revision": "3972a0ed5fd1230060e6e5c4cfc352df674426c5",
+      "sha256": "9aea17c45d6a06053a4b84aa6c6050fd35b9809dc95b611cbc2a175c5b545870",
+      "source_identity": "github/szl-holdings/puriq-live",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/trees/3972a0ed5fd1230060e6e5c4cfc352df674426c5?recursive=1"
+    }
+  ],
+  "file_count": 36,
+  "id": "github/szl-holdings/puriq-live",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "3972a0ed5fd1230060e6e5c4cfc352df674426c5",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "CITATION.cff",
+    "Dockerfile",
+    "FOLD.md",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "SOURCE_PIN.md",
+    "SPACE.md",
+    "SZL_ESTATE_BINDING.json",
+    "app.py",
+    "constraints-runtime.txt",
+    "puriq_market.py",
+    "puriq_research.py",
+    "puriq_research_routes.py",
+    "pyproject.toml",
+    "requirements-test.txt",
+    "requirements.txt",
+    "static",
+    "szl-space-hologram.css",
+    "szl-space-hologram.js",
+    "szl_hologram_assets.py",
+    "szl_puriq.py",
+    "tests",
+    "tools"
+  ]
+}

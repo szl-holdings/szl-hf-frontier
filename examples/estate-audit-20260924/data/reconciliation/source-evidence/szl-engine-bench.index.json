@@ -1,0 +1,33 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 4586,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:58Z",
+      "path": "data/reconciliation/source-evidence/e677776269d62afc36c73dcf8e5b4b259d389668293f15bb3e90b081ca4bab4d.json",
+      "revision": "c5ec41b9c1dfa11d568f54aeb67ba3f6462c5a67",
+      "sha256": "e677776269d62afc36c73dcf8e5b4b259d389668293f15bb3e90b081ca4bab4d",
+      "source_identity": "github/szl-holdings/szl-engine-bench",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-engine-bench/git/trees/c5ec41b9c1dfa11d568f54aeb67ba3f6462c5a67?recursive=1"
+    }
+  ],
+  "file_count": 11,
+  "id": "github/szl-holdings/szl-engine-bench",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "c5ec41b9c1dfa11d568f54aeb67ba3f6462c5a67",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "benchmark_manifest.py",
+    "engine_bench.py",
+    "examples",
+    "pyproject.toml",
+    "tests"
+  ]
+}

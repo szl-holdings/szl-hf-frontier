@@ -1,0 +1,38 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 8197,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:10Z",
+      "path": "data/reconciliation/source-evidence/19cc86a1e3a03a6ff0881daa88beda4278db5814501803bb4f5db4854d1e5a69.json",
+      "revision": "bb15b7da92ada2541e5deff0a276a2e51c17f1e2",
+      "sha256": "19cc86a1e3a03a6ff0881daa88beda4278db5814501803bb4f5db4854d1e5a69",
+      "source_identity": "github/szl-holdings/yarqa-attn",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/trees/bb15b7da92ada2541e5deff0a276a2e51c17f1e2?recursive=1"
+    }
+  ],
+  "file_count": 23,
+  "id": "github/szl-holdings/yarqa-attn",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "bb15b7da92ada2541e5deff0a276a2e51c17f1e2",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    ".zenodo.json",
+    "CARD.md",
+    "CITATION.cff",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "build.toml",
+    "example.py",
+    "flake.nix",
+    "pyproject.toml",
+    "tests",
+    "torch-ext"
+  ]
+}

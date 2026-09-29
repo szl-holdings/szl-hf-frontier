@@ -1,0 +1,41 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 31337,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:05Z",
+      "path": "data/reconciliation/source-evidence/a21cd039506548b4214184e8b77975fad429d02c62e384476f446983dc56d375.json",
+      "revision": "a631701880a60bef05e0c8f023fe761f1faa743f",
+      "sha256": "a21cd039506548b4214184e8b77975fad429d02c62e384476f446983dc56d375",
+      "source_identity": "github/szl-holdings/szl-quant",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-quant/git/trees/a631701880a60bef05e0c8f023fe761f1faa743f?recursive=1"
+    }
+  ],
+  "file_count": 87,
+  "id": "github/szl-holdings/szl-quant",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "a631701880a60bef05e0c8f023fe761f1faa743f",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "authorizations",
+    "bin",
+    "data",
+    "docs",
+    "keys",
+    "package.json",
+    "receipts",
+    "sft",
+    "src",
+    "test",
+    "tools",
+    "verify"
+  ]
+}

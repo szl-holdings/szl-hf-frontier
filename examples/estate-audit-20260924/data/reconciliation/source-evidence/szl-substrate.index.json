@@ -1,0 +1,38 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 34160,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:07Z",
+      "path": "data/reconciliation/source-evidence/7cfe36f9dded6aaae07ee293286f3b6cb22f320b9c89aa3dad1209c46e248afe.json",
+      "revision": "5b4d0d5b8bd003fb952a7f15ed996f5780ec4ccc",
+      "sha256": "7cfe36f9dded6aaae07ee293286f3b6cb22f320b9c89aa3dad1209c46e248afe",
+      "source_identity": "github/szl-holdings/szl-substrate",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-substrate/git/trees/5b4d0d5b8bd003fb952a7f15ed996f5780ec4ccc?recursive=1"
+    }
+  ],
+  "file_count": 104,
+  "id": "github/szl-holdings/szl-substrate",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "5b4d0d5b8bd003fb952a7f15ed996f5780ec4ccc",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    ".gitleaks.toml",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "MIGRATION.md",
+    "NOTICE",
+    "README.md",
+    "SECURITY.md",
+    "examples",
+    "pyproject.toml",
+    "src",
+    "tests"
+  ]
+}

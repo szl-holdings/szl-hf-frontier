@@ -1,0 +1,1288 @@
+{
+  "sha": "0513879e3448e1374f579d26bbc7df154c176e67",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "2474437eced76f3f4a26e0bd1f59cd61d9275fa5",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/2474437eced76f3f4a26e0bd1f59cd61d9275fa5"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODEOWNERS",
+      "sha": "bb847479aa7f36c62e092fe878c3e3e9ff6d7163",
+      "size": 52,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/bb847479aa7f36c62e092fe878c3e3e9ff6d7163"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/dependabot.yml",
+      "sha": "134f641766e9a6c944f6f513dba68b74b36e9821",
+      "size": 264,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/134f641766e9a6c944f6f513dba68b74b36e9821"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/scripts",
+      "sha": "42b9dca88ec2a6d1389ecc8d740c7a41e2d8a6b5",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/42b9dca88ec2a6d1389ecc8d740c7a41e2d8a6b5"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/extract_doi.py",
+      "sha": "af35eedb7d17dbbc745b1eafbba7ac6651582778",
+      "size": 215,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/af35eedb7d17dbbc745b1eafbba7ac6651582778"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/write_doi.py",
+      "sha": "3b60f983618cacddea7a17d995deca69750639a5",
+      "size": 1383,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/3b60f983618cacddea7a17d995deca69750639a5"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "9efa6ff799988780353822a140903ce1cd38d9a3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/9efa6ff799988780353822a140903ce1cd38d9a3"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/claim-registry.yml",
+      "sha": "d374aaefab6972760490f9be8f3946edefda9cc5",
+      "size": 2150,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/d374aaefab6972760490f9be8f3946edefda9cc5"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/doi-writeback.yml",
+      "sha": "de1487a87c3c7e15b5336487918681e2065065fa",
+      "size": 935,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/de1487a87c3c7e15b5336487918681e2065065fa"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/overclaim-guard.yml",
+      "sha": "3b51a2f942f8ee6a093f4365d353a9e29811698b",
+      "size": 761,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/3b51a2f942f8ee6a093f4365d353a9e29811698b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/pin-check.yml",
+      "sha": "f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621",
+      "size": 586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/sbom.yml",
+      "sha": "e385caec32afcfb78cb91b53b288ea254896fba7",
+      "size": 495,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/e385caec32afcfb78cb91b53b288ea254896fba7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/scorecard.yml",
+      "sha": "92ad91c80f26aaf0f6d7d9ec1731e44406654eb5",
+      "size": 625,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/92ad91c80f26aaf0f6d7d9ec1731e44406654eb5"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/zenodo-metadata-gate.yml",
+      "sha": "ebf116fd61163c7c1056ae290aea3497d0e788ad",
+      "size": 2764,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/ebf116fd61163c7c1056ae290aea3497d0e788ad"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "9893b8e84ef2e27a0daedd25ee2d2e02e5824b53",
+      "size": 323,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/9893b8e84ef2e27a0daedd25ee2d2e02e5824b53"
+    },
+    {
+      "mode": "100644",
+      "path": ".zenodo.json",
+      "sha": "c37803aed6384e3ad5dbb6c5ec2ec371dba592d4",
+      "size": 2720,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/c37803aed6384e3ad5dbb6c5ec2ec371dba592d4"
+    },
+    {
+      "mode": "100644",
+      "path": "ARCHITECTURE.md",
+      "sha": "aa1069d616d01b25defb1abb99c73ca84a44a51a",
+      "size": 1980,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/aa1069d616d01b25defb1abb99c73ca84a44a51a"
+    },
+    {
+      "mode": "100644",
+      "path": "ARXIV_SUBMISSION_GUIDE.md",
+      "sha": "50fdfce6de5a18277f3bfdd762a0aeed25b301ca",
+      "size": 6973,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/50fdfce6de5a18277f3bfdd762a0aeed25b301ca"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "fc480cc02bc142257e9c545c0bc4bd96a62d7db5",
+      "size": 2214,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/fc480cc02bc142257e9c545c0bc4bd96a62d7db5"
+    },
+    {
+      "mode": "100644",
+      "path": "CONTRIBUTING.md",
+      "sha": "6fc46a92341f12799e8df4a622518438ad82877a",
+      "size": 1644,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/6fc46a92341f12799e8df4a622518438ad82877a"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "da6ab6cc8f333d7e89a99812866df8f24374d47c",
+      "size": 18657,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/da6ab6cc8f333d7e89a99812866df8f24374d47c"
+    },
+    {
+      "mode": "100644",
+      "path": "PAPERS_INDEX.md",
+      "sha": "566f8352deabd83c1bc8b3aea6c58c0b587a9fd1",
+      "size": 8891,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/566f8352deabd83c1bc8b3aea6c58c0b587a9fd1"
+    },
+    {
+      "mode": "100644",
+      "path": "PREPRINT_PUBLICATION_RECORDS.json",
+      "sha": "af52f86064d785a54628361fa3b804f974c3a8d1",
+      "size": 3046,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/af52f86064d785a54628361fa3b804f974c3a8d1"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "6a6a8c9cefb4717aeb90d434de96bec7233a796c",
+      "size": 4575,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/6a6a8c9cefb4717aeb90d434de96bec7233a796c"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "d7acca49075aa0960868142cc194ad8e75da3c5e",
+      "size": 251,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/d7acca49075aa0960868142cc194ad8e75da3c5e"
+    },
+    {
+      "mode": "100644",
+      "path": "ZENODO_DEPOSIT_POLICY.md",
+      "sha": "4e797d495912bd1c5f3ea02cc85321368b4a224a",
+      "size": 1434,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/4e797d495912bd1c5f3ea02cc85321368b4a224a"
+    },
+    {
+      "mode": "040000",
+      "path": "bounty",
+      "sha": "6702980b8e3e469cbb4ea20a10b9a462fd173aaf",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/6702980b8e3e469cbb4ea20a10b9a462fd173aaf"
+    },
+    {
+      "mode": "100644",
+      "path": "bounty/README.md",
+      "sha": "85be806d5c7cc1c27d502306791a1ebc155356bb",
+      "size": 7502,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/85be806d5c7cc1c27d502306791a1ebc155356bb"
+    },
+    {
+      "mode": "040000",
+      "path": "branding",
+      "sha": "42179c85ee08fb49ccc21a4e69e37b0bbab00dd9",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/42179c85ee08fb49ccc21a4e69e37b0bbab00dd9"
+    },
+    {
+      "mode": "100644",
+      "path": "branding/szl-mark.svg",
+      "sha": "b0fbe5a27961f27639d65fedbb76c40d6a280602",
+      "size": 578,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/b0fbe5a27961f27639d65fedbb76c40d6a280602"
+    },
+    {
+      "mode": "040000",
+      "path": "drafts",
+      "sha": "3575f7d55f4e7aa5134dc8a6631a7a9703d02ddf",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/3575f7d55f4e7aa5134dc8a6631a7a9703d02ddf"
+    },
+    {
+      "mode": "100644",
+      "path": "drafts/README.md",
+      "sha": "842e70f7c219ace6152ec4ad6dc3a8bd5e5385a0",
+      "size": 2323,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/842e70f7c219ace6152ec4ad6dc3a8bd5e5385a0"
+    },
+    {
+      "mode": "100644",
+      "path": "drafts/doubly-verified-receipt.md",
+      "sha": "548e17106eb0bc6814a58ce72b15e096a4bea5a1",
+      "size": 19292,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/548e17106eb0bc6814a58ce72b15e096a4bea5a1"
+    },
+    {
+      "mode": "100644",
+      "path": "drafts/lambda-uniqueness-counterexample-note.md",
+      "sha": "edcc90b02c6ad1c2d96ccb9fd44546e8163b4084",
+      "size": 21581,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/edcc90b02c6ad1c2d96ccb9fd44546e8163b4084"
+    },
+    {
+      "mode": "040000",
+      "path": "investor",
+      "sha": "048694f5b6c27564e138527bc6514de35a32173d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/048694f5b6c27564e138527bc6514de35a32173d"
+    },
+    {
+      "mode": "100644",
+      "path": "investor/LAUNCH_POST.md",
+      "sha": "1a6200e3e4c639d6936479d5860630d280a06afc",
+      "size": 2194,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/1a6200e3e4c639d6936479d5860630d280a06afc"
+    },
+    {
+      "mode": "100644",
+      "path": "investor/ONE_PAGER.md",
+      "sha": "09793be0a6a533617d58e3d066af493fa3dd0afb",
+      "size": 4214,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/09793be0a6a533617d58e3d066af493fa3dd0afb"
+    },
+    {
+      "mode": "040000",
+      "path": "metadata",
+      "sha": "8795ffbf580fe12bb02e47b51f6c442d28d5f2f7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/8795ffbf580fe12bb02e47b51f6c442d28d5f2f7"
+    },
+    {
+      "mode": "040000",
+      "path": "metadata/zenodo",
+      "sha": "5638ffb56a091a1d9017a1ff6ec91f4fd0fc139b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/5638ffb56a091a1d9017a1ff6ec91f4fd0fc139b"
+    },
+    {
+      "mode": "100644",
+      "path": "metadata/zenodo/base.json",
+      "sha": "92789d54ae3a1e977d73778e216e1115261d539b",
+      "size": 529,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/92789d54ae3a1e977d73778e216e1115261d539b"
+    },
+    {
+      "mode": "100644",
+      "path": "metadata/zenodo/next.txt",
+      "sha": "f79f04f2da3da436d8d1392f3cbb55c20e25ee02",
+      "size": 23,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/f79f04f2da3da436d8d1392f3cbb55c20e25ee02"
+    },
+    {
+      "mode": "040000",
+      "path": "metadata/zenodo/releases",
+      "sha": "fee08a3f972642f3616cee4b34917d536e8f051e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/fee08a3f972642f3616cee4b34917d536e8f051e"
+    },
+    {
+      "mode": "100644",
+      "path": "metadata/zenodo/releases/typesafe-triage-v1.0.0.json",
+      "sha": "601815c6b5e84ab51bfbddc22d41e958fa6f1aea",
+      "size": 592,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/601815c6b5e84ab51bfbddc22d41e958fa6f1aea"
+    },
+    {
+      "mode": "040000",
+      "path": "papers",
+      "sha": "b4024090e379cb7b0ecd30dae743038ae02b2cfa",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/b4024090e379cb7b0ecd30dae743038ae02b2cfa"
+    },
+    {
+      "mode": "100644",
+      "path": "papers/SZL_Governed_Estate_Whitepaper.pdf",
+      "sha": "4a0cdc9e99dd2a4e40c4f2beecacc0f1eadb72c1",
+      "size": 61613,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/4a0cdc9e99dd2a4e40c4f2beecacc0f1eadb72c1"
+    },
+    {
+      "mode": "100644",
+      "path": "papers/SZL_THESIS_v5.md",
+      "sha": "5808bb65b93761a1eb9a37fef5b70533ce16f6db",
+      "size": 16802,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/5808bb65b93761a1eb9a37fef5b70533ce16f6db"
+    },
+    {
+      "mode": "100644",
+      "path": "papers/SZL_THESIS_v6.md",
+      "sha": "1163d5997a14199f9cd88075aa782ea307ca3d47",
+      "size": 76188,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/1163d5997a14199f9cd88075aa782ea307ca3d47"
+    },
+    {
+      "mode": "100644",
+      "path": "papers/SZL_THESIS_v7.md",
+      "sha": "d7e3c7457aae4afce4a8469b00598713b4db3579",
+      "size": 44388,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/d7e3c7457aae4afce4a8469b00598713b4db3579"
+    },
+    {
+      "mode": "100644",
+      "path": "papers/SZL_THESIS_v8.md",
+      "sha": "58e58c13a67086c56ed016902539f5cf4ba75eb1",
+      "size": 66405,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/58e58c13a67086c56ed016902539f5cf4ba75eb1"
+    },
+    {
+      "mode": "040000",
+      "path": "papers/typesafe-triage",
+      "sha": "ef4d257e9d0110077ba629c24add9bb6ad5d5be0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/ef4d257e9d0110077ba629c24add9bb6ad5d5be0"
+    },
+    {
+      "mode": "100644",
+      "path": "papers/typesafe-triage/README.md",
+      "sha": "1fee866aaa51bb08219ccbb0ada388f6a1f9a058",
+      "size": 443,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/1fee866aaa51bb08219ccbb0ada388f6a1f9a058"
+    },
+    {
+      "mode": "040000",
+      "path": "preprints",
+      "sha": "5b499ed90f4483acc041c5d8da4e6fb5abc0fd62",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/5b499ed90f4483acc041c5d8da4e6fb5abc0fd62"
+    },
+    {
+      "mode": "040000",
+      "path": "preprints/ouroboros-arxiv",
+      "sha": "d84a46f314db5c5237a4cb06e2756fa43ef66f23",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/d84a46f314db5c5237a4cb06e2756fa43ef66f23"
+    },
+    {
+      "mode": "100644",
+      "path": "preprints/ouroboros-arxiv/main.tex",
+      "sha": "b29b7885991145c86ef72e3b08c551deb3599f19",
+      "size": 36598,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/b29b7885991145c86ef72e3b08c551deb3599f19"
+    },
+    {
+      "mode": "100644",
+      "path": "preprints/ouroboros-arxiv/refs.bib",
+      "sha": "18c15517ca2abac35045850a8aa2d77d796971b4",
+      "size": 16583,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/18c15517ca2abac35045850a8aa2d77d796971b4"
+    },
+    {
+      "mode": "040000",
+      "path": "preprints/puriq",
+      "sha": "aee80eca660f1950a547860fcce3b86db5b015a6",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/aee80eca660f1950a547860fcce3b86db5b015a6"
+    },
+    {
+      "mode": "100644",
+      "path": "preprints/puriq/README.md",
+      "sha": "d568f47e7c81b3083aab3698fff232ec9d006ffe",
+      "size": 5118,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/d568f47e7c81b3083aab3698fff232ec9d006ffe"
+    },
+    {
+      "mode": "040000",
+      "path": "prior-art",
+      "sha": "34dd108560fa7f54a67ab9083f07232b3235900a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/34dd108560fa7f54a67ab9083f07232b3235900a"
+    },
+    {
+      "mode": "100644",
+      "path": "prior-art/README.md",
+      "sha": "483d9acc662d0d99275ba678238f7c9695d0d548",
+      "size": 2756,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/483d9acc662d0d99275ba678238f7c9695d0d548"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "f355feefd676d1fd9fede6a49ba3774694f4bce0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/f355feefd676d1fd9fede6a49ba3774694f4bce0"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/check_claim_backing.py",
+      "sha": "b1080e927a827ebaf0f435e8f2514f90f8662394",
+      "size": 20244,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/b1080e927a827ebaf0f435e8f2514f90f8662394"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/check_preprint_publication_records.py",
+      "sha": "2d157fb9f9be8f513664745c43baee554b237236",
+      "size": 11727,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/2d157fb9f9be8f513664745c43baee554b237236"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts/zenodo",
+      "sha": "80465194f2a3c7507c2a183842f70cc359ac0da8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/80465194f2a3c7507c2a183842f70cc359ac0da8"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/zenodo/fetch_doi.py",
+      "sha": "f3ad4614b9829bf542e65029d23d793e328bdfef",
+      "size": 3996,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/f3ad4614b9829bf542e65029d23d793e328bdfef"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/zenodo/render_zenodo.py",
+      "sha": "9fa087f9ea0b631e679c6a79982f86d6e90c8c7a",
+      "size": 5359,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/9fa087f9ea0b631e679c6a79982f86d6e90c8c7a"
+    },
+    {
+      "mode": "040000",
+      "path": "thesis",
+      "sha": "eefa880afd9c4a09a32cf34ca8e4baefe0fc0d4d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/eefa880afd9c4a09a32cf34ca8e4baefe0fc0d4d"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/EXPERIMENTAL_LEAN_THEOREMS.md",
+      "sha": "6791b3ed10e16afb5837794db1cabb94e2b8f65b",
+      "size": 2248,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/6791b3ed10e16afb5837794db1cabb94e2b8f65b"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/THESIS_LINEAGE.md",
+      "sha": "0304e2aef5f4fa697bde21c2195713cee71011b7",
+      "size": 12302,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/0304e2aef5f4fa697bde21c2195713cee71011b7"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/_thesisbuild.py",
+      "sha": "f3759368c2d81121e7894de011c8c1b32a3a0109",
+      "size": 14456,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/f3759368c2d81121e7894de011c8c1b32a3a0109"
+    },
+    {
+      "mode": "040000",
+      "path": "thesis/arxiv",
+      "sha": "10f576e25286298f59ee88ff5c85d355311d70b0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/10f576e25286298f59ee88ff5c85d355311d70b0"
+    },
+    {
+      "mode": "040000",
+      "path": "thesis/arxiv/append-only-governance",
+      "sha": "784ae10aade573071abb3b882119e3358f4de056",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/784ae10aade573071abb3b882119e3358f4de056"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/arxiv/append-only-governance/ARXIV_METADATA.md",
+      "sha": "037cb427c969c567229c8d6770fe453c23d337f1",
+      "size": 3594,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/037cb427c969c567229c8d6770fe453c23d337f1"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/arxiv/append-only-governance/main.tex",
+      "sha": "bda2897f64c54cae222e15f0c04a9fe4831c7f0a",
+      "size": 64971,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/bda2897f64c54cae222e15f0c04a9fe4831c7f0a"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/arxiv/append-only-governance/references.bib",
+      "sha": "2e25d4949c46cc6a6ce084111cccba9d8f5ee1e6",
+      "size": 3994,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/2e25d4949c46cc6a6ce084111cccba9d8f5ee1e6"
+    },
+    {
+      "mode": "040000",
+      "path": "thesis/arxiv/gpd-unified-v26",
+      "sha": "690b201c84971533145fbcb69c22f9895fb096ab",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/690b201c84971533145fbcb69c22f9895fb096ab"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/arxiv/gpd-unified-v26/PAPER_NOTES.md",
+      "sha": "82b52ef7d10b910dc244e7eaf8dd5aa520c45b6a",
+      "size": 7654,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/82b52ef7d10b910dc244e7eaf8dd5aa520c45b6a"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/arxiv/gpd-unified-v26/main.pdf",
+      "sha": "173c70701016d62670bebe303b3e72fe378ab2a3",
+      "size": 363433,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/173c70701016d62670bebe303b3e72fe378ab2a3"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/arxiv/gpd-unified-v26/main.tex",
+      "sha": "41454cfee2f31e6e88f08c42cf9b36288bdeaf00",
+      "size": 62907,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/41454cfee2f31e6e88f08c42cf9b36288bdeaf00"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/arxiv/gpd-unified-v26/references.bib",
+      "sha": "7fb33308e98ccf21d331bfc5e3d1fb7a804f2f5b",
+      "size": 12333,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/7fb33308e98ccf21d331bfc5e3d1fb7a804f2f5b"
+    },
+    {
+      "mode": "040000",
+      "path": "thesis/arxiv/gpd-v26",
+      "sha": "82f8a388a09a54ea408197417ece4b51d2fc08a3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/82f8a388a09a54ea408197417ece4b51d2fc08a3"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/arxiv/gpd-v26/ARXIV_METADATA.md",
+      "sha": "1a720ec17cd0f965d637925d5d40cbb5b872ca2b",
+      "size": 4137,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/1a720ec17cd0f965d637925d5d40cbb5b872ca2b"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/arxiv/gpd-v26/main.tex",
+      "sha": "66effbd3ad1b1a481b3ec173dbdf86905a536f46",
+      "size": 39372,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/66effbd3ad1b1a481b3ec173dbdf86905a536f46"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/arxiv/gpd-v26/references.bib",
+      "sha": "6ceb4726dff7b25be254eaa186009a435e9821e8",
+      "size": 3419,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/6ceb4726dff7b25be254eaa186009a435e9821e8"
+    },
+    {
+      "mode": "040000",
+      "path": "thesis/arxiv/graph-substrate",
+      "sha": "dcdf140c810c8c45116871e231095c0c0f298642",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/dcdf140c810c8c45116871e231095c0c0f298642"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/arxiv/graph-substrate/ARXIV_METADATA.md",
+      "sha": "3db85773f63df7f11327f20764b0ec1e9a16f7e2",
+      "size": 6294,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/3db85773f63df7f11327f20764b0ec1e9a16f7e2"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/arxiv/graph-substrate/main.tex",
+      "sha": "31c1141da83f03ba779e7fa391cfe5a97d4cd9c2",
+      "size": 72286,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/31c1141da83f03ba779e7fa391cfe5a97d4cd9c2"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/arxiv/graph-substrate/references.bib",
+      "sha": "890edf1a70920bcb3daec52db9b99ed1e2b2cab3",
+      "size": 4947,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/890edf1a70920bcb3daec52db9b99ed1e2b2cab3"
+    },
+    {
+      "mode": "040000",
+      "path": "thesis/ouroboros",
+      "sha": "44821fd8ed504812540e3861f56be5dde61c3444",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/44821fd8ed504812540e3861f56be5dde61c3444"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/README.md",
+      "sha": "e40ea457729e1b8ebdd7fe8c5764ddbe0f8f8d6c",
+      "size": 11681,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/e40ea457729e1b8ebdd7fe8c5764ddbe0f8f8d6c"
+    },
+    {
+      "mode": "040000",
+      "path": "thesis/ouroboros/corpus-v18",
+      "sha": "eaeb9b3a15ebd70ef99197686a3d922497a10645",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/eaeb9b3a15ebd70ef99197686a3d922497a10645"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/corpus-v18/claims_v18_extracted.json",
+      "sha": "e8a7b4c36d0f635cc3cd4db0388532de2d5050f6",
+      "size": 45456,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/e8a7b4c36d0f635cc3cd4db0388532de2d5050f6"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/corpus-v18/claims_v18_extracted.json.HARVEST_NOTE.txt",
+      "sha": "140c178f054caa4403be9f63380d5d260f4b7ac8",
+      "size": 424,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/140c178f054caa4403be9f63380d5d260f4b7ac8"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/corpus-v18/lean_per_version.json",
+      "sha": "dc0b2eb1428043faa530ac1f2a0a4c33c0a13250",
+      "size": 15160,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/dc0b2eb1428043faa530ac1f2a0a4c33c0a13250"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/corpus-v18/main.tex",
+      "sha": "969995a26266091a7051b742e5646bb402c50a1b",
+      "size": 3029,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/969995a26266091a7051b742e5646bb402c50a1b"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/corpus-v18/per_version_delta_ledger.csv",
+      "sha": "7228ea89a6d07f17aff0c806999d54fbd39140b9",
+      "size": 37647,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/7228ea89a6d07f17aff0c806999d54fbd39140b9"
+    },
+    {
+      "mode": "040000",
+      "path": "thesis/ouroboros/papers",
+      "sha": "7ea3dcc79bcd968faf185ed6393765bbf5530054",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/7ea3dcc79bcd968faf185ed6393765bbf5530054"
+    },
+    {
+      "mode": "040000",
+      "path": "thesis/ouroboros/papers/v22",
+      "sha": "566f03698119d1097015a6f6fab39bf63a098a3a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/566f03698119d1097015a6f6fab39bf63a098a3a"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v22/CITATION.cff",
+      "sha": "094acb82b33fb1c29ef5c626d6883a79180a656c",
+      "size": 1878,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/094acb82b33fb1c29ef5c626d6883a79180a656c"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v22/README.md",
+      "sha": "891abef18d6537360b6483f8b267a54145dad1d9",
+      "size": 2190,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/891abef18d6537360b6483f8b267a54145dad1d9"
+    },
+    {
+      "mode": "040000",
+      "path": "thesis/ouroboros/papers/v22/arxiv",
+      "sha": "11c1d43edcca51e7e75cf7a3619df5ec1f358fda",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/11c1d43edcca51e7e75cf7a3619df5ec1f358fda"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v22/arxiv/00_README_ARXIV.md",
+      "sha": "e43b218dcf8463957e9edbb4da87728ec0f0d4c6",
+      "size": 3299,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/e43b218dcf8463957e9edbb4da87728ec0f0d4c6"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v22/arxiv/references.bib",
+      "sha": "4b94e15da089bb72f0a87e0ddba014b0505d1c3b",
+      "size": 4309,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/4b94e15da089bb72f0a87e0ddba014b0505d1c3b"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v22/arxiv/thesis_v22.pdf",
+      "sha": "a3760dedb36d3a0cf88887edf4cb127393262f8c",
+      "size": 250702,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/a3760dedb36d3a0cf88887edf4cb127393262f8c"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v22/arxiv/thesis_v22.tex",
+      "sha": "468d024671db73f59b46bb915412a5d5cc166262",
+      "size": 9062,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/468d024671db73f59b46bb915412a5d5cc166262"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v22/ouroboros-thesis-v22.md",
+      "sha": "2ccbb486061338b06d4e3326da04a3fa3458813c",
+      "size": 9661,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/2ccbb486061338b06d4e3326da04a3fa3458813c"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v22/thesis_v22.pdf",
+      "sha": "c8e427533c0475eacf10d493f694e8ae0d83ba11",
+      "size": 28976,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/c8e427533c0475eacf10d493f694e8ae0d83ba11"
+    },
+    {
+      "mode": "040000",
+      "path": "thesis/ouroboros/papers/v23",
+      "sha": "1b3b7347a673ccdf617c8d164ff3975b2271cfc2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/1b3b7347a673ccdf617c8d164ff3975b2271cfc2"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v23/0_README_v23.md",
+      "sha": "566ce6f2e482912be8d87cbe1369587bcaa1762a",
+      "size": 2414,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/566ce6f2e482912be8d87cbe1369587bcaa1762a"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v23/abstract.txt",
+      "sha": "9eb29c6dc9cbdf33f599bab3543d90c3782ab4f8",
+      "size": 1865,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/9eb29c6dc9cbdf33f599bab3543d90c3782ab4f8"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v23/cauchy_nd_progress.md",
+      "sha": "c7d6b1a8f414dc24170451a5f91afc7fe753dad4",
+      "size": 6114,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/c7d6b1a8f414dc24170451a5f91afc7fe753dad4"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v23/cover_letter.txt",
+      "sha": "503f43f00af1a03701318dfb3678f74abe427ab5",
+      "size": 3573,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/503f43f00af1a03701318dfb3678f74abe427ab5"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v23/maxAgg_counterexample.md",
+      "sha": "f2c8a3791c65174554d9c4a6c43f6a095649fa69",
+      "size": 4666,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/f2c8a3791c65174554d9c4a6c43f6a095649fa69"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v23/outline.md",
+      "sha": "77e7d1eb4f81b8364416b4a347507583bb79f72f",
+      "size": 8561,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/77e7d1eb4f81b8364416b4a347507583bb79f72f"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v23/references.bib",
+      "sha": "e4dc330aa9a97eaa8f1c3d3628e91a87e4c82940",
+      "size": 26405,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/e4dc330aa9a97eaa8f1c3d3628e91a87e4c82940"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v23/v23_diff_from_v22.md",
+      "sha": "4866f0081489c026d115a5001ad64cade1db2512",
+      "size": 2837,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/4866f0081489c026d115a5001ad64cade1db2512"
+    },
+    {
+      "mode": "040000",
+      "path": "thesis/ouroboros/papers/v24",
+      "sha": "cb8b736f8f45e8eafd0e80b1393cf253ffff6093",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/cb8b736f8f45e8eafd0e80b1393cf253ffff6093"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v24/.zenodo.json",
+      "sha": "c938b766090cf16f8b5eb25256ea659110b7c650",
+      "size": 3676,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/c938b766090cf16f8b5eb25256ea659110b7c650"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v24/README.md",
+      "sha": "b4e0cfa3fd9a2561992f2c536af5cfd833bdf4ec",
+      "size": 7036,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/b4e0cfa3fd9a2561992f2c536af5cfd833bdf4ec"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v24/main.md",
+      "sha": "da0104a48f85157a905f44f242b039ce1d435374",
+      "size": 53412,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/da0104a48f85157a905f44f242b039ce1d435374"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v24/main.pdf",
+      "sha": "6be89ca31d3cbda6f928b95f3b6b6e5f7014febb",
+      "size": 219932,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/6be89ca31d3cbda6f928b95f3b6b6e5f7014febb"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v24/main.tex",
+      "sha": "afa7bc616c0d8b5c94d9fb9f2f8f35f37c2ebbe4",
+      "size": 74963,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/afa7bc616c0d8b5c94d9fb9f2f8f35f37c2ebbe4"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v24/refs.bib",
+      "sha": "9cd41c2e5c62b83f75c5a24187dbdfdd31951267",
+      "size": 15029,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/9cd41c2e5c62b83f75c5a24187dbdfdd31951267"
+    },
+    {
+      "mode": "040000",
+      "path": "thesis/ouroboros/papers/v25",
+      "sha": "88f4646a571d66ebcfe74c15588852c8a4c91e41",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/88f4646a571d66ebcfe74c15588852c8a4c91e41"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v25/README.md",
+      "sha": "2f5db3565652710db7adba498819838202b9216e",
+      "size": 5153,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/2f5db3565652710db7adba498819838202b9216e"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v25/unified-gpd-thesis-v25.md",
+      "sha": "fec513c107c2895e58e027d2bcb532f074d9dd63",
+      "size": 53450,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/fec513c107c2895e58e027d2bcb532f074d9dd63"
+    },
+    {
+      "mode": "040000",
+      "path": "thesis/ouroboros/papers/v26",
+      "sha": "bb510d879b187a5543ba21b559735de11d584a07",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/bb510d879b187a5543ba21b559735de11d584a07"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/ouroboros/papers/v26/unified-gpd-thesis-v26.md",
+      "sha": "ea9d5e7162bf5d3f400367401cb792e1bbf1c545",
+      "size": 57987,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/ea9d5e7162bf5d3f400367401cb792e1bbf1c545"
+    },
+    {
+      "mode": "040000",
+      "path": "thesis/v19",
+      "sha": "8de5237c514d58f31ee892f87aeaa712cea49bbe",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/8de5237c514d58f31ee892f87aeaa712cea49bbe"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v19/README.md",
+      "sha": "33f8536adf8e59e44405b7bd9d844aff740a1cd7",
+      "size": 4225,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/33f8536adf8e59e44405b7bd9d844aff740a1cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v19/main.md",
+      "sha": "5901af7dcff816419355e440f40718112fe74d5e",
+      "size": 19493,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/5901af7dcff816419355e440f40718112fe74d5e"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v19/main.pdf",
+      "sha": "46f1ae1dea658886e0ff1a6c01dce40287e581e5",
+      "size": 151802,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/46f1ae1dea658886e0ff1a6c01dce40287e581e5"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v19/main.tex",
+      "sha": "b288f6b7caaa7c1c6da425bb5fe0aa8117b295d9",
+      "size": 23097,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/b288f6b7caaa7c1c6da425bb5fe0aa8117b295d9"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v19/refs.bib",
+      "sha": "a4284368fd862d9cc2c6e2d768ec09a3afa5d2ce",
+      "size": 5720,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/a4284368fd862d9cc2c6e2d768ec09a3afa5d2ce"
+    },
+    {
+      "mode": "040000",
+      "path": "thesis/v20",
+      "sha": "b7f284abcdd873af485c1bebd37bf43f69b5ce03",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/b7f284abcdd873af485c1bebd37bf43f69b5ce03"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v20/README.md",
+      "sha": "550272bd2d8a49925116d86ddfc30b245f027c76",
+      "size": 4223,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/550272bd2d8a49925116d86ddfc30b245f027c76"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v20/main.md",
+      "sha": "3bf05ddc0f6b0b28b2db9235af27f1591eb9dd31",
+      "size": 21605,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/3bf05ddc0f6b0b28b2db9235af27f1591eb9dd31"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v20/main.pdf",
+      "sha": "641a67bf684bd1768d47c682aef38ff2c9c29268",
+      "size": 146670,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/641a67bf684bd1768d47c682aef38ff2c9c29268"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v20/main.tex",
+      "sha": "f65643b9a8c60162bdf85de15945fccc69a1d90c",
+      "size": 27464,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/f65643b9a8c60162bdf85de15945fccc69a1d90c"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v20/refs.bib",
+      "sha": "0e0d5411dad2363c3b9435621751c0efae1ee073",
+      "size": 4253,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/0e0d5411dad2363c3b9435621751c0efae1ee073"
+    },
+    {
+      "mode": "040000",
+      "path": "thesis/v21",
+      "sha": "6597e5ac480fe1468564e662c95006c395ad6a76",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/6597e5ac480fe1468564e662c95006c395ad6a76"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v21/README.md",
+      "sha": "db669ad69ab730f2e5d6618b3d9505a34acf608a",
+      "size": 3997,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/db669ad69ab730f2e5d6618b3d9505a34acf608a"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v21/main.md",
+      "sha": "b2208a65ff4aca8295c2de0364dbbc9940a1b750",
+      "size": 24875,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/b2208a65ff4aca8295c2de0364dbbc9940a1b750"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v21/main.pdf",
+      "sha": "3e8a02d5d18644bd86eb4b3ab65620228c5633d1",
+      "size": 144238,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/3e8a02d5d18644bd86eb4b3ab65620228c5633d1"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v21/main.tex",
+      "sha": "2e792ba263750136324e4c64d054543b606d07d7",
+      "size": 29882,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/2e792ba263750136324e4c64d054543b606d07d7"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v21/refs.bib",
+      "sha": "9249597afddff5ee0c939e0203de7e7ece631490",
+      "size": 4355,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/9249597afddff5ee0c939e0203de7e7ece631490"
+    },
+    {
+      "mode": "040000",
+      "path": "thesis/v22",
+      "sha": "7e8f65bf52b905ac5aed026eb7d92e8202643462",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/7e8f65bf52b905ac5aed026eb7d92e8202643462"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v22/README.md",
+      "sha": "941d08dce018026d1f8c6806c94d5e7bf96212bd",
+      "size": 5826,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/941d08dce018026d1f8c6806c94d5e7bf96212bd"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v22/build_pdf.py",
+      "sha": "283a09ec34efdea1ec671ec3206ac80ec8493561",
+      "size": 48366,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/283a09ec34efdea1ec671ec3206ac80ec8493561"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v22/main.md",
+      "sha": "9d9709d9f07ea35453782a8f2fe5ce7f3b136c44",
+      "size": 38660,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/9d9709d9f07ea35453782a8f2fe5ce7f3b136c44"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v22/main.pdf",
+      "sha": "03b07521e8dfaf508ef514677ca889dd09c26d86",
+      "size": 144427,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/03b07521e8dfaf508ef514677ca889dd09c26d86"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v22/main.tex",
+      "sha": "c951a084ad91550e1cef07eb6d41cdaffc00c0ea",
+      "size": 46055,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/c951a084ad91550e1cef07eb6d41cdaffc00c0ea"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v22/refs.bib",
+      "sha": "260a63e3803b4fe1cb1bf8233e9924cdca1d9334",
+      "size": 4119,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/260a63e3803b4fe1cb1bf8233e9924cdca1d9334"
+    },
+    {
+      "mode": "040000",
+      "path": "thesis/v23",
+      "sha": "378ab279478d1625b3b2cc074604d151871afa42",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/378ab279478d1625b3b2cc074604d151871afa42"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v23/README.md",
+      "sha": "fe5860d7ff2cb64f8c5683145717ceb8ec6ec049",
+      "size": 4362,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/fe5860d7ff2cb64f8c5683145717ceb8ec6ec049"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v23/build_pdf.py",
+      "sha": "2fa36c212805fcdde36b9c491f0651800c0208cc",
+      "size": 86448,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/2fa36c212805fcdde36b9c491f0651800c0208cc"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v23/main.md",
+      "sha": "7345fc895b01fdbc3da2a23e50efd44dd0527008",
+      "size": 30970,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/7345fc895b01fdbc3da2a23e50efd44dd0527008"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v23/main.pdf",
+      "sha": "96262b84c94dc8f8c44e1446a4c47eaa1ccee9d2",
+      "size": 171297,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/96262b84c94dc8f8c44e1446a4c47eaa1ccee9d2"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v23/main.tex",
+      "sha": "d9053b684bb184a321a7e72ccd7b3599c99a3c8e",
+      "size": 56012,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/d9053b684bb184a321a7e72ccd7b3599c99a3c8e"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v23/refs.bib",
+      "sha": "5b07441f66f19a2824c65c82cb604977019b80d4",
+      "size": 8341,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/5b07441f66f19a2824c65c82cb604977019b80d4"
+    },
+    {
+      "mode": "040000",
+      "path": "thesis/v24",
+      "sha": "73e86b316aefe71d1166549db87cdb1cdcedca84",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/73e86b316aefe71d1166549db87cdb1cdcedca84"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v24/README.md",
+      "sha": "6b6365f62e58ff47804bfd9bd2935d571233f064",
+      "size": 4360,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/6b6365f62e58ff47804bfd9bd2935d571233f064"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v24/main.md",
+      "sha": "cbf7deeead209ceb27646e628882c97f2f4cdeae",
+      "size": 39263,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/cbf7deeead209ceb27646e628882c97f2f4cdeae"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v24/main.pdf",
+      "sha": "435b3678236799a0cef2ecbbc5b429246c1e6876",
+      "size": 186745,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/435b3678236799a0cef2ecbbc5b429246c1e6876"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v24/main.tex",
+      "sha": "b7e320ed1472b56e85740ba6badedaf8a8d674de",
+      "size": 58406,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/b7e320ed1472b56e85740ba6badedaf8a8d674de"
+    },
+    {
+      "mode": "100644",
+      "path": "thesis/v24/refs.bib",
+      "sha": "c87334bbe0cb82a69e409dea3b823e843a12bfb5",
+      "size": 13640,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/blobs/c87334bbe0cb82a69e409dea3b823e843a12bfb5"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/0513879e3448e1374f579d26bbc7df154c176e67"
+}

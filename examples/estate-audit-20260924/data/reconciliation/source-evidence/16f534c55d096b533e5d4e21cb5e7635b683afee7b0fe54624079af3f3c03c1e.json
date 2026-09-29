@@ -1,0 +1,233 @@
+{
+  "sha": "8c22afce8d7f9b1569b9caa775a81e0d86e0375c",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "4ad67b872da78a190b2a1ebb0663aa0764489b05",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/trees/4ad67b872da78a190b2a1ebb0663aa0764489b05"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/hf-mirror.json",
+      "sha": "7c1d622fa1235313c9dba7f76a045da72f90231c",
+      "size": 707,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/7c1d622fa1235313c9dba7f76a045da72f90231c"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "d8fa721132f60d60c1c4ce657dd03310c9abce57",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/trees/d8fa721132f60d60c1c4ce657dd03310c9abce57"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-mirror.yml",
+      "sha": "11fedd483c54f9e11e0d0e23d3c17eeeb443940e",
+      "size": 7911,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/11fedd483c54f9e11e0d0e23d3c17eeeb443940e"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/kernel-smoke.yml",
+      "sha": "fb2405d9a9408fd14217e00c14025d8a739be1c4",
+      "size": 963,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/fb2405d9a9408fd14217e00c14025d8a739be1c4"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "43b99d6dfe6b57e67ac7b7113ea6d378209f2893",
+      "size": 63,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/43b99d6dfe6b57e67ac7b7113ea6d378209f2893"
+    },
+    {
+      "mode": "100644",
+      "path": ".zenodo.json",
+      "sha": "deaa165acbd12a59fcfd2c8d2c26f7cc36eecd36",
+      "size": 859,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/deaa165acbd12a59fcfd2c8d2c26f7cc36eecd36"
+    },
+    {
+      "mode": "100644",
+      "path": "CARD.md",
+      "sha": "076babacd1d3ca0d77e4b27f5e6ff2968e73ca8d",
+      "size": 618,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/076babacd1d3ca0d77e4b27f5e6ff2968e73ca8d"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "813e5f8d16ce47e17072fe96380175cc7c80539b",
+      "size": 382,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/813e5f8d16ce47e17072fe96380175cc7c80539b"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "NOTICE",
+      "sha": "b58a1b9470555638786831cc910e0bbcbcf7e9a8",
+      "size": 659,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/b58a1b9470555638786831cc910e0bbcbcf7e9a8"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "1bf3b28b1cbd9450ca89ffa21cf865c03eb1f245",
+      "size": 556,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/1bf3b28b1cbd9450ca89ffa21cf865c03eb1f245"
+    },
+    {
+      "mode": "100644",
+      "path": "build.toml",
+      "sha": "33564cda482bab1afc6dced7823b8089e0874536",
+      "size": 234,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/33564cda482bab1afc6dced7823b8089e0874536"
+    },
+    {
+      "mode": "100644",
+      "path": "flake.nix",
+      "sha": "d9ae3beaf996c7727f377198ae60e6fdc7df26d6",
+      "size": 216,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/d9ae3beaf996c7727f377198ae60e6fdc7df26d6"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "f4d63533306515d49e3d1cbb39c12df5710776dc",
+      "size": 327,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/f4d63533306515d49e3d1cbb39c12df5710776dc"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "69bd147dbdb7e6a25b379e74535f967743f62e3a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/trees/69bd147dbdb7e6a25b379e74535f967743f62e3a"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/render_model_card.py",
+      "sha": "be90d25b14f7b0493ac975075a27345ff0669bf9",
+      "size": 3592,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/be90d25b14f7b0493ac975075a27345ff0669bf9"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "ceedf5e9b920c31cb5cd85055defa90700657810",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/trees/ceedf5e9b920c31cb5cd85055defa90700657810"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/conftest.py",
+      "sha": "afc0aebfc24b0c02c926aaaf76e98116a801dd2d",
+      "size": 636,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/afc0aebfc24b0c02c926aaaf76e98116a801dd2d"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_block_mask.py",
+      "sha": "59320dd9a44e6c1e1e52477296bdab51e07317d7",
+      "size": 2491,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/59320dd9a44e6c1e1e52477296bdab51e07317d7"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_honesty.py",
+      "sha": "5cc4bc2f34cd2020e80eeb6f8cc70552a7f009ab",
+      "size": 1316,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/5cc4bc2f34cd2020e80eeb6f8cc70552a7f009ab"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_maskmod.py",
+      "sha": "699dd0d4f7e9b4b1dac8d8572c7a8a3caa09b787",
+      "size": 988,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/699dd0d4f7e9b4b1dac8d8572c7a8a3caa09b787"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_receipt.py",
+      "sha": "fe496bbfa654b856d682792e5d61de2e97f57a22",
+      "size": 1518,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/fe496bbfa654b856d682792e5d61de2e97f57a22"
+    },
+    {
+      "mode": "040000",
+      "path": "torch-ext",
+      "sha": "c8d9addc44f4d2a0d7934026e063c51907053e1a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/trees/c8d9addc44f4d2a0d7934026e063c51907053e1a"
+    },
+    {
+      "mode": "040000",
+      "path": "torch-ext/szl_maskmod",
+      "sha": "f704ca73516a27ac5cf8a7a6a3b40af03674efca",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/trees/f704ca73516a27ac5cf8a7a6a3b40af03674efca"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_maskmod/__init__.py",
+      "sha": "e603d6020b4c8af1346c18ae4c267555bb9ed868",
+      "size": 346,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/e603d6020b4c8af1346c18ae4c267555bb9ed868"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_maskmod/_chain.py",
+      "sha": "d6348bbb5b6693b903f7a49a402b9c0c9bab118a",
+      "size": 1311,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/d6348bbb5b6693b903f7a49a402b9c0c9bab118a"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_maskmod/_masks.py",
+      "sha": "998a294fec386fbb58315e61512f712105652176",
+      "size": 2021,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/998a294fec386fbb58315e61512f712105652176"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_maskmod/_ops.py",
+      "sha": "3986d0015cdb86a74d104d75315250496c068dcc",
+      "size": 2391,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/blobs/3986d0015cdb86a74d104d75315250496c068dcc"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-maskmod/git/trees/8c22afce8d7f9b1569b9caa775a81e0d86e0375c"
+}

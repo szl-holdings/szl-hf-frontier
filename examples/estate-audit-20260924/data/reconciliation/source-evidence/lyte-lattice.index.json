@@ -1,0 +1,52 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 70116,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:53Z",
+      "path": "data/reconciliation/source-evidence/2f90d645772647f0045a1e50ef2e3efec92ceda9b440bcab6bbea336fc0ede40.json",
+      "revision": "fac651e60a4b9bf7876a80bfa7438e825cb47caa",
+      "sha256": "2f90d645772647f0045a1e50ef2e3efec92ceda9b440bcab6bbea336fc0ede40",
+      "source_identity": "github/szl-holdings/lyte-lattice",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-lattice/git/trees/fac651e60a4b9bf7876a80bfa7438e825cb47caa?recursive=1"
+    }
+  ],
+  "file_count": 201,
+  "id": "github/szl-holdings/lyte-lattice",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "fac651e60a4b9bf7876a80bfa7438e825cb47caa",
+  "root_paths": [
+    ".dockerignore",
+    ".gitattributes",
+    ".github",
+    ".gitignore",
+    ".prettierrc",
+    ".szl",
+    "CODEOWNERS",
+    "Dockerfile",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "eslint.config.mjs",
+    "migrations",
+    "package-lock.json",
+    "package.json",
+    "packets",
+    "payloads",
+    "public",
+    "python",
+    "scripts",
+    "server.py",
+    "server",
+    "space",
+    "spaces",
+    "src",
+    "szl_space_brain.py",
+    "tsconfig.json",
+    "vite.config.ts"
+  ]
+}

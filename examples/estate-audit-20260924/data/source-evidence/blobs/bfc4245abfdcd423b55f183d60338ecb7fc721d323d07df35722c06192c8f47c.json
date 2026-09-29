@@ -1,0 +1,22 @@
+{
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "adapter_config.json",
+    "adapter_model.safetensors",
+    "bom/model-bom.cdx.json",
+    "chat_template.jinja",
+    "config.json",
+    "generation_config.json",
+    "merge_receipt.json",
+    "model.safetensors",
+    "processor_config.json",
+    "provenance.json",
+    "status.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "training_receipt.laptop-blackwell.json"
+  ],
+  "revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988"
+}

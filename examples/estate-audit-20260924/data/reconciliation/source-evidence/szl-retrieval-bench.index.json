@@ -1,0 +1,32 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 5854,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:06Z",
+      "path": "data/reconciliation/source-evidence/5cb4497eefb65d00c39d12ca3ba3310953fcbca8ebbe0d4caad32e23a902570d.json",
+      "revision": "54f5dd963825321829b8ad3cc217bfd9717ba901",
+      "sha256": "5cb4497eefb65d00c39d12ca3ba3310953fcbca8ebbe0d4caad32e23a902570d",
+      "source_identity": "github/szl-holdings/szl-retrieval-bench",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-retrieval-bench/git/trees/54f5dd963825321829b8ad3cc217bfd9717ba901?recursive=1"
+    }
+  ],
+  "file_count": 14,
+  "id": "github/szl-holdings/szl-retrieval-bench",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "54f5dd963825321829b8ad3cc217bfd9717ba901",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "pyproject.toml",
+    "src",
+    "tests"
+  ]
+}

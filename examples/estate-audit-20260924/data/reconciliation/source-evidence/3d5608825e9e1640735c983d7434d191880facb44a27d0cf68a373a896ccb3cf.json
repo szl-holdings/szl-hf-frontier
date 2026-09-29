@@ -1,0 +1,86 @@
+{
+  "sha": "4ab0f246e6cf46113706f3af2dfc011dc1268f44",
+  "tree": [
+    {
+      "mode": "100644",
+      "path": ".hf-space.json",
+      "sha": "85719b04e22e7b6b1fd9d31713a5f868f6c97e7f",
+      "size": 482,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu-hf-space/git/blobs/85719b04e22e7b6b1fd9d31713a5f868f6c97e7f"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "6fc753f052612a992ee59f6d13f8e0e393bc45ae",
+      "size": 11361,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu-hf-space/git/blobs/6fc753f052612a992ee59f6d13f8e0e393bc45ae"
+    },
+    {
+      "mode": "100644",
+      "path": "NOTICE",
+      "sha": "f2eaf2d159f9c7b7152d2ad63811dfc64dec9baf",
+      "size": 234,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu-hf-space/git/blobs/f2eaf2d159f9c7b7152d2ad63811dfc64dec9baf"
+    },
+    {
+      "mode": "100644",
+      "path": "OCCUPANCY.md",
+      "sha": "9bd1941bdb04859054fa1e3e8442f0885873aeca",
+      "size": 698,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu-hf-space/git/blobs/9bd1941bdb04859054fa1e3e8442f0885873aeca"
+    },
+    {
+      "mode": "100644",
+      "path": "PAYLOAD-01.md",
+      "sha": "b2e2edb58a3c9c12278a67ef8bcd076f9821f2ba",
+      "size": 1882,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu-hf-space/git/blobs/b2e2edb58a3c9c12278a67ef8bcd076f9821f2ba"
+    },
+    {
+      "mode": "100644",
+      "path": "PAYLOAD.md",
+      "sha": "7ac214aa79626c2824bfe3f9ce6c011b5024d61d",
+      "size": 710,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu-hf-space/git/blobs/7ac214aa79626c2824bfe3f9ce6c011b5024d61d"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "06a877df6c916eb75a5e01f832342967a9c059f0",
+      "size": 1307,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu-hf-space/git/blobs/06a877df6c916eb75a5e01f832342967a9c059f0"
+    },
+    {
+      "mode": "100644",
+      "path": "TERMINAL_HANDOFF.md",
+      "sha": "af9ca45dde3da83338ce8148c2924e71fffa9891",
+      "size": 1678,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu-hf-space/git/blobs/af9ca45dde3da83338ce8148c2924e71fffa9891"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "5451d51a13b9389877b52ec413c469613f4d1c3b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu-hf-space/git/trees/5451d51a13b9389877b52ec413c469613f4d1c3b"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/ayllu_occupy.py",
+      "sha": "dbadcb9ad260f60ddf97286d3334dcc254accbe1",
+      "size": 3280,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu-hf-space/git/blobs/dbadcb9ad260f60ddf97286d3334dcc254accbe1"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/ayllu-hf-space/git/trees/4ab0f246e6cf46113706f3af2dfc011dc1268f44"
+}

@@ -1,0 +1,8 @@
+{
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "bom/model-bom.cdx.json"
+  ],
+  "revision": "9146d35730139f8b7797dc40b4d5be5547387f1b"
+}

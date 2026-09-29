@@ -1,0 +1,56 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 18137,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:51Z",
+      "path": "data/reconciliation/source-evidence/de019ce78b8ce3e68e7005bab3909056f3ad72eb7d98da50215658bcdf51aaed.json",
+      "revision": "360bb6c59f694face6a29064be786e2283d6d990",
+      "sha256": "de019ce78b8ce3e68e7005bab3909056f3ad72eb7d98da50215658bcdf51aaed",
+      "source_identity": "github/szl-holdings/khipu-x1",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-x1/git/trees/360bb6c59f694face6a29064be786e2283d6d990?recursive=1"
+    },
+    {
+      "bytes": 599,
+      "kind": "license_file",
+      "observed_at": "2026-09-24T13:26:51Z",
+      "path": "data/reconciliation/source-evidence/d1f58e727ecd8f238928a933bd05dcc6cd903c88d2e28bd95b30a2900fd0f1ea.txt",
+      "revision": "360bb6c59f694face6a29064be786e2283d6d990",
+      "sha256": "d1f58e727ecd8f238928a933bd05dcc6cd903c88d2e28bd95b30a2900fd0f1ea",
+      "source_identity": "github/szl-holdings/khipu-x1",
+      "source_path": "LICENSE_POLICY.md",
+      "url": "https://github.com/szl-holdings/khipu-x1/blob/360bb6c59f694face6a29064be786e2283d6d990/LICENSE_POLICY.md"
+    }
+  ],
+  "file_count": 47,
+  "id": "github/szl-holdings/khipu-x1",
+  "license_paths": [
+    "LICENSE_POLICY.md"
+  ],
+  "observed_revision": "360bb6c59f694face6a29064be786e2283d6d990",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "BUILD_STATUS.md",
+    "LICENSE_POLICY.md",
+    "MASTER_BUILD_PAYLOAD.md",
+    "Makefile",
+    "NEXT_STEPS.md",
+    "PAYLOAD_RUN_SUMMARY.json",
+    "README.md",
+    "audit",
+    "conformance",
+    "docs",
+    "driver",
+    "evidence",
+    "firmware",
+    "pyproject.toml",
+    "rtl",
+    "scripts",
+    "spec",
+    "src",
+    "tests"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "card": "---\nlicense: apache-2.0\nlibrary_name: numpy\ntags:\n  - governed-ai\n  - szl-holdings\n  - doctrine-v11\n  - nano\n  - synthetic\n  - software\n  - reference\n  - test-fixture\n---\n\n> **Status: SOFTWARE / REFERENCE / TEST FIXTURE.** Not a production model.\n\nThis Hub repository contains a bare NumPy archive. The loading and forward-pass\nimplementation lives in the canonical `szl_khipu` package; no packaged Hub\nloader or `config.json` is shipped alongside these weights. Treat this as a\nsoftware fixture until its complete inference contract is independently verified.\n\n# ReceiptAgent-Nano\n\nALLOW \u00b7 WARN \u00b7 BLOCKED \u00b7 ESCALATE. Escalation is a class, not a retry loop.\n\n**Family.** nano \u00b7 **Evidence.** SYNTHETIC \u00b7 **Weights.** numpy \u00b7 **Architecture.** 24-16-8-4 MLP\n\nHub: [SZLHOLDINGS/ReceiptAgent-Nano](https://huggingface.co/SZLHOLDINGS/ReceiptAgent-Nano)\n\n## The cut\n\nAnthropic refuses. NVIDIA rails. Unsloth trains. We add a fourth way: hand the decision to a human with a receipt. Loop-tax lives here.\n\nA policy head that cannot silently succeed. Every output is one of four named gates.\n\n### Silhouette \u2192 leave \u2192 SZL\n\n| Leader | Take, then tweak |\n|---|---|\n| Anthropic | Constitutional refuse \u2192 typed DENY/ABSTAIN. |\n| NVIDIA | NeMo Guardrails flow \u2192 four-way head. |\n| Unsloth | Grown form is SZL-Forge-1.5B-ReceiptAgent. |\n\nNobody else ships this combination. That is the point of a one-of-one.\n\n## Intended use\n\nFail-closed unit tests for the 4-way gate.\n\n## Bench (this tree)\n\n`TRAINING_RECEIPT.json` seed `20260721` \u00b7 honesty **REPORTED** \u00b7 kernel is truth\n\n| Metric | Value |\n|---|---|\n| held-out agree vs rule_check | 0.905 |\n| weights | `receipt_agent.npz` sha256 `8aca4d24c90d6159cbb2bb885c7a94822d715899437f58abe69fb5c9664a1381` |\n\nInfers on `POST /api/infer {\"kind\":\"receipt_agent\"}`. Surrogate may disagree. Kernel wins. **Not 1.5B.**\n\n## Limitations\n\n- Synthetic 24-dimensional features. Not a substitute for the 1.5B agent.\n- Hub kernel labels are ALLOW/WARN/BLOCKED/ESCALATE \u2014 kernel is truth. This atelier MLP is a 4-class silhouette, not rule_check.\n\n## Honesty\n\n| Claim | Label |\n|---|---|\n| This card's numbers | SYNTHETIC |\n| Energy / joules | UNAVAILABLE unless a signed meter says MEASURED |\n| \u039b uniqueness | Conjecture 1 OPEN \u2014 not a theorem |\n| GGUF as the signed object | FALSE |\n\nDoctrine v11 LOCKED \u00b7 749 declarations \u00b7 14 axioms \u00b7 163 sorries \u00b7 locked-proven 8.\n\nApache-2.0. Copyright 2026 SZL Holdings \u00b7 Stephen P. Lutar Jr. \u00b7 ORCID [0009-0001-0110-4173](https://orcid.org/0009-0001-0110-4173).\n\n## Artifact evidence\n\n`receipt_agent.npz` is present (6,014 bytes). SHA-256:\n\n`8aca4d24c90d6159cbb2bb885c7a94822d715899437f58abe69fb5c9664a1381`\n\nThe archive hash matches `TRAINING_RECEIPT.json`. Its arrays were inspected\nwith `numpy.load(..., allow_pickle=False)`; numeric values were finite.\n\n| Array | Shape | Data type |\n| --- | --- | --- |\n| `W1` | `[16, 24]` | `float64` |\n| `b1` | `[16]` | `float64` |\n| `W2` | `[8, 16]` | `float64` |\n| `b2` | `[8]` | `float64` |\n| `W3` | `[4, 8]` | `float64` |\n| `b3` | `[4]` | `float64` |\n\nA matching unsigned receipt establishes local artifact consistency. Training\nmetrics remain reported synthetic results; this check does not independently\nreproduce training or establish deployment, general intelligence, or production readiness.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 279,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/4400de3adde28688cdb7d96b8028abc2f5249da154874865edd1876d4bbe8975.json",
+      "revision": "f8c8849bb4d2d024638e39cb21ca4d3a519ee02e",
+      "sha256": "4400de3adde28688cdb7d96b8028abc2f5249da154874865edd1876d4bbe8975",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/ReceiptAgent-Nano/revision/f8c8849bb4d2d024638e39cb21ca4d3a519ee02e"
+    },
+    {
+      "bytes": 3329,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/afd2052c2955ce05ea3fba768e29f5408b52499645ad47b6474ea8dac46adc47.md",
+      "revision": "f8c8849bb4d2d024638e39cb21ca4d3a519ee02e",
+      "sha256": "afd2052c2955ce05ea3fba768e29f5408b52499645ad47b6474ea8dac46adc47",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/SZLHOLDINGS/ReceiptAgent-Nano/resolve/f8c8849bb4d2d024638e39cb21ca4d3a519ee02e/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "BENCH.laptop-blackwell.json",
+    "LICENSE",
+    "README.md",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "card/holo-banner.svg",
+    "receipt_agent.npz"
+  ],
+  "id": "huggingface-model/szlholdings/receiptagent-nano",
+  "observed_at": "2026-09-24T12:29:53Z",
+  "observed_revision": "f8c8849bb4d2d024638e39cb21ca4d3a519ee02e"
+}

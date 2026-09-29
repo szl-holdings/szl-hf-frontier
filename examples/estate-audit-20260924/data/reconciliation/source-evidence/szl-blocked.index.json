@@ -1,0 +1,39 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 14038,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:56Z",
+      "path": "data/reconciliation/source-evidence/a77ba235204ce5921b9b09adf6c3ff929f4a1c3830c288aa46d44e7a0ea8ffd9.json",
+      "revision": "edafac7cae74bdd36d1bdd4a0d2dbf94b54c61e3",
+      "sha256": "a77ba235204ce5921b9b09adf6c3ff929f4a1c3830c288aa46d44e7a0ea8ffd9",
+      "source_identity": "github/szl-holdings/szl-blocked",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-blocked/git/trees/edafac7cae74bdd36d1bdd4a0d2dbf94b54c61e3?recursive=1"
+    }
+  ],
+  "file_count": 36,
+  "id": "github/szl-holdings/szl-blocked",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "edafac7cae74bdd36d1bdd4a0d2dbf94b54c61e3",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    ".zenodo.json",
+    "CHANGELOG.md",
+    "CITATION.cff",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "SECURITY.md",
+    "build.toml",
+    "build",
+    "pyproject.toml",
+    "scripts",
+    "tests",
+    "torch-ext"
+  ]
+}

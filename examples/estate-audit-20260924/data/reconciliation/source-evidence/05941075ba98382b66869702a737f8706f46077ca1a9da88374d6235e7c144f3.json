@@ -1,0 +1,114 @@
+{
+  "sha": "05b87ab4d00e2e0685664785a13eaaf46740f51d",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "eb1a25ae105d1e90f79b3f06f821596f2e25c28d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-norm-holo/git/trees/eb1a25ae105d1e90f79b3f06f821596f2e25c28d"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "f34ba6c2b3b8b8461a23c9c28f0f85be5631df2e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-norm-holo/git/trees/f34ba6c2b3b8b8461a23c9c28f0f85be5631df2e"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-static-space.yml",
+      "sha": "24f237546b30e2dc8a3cedc76039e50dbb07d1a0",
+      "size": 42884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-norm-holo/git/blobs/24f237546b30e2dc8a3cedc76039e50dbb07d1a0"
+    },
+    {
+      "mode": "100644",
+      "path": ".hf-space.json",
+      "sha": "d20cb8e9d9f95318b8cb4053c7d2d0a536291447",
+      "size": 320,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-norm-holo/git/blobs/d20cb8e9d9f95318b8cb4053c7d2d0a536291447"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "6a400e011f1cf8f455404c167c99d81d7b3ba1ab",
+      "size": 11343,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-norm-holo/git/blobs/6a400e011f1cf8f455404c167c99d81d7b3ba1ab"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "bde57a12e47651254759bd8b0f8d0ffdc8f711a3",
+      "size": 1877,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-norm-holo/git/blobs/bde57a12e47651254759bd8b0f8d0ffdc8f711a3"
+    },
+    {
+      "mode": "100644",
+      "path": "index.html",
+      "sha": "dbe3c0e899761e3bc4cf726989edc5b302bf9f18",
+      "size": 13310,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-norm-holo/git/blobs/dbe3c0e899761e3bc4cf726989edc5b302bf9f18"
+    },
+    {
+      "mode": "040000",
+      "path": "requirements",
+      "sha": "c4a2349eb027c2f71bdd75c37be8d80213fd37c4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-norm-holo/git/trees/c4a2349eb027c2f71bdd75c37be8d80213fd37c4"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements/hf-publisher.lock",
+      "sha": "89923e2e202cfc99961e39d5b00b8ea7196d2c58",
+      "size": 2322,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-norm-holo/git/blobs/89923e2e202cfc99961e39d5b00b8ea7196d2c58"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements/hf-validator.lock",
+      "sha": "ffa192b083d49aa273afe77085b28c54f2f043dc",
+      "size": 265,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-norm-holo/git/blobs/ffa192b083d49aa273afe77085b28c54f2f043dc"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "16bbf36968acacc38bb2111a3b8a6dd8c85eb0a7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-norm-holo/git/trees/16bbf36968acacc38bb2111a3b8a6dd8c85eb0a7"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/hf_static_space.py",
+      "sha": "3998e5081dd0c978a1bae4a5e3d722e7b2766d9a",
+      "size": 106689,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-norm-holo/git/blobs/3998e5081dd0c978a1bae4a5e3d722e7b2766d9a"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "505355efce613e7bd37b43a8133b88948182ab6d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-norm-holo/git/trees/505355efce613e7bd37b43a8133b88948182ab6d"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_hf_static_space.py",
+      "sha": "a6430294b11d41aa2228e45f1bf771da46fcc6f3",
+      "size": 118825,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-norm-holo/git/blobs/a6430294b11d41aa2228e45f1bf771da46fcc6f3"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/governed-norm-holo/git/trees/05b87ab4d00e2e0685664785a13eaaf46740f51d"
+}

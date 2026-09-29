@@ -1,0 +1,30 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 4580,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:08Z",
+      "path": "data/reconciliation/source-evidence/127638c4b60b01ab96e68c53b77bc3c108aca9a5c411115a90efd5b2e58cc8e3.json",
+      "revision": "f5370d5536d0583e94b0ee976e0c12f7d8108b62",
+      "sha256": "127638c4b60b01ab96e68c53b77bc3c108aca9a5c411115a90efd5b2e58cc8e3",
+      "source_identity": "github/szl-holdings/szl-wave1-report",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-wave1-report/git/trees/f5370d5536d0583e94b0ee976e0c12f7d8108b62?recursive=1"
+    }
+  ],
+  "file_count": 10,
+  "id": "github/szl-holdings/szl-wave1-report",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "f5370d5536d0583e94b0ee976e0c12f7d8108b62",
+  "root_paths": [
+    ".github",
+    "LICENSE",
+    "README.md",
+    "pyproject.toml",
+    "src",
+    "tests"
+  ]
+}

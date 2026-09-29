@@ -1,0 +1,39 @@
+{
+  "card": "---\ntitle: Sentra\nemoji: \ud83d\udef0\ufe0f\ncolorFrom: gray\ncolorTo: blue\nsdk: docker\napp_port: 7860\npinned: true\nlicense: apache-2.0\nshort_description: \"Public receipt verification and assurance evidence\"\ntags:\n  - szl-holdings\n  - governed-ai\n  - sentra\n---\n\n# Sentra\n\nASSURANCE COMMAND flagship for SZL Holdings.\n\nThis Space uses **Domain Experience v4**: an original, domain-specific interface over the shared governed vertical runtime. Runtime claims fail closed to `UNAVAILABLE`; evidence states are never collapsed.\n\n\nCanonical product source: https://github.com/szl-holdings/a11oy/blob/main/scripts/hf_publish_vertical_flagships_v4_impl.py\n\nDeployment controller: https://github.com/szl-holdings/a11oy\n\nPortfolio: https://a-11-oy.com/products/\n\nLicense: Apache-2.0. Public Experience: `4.0.0`.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 229,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/5b56f74340a707227d4bd1b18e896071722e78b17af05a6ed1730638b6f9ac26.json",
+      "revision": "3d12dbc89d7fdc14906af6e43a3bbb6762e3aa8c",
+      "sha256": "5b56f74340a707227d4bd1b18e896071722e78b17af05a6ed1730638b6f9ac26",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/sentra/revision/3d12dbc89d7fdc14906af6e43a3bbb6762e3aa8c"
+    },
+    {
+      "bytes": 791,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/71cb733deb2d29a1265e022db8c0a2cd612f70427a46b9269c24a60bafa4b6a0.md",
+      "revision": "3d12dbc89d7fdc14906af6e43a3bbb6762e3aa8c",
+      "sha256": "71cb733deb2d29a1265e022db8c0a2cd612f70427a46b9269c24a60bafa4b6a0",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/sentra/resolve/3d12dbc89d7fdc14906af6e43a3bbb6762e3aa8c/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "Dockerfile",
+    "README.md",
+    "app.py",
+    "config.json",
+    "index.html",
+    "panels.html",
+    "requirements.txt"
+  ],
+  "id": "huggingface-space/szlholdings/sentra",
+  "observed_at": "2026-09-24T12:30:00Z",
+  "observed_revision": "3d12dbc89d7fdc14906af6e43a3bbb6762e3aa8c"
+}

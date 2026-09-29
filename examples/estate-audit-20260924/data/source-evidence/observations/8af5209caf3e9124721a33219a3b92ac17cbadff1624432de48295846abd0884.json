@@ -1,0 +1,49 @@
+{
+  "card": "---\nlicense: apache-2.0\nbase_model: Qwen/Qwen3.5-0.8B\nbase_model_relation: adapter\nlibrary_name: peft\npipeline_tag: text-generation\ntags:\n- lora\n- unsloth\n- governed-agent\n- retrieval\n- brain-navigator\n- szl-holdings\n---\n\n# BrainNavigator-R2\n\nSeparate 0.8B LoRA SKU. **Does not overwrite**\n[`SZLHOLDINGS/SZL-Khipu-1.5B-BrainNavigator`](https://huggingface.co/SZLHOLDINGS/SZL-Khipu-1.5B-BrainNavigator)\nor [`SZLHOLDINGS/SZL-Khipu-1.5B`](https://huggingface.co/SZLHOLDINGS/SZL-Khipu-1.5B).\n\n| | |\n|---|---|\n| Base | `Qwen/Qwen3.5-0.8B` Apache-2.0 |\n| Quant | **bf16 LoRA** r=16 \u03b1=32. QLoRA forbidden on Qwen3.5. |\n| GPU | RTX 5050 Laptop 8GB **Blackwell** |\n| Curriculum | synthetic NAVIGATE/ABSTAIN over **575 public handles** |\n| Private graph | 9464 nodes admitted to gradients = **0** |\n| publication_eligible | **false** until MEASURED generate |\n| \u039b | Conjecture 1 \u2014 never a theorem |\n\nTrain loss is not eval. Named-N generate lives in `eval_report.json`.\nSoftware retrieval hologram: [SZLHOLDINGS/second-brain](https://huggingface.co/spaces/SZLHOLDINGS/second-brain).\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 524,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/5634ed056b927b8a3f75071f75bd5c6d6bfe41065fab91713998e35a6d59d569.json",
+      "revision": "ad510c4b05429acb862b216718f098ace6d05af3",
+      "sha256": "5634ed056b927b8a3f75071f75bd5c6d6bfe41065fab91713998e35a6d59d569",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/brain-navigator-r2/revision/ad510c4b05429acb862b216718f098ace6d05af3"
+    },
+    {
+      "bytes": 1077,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/360f8c432785ccae03139b04e231c5e538cd6234bffc2ffcdd58ee15793ec424.md",
+      "revision": "ad510c4b05429acb862b216718f098ace6d05af3",
+      "sha256": "360f8c432785ccae03139b04e231c5e538cd6234bffc2ffcdd58ee15793ec424",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/SZLHOLDINGS/brain-navigator-r2/resolve/ad510c4b05429acb862b216718f098ace6d05af3/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "adapter_config.json",
+    "adapter_model.safetensors",
+    "bom/model-bom.cdx.json",
+    "chat_template.jinja",
+    "config.json",
+    "eval_report.json",
+    "generation_config.json",
+    "merge_receipt.json",
+    "model.safetensors",
+    "processor_config.json",
+    "provenance.json",
+    "status.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "training_receipt.json"
+  ],
+  "id": "huggingface-model/szlholdings/brain-navigator-r2",
+  "observed_at": "2026-09-24T12:29:49Z",
+  "observed_revision": "ad510c4b05429acb862b216718f098ace6d05af3"
+}

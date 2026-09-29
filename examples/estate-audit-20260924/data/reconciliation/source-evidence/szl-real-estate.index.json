@@ -1,0 +1,45 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 9255,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:06Z",
+      "path": "data/reconciliation/source-evidence/998968167afa689e079eff1ec36ee3705262c6155399f9e3890c493e190e13ae.json",
+      "revision": "8961ba7e36865e1d55262ca4f719041c01d7f770",
+      "sha256": "998968167afa689e079eff1ec36ee3705262c6155399f9e3890c493e190e13ae",
+      "source_identity": "github/szl-holdings/szl-real-estate",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-real-estate/git/trees/8961ba7e36865e1d55262ca4f719041c01d7f770?recursive=1"
+    }
+  ],
+  "file_count": 26,
+  "id": "github/szl-holdings/szl-real-estate",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "8961ba7e36865e1d55262ca4f719041c01d7f770",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    ".hf-space.json",
+    "Dockerfile",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "SECURITY.md",
+    "SOURCE_PIN.md",
+    "SZL_ESTATE_BINDING.json",
+    "app.py",
+    "index.html",
+    "pyproject.toml",
+    "requirements.txt",
+    "scripts",
+    "szl-space-hologram-base.css",
+    "szl-space-hologram.css",
+    "szl-space-hologram.js",
+    "szl_re",
+    "szl_space_brain.py",
+    "tests"
+  ]
+}

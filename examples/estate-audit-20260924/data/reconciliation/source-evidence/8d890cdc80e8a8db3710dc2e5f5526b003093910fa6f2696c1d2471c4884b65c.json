@@ -1,0 +1,978 @@
+{
+  "sha": "ae8ff0809231ae4840853114d06801922f21f1f8",
+  "tree": [
+    {
+      "mode": "100644",
+      "path": ".dockerignore",
+      "sha": "2cc46fd34b9e8c32c4630c3299541bccd6109961",
+      "size": 104,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/2cc46fd34b9e8c32c4630c3299541bccd6109961"
+    },
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "f537c4c70f11f392e82fbc2752fe3bb56a75bfc2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/trees/f537c4c70f11f392e82fbc2752fe3bb56a75bfc2"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "10949c919362cd3160cb704084b8b94a3ec8e53c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/trees/10949c919362cd3160cb704084b8b94a3ec8e53c"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/cf-www-apex.yml",
+      "sha": "a6c4d7cecd321f498bc938b03f7a368d02889ba4",
+      "size": 1067,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/a6c4d7cecd321f498bc938b03f7a368d02889ba4"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "9ea3c693c1acaf04145cb54e9248a580105ca194",
+      "size": 485,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/9ea3c693c1acaf04145cb54e9248a580105ca194"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-space.yml",
+      "sha": "77c17922862b0399934d37473996674eb1859d80",
+      "size": 1316,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/77c17922862b0399934d37473996674eb1859d80"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "d235a943ade9ad527f2b67411479cab164b04ca0",
+      "size": 108,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/d235a943ade9ad527f2b67411479cab164b04ca0"
+    },
+    {
+      "mode": "100644",
+      "path": ".hf-space.json",
+      "sha": "10ea2a3b7632a129db95ebe9fb5ba431fafc50ad",
+      "size": 546,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/10ea2a3b7632a129db95ebe9fb5ba431fafc50ad"
+    },
+    {
+      "mode": "100644",
+      "path": "CODEOWNERS",
+      "sha": "ad61f4cc26ddd4be4eecf73abef96dcf611f8a8d",
+      "size": 22,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/ad61f4cc26ddd4be4eecf73abef96dcf611f8a8d"
+    },
+    {
+      "mode": "100644",
+      "path": "CONTRIBUTING.md",
+      "sha": "78c9576c36dca65509c6e2c6184719720a220d7f",
+      "size": 217,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/78c9576c36dca65509c6e2c6184719720a220d7f"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile",
+      "sha": "474320c0eb600f60d58ea3ec3fd252e8139fc40b",
+      "size": 597,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/474320c0eb600f60d58ea3ec3fd252e8139fc40b"
+    },
+    {
+      "mode": "100644",
+      "path": "HONEST_DISCLOSURE.md",
+      "sha": "7eceb1fed85fe48af71297f1a73edbc5d690773f",
+      "size": 3340,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/7eceb1fed85fe48af71297f1a73edbc5d690773f"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "NOTICE",
+      "sha": "60ab417329cce4aa2869e1add4efeec365130de9",
+      "size": 400,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/60ab417329cce4aa2869e1add4efeec365130de9"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "a830c81eeac4721e47fc2deef7797c9925c97cb4",
+      "size": 5260,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/a830c81eeac4721e47fc2deef7797c9925c97cb4"
+    },
+    {
+      "mode": "100644",
+      "path": "app.py",
+      "sha": "b400e4767e33e71e0e62f008eb402f6eda57180b",
+      "size": 23321,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/b400e4767e33e71e0e62f008eb402f6eda57180b"
+    },
+    {
+      "mode": "040000",
+      "path": "ayllu",
+      "sha": "daefd5ac81fd589d326d81e185f97bb045641c3f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/trees/daefd5ac81fd589d326d81e185f97bb045641c3f"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/INGEST.md",
+      "sha": "aba0e605180f36f286fb68d8275d6a7cb3d87f80",
+      "size": 4707,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/aba0e605180f36f286fb68d8275d6a7cb3d87f80"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/__init__.py",
+      "sha": "79be296e122097bb289f6c0b7fdb7b0e438cd5aa",
+      "size": 1044,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/79be296e122097bb289f6c0b7fdb7b0e438cd5aa"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/allodial.py",
+      "sha": "3e5b90bca4a3c58d99318fb345cb2694f834eff7",
+      "size": 2208,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/3e5b90bca4a3c58d99318fb345cb2694f834eff7"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/autonomy.py",
+      "sha": "8a33d8aa33d75dd2eccc3529047edafb36d1a9fe",
+      "size": 2977,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/8a33d8aa33d75dd2eccc3529047edafb36d1a9fe"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/backend.py",
+      "sha": "3cdbf34d986785703a01c718ae7ae559c5427be7",
+      "size": 16400,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/3cdbf34d986785703a01c718ae7ae559c5427be7"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/converge.py",
+      "sha": "bc4365120bf81ea873e840b9a03544c24ea72f37",
+      "size": 2847,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/bc4365120bf81ea873e840b9a03544c24ea72f37"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/counsel.py",
+      "sha": "4db72bd130ff2e35df4225ad2d72c47d0a51bd55",
+      "size": 21609,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/4db72bd130ff2e35df4225ad2d72c47d0a51bd55"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/daemon.py",
+      "sha": "66aeec4aab1d2b35bc483e631f0c95c947a76c91",
+      "size": 1718,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/66aeec4aab1d2b35bc483e631f0c95c947a76c91"
+    },
+    {
+      "mode": "040000",
+      "path": "ayllu/decisions",
+      "sha": "92573dd0aa7dcc5cbc2a0ce8bfc7b0a6529c6e93",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/trees/92573dd0aa7dcc5cbc2a0ce8bfc7b0a6529c6e93"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/decisions/2026-07-21-groundtruth-check.json",
+      "sha": "d43bbbd919f63b30e9c6ec6ec3b687029b9a9bc9",
+      "size": 68336,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/d43bbbd919f63b30e9c6ec6ec3b687029b9a9bc9"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/decisions/2026-07-21-inaugural-charter.json",
+      "sha": "b550c7acde7252f483b7b775fb50dd6fd7e7b4ae",
+      "size": 100489,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/b550c7acde7252f483b7b775fb50dd6fd7e7b4ae"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/decisions/2026-07-21-key-identification.json",
+      "sha": "0eba06b13cb83707dd8e3d14e68fc9bb237b297a",
+      "size": 45444,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/0eba06b13cb83707dd8e3d14e68fc9bb237b297a"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/decisions/2026-07-21-post-rebuild-continuity.json",
+      "sha": "e9b76957ce68fe5c588548fb25b68669f86cc700",
+      "size": 44134,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/e9b76957ce68fe5c588548fb25b68669f86cc700"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/decisions/index.json",
+      "sha": "e214fe9ffdb181ac5ac34ade9ac23b09078e159d",
+      "size": 608,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/e214fe9ffdb181ac5ac34ade9ac23b09078e159d"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/estate.py",
+      "sha": "a4fd803d77ed94854988be839bdc59d9fe796a4e",
+      "size": 7629,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/a4fd803d77ed94854988be839bdc59d9fe796a4e"
+    },
+    {
+      "mode": "040000",
+      "path": "ayllu/eval",
+      "sha": "d3799a5af0add19587a9a711bf32c12f0d6f8069",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/trees/d3799a5af0add19587a9a711bf32c12f0d6f8069"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/eval/__init__.py",
+      "sha": "ef6f89d1f96735af06e7526329652dfda94aa450",
+      "size": 137,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/ef6f89d1f96735af06e7526329652dfda94aa450"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/eval/gold.json",
+      "sha": "8da3a03aa8be00e0ce8aeb4c10c3d278a674f78f",
+      "size": 1206,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/8da3a03aa8be00e0ce8aeb4c10c3d278a674f78f"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/eval/score.py",
+      "sha": "c6642a5371b28a43cb1b6def0292b5e6830c6a53",
+      "size": 1771,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/c6642a5371b28a43cb1b6def0292b5e6830c6a53"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/hatun.py",
+      "sha": "18722a2e683ecc435c01ef9a205c79473612628d",
+      "size": 2174,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/18722a2e683ecc435c01ef9a205c79473612628d"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/invariants.py",
+      "sha": "6c78616bb2f064cb5196e1d35aec279c6a9b975c",
+      "size": 4270,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/6c78616bb2f064cb5196e1d35aec279c6a9b975c"
+    },
+    {
+      "mode": "040000",
+      "path": "ayllu/keys",
+      "sha": "63f06373f13ee23e5cef3b726132ac7dd5be516f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/trees/63f06373f13ee23e5cef3b726132ac7dd5be516f"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/keys/README.md",
+      "sha": "49c22590660bf1bc99bb8e9dadda245a6b832d5d",
+      "size": 1500,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/49c22590660bf1bc99bb8e9dadda245a6b832d5d"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/keys/council-runtime-2026-07-21.pub",
+      "sha": "cb8034c203eebc699defeb3ece66624863278ee5",
+      "size": 178,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/cb8034c203eebc699defeb3ece66624863278ee5"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/loop.py",
+      "sha": "56b9f98faf0ea5e9485f28b4687afa112fddd8bd",
+      "size": 7294,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/56b9f98faf0ea5e9485f28b4687afa112fddd8bd"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/lounge.py",
+      "sha": "ab2192b3f2589aece939f57e97f4da7a810189d9",
+      "size": 5006,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/ab2192b3f2589aece939f57e97f4da7a810189d9"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/model_binding.py",
+      "sha": "6a0797562f40b36dcde21813d93ba9881d979764",
+      "size": 16836,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/6a0797562f40b36dcde21813d93ba9881d979764"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/organs.py",
+      "sha": "c960de8dcf3bd4a626eb8b07f1d261de1b65f9af",
+      "size": 3074,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/c960de8dcf3bd4a626eb8b07f1d261de1b65f9af"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/ouroboros.py",
+      "sha": "10695cfa121660c1a8ba5fef3d64832882665789",
+      "size": 2572,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/10695cfa121660c1a8ba5fef3d64832882665789"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/personas.py",
+      "sha": "9633a1d0c7437bfe6838238bdf4ef64b59c5e12c",
+      "size": 3855,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/9633a1d0c7437bfe6838238bdf4ef64b59c5e12c"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/production.py",
+      "sha": "29f5dde39af2f541a98d1291645ef00368f54a5e",
+      "size": 913,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/29f5dde39af2f541a98d1291645ef00368f54a5e"
+    },
+    {
+      "mode": "040000",
+      "path": "ayllu/psyche",
+      "sha": "017b1ec5ca468d9a5d4b05c7544e85794a3db8d8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/trees/017b1ec5ca468d9a5d4b05c7544e85794a3db8d8"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/psyche/__init__.py",
+      "sha": "fa14129ee672a4ac5290c3a875517ca5b68d7e69",
+      "size": 1427,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/fa14129ee672a4ac5290c3a875517ca5b68d7e69"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/psyche/bind.py",
+      "sha": "9d836c1a3b784ef7e88c5769247b9540f8acf37d",
+      "size": 2601,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/9d836c1a3b784ef7e88c5769247b9540f8acf37d"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/psyche/engine.py",
+      "sha": "11de0ec0d7355a42fd3600148fbbcce36c6a057f",
+      "size": 16022,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/11de0ec0d7355a42fd3600148fbbcce36c6a057f"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/psyche/expose.py",
+      "sha": "83e55abba0587ee76c1d05ee48c39656c91f4a58",
+      "size": 1788,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/83e55abba0587ee76c1d05ee48c39656c91f4a58"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/psyche/graph.py",
+      "sha": "af66785f5834f54cc1d4ab5ef9bb51d1a488c818",
+      "size": 5232,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/af66785f5834f54cc1d4ab5ef9bb51d1a488c818"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/psyche/kawsay.py",
+      "sha": "51c2f12e1a0c7be0af78d73a977ecc3058d9dc96",
+      "size": 8105,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/51c2f12e1a0c7be0af78d73a977ecc3058d9dc96"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/psyche/kutiy.py",
+      "sha": "510345055d2031fb92fee0d597d1c89a0f4c97be",
+      "size": 4447,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/510345055d2031fb92fee0d597d1c89a0f4c97be"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/psyche/lock.py",
+      "sha": "675f3a582511ec55a171b01faa2fbff2b58fd5f3",
+      "size": 3227,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/675f3a582511ec55a171b01faa2fbff2b58fd5f3"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/psyche/morphisms.py",
+      "sha": "1b5df598a2fc41bf5e1fb1f84f49fa13061040ea",
+      "size": 5110,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/1b5df598a2fc41bf5e1fb1f84f49fa13061040ea"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/psyche/neural.py",
+      "sha": "c0b9ef1afefb1a1cb79f47b09ef8a9d7412bc8f5",
+      "size": 16583,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/c0b9ef1afefb1a1cb79f47b09ef8a9d7412bc8f5"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/psyche/rimanakuy.py",
+      "sha": "7812c132f95dc22cdafb081c9e984f25bf00d1fc",
+      "size": 4134,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/7812c132f95dc22cdafb081c9e984f25bf00d1fc"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/psyche/seats.py",
+      "sha": "debbc13674d69dd976ae52df2dd99450b5c9b04f",
+      "size": 2520,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/debbc13674d69dd976ae52df2dd99450b5c9b04f"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/psyche/types.py",
+      "sha": "8fafa0b5e3e01f1359f4aa8bea365301cb79279c",
+      "size": 3025,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/8fafa0b5e3e01f1359f4aa8bea365301cb79279c"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/psyche/winay.py",
+      "sha": "f16424bbc5c5dbfef40aec0d006f1da8f43087dc",
+      "size": 18270,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/f16424bbc5c5dbfef40aec0d006f1da8f43087dc"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/psyche/yupay.py",
+      "sha": "34b714e7b400ef6f2fe32ae2a819615805212a48",
+      "size": 1650,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/34b714e7b400ef6f2fe32ae2a819615805212a48"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/psyche/yuyariy.py",
+      "sha": "a97c5c6b0e9540138ed51dd1f43ca1b8e35adbb4",
+      "size": 2715,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/a97c5c6b0e9540138ed51dd1f43ca1b8e35adbb4"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/receipts.py",
+      "sha": "a99136b136f981d4b63d3f99fa6328bf8823a449",
+      "size": 3438,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/a99136b136f981d4b63d3f99fa6328bf8823a449"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/second_brain.py",
+      "sha": "61c8642e143ae5a1be6a19b855a7840d71415eec",
+      "size": 5864,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/61c8642e143ae5a1be6a19b855a7840d71415eec"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/selftest.py",
+      "sha": "90577fefc555b493dbdedcf54729da58a70da62c",
+      "size": 4823,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/90577fefc555b493dbdedcf54729da58a70da62c"
+    },
+    {
+      "mode": "040000",
+      "path": "ayllu/souls",
+      "sha": "9f886f2f7e1eab85b4a98588168e854003321452",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/trees/9f886f2f7e1eab85b4a98588168e854003321452"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/souls/_shared_knowledge.md",
+      "sha": "7d2e34c1530f7bb6b24f5a77ffe2751ec1f25a4e",
+      "size": 1903,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/7d2e34c1530f7bb6b24f5a77ffe2751ec1f25a4e"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/souls/amaru.soul.md",
+      "sha": "a9eb083ec1fcfd9131d1688c6d7ce654fdf5cfdf",
+      "size": 1793,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/a9eb083ec1fcfd9131d1688c6d7ce654fdf5cfdf"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/souls/chaka.soul.md",
+      "sha": "89429e81feb2b4e4db3ca17e5f1a5405c9f9cce2",
+      "size": 1510,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/89429e81feb2b4e4db3ca17e5f1a5405c9f9cce2"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/souls/hampiq.soul.md",
+      "sha": "80aaca75829be59fe316b37c5aad1ffb17878d60",
+      "size": 1486,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/80aaca75829be59fe316b37c5aad1ffb17878d60"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/souls/kamachiq.soul.md",
+      "sha": "98ee20798fde9be164c78d1af4ba022cd2c18253",
+      "size": 1617,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/98ee20798fde9be164c78d1af4ba022cd2c18253"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/souls/maskaq.soul.md",
+      "sha": "37da233cb2cbcfe060ed0aa1ccad4701a0d12cfa",
+      "size": 1810,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/37da233cb2cbcfe060ed0aa1ccad4701a0d12cfa"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/souls/qhatuq.soul.md",
+      "sha": "e554472cd4fbf093381f260b439bd5cf204e5a0b",
+      "size": 1717,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/e554472cd4fbf093381f260b439bd5cf204e5a0b"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/souls/qhaway.soul.md",
+      "sha": "624c583376c028a5443d51b807f47892defd1175",
+      "size": 1569,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/624c583376c028a5443d51b807f47892defd1175"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/souls/ruwaq.soul.md",
+      "sha": "8bfba9e7abb11f9ee9aaba6efe2904abc041c99a",
+      "size": 1528,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/8bfba9e7abb11f9ee9aaba6efe2904abc041c99a"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/souls/willakuq.soul.md",
+      "sha": "f8e6b6bc1b22f9d52544912f67599ca0d83af8b5",
+      "size": 1529,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/f8e6b6bc1b22f9d52544912f67599ca0d83af8b5"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/souls/yanapaq.soul.md",
+      "sha": "3ddcfd5534e4956cb6bb475358abec880e3e7521",
+      "size": 1447,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/3ddcfd5534e4956cb6bb475358abec880e3e7521"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/souls/yupaq.soul.md",
+      "sha": "90988ac2d9d99f1168a2eaa484295bed6e2ab151",
+      "size": 1706,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/90988ac2d9d99f1168a2eaa484295bed6e2ab151"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/space.py",
+      "sha": "0298f70fbf9fec529a19bf0ea6639ef08360b9d3",
+      "size": 6981,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/0298f70fbf9fec529a19bf0ea6639ef08360b9d3"
+    },
+    {
+      "mode": "040000",
+      "path": "ayllu/static",
+      "sha": "b04fb59efb4f48f06d76466dd5f709b96991f3c0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/trees/b04fb59efb4f48f06d76466dd5f709b96991f3c0"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/static/chamber.html",
+      "sha": "27e0c4648d4f34b57de3e6459b10ac7e2e347104",
+      "size": 20285,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/27e0c4648d4f34b57de3e6459b10ac7e2e347104"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/static/counsel.html",
+      "sha": "abb9f9b3baea340c801601db7dc5a2db1524fbdb",
+      "size": 10222,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/abb9f9b3baea340c801601db7dc5a2db1524fbdb"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/static/psyche.html",
+      "sha": "785d7ae8508b29baf367ed53f9d9b1591eebc159",
+      "size": 16475,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/785d7ae8508b29baf367ed53f9d9b1591eebc159"
+    },
+    {
+      "mode": "100644",
+      "path": "ayllu/vendor_retrieve.py",
+      "sha": "87168407763b75a20b8518c480697c4f267bddb5",
+      "size": 11197,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/87168407763b75a20b8518c480697c4f267bddb5"
+    },
+    {
+      "mode": "040000",
+      "path": "data",
+      "sha": "c2fdcddef6a14377e7ea5e6b8613d45e51ebc4c0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/trees/c2fdcddef6a14377e7ea5e6b8613d45e51ebc4c0"
+    },
+    {
+      "mode": "100644",
+      "path": "data/brain-corpus.public.jsonl",
+      "sha": "c9bd5777f1d0905f4e2e42b1210fbf660f33fed9",
+      "size": 551172,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/c9bd5777f1d0905f4e2e42b1210fbf660f33fed9"
+    },
+    {
+      "mode": "100644",
+      "path": "data/manifest.json",
+      "sha": "fdd734924938e01e329b5ab953e4b7b9952cef59",
+      "size": 1300,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/fdd734924938e01e329b5ab953e4b7b9952cef59"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "6492db5dcc1f2a64800fd0ffb189642f583a62bf",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/trees/6492db5dcc1f2a64800fd0ffb189642f583a62bf"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/FREE_HF.md",
+      "sha": "ba13bcf1ff013e2abab8f68081c6958e18acef8b",
+      "size": 610,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/ba13bcf1ff013e2abab8f68081c6958e18acef8b"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/LEADERS.md",
+      "sha": "7603b1e5bfb800842ba3438b31dd3e0413419950",
+      "size": 2275,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/7603b1e5bfb800842ba3438b31dd3e0413419950"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/ORGAN_WIRE.md",
+      "sha": "0977820f2d7fb49fe9dfebf077e0ae677ea4b4c2",
+      "size": 1372,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/0977820f2d7fb49fe9dfebf077e0ae677ea4b4c2"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/PAYLOAD_SOVEREIGN.md",
+      "sha": "944ff61ea169813dd2d65d4cf9c21c3e7f8a153f",
+      "size": 367,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/944ff61ea169813dd2d65d4cf9c21c3e7f8a153f"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/PAYLOAD_TERMINAL.md",
+      "sha": "a14bb28c835f2c698819ddfcb826c3b88c68ef09",
+      "size": 427,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/a14bb28c835f2c698819ddfcb826c3b88c68ef09"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/PSYCHE.md",
+      "sha": "0273270a098f09bb9b582e058faa96c4e929f67c",
+      "size": 4357,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/0273270a098f09bb9b582e058faa96c4e929f67c"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/STATUS.md",
+      "sha": "dd1d3c948a27d66ebcefd7fbc7cb759e9a760bca",
+      "size": 993,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/dd1d3c948a27d66ebcefd7fbc7cb759e9a760bca"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/THREAD_MAP.md",
+      "sha": "1734424a1094c721df7c7796acd8d03e28d58737",
+      "size": 2802,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/1734424a1094c721df7c7796acd8d03e28d58737"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "e9ec6c4c625838eab294688180201ca705dc8445",
+      "size": 458,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/e9ec6c4c625838eab294688180201ca705dc8445"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements.txt",
+      "sha": "d84dedbd2b2c64bef61d4fe180f86f1c8b6398e9",
+      "size": 57,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/d84dedbd2b2c64bef61d4fe180f86f1c8b6398e9"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "e4e04aec20eafc6a27bd45120e30a1f442981dee",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/trees/e4e04aec20eafc6a27bd45120e30a1f442981dee"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/ayllu_hf_free.py",
+      "sha": "23f484f4122f48380b3e6bb1342cd9e55af4eab1",
+      "size": 2384,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/23f484f4122f48380b3e6bb1342cd9e55af4eab1"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/ayllu_occupy.py",
+      "sha": "e04e7e4e8a0a9f4ba4733652d9c4d6f408e7721a",
+      "size": 4990,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/e04e7e4e8a0a9f4ba4733652d9c4d6f408e7721a"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/ayllu_sovereign.py",
+      "sha": "bfd606c8435cb8497fcb8d7955f7397a161be84e",
+      "size": 2091,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/bfd606c8435cb8497fcb8d7955f7397a161be84e"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/ayllu_wire_organs.py",
+      "sha": "eb7bf297cb71496c14d65e63647729e3e5ff1379",
+      "size": 2692,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/eb7bf297cb71496c14d65e63647729e3e5ff1379"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/cf_www_apex.py",
+      "sha": "ea9d840e85cbaf285216863348e85ed1e0fc68da",
+      "size": 5852,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/ea9d840e85cbaf285216863348e85ed1e0fc68da"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/verify_receipt.py",
+      "sha": "ec0c85a794636706336e2cb825a050cb92ba8c34",
+      "size": 1213,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/ec0c85a794636706336e2cb825a050cb92ba8c34"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "33aa1bb8e421af378630c771598bea76f07bbd2d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/trees/33aa1bb8e421af378630c771598bea76f07bbd2d"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/conftest.py",
+      "sha": "17d18292c241c27ef96d83c350fd69cf70c0a50f",
+      "size": 615,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/17d18292c241c27ef96d83c350fd69cf70c0a50f"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_api.py",
+      "sha": "89d4dbcc6f5f9acb4259bcbd9d1c8b974d87efe7",
+      "size": 4707,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/89d4dbcc6f5f9acb4259bcbd9d1c8b974d87efe7"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_boot_occupy.py",
+      "sha": "dfae30c7a228e6288fc96c23d43825a19c83a14d",
+      "size": 1709,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/dfae30c7a228e6288fc96c23d43825a19c83a14d"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_counsel.py",
+      "sha": "59fa7ac365fec8901b34e57e8d9a7e3dca34dfe6",
+      "size": 2388,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/59fa7ac365fec8901b34e57e8d9a7e3dca34dfe6"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_eval_gold.py",
+      "sha": "9ad5d6c22098844f879c62d3df411708cc785834",
+      "size": 405,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/9ad5d6c22098844f879c62d3df411708cc785834"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_kutiy.py",
+      "sha": "2d04c33d668db6601e3f8504faefb42f25de1e6a",
+      "size": 1122,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/2d04c33d668db6601e3f8504faefb42f25de1e6a"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_kutiy_observations.py",
+      "sha": "4420c02e1581ffcd033c98f167d91cbef9eac855",
+      "size": 3485,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/4420c02e1581ffcd033c98f167d91cbef9eac855"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_production_grade.py",
+      "sha": "d608d6b18e8475c265e5df6be81ea99159cde665",
+      "size": 1620,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/d608d6b18e8475c265e5df6be81ea99159cde665"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_psyche.py",
+      "sha": "8fd35a4458dcbdf78cbf3cfc9edbe052d68e418e",
+      "size": 17548,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/8fd35a4458dcbdf78cbf3cfc9edbe052d68e418e"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_receipts.py",
+      "sha": "bc76e1f20b545af33f363d9775df4845c447530c",
+      "size": 652,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/bc76e1f20b545af33f363d9775df4845c447530c"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_rimanakuy.py",
+      "sha": "fe4b8051696976860e12624003dc50154a64b3a3",
+      "size": 2937,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/fe4b8051696976860e12624003dc50154a64b3a3"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_second_brain.py",
+      "sha": "877e8c9d5a83f9ee82d281345d62201cb60d3422",
+      "size": 3317,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/877e8c9d5a83f9ee82d281345d62201cb60d3422"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_selftest.py",
+      "sha": "579cdfbc8f375b4bdaaa74777977c43461dca876",
+      "size": 77,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/579cdfbc8f375b4bdaaa74777977c43461dca876"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_yuyariy.py",
+      "sha": "57278f2b70ecf3e66741701b24c2cd73e224aab9",
+      "size": 1541,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ayllu/git/blobs/57278f2b70ecf3e66741701b24c2cd73e224aab9"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/ayllu/git/trees/ae8ff0809231ae4840853114d06801922f21f1f8"
+}

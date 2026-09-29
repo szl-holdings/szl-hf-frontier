@@ -1,0 +1,33 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 8342,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:01Z",
+      "path": "data/reconciliation/source-evidence/8840689194c54026d87bfdc94611253f542bb92599fae10adcfe6a3619360ddd.json",
+      "revision": "e7ef3d7940178e308b2bf0de38728d6bb66a85f4",
+      "sha256": "8840689194c54026d87bfdc94611253f542bb92599fae10adcfe6a3619360ddd",
+      "source_identity": "github/szl-holdings/szl-guardrail-receipt",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/trees/e7ef3d7940178e308b2bf0de38728d6bb66a85f4?recursive=1"
+    }
+  ],
+  "file_count": 21,
+  "id": "github/szl-holdings/szl-guardrail-receipt",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "e7ef3d7940178e308b2bf0de38728d6bb66a85f4",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "examples",
+    "pyproject.toml",
+    "src",
+    "tests"
+  ]
+}

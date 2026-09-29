@@ -1,0 +1,62 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 54171,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:02Z",
+      "path": "data/reconciliation/source-evidence/89949bc34d321dfcdadc36f0f2ce67f84cbc710dc1d6a0e32be4fabf7a51c9ce.json",
+      "revision": "13668fd1b22890d6a3b92d3cd9ee516ec5a267c9",
+      "sha256": "89949bc34d321dfcdadc36f0f2ce67f84cbc710dc1d6a0e32be4fabf7a51c9ce",
+      "source_identity": "github/szl-holdings/szl-kernels",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-kernels/git/trees/13668fd1b22890d6a3b92d3cd9ee516ec5a267c9?recursive=1"
+    }
+  ],
+  "file_count": 144,
+  "id": "github/szl-holdings/szl-kernels",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "13668fd1b22890d6a3b92d3cd9ee516ec5a267c9",
+  "root_paths": [
+    ".gitattributes",
+    ".github",
+    ".gitignore",
+    ".zenodo.json",
+    "CITATION.cff",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "KERNEL_HUB.md",
+    "LICENSE",
+    "MODEL_PROVENANCE.json",
+    "README.md",
+    "SECURITY.md",
+    "SZL_ESTATE_MANAGED.json",
+    "TRAINING_RECEIPT.json",
+    "artifacts",
+    "bom",
+    "build.toml",
+    "build",
+    "cards",
+    "config.json",
+    "conformance",
+    "corpus",
+    "data",
+    "docs",
+    "eval",
+    "frontier",
+    "og-card.png",
+    "publishing",
+    "pyproject.toml",
+    "receipts",
+    "release",
+    "requirements-replay.txt",
+    "scripts",
+    "tests",
+    "tools",
+    "torch-ext",
+    "vectors.npz",
+    "vocab.json"
+  ]
+}

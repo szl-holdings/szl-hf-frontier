@@ -1,0 +1,32 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 5770,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:05Z",
+      "path": "data/reconciliation/source-evidence/316aca3ff4a10fe73da13a8040894791d5bd3b9da2a583e9ea8b3535f167a415.json",
+      "revision": "40553f41a4b55e62bee0751ad7bb413855f204a1",
+      "sha256": "316aca3ff4a10fe73da13a8040894791d5bd3b9da2a583e9ea8b3535f167a415",
+      "source_identity": "github/szl-holdings/szl-quant-witness",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-quant-witness/git/trees/40553f41a4b55e62bee0751ad7bb413855f204a1?recursive=1"
+    }
+  ],
+  "file_count": 14,
+  "id": "github/szl-holdings/szl-quant-witness",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "40553f41a4b55e62bee0751ad7bb413855f204a1",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "VENDOR.md",
+    "keys",
+    "observe.mjs",
+    "vendor"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 4297,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:49Z",
+      "path": "data/reconciliation/source-evidence/05941075ba98382b66869702a737f8706f46077ca1a9da88374d6235e7c144f3.json",
+      "revision": "05b87ab4d00e2e0685664785a13eaaf46740f51d",
+      "sha256": "05941075ba98382b66869702a737f8706f46077ca1a9da88374d6235e7c144f3",
+      "source_identity": "github/szl-holdings/governed-norm-holo",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/governed-norm-holo/git/trees/05b87ab4d00e2e0685664785a13eaaf46740f51d?recursive=1"
+    }
+  ],
+  "file_count": 9,
+  "id": "github/szl-holdings/governed-norm-holo",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "05b87ab4d00e2e0685664785a13eaaf46740f51d",
+  "root_paths": [
+    ".github",
+    ".hf-space.json",
+    "LICENSE",
+    "README.md",
+    "index.html",
+    "requirements",
+    "scripts",
+    "tests"
+  ]
+}

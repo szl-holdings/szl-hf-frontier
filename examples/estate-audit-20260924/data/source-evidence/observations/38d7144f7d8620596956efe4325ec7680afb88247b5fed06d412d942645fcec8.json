@@ -1,0 +1,20 @@
+{
+  "card": "# szl-quant-bench\n\nHonest quantization quality-curve bench for the SZL estate. Real uniform\nabsmax quantization (round-to-nearest, signed ints, 2\u201316 bits) with quality\nmetrics \u2014 cosine similarity, KL divergence over softmaxed rows, top-1\nagreement, MSE \u2014 on the supplied logits. This measures logit quantization,\nnot weight quantization, GGUF behavior, inference speed, or model quality\nafter a weight conversion. Stdlib only; no downloads, no network.\n\nDoctrine: empty or missing inputs return `BLOCKED` with a reason. The demo\nfixture is synthetic and labeled as such. Nothing here claims to measure a\nreal model unless you pass real logits in. Run states:\n`MEASURED | BLOCKED | INVALID | FAILED`.\n\n## Install and verify\n\n```\npip install -e . pytest\npython -m pytest tests/ -q\npython -m szl_quant_bench.harness       # deterministic fixture curve + receipt\n```\n\n## Measured fixture curve (synthetic gaussian logits, seed 42 \u2014 NOT a real model)\n\n| bits | cosine | KL (mean) | top-1 agreement | vs fp32 |\n|---|---|---|---|---|\n| 16 | 1.0000 | 0.00000 | 100.0% | 2.0x |\n| 8 | 1.0000 | 0.00003 | 100.0% | 4.0x |\n| 4 | 0.9882 | 0.01211 | 68.8% | 8.0x |\n| 3 | 0.9420 | 0.06556 | 56.2% | 10.67x |\n| 2 | 0.5715 | 0.57019 | 50.0% | 16.0x |\n\nThese numbers came out of `run_curve` in this repository, executed before the\ninitial push. Your model's curve will differ \u2014 run it on real logits.\n\n## Measuring a real model\n\nCapture a logit batch from the exact model revision and fixed evaluation\nprompt set. Store a JSON object with `logits` (a rectangular finite numeric\nmatrix) and `provenance` containing:\n\n- `source_kind`: `REAL_MODEL_LOGITS`\n- `model_id`, `runtime`, `hardware`: nonempty identifiers\n- `model_revision`: the exact 40-character lowercase commit\n- `prompt_set_sha256`: the full lowercase SHA-256 of the saved prompt artifact\n\n```sh\npython -m szl_quant_bench.harness --input model-logits.json --output curve-receipt.json\n```\n\nThe output file must not already exist. Missing provenance, malformed matrices,\nnon-finite values and invalid bit widths fail closed with a nonzero exit.\nWith no input the CLI runs only the explicitly `SYNTHETIC` fixture.\nThe Python API accepts `run_curve(logits, chain=chain, provenance=provenance)`;\nomitting provenance labels the source `UNVERIFIED_CALLER_INPUT`. Every\n`MEASURED` API result carries a hash-chained receipt record. If no chain is\nsupplied, the API creates a fresh one-record chain for that measurement; pass\na caller-owned `ReceiptChain` to append the record to an existing chain.\n\nReceipts bind the normalized float input matrix hash, complete provenance,\nall quality records and the explicit measurement boundary. Provenance remains\n`CALLER_DECLARED`: a hash cannot establish that the caller actually ran a model.\nPreserve the raw logits and independent model execution evidence to support\nthat claim. Empty or malformed chains do not verify. KL is evaluated in log\nspace without silently clipping small probabilities.\n\nCompare bit widths only on the same inputs, hardware and revision. A measured\nlogit curve does **not** authorize a GGUF export decision: actual quantized\nmodel outputs and runtime evaluation are separately required.\n\nApache-2.0 \u00b7 Doctrine v11 \u00b7 SZL Holdings\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 3242,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/153fd0dd4c8091054f9e1e3f93c513a41fcc28525ac03d102074f2d7148dd62d.md",
+      "revision": "9364ee783b058837bba656469a444e020edd607c",
+      "sha256": "153fd0dd4c8091054f9e1e3f93c513a41fcc28525ac03d102074f2d7148dd62d",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-quant-bench/blob/9364ee783b058837bba656469a444e020edd607c/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-quant-bench",
+  "observed_at": "2026-09-24T12:29:40Z",
+  "observed_revision": "9364ee783b058837bba656469a444e020edd607c"
+}

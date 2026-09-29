@@ -1,0 +1,47 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 60945,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:50Z",
+      "path": "data/reconciliation/source-evidence/980819a5cc1ca43806eee0de4c9f3494ca4f5a4e34a732e177d9979a8a602284.json",
+      "revision": "d0a3a20bdbc7ad240626454355a078bb91b03fdd",
+      "sha256": "980819a5cc1ca43806eee0de4c9f3494ca4f5a4e34a732e177d9979a8a602284",
+      "source_identity": "github/szl-holdings/khipu-lab",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-lab/git/trees/d0a3a20bdbc7ad240626454355a078bb91b03fdd?recursive=1"
+    }
+  ],
+  "file_count": 171,
+  "id": "github/szl-holdings/khipu-lab",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "d0a3a20bdbc7ad240626454355a078bb91b03fdd",
+  "root_paths": [
+    ".dockerignore",
+    ".gitattributes",
+    ".github",
+    ".gitignore",
+    ".prettierrc",
+    "CODEOWNERS",
+    "Dockerfile",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "eslint.config.mjs",
+    "index.html",
+    "migrations",
+    "package-lock.json",
+    "package.json",
+    "public",
+    "scripts",
+    "server.py",
+    "server",
+    "space",
+    "src",
+    "tsconfig.json",
+    "vite.config.ts"
+  ]
+}

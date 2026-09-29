@@ -1,0 +1,184 @@
+{
+  "sha": "fd50310f4799ffb053f06d1d4e25e0994b215632",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "12b7417276203ab833a1ecd92294fa548f6ee6b5",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/trees/12b7417276203ab833a1ecd92294fa548f6ee6b5"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "38aea5bad28c79fc1febb71dd231577b3ac57fdd",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/trees/38aea5bad28c79fc1febb71dd231577b3ac57fdd"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/source-census.yml",
+      "sha": "f058bdf1f73c08d48d68be99b358bd0389a4a6cc",
+      "size": 2703,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/blobs/f058bdf1f73c08d48d68be99b358bd0389a4a6cc"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/tests.yml",
+      "sha": "2954e800254767b40faad244098880cafcf20b5b",
+      "size": 1911,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/blobs/2954e800254767b40faad244098880cafcf20b5b"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "63db4f55536704c05f7c4430519ee2611cf1bcd6",
+      "size": 324,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/blobs/63db4f55536704c05f7c4430519ee2611cf1bcd6"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "a5b1fbc6e46d35f25eab5ffb8b5ede2e379897e7",
+      "size": 4189,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/blobs/a5b1fbc6e46d35f25eab5ffb8b5ede2e379897e7"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "856107d9c6f43118a55907e1382f8ec506b52553",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/trees/856107d9c6f43118a55907e1382f8ec506b52553"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/SOURCE_CENSUS.md",
+      "sha": "d65f232567e7c89b6db93be38787307b25eed5a6",
+      "size": 6283,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/blobs/d65f232567e7c89b6db93be38787307b25eed5a6"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "ed9844bb74fe7ea2a4f54900c1146ebd4908cc7b",
+      "size": 439,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/blobs/ed9844bb74fe7ea2a4f54900c1146ebd4908cc7b"
+    },
+    {
+      "mode": "040000",
+      "path": "src",
+      "sha": "86d77e3f5bde59934cc46ea52247a2eb4dfeccb9",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/trees/86d77e3f5bde59934cc46ea52247a2eb4dfeccb9"
+    },
+    {
+      "mode": "040000",
+      "path": "src/szl_ci_witness",
+      "sha": "a6e68fb592f369fdec60efdf845fa9f34ff2de94",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/trees/a6e68fb592f369fdec60efdf845fa9f34ff2de94"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_ci_witness/__init__.py",
+      "sha": "15d17957f89b51376f4d908a0e398bec0341a81e",
+      "size": 266,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/blobs/15d17957f89b51376f4d908a0e398bec0341a81e"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_ci_witness/github_artifacts.py",
+      "sha": "25b92c581a8d76f075fc5d3d4ee8422f02a97267",
+      "size": 6841,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/blobs/25b92c581a8d76f075fc5d3d4ee8422f02a97267"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_ci_witness/witness.py",
+      "sha": "f9a590a8810d452ea570e3f47b995e3875e90d7a",
+      "size": 8566,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/blobs/f9a590a8810d452ea570e3f47b995e3875e90d7a"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "ac686529ded1cdf143de116f563c4731bd6beadd",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/trees/ac686529ded1cdf143de116f563c4731bd6beadd"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_archive_canonical_fallback.py",
+      "sha": "929a21ebaf00cbb663d4a7fa2c2c6e5377ed8949",
+      "size": 2830,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/blobs/929a21ebaf00cbb663d4a7fa2c2c6e5377ed8949"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_census_streaming.py",
+      "sha": "2942e27691b9ed0082de48847f02055fa82480a7",
+      "size": 3336,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/blobs/2942e27691b9ed0082de48847f02055fa82480a7"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_inventory_identity.py",
+      "sha": "3940624eeaf487dcb560766db95bc805b1c04951",
+      "size": 1804,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/blobs/3940624eeaf487dcb560766db95bc805b1c04951"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_persistence.py",
+      "sha": "410df4faa0b1b47ec05506bb2dd57a72ca4ddf0b",
+      "size": 7022,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/blobs/410df4faa0b1b47ec05506bb2dd57a72ca4ddf0b"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_source_census.py",
+      "sha": "3fafd4763fcd8a7aef1089ea78d0fb2613b832f6",
+      "size": 8952,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/blobs/3fafd4763fcd8a7aef1089ea78d0fb2613b832f6"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_witness.py",
+      "sha": "b5d3070f2e38c3ef519aae55568bf5e1463f0a32",
+      "size": 1554,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/blobs/b5d3070f2e38c3ef519aae55568bf5e1463f0a32"
+    },
+    {
+      "mode": "040000",
+      "path": "tools",
+      "sha": "9e75139ca0557d1899a1bf1173be8e20faf8ccde",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/trees/9e75139ca0557d1899a1bf1173be8e20faf8ccde"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/source_census.py",
+      "sha": "a57ccd99c7c7ed97f10ad30391ea5eead4110629",
+      "size": 25105,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/blobs/a57ccd99c7c7ed97f10ad30391ea5eead4110629"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/trees/fd50310f4799ffb053f06d1d4e25e0994b215632"
+}

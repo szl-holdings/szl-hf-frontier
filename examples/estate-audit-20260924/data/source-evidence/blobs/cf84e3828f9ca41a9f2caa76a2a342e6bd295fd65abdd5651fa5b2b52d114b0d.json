@@ -1,0 +1,21 @@
+{
+  "files": [
+    ".gitattributes",
+    "BASE_MODEL_MANIFEST.json",
+    "BENCH.laptop-blackwell.json",
+    "LICENSE",
+    "Modelfile",
+    "OPERATIONAL.json",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "card/holo-banner.svg",
+    "ollama_probe.laptop.json",
+    "scripts/eval.py",
+    "scripts/forge.py",
+    "szl_nemo/rules.py"
+  ],
+  "revision": "2aa29bc00e616ec0299051248da865584c0bb2b4"
+}

@@ -1,0 +1,41 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 13460,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:49Z",
+      "path": "data/reconciliation/source-evidence/41b08e8d57fcb0c941d9978b63f3f6873421b83fe54bda69b70d180349388827.json",
+      "revision": "aee6466ecaaa1f311d42885f7927331e2f6508c8",
+      "sha256": "41b08e8d57fcb0c941d9978b63f3f6873421b83fe54bda69b70d180349388827",
+      "source_identity": "github/szl-holdings/governed-inference-meter",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/governed-inference-meter/git/trees/aee6466ecaaa1f311d42885f7927331e2f6508c8?recursive=1"
+    }
+  ],
+  "file_count": 34,
+  "id": "github/szl-holdings/governed-inference-meter",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "aee6466ecaaa1f311d42885f7927331e2f6508c8",
+  "root_paths": [
+    ".devcontainer",
+    ".editorconfig",
+    ".gitattributes",
+    ".github",
+    ".gitignore",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "DEPRECATED.md",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "build.toml",
+    "build",
+    "pyproject.toml",
+    "requirements",
+    "scripts",
+    "tests"
+  ]
+}
