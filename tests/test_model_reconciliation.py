@@ -7,7 +7,7 @@ from pathlib import Path
 import tempfile
 import unittest
 from collections import Counter
-from unittest import mock
+import unittest.mock
 
 ROOT = Path(__file__).resolve().parents[1]
 FIXTURE_ROOT = ROOT / 'examples/estate-audit-20260924'
@@ -120,7 +120,7 @@ class ModelReconciliationTests(unittest.TestCase):
                 value['models'] = [row for row in value['models'] if row['repository'] != removed['repository']]
             return value
 
-        with mock.patch.object(module, '_read', side_effect=changed_census):
+        with unittest.mock.patch.object(module, '_read', side_effect=changed_census):
             self.assertEqual(module.validate(FIXTURE_ROOT, document), [])
 
 
