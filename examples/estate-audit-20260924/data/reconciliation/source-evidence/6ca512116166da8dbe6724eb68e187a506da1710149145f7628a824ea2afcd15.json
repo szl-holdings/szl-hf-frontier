@@ -1,0 +1,1293 @@
+{
+  "sha": "71d86099536d24f522854ef913038e13afa29f37",
+  "tree": [
+    {
+      "mode": "100644",
+      "path": ".dockerignore",
+      "sha": "ddf757e505ae79b43d97e38b43a243049bf6b521",
+      "size": 38,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/ddf757e505ae79b43d97e38b43a243049bf6b521"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitattributes",
+      "sha": "bb267682b053b275aac98c35e1774f7d542d0920",
+      "size": 202,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/bb267682b053b275aac98c35e1774f7d542d0920"
+    },
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "6ec094423627c56f3a1af433b7ac83ecacf277cf",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/trees/6ec094423627c56f3a1af433b7ac83ecacf277cf"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "5ac4e1c45865cc917ae41f9bb89a6f71dd3ed5de",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/trees/5ac4e1c45865cc917ae41f9bb89a6f71dd3ed5de"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "e0d92ae225a81f95a232af597dc018def8353ea7",
+      "size": 5576,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/e0d92ae225a81f95a232af597dc018def8353ea7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-training-receipts-card.yml",
+      "sha": "10e00f394b7ffc0c07d6964d6891cf42e894a486",
+      "size": 1466,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/10e00f394b7ffc0c07d6964d6891cf42e894a486"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/nemo-v3-attempt-status.yml",
+      "sha": "dc67764e59ffa408c31416d500bdf77d25678831",
+      "size": 14498,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/dc67764e59ffa408c31416d500bdf77d25678831"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/windows-watchdog-install.yml",
+      "sha": "2a64e6627f57e28e0baa8e9cabf1acabbf969726",
+      "size": 7729,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/2a64e6627f57e28e0baa8e9cabf1acabbf969726"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "NOTICE",
+      "sha": "bfa969558857bd5a894efc879df460081c5f6c15",
+      "size": 1251,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/bfa969558857bd5a894efc879df460081c5f6c15"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "eebb5f900028aa8a280a096d24ddaa36cab81ae6",
+      "size": 23164,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/eebb5f900028aa8a280a096d24ddaa36cab81ae6"
+    },
+    {
+      "mode": "040000",
+      "path": "cloud",
+      "sha": "1f99f227098cfedb410f3c85302540a883d89787",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/trees/1f99f227098cfedb410f3c85302540a883d89787"
+    },
+    {
+      "mode": "100644",
+      "path": "cloud/materialize-frontier-spec.mjs",
+      "sha": "cc0e4997aee131f28074aa2227752b721340af67",
+      "size": 7642,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/cc0e4997aee131f28074aa2227752b721340af67"
+    },
+    {
+      "mode": "100644",
+      "path": "cloud/nemo_v3_status.py",
+      "sha": "51a15cf4d60a5d6a6fe0d2f01460ed25c1a8bdbc",
+      "size": 24978,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/51a15cf4d60a5d6a6fe0d2f01460ed25c1a8bdbc"
+    },
+    {
+      "mode": "100644",
+      "path": "cloud/sign-job.mjs",
+      "sha": "6aaa90bfda7422c2eeca46f45fce07e5593800f9",
+      "size": 8481,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/6aaa90bfda7422c2eeca46f45fce07e5593800f9"
+    },
+    {
+      "mode": "100644",
+      "path": "cloud/sign-nemo-v3-job.mjs",
+      "sha": "23ac3ea26ac327300adf9f2c507e6aa1a8c9bff8",
+      "size": 55477,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/23ac3ea26ac327300adf9f2c507e6aa1a8c9bff8"
+    },
+    {
+      "mode": "100644",
+      "path": "cloud/sync_training_receipts_card.py",
+      "sha": "bc6b14e55a152c93bcfcc00aef0646da27ef7d11",
+      "size": 3617,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/bc6b14e55a152c93bcfcc00aef0646da27ef7d11"
+    },
+    {
+      "mode": "100644",
+      "path": "cloud/verify-receipt.mjs",
+      "sha": "ae4f8f78d3483495d32fa8717d850a92607c7d9b",
+      "size": 3837,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/ae4f8f78d3483495d32fa8717d850a92607c7d9b"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "645d17b17005876a13a6bbbb8e59f361ff5c91a7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/trees/645d17b17005876a13a6bbbb8e59f361ff5c91a7"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/NEMO_V3_EXECUTION.md",
+      "sha": "3ae6cc25382ab1124b87801f568b12079065e79a",
+      "size": 49451,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/3ae6cc25382ab1124b87801f568b12079065e79a"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/NEMO_V3_GOVERNED_JOB.md",
+      "sha": "8c5bba361d6f0246a8604a988fd8fb562da058d4",
+      "size": 1247,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/8c5bba361d6f0246a8604a988fd8fb562da058d4"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/RESEARCH_MEMO.md",
+      "sha": "cac58209fa688c795fc0f3e543117a2628e4bf3a",
+      "size": 6007,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/cac58209fa688c795fc0f3e543117a2628e4bf3a"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/SECURITY_MODEL.md",
+      "sha": "3e36c6de9a17e933fa77243d3dc678de9e4fd9dd",
+      "size": 5278,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/3e36c6de9a17e933fa77243d3dc678de9e4fd9dd"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/WINDOWS_WATCHDOG.md",
+      "sha": "b57e17899b90b309fbcb764b351d62c37cc0f716",
+      "size": 4794,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/b57e17899b90b309fbcb764b351d62c37cc0f716"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/training-candidates-2026-09-07.md",
+      "sha": "2b0af06343733371f4bf941b51df6e101ac3576b",
+      "size": 2572,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/2b0af06343733371f4bf941b51df6e101ac3576b"
+    },
+    {
+      "mode": "040000",
+      "path": "hf",
+      "sha": "9e909e179f0a9dfb3f4103a861ac74039b857022",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/trees/9e909e179f0a9dfb3f4103a861ac74039b857022"
+    },
+    {
+      "mode": "040000",
+      "path": "hf/szl-training-receipts",
+      "sha": "05792ccc4d3ce214fe7e4a8606bea8d09088596e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/trees/05792ccc4d3ce214fe7e4a8606bea8d09088596e"
+    },
+    {
+      "mode": "100644",
+      "path": "hf/szl-training-receipts/README.md",
+      "sha": "43dee31886942144b88cb08fe92cb7d86e0da4c7",
+      "size": 1904,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/43dee31886942144b88cb08fe92cb7d86e0da4c7"
+    },
+    {
+      "mode": "040000",
+      "path": "jobspecs",
+      "sha": "6e66e72ea7110cdee0d027459c94426811856610",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/trees/6e66e72ea7110cdee0d027459c94426811856610"
+    },
+    {
+      "mode": "040000",
+      "path": "jobspecs/drafts",
+      "sha": "9276316de0e0cf8e3f58b60e72bc1ff5ef1a1f58",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/trees/9276316de0e0cf8e3f58b60e72bc1ff5ef1a1f58"
+    },
+    {
+      "mode": "100644",
+      "path": "jobspecs/drafts/khipu-abstain-retrain-2026-09-07-DRAFT-UNREVIEWED.json",
+      "sha": "73af6acf0c91d0dd960b8eca1bee838c4da03de2",
+      "size": 1377,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/73af6acf0c91d0dd960b8eca1bee838c4da03de2"
+    },
+    {
+      "mode": "100644",
+      "path": "jobspecs/drafts/khipu-abstain-retrain-2026-09-14-v2-DRAFT-UNREVIEWED.json",
+      "sha": "c129079115e1499621f4765c0a19ba6179979c3b",
+      "size": 2988,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/c129079115e1499621f4765c0a19ba6179979c3b"
+    },
+    {
+      "mode": "100644",
+      "path": "jobspecs/nemo-v3-20260722-reviewed.json",
+      "sha": "ff8c3b76fff8ecffa7165bab3bbd4b7657c2a8d8",
+      "size": 4948,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/ff8c3b76fff8ecffa7165bab3bbd4b7657c2a8d8"
+    },
+    {
+      "mode": "100644",
+      "path": "jobspecs/nemo-v3-20260729-attempt-2-reviewed.json",
+      "sha": "7c15bce93f23061306cbbc7d166adf9e06287ae6",
+      "size": 6732,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/7c15bce93f23061306cbbc7d166adf9e06287ae6"
+    },
+    {
+      "mode": "100644",
+      "path": "jobspecs/nemo-v3-20260729-successor-2-reviewed.json",
+      "sha": "0b2d4e38c3bc0d17043c6048babeb3323f5bd511",
+      "size": 6050,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/0b2d4e38c3bc0d17043c6048babeb3323f5bd511"
+    },
+    {
+      "mode": "100644",
+      "path": "jobspecs/nemo-v3-20260730-attempt-4-reviewed.json",
+      "sha": "0419a81746acb4f478f2ea410f05f370e546b51b",
+      "size": 7754,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/0419a81746acb4f478f2ea410f05f370e546b51b"
+    },
+    {
+      "mode": "100644",
+      "path": "jobspecs/nemo-v3-20260730-attempt-5-reviewed.json",
+      "sha": "fa08f325213cdb2a1296c2b95ecc6c0ecc503eaf",
+      "size": 7808,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/fa08f325213cdb2a1296c2b95ecc6c0ecc503eaf"
+    },
+    {
+      "mode": "100644",
+      "path": "jobspecs/nemo-v3-20260730-attempt-6-reviewed.json",
+      "sha": "de84b9d45f45ebe3074a9df4124f724c92c0dd44",
+      "size": 7761,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/de84b9d45f45ebe3074a9df4124f724c92c0dd44"
+    },
+    {
+      "mode": "100644",
+      "path": "jobspecs/nemo-v3-20260730-successor-3-reviewed.json",
+      "sha": "6137a9a9a02edc370b455e13751b1f1bf128990f",
+      "size": 6439,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/6137a9a9a02edc370b455e13751b1f1bf128990f"
+    },
+    {
+      "mode": "100644",
+      "path": "jobspecs/nemo-v3-20260731-attempt-10-reviewed.json",
+      "sha": "c22974a113934b1653d8a11c33d404d6210d8339",
+      "size": 7803,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/c22974a113934b1653d8a11c33d404d6210d8339"
+    },
+    {
+      "mode": "100644",
+      "path": "jobspecs/nemo-v3-20260731-attempt-11-reviewed.json",
+      "sha": "dd671c221f9560c5487c0b67f6dacde3bee08faf",
+      "size": 7753,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/dd671c221f9560c5487c0b67f6dacde3bee08faf"
+    },
+    {
+      "mode": "100644",
+      "path": "jobspecs/nemo-v3-20260731-attempt-12-reviewed.json",
+      "sha": "828e8dd3f722f23d027a197f1e487d03f2cd2407",
+      "size": 7751,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/828e8dd3f722f23d027a197f1e487d03f2cd2407"
+    },
+    {
+      "mode": "100644",
+      "path": "jobspecs/nemo-v3-20260731-attempt-13-reviewed.json",
+      "sha": "44d757f7d661d9cc64a04fbac8a3dbb84a3e353e",
+      "size": 7762,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/44d757f7d661d9cc64a04fbac8a3dbb84a3e353e"
+    },
+    {
+      "mode": "100644",
+      "path": "jobspecs/nemo-v3-20260731-attempt-14-reviewed.json",
+      "sha": "68c7dc10718dfcbad85e2c216a1533219a3554f5",
+      "size": 7812,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/68c7dc10718dfcbad85e2c216a1533219a3554f5"
+    },
+    {
+      "mode": "100644",
+      "path": "jobspecs/nemo-v3-20260731-attempt-15-reviewed.json",
+      "sha": "c5c46a4c6c2b9dd0d918052bcce17a368ce97c70",
+      "size": 7992,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/c5c46a4c6c2b9dd0d918052bcce17a368ce97c70"
+    },
+    {
+      "mode": "100644",
+      "path": "jobspecs/nemo-v3-20260731-attempt-16-reviewed.json",
+      "sha": "d17171461d7e70f379d796103f16d286200bec1e",
+      "size": 8009,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/d17171461d7e70f379d796103f16d286200bec1e"
+    },
+    {
+      "mode": "100644",
+      "path": "jobspecs/nemo-v3-20260731-attempt-7-reviewed.json",
+      "sha": "6fee67938c3fbcd1aba4b6a92a194f6b282d1865",
+      "size": 7730,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/6fee67938c3fbcd1aba4b6a92a194f6b282d1865"
+    },
+    {
+      "mode": "100644",
+      "path": "jobspecs/nemo-v3-20260731-attempt-8-reviewed.json",
+      "sha": "84a3bea0ebd7cb86496e9f3c2a829d49d1079e00",
+      "size": 7713,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/84a3bea0ebd7cb86496e9f3c2a829d49d1079e00"
+    },
+    {
+      "mode": "100644",
+      "path": "jobspecs/nemo-v3-20260731-attempt-9-reviewed.json",
+      "sha": "09f259f84faf77273c0fe0f8541f7d4b65eeb498",
+      "size": 7766,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/09f259f84faf77273c0fe0f8541f7d4b65eeb498"
+    },
+    {
+      "mode": "100644",
+      "path": "jobspecs/nemo-v3-20260801-attempt-17-reviewed.json",
+      "sha": "632d327b8b84671c5a938bb9d9cb3e82448351f7",
+      "size": 7893,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/632d327b8b84671c5a938bb9d9cb3e82448351f7"
+    },
+    {
+      "mode": "040000",
+      "path": "keys",
+      "sha": "ca0926cb9232e44e48dd45341c95bd8681fa44d7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/trees/ca0926cb9232e44e48dd45341c95bd8681fa44d7"
+    },
+    {
+      "mode": "100644",
+      "path": "keys/engine_keyring.json",
+      "sha": "3002621fc9a04e7427c0bffb43a5283d381cb628",
+      "size": 393,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/3002621fc9a04e7427c0bffb43a5283d381cb628"
+    },
+    {
+      "mode": "100644",
+      "path": "keys/engine_pubkey.json",
+      "sha": "44515ae6b96312f2a1d51806c1e2ef1d43d6237f",
+      "size": 290,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/44515ae6b96312f2a1d51806c1e2ef1d43d6237f"
+    },
+    {
+      "mode": "100644",
+      "path": "keys/engine_pubkey_815714c8d4ae3e4d.json",
+      "sha": "f3b903fc2ca822fb73366cabab0a4646be31e12b",
+      "size": 357,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/f3b903fc2ca822fb73366cabab0a4646be31e12b"
+    },
+    {
+      "mode": "100644",
+      "path": "keys/engine_pubkey_b8041281c81c4caa.json",
+      "sha": "fa5d083fd513a053bc7a62d6a6e69696ab7e54e4",
+      "size": 417,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/fa5d083fd513a053bc7a62d6a6e69696ab7e54e4"
+    },
+    {
+      "mode": "040000",
+      "path": "laptop",
+      "sha": "c91e498c5806a0a9a270757c64921f63b0febf84",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/trees/c91e498c5806a0a9a270757c64921f63b0febf84"
+    },
+    {
+      "mode": "100644",
+      "path": "laptop/Dockerfile.nemo-v3",
+      "sha": "6fd92b49383dc833d9bb2d87acf85b8aab4bdaab",
+      "size": 912,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/6fd92b49383dc833d9bb2d87acf85b8aab4bdaab"
+    },
+    {
+      "mode": "100644",
+      "path": "laptop/bootstrap.ps1",
+      "sha": "7048f133db543e97dc047d56dc1c9aa80f3d6729",
+      "size": 10970,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/7048f133db543e97dc047d56dc1c9aa80f3d6729"
+    },
+    {
+      "mode": "100644",
+      "path": "laptop/build_nemo_v3_image.ps1",
+      "sha": "c2b09f3683fbd1ec1bae3f6a07bab2d6994db11d",
+      "size": 5530,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/c2b09f3683fbd1ec1bae3f6a07bab2d6994db11d"
+    },
+    {
+      "mode": "100644",
+      "path": "laptop/daemon.ps1",
+      "sha": "580111317351bda6392ae448afd1e098ae1a90b4",
+      "size": 3603,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/580111317351bda6392ae448afd1e098ae1a90b4"
+    },
+    {
+      "mode": "100644",
+      "path": "laptop/dispatcher.py",
+      "sha": "0e54c75d3b2217684967c90500e3586589fdf1d4",
+      "size": 4808,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/0e54c75d3b2217684967c90500e3586589fdf1d4"
+    },
+    {
+      "mode": "100644",
+      "path": "laptop/finalize_nemo_v3_receipt.py",
+      "sha": "c76e3af282d3b581911726d97e6d2faaaa6c9aee",
+      "size": 15915,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/c76e3af282d3b581911726d97e6d2faaaa6c9aee"
+    },
+    {
+      "mode": "100644",
+      "path": "laptop/frontier_contract.py",
+      "sha": "54ecce9e0f94dae37287769afb6796e04530ae94",
+      "size": 21762,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/54ecce9e0f94dae37287769afb6796e04530ae94"
+    },
+    {
+      "mode": "100644",
+      "path": "laptop/frontier_job.py",
+      "sha": "b8ae7a00a3a067d6d37f38f0f91004188f42f900",
+      "size": 18648,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/b8ae7a00a3a067d6d37f38f0f91004188f42f900"
+    },
+    {
+      "mode": "100644",
+      "path": "laptop/frontier_runtime.py",
+      "sha": "5710ae691ef14cbf6d5df92dabd6810bbacdcb8f",
+      "size": 13543,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/5710ae691ef14cbf6d5df92dabd6810bbacdcb8f"
+    },
+    {
+      "mode": "100644",
+      "path": "laptop/install_watchdog.ps1",
+      "sha": "9a353fee67577ba7ed6c222b040b7ce5ce3077f8",
+      "size": 9213,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/9a353fee67577ba7ed6c222b040b7ce5ce3077f8"
+    },
+    {
+      "mode": "100644",
+      "path": "laptop/nemo_v3_contract.py",
+      "sha": "d87e2730862d392c9911f41c655386fb5168c67f",
+      "size": 100688,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/d87e2730862d392c9911f41c655386fb5168c67f"
+    },
+    {
+      "mode": "100644",
+      "path": "laptop/prefetch_nemo_v3.py",
+      "sha": "171daf802202dd0b1485b99fe1b5d9a85f8b8dd3",
+      "size": 7483,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/171daf802202dd0b1485b99fe1b5d9a85f8b8dd3"
+    },
+    {
+      "mode": "100644",
+      "path": "laptop/run_nemo_v3_isolated.ps1",
+      "sha": "c41f603c2f60e74bd181a3a37aca950c2328b114",
+      "size": 17230,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/c41f603c2f60e74bd181a3a37aca950c2328b114"
+    },
+    {
+      "mode": "100644",
+      "path": "laptop/runjob.py",
+      "sha": "efde4eb7f5eed2be7cb5763d69e1bd66a0a0e4fc",
+      "size": 14853,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/efde4eb7f5eed2be7cb5763d69e1bd66a0a0e4fc"
+    },
+    {
+      "mode": "100644",
+      "path": "laptop/runjob_frontier.py",
+      "sha": "c61a6c75743837f040139f22d35c6ed4aa16b993",
+      "size": 17379,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/c61a6c75743837f040139f22d35c6ed4aa16b993"
+    },
+    {
+      "mode": "100644",
+      "path": "laptop/runjob_nemo_v3.py",
+      "sha": "3e029ae64fc86d158afd8552e8c6f30d9f2a4d26",
+      "size": 38946,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/3e029ae64fc86d158afd8552e8c6f30d9f2a4d26"
+    },
+    {
+      "mode": "100644",
+      "path": "laptop/watchdog.ps1",
+      "sha": "c4196d8f85c73e69ab62664f29253b8d8b65f16c",
+      "size": 29040,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/c4196d8f85c73e69ab62664f29253b8d8b65f16c"
+    },
+    {
+      "mode": "040000",
+      "path": "queue",
+      "sha": "efb2fb8bc63d123a48bfa0153e43bccf987756b4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/trees/efb2fb8bc63d123a48bfa0153e43bccf987756b4"
+    },
+    {
+      "mode": "040000",
+      "path": "queue/done",
+      "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/done/.gitkeep",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "mode": "040000",
+      "path": "queue/evidence",
+      "sha": "7ed33ecaeadb6a462260b9cb59f1deef0ac47ebb",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/trees/7ed33ecaeadb6a462260b9cb59f1deef0ac47ebb"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/evidence/job-2026-nemo-v3-governed-attempt-1.json",
+      "sha": "fc5fa1efa26d02ab15b2c51ba3247e617cdbb1d3",
+      "size": 1099,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/fc5fa1efa26d02ab15b2c51ba3247e617cdbb1d3"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/evidence/job-2026-nemo-v3-governed-attempt-11.json",
+      "sha": "c2d3f75f9c802f8c08fabd903f618d4d038506b6",
+      "size": 937,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/c2d3f75f9c802f8c08fabd903f618d4d038506b6"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/evidence/job-2026-nemo-v3-governed-attempt-12.json",
+      "sha": "17e79c4d12e98e4afe48e95b22bba54bc5d88762",
+      "size": 1016,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/17e79c4d12e98e4afe48e95b22bba54bc5d88762"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/evidence/job-2026-nemo-v3-governed-attempt-13.json",
+      "sha": "2fe2a176202510600d1f87f2fc96e760f1f1ddf4",
+      "size": 1627,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/2fe2a176202510600d1f87f2fc96e760f1f1ddf4"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/evidence/job-2026-nemo-v3-governed-attempt-14.json",
+      "sha": "dd9dc56c4311ff62261c00ee6a439ed1f6781a3d",
+      "size": 1725,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/dd9dc56c4311ff62261c00ee6a439ed1f6781a3d"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/evidence/job-2026-nemo-v3-governed-attempt-15.json",
+      "sha": "4f7f470a12390068ac2de9ab8e7539e4a91121fa",
+      "size": 1016,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/4f7f470a12390068ac2de9ab8e7539e4a91121fa"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/evidence/job-2026-nemo-v3-governed-attempt-16.json",
+      "sha": "63a5dfcd1e750213d5bbea44812daa3d0b61e5a1",
+      "size": 1245,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/63a5dfcd1e750213d5bbea44812daa3d0b61e5a1"
+    },
+    {
+      "mode": "040000",
+      "path": "queue/pending",
+      "sha": "dbd2f942cdb7035f23f310b01946226607691a73",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/trees/dbd2f942cdb7035f23f310b01946226607691a73"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/pending/job-0001-szl-quant-1p5b.json",
+      "sha": "4ac0410933f1a88504b12214d0c84d99ccbe31e8",
+      "size": 2466,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/4ac0410933f1a88504b12214d0c84d99ccbe31e8"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/pending/job-2026-nemo-v3-governed-attempt-1.json",
+      "sha": "c06d6352adbbed6dc3b7a1046f51f8f28ba51e21",
+      "size": 5622,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/c06d6352adbbed6dc3b7a1046f51f8f28ba51e21"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/pending/job-2026-nemo-v3-governed-attempt-10.json",
+      "sha": "a2d19797a582db5efbe4f6e5b0eeb7bf44947012",
+      "size": 9078,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/a2d19797a582db5efbe4f6e5b0eeb7bf44947012"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/pending/job-2026-nemo-v3-governed-attempt-11.json",
+      "sha": "cdc4357e47e57177c3c035c3e8efc96f7a032a4d",
+      "size": 9014,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/cdc4357e47e57177c3c035c3e8efc96f7a032a4d"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/pending/job-2026-nemo-v3-governed-attempt-12.json",
+      "sha": "19765aacf8af798e66672584f9f6d03ab8800649",
+      "size": 9010,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/19765aacf8af798e66672584f9f6d03ab8800649"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/pending/job-2026-nemo-v3-governed-attempt-13.json",
+      "sha": "d46dd3c851b4399438980bb3e7e790368630c649",
+      "size": 9026,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/d46dd3c851b4399438980bb3e7e790368630c649"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/pending/job-2026-nemo-v3-governed-attempt-14.json",
+      "sha": "61bf5fb9a9216d868f9ed219b28669c2d5e06a4a",
+      "size": 9090,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/61bf5fb9a9216d868f9ed219b28669c2d5e06a4a"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/pending/job-2026-nemo-v3-governed-attempt-15.json",
+      "sha": "39feaec0d1f0413aa57760040d39aa3b089b4d30",
+      "size": 9330,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/39feaec0d1f0413aa57760040d39aa3b089b4d30"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/pending/job-2026-nemo-v3-governed-attempt-16.json",
+      "sha": "079e8cfe09519e3953df2155f62a9ee47845a196",
+      "size": 9354,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/079e8cfe09519e3953df2155f62a9ee47845a196"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/pending/job-2026-nemo-v3-governed-attempt-2.json",
+      "sha": "9e5db53fc00a5a1927094da0efd4895c048c737f",
+      "size": 7782,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/9e5db53fc00a5a1927094da0efd4895c048c737f"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/pending/job-2026-nemo-v3-governed-attempt-4.json",
+      "sha": "e4049ed39593e85696aa88207ad71fdee5f1f317",
+      "size": 9030,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/e4049ed39593e85696aa88207ad71fdee5f1f317"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/pending/job-2026-nemo-v3-governed-attempt-5.json",
+      "sha": "94124e71c4aa741778ead14b09d722d87ad6aa62",
+      "size": 9086,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/94124e71c4aa741778ead14b09d722d87ad6aa62"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/pending/job-2026-nemo-v3-governed-attempt-6.json",
+      "sha": "d5953935360edd3498ddc1dca73ccddd51f9d289",
+      "size": 9022,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/d5953935360edd3498ddc1dca73ccddd51f9d289"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/pending/job-2026-nemo-v3-governed-attempt-7.json",
+      "sha": "fad20b425379494f5b8290db6a5965b339e559a5",
+      "size": 8982,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/fad20b425379494f5b8290db6a5965b339e559a5"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/pending/job-2026-nemo-v3-governed-attempt-8.json",
+      "sha": "f11c9bb6c5ec93b136a8724223497eed79ac25ae",
+      "size": 8958,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/f11c9bb6c5ec93b136a8724223497eed79ac25ae"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/pending/job-2026-nemo-v3-governed-attempt-9.json",
+      "sha": "2986bff669db911f3686b5c28acaa09c479eaec7",
+      "size": 9030,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/2986bff669db911f3686b5c28acaa09c479eaec7"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/pending/job-2026-nemo-v3-governed-successor-3.json",
+      "sha": "d04d1ee66b4143fb559b875103610fb2689ee5cf",
+      "size": 7406,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/d04d1ee66b4143fb559b875103610fb2689ee5cf"
+    },
+    {
+      "mode": "040000",
+      "path": "queue/quarantine",
+      "sha": "00da8cc359c3fb35ce00423c5ef57483dec3b8ca",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/trees/00da8cc359c3fb35ce00423c5ef57483dec3b8ca"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/quarantine/job-2026-nemo-v3-governed-attempt-1.json",
+      "sha": "cdb2f452b85ea6864b7c71bbcffb6da2835a53a1",
+      "size": 2094,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/cdb2f452b85ea6864b7c71bbcffb6da2835a53a1"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/quarantine/job-2026-nemo-v3-governed-attempt-10.json",
+      "sha": "76c8a1e0471fb31366bb0f9c340a2a219cedf785",
+      "size": 1896,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/76c8a1e0471fb31366bb0f9c340a2a219cedf785"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/quarantine/job-2026-nemo-v3-governed-attempt-11.json",
+      "sha": "dd94cbb32357517fca944ed1b96b59c3039af8d9",
+      "size": 1991,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/dd94cbb32357517fca944ed1b96b59c3039af8d9"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/quarantine/job-2026-nemo-v3-governed-attempt-12.json",
+      "sha": "b7866044f60a995619b152ba3ebdfa1bc95917b6",
+      "size": 1812,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/b7866044f60a995619b152ba3ebdfa1bc95917b6"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/quarantine/job-2026-nemo-v3-governed-attempt-13.json",
+      "sha": "ab28b05856e6e076c7c8d86e559b25c49f16269c",
+      "size": 2209,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/ab28b05856e6e076c7c8d86e559b25c49f16269c"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/quarantine/job-2026-nemo-v3-governed-attempt-14.json",
+      "sha": "ed7e1fa2dfce8afa61525ba483841a6200db5e5f",
+      "size": 2340,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/ed7e1fa2dfce8afa61525ba483841a6200db5e5f"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/quarantine/job-2026-nemo-v3-governed-attempt-15.json",
+      "sha": "6e72f42a991d5a68b83cc04683ca3e364089d478",
+      "size": 2051,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/6e72f42a991d5a68b83cc04683ca3e364089d478"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/quarantine/job-2026-nemo-v3-governed-attempt-16.json",
+      "sha": "f424131b87b297719a097b5118643cffeaace58b",
+      "size": 1989,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/f424131b87b297719a097b5118643cffeaace58b"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/quarantine/job-2026-nemo-v3-governed-attempt-2.json",
+      "sha": "445ecfc17778f2b7052731208c1c63da69fa6ce7",
+      "size": 1252,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/445ecfc17778f2b7052731208c1c63da69fa6ce7"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/quarantine/job-2026-nemo-v3-governed-attempt-4.json",
+      "sha": "c5fceb7bf6d5a84031a8b1c16bf648587754e96f",
+      "size": 1293,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/c5fceb7bf6d5a84031a8b1c16bf648587754e96f"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/quarantine/job-2026-nemo-v3-governed-attempt-5.json",
+      "sha": "21fa3ff97f591456aa14dfe206ea6631c4a7c74c",
+      "size": 1408,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/21fa3ff97f591456aa14dfe206ea6631c4a7c74c"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/quarantine/job-2026-nemo-v3-governed-attempt-6.json",
+      "sha": "5cc2c1454cdfcbc10100692a6a5040bb0b74ea14",
+      "size": 1430,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/5cc2c1454cdfcbc10100692a6a5040bb0b74ea14"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/quarantine/job-2026-nemo-v3-governed-attempt-7.json",
+      "sha": "72855425c12567933261a945f97cd1a564fc0cc4",
+      "size": 1581,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/72855425c12567933261a945f97cd1a564fc0cc4"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/quarantine/job-2026-nemo-v3-governed-attempt-8.json",
+      "sha": "d7e38786a7fdbab245d1694f120d3d1e603fd165",
+      "size": 1733,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/d7e38786a7fdbab245d1694f120d3d1e603fd165"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/quarantine/job-2026-nemo-v3-governed-attempt-9.json",
+      "sha": "3e48dca648a857483f1840f0dd77bbc7cd5e3218",
+      "size": 2070,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/3e48dca648a857483f1840f0dd77bbc7cd5e3218"
+    },
+    {
+      "mode": "100644",
+      "path": "queue/quarantine/job-2026-nemo-v3-governed-successor-3.json",
+      "sha": "c1454c5707eeb8ddbf1dd2c1e352657372fc6093",
+      "size": 1290,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/c1454c5707eeb8ddbf1dd2c1e352657372fc6093"
+    },
+    {
+      "mode": "040000",
+      "path": "schema",
+      "sha": "ef361c57f90dabca732934b56f824ff42d8e40d8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/trees/ef361c57f90dabca732934b56f824ff42d8e40d8"
+    },
+    {
+      "mode": "100644",
+      "path": "schema/jobspec.v1.json",
+      "sha": "acbbfc5645539d9c374cb4d3d3213171e45e7d43",
+      "size": 4933,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/acbbfc5645539d9c374cb4d3d3213171e45e7d43"
+    },
+    {
+      "mode": "100644",
+      "path": "schema/jobspec.v2.json",
+      "sha": "5d207a5f5ca6fccff02037a94904ff08b308be1d",
+      "size": 6563,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/5d207a5f5ca6fccff02037a94904ff08b308be1d"
+    },
+    {
+      "mode": "100644",
+      "path": "schema/nemo-v3-jobspec.v1.json",
+      "sha": "064b5ee7e55a7bf922ef410285048525d617ccbc",
+      "size": 48454,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/064b5ee7e55a7bf922ef410285048525d617ccbc"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "33e1f7dd66fe3cea52bf228a9c7c6c079be4e41a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/trees/33e1f7dd66fe3cea52bf228a9c7c6c079be4e41a"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/train_khipu_abstain.py",
+      "sha": "4f78605fcf4a21b424ee836ce1fc735cb0ee4fb0",
+      "size": 4898,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/4f78605fcf4a21b424ee836ce1fc735cb0ee4fb0"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "a4816adfa0dc256ec7b6630f15186d8d1e360359",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/trees/a4816adfa0dc256ec7b6630f15186d8d1e360359"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_cloud_contract.mjs",
+      "sha": "bf2998e738d3d6959adc56e9ff3fd3b0249a53bc",
+      "size": 2393,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/bf2998e738d3d6959adc56e9ff3fd3b0249a53bc"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_cloud_nemo_v3.mjs",
+      "sha": "f876ce06be2e0e650585f04df89c7052d6e3c3c0",
+      "size": 28207,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/f876ce06be2e0e650585f04df89c7052d6e3c3c0"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_daemon_exact_job_contract.py",
+      "sha": "44d3eb0287d84b40717046716fa91d08a5e09a97",
+      "size": 2685,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/44d3eb0287d84b40717046716fa91d08a5e09a97"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_engine_keyring.py",
+      "sha": "acdbe4262ad3dde38e5a9faa6a31e3d8488b9789",
+      "size": 5548,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/acdbe4262ad3dde38e5a9faa6a31e3d8488b9789"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_frontier_contract.py",
+      "sha": "5c30ec3a6328f3e96a8ceed77a7cd984779bba77",
+      "size": 16415,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/5c30ec3a6328f3e96a8ceed77a7cd984779bba77"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_isolated_nemo_launcher_contract.py",
+      "sha": "f15478da20996294768f85dcf69a5e8893416fd0",
+      "size": 9923,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/f15478da20996294768f85dcf69a5e8893416fd0"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_materialize_frontier_spec.mjs",
+      "sha": "0cb3b9da7e66ac268e04c3ed18f4cb3bfec07626",
+      "size": 1042,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/0cb3b9da7e66ac268e04c3ed18f4cb3bfec07626"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_nemo_credential_separation.py",
+      "sha": "5b42d06c593b6b234891e8395187b7011df7f400",
+      "size": 26257,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/5b42d06c593b6b234891e8395187b7011df7f400"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_nemo_v3_contract.py",
+      "sha": "8ac0a8b7b514addd5fb689bd97515ea62c5a5d73",
+      "size": 8841,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/8ac0a8b7b514addd5fb689bd97515ea62c5a5d73"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_nemo_v3_conversation_labels.py",
+      "sha": "c1d87dee4930b0496835ab374901441a223c879a",
+      "size": 9716,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/c1d87dee4930b0496835ab374901441a223c879a"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_nemo_v3_dispatcher_engine_key_scope.py",
+      "sha": "06fa4a754e880b3006c016412fecd4742f4e5da8",
+      "size": 1557,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/06fa4a754e880b3006c016412fecd4742f4e5da8"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_nemo_v3_generic_runtime_binding.py",
+      "sha": "87e12e6d06ab106be530a4c4bd853409b58ebe12",
+      "size": 14931,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/87e12e6d06ab106be530a4c4bd853409b58ebe12"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_nemo_v3_meta_tensor_compat.py",
+      "sha": "0bb847bf3f94837df4aa06d8f74f28a2da65762b",
+      "size": 9684,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/0bb847bf3f94837df4aa06d8f74f28a2da65762b"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_nemo_v3_runner.py",
+      "sha": "ebda597a4fd0318d1ffd29339d27501b18c2e37d",
+      "size": 10750,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/ebda597a4fd0318d1ffd29339d27501b18c2e37d"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_nemo_v3_sftconfig_compat.py",
+      "sha": "26470829a01e81ef8a4dad7140670020923dda10",
+      "size": 9304,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/26470829a01e81ef8a4dad7140670020923dda10"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_nemo_v3_status.py",
+      "sha": "d47101f326ae539542945653e265f30dbacf09fe",
+      "size": 11888,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/d47101f326ae539542945653e265f30dbacf09fe"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_receipt_outbox.py",
+      "sha": "1e4a00ad16010a49093ea59688eadb989c86b064",
+      "size": 2677,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/1e4a00ad16010a49093ea59688eadb989c86b064"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_reviewed_nemo_v3_attempt_10_spec.py",
+      "sha": "dd8edc891a3dbc30fef241e7851a2612c4d17d48",
+      "size": 14484,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/dd8edc891a3dbc30fef241e7851a2612c4d17d48"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_reviewed_nemo_v3_attempt_11_spec.py",
+      "sha": "7565f65519aa1d67d139a029a5ce770f4111ea9e",
+      "size": 13103,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/7565f65519aa1d67d139a029a5ce770f4111ea9e"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_reviewed_nemo_v3_attempt_12_spec.py",
+      "sha": "02146a932ab3ec13e086ab897d2c8353321c5df9",
+      "size": 15349,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/02146a932ab3ec13e086ab897d2c8353321c5df9"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_reviewed_nemo_v3_attempt_13_spec.py",
+      "sha": "8811f0a528db26fb9d8736b4b920f3c9f0851a6b",
+      "size": 17468,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/8811f0a528db26fb9d8736b4b920f3c9f0851a6b"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_reviewed_nemo_v3_attempt_14_spec.py",
+      "sha": "497765161625066f57d0362b149bb33972cd0a79",
+      "size": 15116,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/497765161625066f57d0362b149bb33972cd0a79"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_reviewed_nemo_v3_attempt_15_spec.py",
+      "sha": "4811a4c221305b7fbdc6bc85d1ea84f16c2c3573",
+      "size": 13728,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/4811a4c221305b7fbdc6bc85d1ea84f16c2c3573"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_reviewed_nemo_v3_attempt_16_spec.py",
+      "sha": "7ed9d3b5cf0a884f8df258b14df906632ea078ac",
+      "size": 17327,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/7ed9d3b5cf0a884f8df258b14df906632ea078ac"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_reviewed_nemo_v3_attempt_17_spec.py",
+      "sha": "4f909edcb9afce45259a52344dc237c2edc2e5c7",
+      "size": 10913,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/4f909edcb9afce45259a52344dc237c2edc2e5c7"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_reviewed_nemo_v3_attempt_2_spec.py",
+      "sha": "e454d3d7abe191bd3ff5edb1173a1f1a99efc07d",
+      "size": 7869,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/e454d3d7abe191bd3ff5edb1173a1f1a99efc07d"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_reviewed_nemo_v3_attempt_4_spec.py",
+      "sha": "fa615d96b5543abf11579846f9380f74f6ab9eb2",
+      "size": 11559,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/fa615d96b5543abf11579846f9380f74f6ab9eb2"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_reviewed_nemo_v3_attempt_5_spec.py",
+      "sha": "def34d02b3c36a2253cf4b99593b2853d92406d8",
+      "size": 12270,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/def34d02b3c36a2253cf4b99593b2853d92406d8"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_reviewed_nemo_v3_attempt_6_spec.py",
+      "sha": "8ed21ab4b219c8024551a645e5a1074bedbda137",
+      "size": 12457,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/8ed21ab4b219c8024551a645e5a1074bedbda137"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_reviewed_nemo_v3_attempt_7_spec.py",
+      "sha": "4579a599e07677d9ad2a722f1271cf8b1e39d9bb",
+      "size": 13239,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/4579a599e07677d9ad2a722f1271cf8b1e39d9bb"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_reviewed_nemo_v3_attempt_8_spec.py",
+      "sha": "82f7d46be2c480f0b67b9a3893aec24020441272",
+      "size": 13118,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/82f7d46be2c480f0b67b9a3893aec24020441272"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_reviewed_nemo_v3_attempt_9_spec.py",
+      "sha": "98ee0cf19a82dababbd68c6af455f2eb14289278",
+      "size": 11173,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/98ee0cf19a82dababbd68c6af455f2eb14289278"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_reviewed_nemo_v3_spec.py",
+      "sha": "48d0427ed87ed74c2f18a10a84001f002aa05e5e",
+      "size": 8959,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/48d0427ed87ed74c2f18a10a84001f002aa05e5e"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_reviewed_nemo_v3_successor_3_spec.py",
+      "sha": "a060c5bbb53d220dcabbfed03b10301ceed018b0",
+      "size": 4209,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/a060c5bbb53d220dcabbfed03b10301ceed018b0"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_reviewed_nemo_v3_successor_spec.py",
+      "sha": "d6b07500c6c85c497e9494a5f704c4c1f0413bbd",
+      "size": 3961,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/d6b07500c6c85c497e9494a5f704c4c1f0413bbd"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_training_receipts_card.py",
+      "sha": "9d0ab54b5db26fa5cd2f46337f2f8939e0f50546",
+      "size": 2594,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/9d0ab54b5db26fa5cd2f46337f2f8939e0f50546"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_windows_watchdog_contract.py",
+      "sha": "4c3f3faba635dae99fcad9d6496e812101b488fa",
+      "size": 15993,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/blobs/4c3f3faba635dae99fcad9d6496e812101b488fa"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/trees/71d86099536d24f522854ef913038e13afa29f37"
+}

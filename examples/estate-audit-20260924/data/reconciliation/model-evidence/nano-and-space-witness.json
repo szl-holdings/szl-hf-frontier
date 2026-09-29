@@ -1,0 +1,377 @@
+{
+  "evidence_label": "LOCAL_SYNTHETIC_AND_PUBLIC_RUNTIME_WITNESS",
+  "nanos": [
+    {
+      "arrays": {
+        "D": {
+          "dtype": "int64",
+          "finite": true,
+          "shape": []
+        },
+        "V": {
+          "dtype": "int64",
+          "finite": true,
+          "shape": []
+        },
+        "table": {
+          "dtype": "float64",
+          "finite": true,
+          "shape": [
+            64,
+            12
+          ]
+        }
+      },
+      "artifact": "mini_embed.npz",
+      "bytes": 6892,
+      "canonical_source_blob_matches": true,
+      "inference": {
+        "finite": true,
+        "norm": 1.0,
+        "vector_shape": [
+          12
+        ]
+      },
+      "load_and_inference_verified": true,
+      "production_qualified": false,
+      "provider_byte_identity_verified": true,
+      "provider_revision": "01e82f36ff722528233f76daf899c18f8cb5aaa2",
+      "repository": "SZLHOLDINGS/MiniEmbed-Nano",
+      "sha256": "ae31a3a7214d1f142d8ea3f4f86c35bdedd7c108bc5d04ea00c87e7b674e6e3b",
+      "training_receipt_hash_matches": true,
+      "training_verified": false
+    },
+    {
+      "arrays": {
+        "W1": {
+          "dtype": "float64",
+          "finite": true,
+          "shape": [
+            8,
+            2
+          ]
+        },
+        "W2": {
+          "dtype": "float64",
+          "finite": true,
+          "shape": [
+            2,
+            8
+          ]
+        },
+        "b1": {
+          "dtype": "float64",
+          "finite": true,
+          "shape": [
+            8
+          ]
+        },
+        "b2": {
+          "dtype": "float64",
+          "finite": true,
+          "shape": [
+            2
+          ]
+        }
+      },
+      "artifact": "moons.npz",
+      "bytes": 1302,
+      "canonical_source_blob_matches": true,
+      "inference": {
+        "accuracy": 0.895,
+        "predictions_shape": [
+          200
+        ],
+        "samples": 200,
+        "synthetic_seed": 20260925
+      },
+      "load_and_inference_verified": true,
+      "production_qualified": false,
+      "provider_byte_identity_verified": true,
+      "provider_revision": "77d002f9314dc0c86cd0f14e63fff60364929652",
+      "repository": "SZLHOLDINGS/Moons-Nano",
+      "sha256": "dda50e3b293534de3f5aec01ebf9f8d6688e06069931618dfd35f01369904104",
+      "training_receipt_hash_matches": true,
+      "training_verified": false
+    },
+    {
+      "arrays": {
+        "W1": {
+          "dtype": "float64",
+          "finite": true,
+          "shape": [
+            16,
+            24
+          ]
+        },
+        "W2": {
+          "dtype": "float64",
+          "finite": true,
+          "shape": [
+            8,
+            16
+          ]
+        },
+        "W3": {
+          "dtype": "float64",
+          "finite": true,
+          "shape": [
+            4,
+            8
+          ]
+        },
+        "b1": {
+          "dtype": "float64",
+          "finite": true,
+          "shape": [
+            16
+          ]
+        },
+        "b2": {
+          "dtype": "float64",
+          "finite": true,
+          "shape": [
+            8
+          ]
+        },
+        "b3": {
+          "dtype": "float64",
+          "finite": true,
+          "shape": [
+            4
+          ]
+        }
+      },
+      "artifact": "receipt_agent.npz",
+      "bytes": 6014,
+      "canonical_source_blob_matches": true,
+      "inference": {
+        "advisory_agreement": 0.8825,
+        "nonfinite_blocked": 72,
+        "nonfinite_cases": 72,
+        "samples": 400,
+        "synthetic_seed": 20260925,
+        "valid_decision": "ALLOW"
+      },
+      "load_and_inference_verified": true,
+      "production_qualified": false,
+      "provider_byte_identity_verified": true,
+      "provider_revision": "f8c8849bb4d2d024638e39cb21ca4d3a519ee02e",
+      "repository": "SZLHOLDINGS/ReceiptAgent-Nano",
+      "sha256": "8aca4d24c90d6159cbb2bb885c7a94822d715899437f58abe69fb5c9664a1381",
+      "training_receipt_hash_matches": true,
+      "training_verified": false
+    },
+    {
+      "arrays": {
+        "E": {
+          "dtype": "float64",
+          "finite": true,
+          "shape": [
+            24,
+            12
+          ]
+        },
+        "W": {
+          "dtype": "float64",
+          "finite": true,
+          "shape": [
+            2,
+            12
+          ]
+        },
+        "Wc": {
+          "dtype": "float64",
+          "finite": true,
+          "shape": [
+            12
+          ]
+        },
+        "b": {
+          "dtype": "float64",
+          "finite": true,
+          "shape": [
+            2
+          ]
+        }
+      },
+      "artifact": "tiny_khipu.npz",
+      "bytes": 3568,
+      "canonical_source_blob_matches": true,
+      "inference": {
+        "metrics": {
+          "abstain": 1.0,
+          "hallucinated": 0.0,
+          "plan_valid": 1.0
+        },
+        "samples": 80,
+        "synthetic_seed": 20260925
+      },
+      "load_and_inference_verified": true,
+      "production_qualified": false,
+      "provider_byte_identity_verified": true,
+      "provider_revision": "73b75580e9a8dedb30fc23168bd6563624e8b4b2",
+      "repository": "SZLHOLDINGS/TinyKhipu-Nano",
+      "sha256": "cc8d0385b2c75079669df809d7e4823f1ad8d9d535aec511446347490b11dff9",
+      "training_receipt_hash_matches": true,
+      "training_verified": false
+    }
+  ],
+  "observed_at": "2026-09-25T12:34:26.362238+00:00",
+  "production_qualified": false,
+  "runtime": [
+    {
+      "body": {
+        "deployment": {
+          "artifact_name": "szl-khipu-hf-provenance-v3-attempt-1-manifest-5be53ff2213031e63ccd76e851e00b8bf41c127906d05c30d49dc20f7210cd3f-hf-bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde",
+          "artifact_sha256": "c12f03f7277f7941de7405463799c0b49d30044e3b551d0b52f34e208eb96b92",
+          "hf_repository": "SZLHOLDINGS/szl-khipu",
+          "hf_revision": "bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde",
+          "manifest_sha256": "5be53ff2213031e63ccd76e851e00b8bf41c127906d05c30d49dc20f7210cd3f",
+          "runtime_tree_sha256": "a4be009262b2032b94ba53247367603433f0586a963d566971b2228ffb1661be",
+          "workflow_name": "publish-hf",
+          "workflow_run": 36008397058,
+          "workflow_run_attempt": 1
+        },
+        "schema": "szl.build-info/v1",
+        "source": {
+          "commit": "ef7e85a162428a26a361b5e2c2cb32a3b3d082dc",
+          "repository": "szl-holdings/szl-khipu"
+        },
+        "state": "SOURCE_BOUND_DEPLOYMENT"
+      },
+      "body_sha256": "7445585b67337e04068549ea3dd8d45723c5af0f491c44e9220facd4e349c35d",
+      "request": null,
+      "status_code": 200,
+      "url": "https://szlholdings-szl-khipu.hf.space/api/build-info"
+    },
+    {
+      "body": {
+        "deployment": {
+          "artifact_name": "szl-khipu-hf-provenance-v3-attempt-1-manifest-5be53ff2213031e63ccd76e851e00b8bf41c127906d05c30d49dc20f7210cd3f-hf-bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde",
+          "artifact_sha256": "c12f03f7277f7941de7405463799c0b49d30044e3b551d0b52f34e208eb96b92",
+          "hf_repository": "SZLHOLDINGS/szl-khipu",
+          "hf_revision": "bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde",
+          "manifest_sha256": "5be53ff2213031e63ccd76e851e00b8bf41c127906d05c30d49dc20f7210cd3f",
+          "runtime_tree_sha256": "a4be009262b2032b94ba53247367603433f0586a963d566971b2228ffb1661be",
+          "workflow_name": "publish-hf",
+          "workflow_run": 36008397058,
+          "workflow_run_attempt": 1
+        },
+        "schema": "szl.deployment-source/v1",
+        "source": {
+          "commit": "ef7e85a162428a26a361b5e2c2cb32a3b3d082dc",
+          "repository": "szl-holdings/szl-khipu"
+        },
+        "state": "SOURCE_BOUND_DEPLOYMENT"
+      },
+      "body_sha256": "ee19ff1f9e7628a40c3d3b49ba8a63daf2741ea4c0c3969c7ac0a7ff5d92a0e9",
+      "request": null,
+      "status_code": 200,
+      "url": "https://szlholdings-szl-khipu.hf.space/.well-known/szl-source.json"
+    },
+    {
+      "body": {
+        "cuda": "UNAVAILABLE",
+        "energy": {
+          "channel": "LIVE",
+          "energy_j": null,
+          "hardware": {
+            "nvml_mj": null,
+            "nvml_readable": false,
+            "powercap_dir": false,
+            "pynvml_import": false,
+            "rapl_readable": false,
+            "rapl_uj": null
+          },
+          "honesty": "UNAVAILABLE",
+          "inference_energy_j": null,
+          "note": "No RAPL, no NVML. Channel is live. Never a fabricated joule.",
+          "package_energy_j": null,
+          "sample_delta_j": null,
+          "source": null
+        },
+        "kernel": "LIVE",
+        "ok": true,
+        "proven_trust": false,
+        "space": "szl-khipu",
+        "uniqueness": "Conjecture 1"
+      },
+      "body_sha256": "02cd991c8f19cf3c5fc9a57daefb79bd86ef1bce150b1209f2bee2150b6ab0ed",
+      "request": null,
+      "status_code": 200,
+      "url": "https://szlholdings-szl-khipu.hf.space/healthz"
+    },
+    {
+      "body": {
+        "agree": true,
+        "conjecture_1": "OPEN",
+        "decision": "ALLOW",
+        "doctrine": "v11 LOCKED",
+        "energy_j": null,
+        "energy_status": "UNAVAILABLE",
+        "kernel": "ALLOW",
+        "kind": "receipt_agent",
+        "proven_trust": false,
+        "source": "szl-holdings/szl-khipu",
+        "surrogate": "ALLOW",
+        "what_not": "Kernel rule_check wins. Not 1.5B."
+      },
+      "body_sha256": "c87496de74b277e0e7c1fff15af65b2948372146218ed885d1cb00cf6cde7f9f",
+      "request": {
+        "kind": "receipt_agent"
+      },
+      "status_code": 200,
+      "url": "https://szlholdings-szl-khipu.hf.space/api/infer"
+    },
+    {
+      "body": {
+        "agree": true,
+        "conjecture_1": "OPEN",
+        "decision": "BLOCKED",
+        "doctrine": "v11 LOCKED",
+        "energy_j": null,
+        "energy_status": "UNAVAILABLE",
+        "kernel": "BLOCKED",
+        "kind": "receipt_agent",
+        "proven_trust": false,
+        "source": "szl-holdings/szl-khipu",
+        "surrogate": "BLOCKED",
+        "what_not": "Kernel rule_check wins. Not 1.5B."
+      },
+      "body_sha256": "a96400e074c21adceb61630bead745504d7abfd2593cae5b1c6c884cba260925",
+      "request": {
+        "hard_deny": true,
+        "kind": "receipt_agent"
+      },
+      "status_code": 200,
+      "url": "https://szlholdings-szl-khipu.hf.space/api/infer"
+    },
+    {
+      "body": {
+        "agree": true,
+        "conjecture_1": "OPEN",
+        "decision": "ESCALATE",
+        "doctrine": "v11 LOCKED",
+        "energy_j": null,
+        "energy_status": "UNAVAILABLE",
+        "kernel": "ESCALATE",
+        "kind": "receipt_agent",
+        "proven_trust": false,
+        "source": "szl-holdings/szl-khipu",
+        "surrogate": "ESCALATE",
+        "what_not": "Kernel rule_check wins. Not 1.5B."
+      },
+      "body_sha256": "5a381593ddab66b6d4f0c5a1b3c7e4813e9a9b29e430ee66625ef37abb1d081e",
+      "request": {
+        "break_chain": true,
+        "kind": "receipt_agent"
+      },
+      "status_code": 200,
+      "url": "https://szlholdings-szl-khipu.hf.space/api/infer"
+    }
+  ],
+  "schema": "szl.model-local-runtime-witness/v1",
+  "source_revision": "ef7e85a162428a26a361b5e2c2cb32a3b3d082dc",
+  "training_reproduced": false
+}

@@ -1,0 +1,35 @@
+{
+  "card": "---\nlicense: apache-2.0\ntask_categories:\n  - text-generation\nlanguage:\n  - en\ntags:\n  - szl-holdings\n  - sovereign-ai\n  - instruction-tuning\n  - identity\npretty_name: SZL-1 Doctrine SFT\nsize_categories:\n  - n<1K\n---\n\n<!-- SZL-ESTATE-CARD:v2:START -->\n<p align=\"center\"><a href=\"https://a-11-oy.com/\"><img src=\"https://huggingface.co/spaces/SZLHOLDINGS/README/resolve/main/assets/estate-banner-v2.svg\" alt=\"SZL Holdings \u2014 governed, receipted, verifiable\" width=\"100%\"></a></p>\n<p align=\"center\">\n  <a href=\"https://github.com/szl-holdings/.github/tree/main/doctrine\"><img src=\"https://img.shields.io/badge/doctrine-v11%20LOCKED-0B1F3A?style=flat-square\" alt=\"doctrine v11\"></a>\n  <a href=\"https://a-11-oy.com/\"><img src=\"https://img.shields.io/badge/evidence%20wall-LIVE%20%C2%B7%20verify%20in%20browser-3AF4C8?style=flat-square\" alt=\"live evidence wall\"></a>\n  <a href=\"https://huggingface.co/datasets/SZLHOLDINGS/szl-lake\"><img src=\"https://img.shields.io/badge/szl--lake-offline%20verifiable-C9B787?style=flat-square\" alt=\"szl-lake offline verifiable\"></a>\n  <a href=\"https://huggingface.co/spaces/SZLHOLDINGS/holographic\"><img src=\"https://img.shields.io/badge/estate%20map-holographic-5B8DEE?style=flat-square\" alt=\"holographic estate map\"></a>\n</p>\n<p align=\"center\"><sub>Part of the <a href=\"https://huggingface.co/SZLHOLDINGS\">SZL Holdings</a> governed estate \u2014 claims are designed to carry checkable receipts. Verification proves integrity &amp; origin, never accuracy or performance.</sub></p>\n<!-- SZL-ESTATE-CARD:v2:END -->\n\n<div align=\"center\">\n<p>\n\n[![dataset](https://img.shields.io/badge/dataset-SZL--1%20identity%20%2B%20doctrine%20SFT-3af4c8?style=flat-square)](https://huggingface.co/datasets/SZLHOLDINGS/szl-1-doctrine-sft/tree/main)\n[![files](https://img.shields.io/badge/files-4-5b8dee?style=flat-square)](https://huggingface.co/datasets/SZLHOLDINGS/szl-1-doctrine-sft/tree/main)\n[![license](https://img.shields.io/badge/license-apache--2.0-7e8aa3?style=flat-square)](https://huggingface.co/datasets/SZLHOLDINGS/szl-1-doctrine-sft)\n\n</p>\n</div>\n\n# SZL-1 Doctrine SFT\n\nThe supervised fine-tuning (SFT) set that teaches **SZL-1** its identity and\nSZL Holdings' honesty doctrine. This is the exact training data used by the\n[`szl-forge`](https://github.com/szl-holdings/szl-forge) kit (`train_szl.py`,\nUnsloth QLoRA on `unsloth/Qwen2.5-3B-Instruct-bnb-4bit`).\n\n## What's in it \u2014 honest labels first\n\n| Field | Value |\n| --- | --- |\n| Examples | **41** chat examples (MEASURED: 41 lines / 17,719 bytes). |\n| Format | JSONL; each line is `{\"messages\": [{role, content}, ...]}` with `system` / `user` / `assistant` turns. |\n| Purpose | SZL-1 **identity** (\"I am SZL-1, the sovereign model of SZL Holdings\u2026\") + **honesty doctrine** (MEASURED / REPORTED / UNKNOWN labeling, honest UNKNOWN over invented answers). |\n| Exact source | `szl_dataset.jsonl` at [`szl-holdings/szl-forge`](https://github.com/szl-holdings/szl-forge/blob/main/szl_dataset.jsonl), copied byte-for-byte. |\n| License | Apache-2.0. |\n\n## Evaluation\n\n**None yet.** No eval, quality, speed, or accuracy numbers have been measured on\nSZL hardware. Treat any performance of a model trained on this set as **UNKNOWN**\nuntil a real run produces MEASURED numbers. No benchmark number is stated here\nbecause none exists \u2014 per SZL's honesty doctrine, none may be invented.\n\n## Reproduce\n\nThe training hyperparameters are pinned in\n[`szl-forge/config.yaml`](https://github.com/szl-holdings/szl-forge/blob/main/config.yaml)\n(seed 11, 3 epochs, LoRA rank 16, lr 2e-4). Run the one-command bootstrap from\nthe szl-forge README, or `python train_szl.py` with this file as\n`szl_dataset.jsonl` in the working directory.\n\nBuilt and maintained by [SZL Holdings](https://a-11-oy.com).\n\n---\n\n<div align=\"center\">\n\n**[\ud83d\udee1\ufe0f SZLHOLDINGS on Hugging Face \u2192](https://huggingface.co/SZLHOLDINGS)**   \u00b7   **[a-11-oy.com \u2192](https://a-11-oy.com)**   \u00b7   **[Estate hub \u2014 live \u2192](https://szlholdings-szl-estate-live.static.hf.space)**\n\n### Governed AI you can prove.\n\n<sub>SLSA: L1 honest \u00b7 L2 attested \u00b7 L3 roadmap. \u039b = Conjecture 1 (advisory, never a theorem). Trust ceiling 0.97 \u2014 never 100%. Labels honest by default: MEASURED / REPORTED / MODELED / HEURISTIC / UNKNOWN / UNAVAILABLE. locked-proven = exactly 8 {F1,F4,F7,F11,F12,F18,F19,F22}.</sub>\n\n</div>\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 173,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/66130dec08bc9e7831fcfc9ebab8bad64ad8f375d4abe824eec9bc48f449ab93.json",
+      "revision": "b11a9d6abe332fa4add8c58feed35b66f75304b8",
+      "sha256": "66130dec08bc9e7831fcfc9ebab8bad64ad8f375d4abe824eec9bc48f449ab93",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/datasets/SZLHOLDINGS/szl-1-doctrine-sft/revision/b11a9d6abe332fa4add8c58feed35b66f75304b8"
+    },
+    {
+      "bytes": 4339,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/535211f3ba8ae745614a25e260ebc66ca01a6ddebacb639222e8d90101389e1c.md",
+      "revision": "b11a9d6abe332fa4add8c58feed35b66f75304b8",
+      "sha256": "535211f3ba8ae745614a25e260ebc66ca01a6ddebacb639222e8d90101389e1c",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/datasets/SZLHOLDINGS/szl-1-doctrine-sft/resolve/b11a9d6abe332fa4add8c58feed35b66f75304b8/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "szl_dataset.jsonl"
+  ],
+  "id": "huggingface-dataset/szlholdings/szl-1-doctrine-sft",
+  "observed_at": "2026-09-24T12:29:44Z",
+  "observed_revision": "b11a9d6abe332fa4add8c58feed35b66f75304b8"
+}

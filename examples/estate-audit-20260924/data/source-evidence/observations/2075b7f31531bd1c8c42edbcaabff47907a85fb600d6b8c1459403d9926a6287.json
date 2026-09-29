@@ -1,0 +1,33 @@
+{
+  "card": "---\nlicense: apache-2.0\npretty_name: David Leads - Federal Refresh Snapshots\ntags:\n- szl-holdings\n- governed-ai\n- puriq-receipt\n- public-data\n---\n\n# David Leads \u2014 Federal Refresh Snapshots\n\nImmutable, hash-chained snapshots of normalized public federal records serving the David Leads Space. Produced by the `federal-refresh` workflow in `szl-holdings/david-leads` (issues #103; PRs #104, #105, #106).\n\n## Layout\n\n- `snapshots/YYYY-MM-DD/snapshot.json` \u2014 snapshot metadata (sha256 of upstream bytes, records_hash, created_at, freshness_days)\n- `snapshots/YYYY-MM-DD/receipt.json` \u2014 PurIQ v1 receipt (a11oy #1814); `UNSIGNED` is honestly labeled until a signing key is configured\n- `snapshots/YYYY-MM-DD/records.jsonl` \u2014 normalized source records, one JSON object per line\n- `latest.json` \u2014 pointer to the current snapshot\n\n## Verification\n\nEvery snapshot passes six checks before publish and again at consumption: per-record content-hash recomputation, `records_hash` chain, receipt `payload_hash`, signed-receipt key_id presence, gate-must-be-pass, and staleness window. Verifier: `tools/ingestor/verify_snapshot.py`.\n\n## Estate law\n\nSnapshots are immutable (dated paths never overwritten). No sample substitution. No live-web calls by consumers. Stale data renders honestly: \"data as of {date}, refresh pending.\"\n\n### Sources\n\nStarted with EPA ECHO Exporter (weekly). Follow-on lanes: FMCSA MOTUS, DOL Form 5500 bulk, USAspending.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 117,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/52d578b31829c4e821925dd67e869f3e1c2121bf89f63557d10edfaa126632ce.json",
+      "revision": "aa797f5e66940f404a89135130161750044ea0b2",
+      "sha256": "52d578b31829c4e821925dd67e869f3e1c2121bf89f63557d10edfaa126632ce",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/datasets/SZLHOLDINGS/david-leads-data/revision/aa797f5e66940f404a89135130161750044ea0b2"
+    },
+    {
+      "bytes": 1443,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/5a93a615c2cc76c0c8cb9341feda262595dda31a1bc25153b982937c414d898d.md",
+      "revision": "aa797f5e66940f404a89135130161750044ea0b2",
+      "sha256": "5a93a615c2cc76c0c8cb9341feda262595dda31a1bc25153b982937c414d898d",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/datasets/SZLHOLDINGS/david-leads-data/resolve/aa797f5e66940f404a89135130161750044ea0b2/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "README.md"
+  ],
+  "id": "huggingface-dataset/szlholdings/david-leads-data",
+  "observed_at": "2026-09-24T12:29:42Z",
+  "observed_revision": "aa797f5e66940f404a89135130161750044ea0b2"
+}

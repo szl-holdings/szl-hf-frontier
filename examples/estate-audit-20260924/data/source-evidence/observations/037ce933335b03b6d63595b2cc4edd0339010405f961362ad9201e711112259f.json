@@ -1,0 +1,20 @@
+{
+  "card": "# szl-blocked\n\n**SOFTWARE_LIMITED.** Software kernel slot for blocked / gated ops in the SZL kernel house. **Not a model. No weights. Not the pre-action core of a11oy.**\n\nSource is this GitHub tree. Hub mirror: [`kernels/SZLHOLDINGS/szl-blocked`](https://huggingface.co/kernels/SZLHOLDINGS/szl-blocked). Card: [`SZLHOLDINGS/szl-blocked`](https://huggingface.co/SZLHOLDINGS/szl-blocked).\n\nPublic maturity stays limited while Hub residue (`model.joblib` if still listed) is quarantined and while product claims are forbidden by [szl-hf-frontier#7](https://github.com/szl-holdings/szl-hf-frontier/issues/7).\n\n## What this is NOT\n\n- Hub `model.joblib` is **QUARANTINED** executable serialization. Do not `joblib.load` it. GitHub source is the approved path.\n- Not FlashAttention, not a drop-in blocker library\n- No MEASURED latency or CUDA benches in this repo\n- Not trained weights\n- Not a production admission certificate for a-11-oy.com\n\n## Load\n\n```python\nfrom kernels import get_kernel\nget_kernel(\"SZLHOLDINGS/szl-blocked\", revision=\"main\", trust_remote_code=True)\n```\n\nA successful load is not a product qualification.\n\nDoctrine v11. \u039b = Conjecture 1 (advisory, never a theorem). Apache-2.0. Owner: Stephen Lutar / SZL Holdings.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 1232,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/6feee855ce6ed4edf1c289cce21f9f8204b7e68befc6c711e1d8f820a96ebe6a.md",
+      "revision": "edafac7cae74bdd36d1bdd4a0d2dbf94b54c61e3",
+      "sha256": "6feee855ce6ed4edf1c289cce21f9f8204b7e68befc6c711e1d8f820a96ebe6a",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-blocked/blob/edafac7cae74bdd36d1bdd4a0d2dbf94b54c61e3/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-blocked",
+  "observed_at": "2026-09-24T12:29:32Z",
+  "observed_revision": "edafac7cae74bdd36d1bdd4a0d2dbf94b54c61e3"
+}

@@ -1,0 +1,42 @@
+{
+  "card": "---\nlicense: apache-2.0\npretty_name: SZL Frontier Memory Covenant v0.3\ntask_categories:\n  - text-classification\ntags:\n  - governance\n  - receipts\n  - doctrine-v11\n  - a11oy\n  - memory-covenant\n  - frontier-evaluation\n---\n\n# SZL Frontier \u2014 Memory Covenant v0.3\n\nSoftware release artifacts for the SZL Frontier orchestrator: policy formulas, software gates, honest posture labels, and governed frontier-evaluation intake records.\n\nThis is **not** a training corpus of classified or operational intelligence. Intel observations in the companion app are **simulated** and public-style only. The frontier intake file stores metadata, source revisions/fingerprints, evaluation lanes, and promotion posture; it does **not** mirror upstream model weights or gated dataset payloads.\n\n## Files\n\n| File | What |\n|---|---|\n| `formulas.jsonl` | Nine deny-by-default formulas (F1\u2013F9) |\n| `gates.jsonl` | Software release gates for the Memory Covenant |\n| `posture.json` | Honest claim table |\n| `frontier-top-choices.v1.jsonl` | Five primary-source frontier integration records: K2-Horizon, NeoMME, Funes, WebGPU kernels, and Vaani |\n\n## Frontier intake contract\n\nEach frontier record preserves the upstream identity and license while naming the SZL-owned primitive and target organs used for evaluation. `production: HOLD` is deliberate: an upstream release, benchmark claim, public license, or successful sandbox run is never sufficient production authority by itself.\n\nK2 and Vaani include exact Hub revision plus normalized artifact-inventory fingerprints. Vaani remains gated; only public metadata is represented here and no dataset content is copied or accessed by this artifact.\n\n## Honesty\n\n- Gates are software tests, not Lean locked-8.\n- \u039b = Conjecture 1.\n- Upstream artifacts keep their upstream authorship, licenses, and provenance.\n- Source: [szl-holdings/szl-frontier](https://github.com/szl-holdings/szl-frontier)\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 387,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/6fef9db040f8cc4af8482b852e4a3f934fea5acda5c788bc8b757d6380a7688f.json",
+      "revision": "783f6497d0e4608b094297821efd634a2131e1e7",
+      "sha256": "6fef9db040f8cc4af8482b852e4a3f934fea5acda5c788bc8b757d6380a7688f",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/datasets/SZLHOLDINGS/szl-frontier-covenant/revision/783f6497d0e4608b094297821efd634a2131e1e7"
+    },
+    {
+      "bytes": 1920,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/6bd23c366f72dbcc06563e174463b88dbb4ea63c523f8514af0269f0dcc5ec0d.md",
+      "revision": "783f6497d0e4608b094297821efd634a2131e1e7",
+      "sha256": "6bd23c366f72dbcc06563e174463b88dbb4ea63c523f8514af0269f0dcc5ec0d",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/datasets/SZLHOLDINGS/szl-frontier-covenant/resolve/783f6497d0e4608b094297821efd634a2131e1e7/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "brain-neomme-1.4.1.json",
+    "formulas.jsonl",
+    "frontier-edge-agent.v1.json",
+    "frontier-top-choices.v1.jsonl",
+    "gates.jsonl",
+    "kimi-hy4-spark-intake.v1.json",
+    "minicpm5-matched-evidence.v1.json",
+    "neomme-smoke.v1.json",
+    "posture.json"
+  ],
+  "id": "huggingface-dataset/szlholdings/szl-frontier-covenant",
+  "observed_at": "2026-09-24T12:29:45Z",
+  "observed_revision": "783f6497d0e4608b094297821efd634a2131e1e7"
+}

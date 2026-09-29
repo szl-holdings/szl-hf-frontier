@@ -1,0 +1,32 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 4296,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:47Z",
+      "path": "data/reconciliation/source-evidence/7607e7e31418c9e4c4cdf2cbdbeffb2b062295d05d06008a040ecaaeac843647.json",
+      "revision": "6851c00110b275d8207c8038ffc78886cdff55fb",
+      "sha256": "7607e7e31418c9e4c4cdf2cbdbeffb2b062295d05d06008a040ecaaeac843647",
+      "source_identity": "github/szl-holdings/energy-attest-holo",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/energy-attest-holo/git/trees/6851c00110b275d8207c8038ffc78886cdff55fb?recursive=1"
+    }
+  ],
+  "file_count": 9,
+  "id": "github/szl-holdings/energy-attest-holo",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "6851c00110b275d8207c8038ffc78886cdff55fb",
+  "root_paths": [
+    ".github",
+    ".hf-space.json",
+    "LICENSE",
+    "README.md",
+    "index.html",
+    "requirements",
+    "scripts",
+    "tests"
+  ]
+}

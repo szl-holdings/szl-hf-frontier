@@ -1,0 +1,51 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 67742,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:53Z",
+      "path": "data/reconciliation/source-evidence/c35ba265eeea24ec6853c8a7395b3d11b011045310bb84f428923af040ea2d7e.json",
+      "revision": "9ce4e6b5f36fe0b094a07308abe3665cd2a210c1",
+      "sha256": "c35ba265eeea24ec6853c8a7395b3d11b011045310bb84f428923af040ea2d7e",
+      "source_identity": "github/szl-holdings/lyte-services",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/lyte-services/git/trees/9ce4e6b5f36fe0b094a07308abe3665cd2a210c1?recursive=1"
+    }
+  ],
+  "file_count": 195,
+  "id": "github/szl-holdings/lyte-services",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "9ce4e6b5f36fe0b094a07308abe3665cd2a210c1",
+  "root_paths": [
+    ".dockerignore",
+    ".github",
+    ".gitignore",
+    "Dockerfile",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "SZL_ESTATE_BINDING.json",
+    "a11oy_factory",
+    "alembic.ini",
+    "artifacts",
+    "benchmarks",
+    "docker-compose.yml",
+    "docs",
+    "frontier",
+    "lyte",
+    "lyte_api",
+    "lyte_engine",
+    "lyte_runtime.py",
+    "migrations",
+    "pyproject.toml",
+    "requirements-test.txt",
+    "requirements.txt",
+    "source_revision.txt",
+    "space",
+    "tests",
+    "tools"
+  ]
+}

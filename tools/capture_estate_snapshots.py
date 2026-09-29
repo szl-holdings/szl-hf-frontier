@@ -355,6 +355,14 @@ def export_public_snapshot(raw_root: Path, public_root: Path) -> dict[str, Any]:
 
 
 def capture(output: Path, *, public_only: bool = False, max_pages: int = 1000, workers: int = 4) -> dict[str, Any]:
+    # Reject before writing even the IN_PROGRESS receipt. The committed public
+    # projection must never be replaced by token-visible inventory.
+    public_root = (ROOT / "data/snapshots").resolve()
+    if output.resolve() == public_root or output.resolve().is_relative_to(public_root):
+        raise CollectionError("CAPTURE_REQUIRES_LOCAL_OUTPUT_USE_PUBLIC_EXPORT")
+    if (not public_only and output.resolve().is_relative_to(ROOT.resolve())
+            and not output.resolve().is_relative_to(ROOT.resolve() / ".estate-private")):
+        raise CollectionError("AUTHENTICATED_CAPTURE_REQUIRES_PRIVATE_OUTPUT")
     receipt: dict[str, Any] = {"schema": SCHEMA, "complete": False, "status": "IN_PROGRESS",
         "started_at": utc_now(), "completed_at": None, "source": source_identity(),
         "signature_status": "UNSIGNED", "scope": "PUBLIC_ONLY" if public_only else "TOKEN_VISIBLE",
@@ -397,7 +405,7 @@ def capture(output: Path, *, public_only: bool = False, max_pages: int = 1000, w
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("output", nargs="?", default="data/snapshots", help="Local snapshots; authenticated output may contain private metadata.")
+    parser.add_argument("output", nargs="?", default=str(ROOT / ".estate-private/snapshots"), help="Local snapshots; defaults to ignored .estate-private/snapshots. Authenticated output may contain private metadata.")
     parser.add_argument("--public-only", action="store_true", help="Explicit anonymous census; does not establish private coverage.")
     parser.add_argument("--public-output", type=Path, help="Export public rows from the completed authenticated census.")
     parser.add_argument("--max-pages", type=int, default=1000)
@@ -410,7 +418,11 @@ def main(argv: list[str] | None = None) -> int:
     output = Path(args.output)
     if args.public_output and output.resolve() == args.public_output.resolve():
         parser.error("--public-output must differ from the raw output")
-    receipt = capture(output, public_only=args.public_only, max_pages=args.max_pages, workers=args.workers)
+    try:
+        receipt = capture(output, public_only=args.public_only, max_pages=args.max_pages, workers=args.workers)
+    except CollectionError as exc:
+        print("FAILED: " + str(exc), file=sys.stderr)
+        return 1
     if not receipt["complete"]:
         print("FAILED: " + receipt["failure"] + "; incomplete receipt retained", file=sys.stderr)
         return 1

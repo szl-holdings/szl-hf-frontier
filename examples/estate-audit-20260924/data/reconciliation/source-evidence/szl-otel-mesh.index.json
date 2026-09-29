@@ -1,0 +1,60 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 45043,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:03Z",
+      "path": "data/reconciliation/source-evidence/74e5ad0f12caf71d342af43cb4affa92aa89e56625715536c6b244bd638a7ce7.json",
+      "revision": "172f52ecfc2cc7babac78bffde79517b38fcdb42",
+      "sha256": "74e5ad0f12caf71d342af43cb4affa92aa89e56625715536c6b244bd638a7ce7",
+      "source_identity": "github/szl-holdings/szl-otel-mesh",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-otel-mesh/git/trees/172f52ecfc2cc7babac78bffde79517b38fcdb42?recursive=1"
+    }
+  ],
+  "file_count": 122,
+  "id": "github/szl-holdings/szl-otel-mesh",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "172f52ecfc2cc7babac78bffde79517b38fcdb42",
+  "root_paths": [
+    ".devcontainer",
+    ".github",
+    ".gitignore",
+    ".markdownlint.json",
+    ".pre-commit-config.yaml",
+    ".release-please-manifest.json",
+    "AGENTS.md",
+    "CANONICAL.md",
+    "CHANGELOG.md",
+    "CITATION.cff",
+    "CODEOWNERS",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "HONEST_ROLES.md",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "STATUS.md",
+    "VERSION",
+    "bundles",
+    "docs",
+    "extended-attestations.jsonl",
+    "formula_receipts.py",
+    "manifests",
+    "mesh",
+    "pepr",
+    "pinn_dsse.py",
+    "release-please-config.json",
+    "schemas",
+    "scripts",
+    "src",
+    "tests",
+    "uds-bundle.yaml",
+    "uds-mesh-pointer-manifest.yaml",
+    "uds_v18_24_substrate.py",
+    "verticals"
+  ]
+}

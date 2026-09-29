@@ -1,0 +1,41 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 12384,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:46Z",
+      "path": "data/reconciliation/source-evidence/11400d623fe9390743ef6054e4d1be668a430625301ed3633753585cba1fbf7b.json",
+      "revision": "dde99af0564c965edc6a253d4004734157460810",
+      "sha256": "11400d623fe9390743ef6054e4d1be668a430625301ed3633753585cba1fbf7b",
+      "source_identity": "github/szl-holdings/developers",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/trees/dde99af0564c965edc6a253d4004734157460810?recursive=1"
+    }
+  ],
+  "file_count": 36,
+  "id": "github/szl-holdings/developers",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "dde99af0564c965edc6a253d4004734157460810",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "API_REFERENCE.md",
+    "CONTRIBUTING.md",
+    "DEPRECATED.md",
+    "EXAMPLES",
+    "GRAPHQL.md",
+    "LICENSE",
+    "MCP_INTEGRATION.md",
+    "QUICKSTART.md",
+    "README.md",
+    "SDK_DROP_IN.md",
+    "SECURITY.md",
+    "SUBSTRATE_PACKAGES.md",
+    "VERIFY.md",
+    "WILLAY_API.md",
+    "site"
+  ]
+}

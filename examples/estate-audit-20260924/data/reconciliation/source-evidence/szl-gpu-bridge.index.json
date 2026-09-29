@@ -1,0 +1,40 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 51176,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:00Z",
+      "path": "data/reconciliation/source-evidence/6ca512116166da8dbe6724eb68e187a506da1710149145f7628a824ea2afcd15.json",
+      "revision": "71d86099536d24f522854ef913038e13afa29f37",
+      "sha256": "6ca512116166da8dbe6724eb68e187a506da1710149145f7628a824ea2afcd15",
+      "source_identity": "github/szl-holdings/szl-gpu-bridge",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gpu-bridge/git/trees/71d86099536d24f522854ef913038e13afa29f37?recursive=1"
+    }
+  ],
+  "file_count": 145,
+  "id": "github/szl-holdings/szl-gpu-bridge",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "71d86099536d24f522854ef913038e13afa29f37",
+  "root_paths": [
+    ".dockerignore",
+    ".gitattributes",
+    ".github",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "cloud",
+    "docs",
+    "hf",
+    "jobspecs",
+    "keys",
+    "laptop",
+    "queue",
+    "schema",
+    "scripts",
+    "tests"
+  ]
+}

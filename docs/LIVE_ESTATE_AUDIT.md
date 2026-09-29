@@ -38,8 +38,10 @@ python .\tools\run_estate_audit.py --skip-capture --snapshots data\snapshots
 ```
 
 The positional collector output remains compatible with the original CLI. Its
-default is `data/snapshots`; when using authentication, supply an explicit private
-output as above. `--public-output` exports only rows whose observed `private`
+default is the Git-ignored `.estate-private/snapshots` directory. Direct capture
+into the committed `data/snapshots` tree is rejected before any receipt is written.
+The audit runner captures into `--raw-snapshots` and exports a public projection
+when refreshing its default snapshot path. `--public-output` exports only rows whose observed `private`
 value is exactly `false`. It omits authenticated account names, private names and
 private counts, recalculates hashes, and records
 `PUBLIC_PROJECTION_OF_AUTHENTICATED_CENSUS` plus the parent receipt's hash. The raw
@@ -87,6 +89,11 @@ is entirely offline. `--reviews PATH` passes revision-bound source reviews to th
 compiler. `--registry`, `--gaps`, and `--receipt` choose explicit local outputs.
 Build and validation logs are retained beside the audit receipt; logs for raw
 authenticated input can contain private names and must remain local.
+Both the runner and direct compiler reject token-visible or private inventory
+outputs in tracked repository paths. Use `.estate-private/` or an explicit
+directory outside the checkout for these outputs. Public projection outputs
+remain eligible for ordinary source review; this path check grants no authority
+to publish them.
 
 The audit process uses distinct exit statuses:
 

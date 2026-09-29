@@ -1,0 +1,59 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 44589,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:56Z",
+      "path": "data/reconciliation/source-evidence/e40116cc723a9f9cbaf3ed51a2773dac30afa7a14da34e7dc905bc488f2faf3b.json",
+      "revision": "508ec8995b9be199f4bba26a7e98951e388a159e",
+      "sha256": "e40116cc723a9f9cbaf3ed51a2773dac30afa7a14da34e7dc905bc488f2faf3b",
+      "source_identity": "github/szl-holdings/szl-atelier",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-atelier/git/trees/508ec8995b9be199f4bba26a7e98951e388a159e?recursive=1"
+    }
+  ],
+  "file_count": 138,
+  "id": "github/szl-holdings/szl-atelier",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "508ec8995b9be199f4bba26a7e98951e388a159e",
+  "root_paths": [
+    ".dockerignore",
+    ".gitattributes",
+    ".github",
+    ".gitignore",
+    "Dockerfile",
+    "FRONTIER_PLAN.md",
+    "GOVERNANCE.md",
+    "LICENSE",
+    "MODELS.txt",
+    "README.md",
+    "RELEASE.json",
+    "SPACE_PROVENANCE_FRONTIER.json",
+    "app.js",
+    "backend-status.js",
+    "cards",
+    "docs",
+    "frontier-worker.js",
+    "frontier.js",
+    "frontier",
+    "index.html",
+    "kit",
+    "models.json",
+    "nano-weights.json",
+    "requirements-dev.txt",
+    "requirements-revival-test.txt",
+    "requirements.txt",
+    "revival",
+    "server.py",
+    "style.css",
+    "styles.css",
+    "szl-holo-v2.css",
+    "szl-holo-v2.js",
+    "tests",
+    "unsloth-recipes.json",
+    "weights"
+  ]
+}

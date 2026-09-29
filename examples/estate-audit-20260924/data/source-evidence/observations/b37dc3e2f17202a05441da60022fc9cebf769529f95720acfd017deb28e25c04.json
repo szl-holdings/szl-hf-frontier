@@ -1,0 +1,48 @@
+{
+  "card": "---\nlicense: apache-2.0\nlibrary_name: other\ntags:\n  - governed-ai\n  - szl-holdings\n  - doctrine-v11\n  - estate\n  - hub\n---\n\n# szl-training-scripts\n\nThe forge. Hub copy of the Unsloth-receipted training scripts. Tags were empty \u2014 this atelier is the card.\n\n**Family.** estate \u00b7 **Evidence.** HUB \u00b7 **Weights.** none\n\nHub: [SZLHOLDINGS/szl-training-scripts](https://huggingface.co/SZLHOLDINGS/szl-training-scripts)\n\n## The cut\n\nTraining code is usually a gist. We give it a model id so the estate graph stays one piece.\n\nA Hub id you can pin in a receipt: 'trained by this repo at this SHA'.\n\n### Silhouette \u2192 leave \u2192 SZL\n\n| Leader | Take, then tweak |\n|---|---|\n| Anthropic | No public train scripts for Claude. |\n| NVIDIA | NeMo recipes. |\n| Unsloth | The scripts wrap Unsloth. Cut is the receipt bind. |\n\nNobody else ships this combination. That is the point of a one-of-one.\n\n## Intended use\n\nCanonical train entrypoint.\n\n## Limitations\n\n- Not a checkpoint. Wire to GitHub kit in this atelier.\n\n## Honesty\n\n| Claim | Label |\n|---|---|\n| This card's numbers | HUB |\n| Energy / joules | UNAVAILABLE unless a signed meter says MEASURED |\n| \u039b uniqueness | Conjecture 1 OPEN \u2014 not a theorem |\n| GGUF as the signed object | FALSE |\n\nDoctrine v11 LOCKED \u00b7 749 declarations \u00b7 14 axioms \u00b7 163 sorries \u00b7 locked-proven 8.\n\nApache-2.0. Copyright 2026 SZL Holdings \u00b7 Stephen P. Lutar Jr. \u00b7 ORCID [0009-0001-0110-4173](https://orcid.org/0009-0001-0110-4173).\n\n## GitHub-aligned Python\n\n```python\n#!/usr/bin/env python3\n# receipted_unsloth.py\n# Silhouette: Unsloth FastLanguageModel QLoRA.\n# Cut: dataset SHA, LoRA knobs, seed, and final loss go into a training receipt\n# BEFORE merge. GGUF is derived \u2014 never the signed object.\n\nfrom __future__ import annotations\n\nimport argparse\nimport hashlib\nimport json\nimport time\nfrom pathlib import Path\n\n\ndef sha256_file(p: Path) -> str:\n    h = hashlib.sha256()\n    with p.open(\"rb\") as f:\n        for chunk in iter(lambda: f.read(1 << 20), b\"\"):\n            h.update(chunk)\n    return h.hexdigest()\n\n\ndef main() -> None:\n    ap = argparse.ArgumentParser()\n    ap.add_argument(\"--base\", default=\"Qwen/Qwen2.5-1.5B-Instruct\")\n    ap.add_argument(\"--data\", default=\"doctrine.jsonl\")\n    ap.add_argument(\"--out\", default=\"out/adapter\")\n    ap.add_argument(\"--r\", type=int, default=16)\n    ap.add_argument(\"--seed\", type=int, default=20260721)\n    ap.add_argument(\"--max-seq\", type=int, default=2048)\n    args = ap.parse_args()\n\n    data_sha = sha256_file(Path(args.data))\n    from unsloth import FastLanguageModel\n    from datasets import load_dataset\n    from trl import SFTConfig, SFTTrainer\n\n    model, tokenizer = FastLanguageModel.from_pretrained(\n        model_name=args.base,\n        max_seq_length=args.max_seq,\n        load_in_4bit=True,\n    )\n    model = FastLanguageModel.get_peft_model(\n        model,\n        r=args.r,\n        lora_alpha=args.r,\n        target_modules=[\"q_proj\", \"k_proj\", \"v_proj\", \"o_proj\", \"gate_proj\", \"up_proj\", \"down_proj\"],\n        lora_dropout=0,\n        bias=\"none\",\n        use_gradient_checkpointing=\"unsloth\",\n        random_state=args.seed,\n    )\n    ds = load_dataset(\"json\", data_files=args.data, split=\"train\")\n    trainer = SFTTrainer(\n        model=model,\n        tokenizer=tokenizer,\n        train_dataset=ds,\n        args=SFTConfig(\n            output_dir=args.out,\n            per_device_train_batch_size=2,\n            gradient_accumulation_steps=4,\n            max_steps=120,\n            learning_rate=2e-4,\n            logging_steps=10,\n            seed=args.seed,\n        ),\n    )\n    t0 = time.time()\n    trainer.train()\n    model.save_pretrained(args.out)\n    loss = None\n    if trainer.state.log_hi\n```\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 554,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/f7936e5ff6ccab30dc8d004a0316d594365f5f8c2665fcd5ecdc30c925f5eb1b.json",
+      "revision": "d8663fc07df8d91026584ff8ea235ce523c02638",
+      "sha256": "f7936e5ff6ccab30dc8d004a0316d594365f5f8c2665fcd5ecdc30c925f5eb1b",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-training-scripts/revision/d8663fc07df8d91026584ff8ea235ce523c02638"
+    },
+    {
+      "bytes": 3708,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/38c280b0a4e98264126ad76d80f220c1412c8bb1b3d3a696a1a12fce14baad2d.md",
+      "revision": "d8663fc07df8d91026584ff8ea235ce523c02638",
+      "sha256": "38c280b0a4e98264126ad76d80f220c1412c8bb1b3d3a696a1a12fce14baad2d",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/SZLHOLDINGS/szl-training-scripts/resolve/d8663fc07df8d91026584ff8ea235ce523c02638/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "bom/model-bom.cdx.json",
+    "provenance.json",
+    "receipted_unsloth.py",
+    "receipts/chaski-5050-unsloth.json",
+    "receipts/chaski-r2-unsloth.json",
+    "receipts/chaski-unsloth.json",
+    "receipts/willay-unsloth.json",
+    "status.json",
+    "szl_khipu_eval.py",
+    "train_cohort.py",
+    "train_receipted_unsloth.py",
+    "train_willay.py",
+    "training_receipt.unsloth.json",
+    "unsloth-recipes.json"
+  ],
+  "id": "huggingface-model/szlholdings/szl-training-scripts",
+  "observed_at": "2026-09-24T12:29:57Z",
+  "observed_revision": "d8663fc07df8d91026584ff8ea235ce523c02638"
+}

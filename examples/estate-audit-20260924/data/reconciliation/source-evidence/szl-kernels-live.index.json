@@ -1,0 +1,36 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 16325,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:02Z",
+      "path": "data/reconciliation/source-evidence/82c2744d4be43d0974632fb8166edc7d8f2ec5297890945b8fdf5d4f26e98868.json",
+      "revision": "6c48224a8e8a4ddd05b8e1e46b4948a61634ee66",
+      "sha256": "82c2744d4be43d0974632fb8166edc7d8f2ec5297890945b8fdf5d4f26e98868",
+      "source_identity": "github/szl-holdings/szl-kernels-live",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-kernels-live/git/trees/6c48224a8e8a4ddd05b8e1e46b4948a61634ee66?recursive=1"
+    }
+  ],
+  "file_count": 34,
+  "id": "github/szl-holdings/szl-kernels-live",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "6c48224a8e8a4ddd05b8e1e46b4948a61634ee66",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "contracts",
+    "evidence",
+    "index.html",
+    "registry",
+    "requirements",
+    "schemas",
+    "scripts",
+    "tests"
+  ]
+}

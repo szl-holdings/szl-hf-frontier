@@ -1,0 +1,19 @@
+{
+  "files": [
+    ".dockerignore",
+    ".gitattributes",
+    "Dockerfile",
+    "LICENSE",
+    "README.md",
+    "app.py",
+    "app_governed.py",
+    "download_artifacts.py",
+    "release.json",
+    "requirements.txt",
+    "tests/test_app.py",
+    "tests/test_governed_app.py",
+    "verify_execution_record.py",
+    "verify_governed_live.py"
+  ],
+  "revision": "bdc5af2ee3a9df79476bf9494ecde2912c17cfd4"
+}

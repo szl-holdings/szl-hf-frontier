@@ -1,0 +1,226 @@
+{
+  "sha": "bb15b7da92ada2541e5deff0a276a2e51c17f1e2",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "0e1b50f6cadb0212fcdd5239647b6373d58ca0e4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/trees/0e1b50f6cadb0212fcdd5239647b6373d58ca0e4"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "3e58236e24c2b435130162aaa89b0717f050bff6",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/trees/3e58236e24c2b435130162aaa89b0717f050bff6"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/cpu-tests.yml",
+      "sha": "d9a3fdf10c1f1e68bec09b04e00bc9c995ae484c",
+      "size": 925,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/d9a3fdf10c1f1e68bec09b04e00bc9c995ae484c"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "bf18ac7b7d436fb8e9846a15b12eb5d96f8e2519",
+      "size": 141,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/bf18ac7b7d436fb8e9846a15b12eb5d96f8e2519"
+    },
+    {
+      "mode": "100644",
+      "path": ".zenodo.json",
+      "sha": "ce61615ea20f8e615a362fef13a47f01aecb756f",
+      "size": 883,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/ce61615ea20f8e615a362fef13a47f01aecb756f"
+    },
+    {
+      "mode": "100644",
+      "path": "CARD.md",
+      "sha": "ba21f91a20cc82ff5b61583264ed1ed2d1fd59bc",
+      "size": 3960,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/ba21f91a20cc82ff5b61583264ed1ed2d1fd59bc"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "b07cf00f88f7eeed088adfce87d54f5b3a9accb7",
+      "size": 379,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/b07cf00f88f7eeed088adfce87d54f5b3a9accb7"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "NOTICE",
+      "sha": "b58a1b9470555638786831cc910e0bbcbcf7e9a8",
+      "size": 659,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/b58a1b9470555638786831cc910e0bbcbcf7e9a8"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "29bf0dc27dd40a0bc0eb90066691515752049c94",
+      "size": 5112,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/29bf0dc27dd40a0bc0eb90066691515752049c94"
+    },
+    {
+      "mode": "100644",
+      "path": "build.toml",
+      "sha": "2a484d7631673f79448e3d629e8c7b6a0f240b00",
+      "size": 390,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/2a484d7631673f79448e3d629e8c7b6a0f240b00"
+    },
+    {
+      "mode": "100644",
+      "path": "example.py",
+      "sha": "63f53edd8950909846c8cac5f51a60b26a06cd07",
+      "size": 795,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/63f53edd8950909846c8cac5f51a60b26a06cd07"
+    },
+    {
+      "mode": "100644",
+      "path": "flake.nix",
+      "sha": "6ca01693f9ea358f398ca3dc084ef851064733dd",
+      "size": 473,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/6ca01693f9ea358f398ca3dc084ef851064733dd"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "d3c568d8d77a1f0481e17bfe6785bd4a189754ec",
+      "size": 461,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/d3c568d8d77a1f0481e17bfe6785bd4a189754ec"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "9c32fb6c7283ef3d17de20cae38bfe455b3eb654",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/trees/9c32fb6c7283ef3d17de20cae38bfe455b3eb654"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/__init__.py",
+      "sha": "45dd15cb73296c02432755139cb1e20e79c370a9",
+      "size": 82,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/45dd15cb73296c02432755139cb1e20e79c370a9"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/conftest.py",
+      "sha": "6c915b338bc854f64d3d0e276d1e33ef64961f3a",
+      "size": 1774,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/6c915b338bc854f64d3d0e276d1e33ef64961f3a"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_api_edges.py",
+      "sha": "e0670fb01ad6a25df74cfd596366d73ad48c232a",
+      "size": 1486,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/e0670fb01ad6a25df74cfd596366d73ad48c232a"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_honesty.py",
+      "sha": "fb93976b5d9dfdf5e08e79a6717ba1d5655a0749",
+      "size": 3066,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/fb93976b5d9dfdf5e08e79a6717ba1d5655a0749"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_layout.py",
+      "sha": "59aaecf5e829f6fa281520bfd9278fc1118d5afd",
+      "size": 1958,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/59aaecf5e829f6fa281520bfd9278fc1118d5afd"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_local_kernels.py",
+      "sha": "fc0171b8d20c6544159ad849fd5bebb0d4b8524c",
+      "size": 622,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/fc0171b8d20c6544159ad849fd5bebb0d4b8524c"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_receipt.py",
+      "sha": "9661f7bdddbda7751691ce61ab724a4f70a2ba2a",
+      "size": 2247,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/9661f7bdddbda7751691ce61ab724a4f70a2ba2a"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_yarqa_attn.py",
+      "sha": "e5189066cb152c7c47b0762af75c5ca5f449948b",
+      "size": 3488,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/e5189066cb152c7c47b0762af75c5ca5f449948b"
+    },
+    {
+      "mode": "040000",
+      "path": "torch-ext",
+      "sha": "adecd517ef38516c7f4d10a913f52823fe1db913",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/trees/adecd517ef38516c7f4d10a913f52823fe1db913"
+    },
+    {
+      "mode": "040000",
+      "path": "torch-ext/yarqa_attn",
+      "sha": "82b7bf3ef47d77b50a2f09dc4899c45a1942223a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/trees/82b7bf3ef47d77b50a2f09dc4899c45a1942223a"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/yarqa_attn/__init__.py",
+      "sha": "43fd90ffb8cbc05ef01b6e58d2a734a9d227e9ec",
+      "size": 404,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/43fd90ffb8cbc05ef01b6e58d2a734a9d227e9ec"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/yarqa_attn/_chain.py",
+      "sha": "869d78d6f30070cb0b78c9850a799353a3e5dbec",
+      "size": 1515,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/869d78d6f30070cb0b78c9850a799353a3e5dbec"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/yarqa_attn/attn.py",
+      "sha": "b6aeb2c73c7ff570acf7a626895b7856005c36be",
+      "size": 6891,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/blobs/b6aeb2c73c7ff570acf7a626895b7856005c36be"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/YARQA-ATTN/git/trees/bb15b7da92ada2541e5deff0a276a2e51c17f1e2"
+}

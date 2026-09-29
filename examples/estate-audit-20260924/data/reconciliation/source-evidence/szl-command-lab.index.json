@@ -1,0 +1,51 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 62963,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:57Z",
+      "path": "data/reconciliation/source-evidence/edfe2c61379756e4dfce25cf7847757348e78b6278e1ced745acfa2ca641d842.json",
+      "revision": "88dc7c6c253ab14e66b0a8f71e6dcf57abf63811",
+      "sha256": "edfe2c61379756e4dfce25cf7847757348e78b6278e1ced745acfa2ca641d842",
+      "source_identity": "github/szl-holdings/szl-command-lab",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-command-lab/git/trees/88dc7c6c253ab14e66b0a8f71e6dcf57abf63811?recursive=1"
+    }
+  ],
+  "file_count": 183,
+  "id": "github/szl-holdings/szl-command-lab",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "88dc7c6c253ab14e66b0a8f71e6dcf57abf63811",
+  "root_paths": [
+    ".dockerignore",
+    ".github",
+    ".gitignore",
+    "CODEOWNERS",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "Dockerfile",
+    "FOLD.md",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "app.py",
+    "eslint.config.mjs",
+    "gateway.py",
+    "migrations",
+    "package-lock.json",
+    "package.json",
+    "public",
+    "python",
+    "scripts",
+    "server.py",
+    "server",
+    "space",
+    "src",
+    "tests",
+    "tsconfig.json",
+    "vite.config.ts"
+  ]
+}

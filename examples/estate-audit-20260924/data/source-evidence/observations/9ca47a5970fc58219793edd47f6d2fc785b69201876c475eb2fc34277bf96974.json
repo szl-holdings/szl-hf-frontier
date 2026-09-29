@@ -1,0 +1,20 @@
+{
+  "card": "> **ARCHIVED \u2014 final state.** This repository is **archived** (2026-07-21, org rationalization pass). It is the frozen landing page and reproducibility package for the preprint (DOI [10.5281/zenodo.21332317](https://doi.org/10.5281/zenodo.21332317)); archival read-only state matches its purpose. The living formula corpus lives in `szl-formula-ledger` and `szl-papers`.\n\n# From Build Success to Admissible Proof\n\n## Evidence-Typed Governance for a Mixed Lean and Executable Formula Corpus\n\n[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21332317.svg)](https://doi.org/10.5281/zenodo.21332317)\n\n**Version:** 0.1.0  \n**Status:** PREPRINT \u2014 NOT PEER REVIEWED  \n**Author:** Stephen P. Lutar Jr.  \n**Affiliation:** SZL Holdings LLC  \n**ORCID:** [0009-0001-0110-4173](https://orcid.org/0009-0001-0110-4173)\n\nThis repository is the public landing page for a 24-page preprint that separates build success, declaration presence, executable tests, proof obligations, refutations, and admitted formal proof in a mixed Lean and executable formula corpus.\n\n## Archival record\n\n- **DOI:** [10.5281/zenodo.21332317](https://doi.org/10.5281/zenodo.21332317)\n- **Zenodo record:** [zenodo.org/records/21332317](https://zenodo.org/records/21332317)\n- **Frozen manuscript:** 24-page PDF in the Zenodo record\n- **Reproducibility package:** checksums, release manifests, provenance notes, source transformations, and packaged evidence in the Zenodo record\n\n## Verified SHA-256\n\n- PDF: 01bdc427d58745ba7630eafb3bb17646a60948499b19946a7fef3712d161f102\n- Package ZIP: 9db5bdd239154bc3f6f338f4b12d9d67496581d0a660ec6343a2d941a882b0a1\n\n## Claim boundary\n\nThis is a preprint, not a peer-reviewed article. Its claims are limited to the evidence admitted in the manuscript and the archived receipts. Repository availability does not establish independent reproduction, mathematical proof beyond the admitted Lean evidence, deployment, or third-party endorsement.\n\nManuscript and documentation are released under CC BY 4.0. Bundled source artifacts retain their Apache-2.0 notices.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 2061,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/464be2d98cd5541baedebad9780f86804bc49f4b1843f2abeeba81ce4084da32.md",
+      "revision": "775ee23b5d4cf6a0e238ac330ce4deb41fe89a7b",
+      "sha256": "464be2d98cd5541baedebad9780f86804bc49f4b1843f2abeeba81ce4084da32",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/evidence-typed-formula-governance/blob/775ee23b5d4cf6a0e238ac330ce4deb41fe89a7b/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/evidence-typed-formula-governance",
+  "observed_at": "2026-09-24T12:29:28Z",
+  "observed_revision": "775ee23b5d4cf6a0e238ac330ce4deb41fe89a7b"
+}

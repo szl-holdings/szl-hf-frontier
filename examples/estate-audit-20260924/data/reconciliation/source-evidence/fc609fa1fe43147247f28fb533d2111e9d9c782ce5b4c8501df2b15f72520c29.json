@@ -1,0 +1,4311 @@
+{
+  "sha": "cfc7b1c1e9c2485e94042c9fdd111377f22c228b",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".devcontainer",
+      "sha": "865e9284e0ec19e1dcea4681cba4ac8ae892f1d8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/865e9284e0ec19e1dcea4681cba4ac8ae892f1d8"
+    },
+    {
+      "mode": "100644",
+      "path": ".devcontainer/devcontainer.json",
+      "sha": "ee83d19d6e2da08d7dd152eca8fdcdc1d53e103f",
+      "size": 604,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/ee83d19d6e2da08d7dd152eca8fdcdc1d53e103f"
+    },
+    {
+      "mode": "100644",
+      "path": ".editorconfig",
+      "sha": "54ddc278cefca37147cbf272a30d68403fc21cb2",
+      "size": 501,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/54ddc278cefca37147cbf272a30d68403fc21cb2"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitattributes",
+      "sha": "04928e7760cb6481ce74f6c6c15c38263ed7befe",
+      "size": 620,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/04928e7760cb6481ce74f6c6c15c38263ed7befe"
+    },
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "23f046070021398e52531954bae851c455ec3c11",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/23f046070021398e52531954bae851c455ec3c11"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODEOWNERS",
+      "sha": "c2814ad25e9319f9ec9ab4c42c7ca054a80ee732",
+      "size": 47,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/c2814ad25e9319f9ec9ab4c42c7ca054a80ee732"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "sha": "415a0a14aebe0102d5db82dcc51dde5db16619f0",
+      "size": 600,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/415a0a14aebe0102d5db82dcc51dde5db16619f0"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CONTRIBUTING.md",
+      "sha": "b013eea77ae4da59662fff55dc10f2ae3dc7fb47",
+      "size": 449,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/b013eea77ae4da59662fff55dc10f2ae3dc7fb47"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/ISSUE_TEMPLATE",
+      "sha": "b406cf7e4f23537f8539f6f81f4cbb4d2eae3f2b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/b406cf7e4f23537f8539f6f81f4cbb4d2eae3f2b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha": "a7c1834f7f391ab52cb7efafe6dffe86e69d54d7",
+      "size": 156,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/a7c1834f7f391ab52cb7efafe6dffe86e69d54d7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "2c7fa02994b4d1e777139a1056acfe0cfc48b806",
+      "size": 224,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/2c7fa02994b4d1e777139a1056acfe0cfc48b806"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha": "2172fe4a415edecdbe763328b04d826137d25987",
+      "size": 169,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/2172fe4a415edecdbe763328b04d826137d25987"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "5b76b22dd93c4f36251e33031c3d6bff526a2325",
+      "size": 678,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/5b76b22dd93c4f36251e33031c3d6bff526a2325"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/data",
+      "sha": "fc92d24fd3cea65149c7860ea7bbaaddab73309c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/fc92d24fd3cea65149c7860ea7bbaaddab73309c"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/data/lean_numbers.json",
+      "sha": "199f65aa80be9f857dbfd2d6052776f2cd3c4fb5",
+      "size": 6582,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/199f65aa80be9f857dbfd2d6052776f2cd3c4fb5"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/dependabot.yml",
+      "sha": "ba5a97c4a7e87e145ee89eb359d22986aa422bf9",
+      "size": 606,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/ba5a97c4a7e87e145ee89eb359d22986aa422bf9"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/pull_request_template.md",
+      "sha": "c057fedcf31e477160cfd0d4c5b5d06bc8bfdf7c",
+      "size": 332,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/c057fedcf31e477160cfd0d4c5b5d06bc8bfdf7c"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/scripts",
+      "sha": "cef0fa40ba61335213c6bde9d63b2b3a0e4853de",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/cef0fa40ba61335213c6bde9d63b2b3a0e4853de"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/anchor_szl_lake.py",
+      "sha": "fe77227e4dc4198affe4c59be93ce6c095b6cb08",
+      "size": 34424,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/fe77227e4dc4198affe4c59be93ce6c095b6cb08"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/build_conjecture_snapshot.py",
+      "sha": "402ba01527b674d56997b7648fea4cb6bcaacf74",
+      "size": 9546,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/402ba01527b674d56997b7648fea4cb6bcaacf74"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/build_proof_snapshot.py",
+      "sha": "0a378e40ad5de77a55266fdab8e8ad3a918e2186",
+      "size": 21506,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/0a378e40ad5de77a55266fdab8e8ad3a918e2186"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/check_numbers_drift.py",
+      "sha": "9756d19d96fb5eb730eb8345f7a0ea239356b5ae",
+      "size": 2504,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/9756d19d96fb5eb730eb8345f7a0ea239356b5ae"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/check_proven_formulas.py",
+      "sha": "3bdac84b1094115f52b316b22ff08d7f5ecd8629",
+      "size": 19391,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/3bdac84b1094115f52b316b22ff08d7f5ecd8629"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/check_showcase_labels.py",
+      "sha": "0832faf689e0128f52896d3625787e24aafe1131",
+      "size": 33457,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/0832faf689e0128f52896d3625787e24aafe1131"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/check_theorem_u_snapshot.py",
+      "sha": "6bd7d5b76c696da45929a8e77c08c70ff55f2bcd",
+      "size": 14267,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/6bd7d5b76c696da45929a8e77c08c70ff55f2bcd"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/check_verified_theorems_drift.py",
+      "sha": "3cd79bd13f7e5b8bbad5eee162f5c45041ce4217",
+      "size": 2346,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/3cd79bd13f7e5b8bbad5eee162f5c45041ce4217"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/check_verified_theorems_guard.py",
+      "sha": "5a2e7a97425fb0e39ebdcabfd4fafdebba9a76e3",
+      "size": 4402,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/5a2e7a97425fb0e39ebdcabfd4fafdebba9a76e3"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/conjecture_grader.py",
+      "sha": "6308ecabef1cf868f03dab8d959f4f8c36ba6d4c",
+      "size": 14383,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/6308ecabef1cf868f03dab8d959f4f8c36ba6d4c"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/conjecture_intake.py",
+      "sha": "04f50514d37efd1b4ec41546dd231ed3c32b97e1",
+      "size": 10533,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/04f50514d37efd1b4ec41546dd231ed3c32b97e1"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/conjecture_novelty.py",
+      "sha": "4fe09cae5643b6e9e2b15a7d2e70c56a036d5606",
+      "size": 14596,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/4fe09cae5643b6e9e2b15a7d2e70c56a036d5606"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/conjecture_release.py",
+      "sha": "de7f84a73dbf77218f723b80e20a26a2071d4882",
+      "size": 8939,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/de7f84a73dbf77218f723b80e20a26a2071d4882"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/gen_verified_theorems.py",
+      "sha": "278243075b8a5f0637265c4c507bd17bd3caf0bf",
+      "size": 19305,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/278243075b8a5f0637265c4c507bd17bd3caf0bf"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/lean_numbers.py",
+      "sha": "126af6cd5f554705bfec8621aeb0dcddb437c80f",
+      "size": 39425,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/126af6cd5f554705bfec8621aeb0dcddb437c80f"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/sorry_gate.py",
+      "sha": "9b74f7e2e86930f46df3e445de29cc3a05ca558a",
+      "size": 2901,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/9b74f7e2e86930f46df3e445de29cc3a05ca558a"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/test_anchor_and_snapshot.py",
+      "sha": "0dd322d54eea05264c85a7ed6734851994083828",
+      "size": 19471,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/0dd322d54eea05264c85a7ed6734851994083828"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "24de990dffdaf248e1466e3ee1552ca361ec4e57",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/24de990dffdaf248e1466e3ee1552ca361ec4e57"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/anchor-szl-lake.yml",
+      "sha": "9b41b28de24159ea3fdd38168c39f146023475e5",
+      "size": 13539,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/9b41b28de24159ea3fdd38168c39f146023475e5"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/base-python-ci.yml",
+      "sha": "9655ecc4665021c73ad6be18a80e5dedc13efca4",
+      "size": 2380,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/9655ecc4665021c73ad6be18a80e5dedc13efca4"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/bounties.yml",
+      "sha": "785a408a0ea58849a58f39c8cc88763b801b963f",
+      "size": 833,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/785a408a0ea58849a58f39c8cc88763b801b963f"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "cf9fa486395d623ab39f95b09bd9ac1c8eb4d9ce",
+      "size": 333,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/cf9fa486395d623ab39f95b09bd9ac1c8eb4d9ce"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/close-bounty.yml",
+      "sha": "69619fb3ea9906fc470ab13744d0e240c690ed29",
+      "size": 18853,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/69619fb3ea9906fc470ab13744d0e240c690ed29"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/codeql.yml",
+      "sha": "6bd49f5df3f251b222502b46fd70db9775afb272",
+      "size": 960,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/6bd49f5df3f251b222502b46fd70db9775afb272"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/commit-lint.yml",
+      "sha": "f86275f3ab37b108e969e0da7f9e6225a22ffd3e",
+      "size": 1124,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/f86275f3ab37b108e969e0da7f9e6225a22ffd3e"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/conjecture-factory-guard.yml",
+      "sha": "f3385519d903b6a00f89c23f9ff939de50ae0deb",
+      "size": 4802,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/f3385519d903b6a00f89c23f9ff939de50ae0deb"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/conjecture-factory.yml",
+      "sha": "444d94ac72686c7a94fe8b24402c6d5b6722a97e",
+      "size": 10209,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/444d94ac72686c7a94fe8b24402c6d5b6722a97e"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/cosign.yml",
+      "sha": "9526f679b5561138ec8c40373001363f4959ff2d",
+      "size": 1644,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/9526f679b5561138ec8c40373001363f4959ff2d"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/doctrine.yml",
+      "sha": "d457acc184e1ea988f5468b32f9859c2f31057c3",
+      "size": 227,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/d457acc184e1ea988f5468b32f9859c2f31057c3"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/doi-title-gate.yml",
+      "sha": "e53ce60ccfd327d9f43a846a8c8973dc74f2eeca",
+      "size": 5090,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/e53ce60ccfd327d9f43a846a8c8973dc74f2eeca"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/forbidden-domain.yml",
+      "sha": "0ceaa9cbb7ba391ebc78b0ec08c74ebc1c0fac73",
+      "size": 1525,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/0ceaa9cbb7ba391ebc78b0ec08c74ebc1c0fac73"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/gitleaks.yml",
+      "sha": "ea51bf1582330bfb17a3705ad596b4fd0ee68e56",
+      "size": 1269,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/ea51bf1582330bfb17a3705ad596b4fd0ee68e56"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/lake-build.yml",
+      "sha": "4d3994f7d0921190ab3da8afac8afdd23c957f4c",
+      "size": 19878,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/4d3994f7d0921190ab3da8afac8afdd23c957f4c"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/lean.yml",
+      "sha": "66a12db269d37b80986c0a3390dd90c1ab72e893",
+      "size": 3740,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/66a12db269d37b80986c0a3390dd90c1ab72e893"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/legacy-required-context-compat.yml",
+      "sha": "e00a957769308cd5bbcc548f028593a35ec79f43",
+      "size": 2656,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/e00a957769308cd5bbcc548f028593a35ec79f43"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/overclaim-guard.yml",
+      "sha": "faf99c583e4939c43a1ee3b276fb11e3b5b091ce",
+      "size": 738,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/faf99c583e4939c43a1ee3b276fb11e3b5b091ce"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/pin-check.yml",
+      "sha": "f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621",
+      "size": 586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/release-reproducibility.yml",
+      "sha": "c74e017ce4f5e08d58c8d51e5573bc1734a01cb3",
+      "size": 6384,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/c74e017ce4f5e08d58c8d51e5573bc1734a01cb3"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/release.yml",
+      "sha": "2811ec65d56b1e828f88ed0b2c7a74aa0ebd9052",
+      "size": 2411,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/2811ec65d56b1e828f88ed0b2c7a74aa0ebd9052"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/sbom.yml",
+      "sha": "94c90853218b58c5833b7a6e63144e47ee96d0c7",
+      "size": 1246,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/94c90853218b58c5833b7a6e63144e47ee96d0c7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/scorecard.yml",
+      "sha": "84794b49825f9f3291e75cdb6c0dca0bdc9bd5ae",
+      "size": 954,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/84794b49825f9f3291e75cdb6c0dca0bdc9bd5ae"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/showcase-label-gate.yml",
+      "sha": "65bd36e245dc972bc8580c6162fe5921e58caaab",
+      "size": 2203,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/65bd36e245dc972bc8580c6162fe5921e58caaab"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/slsa-provenance.yml",
+      "sha": "54bddcfc04ad36c789acd80bc0801bf240ce6cd7",
+      "size": 4067,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/54bddcfc04ad36c789acd80bc0801bf240ce6cd7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/sorry-gate.yml",
+      "sha": "934abc4b172155205ad1ca4f2e6e4c21558fb24f",
+      "size": 983,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/934abc4b172155205ad1ca4f2e6e4c21558fb24f"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/sorry-worker.yml",
+      "sha": "6fd5a4606b44110f926f7823b31c2d1c704886ec",
+      "size": 2609,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/6fd5a4606b44110f926f7823b31c2d1c704886ec"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/tests.yml",
+      "sha": "c7afdb108570846e8ad6b8dc9034eb058a41b1cd",
+      "size": 941,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/c7afdb108570846e8ad6b8dc9034eb058a41b1cd"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/theorem-u-snapshot-guard.yml",
+      "sha": "6c987721e7429bcbe2eaf6ecacef61266c3b2821",
+      "size": 11925,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/6c987721e7429bcbe2eaf6ecacef61266c3b2821"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/trivy.yml",
+      "sha": "2837abd19e0c0e635bbe98bc380cfcb40584224c",
+      "size": 2569,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/2837abd19e0c0e635bbe98bc380cfcb40584224c"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/verified-theorems-guard.yml",
+      "sha": "a5b07ed67c81ee4135545f79e44e0e27e72fd758",
+      "size": 1627,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/a5b07ed67c81ee4135545f79e44e0e27e72fd758"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "469ccf1ed469f5d2efff5794a4ae55507b53856b",
+      "size": 143,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/469ccf1ed469f5d2efff5794a4ae55507b53856b"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitleaks.toml",
+      "sha": "16c89c09d9a6cdb50c00e465dd833c77d78aef82",
+      "size": 496,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/16c89c09d9a6cdb50c00e465dd833c77d78aef82"
+    },
+    {
+      "mode": "100644",
+      "path": ".zenodo.json",
+      "sha": "1a760064916690a883f25b9c88670b93729f1c5e",
+      "size": 2358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/1a760064916690a883f25b9c88670b93729f1c5e"
+    },
+    {
+      "mode": "100644",
+      "path": "ARCHITECTURE.md",
+      "sha": "0fdbf195070ab15a4193638bc720676b161f25d2",
+      "size": 3218,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/0fdbf195070ab15a4193638bc720676b161f25d2"
+    },
+    {
+      "mode": "100644",
+      "path": "BOUNTY.md",
+      "sha": "2801c0f5a92004cf3c21af40453841a8fdb0e9c4",
+      "size": 6341,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/2801c0f5a92004cf3c21af40453841a8fdb0e9c4"
+    },
+    {
+      "mode": "100644",
+      "path": "CHANGELOG.md",
+      "sha": "d301e37bed19ae9fea866f32c2f186fbb8176019",
+      "size": 1762,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/d301e37bed19ae9fea866f32c2f186fbb8176019"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "81f4cfb46e3876a38be61ae99c38c967e02a3495",
+      "size": 1409,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/81f4cfb46e3876a38be61ae99c38c967e02a3495"
+    },
+    {
+      "mode": "100644",
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "77998183229f90ffca47714c08c77a300dcee686",
+      "size": 3364,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/77998183229f90ffca47714c08c77a300dcee686"
+    },
+    {
+      "mode": "100644",
+      "path": "CONTRIBUTING.md",
+      "sha": "33e004d1465cd1700207bdff8c710e4b188c982e",
+      "size": 2347,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/33e004d1465cd1700207bdff8c710e4b188c982e"
+    },
+    {
+      "mode": "100644",
+      "path": "DEPENDENCY_MAP.md",
+      "sha": "420f752db6f0ec646bff426ea8a16494446ae4ba",
+      "size": 4830,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/420f752db6f0ec646bff426ea8a16494446ae4ba"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "LedgerIdentities.lean",
+      "sha": "334c9e1d91d7238cbeaade9109dae08de8d3274c",
+      "size": 4821,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/334c9e1d91d7238cbeaade9109dae08de8d3274c"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar.lean",
+      "sha": "254e27c90c0cf941a788dd5b839a095414c0af68",
+      "size": 36323,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/254e27c90c0cf941a788dd5b839a095414c0af68"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar",
+      "sha": "880c4b65f06405ee3e492f6a5ee15a41c1a852c8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/880c4b65f06405ee3e492f6a5ee15a41c1a852c8"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Agentic",
+      "sha": "38a04d29c45d7e9102213d24273b6e8f51be0acc",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/38a04d29c45d7e9102213d24273b6e8f51be0acc"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Agentic/Pipeline.lean",
+      "sha": "e48f2d62bcc5cfc3047b509f75b750491f697da9",
+      "size": 29745,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/e48f2d62bcc5cfc3047b509f75b750491f697da9"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Allodial.lean",
+      "sha": "659e6b684b184dfe05cb03208a757996d5156b36",
+      "size": 4636,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/659e6b684b184dfe05cb03208a757996d5156b36"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Axioms.lean",
+      "sha": "fc922178ca30d588dbb330dc834428bcfca36367",
+      "size": 6639,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/fc922178ca30d588dbb330dc834428bcfca36367"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Banach",
+      "sha": "dfd4fe49c24d717e03554ebd7eda330f035e0f05",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/dfd4fe49c24d717e03554ebd7eda330f035e0f05"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Banach/BabylonianContraction.lean",
+      "sha": "5bd73c79db42d154eae33069b6085ae9d9ca93f0",
+      "size": 6727,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/5bd73c79db42d154eae33069b6085ae9d9ca93f0"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Banach/LiuHuiPi.lean",
+      "sha": "66093b3f6686e60ff8a9cbb4a8aca7f27b0789da",
+      "size": 4635,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/66093b3f6686e60ff8a9cbb4a8aca7f27b0789da"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Bound.lean",
+      "sha": "f3b383db5c99e60765adaec55f3fbf58c4480fe8",
+      "size": 5475,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/f3b383db5c99e60765adaec55f3fbf58c4480fe8"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Brahmi",
+      "sha": "e0eb912507972c80860a115c7531c213f7a3f354",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/e0eb912507972c80860a115c7531c213f7a3f354"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Brahmi/AxisOption.lean",
+      "sha": "605abe70a80f215f6eec8e453c692434f64feb09",
+      "size": 2990,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/605abe70a80f215f6eec8e453c692434f64feb09"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Calibration",
+      "sha": "424c3762bfdb9d14dc6155943e70f1e0f842962b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/424c3762bfdb9d14dc6155943e70f1e0f842962b"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Calibration/FalsePosition.lean",
+      "sha": "8a6624ce183ede9d634f4d251f53c57f54ffaae4",
+      "size": 3659,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/8a6624ce183ede9d634f4d251f53c57f54ffaae4"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Coder",
+      "sha": "14d69496108aab2a8d427dc19f50b77c22afff8b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/14d69496108aab2a8d427dc19f50b77c22afff8b"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Coder/CoderProofs.lean",
+      "sha": "614fa0faf0d7c9d360aa9058e28e847d74b16975",
+      "size": 32942,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/614fa0faf0d7c9d360aa9058e28e847d74b16975"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/CodingTheory",
+      "sha": "878bad5407f513d35b416e6b76d01f2fb1ef53fe",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/878bad5407f513d35b416e6b76d01f2fb1ef53fe"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/CodingTheory/ReedSolomonSingleton.lean",
+      "sha": "57ec9e6308ffb70d39cb2a6a0d4c9c4d7e031e81",
+      "size": 9395,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/57ec9e6308ffb70d39cb2a6a0d4c9c4d7e031e81"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Composition",
+      "sha": "8b0ae83aa6bc71318cd584408498cbc1aa714db4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/8b0ae83aa6bc71318cd584408498cbc1aa714db4"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Composition/AdversarialRobustness.lean",
+      "sha": "a73615ed8af4978446829497955e487a18b8b113",
+      "size": 5337,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/a73615ed8af4978446829497955e487a18b8b113"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Composition/CompositionOverhead.lean",
+      "sha": "022a872323ada60ceae02e18616902697d11fffe",
+      "size": 3671,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/022a872323ada60ceae02e18616902697d11fffe"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Composition/R1Tests.lean",
+      "sha": "7a95d5a1a4e4d050cb2437b9b0c99a934cc73422",
+      "size": 1719,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/7a95d5a1a4e4d050cb2437b9b0c99a934cc73422"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Composition/TH1_Composition.lean",
+      "sha": "256baed48efe6f27ab0ab97544c325cc5758f04c",
+      "size": 8249,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/256baed48efe6f27ab0ab97544c325cc5758f04c"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Correlator",
+      "sha": "e8fe1f0157f075a230701c34e41d81bc3c73079f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/e8fe1f0157f075a230701c34e41d81bc3c73079f"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Correlator/MatchedFilter.lean",
+      "sha": "b717227a00155281c01904f1888c58afad017ca4",
+      "size": 6137,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/b717227a00155281c01904f1888c58afad017ca4"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Crt",
+      "sha": "4f2e4f5e8e1dd75f287a68f1cb186e8d7a0c9980",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/4f2e4f5e8e1dd75f287a68f1cb186e8d7a0c9980"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Crt/WeightChunking.lean",
+      "sha": "a155b860602896428a40ddc06146cf3983c8a7fd",
+      "size": 3919,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/a155b860602896428a40ddc06146cf3983c8a7fd"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/DP",
+      "sha": "018778bbfa4ffc6b2f4100f30fbfdd5dabcf3994",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/018778bbfa4ffc6b2f4100f30fbfdd5dabcf3994"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/DP/GaussianMechanism.lean",
+      "sha": "adc9819ef1ff9aa8042c42a199d1172bc998497b",
+      "size": 7686,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/adc9819ef1ff9aa8042c42a199d1172bc998497b"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/DP/RDPComposition.lean",
+      "sha": "8d8ae859e93c69c3e79d4f8f99dfe19fa7047986",
+      "size": 7955,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/8d8ae859e93c69c3e79d4f8f99dfe19fa7047986"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/DPI",
+      "sha": "6d86251ab5997fbb4a84c1439e4517e3d2ba067d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/6d86251ab5997fbb4a84c1439e4517e3d2ba067d"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/DPI/DPIBound.lean",
+      "sha": "d2e1d6176e646824dd306e12c6ce0f2f4adc286a",
+      "size": 5135,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/d2e1d6176e646824dd306e12c6ce0f2f4adc286a"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/DPI/MerkleDAGBuild.lean",
+      "sha": "c8af64b5f9dbe15b012fe58a9a022b046ec6f261",
+      "size": 1675,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/c8af64b5f9dbe15b012fe58a9a022b046ec6f261"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/DPI/SCITTMaskEntropy.lean",
+      "sha": "22336ed5f0496dc0650e43aebbd358aef10f46af",
+      "size": 6443,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/22336ed5f0496dc0650e43aebbd358aef10f46af"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/DPI/TH6_DPI_Soundness.lean",
+      "sha": "35c20ab59703c4e48fa7af2cc72071ac98466549",
+      "size": 5459,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/35c20ab59703c4e48fa7af2cc72071ac98466549"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/DPOFeasibility.lean",
+      "sha": "1e3b655abece6cd5756954c6b7f0a014da0a9e78",
+      "size": 22182,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/1e3b655abece6cd5756954c6b7f0a014da0a9e78"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Doctrine",
+      "sha": "9103c745bdee9d8300ca4daf95bde8be6b872eca",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/9103c745bdee9d8300ca4daf95bde8be6b872eca"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Doctrine/CrossComponentInvariant.lean",
+      "sha": "206b3ab142439ef714a3627d2780acda39c2463a",
+      "size": 5374,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/206b3ab142439ef714a3627d2780acda39c2463a"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Doctrine/PublicClaims.lean",
+      "sha": "60240764c883a998b21a16e533290ca2347b0ab9",
+      "size": 5486,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/60240764c883a998b21a16e533290ca2347b0ab9"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/DoctrineV3",
+      "sha": "d2afb7bfcdbd26e578af0a9e8f5ebaa8f0502c26",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/d2afb7bfcdbd26e578af0a9e8f5ebaa8f0502c26"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/DoctrineV3/MeasurabilityHonesty.lean",
+      "sha": "d8f6c71002537213085355dce9463514cfe08e29",
+      "size": 4186,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/d8f6c71002537213085355dce9463514cfe08e29"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/DoctrineV3/MoralGrounding.lean",
+      "sha": "add6eb00eeeefcf540d61a2e21e36453940c48b0",
+      "size": 7112,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/add6eb00eeeefcf540d61a2e21e36453940c48b0"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Egyptian.lean",
+      "sha": "6c5d58ea7750dffdedcd7d58ff95d14853d953f8",
+      "size": 1578,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/6c5d58ea7750dffdedcd7d58ff95d14853d953f8"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Egyptian",
+      "sha": "11fe792e5025620fda4243e4f499785724fda592",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/11fe792e5025620fda4243e4f499785724fda592"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Egyptian/AkhmimTable.lean",
+      "sha": "876a99120bd1ea0dd00c5b3601fdd2b225f79e3b",
+      "size": 4349,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/876a99120bd1ea0dd00c5b3601fdd2b225f79e3b"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Egyptian/HorusEye.lean",
+      "sha": "bfc3e2c77dbd7090d7c6995bf1e0e229a14dfa0e",
+      "size": 2329,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/bfc3e2c77dbd7090d7c6995bf1e0e229a14dfa0e"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Entanglement.lean",
+      "sha": "3a7f222ed3bb6ca2fa2c13abc875e6d3f4ad4298",
+      "size": 3339,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/3a7f222ed3bb6ca2fa2c13abc875e6d3f4ad4298"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Feynman",
+      "sha": "3748e0ff83ac25a13c30cc4ec972ded0f38ebee6",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/3748e0ff83ac25a13c30cc4ec972ded0f38ebee6"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Feynman/FeynmanLineage.lean",
+      "sha": "0338b1326698db71e36cca7d071bdf98bb162f99",
+      "size": 8871,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/0338b1326698db71e36cca7d071bdf98bb162f99"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Feynman/PathIntegralAuditSum.lean",
+      "sha": "64557732c91a6dff9145d8ddf80ea956f2c3c7ae",
+      "size": 22901,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/64557732c91a6dff9145d8ddf80ea956f2c3c7ae"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Frontier",
+      "sha": "c78f88bcc33731272a70644c8a944c899bd74603",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/c78f88bcc33731272a70644c8a944c899bd74603"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Frontier/Killinchu.lean",
+      "sha": "deebb6e1d5940d4c1537772225814bfd86850284",
+      "size": 3757,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/deebb6e1d5940d4c1537772225814bfd86850284"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Frontier/provenance.json",
+      "sha": "76dc97f46c3085aee05f734557d6bffd84f7264f",
+      "size": 2044,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/76dc97f46c3085aee05f734557d6bffd84f7264f"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Gates",
+      "sha": "a9624dc4c9e9b1840396c1d954de1d64c7950bf5",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/a9624dc4c9e9b1840396c1d954de1d64c7950bf5"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Gates/Adinkra.lean",
+      "sha": "8f09cd28f8504dca3985b79170d779cad7448ba4",
+      "size": 10148,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/8f09cd28f8504dca3985b79170d779cad7448ba4"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Gates/GleasonMod8.lean",
+      "sha": "2ff8bc2c2cacc750d074ccd322180a58b430b433",
+      "size": 8302,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/2ff8bc2c2cacc750d074ccd322180a58b430b433"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/GraphLambda.lean",
+      "sha": "b35ecea322be7f7aed7b78e03f3f50c824210d6c",
+      "size": 10983,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/b35ecea322be7f7aed7b78e03f3f50c824210d6c"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/GreenTheorems.lean",
+      "sha": "6b2b0208863e51f12faa0f42e03b7e63a4d20c50",
+      "size": 3479,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/6b2b0208863e51f12faa0f42e03b7e63a4d20c50"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/HUKLLA",
+      "sha": "82e3ac9aff8a19e82915d1294f86512d360d50b0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/82e3ac9aff8a19e82915d1294f86512d360d50b0"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/HUKLLA/HaltEligibility.lean",
+      "sha": "2d4dc24683e34eca35dda8ad3817a7c2eb82defd",
+      "size": 5423,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/2d4dc24683e34eca35dda8ad3817a7c2eb82defd"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Innovations",
+      "sha": "39cb43f481db6e9a2e563da56d3ca7af5b934445",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/39cb43f481db6e9a2e563da56d3ca7af5b934445"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Innovations/round10",
+      "sha": "2ffaeb510aad0535d32ba17c146f586db9ffd72d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/2ffaeb510aad0535d32ba17c146f586db9ffd72d"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round10/PhysicsEntropyBounds.lean",
+      "sha": "79db7e32221bb4b16048d64622b4ee198d0cd31c",
+      "size": 9165,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/79db7e32221bb4b16048d64622b4ee198d0cd31c"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round10/PhysicsGaugeSymmetry.lean",
+      "sha": "7818091b0440ae6669cdbc5ca4ee655e63de9ec1",
+      "size": 8590,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/7818091b0440ae6669cdbc5ca4ee655e63de9ec1"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round10/PhysicsHamiltonian.lean",
+      "sha": "11ed06516986b07088ccf7623d3578c4bef9b4c6",
+      "size": 6251,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/11ed06516986b07088ccf7623d3578c4bef9b4c6"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round10/PhysicsLiouville.lean",
+      "sha": "a2af924f4bc67c44ae24f978bd0eb45bc62b35a5",
+      "size": 6526,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/a2af924f4bc67c44ae24f978bd0eb45bc62b35a5"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round10/PhysicsNoetherLagrangian.lean",
+      "sha": "538323ec3cf4ebcf71f35f14ba468eede69e248d",
+      "size": 7467,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/538323ec3cf4ebcf71f35f14ba468eede69e248d"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Innovations/round11",
+      "sha": "4aace9d6fdbdb929f18c39cfe1f0002e5f2edf19",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/4aace9d6fdbdb929f18c39cfe1f0002e5f2edf19"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round11/FrontierBLSAggregation.lean",
+      "sha": "0d2ab48c1ca72321c12a1f4bb826c9f04cd3b2c9",
+      "size": 6624,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/0d2ab48c1ca72321c12a1f4bb826c9f04cd3b2c9"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round11/FrontierBloomCacheBypass.lean",
+      "sha": "42d03687dea4cc39788f43e897ebff5f22ade2ff",
+      "size": 7016,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/42d03687dea4cc39788f43e897ebff5f22ade2ff"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round11/FrontierHNSWNavigability.lean",
+      "sha": "39f29f705bc03c1cc23674d17151be03b6a75f9d",
+      "size": 6265,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/39f29f705bc03c1cc23674d17151be03b6a75f9d"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round11/FrontierKalmanGain.lean",
+      "sha": "0834276345bfedf47e55273c8f8d562ad89328d6",
+      "size": 6010,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/0834276345bfedf47e55273c8f8d562ad89328d6"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round11/FrontierWelfordVariance.lean",
+      "sha": "6aac86c9f43d10205f45be44d18fca4bf666b95f",
+      "size": 5581,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/6aac86c9f43d10205f45be44d18fca4bf666b95f"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Innovations/round12",
+      "sha": "3a52d4f39305629f6846862a32249b02968ed4e8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/3a52d4f39305629f6846862a32249b02968ed4e8"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round12/Honest_Sorry_Brouwer.lean",
+      "sha": "79c0c697dbe6b9d9a3e7287ce1805313e9740f82",
+      "size": 7308,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/79c0c697dbe6b9d9a3e7287ce1805313e9740f82"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round12/Identity_Ayni_Quorum.lean",
+      "sha": "b0d25f013ba5ef0678a9b6fee4129c627a636a68",
+      "size": 7530,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/b0d25f013ba5ef0678a9b6fee4129c627a636a68"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round12/Pachakuti_Lineage_Cohomology.lean",
+      "sha": "d9e632a43bd1afdbbfc23100e34e9400fc65e30c",
+      "size": 7072,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/d9e632a43bd1afdbbfc23100e34e9400fc65e30c"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Innovations/round2",
+      "sha": "f17bd1e73ac7ce5c471a4780269a84f759b7f1c4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/f17bd1e73ac7ce5c471a4780269a84f759b7f1c4"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round2/ConformalDrift.lean",
+      "sha": "d1340b77610f2774b4e11652a0e329b099eecb42",
+      "size": 943,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/d1340b77610f2774b4e11652a0e329b099eecb42"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round2/FiberBundlePolicy.lean",
+      "sha": "788a51e6a9da0166010856cd1ed80ab36968002a",
+      "size": 1354,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/788a51e6a9da0166010856cd1ed80ab36968002a"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round2/GramSabotageNet.lean",
+      "sha": "7946910de2300e09144f928c0aa3d8f87766609f",
+      "size": 974,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/7946910de2300e09144f928c0aa3d8f87766609f"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round2/HomflyReceipt.lean",
+      "sha": "509335b887d88ccbbd9e6454002afefe8fb66723",
+      "size": 1123,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/509335b887d88ccbbd9e6454002afefe8fb66723"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round2/MartingaleLambda.lean",
+      "sha": "df772ce1876117d93cb2bdaf9b055b828ec7327d",
+      "size": 1280,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/df772ce1876117d93cb2bdaf9b055b828ec7327d"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round2/OperadMesh.lean",
+      "sha": "1fa5692cbb8ccb8d1cbd95acbed4ba68992f347b",
+      "size": 992,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/1fa5692cbb8ccb8d1cbd95acbed4ba68992f347b"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round2/PersistenceGate.lean",
+      "sha": "19f94d3a2af41f69e9eb2b3fd6e6164e332d5a66",
+      "size": 957,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/19f94d3a2af41f69e9eb2b3fd6e6164e332d5a66"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round2/Provenon.lean",
+      "sha": "1d0b5315da7d5baf830254092457c4113e285ead",
+      "size": 944,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/1d0b5315da7d5baf830254092457c4113e285ead"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round2/SpectralAdmit.lean",
+      "sha": "419080945fa680fcdc8b784220e80c36718dc447",
+      "size": 1049,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/419080945fa680fcdc8b784220e80c36718dc447"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round2/WavefunctionReceipt.lean",
+      "sha": "f804c8be1059be6f5128844f4581f947339e12f3",
+      "size": 869,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/f804c8be1059be6f5128844f4581f947339e12f3"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Innovations/round3",
+      "sha": "d7968938b5c3e8fb2d0d559012ce31dbe9fbab25",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/d7968938b5c3e8fb2d0d559012ce31dbe9fbab25"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round3/KhipuEmitMonotone.lean",
+      "sha": "9d0b9a9fc455f8eb327568c37a302eb726417a37",
+      "size": 1045,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/9d0b9a9fc455f8eb327568c37a302eb726417a37"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round3/OperadMesh.lean",
+      "sha": "50b9c653d50e3a3828a5c9cd9aa72b59a6b24f21",
+      "size": 1679,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/50b9c653d50e3a3828a5c9cd9aa72b59a6b24f21"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round3/TopoDrift.lean",
+      "sha": "fcbba7008b331592a058e287e0fcea09dc0f5a0c",
+      "size": 1658,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/fcbba7008b331592a058e287e0fcea09dc0f5a0c"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Innovations/round4",
+      "sha": "a574f3cc923efbfa75074699512d402d841fb7d5",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/a574f3cc923efbfa75074699512d402d841fb7d5"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round4/CRTReceiptShard.lean",
+      "sha": "4bb8424baa9dc5c1a0779ae22bc95514993b3513",
+      "size": 2080,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/4bb8424baa9dc5c1a0779ae22bc95514993b3513"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round4/CopperScrollDAGHeight.lean",
+      "sha": "f1bb9bdee8881c19740397990dd87804afc2a741",
+      "size": 1889,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/f1bb9bdee8881c19740397990dd87804afc2a741"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round4/ELSBonferroniBound.lean",
+      "sha": "e5db1b5dde31fcf066854804f38bc51b01443937",
+      "size": 2096,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/e5db1b5dde31fcf066854804f38bc51b01443937"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round4/EnochEpochAlignment.lean",
+      "sha": "c3bd44a5cf9321fcfdc9cc4fc9ba04b07bf28014",
+      "size": 1853,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/c3bd44a5cf9321fcfdc9cc4fc9ba04b07bf28014"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round4/MasoreticChecksum.lean",
+      "sha": "947516dd1f7f37d62e3a56810dcdf8c6d01a86a4",
+      "size": 1932,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/947516dd1f7f37d62e3a56810dcdf8c6d01a86a4"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round4/MayaLCMEpochSync.lean",
+      "sha": "6eebc342553be4d8a3c7909b722bd7d52d670a17",
+      "size": 2000,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/6eebc342553be4d8a3c7909b722bd7d52d670a17"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round4/PlimptonReciprocal.lean",
+      "sha": "c3575dc52ba6c0be4e5183a43de0138185ce6b75",
+      "size": 1302,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/c3575dc52ba6c0be4e5183a43de0138185ce6b75"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round4/SexagesimalReciprocal.lean",
+      "sha": "b189663e5851c4ff70a89e5c3c3c12aa1fc6594c",
+      "size": 1774,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/b189663e5851c4ff70a89e5c3c3c12aa1fc6594c"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round4/SulbaSqrtBound.lean",
+      "sha": "aab087cb806edcdfd6c0567b76ab2da7d420e83d",
+      "size": 1901,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/aab087cb806edcdfd6c0567b76ab2da7d420e83d"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round4/YBCHeronConvergence.lean",
+      "sha": "bf4a9924451db142badf00cde1e115a3a9cf03bf",
+      "size": 1457,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/bf4a9924451db142badf00cde1e115a3a9cf03bf"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Innovations/round5",
+      "sha": "a99d815efed78a207a913cee51e5ad596246afcc",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/a99d815efed78a207a913cee51e5ad596246afcc"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round5/CodonK4Compress.lean",
+      "sha": "dd287bfbf7b409001e2607ec4953184e8f9825a7",
+      "size": 1657,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/dd287bfbf7b409001e2607ec4953184e8f9825a7"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round5/CodonRoundTrip.lean",
+      "sha": "abca50f6778814cb4a3a09e3f0ba655a8a113f31",
+      "size": 1457,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/abca50f6778814cb4a3a09e3f0ba655a8a113f31"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round5/HermesFunctorReceipt.lean",
+      "sha": "0111c8d7e9e05e800ace5b51b52770a1784bc0f4",
+      "size": 1160,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/0111c8d7e9e05e800ace5b51b52770a1784bc0f4"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round5/HermesMoranIFS.lean",
+      "sha": "2eac35f9068d375b71042edd5508f33f37e8a642",
+      "size": 998,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/2eac35f9068d375b71042edd5508f33f37e8a642"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round5/HermesRGFixedPoint.lean",
+      "sha": "951f4bc8473976e73b4946b7e0779ad03389207b",
+      "size": 1057,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/951f4bc8473976e73b4946b7e0779ad03389207b"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round5/KeplerFleetScale.lean",
+      "sha": "e5e05d68dfc3a10e365c510c60f980ae3e71e029",
+      "size": 1215,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/e5e05d68dfc3a10e365c510c60f980ae3e71e029"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round5/OuroLoopInputLipschitz.lean",
+      "sha": "d3bb358f800c41feeec553893bbf718b9f83d6e1",
+      "size": 7874,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/d3bb358f800c41feeec553893bbf718b9f83d6e1"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round5/OuroborosBanachLoop.lean",
+      "sha": "398524b42a891023acc9d802ef301d32c23b11a1",
+      "size": 1159,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/398524b42a891023acc9d802ef301d32c23b11a1"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round5/OuroborosKleeneHalt.lean",
+      "sha": "7a05b9288d1e100080a167f3d6807a77b9545ff8",
+      "size": 995,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/7a05b9288d1e100080a167f3d6807a77b9545ff8"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round5/TetractysHMBottleneck.lean",
+      "sha": "eb11fc8b997001b1240c1991d7531e334acfd76f",
+      "size": 1105,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/eb11fc8b997001b1240c1991d7531e334acfd76f"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round5/TetractysHMBound.lean",
+      "sha": "946d886993abc1a9aec0e2d11af7b08fa1817bf0",
+      "size": 1146,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/946d886993abc1a9aec0e2d11af7b08fa1817bf0"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Innovations/round6",
+      "sha": "ad90679ec4e7f18530bd234e41a4a88c7a447867",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/ad90679ec4e7f18530bd234e41a4a88c7a447867"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round6/CauchySchwartzLambda.lean",
+      "sha": "b7ef5b500145d589ffd14729244c8954fa85f0bd",
+      "size": 1872,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/b7ef5b500145d589ffd14729244c8954fa85f0bd"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round6/EulerFleetTopology.lean",
+      "sha": "0ea3ea371b0d844f6e1f3741e9b7accdc6e8b83a",
+      "size": 2217,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/0ea3ea371b0d844f6e1f3741e9b7accdc6e8b83a"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round6/NoetherAudit.lean",
+      "sha": "8491fbc99ad95cfef3849aac456d0d3f10954276",
+      "size": 2166,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/8491fbc99ad95cfef3849aac456d0d3f10954276"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Innovations/round7",
+      "sha": "91b92a83f0bfd5e5398643975bea45f8c98e5545",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/91b92a83f0bfd5e5398643975bea45f8c98e5545"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round7/AnfinsenFoldingInvariant.lean",
+      "sha": "d56e4551785abe8cdd57d8ffdf166a537a63e6ce",
+      "size": 1704,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/d56e4551785abe8cdd57d8ffdf166a537a63e6ce"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round7/CalugareanuFleetInvariant.lean",
+      "sha": "79978052eedbaed5dacd963150f0fd9732f76a59",
+      "size": 1464,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/79978052eedbaed5dacd963150f0fd9732f76a59"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round7/GeneticKroneckerCompression.lean",
+      "sha": "dc022555ae6ce04e512c3c52baba83548459ccfb",
+      "size": 1618,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/dc022555ae6ce04e512c3c52baba83548459ccfb"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round7/KimuraAgentConvergence.lean",
+      "sha": "ab46de1096281d6987e8270d098c713fcd36b4f9",
+      "size": 1633,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/ab46de1096281d6987e8270d098c713fcd36b4f9"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round7/MMRSyndromeDecoderCompleteness.lean",
+      "sha": "0140e8db05f1592de8e86bd78824a5ba45a364a5",
+      "size": 1523,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/0140e8db05f1592de8e86bd78824a5ba45a364a5"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round7/NucleotideKlein4Action.lean",
+      "sha": "14435e6fe978b2db0eb42a8172f43bb828e59de3",
+      "size": 1503,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/14435e6fe978b2db0eb42a8172f43bb828e59de3"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round7/WobbleChannelCapacity.lean",
+      "sha": "dc5f87709b8ff57b740139a143fce5744292575f",
+      "size": 1204,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/dc5f87709b8ff57b740139a143fce5744292575f"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Innovations/round9",
+      "sha": "60f80ac28adc6bd831c02c39fc578e0a77ec6058",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/60f80ac28adc6bd831c02c39fc578e0a77ec6058"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round9/BloodDSSEMerkle.lean",
+      "sha": "c44e8ed02eca55155171e12023a00ca6c325186c",
+      "size": 2832,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/c44e8ed02eca55155171e12023a00ca6c325186c"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round9/BrainBeliefUpdate.lean",
+      "sha": "e09ea442becd97df732f7e9e20700c6777eefe43",
+      "size": 2959,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/e09ea442becd97df732f7e9e20700c6777eefe43"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round9/CauchyMultMono.lean",
+      "sha": "41c14846568590bc39ac2041dc4b47daa773bb01",
+      "size": 19450,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/41c14846568590bc39ac2041dc4b47daa773bb01"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round9/CauchyNDClosure.lean",
+      "sha": "31e7a9c2e67136d56255d628d70418d2ba7b4d03",
+      "size": 5334,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/31e7a9c2e67136d56255d628d70418d2ba7b4d03"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round9/HeartReceiptSigma.lean",
+      "sha": "c348e6e16a4bc6d2a9c283fe30933b106979ab17",
+      "size": 2853,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/c348e6e16a4bc6d2a9c283fe30933b106979ab17"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round9/ImmuneNeymanPearson.lean",
+      "sha": "09ef734b4a091e27153fe546e571ef084416694f",
+      "size": 3059,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/09ef734b4a091e27153fe546e571ef084416694f"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round9/MonotoneContinuous.lean",
+      "sha": "2c469dbf47a80407659eea8bc92508ec8114772a",
+      "size": 11236,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/2c469dbf47a80407659eea8bc92508ec8114772a"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round9/NervousShannonAlarm.lean",
+      "sha": "418439e4b183bda174f9f273799f40919eefdede",
+      "size": 3023,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/418439e4b183bda174f9f273799f40919eefdede"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round9/SkeletonLambdaSpine.lean",
+      "sha": "bfe9bf6b44b3b58fcc21eb7fffb7c8c17c06b3d1",
+      "size": 2722,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/bfe9bf6b44b3b58fcc21eb7fffb7c8c17c06b3d1"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round9/VCGTruthfulness.lean",
+      "sha": "e363604408e0adae7ea47abd428c69a7cc60a1c7",
+      "size": 11161,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/e363604408e0adae7ea47abd428c69a7cc60a1c7"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Innovations/round9/WiresReidemeisterKnot.lean",
+      "sha": "60dafecc2755be7d0b3d7ec44ce23b229e3fd8fb",
+      "size": 3446,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/60dafecc2755be7d0b3d7ec44ce23b229e3fd8fb"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Invariant.lean",
+      "sha": "4a418c631d9556d418e6aaa47611014855050d2c",
+      "size": 2259,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/4a418c631d9556d418e6aaa47611014855050d2c"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Khipu",
+      "sha": "555a6d3399585b0f678b458bbec2b154445b1221",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/555a6d3399585b0f678b458bbec2b154445b1221"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Khipu/MerkleFunctor.lean",
+      "sha": "145f11227b2ec0eb4142fb6fea30fb4fedde619e",
+      "size": 8902,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/145f11227b2ec0eb4142fb6fea30fb4fedde619e"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Khipu/NumericStability.lean",
+      "sha": "8c93c9627bd6d3ce1e1f22d49913c7173351a8cc",
+      "size": 12679,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/8c93c9627bd6d3ce1e1f22d49913c7173351a8cc"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Khipu/SummationInvariant.lean",
+      "sha": "c1bee9704c86165da928a6dc5ec5a448b884f4c6",
+      "size": 11978,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/c1bee9704c86165da928a6dc5ec5a448b884f4c6"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/KhipuConsensus.lean",
+      "sha": "041b0f0aaa2b0c260841b75ef800a18194ae2124",
+      "size": 8938,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/041b0f0aaa2b0c260841b75ef800a18194ae2124"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Knot",
+      "sha": "732116a6f6afdb1d8c5ec018a68d8c30ea639111",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/732116a6f6afdb1d8c5ec018a68d8c30ea639111"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Knot/ReidemeisterConjecture.lean",
+      "sha": "8a5cd53fb377f8939f9e3be5f8dbd0bc5e071c80",
+      "size": 12828,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/8a5cd53fb377f8939f9e3be5f8dbd0bc5e071c80"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Lambda",
+      "sha": "96012688c963730029f860a496917cc8fd2e59d0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/96012688c963730029f860a496917cc8fd2e59d0"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Lambda/AggregatorLfp.lean",
+      "sha": "47cac221fff7e4c0e82f3ff9bbf9e884389278c1",
+      "size": 9111,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/47cac221fff7e4c0e82f3ff9bbf9e884389278c1"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Lambda/CompositionRing.lean",
+      "sha": "608c079c984eb75822ac3c746f30adebfddfc50e",
+      "size": 2763,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/608c079c984eb75822ac3c746f30adebfddfc50e"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Lambda/SchurConcave.lean",
+      "sha": "e0774f09e9e8c0058e74873382b1e3d2492204fe",
+      "size": 9036,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/e0774f09e9e8c0058e74873382b1e3d2492204fe"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/LambdaPermInvariant.lean",
+      "sha": "470ec1d6dfc3d819cb50a1eefcf9d364ae023081",
+      "size": 1004,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/470ec1d6dfc3d819cb50a1eefcf9d364ae023081"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Materials",
+      "sha": "339a860fe7eee78fff08876c36d273d5522950eb",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/339a860fe7eee78fff08876c36d273d5522950eb"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Materials/PACBayesMaterials.lean",
+      "sha": "46cc405bdec1262f6256759858ee95a9276910b8",
+      "size": 5377,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/46cc405bdec1262f6256759858ee95a9276910b8"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Materials/PDDInjective.lean",
+      "sha": "8dc5fa359690116e72f980d92fc3be7c8304e579",
+      "size": 6157,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/8dc5fa359690116e72f980d92fc3be7c8304e579"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/MechanismDesign",
+      "sha": "a22d2a7b1c85ea9365f68e9f90bb9ebe81d628da",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/a22d2a7b1c85ea9365f68e9f90bb9ebe81d628da"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/MechanismDesign/VCG.lean",
+      "sha": "4ad39e8c79857b7ad4fc51bedfee47de59530091",
+      "size": 8716,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/4ad39e8c79857b7ad4fc51bedfee47de59530091"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Neuroplasticity.lean",
+      "sha": "db09bc91a27eaf4e4a482aba83cf0fa352aea4fb",
+      "size": 3964,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/db09bc91a27eaf4e4a482aba83cf0fa352aea4fb"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/OVERWATCH",
+      "sha": "5e9e941776f8ea1be0aead87c4b9356798dbaf0b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/5e9e941776f8ea1be0aead87c4b9356798dbaf0b"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/OVERWATCH/ReadOnly.lean",
+      "sha": "40d9e0fa04d3ca055f975b7ad0eafb10b9add090",
+      "size": 6238,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/40d9e0fa04d3ca055f975b7ad0eafb10b9add090"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/PACBayes.lean",
+      "sha": "18a2c5cab52fe48cc60d776edff09ded71433540",
+      "size": 21487,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/18a2c5cab52fe48cc60d776edff09ded71433540"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/PACBayes",
+      "sha": "ffd24fe38e393457352e6a7b2617abfeca6aef3a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/ffd24fe38e393457352e6a7b2617abfeca6aef3a"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/PACBayes/CapabilityImprovementRate.lean",
+      "sha": "d02b844c52bb3a63af5b86ef825aff26922b759c",
+      "size": 16663,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/d02b844c52bb3a63af5b86ef825aff26922b759c"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/PACBayes/MadhavaBound.lean",
+      "sha": "05f5979b781b98de275baf1d9ce0b31601f17bf3",
+      "size": 7173,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/05f5979b781b98de275baf1d9ce0b31601f17bf3"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/PACBayes/PACBayes.lean",
+      "sha": "af2a9cccc2b61fd155de5c6140588783aeb4e1b7",
+      "size": 18453,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/af2a9cccc2b61fd155de5c6140588783aeb4e1b7"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/PRNG",
+      "sha": "08f7718df1dbb92dd4982f9227b5b7fd6a2b5fe4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/08f7718df1dbb92dd4982f9227b5b7fd6a2b5fe4"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/PRNG/K10v2_ReplayRoot.lean",
+      "sha": "3706e8b12374f205be16da10aa4efe74bbb7ed80",
+      "size": 13183,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/3706e8b12374f205be16da10aa4efe74bbb7ed80"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/PositionAware.lean",
+      "sha": "d61ed4a79e72d60419218fc920062dd65310635d",
+      "size": 3743,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/d61ed4a79e72d60419218fc920062dd65310635d"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Precision",
+      "sha": "15921313effec4826ecc2088eee6901b756c7093",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/15921313effec4826ecc2088eee6901b756c7093"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Precision/SexagesimalRegular.lean",
+      "sha": "032996c8cf732b3e316f48df85c6d5aa861fc98c",
+      "size": 2359,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/032996c8cf732b3e316f48df85c6d5aa861fc98c"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Propagation",
+      "sha": "c86516cb0fc4999cc8e923c63c0aa58b02fddc84",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/c86516cb0fc4999cc8e923c63c0aa58b02fddc84"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Propagation/RelayChain.lean",
+      "sha": "3efc9e79382e0bbf24ad26d7eb31fd821df3066d",
+      "size": 2618,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/3efc9e79382e0bbf24ad26d7eb31fd821df3066d"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Puriq",
+      "sha": "f11490ebb17990c59f0296c49663a56fb78115d8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/f11490ebb17990c59f0296c49663a56fb78115d8"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Puriq/Formulas",
+      "sha": "d1553827e17775f57bf714b368b42407dbad7fed",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/d1553827e17775f57bf714b368b42407dbad7fed"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Puriq/Formulas/F23_Uniqueness.lean",
+      "sha": "923fb5a5c71ef9ba931927c1736f45da77a10a2e",
+      "size": 12327,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/923fb5a5c71ef9ba931927c1736f45da77a10a2e"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Puriq/Formulas/ProvedFormulas.lean",
+      "sha": "727115c587e8977428abe76d1313b171bcb23ff2",
+      "size": 12520,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/727115c587e8977428abe76d1313b171bcb23ff2"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Puriq/Formulas/PuriqFormulaLean.lean",
+      "sha": "079bb5a407ba6ae082d8e70db1be3f89041ad62e",
+      "size": 50854,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/079bb5a407ba6ae082d8e70db1be3f89041ad62e"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Puriq/Formulas/README.md",
+      "sha": "20b009eb26f2448ba23aec8c641d4df548818591",
+      "size": 2962,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/20b009eb26f2448ba23aec8c641d4df548818591"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Putnam",
+      "sha": "49c7c6931064c8903986f142acad8af453d1fe3f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/49c7c6931064c8903986f142acad8af453d1fe3f"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/BekensteinBound.lean",
+      "sha": "5b8c84a576d8a94fbf30c89479f5e8fc425feff0",
+      "size": 2452,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/5b8c84a576d8a94fbf30c89479f5e8fc425feff0"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/BekensteinBousso.lean",
+      "sha": "acd65ae713fc1d33a583c3ca9ed894c94b3b4f15",
+      "size": 3607,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/acd65ae713fc1d33a583c3ca9ed894c94b3b4f15"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/P_A1.lean",
+      "sha": "1834b56bf4d3b4483bf138154b476d9cb72d773b",
+      "size": 3655,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/1834b56bf4d3b4483bf138154b476d9cb72d773b"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/P_A2.lean",
+      "sha": "e3a4402dc9415ffe16d62a7c5210f72a8f206fe4",
+      "size": 6517,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/e3a4402dc9415ffe16d62a7c5210f72a8f206fe4"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/P_A3.lean",
+      "sha": "5f2f785cd9c19e496a8a72147d9d794ccfa715bd",
+      "size": 7088,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/5f2f785cd9c19e496a8a72147d9d794ccfa715bd"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/P_A4.lean",
+      "sha": "6654021a6fa6c0891177e1d9991aa325b204a60b",
+      "size": 5125,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/6654021a6fa6c0891177e1d9991aa325b204a60b"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/P_A5.lean",
+      "sha": "36df15fcec4e726e9b583e003e0e3f038ae8a3d2",
+      "size": 4262,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/36df15fcec4e726e9b583e003e0e3f038ae8a3d2"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/P_A6.lean",
+      "sha": "570509f23518a3f177d60e4bb45655472d1960ae",
+      "size": 6472,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/570509f23518a3f177d60e4bb45655472d1960ae"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/P_B1.lean",
+      "sha": "12f867ad23ebc48aa45bc4b9490d48adfa5c1ce3",
+      "size": 4990,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/12f867ad23ebc48aa45bc4b9490d48adfa5c1ce3"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/P_B2.lean",
+      "sha": "684746bfcc94f95245fcb2756bf78434c2344b50",
+      "size": 4321,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/684746bfcc94f95245fcb2756bf78434c2344b50"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/P_B3.lean",
+      "sha": "bd4ee1f0eea4104d643b1bf0815bb62c348ae120",
+      "size": 5718,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/bd4ee1f0eea4104d643b1bf0815bb62c348ae120"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/P_B4.lean",
+      "sha": "7b73f247f35a3eaf34988d814e54cf54a93d8c83",
+      "size": 4281,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/7b73f247f35a3eaf34988d814e54cf54a93d8c83"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/P_B5.lean",
+      "sha": "2f9af47f419870e4f0bf4165c4914d7c213d8c78",
+      "size": 4202,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/2f9af47f419870e4f0bf4165c4914d7c213d8c78"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/P_B6.lean",
+      "sha": "65900b5988dff15afc04770191723e182afbdf80",
+      "size": 4733,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/65900b5988dff15afc04770191723e182afbdf80"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Putnam/Sampler",
+      "sha": "be33bfb0f14692dbb004103f43ace34bfe1d5f22",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/be33bfb0f14692dbb004103f43ace34bfe1d5f22"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/Sampler/P01.lean",
+      "sha": "233bbb39f57f7af550bb02157dd0954dccbdf245",
+      "size": 1104,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/233bbb39f57f7af550bb02157dd0954dccbdf245"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/Sampler/P02.lean",
+      "sha": "7561faed6e0d76733c500e582bd41162f0b21eae",
+      "size": 609,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/7561faed6e0d76733c500e582bd41162f0b21eae"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/Sampler/P03.lean",
+      "sha": "e50bc0d081076ff3b2275aa18b6f7bff66745a7b",
+      "size": 909,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/e50bc0d081076ff3b2275aa18b6f7bff66745a7b"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/Sampler/P04.lean",
+      "sha": "771d60dcd21647456d05c7ff115f8383d4e35234",
+      "size": 1667,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/771d60dcd21647456d05c7ff115f8383d4e35234"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/Sampler/P05.lean",
+      "sha": "82a3964bb8f127ae89e9951df2b16891f9d1ce57",
+      "size": 1430,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/82a3964bb8f127ae89e9951df2b16891f9d1ce57"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/Sampler/P06.lean",
+      "sha": "06480d24daa93404b31043e612bbfb9a64e26082",
+      "size": 2289,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/06480d24daa93404b31043e612bbfb9a64e26082"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/Sampler/P07.lean",
+      "sha": "ec3e14e26941fd154247625fe00f036c862563a8",
+      "size": 1557,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/ec3e14e26941fd154247625fe00f036c862563a8"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/Sampler/P08.lean",
+      "sha": "e8615f5dd54867e8f95d79cc7cfc4a6ffae89140",
+      "size": 732,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/e8615f5dd54867e8f95d79cc7cfc4a6ffae89140"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/Sampler/P09.lean",
+      "sha": "cd1b7d5dfd3e03a9d3a7a740da33ae956cdf1d19",
+      "size": 7145,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/cd1b7d5dfd3e03a9d3a7a740da33ae956cdf1d19"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Putnam/Sampler/P10.lean",
+      "sha": "3122e6822c4a060380ccca211a537260ca037224",
+      "size": 1191,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/3122e6822c4a060380ccca211a537260ca037224"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/QEC",
+      "sha": "5459041edcb22290bcb9791bfcb7f12551dc9fd1",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/5459041edcb22290bcb9791bfcb7f12551dc9fd1"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/QEC/CSSBridge.lean",
+      "sha": "b9b90f4d0c585ca32d4ed291f3af2cbb594919d8",
+      "size": 3022,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/b9b90f4d0c585ca32d4ed291f3af2cbb594919d8"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/QEC/HammingFoundations.lean",
+      "sha": "bffb2b768d2b1aff50ad478054c05ca4d1c0bbbf",
+      "size": 2734,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/bffb2b768d2b1aff50ad478054c05ca4d1c0bbbf"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/QEC/KitaevSurface.lean",
+      "sha": "3d794bde198b01947d317f53e7ced2620da568d8",
+      "size": 3547,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/3d794bde198b01947d317f53e7ced2620da568d8"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/QEC/ShorReceiptCode.lean",
+      "sha": "918290ad063f563ac6ee3232a1e2dfb73e43ebd1",
+      "size": 4622,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/918290ad063f563ac6ee3232a1e2dfb73e43ebd1"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/QuantumBio",
+      "sha": "ecdcfafa06b2173b777a37fd4c0b7a2a919287ea",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/ecdcfafa06b2173b777a37fd4c0b7a2a919287ea"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/QuantumBio/CoherenceDecay.lean",
+      "sha": "8b77d8a9f24eba1a4765e4fa2be5db3aa8ecceb8",
+      "size": 5938,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/8b77d8a9f24eba1a4765e4fa2be5db3aa8ecceb8"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/QuantumBio/SZL_v5.lean",
+      "sha": "2f03052425f902bb6a0d21d9c32e06672353ee21",
+      "size": 1777,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/2f03052425f902bb6a0d21d9c32e06672353ee21"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Robustness",
+      "sha": "25b4a751b3ea98e8dae6c06fa4ff2b255216aeeb",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/25b4a751b3ea98e8dae6c06fa4ff2b255216aeeb"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Robustness/CertifiedRadius.lean",
+      "sha": "996124c264aa69c2c025dd820b16dcba117ee91f",
+      "size": 8492,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/996124c264aa69c2c025dd820b16dcba117ee91f"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Round13",
+      "sha": "a3fd825408ef2fa73866af5637b5d0daed3eaf6b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/a3fd825408ef2fa73866af5637b5d0daed3eaf6b"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Round13/CauchyND_Closure.lean",
+      "sha": "935271caeb75692cd49503243b82f3ceed509da1",
+      "size": 18716,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/935271caeb75692cd49503243b82f3ceed509da1"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Round13/LambdaSeparable.lean",
+      "sha": "61000db0a43dbe8808820899e8f19af689a47253",
+      "size": 12208,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/61000db0a43dbe8808820899e8f19af689a47253"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Round13/Lambda_Uniqueness.lean",
+      "sha": "b0f2c24d8b7fd4c9c87ad24eb2ed115a75288504",
+      "size": 12290,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/b0f2c24d8b7fd4c9c87ad24eb2ed115a75288504"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/SBOMProvenance.lean",
+      "sha": "4d07d8bb725445f39d1661ba4b7719fd7aef7899",
+      "size": 11549,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/4d07d8bb725445f39d1661ba4b7719fd7aef7899"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Scaling",
+      "sha": "fbd08a3a459fb8c5c8e88520cf12340be350b992",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/fbd08a3a459fb8c5c8e88520cf12340be350b992"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Scaling/MetabolicScaling.lean",
+      "sha": "00619de4f71416a5a5d048845786ac618cd1f0b5",
+      "size": 9728,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/00619de4f71416a5a5d048845786ac618cd1f0b5"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Scaling/MetabolicScalingDeep.lean",
+      "sha": "4c6193f7c0e1244a8eb697d6956259b6c9e7914d",
+      "size": 14694,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/4c6193f7c0e1244a8eb697d6956259b6c9e7914d"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Shannon",
+      "sha": "ba42f22c804c5fc1636ed80192b24fe09eddfae1",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/ba42f22c804c5fc1636ed80192b24fe09eddfae1"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Shannon/DoctrineEntropy.lean",
+      "sha": "3e79084e6aac171ea41d9b9f2adfe6f2bc3c7116",
+      "size": 7717,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/3e79084e6aac171ea41d9b9f2adfe6f2bc3c7116"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Thesis",
+      "sha": "959356ef27d65dd8eabd23e159c8a220939d538b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/959356ef27d65dd8eabd23e159c8a220939d538b"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Thesis/TH_V18_01_AgentLoopTerminates.lean",
+      "sha": "47e54cc0d48bfce5196589d9f22de4756ef6057d",
+      "size": 3295,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/47e54cc0d48bfce5196589d9f22de4756ef6057d"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Thesis/TH_V18_01_LambdaMonotonicity.lean",
+      "sha": "d58884ca062393c3e0be35d4e3169176597138bc",
+      "size": 1184,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/d58884ca062393c3e0be35d4e3169176597138bc"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Thesis/TH_V18_02_DoctrineLabelFintype.lean",
+      "sha": "cb8ba6e1b21439418875e2fc40d37d908017174e",
+      "size": 2343,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/cb8ba6e1b21439418875e2fc40d37d908017174e"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Thesis/TH_V18_03_KraftInequality.lean",
+      "sha": "d458964c84d71a80db77a3172446445d112984fd",
+      "size": 2139,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/d458964c84d71a80db77a3172446445d112984fd"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Thesis/TH_V18_04_EgyptianWeightSum.lean",
+      "sha": "fcdaa8743e5b80264c0b3211cf8f3adabe629b8a",
+      "size": 2083,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/fcdaa8743e5b80264c0b3211cf8f3adabe629b8a"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Thesis/TH_V18_05_ReceiptTransduction.lean",
+      "sha": "f88bbde8bf1afd8a181a3c36eaa00a83fdc34ca6",
+      "size": 1968,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/f88bbde8bf1afd8a181a3c36eaa00a83fdc34ca6"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Thesis/TH_V18_06_BrahmiAxisOption.lean",
+      "sha": "3f6c86d05f829adf0a6e9151b4266c73165f9972",
+      "size": 2495,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/3f6c86d05f829adf0a6e9151b4266c73165f9972"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Thesis/TH_V18_07_FeynmanCitationChain.lean",
+      "sha": "c27d77c933a322b69d66824625a4f04159b9c63e",
+      "size": 1912,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/c27d77c933a322b69d66824625a4f04159b9c63e"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Thesis/TH_V18_08_KhipuChecksumInvariant.lean",
+      "sha": "ca76eaf481fab5eb877d57f5cec45652ff549767",
+      "size": 2200,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/ca76eaf481fab5eb877d57f5cec45652ff549767"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Thesis/TH_V18_09_PermutationInvariance.lean",
+      "sha": "5a048c2cc387cc0191490919fcf4d7697588e09a",
+      "size": 3428,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/5a048c2cc387cc0191490919fcf4d7697588e09a"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Thesis/TH_V18_10_ListSumInvariant.lean",
+      "sha": "4e2e2f00a273c367bd4da9809a82aa19941109ad",
+      "size": 3088,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/4e2e2f00a273c367bd4da9809a82aa19941109ad"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Thesis/TH_V18_11_ParetoFiniteStabilization.lean",
+      "sha": "141ac0a43ca38fc1f202a78b8b990a0b923f906d",
+      "size": 7849,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/141ac0a43ca38fc1f202a78b8b990a0b923f906d"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Thesis/TH_V18_12_LambdaProductFormula.lean",
+      "sha": "7fb1e39e4b8166556a09a9e461f5f8361357a228",
+      "size": 2395,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/7fb1e39e4b8166556a09a9e461f5f8361357a228"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Thesis/TH_V18_13_DPIBoundAbstract.lean",
+      "sha": "eac7a87bcab8d03f14a9a31dc01e926fd87371cd",
+      "size": 2796,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/eac7a87bcab8d03f14a9a31dc01e926fd87371cd"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Thesis/TH_V18_14_SHA256CollisionHonest.lean",
+      "sha": "c33969bdd5688cba782d4bcffda002dedc559ea9",
+      "size": 3528,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/c33969bdd5688cba782d4bcffda002dedc559ea9"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Thesis/TH_V18_15_MultiAgentFairness.lean",
+      "sha": "16e879a15860dd8b0acd47106a768bccf30d8db7",
+      "size": 3840,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/16e879a15860dd8b0acd47106a768bccf30d8db7"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Thesis/TH_V18_16_FeynmanCitationIntegrity.lean",
+      "sha": "3d9ff4eab9d09eb894d3c9795e11a7cc8bb20fd8",
+      "size": 3291,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/3d9ff4eab9d09eb894d3c9795e11a7cc8bb20fd8"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Thresholds",
+      "sha": "e28d38522d1195d7d2bcc4b47c2494fa079ad4c6",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/e28d38522d1195d7d2bcc4b47c2494fa079ad4c6"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Thresholds/QuadraticCompletion.lean",
+      "sha": "9b1e524b7013f4ee97be48fd6986b6e09babe458",
+      "size": 2882,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/9b1e524b7013f4ee97be48fd6986b6e09babe458"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Topology",
+      "sha": "db7b891a962ae5816d6c66eb93b71575f15adcbf",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/db7b891a962ae5816d6c66eb93b71575f15adcbf"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Topology/PersistentHomologyChain.lean",
+      "sha": "8dd24c94375c67ed487a4a5b31e0c7a8ce6a727d",
+      "size": 4685,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/8dd24c94375c67ed487a4a5b31e0c7a8ce6a727d"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Transduction",
+      "sha": "60145d80b40b28c307de22ee606adbe1ff729993",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/60145d80b40b28c307de22ee606adbe1ff729993"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Transduction/ReceiptInvariant.lean",
+      "sha": "3be26cdd13ac5821c6ea1464613c87a569d3e3e7",
+      "size": 1475,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/3be26cdd13ac5821c6ea1464613c87a569d3e3e7"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/TwoWitness.lean",
+      "sha": "81aecef9d1b1ff182e01d693d9ea9a865d5902f2",
+      "size": 9449,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/81aecef9d1b1ff182e01d693d9ea9a865d5902f2"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Unify",
+      "sha": "dce2e8cbbd9abd5190fb933e38ed8f012be62e7a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/dce2e8cbbd9abd5190fb933e38ed8f012be62e7a"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Unify/GovernanceSubstrate.lean",
+      "sha": "42a447f5b46a2bad0297a21a6062b3841689fd09",
+      "size": 12748,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/42a447f5b46a2bad0297a21a6062b3841689fd09"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Uniqueness.lean",
+      "sha": "5347a6b8b40e8c586a4c37ced38c5b6600f72863",
+      "size": 10191,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/5347a6b8b40e8c586a4c37ced38c5b6600f72863"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Uniqueness",
+      "sha": "387d84c76e2c1382f1bd57bf62e56eb3e8413266",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/387d84c76e2c1382f1bd57bf62e56eb3e8413266"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Uniqueness/AxiomCheck.lean",
+      "sha": "4182d602a5e0be4890ba79db24fa2540333049d8",
+      "size": 7015,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/4182d602a5e0be4890ba79db24fa2540333049d8"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Uniqueness/Existence.lean",
+      "sha": "bef282152cd3685e88896641438c4e55d470c104",
+      "size": 5684,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/bef282152cd3685e88896641438c4e55d470c104"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Uniqueness/Identifiability.lean",
+      "sha": "7f756b8dd00b2922177c2013968fc26c0ed9e95b",
+      "size": 8206,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/7f756b8dd00b2922177c2013968fc26c0ed9e95b"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Uniqueness/LambdaEquiv.lean",
+      "sha": "d6685d08eaffed8c7833889c7cf4b1d753fd0b08",
+      "size": 6019,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/d6685d08eaffed8c7833889c7cf4b1d753fd0b08"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Uniqueness/TheoremU.lean",
+      "sha": "e9af0175cbd68c633902676b97aea193040fa725",
+      "size": 4674,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/e9af0175cbd68c633902676b97aea193040fa725"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wave10",
+      "sha": "3c2ddb09813383a3fd894b00e4ad0aa4de76ded0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/3c2ddb09813383a3fd894b00e4ad0aa4de76ded0"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave10/AxiomDisclosure.lean",
+      "sha": "4e6fb55f8f8605b979cd3054132a2de40034cd3f",
+      "size": 4733,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/4e6fb55f8f8605b979cd3054132a2de40034cd3f"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave10/DSSEToken.lean",
+      "sha": "e6f56bc7f0792b952f18ee77ac63e97a8b709048",
+      "size": 4999,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/e6f56bc7f0792b952f18ee77ac63e97a8b709048"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave10/NonInterferenceComposition.lean",
+      "sha": "6c3d8734fa3a261b1f1ba10ddc36485fab111578",
+      "size": 5870,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/6c3d8734fa3a261b1f1ba10ddc36485fab111578"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave10/QuorumIntersection.lean",
+      "sha": "8b9c9c1b000ded06ec94a7c7535423e996a1f58c",
+      "size": 5751,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/8b9c9c1b000ded06ec94a7c7535423e996a1f58c"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave10/ReachabilityRedundancy.lean",
+      "sha": "bc76eba00e9960e77ff1f61b475eca1395ffa14f",
+      "size": 6215,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/bc76eba00e9960e77ff1f61b475eca1395ffa14f"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave10/ReplayDeterminism.lean",
+      "sha": "8239756664002590bbdb7d41706e29eaf625e6e6",
+      "size": 5161,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/8239756664002590bbdb7d41706e29eaf625e6e6"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave10/STLRobustness.lean",
+      "sha": "b7810c702c2854fa05ee2739a2955762cc080ade",
+      "size": 13514,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/b7810c702c2854fa05ee2739a2955762cc080ade"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave11.lean",
+      "sha": "82ed7977d8827dc2b05dbbc5c18183a8a9b9f0ed",
+      "size": 1551,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/82ed7977d8827dc2b05dbbc5c18183a8a9b9f0ed"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wave11",
+      "sha": "144dce85cc4deb7fd525999402c7bc231d8a844a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/144dce85cc4deb7fd525999402c7bc231d8a844a"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave11/AxiomDisclosure.lean",
+      "sha": "868b2f3048fe0a5252d7dec25e336f4fd348ef23",
+      "size": 7057,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/868b2f3048fe0a5252d7dec25e336f4fd348ef23"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave11/GraphAutoDistInvariant.lean",
+      "sha": "3ee399d352d5f97eff82e03fe13f4dcb8d062b64",
+      "size": 6694,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/3ee399d352d5f97eff82e03fe13f4dcb8d062b64"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave11/ImmuneNeymanPearsonOpt.lean",
+      "sha": "9ff16c6becc894442fd747a1bf1810f2bab51165",
+      "size": 9690,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/9ff16c6becc894442fd747a1bf1810f2bab51165"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave11/OuroKVCacheSlots.lean",
+      "sha": "9a204c5e0e73af90bd66505ed7be81e7e8e9ce1a",
+      "size": 7590,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/9a204c5e0e73af90bd66505ed7be81e7e8e9ce1a"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave11/OuroLoopEarlyExit.lean",
+      "sha": "872291edf3b9bfbf5791a3437876351379f3afb2",
+      "size": 7055,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/872291edf3b9bfbf5791a3437876351379f3afb2"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wave13",
+      "sha": "026101b7a2ed9bfe6acf2b76ab4d7a364d48357d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/026101b7a2ed9bfe6acf2b76ab4d7a364d48357d"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave13/Sweep.lean",
+      "sha": "fdfd454e0e6bce2505d5eeb6c4ece191d31ed5af",
+      "size": 6714,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/fdfd454e0e6bce2505d5eeb6c4ece191d31ed5af"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wave14",
+      "sha": "4cf48a15e9adf5db9539f451d57c991b7bf9fd47",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/4cf48a15e9adf5db9539f451d57c991b7bf9fd47"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave14/LeibnizRemainder.lean",
+      "sha": "1845c8ab4c0e96425f33e435697dade5f15de696",
+      "size": 5468,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/1845c8ab4c0e96425f33e435697dade5f15de696"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave14/LogSumInequality.lean",
+      "sha": "5c8b0bd35fb5cda2527feb71e1fc7efae319dce3",
+      "size": 6682,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/5c8b0bd35fb5cda2527feb71e1fc7efae319dce3"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave14/ReedSolomonDistance.lean",
+      "sha": "b7a1e91bcc6046d0a1d8592e04ef5d0d793315ea",
+      "size": 7643,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/b7a1e91bcc6046d0a1d8592e04ef5d0d793315ea"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave14/VCGEfficiency.lean",
+      "sha": "1b68272d5a0385a64dd61a5cb5863c38838efdfc",
+      "size": 5247,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/1b68272d5a0385a64dd61a5cb5863c38838efdfc"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wave15",
+      "sha": "1b1ab638953447f56a86013518af583b858a3388",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/1b1ab638953447f56a86013518af583b858a3388"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave15/BisymmetryCut1.lean",
+      "sha": "23f9b417092edbb085b70c14bcfbce9a6b4aefb1",
+      "size": 6495,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/23f9b417092edbb085b70c14bcfbce9a6b4aefb1"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave15/KLDivergenceSimplex.lean",
+      "sha": "2d0ede62c61a384a76dc3877832dfe3b831aa391",
+      "size": 5786,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/2d0ede62c61a384a76dc3877832dfe3b831aa391"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave15/PinskerRoadmap.lean",
+      "sha": "c1d9a5a923bd178363cc7bda93df52d52bd28390",
+      "size": 5204,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/c1d9a5a923bd178363cc7bda93df52d52bd28390"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wave16",
+      "sha": "087ee2169acc8d172dedad3b689fa9d644724b1d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/087ee2169acc8d172dedad3b689fa9d644724b1d"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave16/AbacusPlaceValue.lean",
+      "sha": "4eb19d319c68ab7d7378a6b0a8d6da35efc86222",
+      "size": 4176,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/4eb19d319c68ab7d7378a6b0a8d6da35efc86222"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave16/Cut1MeanAxioms.lean",
+      "sha": "56623cc396223932404c6ddc3bd375e43bc155b0",
+      "size": 4947,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/56623cc396223932404c6ddc3bd375e43bc155b0"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave16/LambdaScaleInvariance.lean",
+      "sha": "e4532d1af144b53e1a171518fdae13a4d52871c7",
+      "size": 4656,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/e4532d1af144b53e1a171518fdae13a4d52871c7"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave16/PinskerConvexity.lean",
+      "sha": "ea0f2626c6af27f3463d1ffcbf049071304a119e",
+      "size": 4488,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/ea0f2626c6af27f3463d1ffcbf049071304a119e"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wave17",
+      "sha": "da04564dec40e857667f42c48d5479f0ddbb8f8e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/da04564dec40e857667f42c48d5479f0ddbb8f8e"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave17/BinaryPinsker.lean",
+      "sha": "9e9cb5eb7af1a9fb728fcafbb4f7d97d77559399",
+      "size": 11328,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/9e9cb5eb7af1a9fb728fcafbb4f7d97d77559399"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave17/MonDEQWellPosed.lean",
+      "sha": "4ad3e9370c86f1a8406163803163c9764628ba55",
+      "size": 7070,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/4ad3e9370c86f1a8406163803163c9764628ba55"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave17/MultiClassPinsker.lean",
+      "sha": "0c1640b334af3443f03e4dfd6b54ef42949732bc",
+      "size": 6150,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/0c1640b334af3443f03e4dfd6b54ef42949732bc"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave17/RecurrentDepth.lean",
+      "sha": "26ecde7ee284b731200f292125f622b212a9f74d",
+      "size": 4680,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/26ecde7ee284b731200f292125f622b212a9f74d"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wave18",
+      "sha": "dcad38e244d1b9cf9fc2131fa95ce21416f614e0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/dcad38e244d1b9cf9fc2131fa95ce21416f614e0"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave18/AczelRepresentation.lean",
+      "sha": "5cfc9ad6a892246eefb942db96d8696da1f791eb",
+      "size": 15855,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/5cfc9ad6a892246eefb942db96d8696da1f791eb"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave18/Cut1Chain.lean",
+      "sha": "e58d3ee6c82525982d980812c030adde77bc349d",
+      "size": 5445,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/e58d3ee6c82525982d980812c030adde77bc349d"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wave19",
+      "sha": "102b952a150519d4805aa31c976b63afbb6b9581",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/102b952a150519d4805aa31c976b63afbb6b9581"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave19/AccumulationUncountable.lean",
+      "sha": "a6c4379a2a42aec39a8e458d3b4558e19a987254",
+      "size": 4741,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/a6c4379a2a42aec39a8e458d3b4558e19a987254"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave19/Cut1Density.lean",
+      "sha": "9e88219ee371f7f0015ccb6cd2af9c3edd512219",
+      "size": 3447,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/9e88219ee371f7f0015ccb6cd2af9c3edd512219"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave19/Density.lean",
+      "sha": "2461208900453eebb112f82680bff0221abb1770",
+      "size": 8989,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/2461208900453eebb112f82680bff0221abb1770"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave19/DisjointOpens.lean",
+      "sha": "be4085f2d7b61d27e11bc64d1db93cd2b006394f",
+      "size": 5121,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/be4085f2d7b61d27e11bc64d1db93cd2b006394f"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave19/DyadicImageDense.lean",
+      "sha": "66212847e70136a8660b6b09a4877ec29809fda4",
+      "size": 3445,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/66212847e70136a8660b6b09a4877ec29809fda4"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wave20",
+      "sha": "db6984c1cec511160a4730215c7940e5d311229a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/db6984c1cec511160a4730215c7940e5d311229a"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave20/Accumulation.lean",
+      "sha": "0764be94b0e86df9ee7f46ecca5a45da35022c62",
+      "size": 8286,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/0764be94b0e86df9ee7f46ecca5a45da35022c62"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave20/DisjointOpens.lean",
+      "sha": "52a2cb4476721d1dccc41d70edaa69464b24e81a",
+      "size": 8195,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/52a2cb4476721d1dccc41d70edaa69464b24e81a"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wave21",
+      "sha": "0389aa8e7439922ec679a91e881f4c4244031e66",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/0389aa8e7439922ec679a91e881f4c4244031e66"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave21/Cut1Final.lean",
+      "sha": "dae26e6f2bd25ffccee3b549ceed10648b2cec92",
+      "size": 5549,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/dae26e6f2bd25ffccee3b549ceed10648b2cec92"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave21/DyadicImageDense.lean",
+      "sha": "f9f7848ac3a001287b2c0a028ade219df0751e3b",
+      "size": 5204,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/f9f7848ac3a001287b2c0a028ade219df0751e3b"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave21/Uncountable.lean",
+      "sha": "36985421907b68063939c8fc91f0c48236a557a1",
+      "size": 9886,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/36985421907b68063939c8fc91f0c48236a557a1"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wave22",
+      "sha": "f6b7c6f2383fde16500f1361bb3cb12932797182",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/f6b7c6f2383fde16500f1361bb3cb12932797182"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave22/CorderClosure.lean",
+      "sha": "01f6b74a4e3fe5eb29e2bd19858dc3570db46a1f",
+      "size": 6254,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/01f6b74a4e3fe5eb29e2bd19858dc3570db46a1f"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave22/Cut1Corder.lean",
+      "sha": "ed4df92125efee4f010c4cca4d26219837142c67",
+      "size": 7613,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/ed4df92125efee4f010c4cca4d26219837142c67"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave22/GapShiftOrdering.lean",
+      "sha": "95633acef4d915f9d0509b5c2255872b9d747aa1",
+      "size": 7210,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/95633acef4d915f9d0509b5c2255872b9d747aa1"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave22/LambdaConditional.lean",
+      "sha": "99d30738ac16519d23b500408b3c8e4ee680a9dc",
+      "size": 9223,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/99d30738ac16519d23b500408b3c8e4ee680a9dc"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wave23",
+      "sha": "91e47aea4beef8000076549ef85894facd64f9e9",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/91e47aea4beef8000076549ef85894facd64f9e9"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave23/QuorumSafety.lean",
+      "sha": "d009976da25f2e6cb2431386177bfd3973da836a",
+      "size": 11639,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/d009976da25f2e6cb2431386177bfd3973da836a"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wave24",
+      "sha": "ec34fcf2700327c552afed379c76f26b7dfa3d42",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/ec34fcf2700327c552afed379c76f26b7dfa3d42"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave24/AdmissibilityCertificate.lean",
+      "sha": "57e5a7707b76b8e4772d0ec96271c8a630efc344",
+      "size": 7919,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/57e5a7707b76b8e4772d0ec96271c8a630efc344"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wave3",
+      "sha": "03be7c89f7aa0c13229d0fe08ecaa59e673dec45",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/03be7c89f7aa0c13229d0fe08ecaa59e673dec45"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave3/Consensus.lean",
+      "sha": "062c921fdc9d4fee626a305565db76dfcdfa360f",
+      "size": 6691,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/062c921fdc9d4fee626a305565db76dfcdfa360f"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave3/InfoEstim.lean",
+      "sha": "ea77b50a1ef0d287441a16b1f9660c0bb5b3a7ad",
+      "size": 6725,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/ea77b50a1ef0d287441a16b1f9660c0bb5b3a7ad"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave3/MerkleKraft.lean",
+      "sha": "5b949372f06dde43409c684663baadcfdc929832",
+      "size": 7948,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/5b949372f06dde43409c684663baadcfdc929832"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave3/Tier1Mathlib.lean",
+      "sha": "4e99db25617cf3251f89fbb5d31099f31e7b9f36",
+      "size": 5730,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/4e99db25617cf3251f89fbb5d31099f31e7b9f36"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wave4",
+      "sha": "9aa464f3a94609bef50090d04b059552aa3896b8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/9aa464f3a94609bef50090d04b059552aa3896b8"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave4/LambdaBisymmetryWitness.lean",
+      "sha": "fc4e4dcc2b7bf2bb2d732158f9f9fcf3d25f8518",
+      "size": 7992,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/fc4e4dcc2b7bf2bb2d732158f9f9fcf3d25f8518"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave4/LambdaBlockConsistency.lean",
+      "sha": "dd9ed39a99f20efb8f5ab5988d7d36303d89eef9",
+      "size": 13926,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/dd9ed39a99f20efb8f5ab5988d7d36303d89eef9"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wave5",
+      "sha": "9b2eac6743d877e79ea095677e65636126191710",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/9b2eac6743d877e79ea095677e65636126191710"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave5/DiscreteSubstrate.lean",
+      "sha": "262bb6bb5ed3bdd7d1eefb0165b2d7f728f60baf",
+      "size": 5776,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/262bb6bb5ed3bdd7d1eefb0165b2d7f728f60baf"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave5/MathlibCore.lean",
+      "sha": "7b3379172a82f0703ea4916a3854e58259504674",
+      "size": 4722,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/7b3379172a82f0703ea4916a3854e58259504674"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wave6",
+      "sha": "63c9b8b15176477d5f21421a7330bf5c8df6e46e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/63c9b8b15176477d5f21421a7330bf5c8df6e46e"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave6/GraphSubstrate.lean",
+      "sha": "d79168ec78b2e484433d3266d4fc82e222cb4275",
+      "size": 10655,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/d79168ec78b2e484433d3266d4fc82e222cb4275"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave6/InfoSubstrate.lean",
+      "sha": "cabf498f77a016d255c23783b22fa03e8eb36657",
+      "size": 5781,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/cabf498f77a016d255c23783b22fa03e8eb36657"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave6/MetricSpectral.lean",
+      "sha": "76c74d8ea8acc7226ecab5a2445c400263102b9b",
+      "size": 8378,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/76c74d8ea8acc7226ecab5a2445c400263102b9b"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave6/MonotoneAdditiveLinear.lean",
+      "sha": "fa1170bddb98950e29b636e3e33dd91ddb85db59",
+      "size": 11427,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/fa1170bddb98950e29b636e3e33dd91ddb85db59"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave6/SetAlphaUniqueness.lean",
+      "sha": "d63c8e9514622bf3959d17fb4a3f857e86f7ae2a",
+      "size": 43619,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/d63c8e9514622bf3959d17fb4a3f857e86f7ae2a"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave6/SetDeltaUniqueness.lean",
+      "sha": "95f0194de8a2b270861cc7f2b9d502addd31e1fd",
+      "size": 24676,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/95f0194de8a2b270861cc7f2b9d502addd31e1fd"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave6/SubGaussianKL.lean",
+      "sha": "aa8cda6102d0f57937633eabc9315a3cea7d64f4",
+      "size": 7326,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/aa8cda6102d0f57937633eabc9315a3cea7d64f4"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wave7",
+      "sha": "9825031626c0580a182fb21f8456ed274fc397f4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/9825031626c0580a182fb21f8456ed274fc397f4"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave7/DiscreteSubstrate.lean",
+      "sha": "f05c03472f7c5c3246df39fa3ec3b987f01378d3",
+      "size": 6384,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/f05c03472f7c5c3246df39fa3ec3b987f01378d3"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave7/MathlibCore.lean",
+      "sha": "fcac6325f7678314fec978cd36436dc468876f09",
+      "size": 6130,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/fcac6325f7678314fec978cd36436dc468876f09"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wave8",
+      "sha": "047aca83c3e9f871596235ba9078d3882214278b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/047aca83c3e9f871596235ba9078d3882214278b"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave8/AxiomDisclosure.lean",
+      "sha": "bbf5deac32e1558eecf13115ea954393788d0e35",
+      "size": 5104,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/bbf5deac32e1558eecf13115ea954393788d0e35"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave8/Byzantine.lean",
+      "sha": "207171bef5d55b51c16d1aaab3da3e58153ddd2d",
+      "size": 5213,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/207171bef5d55b51c16d1aaab3da3e58153ddd2d"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave8/CPA.lean",
+      "sha": "2943fdc423998c335560a97a388c700403c27595",
+      "size": 4395,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/2943fdc423998c335560a97a388c700403c27595"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave8/Conformal.lean",
+      "sha": "9672e85da51aa5c644a1bfee11e22ceb5fb8f2a8",
+      "size": 6086,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/9672e85da51aa5c644a1bfee11e22ceb5fb8f2a8"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave8/DensityMixture.lean",
+      "sha": "4d62a85e1ff5318707855cace05f47c332b3bbe6",
+      "size": 4974,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/4d62a85e1ff5318707855cace05f47c332b3bbe6"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave8/Gershgorin.lean",
+      "sha": "05af51096b77226656e1a679c9bc9114059fc43f",
+      "size": 3676,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/05af51096b77226656e1a679c9bc9114059fc43f"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave8/HashChain.lean",
+      "sha": "09cc169b22be40b7b17a7bd766ab0b7249b91a19",
+      "size": 5277,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/09cc169b22be40b7b17a7bd766ab0b7249b91a19"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave8/LambdaMono.lean",
+      "sha": "a2dce1c56fa5e98865adbe4f0292b4ee74f08350",
+      "size": 4295,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/a2dce1c56fa5e98865adbe4f0292b4ee74f08350"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave8/MinGate.lean",
+      "sha": "03e1845bc4f6e50abea80fb11acff397f1d8c482",
+      "size": 6074,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/03e1845bc4f6e50abea80fb11acff397f1d8c482"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave8/Simplex.lean",
+      "sha": "ff4776ee020a0a521ef58673c6ce0d5f6e580278",
+      "size": 4248,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/ff4776ee020a0a521ef58673c6ce0d5f6e580278"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wave9",
+      "sha": "d7774ad004c1e8900c8ca36b1c022807179cf883",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/d7774ad004c1e8900c8ca36b1c022807179cf883"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave9/AxiomDisclosure.lean",
+      "sha": "dff1b263f69517c40394773e4926011cb2585319",
+      "size": 4657,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/dff1b263f69517c40394773e4926011cb2585319"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave9/BasilicBDB.lean",
+      "sha": "b61024d92adcc5b9246aa0b3e8b03d6adb5994a6",
+      "size": 4937,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/b61024d92adcc5b9246aa0b3e8b03d6adb5994a6"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave9/CovarianceIntersection.lean",
+      "sha": "532a66abe95935b53902e4be0bdacdb28539bb81",
+      "size": 5065,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/532a66abe95935b53902e4be0bdacdb28539bb81"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave9/Gershgorin.lean",
+      "sha": "05155a417fcde58cc247a57cdc87f8c7fbbd8e98",
+      "size": 4619,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/05155a417fcde58cc247a57cdc87f8c7fbbd8e98"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave9/Menger.lean",
+      "sha": "c264b3ed32353541a9024ff73391ec5f35e8d5e2",
+      "size": 5232,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/c264b3ed32353541a9024ff73391ec5f35e8d5e2"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave9/Merkle.lean",
+      "sha": "ac6aa5416c342159e7c1e9cff851a9d06efac351",
+      "size": 7985,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/ac6aa5416c342159e7c1e9cff851a9d06efac351"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave9/RobustDeclass.lean",
+      "sha": "166009b650ea9e766add504e630a1fd8a6b1243e",
+      "size": 6343,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/166009b650ea9e766add504e630a1fd8a6b1243e"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave9/TimeUniformPACBayes.lean",
+      "sha": "5b480a208268184ef60697dfea2d572a68a62874",
+      "size": 5896,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/5b480a208268184ef60697dfea2d572a68a62874"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wave9/Ville.lean",
+      "sha": "57e148f8d6ce61c5f2164b53629c9b6708831927",
+      "size": 6588,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/57e148f8d6ce61c5f2164b53629c9b6708831927"
+    },
+    {
+      "mode": "040000",
+      "path": "Lutar/Wheeler",
+      "sha": "9659db45987981d7f4363a65e4d12e3ee296e761",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/9659db45987981d7f4363a65e4d12e3ee296e761"
+    },
+    {
+      "mode": "100644",
+      "path": "Lutar/Wheeler/DelayedChoiceClosure.lean",
+      "sha": "4c56f205224b6392274feae1a3fb6b394988ab7a",
+      "size": 8341,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/4c56f205224b6392274feae1a3fb6b394988ab7a"
+    },
+    {
+      "mode": "100644",
+      "path": "Main.lean",
+      "sha": "45c315791dfa5f06e49da67674715a65e134120d",
+      "size": 648,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/45c315791dfa5f06e49da67674715a65e134120d"
+    },
+    {
+      "mode": "100644",
+      "path": "MainRef.lean",
+      "sha": "a7e99d349d2c01bbaf62f8ba002b4e0892372a57",
+      "size": 485,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/a7e99d349d2c01bbaf62f8ba002b4e0892372a57"
+    },
+    {
+      "mode": "100644",
+      "path": "PROVEN_FORMULAS.md",
+      "sha": "bfe56e8dc8c1feb736e211873e3617ce4201ac88",
+      "size": 21475,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/bfe56e8dc8c1feb736e211873e3617ce4201ac88"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "ad07b702b5896358cc69f0643ff29d92fc065433",
+      "size": 14667,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/ad07b702b5896358cc69f0643ff29d92fc065433"
+    },
+    {
+      "mode": "100644",
+      "path": "RefVectors.lean",
+      "sha": "0f8189cc21d5d436d9bd3726075212dfe857abee",
+      "size": 4400,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/0f8189cc21d5d436d9bd3726075212dfe857abee"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "942182d1652533485b11e19d38c02e76af070e81",
+      "size": 2333,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/942182d1652533485b11e19d38c02e76af070e81"
+    },
+    {
+      "mode": "100644",
+      "path": "SORRIES.md",
+      "sha": "4eac683e0ebebd68e63ed4d75a1ae98d8ab66ae5",
+      "size": 2010,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/4eac683e0ebebd68e63ed4d75a1ae98d8ab66ae5"
+    },
+    {
+      "mode": "100644",
+      "path": "STATUS.md",
+      "sha": "f43905651827451ff7ae74a1489fcf6d30c6d065",
+      "size": 4215,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/f43905651827451ff7ae74a1489fcf6d30c6d065"
+    },
+    {
+      "mode": "100644",
+      "path": "SUPPORT.md",
+      "sha": "f36f65ba750a3471136ea57dca9750d508939dd1",
+      "size": 1586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/f36f65ba750a3471136ea57dca9750d508939dd1"
+    },
+    {
+      "mode": "040000",
+      "path": "Showcase",
+      "sha": "c1bd8dce4e436fbe98e8194d99956beea411c17b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/c1bd8dce4e436fbe98e8194d99956beea411c17b"
+    },
+    {
+      "mode": "040000",
+      "path": "Showcase/Frontier",
+      "sha": "3c90f7ee607abd231dd6108f2d4240d660f8b3a5",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/3c90f7ee607abd231dd6108f2d4240d660f8b3a5"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/Frontier/AGENTIC_BODY_NOTES.md",
+      "sha": "7e166d1ba2e4db2e41af7704b29f268c632a661f",
+      "size": 5197,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/7e166d1ba2e4db2e41af7704b29f268c632a661f"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/Frontier/AgenticBodyWitness.lean",
+      "sha": "9cd16467a13aad059a6545c5d3d6c202b189c786",
+      "size": 12841,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/9cd16467a13aad059a6545c5d3d6c202b189c786"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/Frontier/CelestialIRTriangle.lean",
+      "sha": "530dda01e84994955eb935226e98200a71714122",
+      "size": 5310,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/530dda01e84994955eb935226e98200a71714122"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/Frontier/CredoVerdictWitness.lean",
+      "sha": "096c67ed853d2191dd3ff528eaf8b63850d48277",
+      "size": 5658,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/096c67ed853d2191dd3ff528eaf8b63850d48277"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/Frontier/EnergyBudgetWitness.lean",
+      "sha": "74253c85411eaf213f779901c5c0b84262c11e5a",
+      "size": 10989,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/74253c85411eaf213f779901c5c0b84262c11e5a"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/Frontier/HarvestBudgetWitness.lean",
+      "sha": "d6bb2f3578868aa737bd97b39492c4b7dc4eefb2",
+      "size": 13632,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/d6bb2f3578868aa737bd97b39492c4b7dc4eefb2"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/Frontier/LandauerFloorWitness.lean",
+      "sha": "e00df72afc88185346931ce396b753e8ad95f558",
+      "size": 9078,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/e00df72afc88185346931ce396b753e8ad95f558"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/Frontier/QUANTUM_README.md",
+      "sha": "5028f3cb831afcef9b7c9c548c71946cb40fca24",
+      "size": 3242,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/5028f3cb831afcef9b7c9c548c71946cb40fca24"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/Frontier/QuantumInfoWitness.lean",
+      "sha": "fcb2e8a96007a9f52a4c9354b7e4f9dd1433ee01",
+      "size": 7762,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/fcb2e8a96007a9f52a4c9354b7e4f9dd1433ee01"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/Frontier/README.md",
+      "sha": "b0407b80f3972ba95f146105cdcd922b6747574c",
+      "size": 2853,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/b0407b80f3972ba95f146105cdcd922b6747574c"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/Frontier/RELATIONAL_MESH_README.md",
+      "sha": "00810f4f0b5215f79ee96ce73eb803c568d55848",
+      "size": 2942,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/00810f4f0b5215f79ee96ce73eb803c568d55848"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/Frontier/RelationalMeshWitness.lean",
+      "sha": "f2156ef9cc3db46b2750626a439c028a535bb7bb",
+      "size": 7783,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/f2156ef9cc3db46b2750626a439c028a535bb7bb"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/Frontier/TOPOINFO_README.md",
+      "sha": "e37559bb5fac6214cbdb4b6b33a62f4c15dd451a",
+      "size": 1792,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/e37559bb5fac6214cbdb4b6b33a62f4c15dd451a"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/Frontier/TopoInfoWitness.lean",
+      "sha": "95fc38eb1603051aa03b1f676a0c88e2f0508ac4",
+      "size": 4091,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/95fc38eb1603051aa03b1f676a0c88e2f0508ac4"
+    },
+    {
+      "mode": "040000",
+      "path": "Showcase/Putnam",
+      "sha": "8eeb9282fb5a8ed2d11a88109306415be65b0e69",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/8eeb9282fb5a8ed2d11a88109306415be65b0e69"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/Putnam/P01.md",
+      "sha": "867fb9020af5283cde4c4a53df77a3dd03b2a6f7",
+      "size": 1625,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/867fb9020af5283cde4c4a53df77a3dd03b2a6f7"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/Putnam/P02.md",
+      "sha": "4cfc8b671f8410496992ff7d9fd868b66c1647ea",
+      "size": 2019,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/4cfc8b671f8410496992ff7d9fd868b66c1647ea"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/Putnam/P03.md",
+      "sha": "96af991587e7150b29519a27bf88c5a99f9bbbeb",
+      "size": 2132,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/96af991587e7150b29519a27bf88c5a99f9bbbeb"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/Putnam/P04.md",
+      "sha": "f733995895ef15f35b3264c07ef8c7c435556b32",
+      "size": 2839,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/f733995895ef15f35b3264c07ef8c7c435556b32"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/Putnam/README.md",
+      "sha": "5ce3fea9f01d785175a551f4166d6b8f1bc0f60d",
+      "size": 3288,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/5ce3fea9f01d785175a551f4166d6b8f1bc0f60d"
+    },
+    {
+      "mode": "040000",
+      "path": "Showcase/PutnamLean",
+      "sha": "df7f85b4b69753d09b3b7f8dfa3a6c36ffe4bf33",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/df7f85b4b69753d09b3b7f8dfa3a6c36ffe4bf33"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/PutnamLean/P01.lean",
+      "sha": "f47cd1a2ef4958ba90add70c1abdaa312649f986",
+      "size": 1128,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/f47cd1a2ef4958ba90add70c1abdaa312649f986"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/PutnamLean/P02.lean",
+      "sha": "768d0853a89874c5e8411fa33ac1ac4146aafe7f",
+      "size": 1536,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/768d0853a89874c5e8411fa33ac1ac4146aafe7f"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/PutnamLean/P03.lean",
+      "sha": "c256ecf68577c2c228129fddc5faf9493180fddb",
+      "size": 6718,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/c256ecf68577c2c228129fddc5faf9493180fddb"
+    },
+    {
+      "mode": "100644",
+      "path": "Showcase/PutnamLean/P04.lean",
+      "sha": "14b5a1cda0e44e7043f1c16e58390d50ffc72c29",
+      "size": 9058,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/14b5a1cda0e44e7043f1c16e58390d50ffc72c29"
+    },
+    {
+      "mode": "040000",
+      "path": "TH8",
+      "sha": "876f34c7023daace4eddc2765523c6764a2c0235",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/876f34c7023daace4eddc2765523c6764a2c0235"
+    },
+    {
+      "mode": "040000",
+      "path": "TH8/lean_v2",
+      "sha": "eed73c956f4be499858afc74b8e4393d197d440d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/eed73c956f4be499858afc74b8e4393d197d440d"
+    },
+    {
+      "mode": "100644",
+      "path": "TH8/lean_v2/CLOSE_REPORT.md",
+      "sha": "7c696e0814c846c4934fb81fa4aacdc0afdf174e",
+      "size": 14418,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/7c696e0814c846c4934fb81fa4aacdc0afdf174e"
+    },
+    {
+      "mode": "100644",
+      "path": "TH8/lean_v2/GLR.lean",
+      "sha": "981b09cb56360c0b489c990b6e12f9dc0d20dd31",
+      "size": 22041,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/981b09cb56360c0b489c990b6e12f9dc0d20dd31"
+    },
+    {
+      "mode": "100644",
+      "path": "TH8/lean_v2/GradedSemiring.lean",
+      "sha": "cb1047724328a2e879dae020411f6359158f1bb0",
+      "size": 7256,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/cb1047724328a2e879dae020411f6359158f1bb0"
+    },
+    {
+      "mode": "100644",
+      "path": "TH8/lean_v2/LinearReceipt.lean",
+      "sha": "b2457982bdfd4b06907456631061200b6f17669c",
+      "size": 14469,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/b2457982bdfd4b06907456631061200b6f17669c"
+    },
+    {
+      "mode": "100644",
+      "path": "TH8/lean_v2/MATHLIB_DEPS.md",
+      "sha": "bf3a17616a4547912ba60a67ce23bf026dbd9bed",
+      "size": 9329,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/bf3a17616a4547912ba60a67ce23bf026dbd9bed"
+    },
+    {
+      "mode": "100644",
+      "path": "TH8/lean_v2/StrongMonadIdentity.lean",
+      "sha": "38d66b544f08d89a06682bfb6ec4b151e6bbebc0",
+      "size": 8420,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/38d66b544f08d89a06682bfb6ec4b151e6bbebc0"
+    },
+    {
+      "mode": "100644",
+      "path": "VERIFIED_THEOREMS.md",
+      "sha": "1df29982cba51df2f3b45f35ef9ff0c4448f509d",
+      "size": 4191,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/1df29982cba51df2f3b45f35ef9ff0c4448f509d"
+    },
+    {
+      "mode": "040000",
+      "path": "assets",
+      "sha": "c9cd6c9f725fa6018ec98262f2e27839fa8d88a0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/c9cd6c9f725fa6018ec98262f2e27839fa8d88a0"
+    },
+    {
+      "mode": "040000",
+      "path": "assets/genius",
+      "sha": "69b23d434b669aa1fed1e4466a4efd604a8e8739",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/69b23d434b669aa1fed1e4466a4efd604a8e8739"
+    },
+    {
+      "mode": "100644",
+      "path": "assets/genius/lean_arch.svg",
+      "sha": "1d2cde169a10aa0d85965d11753098f5bf8b0bb9",
+      "size": 6092,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/1d2cde169a10aa0d85965d11753098f5bf8b0bb9"
+    },
+    {
+      "mode": "100644",
+      "path": "assets/genius/lean_card.svg",
+      "sha": "61feabd6c9c3846235bf5b912cfd9c0046413101",
+      "size": 3129,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/61feabd6c9c3846235bf5b912cfd9c0046413101"
+    },
+    {
+      "mode": "100644",
+      "path": "assets/genius/lean_cast.svg",
+      "sha": "a0a093ccb721fcfdb4fd339c76cbebc7352bfaa0",
+      "size": 2632,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/a0a093ccb721fcfdb4fd339c76cbebc7352bfaa0"
+    },
+    {
+      "mode": "040000",
+      "path": "bounties",
+      "sha": "11c5c0a0201fd61c7bbc570f38b8a2433cb75399",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/11c5c0a0201fd61c7bbc570f38b8a2433cb75399"
+    },
+    {
+      "mode": "100644",
+      "path": "bounties/README.md",
+      "sha": "1dd819311365a08735d4ec9edd198c09f3c3fd49",
+      "size": 1204,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/1dd819311365a08735d4ec9edd198c09f3c3fd49"
+    },
+    {
+      "mode": "100644",
+      "path": "bounties/conjecture-1-lambda-uniqueness.yaml",
+      "sha": "7917a0b5527df724febd716a2d0a2364f197888e",
+      "size": 5024,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/7917a0b5527df724febd716a2d0a2364f197888e"
+    },
+    {
+      "mode": "100644",
+      "path": "bounties/conjecture-2-khipu-bft-safety.yaml",
+      "sha": "79a8a8d8f8e073ad378b0a73a7eccd2c0d66fded",
+      "size": 3903,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/79a8a8d8f8e073ad378b0a73a7eccd2c0d66fded"
+    },
+    {
+      "mode": "040000",
+      "path": "branding",
+      "sha": "d7f9acde40c8516216408b07f9359e931963ed24",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/d7f9acde40c8516216408b07f9359e931963ed24"
+    },
+    {
+      "mode": "100644",
+      "path": "branding/szl-avatar-animated.gif",
+      "sha": "3e8fd923ba115a1bc7d7abfa4f05cc480c55f5eb",
+      "size": 2307397,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/3e8fd923ba115a1bc7d7abfa4f05cc480c55f5eb"
+    },
+    {
+      "mode": "040000",
+      "path": "conjectures",
+      "sha": "d3576b28e5dc48090b6f802ba60b5ba3538e3207",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/d3576b28e5dc48090b6f802ba60b5ba3538e3207"
+    },
+    {
+      "mode": "100644",
+      "path": "conjectures/SELF_REPAIR_CONVERGENCE.md",
+      "sha": "269c1e91f20fd272a420d2573a1994a58c74ff28",
+      "size": 5244,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/269c1e91f20fd272a420d2573a1994a58c74ff28"
+    },
+    {
+      "mode": "040000",
+      "path": "conjectures/corpus",
+      "sha": "040469e603063302f45a35d6dba1adc1ec1f4769",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/040469e603063302f45a35d6dba1adc1ec1f4769"
+    },
+    {
+      "mode": "100644",
+      "path": "conjectures/corpus/collatz.md",
+      "sha": "e0d635edbefec970a998b4040c65385aa4c0e99c",
+      "size": 318,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/e0d635edbefec970a998b4040c65385aa4c0e99c"
+    },
+    {
+      "mode": "100644",
+      "path": "conjectures/corpus/goldbach.md",
+      "sha": "98db447b378d4d6cb8e472bf364ae6c0b5714899",
+      "size": 350,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/98db447b378d4d6cb8e472bf364ae6c0b5714899"
+    },
+    {
+      "mode": "040000",
+      "path": "conjectures/samples",
+      "sha": "b8426856c2e94d933ed77b082bafdf905f898e6c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/b8426856c2e94d933ed77b082bafdf905f898e6c"
+    },
+    {
+      "mode": "040000",
+      "path": "conjectures/samples/szl-mixing-map",
+      "sha": "b06748b67978c664efde7694ca2500480fa3701b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/b06748b67978c664efde7694ca2500480fa3701b"
+    },
+    {
+      "mode": "100644",
+      "path": "conjectures/samples/szl-mixing-map/candidate.yaml",
+      "sha": "91a60d08ee4f615a6dcbfa10a12c15070cf8a010",
+      "size": 1290,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/91a60d08ee4f615a6dcbfa10a12c15070cf8a010"
+    },
+    {
+      "mode": "100644",
+      "path": "conjectures/samples/szl-mixing-map/predicate.py",
+      "sha": "c935db252ed54d9d302cb0c529fcb9256eea7fde",
+      "size": 2515,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/c935db252ed54d9d302cb0c529fcb9256eea7fde"
+    },
+    {
+      "mode": "100644",
+      "path": "count_sorries.py",
+      "sha": "1fa27bd9e917bb7dc092a4a9cc0f52a38901132f",
+      "size": 3475,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/1fa27bd9e917bb7dc092a4a9cc0f52a38901132f"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "6c1d6f237e3fe6ee69a5873d7e0d39478d06f811",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/6c1d6f237e3fe6ee69a5873d7e0d39478d06f811"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/FRONTIER.md",
+      "sha": "94cbab17fca00a1318258e250c88cfea178f20b6",
+      "size": 10833,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/94cbab17fca00a1318258e250c88cfea178f20b6"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/bounties.md",
+      "sha": "51a0dd9cd98d2504501c477f39bec7271519bab5",
+      "size": 4921,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/51a0dd9cd98d2504501c477f39bec7271519bab5"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/provenance.md",
+      "sha": "683bbcf16d36a394970384795e198f7132341c8e",
+      "size": 7320,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/683bbcf16d36a394970384795e198f7132341c8e"
+    },
+    {
+      "mode": "040000",
+      "path": "docs/r_papers",
+      "sha": "2e23f67526861c29208d92b4c6555a492bcfbbca",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/2e23f67526861c29208d92b4c6555a492bcfbbca"
+    },
+    {
+      "mode": "040000",
+      "path": "docs/r_papers/math",
+      "sha": "9ff50e0a3826c93bd3c80f458bb795a1e6c5c3f4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/9ff50e0a3826c93bd3c80f458bb795a1e6c5c3f4"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/r_papers/math/A15Status.md",
+      "sha": "c044d6a0191fc84914ceb9a4124d84a9e1b6daa2",
+      "size": 2366,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/c044d6a0191fc84914ceb9a4124d84a9e1b6daa2"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/r_papers/math/INTEGRATION.md",
+      "sha": "13f72bee68d87c2b86a72fc1cdbd87eaf4dfbacf",
+      "size": 6574,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/13f72bee68d87c2b86a72fc1cdbd87eaf4dfbacf"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/r_papers/math/R1Status.md",
+      "sha": "ecc5de7cc2611e56088875a0089276cd01024022",
+      "size": 2560,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/ecc5de7cc2611e56088875a0089276cd01024022"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/r_papers/math/R2Status.md",
+      "sha": "992b5e266956d40f211577c8774d110e4c04dd05",
+      "size": 3458,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/992b5e266956d40f211577c8774d110e4c04dd05"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/r_papers/math/SUMMARY.md",
+      "sha": "481a058e296ab25f11d6e229ee4c7bbfc7ff654b",
+      "size": 5541,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/481a058e296ab25f11d6e229ee4c7bbfc7ff654b"
+    },
+    {
+      "mode": "100644",
+      "path": "dsse_receipts.json",
+      "sha": "7c6f599ce2bcd15816144de178edd7922aae1cc0",
+      "size": 8482,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/7c6f599ce2bcd15816144de178edd7922aae1cc0"
+    },
+    {
+      "mode": "100644",
+      "path": "lake-manifest.json",
+      "sha": "50560a650be985f2fa52f929cbd5d63d84cbbb00",
+      "size": 3097,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/50560a650be985f2fa52f929cbd5d63d84cbbb00"
+    },
+    {
+      "mode": "100644",
+      "path": "lakefile.lean",
+      "sha": "32fe99cf5a71353bbaffe3e29763fefa0bf6c8a9",
+      "size": 4572,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/32fe99cf5a71353bbaffe3e29763fefa0bf6c8a9"
+    },
+    {
+      "mode": "100644",
+      "path": "lean-toolchain",
+      "sha": "b2153cde4e237e5bd26b4b2ff6e507db9fe3496b",
+      "size": 25,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/b2153cde4e237e5bd26b4b2ff6e507db9fe3496b"
+    },
+    {
+      "mode": "040000",
+      "path": "platform",
+      "sha": "0900c06f70584de58b60fd592f697cc1efa467d2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/0900c06f70584de58b60fd592f697cc1efa467d2"
+    },
+    {
+      "mode": "040000",
+      "path": "platform/docs",
+      "sha": "3188deb07dcf61728201203af936da374f48db60",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/3188deb07dcf61728201203af936da374f48db60"
+    },
+    {
+      "mode": "040000",
+      "path": "platform/docs/doctrine",
+      "sha": "9aee05f4e4aeacff5ddcbf887312a6c4762ce88a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/9aee05f4e4aeacff5ddcbf887312a6c4762ce88a"
+    },
+    {
+      "mode": "100644",
+      "path": "platform/docs/doctrine/v12-roadmap.md",
+      "sha": "0c573b9833b07a91bba6953c020994e66c6b8896",
+      "size": 3202,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/0c573b9833b07a91bba6953c020994e66c6b8896"
+    },
+    {
+      "mode": "040000",
+      "path": "proposals",
+      "sha": "8ae0f446f71d6af63cb403d777395ba42d7cc88d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/8ae0f446f71d6af63cb403d777395ba42d7cc88d"
+    },
+    {
+      "mode": "100644",
+      "path": "proposals/INDEX.md",
+      "sha": "572a185d1240a11bcdb3debd43eb0c19d5e202e9",
+      "size": 708,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/572a185d1240a11bcdb3debd43eb0c19d5e202e9"
+    },
+    {
+      "mode": "040000",
+      "path": "proposals/Lutar",
+      "sha": "c3d9355040003783f29b29db5185e769706ff580",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/c3d9355040003783f29b29db5185e769706ff580"
+    },
+    {
+      "mode": "040000",
+      "path": "proposals/Lutar/Innovations",
+      "sha": "de6ecac4a791906da5c146f4d1e9c65103f86b68",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/de6ecac4a791906da5c146f4d1e9c65103f86b68"
+    },
+    {
+      "mode": "040000",
+      "path": "proposals/Lutar/Innovations/round5",
+      "sha": "ee88d02d52bd9bff735cbbec4fbdd7cca0986846",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/ee88d02d52bd9bff735cbbec4fbdd7cca0986846"
+    },
+    {
+      "mode": "100644",
+      "path": "proposals/Lutar/Innovations/round5/HermesMoranIFS.lean",
+      "sha": "678ae6105a2717f7b409ef55cb9b1f425c1298af",
+      "size": 2172,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/678ae6105a2717f7b409ef55cb9b1f425c1298af"
+    },
+    {
+      "mode": "100644",
+      "path": "proposals/Lutar/Innovations/round5/TetractysHMBottleneck.lean",
+      "sha": "adc009a293672920e6ead2981524f0ddcee2adfa",
+      "size": 3205,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/adc009a293672920e6ead2981524f0ddcee2adfa"
+    },
+    {
+      "mode": "100644",
+      "path": "proposals/Lutar/Innovations/round5/TetractysHMBound.lean",
+      "sha": "b0e097aac38409608eb7b45502243f104f74b971",
+      "size": 1805,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/b0e097aac38409608eb7b45502243f104f74b971"
+    },
+    {
+      "mode": "100644",
+      "path": "propose_proof.py",
+      "sha": "06271063e767bbb5ad4c44fe9aa0baae3691f725",
+      "size": 5377,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/06271063e767bbb5ad4c44fe9aa0baae3691f725"
+    },
+    {
+      "mode": "100644",
+      "path": "reference-vectors.json",
+      "sha": "995d6f108b7d428a39c097a391a0b94305abaf29",
+      "size": 3134,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/995d6f108b7d428a39c097a391a0b94305abaf29"
+    },
+    {
+      "mode": "100644",
+      "path": "scoreboard.py",
+      "sha": "805f71eaf7da0ae40b419b487ab153a1402a35b9",
+      "size": 1598,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/805f71eaf7da0ae40b419b487ab153a1402a35b9"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "998d824758a198296da7363cc0e4f5a0541340b7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/998d824758a198296da7363cc0e4f5a0541340b7"
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/check_axiom_drift.sh",
+      "sha": "948ebcd74de9d3f31a812fd443570c78b780df02",
+      "size": 4791,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/948ebcd74de9d3f31a812fd443570c78b780df02"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/check_bounties.py",
+      "sha": "2070c76dfbf02f30d6d13c3e9f1c86387acf9da0",
+      "size": 8961,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/2070c76dfbf02f30d6d13c3e9f1c86387acf9da0"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/close_bounty.py",
+      "sha": "9cbaef730b9361e9ce2e8dbe7ddb27a3fd21bb77",
+      "size": 6089,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/9cbaef730b9361e9ce2e8dbe7ddb27a3fd21bb77"
+    },
+    {
+      "mode": "040000",
+      "path": "team",
+      "sha": "7db9424debbfa16b4c066da68bed68bb8f12319c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/7db9424debbfa16b4c066da68bed68bb8f12319c"
+    },
+    {
+      "mode": "100644",
+      "path": "team/PROVE_WAVE3_REPORT.md",
+      "sha": "60d2df7082e71a838ddd983cdb60aa92f1e0311b",
+      "size": 16328,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/60d2df7082e71a838ddd983cdb60aa92f1e0311b"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "1039790039cf74b1cc22585836ab87420f435321",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/1039790039cf74b1cc22585836ab87420f435321"
+    },
+    {
+      "mode": "040000",
+      "path": "tests/fixtures",
+      "sha": "7ab38f9d24325d71ba013e6a10978a663bdd5e96",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/7ab38f9d24325d71ba013e6a10978a663bdd5e96"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/fixtures/rehearsal_bounty.yaml",
+      "sha": "0f2261daef5c1b484446583e5941763cb74f9538",
+      "size": 2594,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/0f2261daef5c1b484446583e5941763cb74f9538"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_conjecture_grader_refutes_false.py",
+      "sha": "038efa856346707000330fc8fee9cea367b44180",
+      "size": 1808,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/038efa856346707000330fc8fee9cea367b44180"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_count_sorries.py",
+      "sha": "3a0fb47b275bab43ba7d6f9e4088aa4525c3cd74",
+      "size": 5432,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/3a0fb47b275bab43ba7d6f9e4088aa4525c3cd74"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_proven_formulas_guard.py",
+      "sha": "806ce8adb6033ddeb7abf3f7e35f5d259fad4e01",
+      "size": 3754,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/806ce8adb6033ddeb7abf3f7e35f5d259fad4e01"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_repository_hygiene.py",
+      "sha": "fef0d22bb21a47efca55cca8d1c7d0076c43ffce",
+      "size": 1264,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/blobs/fef0d22bb21a47efca55cca8d1c7d0076c43ffce"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/lutar-lean/git/trees/cfc7b1c1e9c2485e94042c9fdd111377f22c228b"
+}

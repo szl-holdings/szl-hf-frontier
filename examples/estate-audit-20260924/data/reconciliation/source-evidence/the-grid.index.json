@@ -1,0 +1,33 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 3864,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:09Z",
+      "path": "data/reconciliation/source-evidence/97a6b5398e90d3bd6d1d4c259b2be289ce9de932aa97967c12c2896bc0849d65.json",
+      "revision": "7395a69b6d38903a555ddf88d7b20bc9afc01395",
+      "sha256": "97a6b5398e90d3bd6d1d4c259b2be289ce9de932aa97967c12c2896bc0849d65",
+      "source_identity": "github/szl-holdings/the-grid",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/the-grid/git/trees/7395a69b6d38903a555ddf88d7b20bc9afc01395?recursive=1"
+    }
+  ],
+  "file_count": 11,
+  "id": "github/szl-holdings/the-grid",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "7395a69b6d38903a555ddf88d7b20bc9afc01395",
+  "root_paths": [
+    "ALIGN.md",
+    "Dockerfile",
+    "LICENSE",
+    "PAYLOAD-01-ALIGN-PUSH.md",
+    "README.md",
+    "docs",
+    "index.html",
+    "play.html",
+    "scripts"
+  ]
+}

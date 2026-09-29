@@ -1,0 +1,33 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 8402,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:56Z",
+      "path": "data/reconciliation/source-evidence/0df4832af7c3adf7e1f6e45c7d85168ff63099bec8977156f7f096de4e10c732.json",
+      "revision": "6a7973aa4c24cfb5a88b732f4d54bed849adcd77",
+      "sha256": "0df4832af7c3adf7e1f6e45c7d85168ff63099bec8977156f7f096de4e10c732",
+      "source_identity": "github/szl-holdings/szl-calibration",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-calibration/git/trees/6a7973aa4c24cfb5a88b732f4d54bed849adcd77?recursive=1"
+    }
+  ],
+  "file_count": 22,
+  "id": "github/szl-holdings/szl-calibration",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "6a7973aa4c24cfb5a88b732f4d54bed849adcd77",
+  "root_paths": [
+    ".github",
+    "CHANGELOG.md",
+    "LICENSE",
+    "OPERATIONS.md",
+    "README.md",
+    "deploy",
+    "pyproject.toml",
+    "src",
+    "tests"
+  ]
+}

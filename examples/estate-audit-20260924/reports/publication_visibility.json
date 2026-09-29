@@ -1,0 +1,19 @@
+{
+  "all_public_confirmed": true,
+  "completed_at": "2026-09-24T12:48:06Z",
+  "expected_artifact_count": 224,
+  "first_authenticated_visibility_report_sha256": "962ac48e12c8180a3091e082f4dac67d4dcc6e7b6f79edecc95400edb0066807",
+  "functional_inference_verified": false,
+  "github_public_confirmed_count": 118,
+  "huggingface_public_confirmed_count": 106,
+  "methods": {
+    "github": "Unauthenticated complete public organization listing with validated Link exhaustion",
+    "huggingface": "Authenticated per-repository metadata reads"
+  },
+  "public_listing_report_sha256": "fdcbc1215e1a09f43d1b14f10260e38ad3f4004c06ebae551afcf05fbccbd72d",
+  "schema": "szl.prepublication-public-eligibility/v1",
+  "scope": "Visibility only; original authenticated census and source observations unchanged.",
+  "snapshot_receipt_sha256": "ad4ef9ed79dca7ffe61e3e1adaafed92698a8a7ad148cdd841fea2c9663c51f7",
+  "source_reviews_sha256": "3dea411d3538ab3504fdd2d372ea5a4c093e441c9e1495f5eaa68cc583fe6e36",
+  "source_revision_revalidated": false
+}

@@ -1,0 +1,40 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 150672,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:04Z",
+      "path": "data/reconciliation/source-evidence/283733fc4b70ee759d6667a62925733a97dc92a4c77ed73e1461b3bce8e6279b.json",
+      "revision": "53c3f3d808db7f4f66843132088dc6c16a0bdbce",
+      "sha256": "283733fc4b70ee759d6667a62925733a97dc92a4c77ed73e1461b3bce8e6279b",
+      "source_identity": "github/szl-holdings/szl-platform",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-platform/git/trees/53c3f3d808db7f4f66843132088dc6c16a0bdbce?recursive=1"
+    }
+  ],
+  "file_count": 404,
+  "id": "github/szl-holdings/szl-platform",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "53c3f3d808db7f4f66843132088dc6c16a0bdbce",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    ".zenodo.json",
+    "BUILD_STATUS.md",
+    "LICENSE",
+    "Makefile",
+    "README.md",
+    "SITE_BUILD_RESULT.md",
+    "alignment",
+    "artifacts",
+    "docs",
+    "packages",
+    "pyproject.toml",
+    "run",
+    "scripts",
+    "site"
+  ]
+}

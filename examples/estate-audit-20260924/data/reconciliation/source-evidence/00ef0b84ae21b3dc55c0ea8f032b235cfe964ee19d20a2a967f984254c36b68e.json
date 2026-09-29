@@ -1,0 +1,338 @@
+{
+  "sha": "0c68abbc41f9327fdf4ffad88a474bcc01eb8e6b",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "f01d0e4ba00f163d1483f0cf31cf96a26643cdd8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/trees/f01d0e4ba00f163d1483f0cf31cf96a26643cdd8"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODEOWNERS",
+      "sha": "5c3d60d2e173f38916e13078a9bda8429626302b",
+      "size": 74,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/5c3d60d2e173f38916e13078a9bda8429626302b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "sha": "415a0a14aebe0102d5db82dcc51dde5db16619f0",
+      "size": 600,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/415a0a14aebe0102d5db82dcc51dde5db16619f0"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CONTRIBUTING.md",
+      "sha": "5395adb4800a22e7fa4883e023301bdc80246bcf",
+      "size": 804,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/5395adb4800a22e7fa4883e023301bdc80246bcf"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/ISSUE_TEMPLATE",
+      "sha": "b406cf7e4f23537f8539f6f81f4cbb4d2eae3f2b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/trees/b406cf7e4f23537f8539f6f81f4cbb4d2eae3f2b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha": "a7c1834f7f391ab52cb7efafe6dffe86e69d54d7",
+      "size": 156,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/a7c1834f7f391ab52cb7efafe6dffe86e69d54d7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "2c7fa02994b4d1e777139a1056acfe0cfc48b806",
+      "size": 224,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/2c7fa02994b4d1e777139a1056acfe0cfc48b806"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha": "2172fe4a415edecdbe763328b04d826137d25987",
+      "size": 169,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/2172fe4a415edecdbe763328b04d826137d25987"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/pull_request_template.md",
+      "sha": "fbc961ca36e0bdad281263470f3d054f6bc98d44",
+      "size": 384,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/fbc961ca36e0bdad281263470f3d054f6bc98d44"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "9950668b05ef9b035bfdabea707bc960673a62de",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/trees/9950668b05ef9b035bfdabea707bc960673a62de"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "65d98d1929a80b2ff87114fecd604ea2809cdbe6",
+      "size": 1423,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/65d98d1929a80b2ff87114fecd604ea2809cdbe6"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/overclaim-guard.yml",
+      "sha": "7d6be6ea81d2fb1f4829869c1f06c416f581d633",
+      "size": 691,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/7d6be6ea81d2fb1f4829869c1f06c416f581d633"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/pin-check.yml",
+      "sha": "f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621",
+      "size": 586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "8837e0d12747f7a0e900bd4426b9bed676b086fa",
+      "size": 41,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/8837e0d12747f7a0e900bd4426b9bed676b086fa"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "525082e9cd021bf6e6c65fdcaaba8cbbb2e42dca",
+      "size": 690,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/525082e9cd021bf6e6c65fdcaaba8cbbb2e42dca"
+    },
+    {
+      "mode": "100644",
+      "path": "CODEOWNERS",
+      "sha": "e4b1a947665b83a89f04657cf4ef3843c85b6aa2",
+      "size": 214,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/e4b1a947665b83a89f04657cf4ef3843c85b6aa2"
+    },
+    {
+      "mode": "100644",
+      "path": "CONTRIBUTING.md",
+      "sha": "61d62f9b86f7ac1f5e6e50f27e951c214f710b07",
+      "size": 1107,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/61d62f9b86f7ac1f5e6e50f27e951c214f710b07"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "Makefile",
+      "sha": "6b025d6735e1c279843e9615142c90a385000de1",
+      "size": 1385,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/6b025d6735e1c279843e9615142c90a385000de1"
+    },
+    {
+      "mode": "100644",
+      "path": "NOTICE",
+      "sha": "63326fd665581ce99e6ddd4bdb47aa8de723a87c",
+      "size": 1017,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/63326fd665581ce99e6ddd4bdb47aa8de723a87c"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "1bd9edd7598497a49880bbe2e5af546a0bb1d2a5",
+      "size": 10448,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/1bd9edd7598497a49880bbe2e5af546a0bb1d2a5"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "b1fd01c2bf06a843ce86b67b0664588540760c55",
+      "size": 896,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/b1fd01c2bf06a843ce86b67b0664588540760c55"
+    },
+    {
+      "mode": "040000",
+      "path": "fixtures",
+      "sha": "27005cc8e45f7d3959c1edb026b1207775e796fa",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/trees/27005cc8e45f7d3959c1edb026b1207775e796fa"
+    },
+    {
+      "mode": "100644",
+      "path": "fixtures/PROOF.md",
+      "sha": "02d994114db04454e92952ba0f4974aa7e497ddd",
+      "size": 5265,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/02d994114db04454e92952ba0f4974aa7e497ddd"
+    },
+    {
+      "mode": "100644",
+      "path": "fixtures/bundle.tar.zst",
+      "sha": "ea3defb35d309ac00b1b76d9c358e3809b7bbdc7",
+      "size": 3974,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/ea3defb35d309ac00b1b76d9c358e3809b7bbdc7"
+    },
+    {
+      "mode": "100644",
+      "path": "fixtures/bundle.tar.zst.rekor.bundle",
+      "sha": "3f4008451e8949e697b04c1b47e872965b07e95a",
+      "size": 1147,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/3f4008451e8949e697b04c1b47e872965b07e95a"
+    },
+    {
+      "mode": "100644",
+      "path": "fixtures/bundle.tar.zst.sha256",
+      "sha": "e1908ae3890ffdbd63eed545d59f366098990a50",
+      "size": 81,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/e1908ae3890ffdbd63eed545d59f366098990a50"
+    },
+    {
+      "mode": "100644",
+      "path": "fixtures/bundle.tar.zst.sig",
+      "sha": "bf9dbb1a69b36a83066c6f82ec44507cfc091457",
+      "size": 97,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/bf9dbb1a69b36a83066c6f82ec44507cfc091457"
+    },
+    {
+      "mode": "100644",
+      "path": "fixtures/cosign.pub",
+      "sha": "c54b1440954212d35e5c029db3f0761f99f45a5f",
+      "size": 178,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/c54b1440954212d35e5c029db3f0761f99f45a5f"
+    },
+    {
+      "mode": "100644",
+      "path": "proof_packet.md",
+      "sha": "bcca7a2c8077dffc8e61032192f5e7d740455db8",
+      "size": 3467,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/bcca7a2c8077dffc8e61032192f5e7d740455db8"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "e985d214716826859756ab4d28b25f28e11cedfd",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/trees/e985d214716826859756ab4d28b25f28e11cedfd"
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/airgap_test.sh",
+      "sha": "9ea871ce23129bfa8348e497339559ddfe5f8e2f",
+      "size": 7087,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/9ea871ce23129bfa8348e497339559ddfe5f8e2f"
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/bootstrap_verify.sh",
+      "sha": "b0fb6135a5cf53063de4f302f1f69dc9685b493f",
+      "size": 9570,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/b0fb6135a5cf53063de4f302f1f69dc9685b493f"
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/core_demo.sh",
+      "sha": "06485c1cb778fe7a8314d8e82465b4ba10dbebda",
+      "size": 9988,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/06485c1cb778fe7a8314d8e82465b4ba10dbebda"
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/demo_run.sh",
+      "sha": "a732ddef86a12ef9eeacca23e0dbb47e7314b595",
+      "size": 5287,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/a732ddef86a12ef9eeacca23e0dbb47e7314b595"
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/kill_organ.sh",
+      "sha": "169bc78571f96a4664d6be76101fce47958d96ff",
+      "size": 2326,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/169bc78571f96a4664d6be76101fce47958d96ff"
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/receipt_adversarial_test.py",
+      "sha": "ecd47e1224e6f24edef9b89cacb09b6196c8b1a3",
+      "size": 9550,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/ecd47e1224e6f24edef9b89cacb09b6196c8b1a3"
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/rehearse.sh",
+      "sha": "78c47969a151a9d3a6906252de267df874a2a92f",
+      "size": 2884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/78c47969a151a9d3a6906252de267df874a2a92f"
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/rehearse_ci.sh",
+      "sha": "29b3c46d11c5b88ca7bdff94335c7939067c6d06",
+      "size": 7315,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/29b3c46d11c5b88ca7bdff94335c7939067c6d06"
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/restore_organ.sh",
+      "sha": "8aff24ff9360e174951fcd76f0317a079cf19910",
+      "size": 1123,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/8aff24ff9360e174951fcd76f0317a079cf19910"
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/thermal_guard.sh",
+      "sha": "766765d9bb5eab6f75308fbe6373fb71eb0f53c0",
+      "size": 2373,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/766765d9bb5eab6f75308fbe6373fb71eb0f53c0"
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/tower_bootstrap.sh",
+      "sha": "1323bb8efe7e27d0ad71b335fa9b30460bf28f9f",
+      "size": 4384,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/blobs/1323bb8efe7e27d0ad71b335fa9b30460bf28f9f"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/warhacker-demo/git/trees/0c68abbc41f9327fdf4ffad88a474bcc01eb8e6b"
+}

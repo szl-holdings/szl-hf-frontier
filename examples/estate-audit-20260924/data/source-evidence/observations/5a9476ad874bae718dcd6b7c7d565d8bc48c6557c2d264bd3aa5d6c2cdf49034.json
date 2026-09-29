@@ -1,0 +1,40 @@
+{
+  "card": "---\nlicense: apache-2.0\nlibrary_name: numpy\ntags:\n  - governed-ai\n  - khipu\n  - szl-holdings\n  - moons\n  - mlp\n  - silhouette\n  - software\n  - reference\n  - test-fixture\n---\n\n> **Status: SOFTWARE / REFERENCE / TEST FIXTURE.** Not a production model.\n\nThis Hub repository contains a bare NumPy archive. The loading and forward-pass\nimplementation lives in the canonical `szl_khipu` package; no packaged Hub\nloader or `config.json` is shipped alongside these weights. Treat this as a\nsoftware fixture until its complete inference contract is independently verified.\n\n# Moons-Nano\n\nTwo-moons **2\u21928\u21922** tanh-softmax SGD. A few hundred floats. **Not 1.5B. Not Qwen. Not a foundation model.**\n\nCanonical source: [szl-holdings/szl-khipu](https://github.com/szl-holdings/szl-khipu)  \nSibling card: [SZLHOLDINGS/szl-khipu](https://huggingface.co/SZLHOLDINGS/szl-khipu)\n\n```python\nfrom szl_khipu.train import moons\n\nweights, ev = moons.train(seed=20260721, steps=400)\nprint(ev[\"acc\"], ev[\"loss\"])\n# REPORTED: acc 0.93 \u00b7 loss ~0.13 on the training moons\nmoons.save_npz(\"moons.npz\", weights)\n```\n\n## What it does\n\n- Classic two-moons toy classification. Hidden width 8. Softmax over 2.\n- Trained here on CPU NumPy. Honesty **REPORTED**. Energy **UNAVAILABLE**.\n\n## Bench (this tree)\n\n`TRAINING_RECEIPT.json` seed `20260721` \u00b7 steps 400 \u00b7 honesty **REPORTED**\n\n| Metric | Value |\n|---|---|\n| acc | 0.93 |\n| loss | ~0.13 |\n| weights | `moons.npz` sha256 `dda50e3b293534de3f5aec01ebf9f8d6688e06069931618dfd35f01369904104` |\n\nInfers on `POST /api/infer {\"kind\":\"moons\",\"x\":0.2,\"y\":0.3}`. **Not 1.5B. Not a published benchmark.**\n\n## What it is NOT\n\n- **Not SZL-Khipu-1.5B.** Not QLoRA. Not a chat model.\n- **Not sklearn moons as a product claim.** A live silhouette so the estate has a TRAINED tiny MLP that actually ran.\n- **Not proven trust.** \u039b uniqueness remains Conjecture 1 OPEN.\n- Energy **UNAVAILABLE**. CUDA **UNAVAILABLE**. Never a fabricated joule.\n\n## Honesty\n\n| Claim | Label | What-NOT |\n|---|---|---|\n| Weights trained in this package | REPORTED | silhouette, Not 1.5B |\n| acc 0.93 on the training moons | REPORTED | not a published benchmark |\n| \u039b | ADVISORY \u00b7 Conjecture 1 OPEN | never a theorem |\n| Energy | UNAVAILABLE | never a fabricated joule |\n| CUDA | UNAVAILABLE | CPU numpy LIVE |\n\nDoctrine v11 LOCKED \u00b7 749/14/163 \u00b7 locked-proven 8. Apache-2.0. Copyright 2026 SZL Holdings \u00b7 Stephen P. Lutar Jr. \u00b7 ORCID [0009-0001-0110-4173](https://orcid.org/0009-0001-0110-4173).\n\n## Artifact evidence\n\n`moons.npz` is present (1,302 bytes). SHA-256:\n\n`dda50e3b293534de3f5aec01ebf9f8d6688e06069931618dfd35f01369904104`\n\nThe archive hash matches `TRAINING_RECEIPT.json`. Its arrays were inspected\nwith `numpy.load(..., allow_pickle=False)`; numeric values were finite.\n\n| Array | Shape | Data type |\n| --- | --- | --- |\n| `W1` | `[8, 2]` | `float64` |\n| `b1` | `[8]` | `float64` |\n| `W2` | `[2, 8]` | `float64` |\n| `b2` | `[2]` | `float64` |\n\nA matching unsigned receipt establishes local artifact consistency. Training\nmetrics remain reported synthetic results; this check does not independently\nreproduce training or establish deployment, general intelligence, or production readiness.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 285,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/f2eb7b4b129dac73931df645db1fc01873f19ce28f0123e78239e265803b644d.json",
+      "revision": "77d002f9314dc0c86cd0f14e63fff60364929652",
+      "sha256": "f2eb7b4b129dac73931df645db1fc01873f19ce28f0123e78239e265803b644d",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/Moons-Nano/revision/77d002f9314dc0c86cd0f14e63fff60364929652"
+    },
+    {
+      "bytes": 3197,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/3e52b97694e268f57a086b73d24c8c4d69ff496516f2cd1c2c4fb87964d04ef1.md",
+      "revision": "77d002f9314dc0c86cd0f14e63fff60364929652",
+      "sha256": "3e52b97694e268f57a086b73d24c8c4d69ff496516f2cd1c2c4fb87964d04ef1",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/SZLHOLDINGS/Moons-Nano/resolve/77d002f9314dc0c86cd0f14e63fff60364929652/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "BENCH.laptop-blackwell.json",
+    "LICENSE",
+    "README.md",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "moons.npz",
+    "provenance.json",
+    "status.json"
+  ],
+  "id": "huggingface-model/szlholdings/moons-nano",
+  "observed_at": "2026-09-24T12:29:52Z",
+  "observed_revision": "77d002f9314dc0c86cd0f14e63fff60364929652"
+}

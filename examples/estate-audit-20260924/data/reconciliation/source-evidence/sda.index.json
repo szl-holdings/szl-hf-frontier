@@ -1,0 +1,39 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 10069,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:55Z",
+      "path": "data/reconciliation/source-evidence/3c1e75126b4b7f938ee8b6bb22ffe7a2e100f5cdc2caa92c82d1d96ec300bc64.json",
+      "revision": "459e80f66847c51353afa140469330074eb8c27b",
+      "sha256": "3c1e75126b4b7f938ee8b6bb22ffe7a2e100f5cdc2caa92c82d1d96ec300bc64",
+      "source_identity": "github/szl-holdings/sda",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/sda/git/trees/459e80f66847c51353afa140469330074eb8c27b?recursive=1"
+    }
+  ],
+  "file_count": 30,
+  "id": "github/szl-holdings/sda",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "459e80f66847c51353afa140469330074eb8c27b",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "Dockerfile",
+    "FOLD.md",
+    "LICENSE",
+    "README.md",
+    "SPACE_PROVENANCE.json",
+    "assets",
+    "index.html",
+    "scripts",
+    "server.py",
+    "szl-holo-v2.css",
+    "szl-holo-v2.js",
+    "szl_source_attestation.py",
+    "tests"
+  ]
+}

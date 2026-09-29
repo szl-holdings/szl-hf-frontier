@@ -1,0 +1,72 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 245708,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:08Z",
+      "path": "data/reconciliation/source-evidence/6343a0a6a55c9e2a6c9a2318d15706a0690ac1dfc2fd2ccc61276a4ae0ca37ff.json",
+      "revision": "5e5bf7aae7fe10c7aaa09cdd4a4e6cbe95e32129",
+      "sha256": "6343a0a6a55c9e2a6c9a2318d15706a0690ac1dfc2fd2ccc61276a4ae0ca37ff",
+      "source_identity": "github/szl-holdings/szl-typesafe-triage",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-typesafe-triage/git/trees/5e5bf7aae7fe10c7aaa09cdd4a4e6cbe95e32129?recursive=1"
+    },
+    {
+      "bytes": 632,
+      "kind": "license_file",
+      "observed_at": "2026-09-24T13:27:08Z",
+      "path": "data/reconciliation/source-evidence/e3b7aae0c974661d691100c7c03e1d89e239238495a6dcd77c9e0c59c557bde7.txt",
+      "revision": "5e5bf7aae7fe10c7aaa09cdd4a4e6cbe95e32129",
+      "sha256": "e3b7aae0c974661d691100c7c03e1d89e239238495a6dcd77c9e0c59c557bde7",
+      "source_identity": "github/szl-holdings/szl-typesafe-triage",
+      "source_path": "LICENSE",
+      "url": "https://github.com/szl-holdings/szl-typesafe-triage/blob/5e5bf7aae7fe10c7aaa09cdd4a4e6cbe95e32129/LICENSE"
+    }
+  ],
+  "file_count": 691,
+  "id": "github/szl-holdings/szl-typesafe-triage",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "5e5bf7aae7fe10c7aaa09cdd4a4e6cbe95e32129",
+  "root_paths": [
+    ".gitattributes",
+    ".github",
+    ".gitignore",
+    ".tmp",
+    "ARCHITECTURE.md",
+    "CITATION.cff",
+    "HF_MODEL_CARD_README.md",
+    "LICENSE",
+    "NOTICE",
+    "PROMOTION_THRESHOLDS.json",
+    "README.md",
+    "SZL-TRIAGE-RUNBOOK.ps1",
+    "bootstrap-five-seed-study.ps1",
+    "corpus",
+    "dataset",
+    "docs",
+    "env-freeze-20260922-143048.txt",
+    "eval_run.log",
+    "evidence",
+    "fixtures",
+    "go3.ps1",
+    "go_publish.ps1",
+    "logs",
+    "ops-report",
+    "out",
+    "output",
+    "policies",
+    "pyproject.toml",
+    "quarantine",
+    "repair-20260922-143048.log",
+    "reports",
+    "scripts",
+    "skills",
+    "src",
+    "tests",
+    "tools",
+    "triage"
+  ]
+}

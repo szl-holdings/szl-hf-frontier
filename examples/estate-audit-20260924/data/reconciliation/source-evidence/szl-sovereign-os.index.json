@@ -1,0 +1,41 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 8003,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:07Z",
+      "path": "data/reconciliation/source-evidence/a4d6a22a898bbfad04fafd24b1ba583a42d9424d0a59197a5185c07c564fb947.json",
+      "revision": "a18f76e9487568a2aa1d0c5375b543e1b228c91a",
+      "sha256": "a4d6a22a898bbfad04fafd24b1ba583a42d9424d0a59197a5185c07c564fb947",
+      "source_identity": "github/szl-holdings/szl-sovereign-os",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/trees/a18f76e9487568a2aa1d0c5375b543e1b228c91a?recursive=1"
+    }
+  ],
+  "file_count": 23,
+  "id": "github/szl-holdings/szl-sovereign-os",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "a18f76e9487568a2aa1d0c5375b543e1b228c91a",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    ".hf-space.json",
+    "Dockerfile",
+    "FOLD.md",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "SECURITY.md",
+    "app.py",
+    "index.html",
+    "pyproject.toml",
+    "requirements.txt",
+    "szl-holo-v2.css",
+    "szl-holo-v2.js",
+    "szl_os",
+    "tests"
+  ]
+}

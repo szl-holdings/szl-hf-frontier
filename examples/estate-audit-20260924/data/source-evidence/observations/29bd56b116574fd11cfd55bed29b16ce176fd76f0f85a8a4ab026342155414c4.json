@@ -1,0 +1,20 @@
+{
+  "card": "# SZL Runbook Catalog\n\nThe estate's registry of **receipted task specs**. Pattern credit: SkyPilot's\ncatalog made reusable task specs a first-class artifact. The SZL evolution:\nevery spec is hash-committed, validated fail-closed, and carries a receipt\nanyone can recompute offline.\n\n## Layout\n\n- `catalog.yaml` \u2014 the registry: every admitted spec, its class, its receipt\n- `specs/` \u2014 the specs themselves (YAML front-matter + body)\n- `catalog.py` \u2014 stdlib-only validator: schema, registry linkage, receipt\n  recomputation. Exit non-zero on any violation. No third-party deps.\n- `.github/workflows/validate.yml` - source-artifact validation on pull requests\n  and `main`\n\n## Spec classes\n\n| class | purpose |\n|---|---|\n| `bench` | benchmark lane invocations (retrieval / engine / quant / calibration) |\n| `kernel-fixture` | deterministic kernel fixtures and expected invariants |\n| `gpu-jobspec` | szl-gpu-bridge job envelopes (DSSE-signed downstream) |\n| `vertical-asset` | wiring records binding a vertical to its repos/kernels/models |\n\n## The receipt\n\n`sha256` over the canonical payload: sorted keys, compact separators, the\n`receipt` field excluded. Recompute any spec:\n\n```bash\npython3 catalog.py verify            # whole catalog, fail-closed\npython3 catalog.py verify specs/bench/retrieval-wave1.spec.md   # one spec\n```\n\nThe whole-catalog command fails closed when `catalog.yaml` or `specs/` is\nmissing, when no specs are discovered, or when registry IDs and spec artifacts\ndo not match exactly. CI also runs adversarial tests for those cases.\n\n## Provider ownership\n\nThis repository is source-only. It does not upload `estates.json`,\n`verticals.json`, or any other artifact to Hugging Face. The Constellation\nrelease lane exclusively owns publication of the canonical manifests in\n`SZLHOLDINGS/szl-constellation`; catalog validation requires no provider token.\n\nDoctrine v11 \u2014 a spec that fails validation is BLOCKED, never grandfathered.\nApache-2.0 \u00b7 SZL Holdings\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 1984,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/ffbb6c7b6ddb2a47670a7795902f44fa0ebffa8ae3dacbc63bfa2f4bc91926e5.md",
+      "revision": "0377faa91464775604e22f3aff81fcde62da8054",
+      "sha256": "ffbb6c7b6ddb2a47670a7795902f44fa0ebffa8ae3dacbc63bfa2f4bc91926e5",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-runbook-catalog/blob/0377faa91464775604e22f3aff81fcde62da8054/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-runbook-catalog",
+  "observed_at": "2026-09-24T12:29:40Z",
+  "observed_revision": "0377faa91464775604e22f3aff81fcde62da8054"
+}

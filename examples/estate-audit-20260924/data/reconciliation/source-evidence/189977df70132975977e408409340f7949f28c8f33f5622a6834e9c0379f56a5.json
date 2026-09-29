@@ -1,0 +1,114 @@
+{
+  "sha": "787891967b412fd3211856ffc0b2e6e4bf6da205",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "eb1a25ae105d1e90f79b3f06f821596f2e25c28d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/receipt-chain-live/git/trees/eb1a25ae105d1e90f79b3f06f821596f2e25c28d"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "f34ba6c2b3b8b8461a23c9c28f0f85be5631df2e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/receipt-chain-live/git/trees/f34ba6c2b3b8b8461a23c9c28f0f85be5631df2e"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-static-space.yml",
+      "sha": "24f237546b30e2dc8a3cedc76039e50dbb07d1a0",
+      "size": 42884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/receipt-chain-live/git/blobs/24f237546b30e2dc8a3cedc76039e50dbb07d1a0"
+    },
+    {
+      "mode": "100644",
+      "path": ".hf-space.json",
+      "sha": "0ebe9ad59cd5acdaca1f46fc22f94213e773a693",
+      "size": 320,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/receipt-chain-live/git/blobs/0ebe9ad59cd5acdaca1f46fc22f94213e773a693"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "6a400e011f1cf8f455404c167c99d81d7b3ba1ab",
+      "size": 11343,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/receipt-chain-live/git/blobs/6a400e011f1cf8f455404c167c99d81d7b3ba1ab"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "2a5ef08dffabf6ab906e6b3d98e7bcc5b03d890c",
+      "size": 4892,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/receipt-chain-live/git/blobs/2a5ef08dffabf6ab906e6b3d98e7bcc5b03d890c"
+    },
+    {
+      "mode": "100644",
+      "path": "index.html",
+      "sha": "3396079aa6d5204205e66dca90d8bfee751fa580",
+      "size": 28313,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/receipt-chain-live/git/blobs/3396079aa6d5204205e66dca90d8bfee751fa580"
+    },
+    {
+      "mode": "040000",
+      "path": "requirements",
+      "sha": "c4a2349eb027c2f71bdd75c37be8d80213fd37c4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/receipt-chain-live/git/trees/c4a2349eb027c2f71bdd75c37be8d80213fd37c4"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements/hf-publisher.lock",
+      "sha": "89923e2e202cfc99961e39d5b00b8ea7196d2c58",
+      "size": 2322,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/receipt-chain-live/git/blobs/89923e2e202cfc99961e39d5b00b8ea7196d2c58"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements/hf-validator.lock",
+      "sha": "ffa192b083d49aa273afe77085b28c54f2f043dc",
+      "size": 265,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/receipt-chain-live/git/blobs/ffa192b083d49aa273afe77085b28c54f2f043dc"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "422416396ec47e7456618d7a92fc69ee420d0f1f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/receipt-chain-live/git/trees/422416396ec47e7456618d7a92fc69ee420d0f1f"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/hf_static_space.py",
+      "sha": "81c3a5ea13188012579b88585b1b3edcda8e98b1",
+      "size": 97795,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/receipt-chain-live/git/blobs/81c3a5ea13188012579b88585b1b3edcda8e98b1"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "41610706a2a16d520a12ea7d5456a8259645c8cd",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/receipt-chain-live/git/trees/41610706a2a16d520a12ea7d5456a8259645c8cd"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_hf_static_space.py",
+      "sha": "9487a7f14955a53c5953deb74f411c36554d174b",
+      "size": 109292,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/receipt-chain-live/git/blobs/9487a7f14955a53c5953deb74f411c36554d174b"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/receipt-chain-live/git/trees/787891967b412fd3211856ffc0b2e6e4bf6da205"
+}

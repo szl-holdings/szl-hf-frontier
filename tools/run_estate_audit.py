@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 from tools.capture_estate_snapshots import (  # noqa: E402
-    CollectionError, capture, sha256, utc_now, verify_snapshot_set, write_json,
+    CollectionError, capture, export_public_snapshot, sha256, utc_now, verify_snapshot_set, write_json,
 )
 
 
@@ -25,12 +25,13 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--skip-capture", action="store_true", help="Verify and compile existing receipt-bound snapshots without network calls.")
     parser.add_argument("--public-only", action="store_true", help="Explicit anonymous capture when not skipping capture.")
     parser.add_argument("--snapshots", type=Path, default=ROOT / "data/snapshots")
+    parser.add_argument("--raw-snapshots", type=Path, default=ROOT / ".estate-private/snapshots", help="Ignored local authenticated census; used when refreshing committed public snapshots.")
     parser.add_argument("--registry", type=Path, default=ROOT / "data/estate_registry.json")
     parser.add_argument("--gaps", type=Path, default=ROOT / "reports/unresolved_gaps.json")
     parser.add_argument("--receipt", type=Path, default=ROOT / "reports/estate_audit_receipt.json")
     parser.add_argument("--reviews", type=Path)
     args = parser.parse_args(argv)
-    for field in ("snapshots", "registry", "gaps", "receipt", "reviews"):
+    for field in ("snapshots", "raw_snapshots", "registry", "gaps", "receipt", "reviews"):
         value = getattr(args, field)
         if value is not None:
             setattr(args, field, value.resolve())
@@ -39,13 +40,23 @@ def main(argv: list[str] | None = None) -> int:
     code = 1
     try:
         if not args.skip_capture:
-            observation = capture(args.snapshots, public_only=args.public_only)
+            committed = args.snapshots == (ROOT / "data/snapshots").resolve()
+            if committed and args.public_only:
+                raise CollectionError("COMMITTED_SNAPSHOT_REQUIRES_AUTHENTICATED_PUBLIC_PROJECTION")
+            observation = capture(args.raw_snapshots if committed else args.snapshots, public_only=args.public_only)
             receipt["stages"]["capture"] = "COMPLETE" if observation["complete"] else "FAILED"
             if not observation["complete"]:
                 raise CollectionError("CAPTURE_FAILED")
+            if committed:
+                export_public_snapshot(args.raw_snapshots, args.snapshots)
         else:
             receipt["stages"]["capture"] = "SKIPPED_EXISTING_SNAPSHOTS"
         snapshot = verify_snapshot_set(args.snapshots)
+        if snapshot.get("scope") == "TOKEN_VISIBLE":
+            private_root = ROOT.resolve() / ".estate-private"
+            for path in (args.registry, args.gaps, args.receipt):
+                if path.is_relative_to(ROOT.resolve()) and not path.is_relative_to(private_root):
+                    raise CollectionError("PRIVATE_INPUT_REQUIRES_LOCAL_OUTPUTS")
         receipt["snapshot_receipt_sha256"] = sha256(args.snapshots / "snapshot_receipt.json")
         receipt["snapshot_scope"] = snapshot["scope"]
         receipt["stages"]["snapshot_integrity"] = "VERIFIED_UNSIGNED"

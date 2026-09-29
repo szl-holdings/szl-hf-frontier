@@ -1,0 +1,13 @@
+{
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "provenance.json",
+    "qantu.npz",
+    "status.json"
+  ],
+  "revision": "5308d6654f80c8031e3279fa21ae095f7a71ca43"
+}

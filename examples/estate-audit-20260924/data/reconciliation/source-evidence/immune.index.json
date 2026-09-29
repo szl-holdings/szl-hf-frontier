@@ -1,0 +1,48 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 77551,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:50Z",
+      "path": "data/reconciliation/source-evidence/67534252dc5e6c20f42431a518ad76e4464afe1c2177efa7ee57c86269825b71.json",
+      "revision": "4c3040cb3b2202e316ff478fe274cdd44cff21db",
+      "sha256": "67534252dc5e6c20f42431a518ad76e4464afe1c2177efa7ee57c86269825b71",
+      "source_identity": "github/szl-holdings/immune",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/4c3040cb3b2202e316ff478fe274cdd44cff21db?recursive=1"
+    }
+  ],
+  "file_count": 230,
+  "id": "github/szl-holdings/immune",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "4c3040cb3b2202e316ff478fe274cdd44cff21db",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    ".zenodo.json",
+    "CITATION.cff",
+    "CODEOWNERS",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LEDGER_FIELD_KEYS.md",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "contracts",
+    "data",
+    "docs",
+    "frontend",
+    "package.json",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    "python",
+    "ruff.toml",
+    "scripts",
+    "server",
+    "tests",
+    "tsconfig.server.json"
+  ]
+}

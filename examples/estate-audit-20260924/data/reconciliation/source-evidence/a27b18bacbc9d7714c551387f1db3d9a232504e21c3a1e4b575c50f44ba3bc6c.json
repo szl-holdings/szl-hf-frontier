@@ -1,0 +1,4177 @@
+{
+  "sha": "aa89bb1bbb6d606dbad6b9f8e4df78ae688db5ef",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".compliance",
+      "sha": "ed232d786c5361354f4102b53ca08754112c1218",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/ed232d786c5361354f4102b53ca08754112c1218"
+    },
+    {
+      "mode": "040000",
+      "path": ".compliance/attestations",
+      "sha": "79568108c04b6fe534bfbba3f2e896386dd5e4dc",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/79568108c04b6fe534bfbba3f2e896386dd5e4dc"
+    },
+    {
+      "mode": "100644",
+      "path": ".compliance/attestations/cmmc_l1_self_attest.json",
+      "sha": "8b7e3ec72b0a7b02703cdc03a61b24ddf62bb7ec",
+      "size": 264,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/8b7e3ec72b0a7b02703cdc03a61b24ddf62bb7ec"
+    },
+    {
+      "mode": "100644",
+      "path": ".compliance/attestations/section_889_attestation.json",
+      "sha": "475a05681ed95cde02d90e6f796460a6fd59b54d",
+      "size": 599,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/475a05681ed95cde02d90e6f796460a6fd59b54d"
+    },
+    {
+      "mode": "100644",
+      "path": ".compliance/attestations/slsa_level.json",
+      "sha": "86c676d56440aaafd9e96c6beca88ca287e29f72",
+      "size": 291,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/86c676d56440aaafd9e96c6beca88ca287e29f72"
+    },
+    {
+      "mode": "040000",
+      "path": ".compliance/doctrine",
+      "sha": "7268002d0fec58dc0a5319e703f30ff46c13240e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/7268002d0fec58dc0a5319e703f30ff46c13240e"
+    },
+    {
+      "mode": "100644",
+      "path": ".compliance/doctrine/manifest.json",
+      "sha": "552ae87d2161db98d4135be1036ee6167f0775da",
+      "size": 148,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/552ae87d2161db98d4135be1036ee6167f0775da"
+    },
+    {
+      "mode": "100644",
+      "path": ".compliance/doctrine/v11_snapshot_20260602.json",
+      "sha": "e274966a42fb5f302409b61921237880537ad7b2",
+      "size": 1568,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/e274966a42fb5f302409b61921237880537ad7b2"
+    },
+    {
+      "mode": "040000",
+      "path": ".compliance/sboms",
+      "sha": "4c0ce7e8ccb69d25e85ab7c4c1d06c7062278022",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/4c0ce7e8ccb69d25e85ab7c4c1d06c7062278022"
+    },
+    {
+      "mode": "100644",
+      "path": ".compliance/sboms/manifest.json",
+      "sha": "288e8693291ef38b843a37724a475cb3ed176bd9",
+      "size": 613,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/288e8693291ef38b843a37724a475cb3ed176bd9"
+    },
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "1a14c01aa1923a84f1434d242af9462a6068faad",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/1a14c01aa1923a84f1434d242af9462a6068faad"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODEOWNERS",
+      "sha": "1c7a61b319348e223e718a0a34ddfe74d4915b8a",
+      "size": 240,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/1c7a61b319348e223e718a0a34ddfe74d4915b8a"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/ISSUE_TEMPLATE",
+      "sha": "d5c0087dc81e8ce6fcb8871475465528418b650a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/d5c0087dc81e8ce6fcb8871475465528418b650a"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha": "e7528e82952e7882096165c66bd7aa4cc516bd53",
+      "size": 1773,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/e7528e82952e7882096165c66bd7aa4cc516bd53"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "ea552b8fa3eea9aba4e64d06cceed702a117217e",
+      "size": 597,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/ea552b8fa3eea9aba4e64d06cceed702a117217e"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "5b76b22dd93c4f36251e33031c3d6bff526a2325",
+      "size": 678,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/5b76b22dd93c4f36251e33031c3d6bff526a2325"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/dependabot.yml",
+      "sha": "ffea88645fcdfe6a90bee976fdae638135e3acb5",
+      "size": 372,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/ffea88645fcdfe6a90bee976fdae638135e3acb5"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/scripts",
+      "sha": "2349576b5d857386a6c952889515487c9a1b9ce7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/2349576b5d857386a6c952889515487c9a1b9ce7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/scripts/regen_quant_manifest.py",
+      "sha": "92a0e377d054dc414d5c89fcc012265e2e8aa81f",
+      "size": 3796,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/92a0e377d054dc414d5c89fcc012265e2e8aa81f"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/verify-anchor-receipts-baseline.json",
+      "sha": "039b14033934c7508752a8835df64e170a82fe64",
+      "size": 468,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/039b14033934c7508752a8835df64e170a82fe64"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "2b6813accb6f01ae792ed00ebb006732184db9f5",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/2b6813accb6f01ae792ed00ebb006732184db9f5"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/base-python-ci.yml",
+      "sha": "e68a73b3425241a15215fffddaeef11d0e9897f6",
+      "size": 2856,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/e68a73b3425241a15215fffddaeef11d0e9897f6"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/codeql.yml",
+      "sha": "48aac054a48ddd213aab7f6ddcf19fda114061a9",
+      "size": 1658,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/48aac054a48ddd213aab7f6ddcf19fda114061a9"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/doctrine.yml",
+      "sha": "014609506fa3d328d8c91b720858835cbfdde6fa",
+      "size": 227,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/014609506fa3d328d8c91b720858835cbfdde6fa"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/forbidden-domain.yml",
+      "sha": "0ceaa9cbb7ba391ebc78b0ec08c74ebc1c0fac73",
+      "size": 1525,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/0ceaa9cbb7ba391ebc78b0ec08c74ebc1c0fac73"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-dataset-contract.yml",
+      "sha": "b24a789790c0db7012367ea9f1829191f23de6f1",
+      "size": 1660,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/b24a789790c0db7012367ea9f1829191f23de6f1"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-sync.yml",
+      "sha": "7b1ba22f1f0c3c8e71547c6199091d5602a4540b",
+      "size": 2586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/7b1ba22f1f0c3c8e71547c6199091d5602a4540b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/overclaim-guard.yml",
+      "sha": "20e00b308ca90af4dfa925c861db46b9dcd6179a",
+      "size": 734,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/20e00b308ca90af4dfa925c861db46b9dcd6179a"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/pin-check.yml",
+      "sha": "f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621",
+      "size": 586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/sbom.yml",
+      "sha": "e385caec32afcfb78cb91b53b288ea254896fba7",
+      "size": 495,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/e385caec32afcfb78cb91b53b288ea254896fba7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/scorecard.yml",
+      "sha": "92ad91c80f26aaf0f6d7d9ec1731e44406654eb5",
+      "size": 625,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/92ad91c80f26aaf0f6d7d9ec1731e44406654eb5"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/sync-from-hf.yml",
+      "sha": "f54c607123bb6b11e088382f5dfbc56498a607c0",
+      "size": 5670,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f54c607123bb6b11e088382f5dfbc56498a607c0"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/sync-quant-ledger.yml",
+      "sha": "535bddea3f7e66b8e9bbd7f32ddc54d5b81dce1a",
+      "size": 4704,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/535bddea3f7e66b8e9bbd7f32ddc54d5b81dce1a"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/trivy.yml",
+      "sha": "94cac142860bdae0f4e78a78fb143ae95932ba1c",
+      "size": 514,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/94cac142860bdae0f4e78a78fb143ae95932ba1c"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/verify-anchor-receipts-real.yml",
+      "sha": "9ced6bb05d47dfc6eba5271122f8c3dd157ce164",
+      "size": 4290,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/9ced6bb05d47dfc6eba5271122f8c3dd157ce164"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/verify-anchor-receipts-selftest.yml",
+      "sha": "dda82805517576eddc4944f51eb11ffd399a317a",
+      "size": 2880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/dda82805517576eddc4944f51eb11ffd399a317a"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/verify-anchor-receipts.yml",
+      "sha": "9896dcd7f006e623255fe7b9066b0e70969366d7",
+      "size": 15518,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/9896dcd7f006e623255fe7b9066b0e70969366d7"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "7c51ad95d349064217a06f5755dab3a7b1922fcd",
+      "size": 289,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/7c51ad95d349064217a06f5755dab3a7b1922fcd"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "462769fc5a77f91e96425e0ea693d20d87e44511",
+      "size": 677,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/462769fc5a77f91e96425e0ea693d20d87e44511"
+    },
+    {
+      "mode": "100644",
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "8ef338732f66fee91dd8ddedd0e5348b75ef98e4",
+      "size": 1408,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/8ef338732f66fee91dd8ddedd0e5348b75ef98e4"
+    },
+    {
+      "mode": "100644",
+      "path": "CONTRIBUTING.md",
+      "sha": "aa6ce6db42061537bd5043c5ad87bff2645c0b7a",
+      "size": 1529,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/aa6ce6db42061537bd5043c5ad87bff2645c0b7a"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "da6ab6cc8f333d7e89a99812866df8f24374d47c",
+      "size": 18657,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/da6ab6cc8f333d7e89a99812866df8f24374d47c"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "de34424cda5b9fde9ed20a96aecdb0ca1583b0b2",
+      "size": 10659,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/de34424cda5b9fde9ed20a96aecdb0ca1583b0b2"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "9ba9c50403dcd58a5623aece2dced8161179b472",
+      "size": 713,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/9ba9c50403dcd58a5623aece2dced8161179b472"
+    },
+    {
+      "mode": "040000",
+      "path": "attestations",
+      "sha": "1ab9f1ee4ab57487381153f829caf77b08c1277b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/1ab9f1ee4ab57487381153f829caf77b08c1277b"
+    },
+    {
+      "mode": "040000",
+      "path": "attestations/innovations",
+      "sha": "52851ebe917d0c70d925e3c6d84571629174dbba",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/52851ebe917d0c70d925e3c6d84571629174dbba"
+    },
+    {
+      "mode": "040000",
+      "path": "attestations/innovations/round2",
+      "sha": "d473218875597581d6d050e702fb167e8e02b596",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/d473218875597581d6d050e702fb167e8e02b596"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round2/ConformalDrift.json",
+      "sha": "13ec336ddfe556471aaa39e01ed0ea30a27d0b4d",
+      "size": 774,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/13ec336ddfe556471aaa39e01ed0ea30a27d0b4d"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round2/FiberBundlePolicy.json",
+      "sha": "bd2c1acbc61d849d45af756d29f1fa181ecaf087",
+      "size": 781,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/bd2c1acbc61d849d45af756d29f1fa181ecaf087"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round2/GramSabotageNet.json",
+      "sha": "c62eceb172b5a882346078d7ee0d2c6897d15ce1",
+      "size": 748,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c62eceb172b5a882346078d7ee0d2c6897d15ce1"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round2/HomflyReceipt.json",
+      "sha": "c0619120c39093284654c0551ff48e58ee22ea98",
+      "size": 753,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c0619120c39093284654c0551ff48e58ee22ea98"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round2/MartingaleLambda.json",
+      "sha": "218f539c55eefdfa3c10f36fa9570fa5fc8c63d3",
+      "size": 752,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/218f539c55eefdfa3c10f36fa9570fa5fc8c63d3"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round2/OperadMesh.json",
+      "sha": "6056838dc4dd814279552b41561dccd393c65011",
+      "size": 843,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/6056838dc4dd814279552b41561dccd393c65011"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round2/PersistenceGate.json",
+      "sha": "bb2859372bbccfc8cb477afe33d49e436bb6d6d5",
+      "size": 778,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/bb2859372bbccfc8cb477afe33d49e436bb6d6d5"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round2/Provenon.json",
+      "sha": "f837e12f585a31468b82a6e722c8ac3c5858a7b6",
+      "size": 743,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f837e12f585a31468b82a6e722c8ac3c5858a7b6"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round2/SpectralAdmit.json",
+      "sha": "d612fc8d391bdc8998bd4c1f0169c4946bef3fed",
+      "size": 763,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/d612fc8d391bdc8998bd4c1f0169c4946bef3fed"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round2/WavefunctionReceipt.json",
+      "sha": "ce9b3e49c96f0c7483678a318fa27db0544f02c5",
+      "size": 769,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/ce9b3e49c96f0c7483678a318fa27db0544f02c5"
+    },
+    {
+      "mode": "040000",
+      "path": "attestations/innovations/round3",
+      "sha": "8bdba6f0b624665e3ffc204df4d91253509b0909",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/8bdba6f0b624665e3ffc204df4d91253509b0909"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round3/dspy-signatures.json",
+      "sha": "f819e4aa06ba10e9074ee7406eb098eee0c600e1",
+      "size": 599,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f819e4aa06ba10e9074ee7406eb098eee0c600e1"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round3/khipu-emit-monotone.json",
+      "sha": "5f61e99b5d8531b5fa5b525e92f2d692bc4bc797",
+      "size": 615,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/5f61e99b5d8531b5fa5b525e92f2d692bc4bc797"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round3/operad-mesh.json",
+      "sha": "c570329ba23aeb347964d7cd566eafa709f5496e",
+      "size": 610,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c570329ba23aeb347964d7cd566eafa709f5496e"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round3/slo-burn-rate.json",
+      "sha": "01c3a1b469ea27aedd55192010f9e3c4a83db262",
+      "size": 601,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/01c3a1b469ea27aedd55192010f9e3c4a83db262"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round3/topodrift.json",
+      "sha": "54ca69ed2891711ac7b62c29afb4abbf555bf3f2",
+      "size": 608,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/54ca69ed2891711ac7b62c29afb4abbf555bf3f2"
+    },
+    {
+      "mode": "040000",
+      "path": "attestations/innovations/round4",
+      "sha": "f45e157e4a08c6bd95e7e5f6fe7861416b37b3ab",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/f45e157e4a08c6bd95e7e5f6fe7861416b37b3ab"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round4/copper-scroll-dag-height.json",
+      "sha": "3d39161a06c05e05f5b8f749941966cda7aa0cd7",
+      "size": 865,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/3d39161a06c05e05f5b8f749941966cda7aa0cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round4/crt-receipt-shard.json",
+      "sha": "0fc660dc109eec9220c690b60f99479a79437cfd",
+      "size": 914,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/0fc660dc109eec9220c690b60f99479a79437cfd"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round4/els-bonferroni-bound.json",
+      "sha": "634d0447b87da57ad5ae3a0067c9dfdc592e2702",
+      "size": 981,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/634d0447b87da57ad5ae3a0067c9dfdc592e2702"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round4/enoch-epoch-alignment.json",
+      "sha": "22f109642aa6e0a6d869b45fe26bf7cf2d8459e0",
+      "size": 923,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/22f109642aa6e0a6d869b45fe26bf7cf2d8459e0"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round4/masoretic-checksum.json",
+      "sha": "a648e31be4d74026879a88f5cdd19b2a0f9ab87f",
+      "size": 869,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a648e31be4d74026879a88f5cdd19b2a0f9ab87f"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round4/maya-lcm-epoch-sync.json",
+      "sha": "eaa88d32b985a82b3cb89d2111fbcbef1949b96d",
+      "size": 874,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/eaa88d32b985a82b3cb89d2111fbcbef1949b96d"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round4/plimpton-reciprocal-triple.json",
+      "sha": "3dda293c7d76cc9468e74b61f175a79f006874ef",
+      "size": 914,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/3dda293c7d76cc9468e74b61f175a79f006874ef"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round4/sexagesimal-finite-reciprocal.json",
+      "sha": "cea66f69bb657c0ed2015d67ecca65a7cb70cfb9",
+      "size": 861,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/cea66f69bb657c0ed2015d67ecca65a7cb70cfb9"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round4/sulba-sqrt-rational-bound.json",
+      "sha": "fdf3e8f58aacef8e6be4db094bc744b6fc4a18b4",
+      "size": 896,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/fdf3e8f58aacef8e6be4db094bc744b6fc4a18b4"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round4/ybc-heron-convergence.json",
+      "sha": "ab130ebf2a8e27f46f17b0033d40880f2c696db0",
+      "size": 886,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/ab130ebf2a8e27f46f17b0033d40880f2c696db0"
+    },
+    {
+      "mode": "040000",
+      "path": "attestations/innovations/round5",
+      "sha": "300eb27df701a523adcc08c365c4fabebc588fae",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/300eb27df701a523adcc08c365c4fabebc588fae"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round5/CodonK4Compress.json",
+      "sha": "72712fc79270a15af90bdb7c526ef8178918d796",
+      "size": 942,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/72712fc79270a15af90bdb7c526ef8178918d796"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round5/CodonRoundTrip.json",
+      "sha": "56056d826a862a1dbc0b1c62b3d5883c2950b62c",
+      "size": 923,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/56056d826a862a1dbc0b1c62b3d5883c2950b62c"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round5/HermesFunctorReceipt.json",
+      "sha": "235a70ef0d18c79b8edcb16f37e1d3ccbbbb6a9d",
+      "size": 938,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/235a70ef0d18c79b8edcb16f37e1d3ccbbbb6a9d"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round5/HermesMoranIFS.json",
+      "sha": "7b9d3c481fa91451b4b4368b256ffead74092030",
+      "size": 896,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/7b9d3c481fa91451b4b4368b256ffead74092030"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round5/HermesRGFixedPoint.json",
+      "sha": "8a8979c871925701d7087b706bcb10921f57536c",
+      "size": 903,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/8a8979c871925701d7087b706bcb10921f57536c"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round5/KeplerFleetScale.json",
+      "sha": "4f624a4586ce113e0085e4bc851e873e75e1a71e",
+      "size": 910,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/4f624a4586ce113e0085e4bc851e873e75e1a71e"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round5/OuroborosBanachLoop.json",
+      "sha": "39308db179182e0aeb8fbb63c5284086c2fc7f2a",
+      "size": 910,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/39308db179182e0aeb8fbb63c5284086c2fc7f2a"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round5/OuroborosKleeneHalt.json",
+      "sha": "83af7d1b7598133a211e6627d74686dcdb1c7bd2",
+      "size": 906,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/83af7d1b7598133a211e6627d74686dcdb1c7bd2"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round5/TetractysHMBottleneck.json",
+      "sha": "8d207aa39cd7675dafd5746ec3660416dc73ffd3",
+      "size": 920,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/8d207aa39cd7675dafd5746ec3660416dc73ffd3"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round5/TetractysHMBound.json",
+      "sha": "a6e855503dd35b5d5e7af8eadfaac7778d5ca7c8",
+      "size": 906,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a6e855503dd35b5d5e7af8eadfaac7778d5ca7c8"
+    },
+    {
+      "mode": "040000",
+      "path": "attestations/innovations/round6",
+      "sha": "b8f1888f40138b3af925035519d1de6743a8b81a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/b8f1888f40138b3af925035519d1de6743a8b81a"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round6/CauchySchwartzLambda.json",
+      "sha": "0b583e30f84d92990eb4843d358c77a521b9fec2",
+      "size": 1179,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/0b583e30f84d92990eb4843d358c77a521b9fec2"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round6/EulerFleetTopology.json",
+      "sha": "0643adb28f194ecbc3abba662b77d5c12c7512dd",
+      "size": 1247,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/0643adb28f194ecbc3abba662b77d5c12c7512dd"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round6/NoetherAudit.json",
+      "sha": "98d2f32eba482a4352dbc73c26669e595f2279a3",
+      "size": 1126,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/98d2f32eba482a4352dbc73c26669e595f2279a3"
+    },
+    {
+      "mode": "040000",
+      "path": "attestations/innovations/round8",
+      "sha": "3ebd4bedce075fae753327d69adb4dbcc537aac3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/3ebd4bedce075fae753327d69adb4dbcc537aac3"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round8/bossa-capture-agnostic-admit.json",
+      "sha": "dcdd06a35f2df74ad29259f0bcda2bb84e18140f",
+      "size": 1307,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/dcdd06a35f2df74ad29259f0bcda2bb84e18140f"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round8/databricks-obo-consent-receipt.json",
+      "sha": "132f5458daaf66e66b2ade7d126119fd5554143c",
+      "size": 1145,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/132f5458daaf66e66b2ade7d126119fd5554143c"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round8/datadog-llmobs-quintuple.json",
+      "sha": "7f66103f65398fe91fbf3bd1a335b2204afa7854",
+      "size": 1090,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/7f66103f65398fe91fbf3bd1a335b2204afa7854"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round8/khipu-medrano-moiety.json",
+      "sha": "3367b38afb17cea58a8b11ce9ff1ab340335691c",
+      "size": 1182,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/3367b38afb17cea58a8b11ce9ff1ab340335691c"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round8/maya-three-clock-lcm.json",
+      "sha": "6732e64289ac91c20f1c74644541f91f5fdfd297",
+      "size": 1279,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/6732e64289ac91c20f1c74644541f91f5fdfd297"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round8/mohist-distinguishability.json",
+      "sha": "bf4c7cbeb124d4818604ffb78272c9e20a6e7de9",
+      "size": 1249,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/bf4c7cbeb124d4818604ffb78272c9e20a6e7de9"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round8/newrelic-deferred-feedback-receipt.json",
+      "sha": "c3f4f9ecff3cf414cfd84ac31f6acc58e27f8f4a",
+      "size": 1148,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c3f4f9ecff3cf414cfd84ac31f6acc58e27f8f4a"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round8/palantir-session-trace-steps.json",
+      "sha": "d1ea1aae9024083987abf7bb7fceec5de74c545c",
+      "size": 1216,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/d1ea1aae9024083987abf7bb7fceec5de74c545c"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round8/pingala-receipt-recurrence.json",
+      "sha": "ae6521e1763bd981be72c6ff3de2218066486151",
+      "size": 1322,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/ae6521e1763bd981be72c6ff3de2218066486151"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round8/stoic-halt-semantics.json",
+      "sha": "1920e630bd6dd996aa750f107ecbd7ed40dee1b9",
+      "size": 1222,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/1920e630bd6dd996aa750f107ecbd7ed40dee1b9"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/innovations/round8/talmud-minority-bft.json",
+      "sha": "81e675969b75b255d42843900ad8b6b367219480",
+      "size": 1202,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/81e675969b75b255d42843900ad8b6b367219480"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/section_889_attestation.json",
+      "sha": "74573ebbd9a08fc1c9f57454da5ae1cbafc5ab56",
+      "size": 588,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/74573ebbd9a08fc1c9f57454da5ae1cbafc5ab56"
+    },
+    {
+      "mode": "100644",
+      "path": "attestations/slsa_level.json",
+      "sha": "144db94b05d228b86d66132537f7ed1559851cb4",
+      "size": 292,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/144db94b05d228b86d66132537f7ed1559851cb4"
+    },
+    {
+      "mode": "040000",
+      "path": "data",
+      "sha": "2978e0b0e992b02f07f7e61c52b20d19945167ab",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/2978e0b0e992b02f07f7e61c52b20d19945167ab"
+    },
+    {
+      "mode": "040000",
+      "path": "data/keys",
+      "sha": "1a38700ec15fd7a1bd25f96088b20797ba793303",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/1a38700ec15fd7a1bd25f96088b20797ba793303"
+    },
+    {
+      "mode": "100644",
+      "path": "data/keys/MANIFEST.json",
+      "sha": "e02633c3368a275699ace03420b41a14df1fba2b",
+      "size": 1850,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/e02633c3368a275699ace03420b41a14df1fba2b"
+    },
+    {
+      "mode": "100644",
+      "path": "data/keys/a11oy.pub",
+      "sha": "6d87d9d8145c33980de79c69fdf72b0eb4fd4985",
+      "size": 178,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/6d87d9d8145c33980de79c69fdf72b0eb4fd4985"
+    },
+    {
+      "mode": "100644",
+      "path": "data/keys/amaru.pub",
+      "sha": "66ce95961ef0b394225f768a072069330ff702fd",
+      "size": 178,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/66ce95961ef0b394225f768a072069330ff702fd"
+    },
+    {
+      "mode": "100644",
+      "path": "data/keys/killinchu.pub",
+      "sha": "77e8447e7b3402ca4160adb6733faa031f1635e5",
+      "size": 178,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/77e8447e7b3402ca4160adb6733faa031f1635e5"
+    },
+    {
+      "mode": "100644",
+      "path": "data/keys/org-cosign.pub",
+      "sha": "c54b1440954212d35e5c029db3f0761f99f45a5f",
+      "size": 178,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c54b1440954212d35e5c029db3f0761f99f45a5f"
+    },
+    {
+      "mode": "100644",
+      "path": "data/keys/rosie.pub",
+      "sha": "5c79a4f50d3237d8cde60b508baa80928487e881",
+      "size": 178,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/5c79a4f50d3237d8cde60b508baa80928487e881"
+    },
+    {
+      "mode": "100644",
+      "path": "data/keys/sentra.pub",
+      "sha": "2dba633e04fd4c973a78ce040dd61494f97d6f79",
+      "size": 178,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/2dba633e04fd4c973a78ce040dd61494f97d6f79"
+    },
+    {
+      "mode": "040000",
+      "path": "data/khipu",
+      "sha": "15de44b0632d0477127a7d1cd0f5fcfd7d3c2c55",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/15de44b0632d0477127a7d1cd0f5fcfd7d3c2c55"
+    },
+    {
+      "mode": "100644",
+      "path": "data/khipu/EMPTY_CHAIN_MANIFEST.json",
+      "sha": "760e16ffed3e550ce5f569d8c54451b185ab399f",
+      "size": 1004,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/760e16ffed3e550ce5f569d8c54451b185ab399f"
+    },
+    {
+      "mode": "100644",
+      "path": "data/khipu/a11oy_receipts.parquet",
+      "sha": "f176ad8883754226a7586b95fbffdcb982ac90da",
+      "size": 3470,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f176ad8883754226a7586b95fbffdcb982ac90da"
+    },
+    {
+      "mode": "100644",
+      "path": "data/khipu/amaru_receipts.parquet",
+      "sha": "697493a8d5e31d74486af3bdfc5d78aa801528f6",
+      "size": 13017,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/697493a8d5e31d74486af3bdfc5d78aa801528f6"
+    },
+    {
+      "mode": "100644",
+      "path": "data/khipu/killinchu_receipts.parquet",
+      "sha": "f176ad8883754226a7586b95fbffdcb982ac90da",
+      "size": 3470,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f176ad8883754226a7586b95fbffdcb982ac90da"
+    },
+    {
+      "mode": "100644",
+      "path": "data/khipu/lutar_lean_receipts.ndjson",
+      "sha": "5980059e1a5271351a911df8948af78f7f25f25c",
+      "size": 76657,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/5980059e1a5271351a911df8948af78f7f25f25c"
+    },
+    {
+      "mode": "100644",
+      "path": "data/khipu/rosie_receipts.parquet",
+      "sha": "f176ad8883754226a7586b95fbffdcb982ac90da",
+      "size": 3470,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f176ad8883754226a7586b95fbffdcb982ac90da"
+    },
+    {
+      "mode": "100644",
+      "path": "data/khipu/sentra_receipts.parquet",
+      "sha": "d045cfd04b365b9fa0fd4ef00ff5082de3b708f3",
+      "size": 7619,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/d045cfd04b365b9fa0fd4ef00ff5082de3b708f3"
+    },
+    {
+      "mode": "100644",
+      "path": "data/lake_index.json",
+      "sha": "0cda56b52dde91711e238e3ccd8d7848ec939ac1",
+      "size": 73512,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/0cda56b52dde91711e238e3ccd8d7848ec939ac1"
+    },
+    {
+      "mode": "040000",
+      "path": "data/papers",
+      "sha": "e059558961d7ba02d618e96a7746a1f4aaff3aac",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/e059558961d7ba02d618e96a7746a1f4aaff3aac"
+    },
+    {
+      "mode": "100644",
+      "path": "data/papers/manifest.json",
+      "sha": "31a8c8c8c3c79e59d3ba6e5b7e7a166b6df8186e",
+      "size": 2032,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/31a8c8c8c3c79e59d3ba6e5b7e7a166b6df8186e"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant",
+      "sha": "faec75c6e0d1b4f491dd50e92be0f210b2f565e4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/faec75c6e0d1b4f491dd50e92be0f210b2f565e4"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/VERIFICATION.txt",
+      "sha": "f688504256f5575789b00b34e4a089426d439708",
+      "size": 1685,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f688504256f5575789b00b34e4a089426d439708"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/backtest_BONK_365d.receipt.json",
+      "sha": "5a1852cc3c0044cabfb05f3b21ca3a581a524286",
+      "size": 7488,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/5a1852cc3c0044cabfb05f3b21ca3a581a524286"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/backtest_BTC_365d.receipt.json",
+      "sha": "e11dda77545428e46b4829b8f7c992344347e029",
+      "size": 7456,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/e11dda77545428e46b4829b8f7c992344347e029"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/backtest_ETH_365d.receipt.json",
+      "sha": "ae1d2ca02572ab3cfbfd41eb52770237e4c93454",
+      "size": 7508,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/ae1d2ca02572ab3cfbfd41eb52770237e4c93454"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/backtest_SOL_365d.receipt.json",
+      "sha": "718009f60018500205d599a611ad108f1cda1d60",
+      "size": 7516,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/718009f60018500205d599a611ad108f1cda1d60"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/keys",
+      "sha": "1b25db50c45f0e86fcdfbac5edeb34d216d44e0a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/1b25db50c45f0e86fcdfbac5edeb34d216d44e0a"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/keys/engine_pubkey.json",
+      "sha": "44515ae6b96312f2a1d51806c1e2ef1d43d6237f",
+      "size": 290,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/44515ae6b96312f2a1d51806c1e2ef1d43d6237f"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger",
+      "sha": "5524c06144124a14090efc3be1c9b001864d69dd",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/5524c06144124a14090efc3be1c9b001864d69dd"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260715T090057Z_run1",
+      "sha": "6ae8c604029ad62aadeb2bad5423920dcad06591",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/6ae8c604029ad62aadeb2bad5423920dcad06591"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T090057Z_run1/session_1784106057291.receipt.json",
+      "sha": "67e3e936c95e172cd9b18cd9a79d934edd7c4e38",
+      "size": 2344,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/67e3e936c95e172cd9b18cd9a79d934edd7c4e38"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T090057Z_run1/signal_$WIF_1784106057291.receipt.json",
+      "sha": "52d2afa5ab6c14e9c597847857f90dc971f5c5ea",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/52d2afa5ab6c14e9c597847857f90dc971f5c5ea"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T090057Z_run1/signal_Bonk_1784106057291.receipt.json",
+      "sha": "975771dbccd92801004df83b21853271792852ac",
+      "size": 3788,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/975771dbccd92801004df83b21853271792852ac"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T090057Z_run1/signal_JUP_1784106057291.receipt.json",
+      "sha": "3d16ffe8c27aa6152d4236986dc7388a3b116c04",
+      "size": 4172,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/3d16ffe8c27aa6152d4236986dc7388a3b116c04"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T090057Z_run1/signal_SOL_1784106057291.receipt.json",
+      "sha": "3309434bbee834f0072806f69788c3f6b28da055",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/3309434bbee834f0072806f69788c3f6b28da055"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260715T092114Z_run2",
+      "sha": "11547d229cff781be4bcd76feef751aa6e87f929",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/11547d229cff781be4bcd76feef751aa6e87f929"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T092114Z_run2/session_1784107274604.receipt.json",
+      "sha": "cfd0067657b99e530c38bed109bceee7e569e4c4",
+      "size": 2344,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/cfd0067657b99e530c38bed109bceee7e569e4c4"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T092114Z_run2/signal_$WIF_1784107274604.receipt.json",
+      "sha": "336217a5f29cc7df9c10df8d0e5d165bcf9e9574",
+      "size": 3876,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/336217a5f29cc7df9c10df8d0e5d165bcf9e9574"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T092114Z_run2/signal_Bonk_1784107274604.receipt.json",
+      "sha": "e528f3e652e2c4b35548e6a6de7863b28912892f",
+      "size": 3788,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/e528f3e652e2c4b35548e6a6de7863b28912892f"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T092114Z_run2/signal_JUP_1784107274604.receipt.json",
+      "sha": "c8788d08440d9d3f3d57efffc26fbfc526a734e0",
+      "size": 4168,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c8788d08440d9d3f3d57efffc26fbfc526a734e0"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T092114Z_run2/signal_SOL_1784107274604.receipt.json",
+      "sha": "2e21a3e61d1f422a46b1d481ca405650e7360160",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/2e21a3e61d1f422a46b1d481ca405650e7360160"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T092114Z_run2/trackrecord_1784107335804.receipt.json",
+      "sha": "52764b7aca5992d133da273510994e5d84081230",
+      "size": 6176,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/52764b7aca5992d133da273510994e5d84081230"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260715T094346Z_run3",
+      "sha": "bbe295e0413969f120b10574272964846e8902ff",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/bbe295e0413969f120b10574272964846e8902ff"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T094346Z_run3/chain_0001.receipt.json",
+      "sha": "931357fc6210209e6429d277892da99e89bf3f6d",
+      "size": 5364,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/931357fc6210209e6429d277892da99e89bf3f6d"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T094346Z_run3/session_1784108626307.receipt.json",
+      "sha": "618f66a3eac8bc135b3fbd8f34e2fa2b32430021",
+      "size": 2524,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/618f66a3eac8bc135b3fbd8f34e2fa2b32430021"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T094346Z_run3/signal_$WIF_1784108626307.receipt.json",
+      "sha": "6e507dc83c79b292149dd9d11a1de324ffd292f6",
+      "size": 3876,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/6e507dc83c79b292149dd9d11a1de324ffd292f6"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T094346Z_run3/signal_Bonk_1784108626307.receipt.json",
+      "sha": "3b631309e3e0caf266d4c0e4fa117c2973aa1060",
+      "size": 3788,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/3b631309e3e0caf266d4c0e4fa117c2973aa1060"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T094346Z_run3/signal_JTO_1784108626307.receipt.json",
+      "sha": "26ba760df5ff946ae2442ccd3069b3712ccce286",
+      "size": 4064,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/26ba760df5ff946ae2442ccd3069b3712ccce286"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T094346Z_run3/signal_JUP_1784108626307.receipt.json",
+      "sha": "d37a00197959b3ce77f85211a0aea59757632364",
+      "size": 4164,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/d37a00197959b3ce77f85211a0aea59757632364"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T094346Z_run3/signal_PYTH_1784108626307.receipt.json",
+      "sha": "2cd75aa14c71882910dfbba43533ae08bb39e7dc",
+      "size": 4160,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/2cd75aa14c71882910dfbba43533ae08bb39e7dc"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T094346Z_run3/signal_SOL_1784108626307.receipt.json",
+      "sha": "246d901a67180cf90b10d70cc2a1914becf1ab02",
+      "size": 3876,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/246d901a67180cf90b10d70cc2a1914becf1ab02"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T094346Z_run3/trackrecord_1784108717206.receipt.json",
+      "sha": "5a56e94a1b40b90fefc70bcca7c4f91bd7b21283",
+      "size": 8480,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/5a56e94a1b40b90fefc70bcca7c4f91bd7b21283"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260715T141549Z_run4",
+      "sha": "d0457164ac73c256bed51eb6207565c6a4f7c168",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/d0457164ac73c256bed51eb6207565c6a4f7c168"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T141549Z_run4/chain_0002.receipt.json",
+      "sha": "2dae961f39097b2a3f268f0fd46ad0fb0c5c279c",
+      "size": 3580,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/2dae961f39097b2a3f268f0fd46ad0fb0c5c279c"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T141549Z_run4/session_1784124948973.receipt.json",
+      "sha": "8334ce91f028a9eb5151342aafaff928c4cdec5d",
+      "size": 2512,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/8334ce91f028a9eb5151342aafaff928c4cdec5d"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T141549Z_run4/signal_$WIF_1784124948973.receipt.json",
+      "sha": "ad425d59f6685eceab3f8fc1924c0affdd094d56",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/ad425d59f6685eceab3f8fc1924c0affdd094d56"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T141549Z_run4/signal_Bonk_1784124948973.receipt.json",
+      "sha": "6f3651f28e8c6f31af26d497528f7546e0e3fef5",
+      "size": 3784,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/6f3651f28e8c6f31af26d497528f7546e0e3fef5"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T141549Z_run4/signal_JTO_1784124948973.receipt.json",
+      "sha": "4cb928693030bb6e374cd7efe8b4c0d1244e85db",
+      "size": 4060,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/4cb928693030bb6e374cd7efe8b4c0d1244e85db"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T141549Z_run4/signal_JUP_1784124948973.receipt.json",
+      "sha": "1b145913921510ce8896b26954d3cb867b042fde",
+      "size": 4188,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/1b145913921510ce8896b26954d3cb867b042fde"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T141549Z_run4/signal_PYTH_1784124948973.receipt.json",
+      "sha": "3e0f1687c0ea06a5061ea646a989c8613e232eae",
+      "size": 4172,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/3e0f1687c0ea06a5061ea646a989c8613e232eae"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T141549Z_run4/signal_SOL_1784124948973.receipt.json",
+      "sha": "a141936a922513ae5645579f483ef57f9700c6db",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a141936a922513ae5645579f483ef57f9700c6db"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T141549Z_run4/trackrecord_1784125040146.receipt.json",
+      "sha": "f555d48086ad9dce62f0fdf0130df6e5a8eefd97",
+      "size": 10696,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f555d48086ad9dce62f0fdf0130df6e5a8eefd97"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260715T194057Z_run5",
+      "sha": "4c48acf0531441add53bc51ee5923be46c332d01",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/4c48acf0531441add53bc51ee5923be46c332d01"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T194057Z_run5/chain_0003.receipt.json",
+      "sha": "e48e68408d69195a0f9ad91bb84ed50d9f65faa0",
+      "size": 3580,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/e48e68408d69195a0f9ad91bb84ed50d9f65faa0"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T194057Z_run5/session_1784144457441.receipt.json",
+      "sha": "3832b8ed437c28ce8e6634b858eac7781448ff4e",
+      "size": 2524,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/3832b8ed437c28ce8e6634b858eac7781448ff4e"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T194057Z_run5/signal_$WIF_1784144457441.receipt.json",
+      "sha": "38aeb5b3262196ef2738e4ab117e177750273135",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/38aeb5b3262196ef2738e4ab117e177750273135"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T194057Z_run5/signal_Bonk_1784144457441.receipt.json",
+      "sha": "b04058dcc0e0623fcb300f45a52a212e2d1e6e37",
+      "size": 3788,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/b04058dcc0e0623fcb300f45a52a212e2d1e6e37"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T194057Z_run5/signal_JTO_1784144457441.receipt.json",
+      "sha": "9b11cff7cf68c710e29e7da1d48778a0f0a7a61c",
+      "size": 4060,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/9b11cff7cf68c710e29e7da1d48778a0f0a7a61c"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T194057Z_run5/signal_JUP_1784144457441.receipt.json",
+      "sha": "48e78a0e64f991ccab0cbb9f68be7f7048058c19",
+      "size": 4168,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/48e78a0e64f991ccab0cbb9f68be7f7048058c19"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T194057Z_run5/signal_PYTH_1784144457441.receipt.json",
+      "sha": "7d95a5fe4f10e3514c51166d43b503fb6bde874c",
+      "size": 4164,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/7d95a5fe4f10e3514c51166d43b503fb6bde874c"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T194057Z_run5/signal_SOL_1784144457441.receipt.json",
+      "sha": "45e1b3af527d5cc5eb65a1b39f41b825d4358c10",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/45e1b3af527d5cc5eb65a1b39f41b825d4358c10"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260715T194057Z_run5/trackrecord_1784144548470.receipt.json",
+      "sha": "3c531bdbc5f0381f329b2acb6d1bae972c56434f",
+      "size": 13000,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/3c531bdbc5f0381f329b2acb6d1bae972c56434f"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260716T034408Z_run6",
+      "sha": "6f93c56e67f422acbd4aaa67683875e55606b101",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/6f93c56e67f422acbd4aaa67683875e55606b101"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T034408Z_run6/chain_0004.receipt.json",
+      "sha": "a889c818eb6a0f8a3a2fcbb6086c6d08183b011f",
+      "size": 3580,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a889c818eb6a0f8a3a2fcbb6086c6d08183b011f"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T034408Z_run6/session_1784173448153.receipt.json",
+      "sha": "9068c2cc0e5d9948e36221a63611601f10e65071",
+      "size": 2524,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/9068c2cc0e5d9948e36221a63611601f10e65071"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T034408Z_run6/signal_$WIF_1784173448153.receipt.json",
+      "sha": "7d4417fd14e3981a860dfd3cc736c41678e85cb5",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/7d4417fd14e3981a860dfd3cc736c41678e85cb5"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T034408Z_run6/signal_Bonk_1784173448153.receipt.json",
+      "sha": "9cc06e12e6f294331e84f2bee19e3f43e20cb284",
+      "size": 3792,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/9cc06e12e6f294331e84f2bee19e3f43e20cb284"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T034408Z_run6/signal_JTO_1784173448153.receipt.json",
+      "sha": "dd64c29ede82b0a87d6d69efa7d4a09d902621bc",
+      "size": 4064,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/dd64c29ede82b0a87d6d69efa7d4a09d902621bc"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T034408Z_run6/signal_JUP_1784173448153.receipt.json",
+      "sha": "49bac21f38dd3928b3942c2c5958bc6e16e1bd99",
+      "size": 4168,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/49bac21f38dd3928b3942c2c5958bc6e16e1bd99"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T034408Z_run6/signal_PYTH_1784173448153.receipt.json",
+      "sha": "c1d2e3ee3a7707bf677dd86116a4257b7367c936",
+      "size": 4164,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c1d2e3ee3a7707bf677dd86116a4257b7367c936"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T034408Z_run6/signal_SOL_1784173448153.receipt.json",
+      "sha": "f227d0a5a80b3b33eb9e9ab6ba00f8e6bb3ac822",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f227d0a5a80b3b33eb9e9ab6ba00f8e6bb3ac822"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T034408Z_run6/trackrecord_1784173539551.receipt.json",
+      "sha": "3ae77aa69f0ac9d08ac6016ea03bd414a868ac00",
+      "size": 15304,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/3ae77aa69f0ac9d08ac6016ea03bd414a868ac00"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260716T083822Z_run7",
+      "sha": "814f05c121bdd4d4c091dd29e56a2bc8c10e79dd",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/814f05c121bdd4d4c091dd29e56a2bc8c10e79dd"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T083822Z_run7/chain_0005.receipt.json",
+      "sha": "0c91596518e4672ff8e571ea210a3bbaeb823aff",
+      "size": 3580,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/0c91596518e4672ff8e571ea210a3bbaeb823aff"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T083822Z_run7/session_1784191102631.receipt.json",
+      "sha": "747fa865a0b522e98839532f2cbab58eb0dcbf9a",
+      "size": 2524,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/747fa865a0b522e98839532f2cbab58eb0dcbf9a"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T083822Z_run7/signal_$WIF_1784191102631.receipt.json",
+      "sha": "29b84bcdfafc651f7bdaf2caae48ee08d329996f",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/29b84bcdfafc651f7bdaf2caae48ee08d329996f"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T083822Z_run7/signal_Bonk_1784191102631.receipt.json",
+      "sha": "dc6373647f20d6502b326d74376f47190c79ef74",
+      "size": 3788,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/dc6373647f20d6502b326d74376f47190c79ef74"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T083822Z_run7/signal_JTO_1784191102631.receipt.json",
+      "sha": "0a3484a41aee6a883551ab4983e01c55ffef71be",
+      "size": 4060,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/0a3484a41aee6a883551ab4983e01c55ffef71be"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T083822Z_run7/signal_JUP_1784191102631.receipt.json",
+      "sha": "382eab1c423b3b0aaf35ac864e97f587d6c2f033",
+      "size": 4172,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/382eab1c423b3b0aaf35ac864e97f587d6c2f033"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T083822Z_run7/signal_PYTH_1784191102631.receipt.json",
+      "sha": "2505cd44c0a25b6abf6a6fcd274aad9e6f722fdf",
+      "size": 4164,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/2505cd44c0a25b6abf6a6fcd274aad9e6f722fdf"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T083822Z_run7/signal_SOL_1784191102631.receipt.json",
+      "sha": "93b59ab071b82adceff9e6a77c9c751b1a2d623f",
+      "size": 3876,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/93b59ab071b82adceff9e6a77c9c751b1a2d623f"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T083822Z_run7/trackrecord_1784191193542.receipt.json",
+      "sha": "b3968d5a37f566e166190c6a454c40a7426a45b5",
+      "size": 17604,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/b3968d5a37f566e166190c6a454c40a7426a45b5"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260716T142836Z_run8",
+      "sha": "fb58622aaea148e72e7f2458c4a2ed652813dde2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/fb58622aaea148e72e7f2458c4a2ed652813dde2"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T142836Z_run8/chain_0006.receipt.json",
+      "sha": "2c6656f5efa797c335ff6e0f78fd7c72d19be59e",
+      "size": 3580,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/2c6656f5efa797c335ff6e0f78fd7c72d19be59e"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T142836Z_run8/session_1784212116335.receipt.json",
+      "sha": "8499c24ae2440e4dbb40278ac7f455d2aa329535",
+      "size": 2524,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/8499c24ae2440e4dbb40278ac7f455d2aa329535"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T142836Z_run8/signal_$WIF_1784212116335.receipt.json",
+      "sha": "4b80fababff139a8639a1ee95cce9271c4f4d4a2",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/4b80fababff139a8639a1ee95cce9271c4f4d4a2"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T142836Z_run8/signal_Bonk_1784212116335.receipt.json",
+      "sha": "bcf9f4e5d846f12792cecc0a114e1e1d8bf7f4a5",
+      "size": 3788,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/bcf9f4e5d846f12792cecc0a114e1e1d8bf7f4a5"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T142836Z_run8/signal_JTO_1784212116335.receipt.json",
+      "sha": "94a4a3654ef541191dcc143755a5332f5a4b506b",
+      "size": 4060,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/94a4a3654ef541191dcc143755a5332f5a4b506b"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T142836Z_run8/signal_JUP_1784212116335.receipt.json",
+      "sha": "60f7db203f7c76675578be7b1f38d359940ff8be",
+      "size": 4168,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/60f7db203f7c76675578be7b1f38d359940ff8be"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T142836Z_run8/signal_PYTH_1784212116335.receipt.json",
+      "sha": "6e8f6d8f8e395495e434d333136c983e723b4228",
+      "size": 4164,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/6e8f6d8f8e395495e434d333136c983e723b4228"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T142836Z_run8/signal_SOL_1784212116335.receipt.json",
+      "sha": "d69f49310b8890a69c93b1cf1e2c3276a2cbdabe",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/d69f49310b8890a69c93b1cf1e2c3276a2cbdabe"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T142836Z_run8/trackrecord_1784212207599.receipt.json",
+      "sha": "f26a7c378a5be1f6bf2e03dbe08a2ba5e264506d",
+      "size": 19904,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f26a7c378a5be1f6bf2e03dbe08a2ba5e264506d"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260716T173736Z_run9",
+      "sha": "f57498619ef71046d4d85a27a5ac3282a9f76bbb",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/f57498619ef71046d4d85a27a5ac3282a9f76bbb"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T173736Z_run9/book_1784223547921.receipt.json",
+      "sha": "0eeb050af9970b7ab1f493562c531bf9f89f9c23",
+      "size": 5560,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/0eeb050af9970b7ab1f493562c531bf9f89f9c23"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T173736Z_run9/chain_0007.receipt.json",
+      "sha": "c008de90c21c1baf6d7a90fb8a126af73fb6714a",
+      "size": 3740,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c008de90c21c1baf6d7a90fb8a126af73fb6714a"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T173736Z_run9/session_1784223456544.receipt.json",
+      "sha": "c7679b3e8ec1c59dbe00da9c52553cf799440f71",
+      "size": 2524,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c7679b3e8ec1c59dbe00da9c52553cf799440f71"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T173736Z_run9/signal_$WIF_1784223456544.receipt.json",
+      "sha": "b73ef7b3c02cf9661573ad0abf4c5d4213234abe",
+      "size": 3876,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/b73ef7b3c02cf9661573ad0abf4c5d4213234abe"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T173736Z_run9/signal_Bonk_1784223456544.receipt.json",
+      "sha": "c0d000e91f508ec0b28ba8cf4205d5dc1c334503",
+      "size": 3784,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c0d000e91f508ec0b28ba8cf4205d5dc1c334503"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T173736Z_run9/signal_JTO_1784223456544.receipt.json",
+      "sha": "5f66e6b5993fe1bafd31415779fc27fe2e86b30c",
+      "size": 4056,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/5f66e6b5993fe1bafd31415779fc27fe2e86b30c"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T173736Z_run9/signal_JUP_1784223456544.receipt.json",
+      "sha": "ab504b3d22cda36ca8d6d34854ec3eb996a4e0f2",
+      "size": 4168,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/ab504b3d22cda36ca8d6d34854ec3eb996a4e0f2"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T173736Z_run9/signal_PYTH_1784223456544.receipt.json",
+      "sha": "033b13e2b02c28e520a52858e6e47c497f71f06f",
+      "size": 4168,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/033b13e2b02c28e520a52858e6e47c497f71f06f"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T173736Z_run9/signal_SOL_1784223456544.receipt.json",
+      "sha": "b10ef228b51b03aef08334468b3d98884f759be2",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/b10ef228b51b03aef08334468b3d98884f759be2"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T173736Z_run9/trackrecord_1784223547841.receipt.json",
+      "sha": "e379f1f86ab7b761a6e88d3b974bcd5004b3eae9",
+      "size": 22208,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/e379f1f86ab7b761a6e88d3b974bcd5004b3eae9"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260716T175421Z_run10",
+      "sha": "426987d1ba41892e658dce73a25b4aa48139b4bb",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/426987d1ba41892e658dce73a25b4aa48139b4bb"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T175421Z_run10/book_1784224553103.receipt.json",
+      "sha": "f0fef22afbeaf6d7fd1667143445389165576104",
+      "size": 5768,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f0fef22afbeaf6d7fd1667143445389165576104"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T175421Z_run10/chain_0008.receipt.json",
+      "sha": "4682f63b9c61fa3aa2bb0df81bffb6a7905ea7f1",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/4682f63b9c61fa3aa2bb0df81bffb6a7905ea7f1"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T175421Z_run10/refusals_1784224553155.receipt.json",
+      "sha": "f535095ebaa82157324829e7d826ba09b528c24e",
+      "size": 4400,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f535095ebaa82157324829e7d826ba09b528c24e"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T175421Z_run10/session_1784224461160.receipt.json",
+      "sha": "93d4846dd48895e913e0798ce82374434a5ce60a",
+      "size": 2524,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/93d4846dd48895e913e0798ce82374434a5ce60a"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T175421Z_run10/signal_$WIF_1784224461160.receipt.json",
+      "sha": "a7deebd2b916acfe10ffbad3144f68038b355ef6",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a7deebd2b916acfe10ffbad3144f68038b355ef6"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T175421Z_run10/signal_Bonk_1784224461160.receipt.json",
+      "sha": "4cbe636182c648ce96c87d0042997ebe2c2c420d",
+      "size": 3788,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/4cbe636182c648ce96c87d0042997ebe2c2c420d"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T175421Z_run10/signal_JTO_1784224461160.receipt.json",
+      "sha": "6dbb734032cad792011f39e172cdf443478b2c66",
+      "size": 4064,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/6dbb734032cad792011f39e172cdf443478b2c66"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T175421Z_run10/signal_JUP_1784224461160.receipt.json",
+      "sha": "2dcf64d489085cb2f705cf76cd4abc03f427204b",
+      "size": 4172,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/2dcf64d489085cb2f705cf76cd4abc03f427204b"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T175421Z_run10/signal_PYTH_1784224461160.receipt.json",
+      "sha": "098afff2cf0b32cbb9a185d0b52537bc924b60ba",
+      "size": 4164,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/098afff2cf0b32cbb9a185d0b52537bc924b60ba"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T175421Z_run10/signal_SOL_1784224461160.receipt.json",
+      "sha": "2c9c9cf88c6d78176602f8921bdd716ebddcbd35",
+      "size": 3876,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/2c9c9cf88c6d78176602f8921bdd716ebddcbd35"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T175421Z_run10/trackrecord_1784224552927.receipt.json",
+      "sha": "632b31403406484f7657384051e20294a808198a",
+      "size": 24516,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/632b31403406484f7657384051e20294a808198a"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260716T183506Z_run12",
+      "sha": "e2ad5c4e36464ac2428b09273fbab6dc6f6e4075",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/e2ad5c4e36464ac2428b09273fbab6dc6f6e4075"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T183506Z_run12/book_1784226997893.receipt.json",
+      "sha": "072746706bc97106bd455fa1996d1d06d19bb692",
+      "size": 5768,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/072746706bc97106bd455fa1996d1d06d19bb692"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T183506Z_run12/chain_0009.receipt.json",
+      "sha": "34c851fa28f8c84cbe8151ea1733502c4212bb36",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/34c851fa28f8c84cbe8151ea1733502c4212bb36"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T183506Z_run12/refusals_1784226997945.receipt.json",
+      "sha": "52ae8ee3d64b1143a9a95023c1671ee761b9f605",
+      "size": 4400,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/52ae8ee3d64b1143a9a95023c1671ee761b9f605"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T183506Z_run12/session_1784226906442.receipt.json",
+      "sha": "d27b53f881640c537e833f296dcc9d6c39ca4b6d",
+      "size": 2524,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/d27b53f881640c537e833f296dcc9d6c39ca4b6d"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T183506Z_run12/signal_$WIF_1784226906442.receipt.json",
+      "sha": "09a5c60be98e97ba6b41095327228ab613abf72a",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/09a5c60be98e97ba6b41095327228ab613abf72a"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T183506Z_run12/signal_Bonk_1784226906442.receipt.json",
+      "sha": "d9dd11fe97cc76267e6a3f3eb1808758e3d596df",
+      "size": 3792,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/d9dd11fe97cc76267e6a3f3eb1808758e3d596df"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T183506Z_run12/signal_JTO_1784226906442.receipt.json",
+      "sha": "88c7e897723550144578f658f34cfbace065fa9d",
+      "size": 4064,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/88c7e897723550144578f658f34cfbace065fa9d"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T183506Z_run12/signal_JUP_1784226906442.receipt.json",
+      "sha": "a156c1ce684b8e27271abfdafaf8bcb65ea9d653",
+      "size": 4164,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a156c1ce684b8e27271abfdafaf8bcb65ea9d653"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T183506Z_run12/signal_PYTH_1784226906442.receipt.json",
+      "sha": "106616b7de9b5a80dfec78d4e43bad46e01a4d1b",
+      "size": 4164,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/106616b7de9b5a80dfec78d4e43bad46e01a4d1b"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T183506Z_run12/signal_SOL_1784226906442.receipt.json",
+      "sha": "c85b057dcbe5d77389aebd033e7b86ee3e5cf393",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c85b057dcbe5d77389aebd033e7b86ee3e5cf393"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T183506Z_run12/trackrecord_1784226997820.receipt.json",
+      "sha": "a5a5fd13e91a1f6cc05329950b5363a06655495f",
+      "size": 26824,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a5a5fd13e91a1f6cc05329950b5363a06655495f"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260716T185648Z_run13",
+      "sha": "6f6c358768632df10aa800c5405c5dc7dd371829",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/6f6c358768632df10aa800c5405c5dc7dd371829"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T185648Z_run13/book_1784228300471.receipt.json",
+      "sha": "739aa4aac05c2364c8a7c91bffd4cd632a882df8",
+      "size": 5768,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/739aa4aac05c2364c8a7c91bffd4cd632a882df8"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T185648Z_run13/chain_0010.receipt.json",
+      "sha": "e48717f5db6dd8566aaee5691ca1b113510810b2",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/e48717f5db6dd8566aaee5691ca1b113510810b2"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T185648Z_run13/refusals_1784228300503.receipt.json",
+      "sha": "6b89a49ad0db1331ad8e9bab97d1b0c5e629d76c",
+      "size": 4400,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/6b89a49ad0db1331ad8e9bab97d1b0c5e629d76c"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T185648Z_run13/session_1784228208772.receipt.json",
+      "sha": "1bbe6ace0f2bd966677c866e8cc69e476a459397",
+      "size": 2524,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/1bbe6ace0f2bd966677c866e8cc69e476a459397"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T185648Z_run13/signal_$WIF_1784228208772.receipt.json",
+      "sha": "d4bc91ad027c0e0c5f1b9678617f0a16fe578f08",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/d4bc91ad027c0e0c5f1b9678617f0a16fe578f08"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T185648Z_run13/signal_Bonk_1784228208772.receipt.json",
+      "sha": "d1ea8bbba34069f9d479d3c1b77afc02b734c54c",
+      "size": 3792,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/d1ea8bbba34069f9d479d3c1b77afc02b734c54c"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T185648Z_run13/signal_JTO_1784228208772.receipt.json",
+      "sha": "2ad0c42a7d407ca3790fb2866a66e85f58f7fd56",
+      "size": 4064,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/2ad0c42a7d407ca3790fb2866a66e85f58f7fd56"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T185648Z_run13/signal_JUP_1784228208772.receipt.json",
+      "sha": "d9c5c12983ba4d25d53d4b39107106829f402de3",
+      "size": 4168,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/d9c5c12983ba4d25d53d4b39107106829f402de3"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T185648Z_run13/signal_PYTH_1784228208772.receipt.json",
+      "sha": "4d3ae9744e121936a91ae1d78e394f4453a2a291",
+      "size": 4160,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/4d3ae9744e121936a91ae1d78e394f4453a2a291"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T185648Z_run13/signal_SOL_1784228208772.receipt.json",
+      "sha": "b63e79426376cef78344e99c197f12276d568bd5",
+      "size": 3876,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/b63e79426376cef78344e99c197f12276d568bd5"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T185648Z_run13/trackrecord_1784228300431.receipt.json",
+      "sha": "780e80c6c770489de991dc9ee60fe97b1c51bfef",
+      "size": 29136,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/780e80c6c770489de991dc9ee60fe97b1c51bfef"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260716T193525Z_run14",
+      "sha": "32b00f68c519289f0b1eb6395e7dce6e377a806f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/32b00f68c519289f0b1eb6395e7dce6e377a806f"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193525Z_run14/book_1784230616230.receipt.json",
+      "sha": "8ae2d6b23ae263f92d167fa771c96766f8ade0d5",
+      "size": 5768,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/8ae2d6b23ae263f92d167fa771c96766f8ade0d5"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193525Z_run14/chain_0011.receipt.json",
+      "sha": "8b4a7f2d95fa78af2f3d6893a2f74ed89e1caf15",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/8b4a7f2d95fa78af2f3d6893a2f74ed89e1caf15"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193525Z_run14/refusals_1784230616284.receipt.json",
+      "sha": "c1d3a109b51708d17945d70e2191655630744541",
+      "size": 4400,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c1d3a109b51708d17945d70e2191655630744541"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193525Z_run14/session_1784230524943.receipt.json",
+      "sha": "bc63e0246aff583b2077107b5d8d72b85ee962e8",
+      "size": 2524,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/bc63e0246aff583b2077107b5d8d72b85ee962e8"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193525Z_run14/signal_$WIF_1784230524943.receipt.json",
+      "sha": "c96cd764ea44530b0e585c75275cf5ba28e6d279",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c96cd764ea44530b0e585c75275cf5ba28e6d279"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193525Z_run14/signal_Bonk_1784230524943.receipt.json",
+      "sha": "572d601456833c2c5feb4b19ee969a5c08bd218b",
+      "size": 3788,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/572d601456833c2c5feb4b19ee969a5c08bd218b"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193525Z_run14/signal_JTO_1784230524943.receipt.json",
+      "sha": "6c119313275a77d0abb262154d6533e9e4a8fc84",
+      "size": 4064,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/6c119313275a77d0abb262154d6533e9e4a8fc84"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193525Z_run14/signal_JUP_1784230524943.receipt.json",
+      "sha": "39e20c6c1ac780343bb8fe01eb888ed585efceaa",
+      "size": 4172,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/39e20c6c1ac780343bb8fe01eb888ed585efceaa"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193525Z_run14/signal_PYTH_1784230524943.receipt.json",
+      "sha": "61f8b1220a2c326f5a102abcf0c3c8050a54ef94",
+      "size": 4164,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/61f8b1220a2c326f5a102abcf0c3c8050a54ef94"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193525Z_run14/signal_SOL_1784230524943.receipt.json",
+      "sha": "3ac14d0c40e2b6207a92de837e2102e066ce4b52",
+      "size": 3876,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/3ac14d0c40e2b6207a92de837e2102e066ce4b52"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193525Z_run14/trackrecord_1784230616019.receipt.json",
+      "sha": "b7afd161e5b1d36e0fe0f947c5ad2509d73ff1c7",
+      "size": 31444,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/b7afd161e5b1d36e0fe0f947c5ad2509d73ff1c7"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260716T193839Z_run15",
+      "sha": "6186006166d0496e444d9f3bc9ca64aaa9ced194",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/6186006166d0496e444d9f3bc9ca64aaa9ced194"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193839Z_run15/book_1784230810490.receipt.json",
+      "sha": "86f481af4fcd3f77632c2fa9d7227facc5bc91bf",
+      "size": 5768,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/86f481af4fcd3f77632c2fa9d7227facc5bc91bf"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193839Z_run15/chain_0012.receipt.json",
+      "sha": "3a08c0157be06a768b8f57365fc59879e86dda72",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/3a08c0157be06a768b8f57365fc59879e86dda72"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193839Z_run15/refusals_1784230810549.receipt.json",
+      "sha": "6ba5d6ac0aafd6df07fbd1f5521630b3ef9b0818",
+      "size": 4400,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/6ba5d6ac0aafd6df07fbd1f5521630b3ef9b0818"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193839Z_run15/session_1784230719206.receipt.json",
+      "sha": "604cfabdbd4fcb3cc09573e6a5273a180c670f9d",
+      "size": 2524,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/604cfabdbd4fcb3cc09573e6a5273a180c670f9d"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193839Z_run15/signal_$WIF_1784230719206.receipt.json",
+      "sha": "fe619d203f3af3846e7a0e551006b84db4284f55",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/fe619d203f3af3846e7a0e551006b84db4284f55"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193839Z_run15/signal_Bonk_1784230719206.receipt.json",
+      "sha": "a79ad6f69f264bbf6281409268fb5c56a914fb6f",
+      "size": 3788,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a79ad6f69f264bbf6281409268fb5c56a914fb6f"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193839Z_run15/signal_JTO_1784230719206.receipt.json",
+      "sha": "6a4df911fed8ad7d66155fa5a912e94cb29eb184",
+      "size": 4060,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/6a4df911fed8ad7d66155fa5a912e94cb29eb184"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193839Z_run15/signal_JUP_1784230719206.receipt.json",
+      "sha": "72c36152b940f5bc2dde4094c31fa3a01125c3fa",
+      "size": 4168,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/72c36152b940f5bc2dde4094c31fa3a01125c3fa"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193839Z_run15/signal_PYTH_1784230719206.receipt.json",
+      "sha": "1bc5ab64c402cba84a00c5a6ddc5bc560d06dd2c",
+      "size": 4164,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/1bc5ab64c402cba84a00c5a6ddc5bc560d06dd2c"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193839Z_run15/signal_SOL_1784230719206.receipt.json",
+      "sha": "598da84db37d8673dfc13b956ccc33af263af513",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/598da84db37d8673dfc13b956ccc33af263af513"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T193839Z_run15/trackrecord_1784230810412.receipt.json",
+      "sha": "8d14bb6bf7155fe7985481c67021ceb3b3826fdf",
+      "size": 33748,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/8d14bb6bf7155fe7985481c67021ceb3b3826fdf"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260716T202015Z_run16",
+      "sha": "a7873d4a6336682b944fc4aafcddc77f7db5016a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/a7873d4a6336682b944fc4aafcddc77f7db5016a"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T202015Z_run16/book_1784233307083.receipt.json",
+      "sha": "64eba4a3ca6d697614d5a9a25e64491ec9f208e9",
+      "size": 5768,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/64eba4a3ca6d697614d5a9a25e64491ec9f208e9"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T202015Z_run16/chain_0013.receipt.json",
+      "sha": "04312c999b30bd4af59ab6405a1e766e4f3b7c51",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/04312c999b30bd4af59ab6405a1e766e4f3b7c51"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T202015Z_run16/refusals_1784233307138.receipt.json",
+      "sha": "84ad30a510e89c9f0ac28db212437f6a2b5f9524",
+      "size": 4404,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/84ad30a510e89c9f0ac28db212437f6a2b5f9524"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T202015Z_run16/session_1784233215487.receipt.json",
+      "sha": "53560cbae672ae2bceab59194757aa555866e07a",
+      "size": 2524,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/53560cbae672ae2bceab59194757aa555866e07a"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T202015Z_run16/signal_$WIF_1784233215487.receipt.json",
+      "sha": "6fff1678a32efc1e70bed4dcc962e2a3b7cc4ed1",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/6fff1678a32efc1e70bed4dcc962e2a3b7cc4ed1"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T202015Z_run16/signal_Bonk_1784233215487.receipt.json",
+      "sha": "36b8d4c9f8b7fded4e39bb1bc4a510e27e05f910",
+      "size": 3788,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/36b8d4c9f8b7fded4e39bb1bc4a510e27e05f910"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T202015Z_run16/signal_JTO_1784233215487.receipt.json",
+      "sha": "b44769b8bbe3dc8c3010ba4dd0c9e4c572536bcd",
+      "size": 4064,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/b44769b8bbe3dc8c3010ba4dd0c9e4c572536bcd"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T202015Z_run16/signal_JUP_1784233215487.receipt.json",
+      "sha": "f55137d96724fea50baebc6c996708365817eced",
+      "size": 4172,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f55137d96724fea50baebc6c996708365817eced"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T202015Z_run16/signal_PYTH_1784233215487.receipt.json",
+      "sha": "47fc2180e78ea2eba2bde7e0b457918c15373621",
+      "size": 4168,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/47fc2180e78ea2eba2bde7e0b457918c15373621"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T202015Z_run16/signal_SOL_1784233215487.receipt.json",
+      "sha": "fca7e29a69f5645e7e902718a50315c52a3e79e2",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/fca7e29a69f5645e7e902718a50315c52a3e79e2"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T202015Z_run16/trackrecord_1784233307005.receipt.json",
+      "sha": "e2ae91b2325e144742b282b605b455c6e7cbd6a4",
+      "size": 36060,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/e2ae91b2325e144742b282b605b455c6e7cbd6a4"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260716T205840Z_run17",
+      "sha": "3eb38e17dd3aea1a9ed795921041cad14a398a7e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/3eb38e17dd3aea1a9ed795921041cad14a398a7e"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T205840Z_run17/book_1784235612493.receipt.json",
+      "sha": "f2ad26f23a8efe5ba940c3a86fb8ee6ae44943d0",
+      "size": 5768,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f2ad26f23a8efe5ba940c3a86fb8ee6ae44943d0"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T205840Z_run17/chain_0014.receipt.json",
+      "sha": "fe4b54a84d4e1aadd0c68a4f3514c5dc07d81ec5",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/fe4b54a84d4e1aadd0c68a4f3514c5dc07d81ec5"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T205840Z_run17/refusals_1784235612538.receipt.json",
+      "sha": "6dc9ac0ed4046416a21dbbfdf12184fd479581bd",
+      "size": 4404,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/6dc9ac0ed4046416a21dbbfdf12184fd479581bd"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T205840Z_run17/session_1784235520466.receipt.json",
+      "sha": "bad2891e9ec77467cda03dfb950874776018eceb",
+      "size": 2524,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/bad2891e9ec77467cda03dfb950874776018eceb"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T205840Z_run17/signal_$WIF_1784235520466.receipt.json",
+      "sha": "fc7c951f5246ef8a29763073956034a8ed1830de",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/fc7c951f5246ef8a29763073956034a8ed1830de"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T205840Z_run17/signal_Bonk_1784235520466.receipt.json",
+      "sha": "e6d4384245184e7a375d51bd1dc91bfdad3ed7b8",
+      "size": 3788,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/e6d4384245184e7a375d51bd1dc91bfdad3ed7b8"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T205840Z_run17/signal_JTO_1784235520466.receipt.json",
+      "sha": "a58ef9484d0cd8caabe3807375c821395eb35a89",
+      "size": 4064,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a58ef9484d0cd8caabe3807375c821395eb35a89"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T205840Z_run17/signal_JUP_1784235520466.receipt.json",
+      "sha": "3bac724fc9292cf3a5965fa119988abe61da7502",
+      "size": 4172,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/3bac724fc9292cf3a5965fa119988abe61da7502"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T205840Z_run17/signal_PYTH_1784235520466.receipt.json",
+      "sha": "193bcc54633f5eb373daf1408b677ed4d4cf01d3",
+      "size": 4164,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/193bcc54633f5eb373daf1408b677ed4d4cf01d3"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T205840Z_run17/signal_SOL_1784235520466.receipt.json",
+      "sha": "684dcba3352f9adf548c3837d92e1ba77d3aee48",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/684dcba3352f9adf548c3837d92e1ba77d3aee48"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260716T205840Z_run17/trackrecord_1784235612438.receipt.json",
+      "sha": "c4ad004fd3aed9e6ac651cf8141df07b7237ecf0",
+      "size": 38376,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c4ad004fd3aed9e6ac651cf8141df07b7237ecf0"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260717T034344Z_run18",
+      "sha": "303cd8a61b38f3a1ac7b6890a61a4a2cfd486e3c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/303cd8a61b38f3a1ac7b6890a61a4a2cfd486e3c"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T034344Z_run18/book_1784259915697.receipt.json",
+      "sha": "018173f6af767420cb0e8c57d4130583d43808bb",
+      "size": 5768,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/018173f6af767420cb0e8c57d4130583d43808bb"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T034344Z_run18/chain_0015.receipt.json",
+      "sha": "191420ad5758de2e396c7f73ec6f9c4b4f9db354",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/191420ad5758de2e396c7f73ec6f9c4b4f9db354"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T034344Z_run18/refusals_1784259915753.receipt.json",
+      "sha": "0c2f4abc9fb643ee8a68966551c6b17e2561cfeb",
+      "size": 4400,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/0c2f4abc9fb643ee8a68966551c6b17e2561cfeb"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T034344Z_run18/session_1784259823971.receipt.json",
+      "sha": "45509100d3b829257dc789500fb69fd4f98fb352",
+      "size": 2524,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/45509100d3b829257dc789500fb69fd4f98fb352"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T034344Z_run18/signal_$WIF_1784259823971.receipt.json",
+      "sha": "98a65230d28a72adbb5696a0e5aa76c0b767776f",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/98a65230d28a72adbb5696a0e5aa76c0b767776f"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T034344Z_run18/signal_Bonk_1784259823971.receipt.json",
+      "sha": "bd0544124e4299ace45adaa26154d14bcc4fc66b",
+      "size": 3788,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/bd0544124e4299ace45adaa26154d14bcc4fc66b"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T034344Z_run18/signal_JTO_1784259823971.receipt.json",
+      "sha": "b15f714fa1f245f29e25ed700b15be4489097824",
+      "size": 4060,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/b15f714fa1f245f29e25ed700b15be4489097824"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T034344Z_run18/signal_JUP_1784259823971.receipt.json",
+      "sha": "c4f217805f16d826c9102302ac1755b03f7d283e",
+      "size": 4172,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c4f217805f16d826c9102302ac1755b03f7d283e"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T034344Z_run18/signal_PYTH_1784259823971.receipt.json",
+      "sha": "7bb2b7093789fa062405d08b1e972168e25d08d2",
+      "size": 4164,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/7bb2b7093789fa062405d08b1e972168e25d08d2"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T034344Z_run18/signal_SOL_1784259823971.receipt.json",
+      "sha": "ded09e128df898ee27d9220f90a2a7e9df5fff74",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/ded09e128df898ee27d9220f90a2a7e9df5fff74"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T034344Z_run18/trackrecord_1784259915496.receipt.json",
+      "sha": "212cec57a77f06290e223fcbab8260efafe41bde",
+      "size": 40684,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/212cec57a77f06290e223fcbab8260efafe41bde"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260717T083225Z_run19",
+      "sha": "21c638b4de96894f5f4898961e0549a50e59deef",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/21c638b4de96894f5f4898961e0549a50e59deef"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T083225Z_run19/book_1784277237272.receipt.json",
+      "sha": "a10a869384a11eb6be61fb4cf0ac7b10a973b675",
+      "size": 5816,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a10a869384a11eb6be61fb4cf0ac7b10a973b675"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T083225Z_run19/chain_0016.receipt.json",
+      "sha": "f291c495cf30f0697eec86148448120ecf54d696",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f291c495cf30f0697eec86148448120ecf54d696"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T083225Z_run19/refusals_1784277237329.receipt.json",
+      "sha": "63dfddd3e2e9ecfc06911f7b21c33696e7957620",
+      "size": 4416,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/63dfddd3e2e9ecfc06911f7b21c33696e7957620"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T083225Z_run19/session_1784277145771.receipt.json",
+      "sha": "14400b03255297313cbc84c160407f2750b67b08",
+      "size": 2540,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/14400b03255297313cbc84c160407f2750b67b08"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T083225Z_run19/signal_$WIF_1784277145771.receipt.json",
+      "sha": "f5d1533dedc4ddda0343810f78089461376ed38d",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f5d1533dedc4ddda0343810f78089461376ed38d"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T083225Z_run19/signal_Bonk_1784277145771.receipt.json",
+      "sha": "e43ebf13e105ef1dafad53595eb84df3f52fa4ca",
+      "size": 3792,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/e43ebf13e105ef1dafad53595eb84df3f52fa4ca"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T083225Z_run19/signal_JTO_1784277145771.receipt.json",
+      "sha": "bf0ea94d53062cc8086607486d8f6ee3a6120e45",
+      "size": 4060,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/bf0ea94d53062cc8086607486d8f6ee3a6120e45"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T083225Z_run19/signal_JUP_1784277145771.receipt.json",
+      "sha": "c0f396c3a49f56a50f3db0bfed5697e473cde876",
+      "size": 4172,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c0f396c3a49f56a50f3db0bfed5697e473cde876"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T083225Z_run19/signal_PYTH_1784277145771.receipt.json",
+      "sha": "417da861a34382cff5025a6f99c64bb3bbddf937",
+      "size": 4180,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/417da861a34382cff5025a6f99c64bb3bbddf937"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T083225Z_run19/signal_SOL_1784277145771.receipt.json",
+      "sha": "497d73d831b42e8cc4259c4e6209e65a8fb0b0ec",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/497d73d831b42e8cc4259c4e6209e65a8fb0b0ec"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T083225Z_run19/trackrecord_1784277237187.receipt.json",
+      "sha": "547f7bcf477cc48c5e8fbdf87b2925440d9c66db",
+      "size": 43080,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/547f7bcf477cc48c5e8fbdf87b2925440d9c66db"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260717T140759Z_run20",
+      "sha": "4ef075ba98044003c5e9fd17d783485a7d902fd6",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/4ef075ba98044003c5e9fd17d783485a7d902fd6"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T140759Z_run20/book_1784297370748.receipt.json",
+      "sha": "c37aa450d16a05aad1b0a5f3878f270a43f27c99",
+      "size": 5816,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c37aa450d16a05aad1b0a5f3878f270a43f27c99"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T140759Z_run20/chain_0017.receipt.json",
+      "sha": "12a655237321efc76832988be6c3968a5eefa00f",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/12a655237321efc76832988be6c3968a5eefa00f"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T140759Z_run20/refusals_1784297370802.receipt.json",
+      "sha": "00a862c24d4d6eafa2ddaf07a86f4b09b3044b57",
+      "size": 4416,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/00a862c24d4d6eafa2ddaf07a86f4b09b3044b57"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T140759Z_run20/session_1784297279593.receipt.json",
+      "sha": "01ee7c4f9339277e8933eecfe5324753f6856494",
+      "size": 2540,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/01ee7c4f9339277e8933eecfe5324753f6856494"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T140759Z_run20/signal_$WIF_1784297279593.receipt.json",
+      "sha": "01285d08a40a7a32a666bae9afbacfb3ab234423",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/01285d08a40a7a32a666bae9afbacfb3ab234423"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T140759Z_run20/signal_Bonk_1784297279593.receipt.json",
+      "sha": "7f252457536bd3a4cbc08a7c6b35384138f46a04",
+      "size": 3792,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/7f252457536bd3a4cbc08a7c6b35384138f46a04"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T140759Z_run20/signal_JTO_1784297279593.receipt.json",
+      "sha": "ab58f9e257cf4a154537bbccf9c7fb885b0e18b9",
+      "size": 4060,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/ab58f9e257cf4a154537bbccf9c7fb885b0e18b9"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T140759Z_run20/signal_JUP_1784297279593.receipt.json",
+      "sha": "23a359aa6db6a8b12cfd15613b369289fd6e48bb",
+      "size": 4168,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/23a359aa6db6a8b12cfd15613b369289fd6e48bb"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T140759Z_run20/signal_PYTH_1784297279593.receipt.json",
+      "sha": "45cc5a1d21cb1787ab63408b53b6320e5e685c24",
+      "size": 4176,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/45cc5a1d21cb1787ab63408b53b6320e5e685c24"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T140759Z_run20/signal_SOL_1784297279593.receipt.json",
+      "sha": "99a09a24e802ebf4e1aeef93cecadf646c6e2acb",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/99a09a24e802ebf4e1aeef93cecadf646c6e2acb"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T140759Z_run20/trackrecord_1784297370667.receipt.json",
+      "sha": "c98a7ce619239f7d077dec131e8b14eaca706553",
+      "size": 45476,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c98a7ce619239f7d077dec131e8b14eaca706553"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260717T193725Z_run21",
+      "sha": "ba6859ee5b6352d1efb9603eb67bdccf4366dd83",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/ba6859ee5b6352d1efb9603eb67bdccf4366dd83"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T193725Z_run21/book_1784317137585.receipt.json",
+      "sha": "6830291be7346e23ab1ae1555f97e66c40599f2a",
+      "size": 5816,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/6830291be7346e23ab1ae1555f97e66c40599f2a"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T193725Z_run21/chain_0018.receipt.json",
+      "sha": "b77a4049a992c3a221320e8a4e2eabe592ee82bf",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/b77a4049a992c3a221320e8a4e2eabe592ee82bf"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T193725Z_run21/refusals_1784317137642.receipt.json",
+      "sha": "cdb7afcab796f8a3e01e399af6c103b4ea5d25ae",
+      "size": 4420,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/cdb7afcab796f8a3e01e399af6c103b4ea5d25ae"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T193725Z_run21/session_1784317045421.receipt.json",
+      "sha": "160a7f8e8225df01ca7cdd09ca2630607a6a9e53",
+      "size": 2540,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/160a7f8e8225df01ca7cdd09ca2630607a6a9e53"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T193725Z_run21/signal_$WIF_1784317045421.receipt.json",
+      "sha": "2b59d82c62fdd163d1b0d89ea777338078fcfe98",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/2b59d82c62fdd163d1b0d89ea777338078fcfe98"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T193725Z_run21/signal_Bonk_1784317045421.receipt.json",
+      "sha": "aa2139305b1d33f1113addebe278450fd53c0359",
+      "size": 3788,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/aa2139305b1d33f1113addebe278450fd53c0359"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T193725Z_run21/signal_JTO_1784317045421.receipt.json",
+      "sha": "32c68f90b5d77bf6c8f9a2f1d14ff4f3eb8aae85",
+      "size": 4064,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/32c68f90b5d77bf6c8f9a2f1d14ff4f3eb8aae85"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T193725Z_run21/signal_JUP_1784317045421.receipt.json",
+      "sha": "afb0de85047f0a6cb84a4ebc9c417f0b5a718968",
+      "size": 4168,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/afb0de85047f0a6cb84a4ebc9c417f0b5a718968"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T193725Z_run21/signal_PYTH_1784317045421.receipt.json",
+      "sha": "751cabe27272d0b702c3535aeb7b1daa558aa865",
+      "size": 4180,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/751cabe27272d0b702c3535aeb7b1daa558aa865"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T193725Z_run21/signal_SOL_1784317045421.receipt.json",
+      "sha": "ab86fd493be7d64ec2b97766c058ec1822a1132e",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/ab86fd493be7d64ec2b97766c058ec1822a1132e"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260717T193725Z_run21/trackrecord_1784317137411.receipt.json",
+      "sha": "29acce58d197b9898c5884be04e7da2beeca976d",
+      "size": 47868,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/29acce58d197b9898c5884be04e7da2beeca976d"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260718T033902Z_run22",
+      "sha": "f8d31434ee0250077e22e22f7a19fea1fccd0203",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/f8d31434ee0250077e22e22f7a19fea1fccd0203"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T033902Z_run22/book_1784346033980.receipt.json",
+      "sha": "d5609c475b2d4add2901ae487a5b7fcece0f249b",
+      "size": 5760,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/d5609c475b2d4add2901ae487a5b7fcece0f249b"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T033902Z_run22/chain_0019.receipt.json",
+      "sha": "a6609323159cea002f678d47dc83d4a31da9bca9",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a6609323159cea002f678d47dc83d4a31da9bca9"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T033902Z_run22/refusals_1784346034036.receipt.json",
+      "sha": "8d81eac1516732fa25a8b6328f660b1d2eb713a3",
+      "size": 4392,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/8d81eac1516732fa25a8b6328f660b1d2eb713a3"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T033902Z_run22/session_1784345942717.receipt.json",
+      "sha": "f82c2f15e813b3d300e8b713779178566ac843f4",
+      "size": 2516,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f82c2f15e813b3d300e8b713779178566ac843f4"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T033902Z_run22/signal_$WIF_1784345942717.receipt.json",
+      "sha": "70b460422b661251308f861d09d9714467ea0334",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/70b460422b661251308f861d09d9714467ea0334"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T033902Z_run22/signal_Bonk_1784345942717.receipt.json",
+      "sha": "cc29072b51a3d02e7068b26cbdebb66dd033024f",
+      "size": 3784,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/cc29072b51a3d02e7068b26cbdebb66dd033024f"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T033902Z_run22/signal_JTO_1784345942717.receipt.json",
+      "sha": "50a1d33106407999e516547d35b365f6f49e4028",
+      "size": 4060,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/50a1d33106407999e516547d35b365f6f49e4028"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T033902Z_run22/signal_JUP_1784345942717.receipt.json",
+      "sha": "a0bc82714487f96e8b250b07cf9618cd8aca4340",
+      "size": 3960,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a0bc82714487f96e8b250b07cf9618cd8aca4340"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T033902Z_run22/signal_PYTH_1784345942717.receipt.json",
+      "sha": "c168dffb7c26db304c6d35593015c234fcc54b65",
+      "size": 4180,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c168dffb7c26db304c6d35593015c234fcc54b65"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T033902Z_run22/signal_SOL_1784345942717.receipt.json",
+      "sha": "0dc7c68dbb9a34e55ab8297adff4c4a6dc6afd80",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/0dc7c68dbb9a34e55ab8297adff4c4a6dc6afd80"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T033902Z_run22/trackrecord_1784346033896.receipt.json",
+      "sha": "50665da16b065b744ebfe747ed9e6ca3db8904e7",
+      "size": 50168,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/50665da16b065b744ebfe747ed9e6ca3db8904e7"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260718T081319Z_run23",
+      "sha": "b307f5c0230c345a5fa427c9993a466f0add1087",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/b307f5c0230c345a5fa427c9993a466f0add1087"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T081319Z_run23/book_1784362490213.receipt.json",
+      "sha": "e9dac0f773d52070bb784c474426136e68107fc3",
+      "size": 5720,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/e9dac0f773d52070bb784c474426136e68107fc3"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T081319Z_run23/chain_0020.receipt.json",
+      "sha": "8a5cb7468fea3527580724268f88d58d68ee0600",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/8a5cb7468fea3527580724268f88d58d68ee0600"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T081319Z_run23/refusals_1784362490269.receipt.json",
+      "sha": "2ece88ca6d7400d12c2ad2d882bf15139e1d4f57",
+      "size": 4388,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/2ece88ca6d7400d12c2ad2d882bf15139e1d4f57"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T081319Z_run23/session_1784362398912.receipt.json",
+      "sha": "8bb43331823004b0b2f0174bce2e1661d3efb2c4",
+      "size": 2512,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/8bb43331823004b0b2f0174bce2e1661d3efb2c4"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T081319Z_run23/signal_$WIF_1784362398912.receipt.json",
+      "sha": "8d44f38101c221a00638b88cf9c4b8d46b4a2087",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/8d44f38101c221a00638b88cf9c4b8d46b4a2087"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T081319Z_run23/signal_Bonk_1784362398912.receipt.json",
+      "sha": "bd41d0edf2e527e0092b207368e86d3b01123c4e",
+      "size": 3772,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/bd41d0edf2e527e0092b207368e86d3b01123c4e"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T081319Z_run23/signal_JTO_1784362398912.receipt.json",
+      "sha": "2dd4953b83e3f2dd8db6b2d55880305f578d102d",
+      "size": 4064,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/2dd4953b83e3f2dd8db6b2d55880305f578d102d"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T081319Z_run23/signal_JUP_1784362398912.receipt.json",
+      "sha": "37b0a4df917e82b1fb62db51fd10a091e0a48278",
+      "size": 3980,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/37b0a4df917e82b1fb62db51fd10a091e0a48278"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T081319Z_run23/signal_PYTH_1784362398912.receipt.json",
+      "sha": "71dbf2d78e9ca907584fc0f64b2ec89792741be8",
+      "size": 4372,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/71dbf2d78e9ca907584fc0f64b2ec89792741be8"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T081319Z_run23/signal_SOL_1784362398912.receipt.json",
+      "sha": "6fb140818683642c1cf848f55406e19f3929620c",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/6fb140818683642c1cf848f55406e19f3929620c"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T081319Z_run23/trackrecord_1784362490014.receipt.json",
+      "sha": "56d7d28e0b3c7315baa66ccb0ed85375918f18b8",
+      "size": 52392,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/56d7d28e0b3c7315baa66ccb0ed85375918f18b8"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260718T135458Z_run24",
+      "sha": "689d4f1066b16629102cc93b5e8c5ded858fe8ab",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/689d4f1066b16629102cc93b5e8c5ded858fe8ab"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T135458Z_run24/book_1784382990011.receipt.json",
+      "sha": "c63e4a9bc1a45ac59ab3a0862a6ad9ee3cfe9f02",
+      "size": 5716,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c63e4a9bc1a45ac59ab3a0862a6ad9ee3cfe9f02"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T135458Z_run24/chain_0021.receipt.json",
+      "sha": "768a68fdbe6a6b624b94424cd3bf6ce45dd18973",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/768a68fdbe6a6b624b94424cd3bf6ce45dd18973"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T135458Z_run24/refusals_1784382990063.receipt.json",
+      "sha": "afec05e4b2de44c3c185cf8db782f4920d17a530",
+      "size": 4380,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/afec05e4b2de44c3c185cf8db782f4920d17a530"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T135458Z_run24/session_1784382898543.receipt.json",
+      "sha": "c2e56791ed6cb1ec06f6442c9cb785cc4ecb92f1",
+      "size": 2500,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c2e56791ed6cb1ec06f6442c9cb785cc4ecb92f1"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T135458Z_run24/signal_$WIF_1784382898543.receipt.json",
+      "sha": "a254b939592fa254dfe6609f25a37acc9b1bf152",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a254b939592fa254dfe6609f25a37acc9b1bf152"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T135458Z_run24/signal_Bonk_1784382898543.receipt.json",
+      "sha": "58452d19cd488b3baf95268e6a97ef9aa34fe7c0",
+      "size": 3796,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/58452d19cd488b3baf95268e6a97ef9aa34fe7c0"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T135458Z_run24/signal_JTO_1784382898543.receipt.json",
+      "sha": "02413eb9321ea4b94271e7bd528812455d5b5acf",
+      "size": 4060,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/02413eb9321ea4b94271e7bd528812455d5b5acf"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T135458Z_run24/signal_JUP_1784382898543.receipt.json",
+      "sha": "3d9fa9f05b987c4fe97050c13a54b48b0b0667c3",
+      "size": 3956,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/3d9fa9f05b987c4fe97050c13a54b48b0b0667c3"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T135458Z_run24/signal_PYTH_1784382898543.receipt.json",
+      "sha": "f67f5ae588bbeb05ed02eb1f3af533c24d05fa7a",
+      "size": 4160,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f67f5ae588bbeb05ed02eb1f3af533c24d05fa7a"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T135458Z_run24/signal_SOL_1784382898543.receipt.json",
+      "sha": "ea0710653fda67fe6e999aff524bc3b6d4dd9819",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/ea0710653fda67fe6e999aff524bc3b6d4dd9819"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T135458Z_run24/trackrecord_1784382989745.receipt.json",
+      "sha": "7384f0abbbe58bbc40b8fdc4f2af5090058fffa9",
+      "size": 54612,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/7384f0abbbe58bbc40b8fdc4f2af5090058fffa9"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260718T193657Z_run25",
+      "sha": "76913864966b8660a307acbb6215dcd569b88847",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/76913864966b8660a307acbb6215dcd569b88847"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T193657Z_run25/book_1784403509382.receipt.json",
+      "sha": "4458de936fca5fbb76242398e67200452b1cb050",
+      "size": 5764,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/4458de936fca5fbb76242398e67200452b1cb050"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T193657Z_run25/chain_0022.receipt.json",
+      "sha": "dd5b7830142408188ad979dfc7004847c2455e23",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/dd5b7830142408188ad979dfc7004847c2455e23"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T193657Z_run25/refusals_1784403509439.receipt.json",
+      "sha": "27c8d20f27e9757df0773c264599dac4554cba53",
+      "size": 4392,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/27c8d20f27e9757df0773c264599dac4554cba53"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T193657Z_run25/session_1784403417804.receipt.json",
+      "sha": "44e5c2072debe3fa1102724db48d09c6c003444e",
+      "size": 2516,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/44e5c2072debe3fa1102724db48d09c6c003444e"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T193657Z_run25/signal_$WIF_1784403417804.receipt.json",
+      "sha": "a784b5ba005cebe11a784aa205a1a05ad8b3bf57",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a784b5ba005cebe11a784aa205a1a05ad8b3bf57"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T193657Z_run25/signal_Bonk_1784403417804.receipt.json",
+      "sha": "fc1a55241be1898ef4bcb2c1f3561a7a9a83a679",
+      "size": 3796,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/fc1a55241be1898ef4bcb2c1f3561a7a9a83a679"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T193657Z_run25/signal_JTO_1784403417804.receipt.json",
+      "sha": "a5271fc64f16ea488704098cec0ee4d02ff46e90",
+      "size": 4064,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a5271fc64f16ea488704098cec0ee4d02ff46e90"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T193657Z_run25/signal_JUP_1784403417804.receipt.json",
+      "sha": "9f1b0e417344d5cd59e27915f895c2831b237451",
+      "size": 3984,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/9f1b0e417344d5cd59e27915f895c2831b237451"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T193657Z_run25/signal_PYTH_1784403417804.receipt.json",
+      "sha": "8ef69f38acdad613032cbba473dd203e8cc841ce",
+      "size": 4164,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/8ef69f38acdad613032cbba473dd203e8cc841ce"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T193657Z_run25/signal_SOL_1784403417804.receipt.json",
+      "sha": "d7cd9e7fb4a3890cef0402416255e47b14922a3a",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/d7cd9e7fb4a3890cef0402416255e47b14922a3a"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260718T193657Z_run25/trackrecord_1784403509167.receipt.json",
+      "sha": "b43237d7cad0bb08c3663dc7b87e84b149702b2c",
+      "size": 56916,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/b43237d7cad0bb08c3663dc7b87e84b149702b2c"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260719T040053Z_run26",
+      "sha": "eec74626f372547b6b5723bd9218edf7747465f3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/eec74626f372547b6b5723bd9218edf7747465f3"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T040053Z_run26/book_1784433745314.receipt.json",
+      "sha": "c25e183050bfc2b09f8be4fa2d83980bff6c6705",
+      "size": 5808,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c25e183050bfc2b09f8be4fa2d83980bff6c6705"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T040053Z_run26/chain_0023.receipt.json",
+      "sha": "2014c67cdb06addfa61e4c63131ff1c7422b355e",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/2014c67cdb06addfa61e4c63131ff1c7422b355e"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T040053Z_run26/refusals_1784433745374.receipt.json",
+      "sha": "fba83a0d8d1b59f3f940db1ddf2d3f720a801db3",
+      "size": 4408,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/fba83a0d8d1b59f3f940db1ddf2d3f720a801db3"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T040053Z_run26/session_1784433653541.receipt.json",
+      "sha": "101a660cb734c1bda5249c99f250a16d39528173",
+      "size": 2532,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/101a660cb734c1bda5249c99f250a16d39528173"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T040053Z_run26/signal_$WIF_1784433653541.receipt.json",
+      "sha": "ba7d0dba469396d305380eb0d058f565bedd1a98",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/ba7d0dba469396d305380eb0d058f565bedd1a98"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T040053Z_run26/signal_Bonk_1784433653541.receipt.json",
+      "sha": "ea22f13d7c7d17b73027cf94ff399b7ee2db08e2",
+      "size": 3792,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/ea22f13d7c7d17b73027cf94ff399b7ee2db08e2"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T040053Z_run26/signal_JTO_1784433653541.receipt.json",
+      "sha": "daf43430e5ba746d3a44cff4974dbec852ae5192",
+      "size": 4068,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/daf43430e5ba746d3a44cff4974dbec852ae5192"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T040053Z_run26/signal_JUP_1784433653541.receipt.json",
+      "sha": "1b45ab5a9c9d3a20200b9958436b2862b5e347e4",
+      "size": 3984,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/1b45ab5a9c9d3a20200b9958436b2862b5e347e4"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T040053Z_run26/signal_PYTH_1784433653541.receipt.json",
+      "sha": "6cb50a1188e5e4afab980ddcb6eae29c775fbb0d",
+      "size": 4164,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/6cb50a1188e5e4afab980ddcb6eae29c775fbb0d"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T040053Z_run26/signal_SOL_1784433653541.receipt.json",
+      "sha": "7b08a2c0698991109d1e699b5f57f5baabcba70d",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/7b08a2c0698991109d1e699b5f57f5baabcba70d"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T040053Z_run26/trackrecord_1784433745227.receipt.json",
+      "sha": "5d7a82b650765995d639ddd40f440626819868b0",
+      "size": 59304,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/5d7a82b650765995d639ddd40f440626819868b0"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260719T083827Z_run27",
+      "sha": "9fa72dd071f8bf1851f316a0fb47f4244b4c72ff",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/9fa72dd071f8bf1851f316a0fb47f4244b4c72ff"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T083827Z_run27/book_1784450399747.receipt.json",
+      "sha": "21edd6c33ccb1141da3fb10940a7ce7aa2ac4476",
+      "size": 5816,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/21edd6c33ccb1141da3fb10940a7ce7aa2ac4476"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T083827Z_run27/chain_0024.receipt.json",
+      "sha": "7d42459d27a43258535266199bf91bbeb91d7953",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/7d42459d27a43258535266199bf91bbeb91d7953"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T083827Z_run27/refusals_1784450399800.receipt.json",
+      "sha": "5bee775aa21df395fb842d44bfefe3f08814acc9",
+      "size": 4420,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/5bee775aa21df395fb842d44bfefe3f08814acc9"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T083827Z_run27/session_1784450307873.receipt.json",
+      "sha": "b1ae1555249a30e6fc9bf69ef48fc3bde5e91557",
+      "size": 2540,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/b1ae1555249a30e6fc9bf69ef48fc3bde5e91557"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T083827Z_run27/signal_$WIF_1784450307873.receipt.json",
+      "sha": "4656525cdf49d5f5f7e5f1e33bda21f69eaad692",
+      "size": 3876,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/4656525cdf49d5f5f7e5f1e33bda21f69eaad692"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T083827Z_run27/signal_Bonk_1784450307873.receipt.json",
+      "sha": "dc2b7b4ec895797e49c3e4c1da1eec7c75e30897",
+      "size": 3788,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/dc2b7b4ec895797e49c3e4c1da1eec7c75e30897"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T083827Z_run27/signal_JTO_1784450307873.receipt.json",
+      "sha": "be3a7154634f1be43160c93c543a290ead2fd790",
+      "size": 4072,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/be3a7154634f1be43160c93c543a290ead2fd790"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T083827Z_run27/signal_JUP_1784450307873.receipt.json",
+      "sha": "7d275171413048befad22071730d167f34e5b218",
+      "size": 3960,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/7d275171413048befad22071730d167f34e5b218"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T083827Z_run27/signal_PYTH_1784450307873.receipt.json",
+      "sha": "06f3053d4da64ec43ba84f9c10f1e5a673dfcfde",
+      "size": 4380,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/06f3053d4da64ec43ba84f9c10f1e5a673dfcfde"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T083827Z_run27/signal_SOL_1784450307873.receipt.json",
+      "sha": "f5cfa7686db2482037f6e92ad5a5a392a18c0461",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f5cfa7686db2482037f6e92ad5a5a392a18c0461"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T083827Z_run27/trackrecord_1784450399521.receipt.json",
+      "sha": "8a12c50341cf2b932c9a674bf0f9c217e3ce6e07",
+      "size": 61700,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/8a12c50341cf2b932c9a674bf0f9c217e3ce6e07"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260719T135816Z_run28",
+      "sha": "11125a5e2e17ae7e389588dced4733c4e44283e3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/11125a5e2e17ae7e389588dced4733c4e44283e3"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T135816Z_run28/book_1784469587350.receipt.json",
+      "sha": "26f3002e961ebc608e6b54048356c1cbce9a2f33",
+      "size": 5772,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/26f3002e961ebc608e6b54048356c1cbce9a2f33"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T135816Z_run28/chain_0025.receipt.json",
+      "sha": "dec8b61b47211abcddea3330c2a0734406c836fd",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/dec8b61b47211abcddea3330c2a0734406c836fd"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T135816Z_run28/refusals_1784469587406.receipt.json",
+      "sha": "b1d68c156c989379be68ccafc68a896efedeb158",
+      "size": 4400,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/b1d68c156c989379be68ccafc68a896efedeb158"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T135816Z_run28/session_1784469496083.receipt.json",
+      "sha": "18d05bb25aec8971c7fb0acf3b52f353cf42c1d4",
+      "size": 2524,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/18d05bb25aec8971c7fb0acf3b52f353cf42c1d4"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T135816Z_run28/signal_$WIF_1784469496083.receipt.json",
+      "sha": "591b60552b6e3c8480f42b597bd55708a6f1bbe1",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/591b60552b6e3c8480f42b597bd55708a6f1bbe1"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T135816Z_run28/signal_Bonk_1784469496083.receipt.json",
+      "sha": "4aa3d884286317cac7ff9f801964cfeeb85b731e",
+      "size": 3780,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/4aa3d884286317cac7ff9f801964cfeeb85b731e"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T135816Z_run28/signal_JTO_1784469496083.receipt.json",
+      "sha": "81ae6a8efdfa3f8eb536e90b1a961886ab22f3e2",
+      "size": 4060,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/81ae6a8efdfa3f8eb536e90b1a961886ab22f3e2"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T135816Z_run28/signal_JUP_1784469496083.receipt.json",
+      "sha": "f02b42969b4794d12dd04c499e8b076fc5e17688",
+      "size": 3956,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f02b42969b4794d12dd04c499e8b076fc5e17688"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T135816Z_run28/signal_PYTH_1784469496083.receipt.json",
+      "sha": "d16b29dd9bc50b63ebe4a0d143b71e89372ccae3",
+      "size": 4380,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/d16b29dd9bc50b63ebe4a0d143b71e89372ccae3"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T135816Z_run28/signal_SOL_1784469496083.receipt.json",
+      "sha": "42362cffd50eac0738db782816873675abdf6984",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/42362cffd50eac0738db782816873675abdf6984"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T135816Z_run28/trackrecord_1784469587263.receipt.json",
+      "sha": "074e030f8663d251b87891f58ba9ca8d4d9c6d03",
+      "size": 64012,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/074e030f8663d251b87891f58ba9ca8d4d9c6d03"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260719T193725Z_run29",
+      "sha": "607dd2805db889dfde69e42c8f268bb9c64e7417",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/607dd2805db889dfde69e42c8f268bb9c64e7417"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T193725Z_run29/book_1784489936255.receipt.json",
+      "sha": "b8fc6f41c566d193ca76dfaafd5cbfa5e63f637f",
+      "size": 5768,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/b8fc6f41c566d193ca76dfaafd5cbfa5e63f637f"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T193725Z_run29/chain_0026.receipt.json",
+      "sha": "5af63f038eedf768a56a63f21cccae80d3a14d07",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/5af63f038eedf768a56a63f21cccae80d3a14d07"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T193725Z_run29/refusals_1784489936313.receipt.json",
+      "sha": "9d8f8b350ce1792c05f3f765577ecdc88c54adf2",
+      "size": 4404,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/9d8f8b350ce1792c05f3f765577ecdc88c54adf2"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T193725Z_run29/session_1784489844986.receipt.json",
+      "sha": "592c98bfa4e7f2a3a5631c6556991dd43087f33b",
+      "size": 2524,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/592c98bfa4e7f2a3a5631c6556991dd43087f33b"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T193725Z_run29/signal_$WIF_1784489844986.receipt.json",
+      "sha": "9829cda1f88f0ddce1d71f8f162ae14224cf21d6",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/9829cda1f88f0ddce1d71f8f162ae14224cf21d6"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T193725Z_run29/signal_Bonk_1784489844986.receipt.json",
+      "sha": "8c4fc4d42bcdca43100916ba31a32c663f2e31f3",
+      "size": 3788,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/8c4fc4d42bcdca43100916ba31a32c663f2e31f3"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T193725Z_run29/signal_JTO_1784489844986.receipt.json",
+      "sha": "7fa4cfb0aee6ddf9067678883248505b3d31f35b",
+      "size": 4064,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/7fa4cfb0aee6ddf9067678883248505b3d31f35b"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T193725Z_run29/signal_JUP_1784489844986.receipt.json",
+      "sha": "69378d7b450bc0c8bce8b536e142a91a72bc7ec7",
+      "size": 3960,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/69378d7b450bc0c8bce8b536e142a91a72bc7ec7"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T193725Z_run29/signal_PYTH_1784489844986.receipt.json",
+      "sha": "f1d03351b7d50d4ef3ac2c459b41c79627677755",
+      "size": 4380,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f1d03351b7d50d4ef3ac2c459b41c79627677755"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T193725Z_run29/signal_SOL_1784489844986.receipt.json",
+      "sha": "56a55ed726706a67b753f886b11596436b0e89d0",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/56a55ed726706a67b753f886b11596436b0e89d0"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260719T193725Z_run29/trackrecord_1784489936177.receipt.json",
+      "sha": "594e4181629d199b5d452ec6c07e5a519392822a",
+      "size": 66324,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/594e4181629d199b5d452ec6c07e5a519392822a"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260720T041006Z_run30",
+      "sha": "9a2ec87ece35804ef84601548e6fe1445c2b7089",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/9a2ec87ece35804ef84601548e6fe1445c2b7089"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T041006Z_run30/book_1784520697586.receipt.json",
+      "sha": "d1945b1d6e8ce44c616461d468df920c20fcffa6",
+      "size": 5664,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/d1945b1d6e8ce44c616461d468df920c20fcffa6"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T041006Z_run30/chain_0027.receipt.json",
+      "sha": "c3b1decede8d489f5adaec3fc2f456c13991727f",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c3b1decede8d489f5adaec3fc2f456c13991727f"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T041006Z_run30/refusals_1784520697640.receipt.json",
+      "sha": "5599ee4f1a854a17d9ba16aab11eaaff5fb5fbec",
+      "size": 4364,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/5599ee4f1a854a17d9ba16aab11eaaff5fb5fbec"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T041006Z_run30/session_1784520606275.receipt.json",
+      "sha": "e2e6b748ee170d01f11d885def1b6a2c0c5e563a",
+      "size": 2488,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/e2e6b748ee170d01f11d885def1b6a2c0c5e563a"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T041006Z_run30/signal_$WIF_1784520606275.receipt.json",
+      "sha": "287071a1320fb31820d3a60099cafab899cbd0f8",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/287071a1320fb31820d3a60099cafab899cbd0f8"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T041006Z_run30/signal_Bonk_1784520606275.receipt.json",
+      "sha": "57c40cfcc742416a2458b721248094f3d92adc40",
+      "size": 3780,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/57c40cfcc742416a2458b721248094f3d92adc40"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T041006Z_run30/signal_JTO_1784520606275.receipt.json",
+      "sha": "a3fd47d9746eea72ecc1f50d77ea904c2440ba92",
+      "size": 4060,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a3fd47d9746eea72ecc1f50d77ea904c2440ba92"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T041006Z_run30/signal_JUP_1784520606275.receipt.json",
+      "sha": "e32b54145a952523d5658c6fd2e0aefe593e49da",
+      "size": 3976,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/e32b54145a952523d5658c6fd2e0aefe593e49da"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T041006Z_run30/signal_PYTH_1784520606275.receipt.json",
+      "sha": "f192d8787b5a3e165e751033c5e8fd8ecabad5a4",
+      "size": 4172,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f192d8787b5a3e165e751033c5e8fd8ecabad5a4"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T041006Z_run30/signal_SOL_1784520606275.receipt.json",
+      "sha": "33ff29c81b3fda540592c4d57480d4ea99d93f03",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/33ff29c81b3fda540592c4d57480d4ea99d93f03"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T041006Z_run30/trackrecord_1784520697502.receipt.json",
+      "sha": "cfab96eef83c20b729af457701855a7dffc9f4f2",
+      "size": 68452,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/cfab96eef83c20b729af457701855a7dffc9f4f2"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260720T093941Z_run31",
+      "sha": "a70e2a99fcc01f83ccc3bfd3f67dbc19c74c115a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/a70e2a99fcc01f83ccc3bfd3f67dbc19c74c115a"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T093941Z_run31/book_1784540472493.receipt.json",
+      "sha": "a4558942938c402d3363111639fa2f3f7eb2016e",
+      "size": 5664,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a4558942938c402d3363111639fa2f3f7eb2016e"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T093941Z_run31/chain_0028.receipt.json",
+      "sha": "5d85de488de6b32a598dcd29ae4418a7836d7c2b",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/5d85de488de6b32a598dcd29ae4418a7836d7c2b"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T093941Z_run31/refusals_1784540472550.receipt.json",
+      "sha": "2837b8a464ac5a17659a91b7e13484483b102a19",
+      "size": 4360,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/2837b8a464ac5a17659a91b7e13484483b102a19"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T093941Z_run31/session_1784540381179.receipt.json",
+      "sha": "65c7368c7bcdbf6115fe055124daaa87a59c269c",
+      "size": 2488,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/65c7368c7bcdbf6115fe055124daaa87a59c269c"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T093941Z_run31/signal_$WIF_1784540381179.receipt.json",
+      "sha": "2630e5ad74a9297e99b340fc1c732217e45bbb5a",
+      "size": 3876,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/2630e5ad74a9297e99b340fc1c732217e45bbb5a"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T093941Z_run31/signal_Bonk_1784540381179.receipt.json",
+      "sha": "1501b94dda37cd2457867dcbe728d2c0294f8678",
+      "size": 3780,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/1501b94dda37cd2457867dcbe728d2c0294f8678"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T093941Z_run31/signal_JTO_1784540381179.receipt.json",
+      "sha": "5a8510a95131b1e1852331d5c3ba56e4ef4a4e68",
+      "size": 4060,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/5a8510a95131b1e1852331d5c3ba56e4ef4a4e68"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T093941Z_run31/signal_JUP_1784540381179.receipt.json",
+      "sha": "c23746cb18789fe10db7e855d6f531463a5f7246",
+      "size": 3980,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c23746cb18789fe10db7e855d6f531463a5f7246"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T093941Z_run31/signal_PYTH_1784540381179.receipt.json",
+      "sha": "c35d4df43175c48ab164e19f7183ab6d09e7a42d",
+      "size": 4176,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c35d4df43175c48ab164e19f7183ab6d09e7a42d"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T093941Z_run31/signal_SOL_1784540381179.receipt.json",
+      "sha": "ea1018094ef74511fce8b2947d3ea6cef06cbe5e",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/ea1018094ef74511fce8b2947d3ea6cef06cbe5e"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T093941Z_run31/trackrecord_1784540472413.receipt.json",
+      "sha": "9eb3575e626649c71e7ac78207e01c158a8b844c",
+      "size": 70580,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/9eb3575e626649c71e7ac78207e01c158a8b844c"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260720T143704Z_run32",
+      "sha": "4fd5ad5c623d2c64db2326a0cfd89380ad4278d6",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/4fd5ad5c623d2c64db2326a0cfd89380ad4278d6"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T143704Z_run32/book_1784558315287.receipt.json",
+      "sha": "0c90248071e354dad0d36693ebc6e7ecd732e9f1",
+      "size": 5720,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/0c90248071e354dad0d36693ebc6e7ecd732e9f1"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T143704Z_run32/chain_0029.receipt.json",
+      "sha": "5c5caffdeff22189ba7fe77fbf25e0a7f50de04e",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/5c5caffdeff22189ba7fe77fbf25e0a7f50de04e"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T143704Z_run32/refusals_1784558315343.receipt.json",
+      "sha": "8a5b5207ba0bc129eb01a029f3a2c8157f279e32",
+      "size": 4388,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/8a5b5207ba0bc129eb01a029f3a2c8157f279e32"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T143704Z_run32/session_1784558223918.receipt.json",
+      "sha": "a70ce5073f324d46f57623dd63b42226715688d1",
+      "size": 2512,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a70ce5073f324d46f57623dd63b42226715688d1"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T143704Z_run32/signal_$WIF_1784558223918.receipt.json",
+      "sha": "a30513a2bb85676d04808f946d9079206bb668a2",
+      "size": 3876,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a30513a2bb85676d04808f946d9079206bb668a2"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T143704Z_run32/signal_Bonk_1784558223918.receipt.json",
+      "sha": "5415c69491f29d16a6a15a8f4472d9c43ac55c75",
+      "size": 3780,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/5415c69491f29d16a6a15a8f4472d9c43ac55c75"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T143704Z_run32/signal_JTO_1784558223918.receipt.json",
+      "sha": "73658821a3f44dc75cc0843c6aea899edaf1b7b9",
+      "size": 4060,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/73658821a3f44dc75cc0843c6aea899edaf1b7b9"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T143704Z_run32/signal_JUP_1784558223918.receipt.json",
+      "sha": "5b33e41eebae4072f7622bbb8baf6c73af4d5fd6",
+      "size": 3980,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/5b33e41eebae4072f7622bbb8baf6c73af4d5fd6"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T143704Z_run32/signal_PYTH_1784558223918.receipt.json",
+      "sha": "50b4823256de9a701f14f551f387967f69509f33",
+      "size": 4380,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/50b4823256de9a701f14f551f387967f69509f33"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T143704Z_run32/signal_SOL_1784558223918.receipt.json",
+      "sha": "17c5cb1f86d07f8cd949b9df1aed0675dff491bf",
+      "size": 3888,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/17c5cb1f86d07f8cd949b9df1aed0675dff491bf"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T143704Z_run32/trackrecord_1784558315028.receipt.json",
+      "sha": "23b7ccd8fb145ecb440c0846c369b6e6aca71d68",
+      "size": 72800,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/23b7ccd8fb145ecb440c0846c369b6e6aca71d68"
+    },
+    {
+      "mode": "040000",
+      "path": "data/quant/ledger/20260720T200051Z_run33",
+      "sha": "f634dc0fcf3fb35396020330f2d95ecf011233f7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/f634dc0fcf3fb35396020330f2d95ecf011233f7"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T200051Z_run33/book_1784577743195.receipt.json",
+      "sha": "045e66dff6aa2a226f090c6abad653624462042e",
+      "size": 5768,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/045e66dff6aa2a226f090c6abad653624462042e"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T200051Z_run33/chain_0030.receipt.json",
+      "sha": "0bde26acda9b45d36d672b5d3052c3b567aa6e16",
+      "size": 3908,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/0bde26acda9b45d36d672b5d3052c3b567aa6e16"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T200051Z_run33/refusals_1784577743250.receipt.json",
+      "sha": "407056109c4bd951ee1524c15304c462f35b8852",
+      "size": 4400,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/407056109c4bd951ee1524c15304c462f35b8852"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T200051Z_run33/session_1784577651116.receipt.json",
+      "sha": "c39461113e97738318c78116782d0dae9f6c38a1",
+      "size": 2524,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c39461113e97738318c78116782d0dae9f6c38a1"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T200051Z_run33/signal_$WIF_1784577651116.receipt.json",
+      "sha": "087f20c7de6c7189dff9edb3d8321da022963a7c",
+      "size": 3884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/087f20c7de6c7189dff9edb3d8321da022963a7c"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T200051Z_run33/signal_Bonk_1784577651116.receipt.json",
+      "sha": "cfb8c738742f9102a4d976675e82e673f77f5fab",
+      "size": 3796,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/cfb8c738742f9102a4d976675e82e673f77f5fab"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T200051Z_run33/signal_JTO_1784577651116.receipt.json",
+      "sha": "c97b0e3ec7af415e3b5a02b97f52e15959481c87",
+      "size": 4060,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c97b0e3ec7af415e3b5a02b97f52e15959481c87"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T200051Z_run33/signal_JUP_1784577651116.receipt.json",
+      "sha": "8817703c708483d1cc24bd593fc69462beaf448d",
+      "size": 3960,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/8817703c708483d1cc24bd593fc69462beaf448d"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T200051Z_run33/signal_PYTH_1784577651116.receipt.json",
+      "sha": "8724e14e47b9ec1e5b87ccc7a9c64b27f9b7479f",
+      "size": 4388,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/8724e14e47b9ec1e5b87ccc7a9c64b27f9b7479f"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T200051Z_run33/signal_SOL_1784577651116.receipt.json",
+      "sha": "f032def7a91d9fe241b8803fa5535ae487005600",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f032def7a91d9fe241b8803fa5535ae487005600"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/20260720T200051Z_run33/trackrecord_1784577743115.receipt.json",
+      "sha": "e389e40a1b519c3892d22de5566de3ed4eb1c214",
+      "size": 75108,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/e389e40a1b519c3892d22de5566de3ed4eb1c214"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/ledger/INDEX.md",
+      "sha": "78338d54d38d272a8146ca5d730dbef274706b40",
+      "size": 3005,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/78338d54d38d272a8146ca5d730dbef274706b40"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/manifest.json",
+      "sha": "bcfbb076fb94429ff57f449801689012892371ec",
+      "size": 69428,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/bcfbb076fb94429ff57f449801689012892371ec"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/session_1784088245451.receipt.json",
+      "sha": "6e492615be18d4808e6bf30116ff7b2dbc6255e8",
+      "size": 2332,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/6e492615be18d4808e6bf30116ff7b2dbc6255e8"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/signal_$WIF_1784088245451.receipt.json",
+      "sha": "c9ff1eb84382802a8a07007f8b168c1694e8ff66",
+      "size": 3128,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/c9ff1eb84382802a8a07007f8b168c1694e8ff66"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/signal_Bonk_1784088245451.receipt.json",
+      "sha": "091caefa374ff000f894bad5ae134588a80335e2",
+      "size": 3792,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/091caefa374ff000f894bad5ae134588a80335e2"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/signal_JUP_1784088245451.receipt.json",
+      "sha": "cc34d1c6a60906c7aecabd5198b176c8d049bf41",
+      "size": 3240,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/cc34d1c6a60906c7aecabd5198b176c8d049bf41"
+    },
+    {
+      "mode": "100644",
+      "path": "data/quant/signal_SOL_1784088245451.receipt.json",
+      "sha": "5014a9cf4841bb2267a8ad3c840d68b77758b3ae",
+      "size": 3880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/5014a9cf4841bb2267a8ad3c840d68b77758b3ae"
+    },
+    {
+      "mode": "040000",
+      "path": "data/trajectories",
+      "sha": "19454975df7c36910b90403f6140823214104d5c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/19454975df7c36910b90403f6140823214104d5c"
+    },
+    {
+      "mode": "100644",
+      "path": "data/trajectories/manifest.json",
+      "sha": "15d99ca5b55cb968605e92c1f13e2d4e31721dcc",
+      "size": 337,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/15d99ca5b55cb968605e92c1f13e2d4e31721dcc"
+    },
+    {
+      "mode": "100644",
+      "path": "data/trajectories/trajectories.parquet",
+      "sha": "29f2221700759f78a10f883eba5bcbd116f19a60",
+      "size": 1214,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/29f2221700759f78a10f883eba5bcbd116f19a60"
+    },
+    {
+      "mode": "040000",
+      "path": "doctrine",
+      "sha": "4310d7de70f658b32f213dd2de6f4f5782f14fd0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/4310d7de70f658b32f213dd2de6f4f5782f14fd0"
+    },
+    {
+      "mode": "100644",
+      "path": "doctrine/manifest.json",
+      "sha": "a5f661ce7b88d02e6bf2da443ce174b985aad254",
+      "size": 149,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a5f661ce7b88d02e6bf2da443ce174b985aad254"
+    },
+    {
+      "mode": "040000",
+      "path": "huggingface",
+      "sha": "7ac96581e98d0b8c1734b0c164744c8ff29f118f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/7ac96581e98d0b8c1734b0c164744c8ff29f118f"
+    },
+    {
+      "mode": "100644",
+      "path": "huggingface/README.md",
+      "sha": "98bc98c44f79b8f88fa42461158748da732b20c0",
+      "size": 7698,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/98bc98c44f79b8f88fa42461158748da732b20c0"
+    },
+    {
+      "mode": "040000",
+      "path": "keys",
+      "sha": "4fce1b0bab644fee95a13256168852f4aaafaa1b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/4fce1b0bab644fee95a13256168852f4aaafaa1b"
+    },
+    {
+      "mode": "100644",
+      "path": "keys/MANIFEST.json",
+      "sha": "e02633c3368a275699ace03420b41a14df1fba2b",
+      "size": 1850,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/e02633c3368a275699ace03420b41a14df1fba2b"
+    },
+    {
+      "mode": "100644",
+      "path": "lake_index.json",
+      "sha": "53eff8979155d029e7cf1ae28771b6ec3b286530",
+      "size": 6030,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/53eff8979155d029e7cf1ae28771b6ec3b286530"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements-attest.txt",
+      "sha": "402d5e0275ae382c8613342e9ec4b40578e7743c",
+      "size": 502,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/402d5e0275ae382c8613342e9ec4b40578e7743c"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "6d87d569ad9c48ff24cfa457411f154e904dedf5",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/6d87d569ad9c48ff24cfa457411f154e904dedf5"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/publish_hf_dataset.py",
+      "sha": "561ab21942da2ef7af69ad281a09bb03d3e4c872",
+      "size": 20537,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/561ab21942da2ef7af69ad281a09bb03d3e4c872"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/test_hf_dataset_contract.py",
+      "sha": "171afc7e98dbd872806c6831932b333e4e190694",
+      "size": 3639,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/171afc7e98dbd872806c6831932b333e4e190694"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/test_lake_ledger.py",
+      "sha": "eeba3caab6ff1f1fe273b8675e18e2a6c732dc3b",
+      "size": 19738,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/eeba3caab6ff1f1fe273b8675e18e2a6c732dc3b"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/test_lake_receipt_spine.py",
+      "sha": "a973edfebb1e6a9410c407fa1fbabeed85372a3b",
+      "size": 7385,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a973edfebb1e6a9410c407fa1fbabeed85372a3b"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/test_publish_hf_dataset.py",
+      "sha": "a4368970599c6a5a2967fe10013ee4a785451e69",
+      "size": 19206,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a4368970599c6a5a2967fe10013ee4a785451e69"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/test_verify_lutar_lean_receipts.py",
+      "sha": "61b63c07f6814426ba75bfe67ae7ffd58cf580f9",
+      "size": 9393,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/61b63c07f6814426ba75bfe67ae7ffd58cf580f9"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/test_verify_lutar_lean_receipts_real.py",
+      "sha": "f68ecfca693deee87cbd69de846ba123082cd7c9",
+      "size": 10862,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/f68ecfca693deee87cbd69de846ba123082cd7c9"
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/verify_lake_offline.sh",
+      "sha": "fe6531ae50c25acddf2013ccd767f3caf73a9c45",
+      "size": 4045,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/fe6531ae50c25acddf2013ccd767f3caf73a9c45"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/verify_lutar_lean_receipts.py",
+      "sha": "df072d10206690e6deff0b82a27522edd3d1c7d1",
+      "size": 14051,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/df072d10206690e6deff0b82a27522edd3d1c7d1"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_lake_client.py",
+      "sha": "08bff81edc50550333fb380339e17e26d06fc40e",
+      "size": 4444,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/08bff81edc50550333fb380339e17e26d06fc40e"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_lake_query.py",
+      "sha": "b1a6c67d086da218493f6dd99b68ac1d59d36bb0",
+      "size": 2942,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/b1a6c67d086da218493f6dd99b68ac1d59d36bb0"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_lake_receipt.py",
+      "sha": "845ac31c3415d70954b4b3835bd6da9faa84309d",
+      "size": 13479,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/845ac31c3415d70954b4b3835bd6da9faa84309d"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_lake_server.py",
+      "sha": "a3cc4a37657af1126c064efda5ae672e87b067c5",
+      "size": 6042,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/a3cc4a37657af1126c064efda5ae672e87b067c5"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_lake_store.py",
+      "sha": "cc2fd1f3389abca40bb3615aa0a133b8b79f8481",
+      "size": 21676,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/cc2fd1f3389abca40bb3615aa0a133b8b79f8481"
+    },
+    {
+      "mode": "040000",
+      "path": "tools",
+      "sha": "a14da8eab9d3ad80c7d927c07495f2503d065f88",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/a14da8eab9d3ad80c7d927c07495f2503d065f88"
+    },
+    {
+      "mode": "040000",
+      "path": "tools/vendored",
+      "sha": "443d7a94fc21574c44039435c7f9a38a52463fb7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/443d7a94fc21574c44039435c7f9a38a52463fb7"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/vendored/VENDORED.json",
+      "sha": "3254c417db400b2865dd84e2b22923bf796530a7",
+      "size": 694,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/3254c417db400b2865dd84e2b22923bf796530a7"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/vendored/verify.mjs",
+      "sha": "464d6018ea40ca48cbad9b0ed990e185062b2026",
+      "size": 26357,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/blobs/464d6018ea40ca48cbad9b0ed990e185062b2026"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-lake/git/trees/aa89bb1bbb6d606dbad6b9f8e4df78ae688db5ef"
+}

@@ -1,0 +1,47 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 48984,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:04Z",
+      "path": "data/reconciliation/source-evidence/644ac502bc651f2e5a7b547f48eecaa721fe6b8f63a38f89195d1162357997fc.json",
+      "revision": "0513879e3448e1374f579d26bbc7df154c176e67",
+      "sha256": "644ac502bc651f2e5a7b547f48eecaa721fe6b8f63a38f89195d1162357997fc",
+      "source_identity": "github/szl-holdings/szl-papers",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-papers/git/trees/0513879e3448e1374f579d26bbc7df154c176e67?recursive=1"
+    }
+  ],
+  "file_count": 126,
+  "id": "github/szl-holdings/szl-papers",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "0513879e3448e1374f579d26bbc7df154c176e67",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    ".zenodo.json",
+    "ARCHITECTURE.md",
+    "ARXIV_SUBMISSION_GUIDE.md",
+    "CITATION.cff",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "PAPERS_INDEX.md",
+    "PREPRINT_PUBLICATION_RECORDS.json",
+    "README.md",
+    "SECURITY.md",
+    "ZENODO_DEPOSIT_POLICY.md",
+    "bounty",
+    "branding",
+    "drafts",
+    "investor",
+    "metadata",
+    "papers",
+    "preprints",
+    "prior-art",
+    "scripts",
+    "thesis"
+  ]
+}

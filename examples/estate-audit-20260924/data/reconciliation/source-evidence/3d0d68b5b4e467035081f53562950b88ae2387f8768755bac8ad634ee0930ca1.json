@@ -1,0 +1,513 @@
+{
+  "sha": "578228481c6ecac1bd7067f1b7173a03d4beebb8",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "2100b1e49a449683a1444b8dae0233788fce4f61",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/trees/2100b1e49a449683a1444b8dae0233788fce4f61"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "8a665e2abba092b727a3051cb34053e9c0769ddf",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/trees/8a665e2abba092b727a3051cb34053e9c0769ddf"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "a89c044129568efd57f177d8190c1a0b39ff6194",
+      "size": 1955,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/a89c044129568efd57f177d8190c1a0b39ff6194"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "5023b525b2a8d65f1c4c2268497524fcf5b8ac22",
+      "size": 66,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/5023b525b2a8d65f1c4c2268497524fcf5b8ac22"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "6fc753f052612a992ee59f6d13f8e0e393bc45ae",
+      "size": 11361,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/6fc753f052612a992ee59f6d13f8e0e393bc45ae"
+    },
+    {
+      "mode": "100644",
+      "path": "Makefile",
+      "sha": "b5b8d76fe54db26425ae47aedda51f78074f99f6",
+      "size": 835,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/b5b8d76fe54db26425ae47aedda51f78074f99f6"
+    },
+    {
+      "mode": "100644",
+      "path": "PROVENANCE.md",
+      "sha": "9fc3aee5de78572ff977dfa536506b451306ae9e",
+      "size": 867,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/9fc3aee5de78572ff977dfa536506b451306ae9e"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "505d9eecf10cd9da891890b644a7120df14f65a1",
+      "size": 3094,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/505d9eecf10cd9da891890b644a7120df14f65a1"
+    },
+    {
+      "mode": "040000",
+      "path": "packages",
+      "sha": "d8e46cb809120eea66bceb3fc1191c15584c8df1",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/trees/d8e46cb809120eea66bceb3fc1191c15584c8df1"
+    },
+    {
+      "mode": "040000",
+      "path": "packages/szl-evidence-litellm",
+      "sha": "09ecbd0b80678f1c405dd9d45e2b50f0ff282639",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/trees/09ecbd0b80678f1c405dd9d45e2b50f0ff282639"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-evidence-litellm/README.md",
+      "sha": "d453860de16d01da6ed87db49368ea7b2b22541c",
+      "size": 10296,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/d453860de16d01da6ed87db49368ea7b2b22541c"
+    },
+    {
+      "mode": "040000",
+      "path": "packages/szl-evidence-litellm/examples",
+      "sha": "88f8b02208433fe21c9025f68a3a0a77d1e48c2e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/trees/88f8b02208433fe21c9025f68a3a0a77d1e48c2e"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-evidence-litellm/examples/litellm_config.yaml",
+      "sha": "a2ba48a1079f6bcfaa60d163e5c013d0caaa991f",
+      "size": 1530,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/a2ba48a1079f6bcfaa60d163e5c013d0caaa991f"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-evidence-litellm/pyproject.toml",
+      "sha": "acaffc6fae5ec243dbbb8c0b4ba30454fa5784f4",
+      "size": 2328,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/acaffc6fae5ec243dbbb8c0b4ba30454fa5784f4"
+    },
+    {
+      "mode": "040000",
+      "path": "packages/szl-evidence-litellm/src",
+      "sha": "e744cc4ef1fdc31f4a4b0b5eb34afb0512e539c1",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/trees/e744cc4ef1fdc31f4a4b0b5eb34afb0512e539c1"
+    },
+    {
+      "mode": "040000",
+      "path": "packages/szl-evidence-litellm/src/szl_evidence_litellm",
+      "sha": "d3ae69280debbae7c3a4fd1dfbf57b562cff9afe",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/trees/d3ae69280debbae7c3a4fd1dfbf57b562cff9afe"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-evidence-litellm/src/szl_evidence_litellm/__init__.py",
+      "sha": "0447a17829dba8a565618e3e3114782bda9e6dbc",
+      "size": 2637,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/0447a17829dba8a565618e3e3114782bda9e6dbc"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-evidence-litellm/src/szl_evidence_litellm/__main__.py",
+      "sha": "ef677965ba952811ad1486379a70385482e5ce43",
+      "size": 138,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/ef677965ba952811ad1486379a70385482e5ce43"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-evidence-litellm/src/szl_evidence_litellm/cli.py",
+      "sha": "d9f82b3e0c578e5a52fc3f28a4c561f90cb05895",
+      "size": 4040,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/d9f82b3e0c578e5a52fc3f28a4c561f90cb05895"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-evidence-litellm/src/szl_evidence_litellm/modes.py",
+      "sha": "769fb0de7791e34c153f918c9e384cc1d3f8d702",
+      "size": 5703,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/769fb0de7791e34c153f918c9e384cc1d3f8d702"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-evidence-litellm/src/szl_evidence_litellm/otel.py",
+      "sha": "fdfb89932a0a64f52453c88c179e62ba7fdb169b",
+      "size": 4541,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/fdfb89932a0a64f52453c88c179e62ba7fdb169b"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-evidence-litellm/src/szl_evidence_litellm/payload.py",
+      "sha": "9927449b22ff2d765cd1ce447450037d9ff93bd4",
+      "size": 9246,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/9927449b22ff2d765cd1ce447450037d9ff93bd4"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-evidence-litellm/src/szl_evidence_litellm/plugin.py",
+      "sha": "5268b0e65550ebe6d5eb624bb852203f84b240ad",
+      "size": 26407,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/5268b0e65550ebe6d5eb624bb852203f84b240ad"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-evidence-litellm/src/szl_evidence_litellm/proxy.py",
+      "sha": "ff60494909e601eff35608788129f8a2356bf684",
+      "size": 7804,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/ff60494909e601eff35608788129f8a2356bf684"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-evidence-litellm/src/szl_evidence_litellm/sink.py",
+      "sha": "4ae960ed9e0c9d85593de29d57fed2c7eb2282a4",
+      "size": 21644,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/4ae960ed9e0c9d85593de29d57fed2c7eb2282a4"
+    },
+    {
+      "mode": "040000",
+      "path": "packages/szl-evidence-litellm/tests",
+      "sha": "cf6522a3ada6bd46098c90f38ac2860cee71ea44",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/trees/cf6522a3ada6bd46098c90f38ac2860cee71ea44"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-evidence-litellm/tests/conftest.py",
+      "sha": "41881e45458c9b022dbe5fd043e332f96a513d04",
+      "size": 1689,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/41881e45458c9b022dbe5fd043e332f96a513d04"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-evidence-litellm/tests/test_chain_integration.py",
+      "sha": "8f6d84c3fd4ae189f996cfdb598f36973bb090bb",
+      "size": 6611,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/8f6d84c3fd4ae189f996cfdb598f36973bb090bb"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-evidence-litellm/tests/test_litellm_integration.py",
+      "sha": "a8a0ba61ea959cefeca21cb518fe3523621712c5",
+      "size": 6928,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/a8a0ba61ea959cefeca21cb518fe3523621712c5"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-evidence-litellm/tests/test_modes.py",
+      "sha": "bd938891e5bf36b3b6a19d70802251f668a62e0d",
+      "size": 3516,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/bd938891e5bf36b3b6a19d70802251f668a62e0d"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-evidence-litellm/tests/test_payload.py",
+      "sha": "337c5730401e79c7df4b359b884329a90ae90949",
+      "size": 6877,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/337c5730401e79c7df4b359b884329a90ae90949"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-evidence-litellm/tests/test_plugin.py",
+      "sha": "d538b5af2905c3b7cea0af0c80279a85b2d67afc",
+      "size": 13012,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/d538b5af2905c3b7cea0af0c80279a85b2d67afc"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-evidence-litellm/tests/test_sink.py",
+      "sha": "fa4cf1998220c476603e0ead9a143b16c31ab76a",
+      "size": 8794,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/fa4cf1998220c476603e0ead9a143b16c31ab76a"
+    },
+    {
+      "mode": "040000",
+      "path": "packages/szl-receipts",
+      "sha": "788208b175476f8b165b2bd7f72c31c90cc482ed",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/trees/788208b175476f8b165b2bd7f72c31c90cc482ed"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-receipts/README.md",
+      "sha": "0901c820c3de7f1c0fd5c853b58637eb548d6823",
+      "size": 5306,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/0901c820c3de7f1c0fd5c853b58637eb548d6823"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-receipts/pyproject.toml",
+      "sha": "7b3c28315fa171d1cb0a9cf8af7f07551cff06e7",
+      "size": 1116,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/7b3c28315fa171d1cb0a9cf8af7f07551cff06e7"
+    },
+    {
+      "mode": "040000",
+      "path": "packages/szl-receipts/src",
+      "sha": "3fb721210a72bee258d4031b2712cde03e86e7fe",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/trees/3fb721210a72bee258d4031b2712cde03e86e7fe"
+    },
+    {
+      "mode": "040000",
+      "path": "packages/szl-receipts/src/szl_receipts",
+      "sha": "b082b5d4e2dd530112e1d3541a5df9f3f50c4a31",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/trees/b082b5d4e2dd530112e1d3541a5df9f3f50c4a31"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-receipts/src/szl_receipts/__init__.py",
+      "sha": "c4d2fe83258fa9b2cf894c251ff78531cf48f486",
+      "size": 2103,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/c4d2fe83258fa9b2cf894c251ff78531cf48f486"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-receipts/src/szl_receipts/chain.py",
+      "sha": "8df9ddbf0491ee260a6892ce2cec2bda96560184",
+      "size": 11140,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/8df9ddbf0491ee260a6892ce2cec2bda96560184"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-receipts/src/szl_receipts/cli.py",
+      "sha": "a1bb9bcac8b3248ad95b09adcbdf7ccda2a324b1",
+      "size": 18875,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/a1bb9bcac8b3248ad95b09adcbdf7ccda2a324b1"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-receipts/src/szl_receipts/digests.py",
+      "sha": "3a8518922e35292b3993b8e467a6e305db1c0b3f",
+      "size": 2125,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/3a8518922e35292b3993b8e467a6e305db1c0b3f"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-receipts/src/szl_receipts/dsse.py",
+      "sha": "89c63322690df948e68214a83b19af1e062c894b",
+      "size": 11787,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/89c63322690df948e68214a83b19af1e062c894b"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-receipts/src/szl_receipts/jcs.py",
+      "sha": "04e2fe1b771399c97767f3be95ad998b1cb2acae",
+      "size": 12995,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/04e2fe1b771399c97767f3be95ad998b1cb2acae"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-receipts/src/szl_receipts/naming.py",
+      "sha": "22cd305c222446dea91efa24e48aa90a77f74ab0",
+      "size": 5574,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/22cd305c222446dea91efa24e48aa90a77f74ab0"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-receipts/src/szl_receipts/outcome.py",
+      "sha": "181f9fcefe105c26f4dbd0efabb06e3949859cbd",
+      "size": 3672,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/181f9fcefe105c26f4dbd0efabb06e3949859cbd"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-receipts/src/szl_receipts/receipt.py",
+      "sha": "07b111a471eec256c523f8a4042dbb86e1668b6e",
+      "size": 15620,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/07b111a471eec256c523f8a4042dbb86e1668b6e"
+    },
+    {
+      "mode": "040000",
+      "path": "packages/szl-receipts/tests",
+      "sha": "b93e9626de7e92f5a220ad18e0aebdaa8096e8b7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/trees/b93e9626de7e92f5a220ad18e0aebdaa8096e8b7"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-receipts/tests/conftest.py",
+      "sha": "892970afd22a719207c2f656bb099117353b6e15",
+      "size": 1342,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/892970afd22a719207c2f656bb099117353b6e15"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-receipts/tests/test_chain.py",
+      "sha": "94e28ef3c816442374cc96e27255047e58210c18",
+      "size": 6217,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/94e28ef3c816442374cc96e27255047e58210c18"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-receipts/tests/test_cli.py",
+      "sha": "6bad7418c29519bb02f4b7fe5da57b529e36ed17",
+      "size": 9888,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/6bad7418c29519bb02f4b7fe5da57b529e36ed17"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-receipts/tests/test_digests.py",
+      "sha": "bdb1aa4772bd5039cef6b864db418de566eb4541",
+      "size": 1758,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/bdb1aa4772bd5039cef6b864db418de566eb4541"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-receipts/tests/test_dsse.py",
+      "sha": "42f17608b7c3bf47137a7e85ab2af90ddb2cb778",
+      "size": 6991,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/42f17608b7c3bf47137a7e85ab2af90ddb2cb778"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-receipts/tests/test_jcs.py",
+      "sha": "2d1562708acf3576ee30044301e8cd1abfc10c04",
+      "size": 8118,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/2d1562708acf3576ee30044301e8cd1abfc10c04"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-receipts/tests/test_naming.py",
+      "sha": "08cd966301a747c2f9230eae079a0e9930756389",
+      "size": 3726,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/08cd966301a747c2f9230eae079a0e9930756389"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-receipts/tests/test_outcome.py",
+      "sha": "ebc3d5ea429a0bd6610b52c4db2f577c1915720f",
+      "size": 2677,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/ebc3d5ea429a0bd6610b52c4db2f577c1915720f"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/szl-receipts/tests/test_receipt.py",
+      "sha": "b4f9dde9271509066aad982289c3137f866e8a75",
+      "size": 6649,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/b4f9dde9271509066aad982289c3137f866e8a75"
+    },
+    {
+      "mode": "040000",
+      "path": "releases",
+      "sha": "b65e1e00b2949b4badad52b821eadb0f73774b9a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/trees/b65e1e00b2949b4badad52b821eadb0f73774b9a"
+    },
+    {
+      "mode": "040000",
+      "path": "releases/v0.1.0",
+      "sha": "a5a4247e8d36d117d517d6b6049c69a6d3ebf24a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/trees/a5a4247e8d36d117d517d6b6049c69a6d3ebf24a"
+    },
+    {
+      "mode": "100644",
+      "path": "releases/v0.1.0/SHA256SUMS.txt",
+      "sha": "a1d315742d114494942900bb70159c2611d242bf",
+      "size": 406,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/a1d315742d114494942900bb70159c2611d242bf"
+    },
+    {
+      "mode": "100644",
+      "path": "releases/v0.1.0/release-manifest.unsigned.json",
+      "sha": "8aa845e95359f1fcd92cdc4af9fff9bb49d785c3",
+      "size": 1498,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/8aa845e95359f1fcd92cdc4af9fff9bb49d785c3"
+    },
+    {
+      "mode": "100644",
+      "path": "releases/v0.1.0/szl_evidence_litellm-0.1.0-py3-none-any.whl",
+      "sha": "0992d7963dd87712af0dba3e843760ce8bd0a560",
+      "size": 33996,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/0992d7963dd87712af0dba3e843760ce8bd0a560"
+    },
+    {
+      "mode": "100644",
+      "path": "releases/v0.1.0/szl_evidence_litellm-0.1.0.tar.gz",
+      "sha": "5dc0dcdca1f17ea4a30ff8942fe9a0b1f2304568",
+      "size": 43372,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/5dc0dcdca1f17ea4a30ff8942fe9a0b1f2304568"
+    },
+    {
+      "mode": "100644",
+      "path": "releases/v0.1.0/szl_receipts-14.0.0-py3-none-any.whl",
+      "sha": "b349ae213846e252055daf3782b9818ae0d40c52",
+      "size": 33435,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/b349ae213846e252055daf3782b9818ae0d40c52"
+    },
+    {
+      "mode": "100644",
+      "path": "releases/v0.1.0/szl_receipts-14.0.0.tar.gz",
+      "sha": "8455f4b722dea3bdd6ef94c048290e80c88a4a37",
+      "size": 42815,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/blobs/8455f4b722dea3bdd6ef94c048290e80c88a4a37"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-evidence-litellm/git/trees/578228481c6ecac1bd7067f1b7173a03d4beebb8"
+}

@@ -4,3 +4,4 @@ data/source-evidence/** -text
 data/source_reviews*.json -text
 data/estate_registry.json -text
 reports/** -text
+examples/estate-audit-20260924/** -text

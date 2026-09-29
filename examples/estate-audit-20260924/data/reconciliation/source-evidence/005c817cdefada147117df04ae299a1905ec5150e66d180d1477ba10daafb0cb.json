@@ -1,0 +1,160 @@
+{
+  "sha": "8739668ad1c9a69c4a6e539da27ff1fc167cc54a",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "857febbb2aab30ea85c2e6be0d37cfa372f7c6ce",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/trees/857febbb2aab30ea85c2e6be0d37cfa372f7c6ce"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "ac85ceb8a18ae4bdc24f9d1d80cf047b83f2f229",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/trees/ac85ceb8a18ae4bdc24f9d1d80cf047b83f2f229"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/tests.yml",
+      "sha": "1a38ec91224a0ab37324d34d295cb8d63ec2f00b",
+      "size": 519,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/blobs/1a38ec91224a0ab37324d34d295cb8d63ec2f00b"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "63db4f55536704c05f7c4430519ee2611cf1bcd6",
+      "size": 324,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/blobs/63db4f55536704c05f7c4430519ee2611cf1bcd6"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "71b33894bc35f98f2e7b682eb4be97154e8d7d15",
+      "size": 2678,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/blobs/71b33894bc35f98f2e7b682eb4be97154e8d7d15"
+    },
+    {
+      "mode": "040000",
+      "path": "evidence",
+      "sha": "2fec502018bafccc974907c4e2a7dad4e21ac9d5",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/trees/2fec502018bafccc974907c4e2a7dad4e21ac9d5"
+    },
+    {
+      "mode": "040000",
+      "path": "evidence/2026-09-05",
+      "sha": "1ac17e8a3182d9baa6431beeaea613771011b30b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/trees/1ac17e8a3182d9baa6431beeaea613771011b30b"
+    },
+    {
+      "mode": "100644",
+      "path": "evidence/2026-09-05/eclipse-native-frontier-bench-20260905.json",
+      "sha": "9367be5d43c3b156b92504111ddeffae81733465",
+      "size": 5931,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/blobs/9367be5d43c3b156b92504111ddeffae81733465"
+    },
+    {
+      "mode": "100644",
+      "path": "evidence/2026-09-05/eclipse-native-quant-curve-20260905.json",
+      "sha": "6145982a7535e1f29dcba081587a5406d4ad7a84",
+      "size": 5924,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/blobs/6145982a7535e1f29dcba081587a5406d4ad7a84"
+    },
+    {
+      "mode": "100644",
+      "path": "evidence/2026-09-05/eclipse-native-retrieval-bench-20260905.json",
+      "sha": "689262e9864f9f81c1ba680eb5f0520c20591fb7",
+      "size": 5944,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/blobs/689262e9864f9f81c1ba680eb5f0520c20591fb7"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "199ea36007b4388f7bd9743dc6671382ece33813",
+      "size": 398,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/blobs/199ea36007b4388f7bd9743dc6671382ece33813"
+    },
+    {
+      "mode": "040000",
+      "path": "src",
+      "sha": "700283616a8ac834a93950984c80da21ac24878e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/trees/700283616a8ac834a93950984c80da21ac24878e"
+    },
+    {
+      "mode": "040000",
+      "path": "src/szl_eclipse",
+      "sha": "73cf9932e19214c94b296dd6088d9d73bfa988ef",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/trees/73cf9932e19214c94b296dd6088d9d73bfa988ef"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_eclipse/__init__.py",
+      "sha": "700a5441b5e7343aab8b752e48e517846a23f076",
+      "size": 196,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/blobs/700a5441b5e7343aab8b752e48e517846a23f076"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_eclipse/eclipse.py",
+      "sha": "c8667b36a24b74a26b90e1a686fd69bef492e65b",
+      "size": 7174,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/blobs/c8667b36a24b74a26b90e1a686fd69bef492e65b"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_eclipse/planes.py",
+      "sha": "a6320413dc0f5c33eedef91613ae4df929809a9f",
+      "size": 5922,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/blobs/a6320413dc0f5c33eedef91613ae4df929809a9f"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "5bd8af7ab687cbdda828644a1eaf800231a20a05",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/trees/5bd8af7ab687cbdda828644a1eaf800231a20a05"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_eclipse.py",
+      "sha": "efa34308df4ad52cf6527f41965ec0f61bee1049",
+      "size": 1127,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/blobs/efa34308df4ad52cf6527f41965ec0f61bee1049"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_evidence.py",
+      "sha": "5614014a6434f121a6301593281674957d9bb42b",
+      "size": 811,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/blobs/5614014a6434f121a6301593281674957d9bb42b"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_planes.py",
+      "sha": "1ead116004c03036eea9b38ab27820bf36d32e28",
+      "size": 3971,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/blobs/1ead116004c03036eea9b38ab27820bf36d32e28"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-eclipse/git/trees/8739668ad1c9a69c4a6e539da27ff1fc167cc54a"
+}

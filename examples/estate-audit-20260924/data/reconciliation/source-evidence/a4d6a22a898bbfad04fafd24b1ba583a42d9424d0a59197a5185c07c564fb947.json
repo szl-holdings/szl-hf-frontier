@@ -1,0 +1,219 @@
+{
+  "sha": "a18f76e9487568a2aa1d0c5375b543e1b228c91a",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "e7f77d33f0d02c6ab22ae4e7be58f61ec39e997c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/trees/e7f77d33f0d02c6ab22ae4e7be58f61ec39e997c"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODEOWNERS",
+      "sha": "ad61f4cc26ddd4be4eecf73abef96dcf611f8a8d",
+      "size": 22,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/ad61f4cc26ddd4be4eecf73abef96dcf611f8a8d"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "31223c5eeb7d278d253c8f8bd404462e2b9a1b3d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/trees/31223c5eeb7d278d253c8f8bd404462e2b9a1b3d"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "24e790208c889c2042974237bb33e4f24fda978c",
+      "size": 412,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/24e790208c889c2042974237bb33e4f24fda978c"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "08b5f1abfb99fd9a65aa81988b367219eaed3855",
+      "size": 69,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/08b5f1abfb99fd9a65aa81988b367219eaed3855"
+    },
+    {
+      "mode": "100644",
+      "path": ".hf-space.json",
+      "sha": "cf6d8055eb68337bd6e45b6888d93182e51f5b32",
+      "size": 222,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/cf6d8055eb68337bd6e45b6888d93182e51f5b32"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile",
+      "sha": "0dbec1346bfed4b5c3753c40151b1acb052aedfa",
+      "size": 267,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/0dbec1346bfed4b5c3753c40151b1acb052aedfa"
+    },
+    {
+      "mode": "100644",
+      "path": "FOLD.md",
+      "sha": "3c4f8791de4f7fbab953bc2c208a71edb8088212",
+      "size": 565,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/3c4f8791de4f7fbab953bc2c208a71edb8088212"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "NOTICE",
+      "sha": "b58a1b9470555638786831cc910e0bbcbcf7e9a8",
+      "size": 659,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/b58a1b9470555638786831cc910e0bbcbcf7e9a8"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "18979a3cba1b81f0ecd6db87eabb084ec31e978e",
+      "size": 2183,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/18979a3cba1b81f0ecd6db87eabb084ec31e978e"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "2245b752ae3f652e614588d25978a9f207012865",
+      "size": 144,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/2245b752ae3f652e614588d25978a9f207012865"
+    },
+    {
+      "mode": "100644",
+      "path": "app.py",
+      "sha": "c851623f25121ea352e84d012881c16a095b2d35",
+      "size": 200,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/c851623f25121ea352e84d012881c16a095b2d35"
+    },
+    {
+      "mode": "100644",
+      "path": "index.html",
+      "sha": "c61e0f3bd8986f683b34075e7890cedbd85879e5",
+      "size": 5522,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/c61e0f3bd8986f683b34075e7890cedbd85879e5"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "bd98dd0789842c3071f26d544eedf3cf2f22a40e",
+      "size": 246,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/bd98dd0789842c3071f26d544eedf3cf2f22a40e"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements.txt",
+      "sha": "7124780f0fb32516835b345e4c19d31a950514c9",
+      "size": 66,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/7124780f0fb32516835b345e4c19d31a950514c9"
+    },
+    {
+      "mode": "100644",
+      "path": "szl-holo-v2.css",
+      "sha": "6716702ffbe846080d5d78addd7de0e77e27f4fc",
+      "size": 24190,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/6716702ffbe846080d5d78addd7de0e77e27f4fc"
+    },
+    {
+      "mode": "100644",
+      "path": "szl-holo-v2.js",
+      "sha": "a0a51e870c354cf0c88a7792ff0df432cc2d3bb8",
+      "size": 16002,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/a0a51e870c354cf0c88a7792ff0df432cc2d3bb8"
+    },
+    {
+      "mode": "040000",
+      "path": "szl_os",
+      "sha": "7634d8cced576c368a03488e5eb8373b3c32ff25",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/trees/7634d8cced576c368a03488e5eb8373b3c32ff25"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_os/__init__.py",
+      "sha": "a57897128b3c1175a424b33f29a2135203707e72",
+      "size": 768,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/a57897128b3c1175a424b33f29a2135203707e72"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_os/capture.py",
+      "sha": "7e26c245c7f36943fa2c03236be74081cb7f5943",
+      "size": 11656,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/7e26c245c7f36943fa2c03236be74081cb7f5943"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_os/doctrine.py",
+      "sha": "5388cfdc16683bb0dda9d1ebbc4e0bf4b3626ad4",
+      "size": 1151,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/5388cfdc16683bb0dda9d1ebbc4e0bf4b3626ad4"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_os/organs.py",
+      "sha": "a6977b07496d17a71346b6cc65f75414608de058",
+      "size": 8445,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/a6977b07496d17a71346b6cc65f75414608de058"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_os/serve.py",
+      "sha": "72a8b0e09b1ef47e7d155bf1dc30e63a7f7fa16a",
+      "size": 6011,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/72a8b0e09b1ef47e7d155bf1dc30e63a7f7fa16a"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_os/verticals.py",
+      "sha": "d1b4c6d8058e92904490cfa89bfab08c25c2e90e",
+      "size": 4597,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/d1b4c6d8058e92904490cfa89bfab08c25c2e90e"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "eeaf7f670cb4da11272d6009f8d940b427a6df0f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/trees/eeaf7f670cb4da11272d6009f8d940b427a6df0f"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_os.py",
+      "sha": "9d4ce3896c00e8c2cd0c6db86dfdb228b2955c80",
+      "size": 3293,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/blobs/9d4ce3896c00e8c2cd0c6db86dfdb228b2955c80"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-sovereign-os/git/trees/a18f76e9487568a2aa1d0c5375b543e1b228c91a"
+}

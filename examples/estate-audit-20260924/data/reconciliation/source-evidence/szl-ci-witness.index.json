@@ -1,0 +1,43 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 6909,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:56Z",
+      "path": "data/reconciliation/source-evidence/d29723a055a6d1b1721918b077a0b58c2453eda981a3eea8db497cd094ade80e.json",
+      "revision": "fd50310f4799ffb053f06d1d4e25e0994b215632",
+      "sha256": "d29723a055a6d1b1721918b077a0b58c2453eda981a3eea8db497cd094ade80e",
+      "source_identity": "github/szl-holdings/szl-ci-witness",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-ci-witness/git/trees/fd50310f4799ffb053f06d1d4e25e0994b215632?recursive=1"
+    },
+    {
+      "bytes": 324,
+      "kind": "license_file",
+      "observed_at": "2026-09-24T13:26:57Z",
+      "path": "data/reconciliation/source-evidence/514287b5eaf490515e2966319ed34d98e4dd616c97f97b65fecd966f0cfc1718.txt",
+      "revision": "fd50310f4799ffb053f06d1d4e25e0994b215632",
+      "sha256": "514287b5eaf490515e2966319ed34d98e4dd616c97f97b65fecd966f0cfc1718",
+      "source_identity": "github/szl-holdings/szl-ci-witness",
+      "source_path": "LICENSE",
+      "url": "https://github.com/szl-holdings/szl-ci-witness/blob/fd50310f4799ffb053f06d1d4e25e0994b215632/LICENSE"
+    }
+  ],
+  "file_count": 16,
+  "id": "github/szl-holdings/szl-ci-witness",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "fd50310f4799ffb053f06d1d4e25e0994b215632",
+  "root_paths": [
+    ".github",
+    "LICENSE",
+    "README.md",
+    "docs",
+    "pyproject.toml",
+    "src",
+    "tests",
+    "tools"
+  ]
+}

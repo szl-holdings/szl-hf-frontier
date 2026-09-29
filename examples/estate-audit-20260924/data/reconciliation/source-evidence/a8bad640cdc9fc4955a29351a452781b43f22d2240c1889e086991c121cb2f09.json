@@ -1,0 +1,100 @@
+{
+  "sha": "35c395450c71b49d7fe85a1d5ba3764c38e0714b",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "05917147cccbd89859b3a63d838d5c2ca8f02bc2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-drift/git/trees/05917147cccbd89859b3a63d838d5c2ca8f02bc2"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "f792fa92707cce4cc5463e43bc339e88b7073a83",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-drift/git/trees/f792fa92707cce4cc5463e43bc339e88b7073a83"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "ee2d81c2ae24b43839213b3230ef639097028ded",
+      "size": 3174,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-drift/git/blobs/ee2d81c2ae24b43839213b3230ef639097028ded"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/drift-report.yml",
+      "sha": "90e9501cd3d70f25e84457706110c477802bc916",
+      "size": 2459,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-drift/git/blobs/90e9501cd3d70f25e84457706110c477802bc916"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "bd3c1bd155b5470ac6fb617d40ee8ef34318bc97",
+      "size": 69,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-drift/git/blobs/bd3c1bd155b5470ac6fb617d40ee8ef34318bc97"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-drift/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "NOTICE",
+      "sha": "b58a1b9470555638786831cc910e0bbcbcf7e9a8",
+      "size": 659,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-drift/git/blobs/b58a1b9470555638786831cc910e0bbcbcf7e9a8"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "986627ecaebad7b6c3c8f023fdcb5a9f6dc02970",
+      "size": 1006,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-drift/git/blobs/986627ecaebad7b6c3c8f023fdcb5a9f6dc02970"
+    },
+    {
+      "mode": "100644",
+      "path": "probe.py",
+      "sha": "d930d9cb5fc2a101be60dc3eab0928ee6dcb63c4",
+      "size": 3620,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-drift/git/blobs/d930d9cb5fc2a101be60dc3eab0928ee6dcb63c4"
+    },
+    {
+      "mode": "100644",
+      "path": "ruff.toml",
+      "sha": "de4abf82df0a0aed070ef4bb373a03ac2232c083",
+      "size": 678,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-drift/git/blobs/de4abf82df0a0aed070ef4bb373a03ac2232c083"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "5af44002dc1ef0ffd13119706e2efd84e3e56174",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-drift/git/trees/5af44002dc1ef0ffd13119706e2efd84e3e56174"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_probe.py",
+      "sha": "915270fd71a1e5ec2fdd1ec42e0f75cade2d1d03",
+      "size": 8254,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-drift/git/blobs/915270fd71a1e5ec2fdd1ec42e0f75cade2d1d03"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-drift/git/trees/35c395450c71b49d7fe85a1d5ba3764c38e0714b"
+}

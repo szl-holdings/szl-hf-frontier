@@ -1,0 +1,45 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 31239,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:02Z",
+      "path": "data/reconciliation/source-evidence/bd9d77a381fe04a8429fe7307d0b65bf0de42a312fc2990029da39b69f584266.json",
+      "revision": "5d9ebc071f4a2c26235efd612a77c98a691e08f3",
+      "sha256": "bd9d77a381fe04a8429fe7307d0b65bf0de42a312fc2990029da39b69f584266",
+      "source_identity": "github/szl-holdings/szl-mesh",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-mesh/git/trees/5d9ebc071f4a2c26235efd612a77c98a691e08f3?recursive=1"
+    }
+  ],
+  "file_count": 89,
+  "id": "github/szl-holdings/szl-mesh",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "5d9ebc071f4a2c26235efd612a77c98a691e08f3",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    ".markdownlint.json",
+    "ARCHITECTURE.md",
+    "CITATION.cff",
+    "CONTRIBUTING.md",
+    "Dockerfile.mesh-command",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "docs",
+    "examples",
+    "lab",
+    "mesh_command",
+    "proto",
+    "pyproject.toml",
+    "requirements-mesh-command-dev.txt",
+    "requirements-mesh-command.txt",
+    "spec",
+    "src",
+    "tests"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 4266,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:05Z",
+      "path": "data/reconciliation/source-evidence/16724af7f468e67e5c78ffa0a7a741179789f3a7b9202d00eedbf81b4cbd4299.json",
+      "revision": "bf0903cdad0a78d06542fd5457db8d1daf82ea43",
+      "sha256": "16724af7f468e67e5c78ffa0a7a741179789f3a7b9202d00eedbf81b4cbd4299",
+      "source_identity": "github/szl-holdings/szl-provctl-live",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-provctl-live/git/trees/bf0903cdad0a78d06542fd5457db8d1daf82ea43?recursive=1"
+    }
+  ],
+  "file_count": 9,
+  "id": "github/szl-holdings/szl-provctl-live",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "bf0903cdad0a78d06542fd5457db8d1daf82ea43",
+  "root_paths": [
+    ".github",
+    ".hf-space.json",
+    "LICENSE",
+    "README.md",
+    "index.html",
+    "requirements",
+    "scripts",
+    "tests"
+  ]
+}

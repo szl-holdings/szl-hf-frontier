@@ -1,0 +1,23 @@
+{
+  "sha": "775ee23b5d4cf6a0e238ac330ce4deb41fe89a7b",
+  "tree": [
+    {
+      "mode": "100644",
+      "path": ".zenodo.json",
+      "sha": "d10e45af2d384742541a354d88e0dd30c3b8f4a7",
+      "size": 861,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-typed-formula-governance/git/blobs/d10e45af2d384742541a354d88e0dd30c3b8f4a7"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "2efa2f0f22e55630a110f35bbf64b15659eda35f",
+      "size": 2061,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-typed-formula-governance/git/blobs/2efa2f0f22e55630a110f35bbf64b15659eda35f"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/evidence-typed-formula-governance/git/trees/775ee23b5d4cf6a0e238ac330ce4deb41fe89a7b"
+}

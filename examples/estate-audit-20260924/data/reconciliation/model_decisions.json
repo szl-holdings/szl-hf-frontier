@@ -1,0 +1,2209 @@
+{
+  "coverage": {
+    "by_artifact_kind": {
+      "deprecated_software_tombstone": 1,
+      "deprecated_synthetic_linear_model": 1,
+      "governed_software_substrate": 1,
+      "historical_org_stub": 1,
+      "language_model_artifacts": 17,
+      "numerical_reference_fixture": 9,
+      "software_kernel": 14,
+      "software_suite_with_numerical_fixtures": 1,
+      "source_pointer": 1,
+      "surrogate_rules_and_scripts": 1,
+      "synthetic_linear_model": 1,
+      "training_software": 1
+    },
+    "local_inference_verified": 4,
+    "production_qualified": 0,
+    "repositories": 49,
+    "repositories_with_downloaded_artifact_bytes_verified": 7
+  },
+  "decisions": [
+    {
+      "artifact_kind": "language_model_artifacts",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 5523,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/1f85add7fe8aaccc4fbb4e77fbf937ae8b02b137d0bb8c58eee59498adb43f5b.md",
+          "revision": "c936dc749743c94586706345a0142c79094a581c",
+          "sha256": "1f85add7fe8aaccc4fbb4e77fbf937ae8b02b137d0bb8c58eee59498adb43f5b",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/A11OY-MINI/resolve/c936dc749743c94586706345a0142c79094a581c/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Card metrics and file presence do not establish training lineage, evaluation correctness or serving readiness."
+      ],
+      "id": "huggingface-model/szlholdings/a11oy-mini",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": true,
+      "observed_revision": "c936dc749743c94586706345a0142c79094a581c",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_WEIGHT_AND_CONFIG_LOAD",
+        "TRAINING_LINEAGE_BOUND_TO_PUBLISHED_BYTES",
+        "FROZEN_TASK_EVALUATION",
+        "CANONICAL_SOURCE_AND_SERVING_BINDING"
+      ],
+      "repository": "SZLHOLDINGS/A11OY-MINI",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "governed_software_substrate",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 7464,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/5868a07952d1868adcd7ef53486c19212f1bc084f3390ade22705b51c086634f.md",
+          "revision": "41a9a71d782adb6effd4a0af69dc684d5acded08",
+          "sha256": "5868a07952d1868adcd7ef53486c19212f1bc084f3390ade22705b51c086634f",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/a11oy-v19-substrate/resolve/41a9a71d782adb6effd4a0af69dc684d5acded08/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [],
+      "id": "huggingface-model/szlholdings/a11oy-v19-substrate",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "41a9a71d782adb6effd4a0af69dc684d5acded08",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_SOURCE_PARITY",
+        "FRESH_PACKAGE_AND_BEHAVIOR_TESTS"
+      ],
+      "repository": "SZLHOLDINGS/a11oy-v19-substrate",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "language_model_artifacts",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 1077,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/360f8c432785ccae03139b04e231c5e538cd6234bffc2ffcdd58ee15793ec424.md",
+          "revision": "ad510c4b05429acb862b216718f098ace6d05af3",
+          "sha256": "360f8c432785ccae03139b04e231c5e538cd6234bffc2ffcdd58ee15793ec424",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/brain-navigator-r2/resolve/ad510c4b05429acb862b216718f098ace6d05af3/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Card metrics and file presence do not establish training lineage, evaluation correctness or serving readiness."
+      ],
+      "id": "huggingface-model/szlholdings/brain-navigator-r2",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": true,
+      "observed_revision": "ad510c4b05429acb862b216718f098ace6d05af3",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_WEIGHT_AND_CONFIG_LOAD",
+        "TRAINING_LINEAGE_BOUND_TO_PUBLISHED_BYTES",
+        "FROZEN_TASK_EVALUATION",
+        "CANONICAL_SOURCE_AND_SERVING_BINDING"
+      ],
+      "repository": "SZLHOLDINGS/brain-navigator-r2",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "numerical_reference_fixture",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 2330,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/f04ff27e815f1c91d438a824512f32baa0401759c6deacde2d14ef33c8b033bc.md",
+          "revision": "7a93ff0a18873f834e2f9c508561538d2c030838",
+          "sha256": "f04ff27e815f1c91d438a824512f32baa0401759c6deacde2d14ef33c8b033bc",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/chakana/resolve/7a93ff0a18873f834e2f9c508561538d2c030838/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Synthetic reference behavior is a software qualification scope; no clinical, detector or foundation-model capability is inferred."
+      ],
+      "id": "huggingface-model/szlholdings/chakana",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "7a93ff0a18873f834e2f9c508561538d2c030838",
+      "production_qualified": false,
+      "remaining_gates": [
+        "TASK_SPECIFIC_QUALIFICATION"
+      ],
+      "repository": "SZLHOLDINGS/chakana",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "language_model_artifacts",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 4843,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/50c56eb1e908f9e77d805e31ec7e9efafe7a184020ee8e4b96c34324760944c5.md",
+          "revision": "d2790fca4405381a48b47ed1f9d3700b7218ee4c",
+          "sha256": "50c56eb1e908f9e77d805e31ec7e9efafe7a184020ee8e4b96c34324760944c5",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/chaski/resolve/d2790fca4405381a48b47ed1f9d3700b7218ee4c/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Card metrics and file presence do not establish training lineage, evaluation correctness or serving readiness."
+      ],
+      "id": "huggingface-model/szlholdings/chaski",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": true,
+      "observed_revision": "d2790fca4405381a48b47ed1f9d3700b7218ee4c",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_WEIGHT_AND_CONFIG_LOAD",
+        "TRAINING_LINEAGE_BOUND_TO_PUBLISHED_BYTES",
+        "FROZEN_TASK_EVALUATION",
+        "CANONICAL_SOURCE_AND_SERVING_BINDING"
+      ],
+      "repository": "SZLHOLDINGS/chaski",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "language_model_artifacts",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 5838,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/5b140eaf64b4fa32fd58880c9f5c3d7a9457c4c3e3b90fc7174489031ee150a2.md",
+          "revision": "63ea80915ccb663b4aa589cbf2ce52a1dec574fe",
+          "sha256": "5b140eaf64b4fa32fd58880c9f5c3d7a9457c4c3e3b90fc7174489031ee150a2",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/chaski-5050/resolve/63ea80915ccb663b4aa589cbf2ce52a1dec574fe/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Card metrics and file presence do not establish training lineage, evaluation correctness or serving readiness."
+      ],
+      "id": "huggingface-model/szlholdings/chaski-5050",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": true,
+      "observed_revision": "63ea80915ccb663b4aa589cbf2ce52a1dec574fe",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_WEIGHT_AND_CONFIG_LOAD",
+        "TRAINING_LINEAGE_BOUND_TO_PUBLISHED_BYTES",
+        "FROZEN_TASK_EVALUATION",
+        "CANONICAL_SOURCE_AND_SERVING_BINDING"
+      ],
+      "repository": "SZLHOLDINGS/chaski-5050",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "language_model_artifacts",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 3980,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/7ef421efeb0fd4bbb428fb1ad42c5434e7507229b72c783ffd1848441cb8ffdc.md",
+          "revision": "4ef29684c56de07626b1cefb4b93a1b486de2aa1",
+          "sha256": "7ef421efeb0fd4bbb428fb1ad42c5434e7507229b72c783ffd1848441cb8ffdc",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/chaski-r2/resolve/4ef29684c56de07626b1cefb4b93a1b486de2aa1/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Card metrics and file presence do not establish training lineage, evaluation correctness or serving readiness."
+      ],
+      "id": "huggingface-model/szlholdings/chaski-r2",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": true,
+      "observed_revision": "4ef29684c56de07626b1cefb4b93a1b486de2aa1",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_WEIGHT_AND_CONFIG_LOAD",
+        "TRAINING_LINEAGE_BOUND_TO_PUBLISHED_BYTES",
+        "FROZEN_TASK_EVALUATION",
+        "CANONICAL_SOURCE_AND_SERVING_BINDING"
+      ],
+      "repository": "SZLHOLDINGS/chaski-r2",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "deprecated_software_tombstone",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 16213,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/3343da80567e886d35cc6f2cc6b5711b2c707bc8a0c0805f6833d312ad8c6784.md",
+          "revision": "9b602eda073db9628e0771253edeb66b50ac33e4",
+          "sha256": "3343da80567e886d35cc6f2cc6b5711b2c707bc8a0c0805f6833d312ad8c6784",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/governed-inference-meter/resolve/9b602eda073db9628e0771253edeb66b50ac33e4/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "This catalog entry intentionally supplies no standalone model runtime; use its declared source or successor where applicable."
+      ],
+      "id": "huggingface-model/szlholdings/governed-inference-meter",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "9b602eda073db9628e0771253edeb66b50ac33e4",
+      "production_qualified": false,
+      "remaining_gates": [],
+      "repository": "SZLHOLDINGS/governed-inference-meter",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "language_model_artifacts",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 5827,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/5dc9334e59850f3bf5f53539c59f27cd0e0416eec2091db1123d0d417c279b94.md",
+          "revision": "4027a936fae4987a30edca6508eb551c214d7d0b",
+          "sha256": "5dc9334e59850f3bf5f53539c59f27cd0e0416eec2091db1123d0d417c279b94",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/KHIPU-R2/resolve/4027a936fae4987a30edca6508eb551c214d7d0b/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Card metrics and file presence do not establish training lineage, evaluation correctness or serving readiness."
+      ],
+      "id": "huggingface-model/szlholdings/khipu-r2",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": true,
+      "observed_revision": "4027a936fae4987a30edca6508eb551c214d7d0b",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_WEIGHT_AND_CONFIG_LOAD",
+        "TRAINING_LINEAGE_BOUND_TO_PUBLISHED_BYTES",
+        "FROZEN_TASK_EVALUATION",
+        "CANONICAL_SOURCE_AND_SERVING_BINDING"
+      ],
+      "repository": "SZLHOLDINGS/KHIPU-R2",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "language_model_artifacts",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 824,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/1270e90ca7440ff2f55670a592e597458901e4868bd51f1db6507fd88a9d14b9.md",
+          "revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988",
+          "sha256": "1270e90ca7440ff2f55670a592e597458901e4868bd51f1db6507fd88a9d14b9",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/khipu-r3/resolve/89807a2680e2400bbbc7523772aa6ff4b86a7988/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Card metrics and file presence do not establish training lineage, evaluation correctness or serving readiness.",
+        "Existing cached base and CUDA environment inspected; load deliberately not started with approximately1.4GB availableRAM. No install, download or training attempt."
+      ],
+      "id": "huggingface-model/szlholdings/khipu-r3",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "load_status": "MEMORY_BLOCKED",
+      "model_checkpoint_expected": true,
+      "observed_revision": "89807a2680e2400bbbc7523772aa6ff4b86a7988",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_WEIGHT_AND_CONFIG_LOAD",
+        "TRAINING_LINEAGE_BOUND_TO_PUBLISHED_BYTES",
+        "FROZEN_TASK_EVALUATION",
+        "CANONICAL_SOURCE_AND_SERVING_BINDING"
+      ],
+      "repository": "SZLHOLDINGS/khipu-r3",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [
+        {
+          "bytes": 25587104,
+          "path": "adapter_model.safetensors",
+          "sha256": "9a4c37d31d7c2ad133d9423c6d95de28e48fa7556c6a2034faafa53886e9ee14"
+        }
+      ],
+      "weight_bytes_verified": true
+    },
+    {
+      "artifact_kind": "numerical_reference_fixture",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 2344,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/aeff5b1479ec447e9537960320b10d2908ece536180eeb1ee29f9804e238f437.md",
+          "revision": "4800817714be465a54686dde69755ac1a683ef44",
+          "sha256": "aeff5b1479ec447e9537960320b10d2908ece536180eeb1ee29f9804e238f437",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/KILLINCHU-EYE/resolve/4800817714be465a54686dde69755ac1a683ef44/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Synthetic reference behavior is a software qualification scope; no clinical, detector or foundation-model capability is inferred.",
+        "Observed file inventory contains numerical/weight artifacts despite no-weight wording in the retained card; the wording is stale or inconsistent and cannot establish readiness."
+      ],
+      "id": "huggingface-model/szlholdings/killinchu-eye",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "4800817714be465a54686dde69755ac1a683ef44",
+      "production_qualified": false,
+      "remaining_gates": [
+        "TASK_SPECIFIC_QUALIFICATION"
+      ],
+      "repository": "SZLHOLDINGS/KILLINCHU-EYE",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "numerical_reference_fixture",
+      "canonical_source_blob_matches": true,
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 3455,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/61b5ecf230cd418d62a1e171d7e8e12b58817718bf215df96c801951895311bf.md",
+          "revision": "01e82f36ff722528233f76daf899c18f8cb5aaa2",
+          "sha256": "61b5ecf230cd418d62a1e171d7e8e12b58817718bf215df96c801951895311bf",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/MiniEmbed-Nano/resolve/01e82f36ff722528233f76daf899c18f8cb5aaa2/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        },
+        {
+          "bytes": 11499,
+          "path": "data/reconciliation/model-evidence/nano-and-space-witness.json",
+          "sha256": "dba7190b49efc92ddc3c6920f78d97c9c3f04c18d0f66cf769ff60bf5450ff8c"
+        }
+      ],
+      "findings": [
+        "Synthetic reference behavior is a software qualification scope; no clinical, detector or foundation-model capability is inferred.",
+        "Exact downloaded fixture bytes match canonical Git source artifact and unsigned training receipt; fresh inference observed. No training rerun or production promotion."
+      ],
+      "id": "huggingface-model/szlholdings/miniembed-nano",
+      "independent_evaluation_verified": false,
+      "inference_witness": {
+        "finite": true,
+        "norm": 1.0,
+        "vector_shape": [
+          12
+        ]
+      },
+      "load_and_inference_verified": true,
+      "model_checkpoint_expected": false,
+      "observed_revision": "01e82f36ff722528233f76daf899c18f8cb5aaa2",
+      "production_qualified": false,
+      "qualification_scope": "BOUNDED_SYNTHETIC_LOCAL_INFERENCE",
+      "remaining_gates": [
+        "TASK_SPECIFIC_QUALIFICATION"
+      ],
+      "repository": "SZLHOLDINGS/MiniEmbed-Nano",
+      "training_receipt_hash_matches": true,
+      "training_reproduced": false,
+      "verified_artifact_bytes": [
+        {
+          "bytes": 6892,
+          "path": "mini_embed.npz",
+          "sha256": "ae31a3a7214d1f142d8ea3f4f86c35bdedd7c108bc5d04ea00c87e7b674e6e3b"
+        }
+      ],
+      "weight_bytes_verified": true
+    },
+    {
+      "artifact_kind": "numerical_reference_fixture",
+      "canonical_source_blob_matches": true,
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 3197,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/3e52b97694e268f57a086b73d24c8c4d69ff496516f2cd1c2c4fb87964d04ef1.md",
+          "revision": "77d002f9314dc0c86cd0f14e63fff60364929652",
+          "sha256": "3e52b97694e268f57a086b73d24c8c4d69ff496516f2cd1c2c4fb87964d04ef1",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/Moons-Nano/resolve/77d002f9314dc0c86cd0f14e63fff60364929652/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        },
+        {
+          "bytes": 11499,
+          "path": "data/reconciliation/model-evidence/nano-and-space-witness.json",
+          "sha256": "dba7190b49efc92ddc3c6920f78d97c9c3f04c18d0f66cf769ff60bf5450ff8c"
+        }
+      ],
+      "findings": [
+        "Synthetic reference behavior is a software qualification scope; no clinical, detector or foundation-model capability is inferred.",
+        "Exact downloaded fixture bytes match canonical Git source artifact and unsigned training receipt; fresh inference observed. No training rerun or production promotion."
+      ],
+      "id": "huggingface-model/szlholdings/moons-nano",
+      "independent_evaluation_verified": false,
+      "inference_witness": {
+        "accuracy": 0.895,
+        "predictions_shape": [
+          200
+        ],
+        "samples": 200,
+        "synthetic_seed": 20260925
+      },
+      "load_and_inference_verified": true,
+      "model_checkpoint_expected": false,
+      "observed_revision": "77d002f9314dc0c86cd0f14e63fff60364929652",
+      "production_qualified": false,
+      "qualification_scope": "BOUNDED_SYNTHETIC_LOCAL_INFERENCE",
+      "remaining_gates": [
+        "TASK_SPECIFIC_QUALIFICATION"
+      ],
+      "repository": "SZLHOLDINGS/Moons-Nano",
+      "training_receipt_hash_matches": true,
+      "training_reproduced": false,
+      "verified_artifact_bytes": [
+        {
+          "bytes": 1302,
+          "path": "moons.npz",
+          "sha256": "dda50e3b293534de3f5aec01ebf9f8d6688e06069931618dfd35f01369904104"
+        }
+      ],
+      "weight_bytes_verified": true
+    },
+    {
+      "artifact_kind": "deprecated_synthetic_linear_model",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 4129,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/38c474ea60360f8b6281968ba60da3233ef9fe87a1cdabe1ca18856a06c10281.md",
+          "revision": "8a6cd25ed8121af4e99118cd874bb89f50cff981",
+          "sha256": "38c474ea60360f8b6281968ba60da3233ef9fe87a1cdabe1ca18856a06c10281",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/oac-clinical-transport-health-v1/resolve/8a6cd25ed8121af4e99118cd874bb89f50cff981/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Synthetic reference behavior is a software qualification scope; no clinical, detector or foundation-model capability is inferred."
+      ],
+      "id": "huggingface-model/szlholdings/oac-clinical-transport-health-v1",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "8a6cd25ed8121af4e99118cd874bb89f50cff981",
+      "production_qualified": false,
+      "remaining_gates": [
+        "TASK_SPECIFIC_QUALIFICATION"
+      ],
+      "repository": "SZLHOLDINGS/oac-clinical-transport-health-v1",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "synthetic_linear_model",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 3767,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/41025b3ae16e4fbcf331b10aa5b3f8206dc5ecc43a367764d82abda18e4f1326.md",
+          "revision": "1e6d76e931e2d84f3a54932ab110631b7097d2f8",
+          "sha256": "41025b3ae16e4fbcf331b10aa5b3f8206dc5ecc43a367764d82abda18e4f1326",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/oac-system-health-v1/resolve/1e6d76e931e2d84f3a54932ab110631b7097d2f8/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Synthetic reference behavior is a software qualification scope; no clinical, detector or foundation-model capability is inferred."
+      ],
+      "id": "huggingface-model/szlholdings/oac-system-health-v1",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "1e6d76e931e2d84f3a54932ab110631b7097d2f8",
+      "production_qualified": false,
+      "remaining_gates": [
+        "TASK_SPECIFIC_QUALIFICATION"
+      ],
+      "repository": "SZLHOLDINGS/oac-system-health-v1",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "numerical_reference_fixture",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 2323,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/2e39f6253ba941a75bcd902a139d3b9e71e60d65067446cd9aecacb341c1ed79.md",
+          "revision": "5308d6654f80c8031e3279fa21ae095f7a71ca43",
+          "sha256": "2e39f6253ba941a75bcd902a139d3b9e71e60d65067446cd9aecacb341c1ed79",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/qantu/resolve/5308d6654f80c8031e3279fa21ae095f7a71ca43/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Synthetic reference behavior is a software qualification scope; no clinical, detector or foundation-model capability is inferred."
+      ],
+      "id": "huggingface-model/szlholdings/qantu",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "5308d6654f80c8031e3279fa21ae095f7a71ca43",
+      "production_qualified": false,
+      "remaining_gates": [
+        "TASK_SPECIFIC_QUALIFICATION"
+      ],
+      "repository": "SZLHOLDINGS/qantu",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "numerical_reference_fixture",
+      "canonical_source_blob_matches": true,
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 3329,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/afd2052c2955ce05ea3fba768e29f5408b52499645ad47b6474ea8dac46adc47.md",
+          "revision": "f8c8849bb4d2d024638e39cb21ca4d3a519ee02e",
+          "sha256": "afd2052c2955ce05ea3fba768e29f5408b52499645ad47b6474ea8dac46adc47",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/ReceiptAgent-Nano/resolve/f8c8849bb4d2d024638e39cb21ca4d3a519ee02e/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        },
+        {
+          "bytes": 11499,
+          "path": "data/reconciliation/model-evidence/nano-and-space-witness.json",
+          "sha256": "dba7190b49efc92ddc3c6920f78d97c9c3f04c18d0f66cf769ff60bf5450ff8c"
+        }
+      ],
+      "findings": [
+        "Synthetic reference behavior is a software qualification scope; no clinical, detector or foundation-model capability is inferred.",
+        "Exact downloaded fixture bytes match canonical Git source artifact and unsigned training receipt; fresh inference observed. No training rerun or production promotion."
+      ],
+      "id": "huggingface-model/szlholdings/receiptagent-nano",
+      "independent_evaluation_verified": false,
+      "inference_witness": {
+        "advisory_agreement": 0.8825,
+        "nonfinite_blocked": 72,
+        "nonfinite_cases": 72,
+        "samples": 400,
+        "synthetic_seed": 20260925,
+        "valid_decision": "ALLOW"
+      },
+      "load_and_inference_verified": true,
+      "model_checkpoint_expected": false,
+      "observed_revision": "f8c8849bb4d2d024638e39cb21ca4d3a519ee02e",
+      "production_qualified": false,
+      "qualification_scope": "BOUNDED_SYNTHETIC_LOCAL_INFERENCE",
+      "remaining_gates": [
+        "TASK_SPECIFIC_QUALIFICATION"
+      ],
+      "repository": "SZLHOLDINGS/ReceiptAgent-Nano",
+      "training_receipt_hash_matches": true,
+      "training_reproduced": false,
+      "verified_artifact_bytes": [
+        {
+          "bytes": 6014,
+          "path": "receipt_agent.npz",
+          "sha256": "8aca4d24c90d6159cbb2bb885c7a94822d715899437f58abe69fb5c9664a1381"
+        }
+      ],
+      "weight_bytes_verified": true
+    },
+    {
+      "artifact_kind": "software_kernel",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 5817,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/82fe09a1c40a1d11f6f5794a1beee1b851bc6586179f76ff1c849aef3e585944.md",
+          "revision": "7d186065363c0941634103f69b34a3bc649b9011",
+          "sha256": "82fe09a1c40a1d11f6f5794a1beee1b851bc6586179f76ff1c849aef3e585944",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-block-kv/resolve/7d186065363c0941634103f69b34a3bc649b9011/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Checkpoint absence is expected for a software kernel; evaluate the package contract."
+      ],
+      "id": "huggingface-model/szlholdings/szl-block-kv",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "7d186065363c0941634103f69b34a3bc649b9011",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_SOURCE_PARITY",
+        "FRESH_PACKAGE_AND_BEHAVIOR_TESTS"
+      ],
+      "repository": "SZLHOLDINGS/szl-block-kv",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "software_kernel",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 5470,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/1270ba57cb726a67e17a87686f1854124c3c303c3a5afeb37986680afb7e4102.md",
+          "revision": "c5f2c03f2abfc1b63a2d66d2b7715f3b167acfb4",
+          "sha256": "1270ba57cb726a67e17a87686f1854124c3c303c3a5afeb37986680afb7e4102",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-blocked/resolve/c5f2c03f2abfc1b63a2d66d2b7715f3b167acfb4/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Checkpoint absence is expected for a software kernel; evaluate the package contract."
+      ],
+      "id": "huggingface-model/szlholdings/szl-blocked",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "c5f2c03f2abfc1b63a2d66d2b7715f3b167acfb4",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_SOURCE_PARITY",
+        "FRESH_PACKAGE_AND_BEHAVIOR_TESTS"
+      ],
+      "repository": "SZLHOLDINGS/szl-blocked",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "source_pointer",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 2599,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/88e10b3d92ef339dc6e5d2b4fd24695da81ada173f78bb46c774465f94a3e651.md",
+          "revision": "9146d35730139f8b7797dc40b4d5be5547387f1b",
+          "sha256": "88e10b3d92ef339dc6e5d2b4fd24695da81ada173f78bb46c774465f94a3e651",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-energy-attest/resolve/9146d35730139f8b7797dc40b4d5be5547387f1b/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "This catalog entry intentionally supplies no standalone model runtime; use its declared source or successor where applicable."
+      ],
+      "id": "huggingface-model/szlholdings/szl-energy-attest",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "9146d35730139f8b7797dc40b4d5be5547387f1b",
+      "production_qualified": false,
+      "remaining_gates": [],
+      "repository": "SZLHOLDINGS/szl-energy-attest",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "language_model_artifacts",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 8399,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/33220cb0c4b7e02de560a47b732bd7b456244820e9654146db4e32d71f556c7d.md",
+          "revision": "8aa18ba91259b043a886f78ae78f4ff7c08852dd",
+          "sha256": "33220cb0c4b7e02de560a47b732bd7b456244820e9654146db4e32d71f556c7d",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/SZL-Forge-1.5B-ReceiptAgent/resolve/8aa18ba91259b043a886f78ae78f4ff7c08852dd/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Card metrics and file presence do not establish training lineage, evaluation correctness or serving readiness."
+      ],
+      "id": "huggingface-model/szlholdings/szl-forge-1.5b-receiptagent",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": true,
+      "observed_revision": "8aa18ba91259b043a886f78ae78f4ff7c08852dd",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_WEIGHT_AND_CONFIG_LOAD",
+        "TRAINING_LINEAGE_BOUND_TO_PUBLISHED_BYTES",
+        "FROZEN_TASK_EVALUATION",
+        "CANONICAL_SOURCE_AND_SERVING_BINDING"
+      ],
+      "repository": "SZLHOLDINGS/SZL-Forge-1.5B-ReceiptAgent",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "software_kernel",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 5654,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/2351f7dd391acea7b5d8f0a382db0334b1466390e15bce187bb6e1820092aab1.md",
+          "revision": "1edee3ad6aca1e5489d4e7dfd87ed2b2c7b1443f",
+          "sha256": "2351f7dd391acea7b5d8f0a382db0334b1466390e15bce187bb6e1820092aab1",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-formulas/resolve/1edee3ad6aca1e5489d4e7dfd87ed2b2c7b1443f/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Checkpoint absence is expected for a software kernel; evaluate the package contract."
+      ],
+      "id": "huggingface-model/szlholdings/szl-formulas",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "1edee3ad6aca1e5489d4e7dfd87ed2b2c7b1443f",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_SOURCE_PARITY",
+        "FRESH_PACKAGE_AND_BEHAVIOR_TESTS"
+      ],
+      "repository": "SZLHOLDINGS/szl-formulas",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "software_kernel",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 25153,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/48d2347cf895dd26cf8cdf6fac0d4ec20acb1f47e2aaca8b9d52b63d3c833aa8.md",
+          "revision": "cc5fde2296369b43652d454072b63d49fc3241ad",
+          "sha256": "48d2347cf895dd26cf8cdf6fac0d4ec20acb1f47e2aaca8b9d52b63d3c833aa8",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-governed-norm/resolve/cc5fde2296369b43652d454072b63d49fc3241ad/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Checkpoint absence is expected for a software kernel; evaluate the package contract."
+      ],
+      "id": "huggingface-model/szlholdings/szl-governed-norm",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "cc5fde2296369b43652d454072b63d49fc3241ad",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_SOURCE_PARITY",
+        "FRESH_PACKAGE_AND_BEHAVIOR_TESTS"
+      ],
+      "repository": "SZLHOLDINGS/szl-governed-norm",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "software_kernel",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 2935,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/f866efdb8e5b07f1a221c14e4a298c3365d80478053168f367783f16a1087b4c.md",
+          "revision": "3b63e1fa4a84369cd83fb1f5d155575e5710a447",
+          "sha256": "f866efdb8e5b07f1a221c14e4a298c3365d80478053168f367783f16a1087b4c",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-govsign/resolve/3b63e1fa4a84369cd83fb1f5d155575e5710a447/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Checkpoint absence is expected for a software kernel; evaluate the package contract."
+      ],
+      "id": "huggingface-model/szlholdings/szl-govsign",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "3b63e1fa4a84369cd83fb1f5d155575e5710a447",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_SOURCE_PARITY",
+        "FRESH_PACKAGE_AND_BEHAVIOR_TESTS"
+      ],
+      "repository": "SZLHOLDINGS/szl-govsign",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "software_kernel",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 5329,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/2aba4c02ced50eacc504c8f6c8267d1c0b89ac36889da49bf2187437d627e96c.md",
+          "revision": "c218f1a7eed7ec1b8a06a2997e49ffe9e339a71c",
+          "sha256": "2aba4c02ced50eacc504c8f6c8267d1c0b89ac36889da49bf2187437d627e96c",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-invariants/resolve/c218f1a7eed7ec1b8a06a2997e49ffe9e339a71c/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Checkpoint absence is expected for a software kernel; evaluate the package contract."
+      ],
+      "id": "huggingface-model/szlholdings/szl-invariants",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "c218f1a7eed7ec1b8a06a2997e49ffe9e339a71c",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_SOURCE_PARITY",
+        "FRESH_PACKAGE_AND_BEHAVIOR_TESTS"
+      ],
+      "repository": "SZLHOLDINGS/szl-invariants",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "software_kernel",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 31070,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/a6a70811e7eceac43cd133265e748f990eba31d91862ead3ed5eba039e8632e9.md",
+          "revision": "f67a26a8141b1436ee2d1de64fb202c493981a2d",
+          "sha256": "a6a70811e7eceac43cd133265e748f990eba31d91862ead3ed5eba039e8632e9",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-kernels/resolve/f67a26a8141b1436ee2d1de64fb202c493981a2d/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Checkpoint absence is expected for a software kernel; evaluate the package contract."
+      ],
+      "id": "huggingface-model/szlholdings/szl-kernels",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "f67a26a8141b1436ee2d1de64fb202c493981a2d",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_SOURCE_PARITY",
+        "FRESH_PACKAGE_AND_BEHAVIOR_TESTS"
+      ],
+      "repository": "SZLHOLDINGS/szl-kernels",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "software_suite_with_numerical_fixtures",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 10708,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/8752f876da250150d96040f466c74db7bc0b3857977b2c23b63fa28b9f15f446.md",
+          "revision": "55e2e78c45b581e37d226478ecf39f44168a1d9e",
+          "sha256": "8752f876da250150d96040f466c74db7bc0b3857977b2c23b63fa28b9f15f446",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-khipu/resolve/55e2e78c45b581e37d226478ecf39f44168a1d9e/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        },
+        {
+          "bytes": 11499,
+          "path": "data/reconciliation/model-evidence/nano-and-space-witness.json",
+          "sha256": "dba7190b49efc92ddc3c6920f78d97c9c3f04c18d0f66cf769ff60bf5450ff8c"
+        },
+        {
+          "bytes": 14350,
+          "path": "data/reconciliation/model-evidence/szl-khipu-merged-tests.log",
+          "sha256": "9ceaef8b51f0b4e5c4444c153e9a8388cc0b035ca36d623325f10f501bd79980"
+        },
+        {
+          "bytes": 767,
+          "path": "data/reconciliation/model-evidence/hf-deployment-receipt.json",
+          "sha256": "d6691079cb166f71a8aafa85bbe2c28131f7e8440f9748d76c20b946b035e26d"
+        },
+        {
+          "bytes": 463,
+          "path": "data/reconciliation/model-evidence/khipu-model-software-parity.json",
+          "sha256": "45b6db40bbc3e4ba4fa4d71f74192469b21f3efbe09b00abcaf8ab12c669c566"
+        }
+      ],
+      "findings": [
+        "Canonical merge ef7e85a fixes nonfinite admission;114tests pass and source-bound Space publication and actual receipt-agent route behavior witnessed. Publisher updates only the model README, so full model-code parity remains unverified.",
+        "Fresh follow-up model revision55e2e78c45b581e37d226478ecf39f44168a1d9e serves receipt_agent.py without _validated_features or np.isfinite, so the model-code mirror does not contain the canonical NaN repair."
+      ],
+      "id": "huggingface-model/szlholdings/szl-khipu",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "55e2e78c45b581e37d226478ecf39f44168a1d9e",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_SOURCE_PARITY",
+        "FRESH_PACKAGE_AND_BEHAVIOR_TESTS"
+      ],
+      "repository": "SZLHOLDINGS/szl-khipu",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [
+        {
+          "bytes": 6892,
+          "path": "artifacts/mini_embed.npz",
+          "sha256": "ae31a3a7214d1f142d8ea3f4f86c35bdedd7c108bc5d04ea00c87e7b674e6e3b"
+        },
+        {
+          "bytes": 1302,
+          "path": "artifacts/moons.npz",
+          "sha256": "dda50e3b293534de3f5aec01ebf9f8d6688e06069931618dfd35f01369904104"
+        },
+        {
+          "bytes": 6014,
+          "path": "artifacts/receipt_agent.npz",
+          "sha256": "8aca4d24c90d6159cbb2bb885c7a94822d715899437f58abe69fb5c9664a1381"
+        },
+        {
+          "bytes": 3568,
+          "path": "artifacts/tiny_khipu.npz",
+          "sha256": "cc8d0385b2c75079669df809d7e4823f1ad8d9d535aec511446347490b11dff9"
+        },
+        {
+          "bytes": 1166,
+          "path": "lambda_gate.npz",
+          "sha256": "b9e79bc2866ae1a744db80cd955d6ec9dc5ef9144d88f6a1e70de2afbd93de43"
+        }
+      ],
+      "weight_bytes_verified": true
+    },
+    {
+      "artifact_kind": "language_model_artifacts",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 19345,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/8a39954edaf36b5a24176fe7639763785106005f359fb75a7e0e1f949fcabfbd.md",
+          "revision": "8d3032dcf954f347b98f80050de107169d69eb7e",
+          "sha256": "8a39954edaf36b5a24176fe7639763785106005f359fb75a7e0e1f949fcabfbd",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/SZL-Khipu-1.5B/resolve/8d3032dcf954f347b98f80050de107169d69eb7e/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Card metrics and file presence do not establish training lineage, evaluation correctness or serving readiness."
+      ],
+      "id": "huggingface-model/szlholdings/szl-khipu-1.5b",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": true,
+      "observed_revision": "8d3032dcf954f347b98f80050de107169d69eb7e",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_WEIGHT_AND_CONFIG_LOAD",
+        "TRAINING_LINEAGE_BOUND_TO_PUBLISHED_BYTES",
+        "FROZEN_TASK_EVALUATION",
+        "CANONICAL_SOURCE_AND_SERVING_BINDING"
+      ],
+      "repository": "SZLHOLDINGS/SZL-Khipu-1.5B",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "language_model_artifacts",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 4665,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/6f908a3a93d8d00d0fe717449ef2ef90098166f454703134fd5f9bd601bdf859.md",
+          "revision": "7f93c1b53d19a174e831af61425f101c8cbd41de",
+          "sha256": "6f908a3a93d8d00d0fe717449ef2ef90098166f454703134fd5f9bd601bdf859",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/SZL-Khipu-1.5B-abstain/resolve/7f93c1b53d19a174e831af61425f101c8cbd41de/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Card metrics and file presence do not establish training lineage, evaluation correctness or serving readiness.",
+        "Observed file inventory contains numerical/weight artifacts despite no-weight wording in the retained card; the wording is stale or inconsistent and cannot establish readiness."
+      ],
+      "id": "huggingface-model/szlholdings/szl-khipu-1.5b-abstain",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": true,
+      "observed_revision": "7f93c1b53d19a174e831af61425f101c8cbd41de",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_WEIGHT_AND_CONFIG_LOAD",
+        "TRAINING_LINEAGE_BOUND_TO_PUBLISHED_BYTES",
+        "FROZEN_TASK_EVALUATION",
+        "CANONICAL_SOURCE_AND_SERVING_BINDING"
+      ],
+      "repository": "SZLHOLDINGS/SZL-Khipu-1.5B-abstain",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "language_model_artifacts",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 8647,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/0e2548818a29adeb959b4eeed3bb14d47ebd5ec79b230a7520310121719033d4.md",
+          "revision": "0989e96e35b49968ff2e21bdec6e135c08df3f63",
+          "sha256": "0e2548818a29adeb959b4eeed3bb14d47ebd5ec79b230a7520310121719033d4",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/SZL-Khipu-1.5B-GGUF/resolve/0989e96e35b49968ff2e21bdec6e135c08df3f63/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Card metrics and file presence do not establish training lineage, evaluation correctness or serving readiness."
+      ],
+      "id": "huggingface-model/szlholdings/szl-khipu-1.5b-gguf",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": true,
+      "observed_revision": "0989e96e35b49968ff2e21bdec6e135c08df3f63",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_WEIGHT_AND_CONFIG_LOAD",
+        "TRAINING_LINEAGE_BOUND_TO_PUBLISHED_BYTES",
+        "FROZEN_TASK_EVALUATION",
+        "CANONICAL_SOURCE_AND_SERVING_BINDING"
+      ],
+      "repository": "SZLHOLDINGS/SZL-Khipu-1.5B-GGUF",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "software_kernel",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 3402,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/dd8abc35a1549407fcb4c672ff0415a7e0819f7be5e7166c29836b9a380c987e.md",
+          "revision": "de8cb70313269b135cf6ea2a9a842d3a39426dd0",
+          "sha256": "dd8abc35a1549407fcb4c672ff0415a7e0819f7be5e7166c29836b9a380c987e",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-khipu-kernels/resolve/de8cb70313269b135cf6ea2a9a842d3a39426dd0/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Checkpoint absence is expected for a software kernel; evaluate the package contract."
+      ],
+      "id": "huggingface-model/szlholdings/szl-khipu-kernels",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "de8cb70313269b135cf6ea2a9a842d3a39426dd0",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_SOURCE_PARITY",
+        "FRESH_PACKAGE_AND_BEHAVIOR_TESTS"
+      ],
+      "repository": "SZLHOLDINGS/szl-khipu-kernels",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "software_kernel",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 18635,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/0d050e2b45d68478c12da4c3465a7175884b6c6cef5dc4882f662ded3aa1a1d3.md",
+          "revision": "c9abda7882b0b4e79bbc9a50b359ff987db37494",
+          "sha256": "0d050e2b45d68478c12da4c3465a7175884b6c6cef5dc4882f662ded3aa1a1d3",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-lambda-gate/resolve/c9abda7882b0b4e79bbc9a50b359ff987db37494/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Checkpoint absence is expected for a software kernel; evaluate the package contract."
+      ],
+      "id": "huggingface-model/szlholdings/szl-lambda-gate",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "c9abda7882b0b4e79bbc9a50b359ff987db37494",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_SOURCE_PARITY",
+        "FRESH_PACKAGE_AND_BEHAVIOR_TESTS"
+      ],
+      "repository": "SZLHOLDINGS/szl-lambda-gate",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "software_kernel",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 5070,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/e38cef3e9cc1f2b033c1d5e7c3913952619c953a33be1e02b60e4404346ffa7b.md",
+          "revision": "cfb9bd9af615860921828ac04dd01afd20b2527a",
+          "sha256": "e38cef3e9cc1f2b033c1d5e7c3913952619c953a33be1e02b60e4404346ffa7b",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-maskmod/resolve/cfb9bd9af615860921828ac04dd01afd20b2527a/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Checkpoint absence is expected for a software kernel; evaluate the package contract."
+      ],
+      "id": "huggingface-model/szlholdings/szl-maskmod",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "cfb9bd9af615860921828ac04dd01afd20b2527a",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_SOURCE_PARITY",
+        "FRESH_PACKAGE_AND_BEHAVIOR_TESTS"
+      ],
+      "repository": "SZLHOLDINGS/szl-maskmod",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "surrogate_rules_and_scripts",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 5805,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/d3f149c007776ef22cb7f9533856fe84e3c4c2836b8e408cbeb3a2e23ab62e94.md",
+          "revision": "2aa29bc00e616ec0299051248da865584c0bb2b4",
+          "sha256": "d3f149c007776ef22cb7f9533856fe84e3c4c2836b8e408cbeb3a2e23ab62e94",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-nemo/resolve/2aa29bc00e616ec0299051248da865584c0bb2b4/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [],
+      "id": "huggingface-model/szlholdings/szl-nemo",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "2aa29bc00e616ec0299051248da865584c0bb2b4",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_SOURCE_PARITY",
+        "FRESH_PACKAGE_AND_BEHAVIOR_TESTS"
+      ],
+      "repository": "SZLHOLDINGS/szl-nemo",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "software_kernel",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 5318,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/3808fad060dbf9bc6df9521686861489186391123021300c6d747b5609338e3f.md",
+          "revision": "40381c985b1eaebd5007626c0c58e25838d32389",
+          "sha256": "3808fad060dbf9bc6df9521686861489186391123021300c6d747b5609338e3f",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-ouroboros/resolve/40381c985b1eaebd5007626c0c58e25838d32389/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Checkpoint absence is expected for a software kernel; evaluate the package contract."
+      ],
+      "id": "huggingface-model/szlholdings/szl-ouroboros",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "40381c985b1eaebd5007626c0c58e25838d32389",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_SOURCE_PARITY",
+        "FRESH_PACKAGE_AND_BEHAVIOR_TESTS"
+      ],
+      "repository": "SZLHOLDINGS/szl-ouroboros",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "software_kernel",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 3330,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/7fd9900a5704aba3a4111bea46d5ba4201d2a36820d78c08eabfaf39d5564fdc.md",
+          "revision": "c71443c62f7f03a2d1a6151d47194843843aed6a",
+          "sha256": "7fd9900a5704aba3a4111bea46d5ba4201d2a36820d78c08eabfaf39d5564fdc",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-provctl/resolve/c71443c62f7f03a2d1a6151d47194843843aed6a/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Checkpoint absence is expected for a software kernel; evaluate the package contract."
+      ],
+      "id": "huggingface-model/szlholdings/szl-provctl",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "c71443c62f7f03a2d1a6151d47194843843aed6a",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_SOURCE_PARITY",
+        "FRESH_PACKAGE_AND_BEHAVIOR_TESTS"
+      ],
+      "repository": "SZLHOLDINGS/szl-provctl",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "software_kernel",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 4988,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/e46c50c2a6f02b1850dc8f77cc8fe510292dd676786451342f015df8c3b8a0aa.md",
+          "revision": "6bd7d6320b25e076d0c645045699d2b3c57a917c",
+          "sha256": "e46c50c2a6f02b1850dc8f77cc8fe510292dd676786451342f015df8c3b8a0aa",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-receipt-attn/resolve/6bd7d6320b25e076d0c645045699d2b3c57a917c/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Checkpoint absence is expected for a software kernel; evaluate the package contract."
+      ],
+      "id": "huggingface-model/szlholdings/szl-receipt-attn",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "6bd7d6320b25e076d0c645045699d2b3c57a917c",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_SOURCE_PARITY",
+        "FRESH_PACKAGE_AND_BEHAVIOR_TESTS"
+      ],
+      "repository": "SZLHOLDINGS/szl-receipt-attn",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "language_model_artifacts",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 7036,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/12b68cdb281d5dc7f08e3f821f7288ac3dabaa93a14da19c029a06a3dbe2999e.md",
+          "revision": "437a67a2c297f013e7eab249bc37f0cae04679d6",
+          "sha256": "12b68cdb281d5dc7f08e3f821f7288ac3dabaa93a14da19c029a06a3dbe2999e",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2/resolve/437a67a2c297f013e7eab249bc37f0cae04679d6/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Card metrics and file presence do not establish training lineage, evaluation correctness or serving readiness."
+      ],
+      "id": "huggingface-model/szlholdings/szl-receiptagent-qwen35-0.8b-v2",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": true,
+      "observed_revision": "437a67a2c297f013e7eab249bc37f0cae04679d6",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_WEIGHT_AND_CONFIG_LOAD",
+        "TRAINING_LINEAGE_BOUND_TO_PUBLISHED_BYTES",
+        "FROZEN_TASK_EVALUATION",
+        "CANONICAL_SOURCE_AND_SERVING_BINDING"
+      ],
+      "repository": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "language_model_artifacts",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 1239,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/9cb8e14cd3d0789f4d5eeffa5fc6b4b9996ba0cfee5823601423f2c4a435cf7d.md",
+          "revision": "6f7dc8e2215b689aa2b7d2a28d794d29f5ba3079",
+          "sha256": "9cb8e14cd3d0789f4d5eeffa5fc6b4b9996ba0cfee5823601423f2c4a435cf7d",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2-merged/resolve/6f7dc8e2215b689aa2b7d2a28d794d29f5ba3079/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Card metrics and file presence do not establish training lineage, evaluation correctness or serving readiness."
+      ],
+      "id": "huggingface-model/szlholdings/szl-receiptagent-qwen35-0.8b-v2-merged",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": true,
+      "observed_revision": "6f7dc8e2215b689aa2b7d2a28d794d29f5ba3079",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_WEIGHT_AND_CONFIG_LOAD",
+        "TRAINING_LINEAGE_BOUND_TO_PUBLISHED_BYTES",
+        "FROZEN_TASK_EVALUATION",
+        "CANONICAL_SOURCE_AND_SERVING_BINDING"
+      ],
+      "repository": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2-merged",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "language_model_artifacts",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 2078,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/60cd939103ead4a7f81e2bbe1ef2a2d25b4b27084b5d25fe4356d408ba45cab5.md",
+          "revision": "fe7564886100316d0843d147abd38da39beb3a4f",
+          "sha256": "60cd939103ead4a7f81e2bbe1ef2a2d25b4b27084b5d25fe4356d408ba45cab5",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3/resolve/fe7564886100316d0843d147abd38da39beb3a4f/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        },
+        {
+          "bytes": 9338,
+          "path": "data/reconciliation/model-evidence/adapter_artifact_bytes.json",
+          "sha256": "e62f0be2c8c106fcacfd76241630cef47a821bb484904856f3c5a91ba2ac94d6"
+        },
+        {
+          "bytes": 1733,
+          "path": "data/reconciliation/model-evidence/szl-receiptagent-qwen35-0.8b-v3--training_receipt.laptop-blackwell.json",
+          "sha256": "e8ca7f3342491f25ac3797e8284c5c11d3c2cdc31ea93ffb976059c5e2d87631"
+        }
+      ],
+      "findings": [
+        "Card metrics and file presence do not establish training lineage, evaluation correctness or serving readiness.",
+        "Published adapter differs from the retained laptop training receipt. Matching the provider bytes does not resolve this provenance mismatch.",
+        "Existing cached base and CUDA environment inspected; load deliberately not started with approximately1.4GB availableRAM. No install, download or training attempt."
+      ],
+      "id": "huggingface-model/szlholdings/szl-receiptagent-qwen35-0.8b-v3",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "load_status": "MEMORY_BLOCKED",
+      "model_checkpoint_expected": true,
+      "observed_revision": "fe7564886100316d0843d147abd38da39beb3a4f",
+      "production_qualified": false,
+      "published_adapter_sha256": "90b82ade0b2c84eca92e90cdeb56137d61d7da4b4863ff4d29fa75e9dc037870",
+      "remaining_gates": [
+        "EXACT_WEIGHT_AND_CONFIG_LOAD",
+        "TRAINING_LINEAGE_BOUND_TO_PUBLISHED_BYTES",
+        "FROZEN_TASK_EVALUATION",
+        "CANONICAL_SOURCE_AND_SERVING_BINDING"
+      ],
+      "repository": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
+      "training_receipt_adapter_sha256": "339efa6ea0ed0719db0dede26ee836f290048deb1b6ce68403ab07cb255b28d0",
+      "training_receipt_hash_matches": false,
+      "training_reproduced": false,
+      "verified_artifact_bytes": [
+        {
+          "bytes": 25587104,
+          "path": "adapter_model.safetensors",
+          "sha256": "90b82ade0b2c84eca92e90cdeb56137d61d7da4b4863ff4d29fa75e9dc037870"
+        }
+      ],
+      "weight_bytes_verified": true
+    },
+    {
+      "artifact_kind": "training_software",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 3708,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/38c280b0a4e98264126ad76d80f220c1412c8bb1b3d3a696a1a12fce14baad2d.md",
+          "revision": "d8663fc07df8d91026584ff8ea235ce523c02638",
+          "sha256": "38c280b0a4e98264126ad76d80f220c1412c8bb1b3d3a696a1a12fce14baad2d",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-training-scripts/resolve/d8663fc07df8d91026584ff8ea235ce523c02638/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [],
+      "id": "huggingface-model/szlholdings/szl-training-scripts",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "d8663fc07df8d91026584ff8ea235ce523c02638",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_SOURCE_PARITY",
+        "FRESH_PACKAGE_AND_BEHAVIOR_TESTS"
+      ],
+      "repository": "SZLHOLDINGS/szl-training-scripts",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "language_model_artifacts",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 3967,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/606f84998d749a288b0d812893f8ee1fb6ba8cd815f76a2b86856a36d73c3ff7.md",
+          "revision": "24b5c44494434e88b89d9915daad32f1f8e8d03d",
+          "sha256": "606f84998d749a288b0d812893f8ee1fb6ba8cd815f76a2b86856a36d73c3ff7",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-triage-qwen3.5-0.8b-lora/resolve/24b5c44494434e88b89d9915daad32f1f8e8d03d/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Card metrics and file presence do not establish training lineage, evaluation correctness or serving readiness."
+      ],
+      "id": "huggingface-model/szlholdings/szl-triage-qwen3.5-0.8b-lora",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": true,
+      "observed_revision": "24b5c44494434e88b89d9915daad32f1f8e8d03d",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_WEIGHT_AND_CONFIG_LOAD",
+        "TRAINING_LINEAGE_BOUND_TO_PUBLISHED_BYTES",
+        "FROZEN_TASK_EVALUATION",
+        "CANONICAL_SOURCE_AND_SERVING_BINDING"
+      ],
+      "repository": "SZLHOLDINGS/szl-triage-qwen3.5-0.8b-lora",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "language_model_artifacts",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 6007,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/8be94f79264f721fcc64ea514101aa28e76cdef42aadbb0455dd6bbadf0296d5.md",
+          "revision": "962fd88b726c299f82ab06756377fe09819f8cd1",
+          "sha256": "8be94f79264f721fcc64ea514101aa28e76cdef42aadbb0455dd6bbadf0296d5",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/szl-triage-qwen3.5-0.8b-lora-study5/resolve/962fd88b726c299f82ab06756377fe09819f8cd1/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Card metrics and file presence do not establish training lineage, evaluation correctness or serving readiness."
+      ],
+      "id": "huggingface-model/szlholdings/szl-triage-qwen3.5-0.8b-lora-study5",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": true,
+      "observed_revision": "962fd88b726c299f82ab06756377fe09819f8cd1",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_WEIGHT_AND_CONFIG_LOAD",
+        "TRAINING_LINEAGE_BOUND_TO_PUBLISHED_BYTES",
+        "FROZEN_TASK_EVALUATION",
+        "CANONICAL_SOURCE_AND_SERVING_BINDING"
+      ],
+      "repository": "SZLHOLDINGS/szl-triage-qwen3.5-0.8b-lora-study5",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "historical_org_stub",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 2834,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/5eb4a0f1641d907d1242f8208608ecf36894d02ab889152fe95a64655c3a2a3e.md",
+          "revision": "cb26dc7c2294854ecec128410f60bdc017fb2a29",
+          "sha256": "5eb4a0f1641d907d1242f8208608ecf36894d02ab889152fe95a64655c3a2a3e",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/SZLHOLDINGS/resolve/cb26dc7c2294854ecec128410f60bdc017fb2a29/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "This catalog entry intentionally supplies no standalone model runtime; use its declared source or successor where applicable."
+      ],
+      "id": "huggingface-model/szlholdings/szlholdings",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "cb26dc7c2294854ecec128410f60bdc017fb2a29",
+      "production_qualified": false,
+      "remaining_gates": [],
+      "repository": "SZLHOLDINGS/SZLHOLDINGS",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "numerical_reference_fixture",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 2315,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/743b700d3772289bb4d544a3da267dab0c6e686416403fa4cbe9c639493f0370.md",
+          "revision": "01af5759375c64277b7f8ab5a6aaf93f5d856632",
+          "sha256": "743b700d3772289bb4d544a3da267dab0c6e686416403fa4cbe9c639493f0370",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/tinku/resolve/01af5759375c64277b7f8ab5a6aaf93f5d856632/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Synthetic reference behavior is a software qualification scope; no clinical, detector or foundation-model capability is inferred."
+      ],
+      "id": "huggingface-model/szlholdings/tinku",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "01af5759375c64277b7f8ab5a6aaf93f5d856632",
+      "production_qualified": false,
+      "remaining_gates": [
+        "TASK_SPECIFIC_QUALIFICATION"
+      ],
+      "repository": "SZLHOLDINGS/tinku",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "numerical_reference_fixture",
+      "canonical_source_blob_matches": true,
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 3395,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/e61784d8c74506761a52a426441da985666c1ac3dd0bb6031440212af6f6dff5.md",
+          "revision": "73b75580e9a8dedb30fc23168bd6563624e8b4b2",
+          "sha256": "e61784d8c74506761a52a426441da985666c1ac3dd0bb6031440212af6f6dff5",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/TinyKhipu-Nano/resolve/73b75580e9a8dedb30fc23168bd6563624e8b4b2/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        },
+        {
+          "bytes": 11499,
+          "path": "data/reconciliation/model-evidence/nano-and-space-witness.json",
+          "sha256": "dba7190b49efc92ddc3c6920f78d97c9c3f04c18d0f66cf769ff60bf5450ff8c"
+        }
+      ],
+      "findings": [
+        "Synthetic reference behavior is a software qualification scope; no clinical, detector or foundation-model capability is inferred.",
+        "Exact downloaded fixture bytes match canonical Git source artifact and unsigned training receipt; fresh inference observed. No training rerun or production promotion."
+      ],
+      "id": "huggingface-model/szlholdings/tinykhipu-nano",
+      "independent_evaluation_verified": false,
+      "inference_witness": {
+        "metrics": {
+          "abstain": 1.0,
+          "hallucinated": 0.0,
+          "plan_valid": 1.0
+        },
+        "samples": 80,
+        "synthetic_seed": 20260925
+      },
+      "load_and_inference_verified": true,
+      "model_checkpoint_expected": false,
+      "observed_revision": "73b75580e9a8dedb30fc23168bd6563624e8b4b2",
+      "production_qualified": false,
+      "qualification_scope": "BOUNDED_SYNTHETIC_LOCAL_INFERENCE",
+      "remaining_gates": [
+        "TASK_SPECIFIC_QUALIFICATION"
+      ],
+      "repository": "SZLHOLDINGS/TinyKhipu-Nano",
+      "training_receipt_hash_matches": true,
+      "training_reproduced": false,
+      "verified_artifact_bytes": [
+        {
+          "bytes": 3568,
+          "path": "tiny_khipu.npz",
+          "sha256": "cc8d0385b2c75079669df809d7e4823f1ad8d9d535aec511446347490b11dff9"
+        }
+      ],
+      "weight_bytes_verified": true
+    },
+    {
+      "artifact_kind": "numerical_reference_fixture",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 2310,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/6c5e900ba32f15a698220c796c3b15e079c9a36d2dd840e9749512b63cbb684e.md",
+          "revision": "ede350c01780331bb665362342e7a4750df1e09f",
+          "sha256": "6c5e900ba32f15a698220c796c3b15e079c9a36d2dd840e9749512b63cbb684e",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/waman/resolve/ede350c01780331bb665362342e7a4750df1e09f/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Synthetic reference behavior is a software qualification scope; no clinical, detector or foundation-model capability is inferred."
+      ],
+      "id": "huggingface-model/szlholdings/waman",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "ede350c01780331bb665362342e7a4750df1e09f",
+      "production_qualified": false,
+      "remaining_gates": [
+        "TASK_SPECIFIC_QUALIFICATION"
+      ],
+      "repository": "SZLHOLDINGS/waman",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "language_model_artifacts",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 4284,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/fbdc0e22be3ead7806be0503c50950773e77f9470633dbad63bf7c8ccdcffcf9.md",
+          "revision": "375a007ec961f125ab051747b70c3e3b7dcd64c7",
+          "sha256": "fbdc0e22be3ead7806be0503c50950773e77f9470633dbad63bf7c8ccdcffcf9",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/WILLAY/resolve/375a007ec961f125ab051747b70c3e3b7dcd64c7/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Card metrics and file presence do not establish training lineage, evaluation correctness or serving readiness."
+      ],
+      "id": "huggingface-model/szlholdings/willay",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": true,
+      "observed_revision": "375a007ec961f125ab051747b70c3e3b7dcd64c7",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_WEIGHT_AND_CONFIG_LOAD",
+        "TRAINING_LINEAGE_BOUND_TO_PUBLISHED_BYTES",
+        "FROZEN_TASK_EVALUATION",
+        "CANONICAL_SOURCE_AND_SERVING_BINDING"
+      ],
+      "repository": "SZLHOLDINGS/WILLAY",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    },
+    {
+      "artifact_kind": "software_kernel",
+      "classification_basis": "Retained exact-revision source card and complete provider file manifest; artifact kind is separate from readiness.",
+      "classification_status": "RESOLVED_FOR_OBSERVED_REVISION",
+      "evidence": [
+        {
+          "bytes": 7529,
+          "kind": "source_card",
+          "path": "data/source-evidence/blobs/ed540bdd07649f986a3f6c8b49a5407fb7722e25adc12d12d136829cf1e3a057.md",
+          "revision": "f30b9225214cc468ff19856ed81cb60c552925f0",
+          "sha256": "ed540bdd07649f986a3f6c8b49a5407fb7722e25adc12d12d136829cf1e3a057",
+          "source_path": "README.md",
+          "status": "observed",
+          "url": "https://huggingface.co/SZLHOLDINGS/YARQA-ATTN/resolve/f30b9225214cc468ff19856ed81cb60c552925f0/README.md"
+        },
+        {
+          "bytes": 254468,
+          "path": "data/reconciliation/model-evidence/provider_sizes.json",
+          "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+        }
+      ],
+      "findings": [
+        "Checkpoint absence is expected for a software kernel; evaluate the package contract."
+      ],
+      "id": "huggingface-model/szlholdings/yarqa-attn",
+      "independent_evaluation_verified": false,
+      "load_and_inference_verified": false,
+      "model_checkpoint_expected": false,
+      "observed_revision": "f30b9225214cc468ff19856ed81cb60c552925f0",
+      "production_qualified": false,
+      "remaining_gates": [
+        "EXACT_SOURCE_PARITY",
+        "FRESH_PACKAGE_AND_BEHAVIOR_TESTS"
+      ],
+      "repository": "SZLHOLDINGS/YARQA-ATTN",
+      "training_reproduced": false,
+      "verified_artifact_bytes": [],
+      "weight_bytes_verified": false
+    }
+  ],
+  "input_bindings": {
+    "adapter_artifact_bytes.json": {
+      "bytes": 9338,
+      "path": "data/reconciliation/model-evidence/adapter_artifact_bytes.json",
+      "sha256": "e62f0be2c8c106fcacfd76241630cef47a821bb484904856f3c5a91ba2ac94d6"
+    },
+    "hf-deployment-provenance.json": {
+      "bytes": 8169,
+      "path": "data/reconciliation/model-evidence/hf-deployment-provenance.json",
+      "sha256": "5be53ff2213031e63ccd76e851e00b8bf41c127906d05c30d49dc20f7210cd3f"
+    },
+    "hf-deployment-receipt.json": {
+      "bytes": 767,
+      "path": "data/reconciliation/model-evidence/hf-deployment-receipt.json",
+      "sha256": "d6691079cb166f71a8aafa85bbe2c28131f7e8440f9748d76c20b946b035e26d"
+    },
+    "khipu-merge-verification.json": {
+      "bytes": 102,
+      "path": "data/reconciliation/model-evidence/khipu-merge-verification.json",
+      "sha256": "27b8669a2deb711536c3eb13bfc67260ef3418d173fa944d6743ae596600434f"
+    },
+    "khipu-model-software-parity.json": {
+      "bytes": 463,
+      "path": "data/reconciliation/model-evidence/khipu-model-software-parity.json",
+      "sha256": "45b6db40bbc3e4ba4fa4d71f74192469b21f3efbe09b00abcaf8ab12c669c566"
+    },
+    "khipu-pr68.json": {
+      "bytes": 2350,
+      "path": "data/reconciliation/model-evidence/khipu-pr68.json",
+      "sha256": "de2fb1d02c7f59cdb775f4ece644335f85ef38c5a39743e71c517e4d3f7aa19c"
+    },
+    "khipu-r3/adapter_config.json": {
+      "bytes": 1511,
+      "path": "data/reconciliation/model-evidence/khipu-r3--adapter_config.json",
+      "sha256": "d36472a3100231dfdf0c4aa16d3a80cb8ab53c86af33a15172b06f9d9a313193"
+    },
+    "khipu-r3/merge_receipt.json": {
+      "bytes": 560,
+      "path": "data/reconciliation/model-evidence/khipu-r3--merge_receipt.json",
+      "sha256": "602c7430454a2e549d39eafaeeb7566c772c9c8a90a6a130daec280e8c2a4633"
+    },
+    "khipu-r3/training_receipt.laptop-blackwell.json": {
+      "bytes": 1913,
+      "path": "data/reconciliation/model-evidence/khipu-r3--training_receipt.laptop-blackwell.json",
+      "sha256": "ae73cddccdc3aedce089af181463279aae13605d020285fa6e0ce00f6d8e9d4f"
+    },
+    "nano-and-space-witness.json": {
+      "bytes": 11499,
+      "path": "data/reconciliation/model-evidence/nano-and-space-witness.json",
+      "sha256": "dba7190b49efc92ddc3c6920f78d97c9c3f04c18d0f66cf769ff60bf5450ff8c"
+    },
+    "provider_sizes.json": {
+      "bytes": 254468,
+      "path": "data/reconciliation/model-evidence/provider_sizes.json",
+      "sha256": "eb05f42d0729651ea52787db8fd8760cd075e4cc2e191f7a2f885eb1ada4d566"
+    },
+    "small_artifact_bytes.json": {
+      "bytes": 68556,
+      "path": "data/reconciliation/model-evidence/small_artifact_bytes.json",
+      "sha256": "4b6133ddeda7ece4db2151798a651e0b66d19655ad7201c03c5762782ce43566"
+    },
+    "szl-khipu-merged-tests.log": {
+      "bytes": 14350,
+      "path": "data/reconciliation/model-evidence/szl-khipu-merged-tests.log",
+      "sha256": "9ceaef8b51f0b4e5c4444c153e9a8388cc0b035ca36d623325f10f501bd79980"
+    },
+    "szl-receiptagent-qwen35-0.8b-v3/adapter_config.json": {
+      "bytes": 1511,
+      "path": "data/reconciliation/model-evidence/szl-receiptagent-qwen35-0.8b-v3--adapter_config.json",
+      "sha256": "d36472a3100231dfdf0c4aa16d3a80cb8ab53c86af33a15172b06f9d9a313193"
+    },
+    "szl-receiptagent-qwen35-0.8b-v3/merge_receipt.json": {
+      "bytes": 583,
+      "path": "data/reconciliation/model-evidence/szl-receiptagent-qwen35-0.8b-v3--merge_receipt.json",
+      "sha256": "742cd6eeb4ea3d0566ec7c6eada168199eeb1b4496db7efcfa23127b330f94dd"
+    },
+    "szl-receiptagent-qwen35-0.8b-v3/training_receipt.laptop-blackwell.json": {
+      "bytes": 1733,
+      "path": "data/reconciliation/model-evidence/szl-receiptagent-qwen35-0.8b-v3--training_receipt.laptop-blackwell.json",
+      "sha256": "e8ca7f3342491f25ac3797e8284c5c11d3c2cdc31ea93ffb976059c5e2d87631"
+    },
+    "witness_script": {
+      "bytes": 4668,
+      "path": "data/reconciliation/model-evidence/qualify_local_and_space.py",
+      "sha256": "59d16ac5bbcbc0569d72eb20f4bcb592cace737f3e887ff25adbc4116d711703"
+    }
+  },
+  "observed_at": "2026-09-25T12:40:37.707491+00:00",
+  "schema": "szl.estate-model-decisions/v1",
+  "scope": "49 public model-type repositories at retained census revisions",
+  "signature_status": "UNSIGNED_OBSERVATION",
+  "snapshot_binding": {
+    "path": "data/snapshots/huggingface_models.json",
+    "sha256": "230b205ed5525604199d00a0abae43b9bdcf1f29ea9b24dc40d7c22a24424ba1"
+  }
+}

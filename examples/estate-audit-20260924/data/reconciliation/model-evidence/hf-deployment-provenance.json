@@ -1,0 +1,263 @@
+{
+  "artifact_name_prefix": "szl-khipu-hf-provenance-v3",
+  "files": [
+    {
+      "path": "artifacts/TRAINING_RECEIPT.json",
+      "sha256": "588a4a023e660a471bae79a7dcfac8c91c4e96e63c5d1ccd1b5c26e40d89d03c",
+      "size": 2158
+    },
+    {
+      "path": "artifacts/mini_embed.npz",
+      "sha256": "ae31a3a7214d1f142d8ea3f4f86c35bdedd7c108bc5d04ea00c87e7b674e6e3b",
+      "size": 6892
+    },
+    {
+      "path": "artifacts/model/README.md",
+      "sha256": "b84b2653ed16c236ae727da02bb711fee5ee3556d53ce4f6d1ee0e3d4aa113c2",
+      "size": 323
+    },
+    {
+      "path": "artifacts/moons.npz",
+      "sha256": "dda50e3b293534de3f5aec01ebf9f8d6688e06069931618dfd35f01369904104",
+      "size": 1302
+    },
+    {
+      "path": "artifacts/receipt_agent.npz",
+      "sha256": "8aca4d24c90d6159cbb2bb885c7a94822d715899437f58abe69fb5c9664a1381",
+      "size": 6014
+    },
+    {
+      "path": "artifacts/tiny_khipu.npz",
+      "sha256": "cc8d0385b2c75079669df809d7e4823f1ad8d9d535aec511446347490b11dff9",
+      "size": 3568
+    },
+    {
+      "path": "energy.py",
+      "sha256": "d7d0347c6f2793d99f109a363b2ed8f2b6f635bf7e2699a32eb774c7de4f7d12",
+      "size": 5039
+    },
+    {
+      "path": "index.html",
+      "sha256": "09ec3b2b8195fb3b71bca265e2f02c21f2ba9ca55eb296e0f4c9d0b4acc5863b",
+      "size": 11372
+    },
+    {
+      "path": "server.py",
+      "sha256": "da4335d712854147e8d63ca5b9a7ddae00fd729bf51d8cffee431b8762f49da5",
+      "size": 26515
+    },
+    {
+      "path": "szl-holo-v2.css",
+      "sha256": "f295e29c659cc106c4443c5c20e559a3f49116b87307b9bd490e218647ee63a2",
+      "size": 24190
+    },
+    {
+      "path": "szl-holo-v2.js",
+      "sha256": "14041bec20e3647c38580952801b36f668255ded13d11052c95886587843a714",
+      "size": 15988
+    },
+    {
+      "path": "szl_khipu/__init__.py",
+      "sha256": "eb88b1a001dba5144ce012b3e0eb0a08134deb39808863c4954eb40fbcb88ab3",
+      "size": 6519
+    },
+    {
+      "path": "szl_khipu/anatomy.py",
+      "sha256": "13af5bf33d6f86ab937f2ab7f3b60047a4963bd59f633af19da842961382b542",
+      "size": 10696
+    },
+    {
+      "path": "szl_khipu/ayni.py",
+      "sha256": "c59950477c306175a2ae5f3c99894d6e27a2a3443a44c8cf429c37996800b48f",
+      "size": 938
+    },
+    {
+      "path": "szl_khipu/bay.py",
+      "sha256": "0d5fc7d89272d399e13443926d44022da5c27863ac8d83757c8fd9a4051c4d24",
+      "size": 2897
+    },
+    {
+      "path": "szl_khipu/block_kv.py",
+      "sha256": "c504e09aa94ca2f741a73d1ee7c5df3002edd7d10b4608a15a71f6fe289004de",
+      "size": 2989
+    },
+    {
+      "path": "szl_khipu/blocked.py",
+      "sha256": "f21075a0cac3be6a66fe56838201053d0714ec7fe5786a39976cd565006c2bac",
+      "size": 1427
+    },
+    {
+      "path": "szl_khipu/chain.py",
+      "sha256": "cb6b082803610c560a9f07d40653727a4a8ef99e3a48fb13a0961c60bff3a7d0",
+      "size": 5979
+    },
+    {
+      "path": "szl_khipu/chaski.py",
+      "sha256": "9661001649863fd1255ea686b9de45c9a0e7760cd70a3ff95bf31bc5e6d79374",
+      "size": 2327
+    },
+    {
+      "path": "szl_khipu/cli.py",
+      "sha256": "c8baace5d4b559fd4cf36cfaf437ba3fa69ec1a987f24dc62016695afc2b55f7",
+      "size": 9972
+    },
+    {
+      "path": "szl_khipu/doctrine.py",
+      "sha256": "263f61b94a9c6cd7687f5225918b2a5dfacc61e48e22fd9990ea185fc09c27d4",
+      "size": 2656
+    },
+    {
+      "path": "szl_khipu/formulas.py",
+      "sha256": "54998cad455abbab440a05f94283aa27dc14046f888f0627a9d667c5fadbb519",
+      "size": 8706
+    },
+    {
+      "path": "szl_khipu/governed_norm.py",
+      "sha256": "9a2c1349711e89d57e23bde3628b4986c14b63694d6862011ad93e2b3cc0f88e",
+      "size": 2180
+    },
+    {
+      "path": "szl_khipu/greenlight.py",
+      "sha256": "25f56374e3f4d6202e6e90c44c791fa22698bd7ace6105ffce2092493b3ebd37",
+      "size": 2106
+    },
+    {
+      "path": "szl_khipu/http_app.py",
+      "sha256": "2b93f97fc90fc8467c60852764b06f9bde6e17e00745679c4d8d2a4f931aa2e9",
+      "size": 18322
+    },
+    {
+      "path": "szl_khipu/huklla.py",
+      "sha256": "4f5144b12eca8754a4d42ff4b038a5d3a0ee10b809ab1997125918e3288aaf74",
+      "size": 1416
+    },
+    {
+      "path": "szl_khipu/kancha.py",
+      "sha256": "e2b585bf51ed2a2f391dc08c4f2694c42e25c55f118b35fe9fc0feec9af8c20e",
+      "size": 1724
+    },
+    {
+      "path": "szl_khipu/lambda_gate.py",
+      "sha256": "2e0d2a50abf5fb3dc027a5cb42d67b7246a1cb851b866ec1d790c4e5a711fb20",
+      "size": 4635
+    },
+    {
+      "path": "szl_khipu/maskmod.py",
+      "sha256": "a99ac37f5af15e444a4af468cfee7ea5f82c9efa03b64fa7ba3e5ec0ba69f9a4",
+      "size": 2476
+    },
+    {
+      "path": "szl_khipu/nan_lab.py",
+      "sha256": "530922742467d59e3069bafd44e0b93d208c6bd2e8a62751d34bf3d420bac71d",
+      "size": 19206
+    },
+    {
+      "path": "szl_khipu/nina.py",
+      "sha256": "4432af5c1056beb4d6f66a53cd53fd3b84f1e2d23af60ce6f5aa9f20bd01b481",
+      "size": 1524
+    },
+    {
+      "path": "szl_khipu/ouroboros.py",
+      "sha256": "20fd32badd8cdc3e9b8f96eed5eeaebccce7e9c07b28ae62d8e4fc3f1d863d21",
+      "size": 1955
+    },
+    {
+      "path": "szl_khipu/page.html",
+      "sha256": "89e6461528b8ee2f3232a6695c5214417588fe8a476b8121e54407de7cb03793",
+      "size": 10443
+    },
+    {
+      "path": "szl_khipu/prefix.py",
+      "sha256": "200bc8b17385c3dab7ee850bc81e7cf4ad566d908a97c9cc210ac8dc988165fa",
+      "size": 2092
+    },
+    {
+      "path": "szl_khipu/py.typed",
+      "sha256": "5db995ac6aa0f8db5b88596421aa34c0791f52b5e956050c25c31543d03886ad",
+      "size": 8
+    },
+    {
+      "path": "szl_khipu/receipt_attn.py",
+      "sha256": "c9b8b2afa4f5818f4977a7bf339f7a7d109963ef40a5e3766d0fbca4152016a3",
+      "size": 3421
+    },
+    {
+      "path": "szl_khipu/rimay.py",
+      "sha256": "8ad04b2b2ffa9e603feb6d1b3d0e33a2402d84b974d5e2309ba264a83a477082",
+      "size": 1484
+    },
+    {
+      "path": "szl_khipu/route.py",
+      "sha256": "d6344b25b2f158f36d8fe6ba74c85204ef54fe455535a2708d6690c6c60af2c9",
+      "size": 1456
+    },
+    {
+      "path": "szl_khipu/sami.py",
+      "sha256": "4d6f71f2dcaf54b399144d623b3c56b2b972ca170195b9903b8f38abef3ba768",
+      "size": 1616
+    },
+    {
+      "path": "szl_khipu/shard.py",
+      "sha256": "ffd387e5bf4657cdf6eb7e21e011f94474b956cf937e68a7e967ea5d4d9e1c4b",
+      "size": 3004
+    },
+    {
+      "path": "szl_khipu/suyay.py",
+      "sha256": "7e3dc53aa972d2f64342d204178b51c5b87c351da12f947c3ed004e1432b6cc8",
+      "size": 1388
+    },
+    {
+      "path": "szl_khipu/tilegrid.py",
+      "sha256": "ed2a1bb850081f298fbe5790d6792e23f27488fa2996cdef0f63f6c080993874",
+      "size": 2373
+    },
+    {
+      "path": "szl_khipu/train/__init__.py",
+      "sha256": "7915c93dfaa3a91f816d3290e2379995ef423cab009a048c59b9c7f02ff6f0ad",
+      "size": 262
+    },
+    {
+      "path": "szl_khipu/train/mini_embed.py",
+      "sha256": "a856f0d668f47c44e66e5b036c29c845a017029e0fafe8a363654c2aff6f379d",
+      "size": 2517
+    },
+    {
+      "path": "szl_khipu/train/moons.py",
+      "sha256": "93e9ba1c72c39687ff12e59fdae245ac11afad1124450c2f74cbea818fe8bc93",
+      "size": 3428
+    },
+    {
+      "path": "szl_khipu/train/receipt_agent.py",
+      "sha256": "bda481e78238e001100356dbb40ef2a8dd53b3490942f2a810d6d0aac5408609",
+      "size": 8569
+    },
+    {
+      "path": "szl_khipu/train/tiny_khipu.py",
+      "sha256": "4a1929574477ea356897b8eb1aec6ca655fe03b964061eea34332c5dadfb5cbe",
+      "size": 7485
+    },
+    {
+      "path": "szl_khipu/wasi.py",
+      "sha256": "2b4686412f0cfaa2865086572f652be92287e737bfa99dfd82cf3f09f3f8a93a",
+      "size": 1522
+    },
+    {
+      "path": "szl_khipu/yarqa.py",
+      "sha256": "16a2851ae774648cc9fa0e791e479d3e73a66aea96f9457d6b1876429ecfe7e5",
+      "size": 3186
+    },
+    {
+      "path": "szl_khipu/yawar.py",
+      "sha256": "f091babfa7446ad25b0bfbd79962a5a93bc051780f1c3dd064da963cb32e193a",
+      "size": 1849
+    }
+  ],
+  "hf_repository": "SZLHOLDINGS/szl-khipu",
+  "schema": "szl.hf-deployment-tree/v3",
+  "source_commit": "ef7e85a162428a26a361b5e2c2cb32a3b3d082dc",
+  "source_repository": "szl-holdings/szl-khipu",
+  "tree_sha256": "a4be009262b2032b94ba53247367603433f0586a963d566971b2228ffb1661be",
+  "workflow_name": "publish-hf",
+  "workflow_run_attempt": 1,
+  "workflow_run_id": 36008397058
+}

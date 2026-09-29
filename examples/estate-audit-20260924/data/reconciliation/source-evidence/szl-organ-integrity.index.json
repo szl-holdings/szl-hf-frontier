@@ -1,0 +1,35 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 5155,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:03Z",
+      "path": "data/reconciliation/source-evidence/9e846f9758eaec9fe97c680274ba77934206e7570b84a75cc07192f8abf429a1.json",
+      "revision": "029403510ae69048df3b35571ace836b7d2c6ada",
+      "sha256": "9e846f9758eaec9fe97c680274ba77934206e7570b84a75cc07192f8abf429a1",
+      "source_identity": "github/szl-holdings/szl-organ-integrity",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-organ-integrity/git/trees/029403510ae69048df3b35571ace836b7d2c6ada?recursive=1"
+    }
+  ],
+  "file_count": 13,
+  "id": "github/szl-holdings/szl-organ-integrity",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "029403510ae69048df3b35571ace836b7d2c6ada",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "Dockerfile",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "app.py",
+    "index.html",
+    "organ_integrity.py",
+    "site",
+    "tests"
+  ]
+}

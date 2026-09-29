@@ -1,0 +1,32 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 4185,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:47Z",
+      "path": "data/reconciliation/source-evidence/23e702b1ed28cc1eb77fc1a3ac02422632e9270a52bcdfa2345a1562ea468803.json",
+      "revision": "6098d598ee1e21170393abdc446691d8340100cc",
+      "sha256": "23e702b1ed28cc1eb77fc1a3ac02422632e9270a52bcdfa2345a1562ea468803",
+      "source_identity": "github/szl-holdings/evidence-studio",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/evidence-studio/git/trees/6098d598ee1e21170393abdc446691d8340100cc?recursive=1"
+    }
+  ],
+  "file_count": 10,
+  "id": "github/szl-holdings/evidence-studio",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "6098d598ee1e21170393abdc446691d8340100cc",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "Dockerfile",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "space",
+    "tests"
+  ]
+}

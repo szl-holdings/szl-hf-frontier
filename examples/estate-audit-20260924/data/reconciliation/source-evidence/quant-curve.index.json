@@ -1,0 +1,37 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 8117,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:54Z",
+      "path": "data/reconciliation/source-evidence/f6b09e8764b6a3f2c9df661a8d94f90eff5fb424dafe6c383cbf49cd2588426c.json",
+      "revision": "26135bcc03e9d55f35dd8d7ed8f043631ea30cd2",
+      "sha256": "f6b09e8764b6a3f2c9df661a8d94f90eff5fb424dafe6c383cbf49cd2588426c",
+      "source_identity": "github/szl-holdings/quant-curve",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/quant-curve/git/trees/26135bcc03e9d55f35dd8d7ed8f043631ea30cd2?recursive=1"
+    }
+  ],
+  "file_count": 18,
+  "id": "github/szl-holdings/quant-curve",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "26135bcc03e9d55f35dd8d7ed8f043631ea30cd2",
+  "root_paths": [
+    ".github",
+    "Dockerfile",
+    "LICENSE",
+    "README.md",
+    "app",
+    "deploy",
+    "evidence",
+    "quant_curve",
+    "receipts",
+    "requirements.txt",
+    "tests",
+    "tools",
+    "verify"
+  ]
+}

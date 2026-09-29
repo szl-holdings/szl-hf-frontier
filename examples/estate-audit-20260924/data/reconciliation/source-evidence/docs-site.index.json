@@ -1,0 +1,54 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 68903,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:47Z",
+      "path": "data/reconciliation/source-evidence/5b00b4105b3eb0858ac1560aa764d60f79f0fb4852a49c472956ffdcbd164421.json",
+      "revision": "83664f8b8924b36d3179bd94d133ca0815aaee91",
+      "sha256": "5b00b4105b3eb0858ac1560aa764d60f79f0fb4852a49c472956ffdcbd164421",
+      "source_identity": "github/szl-holdings/docs-site",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/docs-site/git/trees/83664f8b8924b36d3179bd94d133ca0815aaee91?recursive=1"
+    }
+  ],
+  "file_count": 193,
+  "id": "github/szl-holdings/docs-site",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "83664f8b8924b36d3179bd94d133ca0815aaee91",
+  "root_paths": [
+    ".editorconfig",
+    ".gitattributes",
+    ".github",
+    ".gitignore",
+    ".gitleaks.toml",
+    ".well-known",
+    "CHANGELOG.md",
+    "CITATION.cff",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "MERGED.md",
+    "README.md",
+    "SECURITY.md",
+    "SUPPORT.md",
+    "branding",
+    "cookbook",
+    "developers",
+    "docs",
+    "fix-relative-paths.mjs",
+    "investor",
+    "package-lock.json",
+    "package.json",
+    "playwright.config.mjs",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    "scripts",
+    "tasks",
+    "tests",
+    "trust"
+  ]
+}

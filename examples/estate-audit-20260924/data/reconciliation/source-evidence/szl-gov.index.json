@@ -1,0 +1,42 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 25202,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:00Z",
+      "path": "data/reconciliation/source-evidence/91144ab7bb364b7fcc499530f06d5d70a2582012927c62914b951aaf340bde63.json",
+      "revision": "4572983d19f8d8b262c3762dd4e5bdbb250093be",
+      "sha256": "91144ab7bb364b7fcc499530f06d5d70a2582012927c62914b951aaf340bde63",
+      "source_identity": "github/szl-holdings/szl-gov",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-gov/git/trees/4572983d19f8d8b262c3762dd4e5bdbb250093be?recursive=1"
+    }
+  ],
+  "file_count": 70,
+  "id": "github/szl-holdings/szl-gov",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "4572983d19f8d8b262c3762dd4e5bdbb250093be",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "SECURITY.md",
+    "SZL_MASTER_PAYLOAD.md",
+    "audit_data",
+    "commercial",
+    "docs",
+    "keys",
+    "ledgers",
+    "outreach",
+    "patches",
+    "receipts",
+    "tools"
+  ]
+}

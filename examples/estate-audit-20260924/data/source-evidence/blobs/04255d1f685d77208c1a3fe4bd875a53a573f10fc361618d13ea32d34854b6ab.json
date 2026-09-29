@@ -1,0 +1,26 @@
+{
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "adapter_config.json",
+    "adapter_model.safetensors",
+    "bom/model-bom.cdx.json",
+    "chat_template.jinja",
+    "config.json",
+    "eval_measured.json",
+    "eval_verified_2026-09-13.json",
+    "generation_config.json",
+    "holo-banner.svg",
+    "merge_receipt.json",
+    "model.safetensors",
+    "og-card.png",
+    "szl-source-binding.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "train_khipu_abstain.py",
+    "train_khipu_r2.py",
+    "training_card_generated.md",
+    "training_receipt.json"
+  ],
+  "revision": "4027a936fae4987a30edca6508eb551c214d7d0b"
+}

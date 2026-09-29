@@ -1,0 +1,361 @@
+{
+  "sha": "5be5d14502428e0ef13bb83f8d36f6775085b03e",
+  "tree": [
+    {
+      "mode": "100644",
+      "path": ".gitattributes",
+      "sha": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/a6344aac8c09253b3b630fb776ae94478aa0275b"
+    },
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "71b40ecbc631403be5ba2eb1e535a2239ddc6950",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/trees/71b40ecbc631403be5ba2eb1e535a2239ddc6950"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODEOWNERS",
+      "sha": "5c3d60d2e173f38916e13078a9bda8429626302b",
+      "size": 74,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/5c3d60d2e173f38916e13078a9bda8429626302b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "sha": "415a0a14aebe0102d5db82dcc51dde5db16619f0",
+      "size": 600,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/415a0a14aebe0102d5db82dcc51dde5db16619f0"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CONTRIBUTING.md",
+      "sha": "5395adb4800a22e7fa4883e023301bdc80246bcf",
+      "size": 804,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/5395adb4800a22e7fa4883e023301bdc80246bcf"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/ISSUE_TEMPLATE",
+      "sha": "b406cf7e4f23537f8539f6f81f4cbb4d2eae3f2b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/trees/b406cf7e4f23537f8539f6f81f4cbb4d2eae3f2b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha": "a7c1834f7f391ab52cb7efafe6dffe86e69d54d7",
+      "size": 156,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/a7c1834f7f391ab52cb7efafe6dffe86e69d54d7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "2c7fa02994b4d1e777139a1056acfe0cfc48b806",
+      "size": 224,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/2c7fa02994b4d1e777139a1056acfe0cfc48b806"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha": "2172fe4a415edecdbe763328b04d826137d25987",
+      "size": 169,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/2172fe4a415edecdbe763328b04d826137d25987"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/dependabot.yml",
+      "sha": "e45ad189e925e2587d2c14812a2529da5cb3c16c",
+      "size": 684,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/e45ad189e925e2587d2c14812a2529da5cb3c16c"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/pull_request_template.md",
+      "sha": "fbc961ca36e0bdad281263470f3d054f6bc98d44",
+      "size": 384,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/fbc961ca36e0bdad281263470f3d054f6bc98d44"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "2f9e96ee94edafe85869cab8e5701c9c9a744007",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/trees/2f9e96ee94edafe85869cab8e5701c9c9a744007"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "1fb35505e8fb7bdd3f8bdfd8fd9487551931ae92",
+      "size": 2327,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/1fb35505e8fb7bdd3f8bdfd8fd9487551931ae92"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/codeql.yml",
+      "sha": "0b368140c8deecebf7573a5c8986785aed5b09f0",
+      "size": 568,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/0b368140c8deecebf7573a5c8986785aed5b09f0"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/dco.yml",
+      "sha": "7e28c87e31ee3b4a8a053c5bbff86b899c5bb518",
+      "size": 389,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/7e28c87e31ee3b4a8a053c5bbff86b899c5bb518"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/kernel-build-verify.yml",
+      "sha": "e8a899b130f6286f337752d7c343d74be080ec9a",
+      "size": 10203,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/e8a899b130f6286f337752d7c343d74be080ec9a"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/overclaim-guard.yml",
+      "sha": "7d6be6ea81d2fb1f4829869c1f06c416f581d633",
+      "size": 691,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/7d6be6ea81d2fb1f4829869c1f06c416f581d633"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/pin-check.yml",
+      "sha": "f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621",
+      "size": 586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/sbom.yml",
+      "sha": "e385caec32afcfb78cb91b53b288ea254896fba7",
+      "size": 495,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/e385caec32afcfb78cb91b53b288ea254896fba7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/scorecard.yml",
+      "sha": "92ad91c80f26aaf0f6d7d9ec1731e44406654eb5",
+      "size": 625,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/92ad91c80f26aaf0f6d7d9ec1731e44406654eb5"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/trivy.yml",
+      "sha": "94cac142860bdae0f4e78a78fb143ae95932ba1c",
+      "size": 514,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/94cac142860bdae0f4e78a78fb143ae95932ba1c"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "71f345006ba37c689b9c778b516b7d9e41a3b5c1",
+      "size": 684,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/71f345006ba37c689b9c778b516b7d9e41a3b5c1"
+    },
+    {
+      "mode": "100644",
+      "path": "CODEOWNERS",
+      "sha": "bbde536cc91b248a2b75f7e3e454e41220cc7dd8",
+      "size": 140,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/bbde536cc91b248a2b75f7e3e454e41220cc7dd8"
+    },
+    {
+      "mode": "100644",
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "dabc53f041fbc949424d8b34abaf10ee083a5e1b",
+      "size": 5213,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/dabc53f041fbc949424d8b34abaf10ee083a5e1b"
+    },
+    {
+      "mode": "100644",
+      "path": "CONTRIBUTING.md",
+      "sha": "1162cb0fece8ceb0d68c7fa89601d01beb07101e",
+      "size": 1021,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/1162cb0fece8ceb0d68c7fa89601d01beb07101e"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile",
+      "sha": "194223c227a98e1087a8fdf18520d62b716c1822",
+      "size": 2622,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/194223c227a98e1087a8fdf18520d62b716c1822"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "b813e5103ede02cec713719560ceb7c1a579ee13",
+      "size": 5348,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/b813e5103ede02cec713719560ceb7c1a579ee13"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "b1fd01c2bf06a843ce86b67b0664588540760c55",
+      "size": 896,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/b1fd01c2bf06a843ce86b67b0664588540760c55"
+    },
+    {
+      "mode": "040000",
+      "path": "app",
+      "sha": "286a88fcc333b25c49e691a4f1177d76fe49a4eb",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/trees/286a88fcc333b25c49e691a4f1177d76fe49a4eb"
+    },
+    {
+      "mode": "100644",
+      "path": "app/index.html",
+      "sha": "7fc82112920b5fe265de155b20200e70ebc81b9c",
+      "size": 11477,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/7fc82112920b5fe265de155b20200e70ebc81b9c"
+    },
+    {
+      "mode": "100644",
+      "path": "app/lean_numbers.py",
+      "sha": "8e3de182b6fb537a93e5ef6651c96d39116db268",
+      "size": 5569,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/8e3de182b6fb537a93e5ef6651c96d39116db268"
+    },
+    {
+      "mode": "100644",
+      "path": "app/server.py",
+      "sha": "96b7d29cdd50f91d718c536ba3a6faa31dea53e8",
+      "size": 13808,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/96b7d29cdd50f91d718c536ba3a6faa31dea53e8"
+    },
+    {
+      "mode": "100644",
+      "path": "app/theorem_registry_guard.py",
+      "sha": "a2f25ae89d4eac47de3472b594e679835bdb467d",
+      "size": 19447,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/a2f25ae89d4eac47de3472b594e679835bdb467d"
+    },
+    {
+      "mode": "100644",
+      "path": "app/theorem_scan.py",
+      "sha": "b45c36617b189384fbf85b962ea64b2a1b712e0a",
+      "size": 3695,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/b45c36617b189384fbf85b962ea64b2a1b712e0a"
+    },
+    {
+      "mode": "040000",
+      "path": "data",
+      "sha": "551c5b77c287264262c6fa67c177d83ceb90c405",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/trees/551c5b77c287264262c6fa67c177d83ceb90c405"
+    },
+    {
+      "mode": "100644",
+      "path": "data/lean_corpus_decls.json",
+      "sha": "39861716746d0c040951bc1609af74c6f37142e5",
+      "size": 283022,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/39861716746d0c040951bc1609af74c6f37142e5"
+    },
+    {
+      "mode": "100644",
+      "path": "data/reference-vectors.json",
+      "sha": "995d6f108b7d428a39c097a391a0b94305abaf29",
+      "size": 3134,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/995d6f108b7d428a39c097a391a0b94305abaf29"
+    },
+    {
+      "mode": "100644",
+      "path": "nginx.conf",
+      "sha": "2874ce810163925c3fb415f8b2393d37dc20814d",
+      "size": 661,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/2874ce810163925c3fb415f8b2393d37dc20814d"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements.txt",
+      "sha": "105520d2b415190d1a3e9c1bc12ea79533148e57",
+      "size": 43,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/105520d2b415190d1a3e9c1bc12ea79533148e57"
+    },
+    {
+      "mode": "100644",
+      "path": "start.sh",
+      "sha": "60c0856488d88ec35f4574c84e9f8362b0b0ef8a",
+      "size": 430,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/60c0856488d88ec35f4574c84e9f8362b0b0ef8a"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "b75c99ca486a520878d6bf14359e0d46f6f27022",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/trees/b75c99ca486a520878d6bf14359e0d46f6f27022"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_dockerfile_source_pins.py",
+      "sha": "1dca5e2b7ab96cfa17eed8ebd82be68c16427e93",
+      "size": 21289,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/1dca5e2b7ab96cfa17eed8ebd82be68c16427e93"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_theorem_registry_guard.py",
+      "sha": "f74b33d5922e8fc81a0c4ae411e83df113e18719",
+      "size": 3958,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/f74b33d5922e8fc81a0c4ae411e83df113e18719"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_verify_receipt.py",
+      "sha": "68adf70b490cecb39c97111ed3a6aa17389bb93f",
+      "size": 7562,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/blobs/68adf70b490cecb39c97111ed3a6aa17389bb93f"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/lean-kernel/git/trees/5be5d14502428e0ef13bb83f8d36f6775085b03e"
+}

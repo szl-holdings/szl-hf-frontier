@@ -1,0 +1,32 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 10028,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:57Z",
+      "path": "data/reconciliation/source-evidence/b017841fae44cf08317215d11023523c704e2d5b3ff779b60218bf21ccbe2aa7.json",
+      "revision": "4cf66f6080594f28314075664891f3a39c23fa5f",
+      "sha256": "b017841fae44cf08317215d11023523c704e2d5b3ff779b60218bf21ccbe2aa7",
+      "source_identity": "github/szl-holdings/szl-doctrine",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-doctrine/git/trees/4cf66f6080594f28314075664891f3a39c23fa5f?recursive=1"
+    }
+  ],
+  "file_count": 25,
+  "id": "github/szl-holdings/szl-doctrine",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "4cf66f6080594f28314075664891f3a39c23fa5f",
+  "root_paths": [
+    ".github",
+    "CITATION.cff",
+    "FOUNDER_SECRETS_RUNBOOK.md",
+    "LICENSE",
+    "NAMING_CANON.md",
+    "README.md",
+    "SECURITY.md",
+    "scripts"
+  ]
+}

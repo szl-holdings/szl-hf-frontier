@@ -1,0 +1,28 @@
+{
+  "files": [
+    ".gitattributes",
+    "BENCH.laptop-blackwell.json",
+    "LICENSE",
+    "OPERATIONAL.json",
+    "README.md",
+    "bom/model-bom.cdx.json",
+    "build.toml",
+    "og-card.png",
+    "receipt_attn.py",
+    "tests/__init__.py",
+    "tests/conftest.py",
+    "tests/test_receipt_attn.py",
+    "torch-ext/szl_receipt_attn/__init__.py",
+    "torch-ext/szl_receipt_attn/_chain.py",
+    "torch-ext/szl_receipt_attn/_ops.py",
+    "torch-ext/szl_receipt_attn/_triton.py",
+    "torch-ext/szl_receipt_attn/api.py",
+    "torch-ext/szl_receipt_attn/const.py",
+    "torch-ext/szl_receipt_attn/ops.py",
+    "torch-ext/szl_receipt_attn/receipt.py",
+    "torch-ext/szl_receipt_attn/reference.py",
+    "torch-ext/szl_receipt_attn/selfcheck.py",
+    "torch-ext/szl_receipt_attn/triton_kernel.py"
+  ],
+  "revision": "6bd7d6320b25e076d0c645045699d2b3c57a917c"
+}

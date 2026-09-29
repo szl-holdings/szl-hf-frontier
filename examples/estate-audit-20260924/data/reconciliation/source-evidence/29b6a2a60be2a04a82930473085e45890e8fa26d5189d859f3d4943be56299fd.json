@@ -1,0 +1,341 @@
+{
+  "sha": "d0e8110ac815a47612a2b5e7729e4a805335735e",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "4db15a5c842560dc3575017e975215c3f8b738e1",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/trees/4db15a5c842560dc3575017e975215c3f8b738e1"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "f70a8fafc721a08b11b8f69d042427799863b887",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/trees/f70a8fafc721a08b11b8f69d042427799863b887"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/cpu-contract.yml",
+      "sha": "c4415dc872fadfb5b9efea20407d7679cb548bc5",
+      "size": 1745,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/c4415dc872fadfb5b9efea20407d7679cb548bc5"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hub-joblib-quarantine.yml",
+      "sha": "901ad01608cf182be767709ccdbf984f3c23a77e",
+      "size": 887,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/901ad01608cf182be767709ccdbf984f3c23a77e"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "c4cd0fbaccd0293ce6e6dc1f64c2f614c1e9ddec",
+      "size": 80,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/c4cd0fbaccd0293ce6e6dc1f64c2f614c1e9ddec"
+    },
+    {
+      "mode": "100644",
+      "path": ".zenodo.json",
+      "sha": "e846bf280e889ce970a13210b05b707a2235e0fc",
+      "size": 918,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/e846bf280e889ce970a13210b05b707a2235e0fc"
+    },
+    {
+      "mode": "100644",
+      "path": "CHANGELOG.md",
+      "sha": "81cb246405fbd906822fb5154588fa1f6b4f0298",
+      "size": 271,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/81cb246405fbd906822fb5154588fa1f6b4f0298"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "bb9105b90b1e349417b06cec248cee801df1b656",
+      "size": 392,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/bb9105b90b1e349417b06cec248cee801df1b656"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "NOTICE",
+      "sha": "b58a1b9470555638786831cc910e0bbcbcf7e9a8",
+      "size": 659,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/b58a1b9470555638786831cc910e0bbcbcf7e9a8"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "e3e7b1dc8a9eaa56367fca77ebcdae0151e2384c",
+      "size": 1213,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/e3e7b1dc8a9eaa56367fca77ebcdae0151e2384c"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "b3f50a983fd6b518f215d2b4457b6f2250bf13c6",
+      "size": 360,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/b3f50a983fd6b518f215d2b4457b6f2250bf13c6"
+    },
+    {
+      "mode": "040000",
+      "path": "atlas",
+      "sha": "74e72fc2f10ff39b397ea55a3a7d508e7368d3d2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/trees/74e72fc2f10ff39b397ea55a3a7d508e7368d3d2"
+    },
+    {
+      "mode": "100644",
+      "path": "atlas/formula-atlas.v1.json",
+      "sha": "1d3737cb3fc32ee17916f9dfe139a286a930a29f",
+      "size": 20805,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/1d3737cb3fc32ee17916f9dfe139a286a930a29f"
+    },
+    {
+      "mode": "100644",
+      "path": "atlas/source-formula-ledger-corpus.json",
+      "sha": "600654f89cb062320acae4284cb5220ff881eb3c",
+      "size": 10050,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/600654f89cb062320acae4284cb5220ff881eb3c"
+    },
+    {
+      "mode": "100644",
+      "path": "build.toml",
+      "sha": "9ae234e7390f03ea8873a3407e3661cd8d8c7e33",
+      "size": 105,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/9ae234e7390f03ea8873a3407e3661cd8d8c7e33"
+    },
+    {
+      "mode": "040000",
+      "path": "build",
+      "sha": "7ab311c1d7e74de5a25aed1bb55bcf905dbc1ee7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/trees/7ab311c1d7e74de5a25aed1bb55bcf905dbc1ee7"
+    },
+    {
+      "mode": "040000",
+      "path": "build/torch-universal",
+      "sha": "f57aaa344df492ebf92deb4082b2e44f72233604",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/trees/f57aaa344df492ebf92deb4082b2e44f72233604"
+    },
+    {
+      "mode": "040000",
+      "path": "build/torch-universal/szl_formulas",
+      "sha": "d2472072a348497e25c9d1acbdf55a925bf6a685",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/trees/d2472072a348497e25c9d1acbdf55a925bf6a685"
+    },
+    {
+      "mode": "100644",
+      "path": "build/torch-universal/szl_formulas/__init__.py",
+      "sha": "328ca09d416255b72b4b02152e3a777cb34244d6",
+      "size": 9645,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/328ca09d416255b72b4b02152e3a777cb34244d6"
+    },
+    {
+      "mode": "100644",
+      "path": "build/torch-universal/szl_formulas/_composer.py",
+      "sha": "a037a16c25d8f4a95117d99168eaf6bbd73c6cda",
+      "size": 6598,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/a037a16c25d8f4a95117d99168eaf6bbd73c6cda"
+    },
+    {
+      "mode": "100644",
+      "path": "build/torch-universal/szl_formulas/_formulas.py",
+      "sha": "6dab79824ba2dc5e65f44bc0f34ee02c2e6bbad1",
+      "size": 14404,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/6dab79824ba2dc5e65f44bc0f34ee02c2e6bbad1"
+    },
+    {
+      "mode": "100644",
+      "path": "build/torch-universal/szl_formulas/atlas.py",
+      "sha": "802cd7c60509c2859f9925e478a0f8766bc5ed8f",
+      "size": 837,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/802cd7c60509c2859f9925e478a0f8766bc5ed8f"
+    },
+    {
+      "mode": "100644",
+      "path": "build/torch-universal/szl_formulas/formula_atlas.v1.json",
+      "sha": "1d3737cb3fc32ee17916f9dfe139a286a930a29f",
+      "size": 20805,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/1d3737cb3fc32ee17916f9dfe139a286a930a29f"
+    },
+    {
+      "mode": "100644",
+      "path": "build/torch-universal/szl_formulas/metadata.json",
+      "sha": "1fcd81562856a884c8d0bea95ee76d51483b8842",
+      "size": 1015,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/1fcd81562856a884c8d0bea95ee76d51483b8842"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "97f85746b51ceec9e9ca785eeef67ff924b80cb8",
+      "size": 289,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/97f85746b51ceec9e9ca785eeef67ff924b80cb8"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "7cae94fc1e0afcbb830db63ce282d3462e1f9517",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/trees/7cae94fc1e0afcbb830db63ce282d3462e1f9517"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/build_formula_atlas.py",
+      "sha": "212297bd75a443152bdf17d5f2fc8947dd55496e",
+      "size": 8143,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/212297bd75a443152bdf17d5f2fc8947dd55496e"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/eval.py",
+      "sha": "821cddc0bf8b5a33381086822deef2205dbe579c",
+      "size": 1529,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/821cddc0bf8b5a33381086822deef2205dbe579c"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/forge.py",
+      "sha": "35421a6ff3c39dbedf81810571b523332402ffc5",
+      "size": 13828,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/35421a6ff3c39dbedf81810571b523332402ffc5"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/hub_quarantine_joblib.py",
+      "sha": "c0fbe8d32f09a652e1a0e7cafbfb722315c8461f",
+      "size": 1518,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/c0fbe8d32f09a652e1a0e7cafbfb722315c8461f"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "04972a9b320dda2eafee385072b34f70a7aa3321",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/trees/04972a9b320dda2eafee385072b34f70a7aa3321"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_formula_quant_atlas.py",
+      "sha": "8e799c8f692e88b8fdf8d74dc0dee96470307cb8",
+      "size": 4453,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/8e799c8f692e88b8fdf8d74dc0dee96470307cb8"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_formulas.py",
+      "sha": "4297109504f7b9d4e141aec6bac2d61c27de3b49",
+      "size": 6611,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/4297109504f7b9d4e141aec6bac2d61c27de3b49"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_no_unsafe_serialization.py",
+      "sha": "c1faacf3e0b92f1d931dd27627c0fec0e9bfee7f",
+      "size": 947,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/c1faacf3e0b92f1d931dd27627c0fec0e9bfee7f"
+    },
+    {
+      "mode": "040000",
+      "path": "torch-ext",
+      "sha": "f57aaa344df492ebf92deb4082b2e44f72233604",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/trees/f57aaa344df492ebf92deb4082b2e44f72233604"
+    },
+    {
+      "mode": "040000",
+      "path": "torch-ext/szl_formulas",
+      "sha": "d2472072a348497e25c9d1acbdf55a925bf6a685",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/trees/d2472072a348497e25c9d1acbdf55a925bf6a685"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_formulas/__init__.py",
+      "sha": "328ca09d416255b72b4b02152e3a777cb34244d6",
+      "size": 9645,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/328ca09d416255b72b4b02152e3a777cb34244d6"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_formulas/_composer.py",
+      "sha": "a037a16c25d8f4a95117d99168eaf6bbd73c6cda",
+      "size": 6598,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/a037a16c25d8f4a95117d99168eaf6bbd73c6cda"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_formulas/_formulas.py",
+      "sha": "6dab79824ba2dc5e65f44bc0f34ee02c2e6bbad1",
+      "size": 14404,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/6dab79824ba2dc5e65f44bc0f34ee02c2e6bbad1"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_formulas/atlas.py",
+      "sha": "802cd7c60509c2859f9925e478a0f8766bc5ed8f",
+      "size": 837,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/802cd7c60509c2859f9925e478a0f8766bc5ed8f"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_formulas/formula_atlas.v1.json",
+      "sha": "1d3737cb3fc32ee17916f9dfe139a286a930a29f",
+      "size": 20805,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/1d3737cb3fc32ee17916f9dfe139a286a930a29f"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_formulas/metadata.json",
+      "sha": "1fcd81562856a884c8d0bea95ee76d51483b8842",
+      "size": 1015,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/blobs/1fcd81562856a884c8d0bea95ee76d51483b8842"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-formulas/git/trees/d0e8110ac815a47612a2b5e7729e4a805335735e"
+}

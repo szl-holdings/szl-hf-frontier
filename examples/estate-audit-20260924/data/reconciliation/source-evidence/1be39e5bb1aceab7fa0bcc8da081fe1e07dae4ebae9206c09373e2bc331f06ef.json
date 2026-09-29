@@ -1,0 +1,920 @@
+{
+  "sha": "e523eeddfdf9d9059dbe379d9e6da0142c5ea322",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "8f51e6754cfad1e2ed45d90fab811ffc52d5bf59",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/8f51e6754cfad1e2ed45d90fab811ffc52d5bf59"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODEOWNERS",
+      "sha": "e3a543f46019d7d035ea135ee4a82468956663e9",
+      "size": 72,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/e3a543f46019d7d035ea135ee4a82468956663e9"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "sha": "415a0a14aebe0102d5db82dcc51dde5db16619f0",
+      "size": 600,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/415a0a14aebe0102d5db82dcc51dde5db16619f0"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CONTRIBUTING.md",
+      "sha": "5395adb4800a22e7fa4883e023301bdc80246bcf",
+      "size": 804,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/5395adb4800a22e7fa4883e023301bdc80246bcf"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/ISSUE_TEMPLATE",
+      "sha": "b406cf7e4f23537f8539f6f81f4cbb4d2eae3f2b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/b406cf7e4f23537f8539f6f81f4cbb4d2eae3f2b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha": "a7c1834f7f391ab52cb7efafe6dffe86e69d54d7",
+      "size": 156,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/a7c1834f7f391ab52cb7efafe6dffe86e69d54d7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "2c7fa02994b4d1e777139a1056acfe0cfc48b806",
+      "size": 224,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/2c7fa02994b4d1e777139a1056acfe0cfc48b806"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha": "2172fe4a415edecdbe763328b04d826137d25987",
+      "size": 169,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/2172fe4a415edecdbe763328b04d826137d25987"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/dependabot.yml",
+      "sha": "89dbad34c7c154f45bf788996964c2b7eb36ff6e",
+      "size": 1457,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/89dbad34c7c154f45bf788996964c2b7eb36ff6e"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/pull_request_template.md",
+      "sha": "fbc961ca36e0bdad281263470f3d054f6bc98d44",
+      "size": 384,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/fbc961ca36e0bdad281263470f3d054f6bc98d44"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "5ad9e0114bc981a79ac9c0fcdcfe3f0a3ff83e03",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/5ad9e0114bc981a79ac9c0fcdcfe3f0a3ff83e03"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "24e1296f29ccd0f8ef07cd707d59288eb5da09ab",
+      "size": 1082,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/24e1296f29ccd0f8ef07cd707d59288eb5da09ab"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/codeql.yml",
+      "sha": "c9e970c1a21250c44af4b5344ed998db96f247ae",
+      "size": 1270,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/c9e970c1a21250c44af4b5344ed998db96f247ae"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/dco.yml",
+      "sha": "60d74c29f98c55e139103ebc3720a383de76f0df",
+      "size": 1660,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/60d74c29f98c55e139103ebc3720a383de76f0df"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/fuzz.yml",
+      "sha": "668ba21c20b98a654db166f4ab9ac1e5feb5c0a1",
+      "size": 866,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/668ba21c20b98a654db166f4ab9ac1e5feb5c0a1"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/lockfile-registry.yml",
+      "sha": "8ed6d2bf5b7d4a0251b4e31e1fe22b26ad4d18a4",
+      "size": 617,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/8ed6d2bf5b7d4a0251b4e31e1fe22b26ad4d18a4"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/overclaim-guard.yml",
+      "sha": "20e00b308ca90af4dfa925c861db46b9dcd6179a",
+      "size": 734,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/20e00b308ca90af4dfa925c861db46b9dcd6179a"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/pin-check.yml",
+      "sha": "f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621",
+      "size": 586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/python-ci.yml",
+      "sha": "8edb59f410d68d353cdb528ea051665bddad5410",
+      "size": 2854,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/8edb59f410d68d353cdb528ea051665bddad5410"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/sbom.yml",
+      "sha": "5643755cdf9a1a1b09cc7c785ca8e2a2c80c7164",
+      "size": 627,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/5643755cdf9a1a1b09cc7c785ca8e2a2c80c7164"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/scorecard.yml",
+      "sha": "bd43be7cf05eb8779bfd9c1a38bd951231e4d663",
+      "size": 367,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/bd43be7cf05eb8779bfd9c1a38bd951231e4d663"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/tests.yml",
+      "sha": "284ac52ddbc6dc82a6bab4b28a833dadcb08ce95",
+      "size": 800,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/284ac52ddbc6dc82a6bab4b28a833dadcb08ce95"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/trivy.yml",
+      "sha": "4dafee1dea0326ec386aa8ebb58cb3b5822b655d",
+      "size": 561,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/4dafee1dea0326ec386aa8ebb58cb3b5822b655d"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "1fe34394d0dd825e360308868b7bb50a60eb3702",
+      "size": 77,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/1fe34394d0dd825e360308868b7bb50a60eb3702"
+    },
+    {
+      "mode": "100644",
+      "path": ".markdownlint.json",
+      "sha": "d22f1b3cfc7fe6ff53f1b9e315454a8f923c9b04",
+      "size": 93,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/d22f1b3cfc7fe6ff53f1b9e315454a8f923c9b04"
+    },
+    {
+      "mode": "100644",
+      "path": ".npmrc",
+      "sha": "dd854dc40f202f8644863616be84f3a545913f93",
+      "size": 32,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/dd854dc40f202f8644863616be84f3a545913f93"
+    },
+    {
+      "mode": "100644",
+      "path": ".pre-commit-config.yaml",
+      "sha": "1e78cb78f9c60bb6e0d4378dceb90b773e2fcfd4",
+      "size": 578,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/1e78cb78f9c60bb6e0d4378dceb90b773e2fcfd4"
+    },
+    {
+      "mode": "100644",
+      "path": ".prettierrc.json",
+      "sha": "13cc8056e923fd83e62bc64f22ac670670c78461",
+      "size": 126,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/13cc8056e923fd83e62bc64f22ac670670c78461"
+    },
+    {
+      "mode": "100644",
+      "path": "AGENTS.md",
+      "sha": "02e6380b54f0306453304fa5fa627a5127798b44",
+      "size": 1729,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/02e6380b54f0306453304fa5fa627a5127798b44"
+    },
+    {
+      "mode": "100644",
+      "path": "CHANGELOG.md",
+      "sha": "6b3e13bc02d579616beecdbe9471a5f6f4ee31e7",
+      "size": 898,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/6b3e13bc02d579616beecdbe9471a5f6f4ee31e7"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "dac48ac20d61220bc545135d94ccea1e45dc87c2",
+      "size": 1471,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/dac48ac20d61220bc545135d94ccea1e45dc87c2"
+    },
+    {
+      "mode": "100644",
+      "path": "CODEOWNERS",
+      "sha": "e4b1a947665b83a89f04657cf4ef3843c85b6aa2",
+      "size": 214,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/e4b1a947665b83a89f04657cf4ef3843c85b6aa2"
+    },
+    {
+      "mode": "100644",
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "44d54ed7336631472360ec97a73799a457bc10ad",
+      "size": 5533,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/44d54ed7336631472360ec97a73799a457bc10ad"
+    },
+    {
+      "mode": "100644",
+      "path": "CONTRIBUTING.md",
+      "sha": "74caa98c978f9da6ec2b84cfa0f83816f26d918d",
+      "size": 2025,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/74caa98c978f9da6ec2b84cfa0f83816f26d918d"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile",
+      "sha": "c12c81e94e112aa312e48800763bb2d4034765e2",
+      "size": 1355,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/c12c81e94e112aa312e48800763bb2d4034765e2"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile.python-lib",
+      "sha": "8a56e2edcf016305f5fd3b861d4e92918dfe346d",
+      "size": 1737,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/8a56e2edcf016305f5fd3b861d4e92918dfe346d"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "cff252fb099e6b83de9380588d88fdd23c4bd364",
+      "size": 8830,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/cff252fb099e6b83de9380588d88fdd23c4bd364"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "15e01622b0864ef707b34c518f0fabfc71f95933",
+      "size": 2546,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/15e01622b0864ef707b34c518f0fabfc71f95933"
+    },
+    {
+      "mode": "100644",
+      "path": "STATUS.md",
+      "sha": "09ff1876ab8d08547f4b06007b9126f85878d7e4",
+      "size": 578,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/09ff1876ab8d08547f4b06007b9126f85878d7e4"
+    },
+    {
+      "mode": "040000",
+      "path": "collector",
+      "sha": "1f3cb0a78d5537bef1d56dec76e13d4e39edc6c1",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/1f3cb0a78d5537bef1d56dec76e13d4e39edc6c1"
+    },
+    {
+      "mode": "100644",
+      "path": "collector/__init__.py",
+      "sha": "a3b0fc5283f6d0f04a1556f214d88f55849a2a6c",
+      "size": 48,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/a3b0fc5283f6d0f04a1556f214d88f55849a2a6c"
+    },
+    {
+      "mode": "100644",
+      "path": "collector/app.py",
+      "sha": "0f2bcec78f631760b0243742737dfcafc1a903fe",
+      "size": 16956,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/0f2bcec78f631760b0243742737dfcafc1a903fe"
+    },
+    {
+      "mode": "100644",
+      "path": "collector/dsse.py",
+      "sha": "0633d603694ca71b9253d32f231fcf7869842ed0",
+      "size": 4950,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/0633d603694ca71b9253d32f231fcf7869842ed0"
+    },
+    {
+      "mode": "100644",
+      "path": "collector/lambda_gate.py",
+      "sha": "0dc405f0b93665b23be9bccd23a47a800756e45f",
+      "size": 3936,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/0dc405f0b93665b23be9bccd23a47a800756e45f"
+    },
+    {
+      "mode": "100644",
+      "path": "collector/requirements.txt",
+      "sha": "82fbbee131176fd9399fd499b97c2f65adf8370f",
+      "size": 251,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/82fbbee131176fd9399fd499b97c2f65adf8370f"
+    },
+    {
+      "mode": "100644",
+      "path": "collector/stats.py",
+      "sha": "523e639c617b3eec9f813d809bfda19c516521d0",
+      "size": 3750,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/523e639c617b3eec9f813d809bfda19c516521d0"
+    },
+    {
+      "mode": "040000",
+      "path": "deploy",
+      "sha": "885c1bee00b29d7b9afb5be9f9146c83d599335d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/885c1bee00b29d7b9afb5be9f9146c83d599335d"
+    },
+    {
+      "mode": "040000",
+      "path": "deploy/helm",
+      "sha": "2cefb5718fb7683a77fbca7bdcfce73386f88399",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/2cefb5718fb7683a77fbca7bdcfce73386f88399"
+    },
+    {
+      "mode": "040000",
+      "path": "deploy/helm/vsp-otel",
+      "sha": "075167b05cafd48035d819a240cf6b95d911fa08",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/075167b05cafd48035d819a240cf6b95d911fa08"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/helm/vsp-otel/Chart.yaml",
+      "sha": "c27e64dc9c534cda6ee791c2d4a3bc5f5519549f",
+      "size": 479,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/c27e64dc9c534cda6ee791c2d4a3bc5f5519549f"
+    },
+    {
+      "mode": "040000",
+      "path": "deploy/helm/vsp-otel/templates",
+      "sha": "ae5ce6c7c6bd82fb413ee4b3b000c804504d6165",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/ae5ce6c7c6bd82fb413ee4b3b000c804504d6165"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/helm/vsp-otel/templates/deployment.yaml",
+      "sha": "23e58c49745845232bb124344030903ecb156ddb",
+      "size": 2650,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/23e58c49745845232bb124344030903ecb156ddb"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/helm/vsp-otel/values.yaml",
+      "sha": "b24994bf4ff84045299b38b07ef54b85a08a0404",
+      "size": 1152,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/b24994bf4ff84045299b38b07ef54b85a08a0404"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/otel-collector-config.yaml",
+      "sha": "6ae12fbefe484f690f75a5e74fec50315934250f",
+      "size": 2025,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/6ae12fbefe484f690f75a5e74fec50315934250f"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "af7f7d496af3de5aa1731229d2deb6f5905f7c96",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/af7f7d496af3de5aa1731229d2deb6f5905f7c96"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/GENAI_SEMCONV.md",
+      "sha": "e5414ec561b7ef46c8f0fa1a4c6d19acdb5c9c19",
+      "size": 3417,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/e5414ec561b7ef46c8f0fa1a4c6d19acdb5c9c19"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/INTEGRATION.md",
+      "sha": "5c98f156dfe43a86e3406d0f0cb546362ea8c312",
+      "size": 4648,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/5c98f156dfe43a86e3406d0f0cb546362ea8c312"
+    },
+    {
+      "mode": "100644",
+      "path": "eslint.config.mjs",
+      "sha": "2c684f245eb977a2bbe0c5a2722075d54b03e654",
+      "size": 657,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/2c684f245eb977a2bbe0c5a2722075d54b03e654"
+    },
+    {
+      "mode": "100644",
+      "path": "package.json",
+      "sha": "38ec13a00085a40fcdccd826a1de11bf0b782424",
+      "size": 591,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/38ec13a00085a40fcdccd826a1de11bf0b782424"
+    },
+    {
+      "mode": "100644",
+      "path": "pnpm-lock.yaml",
+      "sha": "a98001754104bbf6ff70c60176a0f78eb5efd87c",
+      "size": 55771,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/a98001754104bbf6ff70c60176a0f78eb5efd87c"
+    },
+    {
+      "mode": "100644",
+      "path": "pnpm-workspace.yaml",
+      "sha": "f6f5ddc5580dd0316e27502e635e2f0930d25be1",
+      "size": 38,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/f6f5ddc5580dd0316e27502e635e2f0930d25be1"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "4a62502602caff584736618868c2f8dc2a80da94",
+      "size": 1233,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/4a62502602caff584736618868c2f8dc2a80da94"
+    },
+    {
+      "mode": "040000",
+      "path": "runtime",
+      "sha": "4eda37d05e4197b0a68104fdde94dbb56c635661",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/4eda37d05e4197b0a68104fdde94dbb56c635661"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/README.md",
+      "sha": "82249626a62b05f50267041703e440f567f88a38",
+      "size": 1534,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/82249626a62b05f50267041703e440f567f88a38"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/package.json",
+      "sha": "6c2d257dc275e0ddcbbd0243eb9dadb687559e8b",
+      "size": 889,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/6c2d257dc275e0ddcbbd0243eb9dadb687559e8b"
+    },
+    {
+      "mode": "040000",
+      "path": "runtime/src",
+      "sha": "209859ce68deb670d59076a7f8bebaae4cfa3ec8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/209859ce68deb670d59076a7f8bebaae4cfa3ec8"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/src/exporter.test.ts",
+      "sha": "4d0a2aefb658661a19d668b9bf6a17cceb3c6814",
+      "size": 8194,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/4d0a2aefb658661a19d668b9bf6a17cceb3c6814"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/src/exporter.ts",
+      "sha": "21e585729e252da2b03ec75267ff386689372fba",
+      "size": 8443,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/21e585729e252da2b03ec75267ff386689372fba"
+    },
+    {
+      "mode": "040000",
+      "path": "runtime/src/formulas",
+      "sha": "b5850707cc0a330da3faa64358bed4c5b1a65e9d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/b5850707cc0a330da3faa64358bed4c5b1a65e9d"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/src/formulas/adversarialRobustness.ts",
+      "sha": "ef50a485ec31b7f204dd01042c7c394076b3141b",
+      "size": 3409,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/ef50a485ec31b7f204dd01042c7c394076b3141b"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/src/formulas/bekensteinBound.ts",
+      "sha": "a2026bce573a08b089a48f3066221ab910209423",
+      "size": 5211,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/a2026bce573a08b089a48f3066221ab910209423"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/src/formulas/falsePosition.ts",
+      "sha": "6ea1cf09824e632f2e26391d3381c31759fa1764",
+      "size": 2938,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/6ea1cf09824e632f2e26391d3381c31759fa1764"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/src/formulas/liuHuiPi.ts",
+      "sha": "c290c06371ffa2dc0c34b62dd7a6e52348fd1d71",
+      "size": 2796,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/c290c06371ffa2dc0c34b62dd7a6e52348fd1d71"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/src/formulas/madhavaBound.ts",
+      "sha": "177183c0ae23390c3389a8a3648424ba3344beaf",
+      "size": 4351,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/177183c0ae23390c3389a8a3648424ba3344beaf"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/src/formulas/summationInvariant.ts",
+      "sha": "3ebc92f0773ccbce5acbf771427d7ece11f668a7",
+      "size": 3278,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/3ebc92f0773ccbce5acbf771427d7ece11f668a7"
+    },
+    {
+      "mode": "040000",
+      "path": "runtime/src/otlp",
+      "sha": "d23e3952f7ffd574a3f55f42d45d93bbfc995689",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/d23e3952f7ffd574a3f55f42d45d93bbfc995689"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/src/otlp/README.md",
+      "sha": "ec916ee2b602b9887e7a77792acf957454e16122",
+      "size": 2376,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/ec916ee2b602b9887e7a77792acf957454e16122"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/src/otlp/collector.ts",
+      "sha": "f7a3e68618150417a2d8c4598e25855b5232a96b",
+      "size": 2355,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/f7a3e68618150417a2d8c4598e25855b5232a96b"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/src/otlp/exporter.test.ts",
+      "sha": "c45f12ce37fe7f886a17f4b8fe8a0d914b71844f",
+      "size": 5355,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/c45f12ce37fe7f886a17f4b8fe8a0d914b71844f"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/src/otlp/exporter.ts",
+      "sha": "88d23729e83a90bfd490efa91fd8f78884d3e249",
+      "size": 7769,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/88d23729e83a90bfd490efa91fd8f78884d3e249"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/src/server.ts",
+      "sha": "4f9054521b177d52c92eb8911ae1796117fa7b50",
+      "size": 3037,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/4f9054521b177d52c92eb8911ae1796117fa7b50"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/tsconfig.json",
+      "sha": "20195b93d2e8cf9b1440ade6a8bec0a3d8ef72a1",
+      "size": 363,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/20195b93d2e8cf9b1440ade6a8bec0a3d8ef72a1"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/vitest.config.ts",
+      "sha": "ed2a5f9322b8ef1808da97624e2664bdc1808ad9",
+      "size": 110,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/ed2a5f9322b8ef1808da97624e2664bdc1808ad9"
+    },
+    {
+      "mode": "040000",
+      "path": "src",
+      "sha": "81152e9478b546557779dfa4c909f90f700709ff",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/81152e9478b546557779dfa4c909f90f700709ff"
+    },
+    {
+      "mode": "040000",
+      "path": "src/pipeline",
+      "sha": "3e55fb7462093c5df2615ba1642d53f874d24a32",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/3e55fb7462093c5df2615ba1642d53f874d24a32"
+    },
+    {
+      "mode": "100644",
+      "path": "src/pipeline/dpi_soundness.ts",
+      "sha": "20059deb8bf9e07ce635fa7aa7ab50bf0cb73241",
+      "size": 6504,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/20059deb8bf9e07ce635fa7aa7ab50bf0cb73241"
+    },
+    {
+      "mode": "040000",
+      "path": "src/redaction",
+      "sha": "7c5144c94193079b7183d83ba0591a8dee9bd579",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/7c5144c94193079b7183d83ba0591a8dee9bd579"
+    },
+    {
+      "mode": "100644",
+      "path": "src/redaction/scitt_mask_entropy.ts",
+      "sha": "738e119c91a29ef2a1744556ae050590d1d177fe",
+      "size": 5593,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/738e119c91a29ef2a1744556ae050590d1d177fe"
+    },
+    {
+      "mode": "040000",
+      "path": "src/sla",
+      "sha": "4c225c5a92b412074303ca4602c931ab864e3356",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/4c225c5a92b412074303ca4602c931ab864e3356"
+    },
+    {
+      "mode": "100644",
+      "path": "src/sla/relay_latency_gate.ts",
+      "sha": "7abfffff910998dc8e47e4d30027e86adbd01946",
+      "size": 5115,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/7abfffff910998dc8e47e4d30027e86adbd01946"
+    },
+    {
+      "mode": "040000",
+      "path": "src/vsp_otel",
+      "sha": "48ba2f58ebf13da0439437c754e1e3dbd52cf4ff",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/48ba2f58ebf13da0439437c754e1e3dbd52cf4ff"
+    },
+    {
+      "mode": "100644",
+      "path": "src/vsp_otel/README.md",
+      "sha": "8d909be90f256496de8eaa6412d3b6487072715a",
+      "size": 5073,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/8d909be90f256496de8eaa6412d3b6487072715a"
+    },
+    {
+      "mode": "100644",
+      "path": "src/vsp_otel/__init__.py",
+      "sha": "662b92f298878ab6b318be32e3d605581e17f148",
+      "size": 2625,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/662b92f298878ab6b318be32e3d605581e17f148"
+    },
+    {
+      "mode": "100644",
+      "path": "src/vsp_otel/dsse_processor.py",
+      "sha": "a4b3efe8e240fbaca24f2b3e23634890ac49e32b",
+      "size": 11925,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/a4b3efe8e240fbaca24f2b3e23634890ac49e32b"
+    },
+    {
+      "mode": "100644",
+      "path": "src/vsp_otel/exporter.py",
+      "sha": "c97327da896f4f24b0ac68105866e15041673589",
+      "size": 10473,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/c97327da896f4f24b0ac68105866e15041673589"
+    },
+    {
+      "mode": "100644",
+      "path": "src/vsp_otel/middleware.py",
+      "sha": "d6cb3895e9b52167f0945ab069e1fbca81de215b",
+      "size": 8584,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/d6cb3895e9b52167f0945ab069e1fbca81de215b"
+    },
+    {
+      "mode": "040000",
+      "path": "stubs",
+      "sha": "ca319d9cc3c748561989035d49eba00aa6aa5b29",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/ca319d9cc3c748561989035d49eba00aa6aa5b29"
+    },
+    {
+      "mode": "040000",
+      "path": "stubs/ouroboros-lambda-gate",
+      "sha": "c7cdec589fbf69e69a238767e6916e52ca07a7e7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/c7cdec589fbf69e69a238767e6916e52ca07a7e7"
+    },
+    {
+      "mode": "100644",
+      "path": "stubs/ouroboros-lambda-gate/index.d.ts",
+      "sha": "b93af472c04a1288e34d214b16c9e109596f4e60",
+      "size": 591,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/b93af472c04a1288e34d214b16c9e109596f4e60"
+    },
+    {
+      "mode": "100644",
+      "path": "stubs/ouroboros-lambda-gate/index.js",
+      "sha": "b4ad9f0640d32fb3daf5bde4035e45d03a3574a9",
+      "size": 985,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/b4ad9f0640d32fb3daf5bde4035e45d03a3574a9"
+    },
+    {
+      "mode": "100644",
+      "path": "stubs/ouroboros-lambda-gate/package.json",
+      "sha": "38c0bc5e30077f92331cc156332a70c1bee6c91d",
+      "size": 264,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/38c0bc5e30077f92331cc156332a70c1bee6c91d"
+    },
+    {
+      "mode": "040000",
+      "path": "stubs/ouroboros-types",
+      "sha": "3621c4b8a677e5978747e99fd28da565cf4bc91b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/3621c4b8a677e5978747e99fd28da565cf4bc91b"
+    },
+    {
+      "mode": "100644",
+      "path": "stubs/ouroboros-types/index.d.ts",
+      "sha": "fb1dc1d292e1e61789a4091772eef7cda72872be",
+      "size": 525,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/fb1dc1d292e1e61789a4091772eef7cda72872be"
+    },
+    {
+      "mode": "100644",
+      "path": "stubs/ouroboros-types/index.js",
+      "sha": "078f540570379626a669ffd440041f668cc0c6c8",
+      "size": 127,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/078f540570379626a669ffd440041f668cc0c6c8"
+    },
+    {
+      "mode": "100644",
+      "path": "stubs/ouroboros-types/package.json",
+      "sha": "777f97de46251ab2f397f38c426842e63b606945",
+      "size": 258,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/777f97de46251ab2f397f38c426842e63b606945"
+    },
+    {
+      "mode": "040000",
+      "path": "test",
+      "sha": "499761f655f7203253c0cf9f0b391bd53a31e985",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/499761f655f7203253c0cf9f0b391bd53a31e985"
+    },
+    {
+      "mode": "100644",
+      "path": "test/dpi_soundness.test.ts",
+      "sha": "3404cbcaad9e8ec034e8abc994b11b8c4c8ce83b",
+      "size": 5745,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/3404cbcaad9e8ec034e8abc994b11b8c4c8ce83b"
+    },
+    {
+      "mode": "100644",
+      "path": "test/lean_binding_drift.test.ts",
+      "sha": "f400e61b893c6a8fef6c30d7d2dc4a70208e9484",
+      "size": 6892,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/f400e61b893c6a8fef6c30d7d2dc4a70208e9484"
+    },
+    {
+      "mode": "100644",
+      "path": "test/relay_latency.test.ts",
+      "sha": "153443d98627d6f2177e25967e63463293097304",
+      "size": 4422,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/153443d98627d6f2177e25967e63463293097304"
+    },
+    {
+      "mode": "100644",
+      "path": "test/scitt_mask_entropy.test.ts",
+      "sha": "c98964969931ae7724620d19d5cd01adf060b4ee",
+      "size": 4392,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/c98964969931ae7724620d19d5cd01adf060b4ee"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "91472ab6f2dd6cc8546fe76046ea724cf1fd9951",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/91472ab6f2dd6cc8546fe76046ea724cf1fd9951"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_collector.py",
+      "sha": "d3e53f17b1f71487bfa5d97a8657e879f1530c7f",
+      "size": 4803,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/d3e53f17b1f71487bfa5d97a8657e879f1530c7f"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_collector_delivery.py",
+      "sha": "5371d914f44c1f4cb6d0d56383b8d60f84091b7e",
+      "size": 9375,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/5371d914f44c1f4cb6d0d56383b8d60f84091b7e"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_dsse_binding.py",
+      "sha": "5c0b13aa5279f0c458d28b0a878c62c2bc51b482",
+      "size": 4675,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/5c0b13aa5279f0c458d28b0a878c62c2bc51b482"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_exporter.py",
+      "sha": "066e7a87b167d31843ade92d59024c3216feaa64",
+      "size": 7189,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/066e7a87b167d31843ade92d59024c3216feaa64"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_integration.py",
+      "sha": "423febfb6544f8446d9cc801f24267e99a7833ad",
+      "size": 5834,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/blobs/423febfb6544f8446d9cc801f24267e99a7833ad"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/e523eeddfdf9d9059dbe379d9e6da0142c5ea322"
+}

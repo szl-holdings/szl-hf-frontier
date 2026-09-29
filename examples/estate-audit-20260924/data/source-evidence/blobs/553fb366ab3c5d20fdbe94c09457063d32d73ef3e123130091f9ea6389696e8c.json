@@ -1,0 +1,17 @@
+{
+  "files": [
+    ".gitattributes",
+    "Modelfile.a11oy-r2.gguf",
+    "README.md",
+    "a11oy-mini-f16.gguf",
+    "a11oy-mini-q4_k_m.gguf",
+    "a11oy-mini-r2-BF16-mmproj.gguf",
+    "a11oy-mini-r2-Q4_K_M.gguf",
+    "bom/model-bom.cdx.json",
+    "conversion_receipt.json",
+    "gguf_gate_receipt.json",
+    "hub_put_receipt.json",
+    "og-card.png"
+  ],
+  "revision": "c936dc749743c94586706345a0142c79094a581c"
+}

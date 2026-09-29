@@ -1,0 +1,47 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 41785,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:48Z",
+      "path": "data/reconciliation/source-evidence/a0373782a561fdc5de9de87ba13998296bea035f514902a838166b0927e063e6.json",
+      "revision": "f16df42e52e6a934bd7795d709e23f428802dbf4",
+      "sha256": "a0373782a561fdc5de9de87ba13998296bea035f514902a838166b0927e063e6",
+      "source_identity": "github/szl-holdings/governance-as-code",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/f16df42e52e6a934bd7795d709e23f428802dbf4?recursive=1"
+    }
+  ],
+  "file_count": 103,
+  "id": "github/szl-holdings/governance-as-code",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "f16df42e52e6a934bd7795d709e23f428802dbf4",
+  "root_paths": [
+    ".github",
+    "AUDIT_REPORT.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "NOTICE",
+    "QUICKSTART.md",
+    "README.md",
+    "SECURITY.md",
+    "article12",
+    "data",
+    "data_room",
+    "daybreak",
+    "demo",
+    "demo_site",
+    "docs",
+    "examples",
+    "governance",
+    "pricing",
+    "receipts",
+    "schemas",
+    "tests",
+    "tools"
+  ]
+}

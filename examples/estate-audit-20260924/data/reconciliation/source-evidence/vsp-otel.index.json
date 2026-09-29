@@ -1,0 +1,55 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 34056,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:09Z",
+      "path": "data/reconciliation/source-evidence/1be39e5bb1aceab7fa0bcc8da081fe1e07dae4ebae9206c09373e2bc331f06ef.json",
+      "revision": "e523eeddfdf9d9059dbe379d9e6da0142c5ea322",
+      "sha256": "1be39e5bb1aceab7fa0bcc8da081fe1e07dae4ebae9206c09373e2bc331f06ef",
+      "source_identity": "github/szl-holdings/vsp-otel",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/vsp-otel/git/trees/e523eeddfdf9d9059dbe379d9e6da0142c5ea322?recursive=1"
+    }
+  ],
+  "file_count": 94,
+  "id": "github/szl-holdings/vsp-otel",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "e523eeddfdf9d9059dbe379d9e6da0142c5ea322",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    ".markdownlint.json",
+    ".npmrc",
+    ".pre-commit-config.yaml",
+    ".prettierrc.json",
+    "AGENTS.md",
+    "CHANGELOG.md",
+    "CITATION.cff",
+    "CODEOWNERS",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "Dockerfile",
+    "Dockerfile.python-lib",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "STATUS.md",
+    "collector",
+    "deploy",
+    "docs",
+    "eslint.config.mjs",
+    "package.json",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    "pyproject.toml",
+    "runtime",
+    "src",
+    "stubs",
+    "test",
+    "tests"
+  ]
+}

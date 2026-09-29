@@ -1,0 +1,337 @@
+{
+  "sha": "3972a0ed5fd1230060e6e5c4cfc352df674426c5",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "6a42c7aff2ef6a92f80783215fa4fc5cdb447cd5",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/trees/6a42c7aff2ef6a92f80783215fa4fc5cdb447cd5"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "33ba210e36344c254a64cc178cef4e0e64c2e922",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/trees/33ba210e36344c254a64cc178cef4e0e64c2e922"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/puriq.yml",
+      "sha": "b2ec1c4680d865a4b009275fd398c198273d5800",
+      "size": 8243,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/b2ec1c4680d865a4b009275fd398c198273d5800"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "e91f2bbab9430145fbc10792bd963b592339bf56",
+      "size": 67,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/e91f2bbab9430145fbc10792bd963b592339bf56"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "e72ad1c95a732d474a88cdc14b2123ed49f96de6",
+      "size": 410,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/e72ad1c95a732d474a88cdc14b2123ed49f96de6"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile",
+      "sha": "e6cbc94ec1fc1aaaf92eb84d4965480e4b20a201",
+      "size": 1298,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/e6cbc94ec1fc1aaaf92eb84d4965480e4b20a201"
+    },
+    {
+      "mode": "100644",
+      "path": "FOLD.md",
+      "sha": "bb9bac65782d2a7c77453e4b08e8cef16176bbe0",
+      "size": 858,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/bb9bac65782d2a7c77453e4b08e8cef16176bbe0"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "NOTICE",
+      "sha": "b58a1b9470555638786831cc910e0bbcbcf7e9a8",
+      "size": 659,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/b58a1b9470555638786831cc910e0bbcbcf7e9a8"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "fe501f594b126b267714bf2f0be04f3bc123523a",
+      "size": 5882,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/fe501f594b126b267714bf2f0be04f3bc123523a"
+    },
+    {
+      "mode": "100644",
+      "path": "SOURCE_PIN.md",
+      "sha": "bd77ce8e6bfa7dd276dc00bfb69412774dfe0614",
+      "size": 1440,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/bd77ce8e6bfa7dd276dc00bfb69412774dfe0614"
+    },
+    {
+      "mode": "100644",
+      "path": "SPACE.md",
+      "sha": "8c498be61460b71d854e0cf3641c5f390cdfcf20",
+      "size": 1247,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/8c498be61460b71d854e0cf3641c5f390cdfcf20"
+    },
+    {
+      "mode": "100644",
+      "path": "SZL_ESTATE_BINDING.json",
+      "sha": "0bd4e5279ce40c4bc09f37b118bdfa8fa00e1551",
+      "size": 786,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/0bd4e5279ce40c4bc09f37b118bdfa8fa00e1551"
+    },
+    {
+      "mode": "100644",
+      "path": "app.py",
+      "sha": "2d6fcbc73d530386cd80e33461ec2b9cec075a65",
+      "size": 34150,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/2d6fcbc73d530386cd80e33461ec2b9cec075a65"
+    },
+    {
+      "mode": "100644",
+      "path": "constraints-runtime.txt",
+      "sha": "b66c04b961d6c87f5b829d468d28827d0584d2ca",
+      "size": 771,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/b66c04b961d6c87f5b829d468d28827d0584d2ca"
+    },
+    {
+      "mode": "100644",
+      "path": "puriq_market.py",
+      "sha": "8186a5746c052659259a08d76e12b717be376f5b",
+      "size": 26245,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/8186a5746c052659259a08d76e12b717be376f5b"
+    },
+    {
+      "mode": "100644",
+      "path": "puriq_research.py",
+      "sha": "03444994755d7018a5da458cd3388cc266fc51c9",
+      "size": 12121,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/03444994755d7018a5da458cd3388cc266fc51c9"
+    },
+    {
+      "mode": "100644",
+      "path": "puriq_research_routes.py",
+      "sha": "091d4af743a6589dec5f1b63b52908a13c60f56b",
+      "size": 2424,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/091d4af743a6589dec5f1b63b52908a13c60f56b"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "ea96627f9dcf9d5aad8cdec4c8d1a6a7805e9f3c",
+      "size": 411,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/ea96627f9dcf9d5aad8cdec4c8d1a6a7805e9f3c"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements-test.txt",
+      "sha": "b3b2b3ca4cc6a6428cd759f8d359a32bb92c125a",
+      "size": 14,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/b3b2b3ca4cc6a6428cd759f8d359a32bb92c125a"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements.txt",
+      "sha": "5bb759495e7b5701c9c2aa2c8fd3d693f64425fd",
+      "size": 118,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/5bb759495e7b5701c9c2aa2c8fd3d693f64425fd"
+    },
+    {
+      "mode": "040000",
+      "path": "static",
+      "sha": "17c120b7146111e120d55ca9a0e1c241a51c44fb",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/trees/17c120b7146111e120d55ca9a0e1c241a51c44fb"
+    },
+    {
+      "mode": "040000",
+      "path": "static/research",
+      "sha": "d99af032754c9b12f0e097ff2bc083a3024f180f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/trees/d99af032754c9b12f0e097ff2bc083a3024f180f"
+    },
+    {
+      "mode": "100644",
+      "path": "static/research/index.html",
+      "sha": "337f4f6e7282cc2d304843cc817b76e6d3f8e7ea",
+      "size": 5568,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/337f4f6e7282cc2d304843cc817b76e6d3f8e7ea"
+    },
+    {
+      "mode": "100644",
+      "path": "static/research/research.css",
+      "sha": "55df19223e7782a0e2c48f11ba0304078417ae59",
+      "size": 6945,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/55df19223e7782a0e2c48f11ba0304078417ae59"
+    },
+    {
+      "mode": "100644",
+      "path": "static/research/research.js",
+      "sha": "e9fa2ef8549eb4fba50474bf2b3486ab39d9da32",
+      "size": 5288,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/e9fa2ef8549eb4fba50474bf2b3486ab39d9da32"
+    },
+    {
+      "mode": "100644",
+      "path": "szl-space-hologram.css",
+      "sha": "86369d5db0667b4d5277877e90c7a4fbefef2683",
+      "size": 20389,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/86369d5db0667b4d5277877e90c7a4fbefef2683"
+    },
+    {
+      "mode": "100644",
+      "path": "szl-space-hologram.js",
+      "sha": "80c3f5afe37bd04b83656285a50f24546832c062",
+      "size": 25628,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/80c3f5afe37bd04b83656285a50f24546832c062"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_hologram_assets.py",
+      "sha": "648c6cb6406a0f9501de2c6f9e213f7a1b1f00b7",
+      "size": 552,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/648c6cb6406a0f9501de2c6f9e213f7a1b1f00b7"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_puriq.py",
+      "sha": "11eecc4518b81a8fc79d67517716ecde6374fa8c",
+      "size": 17654,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/11eecc4518b81a8fc79d67517716ecde6374fa8c"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "b003c044c11809424fa51356b8e746c9a9eb8ed3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/trees/b003c044c11809424fa51356b8e746c9a9eb8ed3"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/browser_finance.py",
+      "sha": "667e8ffec84000d7767b36ebed837efe3547fad0",
+      "size": 8069,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/667e8ffec84000d7767b36ebed837efe3547fad0"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_authority_contract.py",
+      "sha": "a0a8516a0e94df8ae35beb1a31b655b6174cea31",
+      "size": 2058,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/a0a8516a0e94df8ae35beb1a31b655b6174cea31"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_market_chamber.py",
+      "sha": "79ae3934e617d5fac34fe42e412e078d5266175c",
+      "size": 9955,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/79ae3934e617d5fac34fe42e412e078d5266175c"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_market_semantics.py",
+      "sha": "c6dee225e810cfb84386a7c6083c3e7ab07d5e00",
+      "size": 3527,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/c6dee225e810cfb84386a7c6083c3e7ab07d5e00"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_puriq.py",
+      "sha": "436eac65c4d6959551c943d96896f5eba1729692",
+      "size": 2182,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/436eac65c4d6959551c943d96896f5eba1729692"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_research.py",
+      "sha": "9cd6e2f5a69f03fb9db7e2d9962cd95d3529b744",
+      "size": 9806,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/9cd6e2f5a69f03fb9db7e2d9962cd95d3529b744"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_research_boundaries.py",
+      "sha": "6f68f5fa2a72443df81a141b0907340c060918a7",
+      "size": 2798,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/6f68f5fa2a72443df81a141b0907340c060918a7"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_static_security.py",
+      "sha": "ebd72ddbe7ac89bef2867e106d5f14176c13c144",
+      "size": 1618,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/ebd72ddbe7ac89bef2867e106d5f14176c13c144"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_template_contract.py",
+      "sha": "dd688a3cf3ce8478f718acceaf00c4204666dfc4",
+      "size": 1248,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/dd688a3cf3ce8478f718acceaf00c4204666dfc4"
+    },
+    {
+      "mode": "040000",
+      "path": "tools",
+      "sha": "0d365d4bafdad046488b7d94a29f0eb38e876406",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/trees/0d365d4bafdad046488b7d94a29f0eb38e876406"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/vendor_vela.py",
+      "sha": "5f78706a5ec8da829f69179c4b4eb46b211d3837",
+      "size": 2465,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/blobs/5f78706a5ec8da829f69179c4b4eb46b211d3837"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/puriq-live/git/trees/3972a0ed5fd1230060e6e5c4cfc352df674426c5"
+}

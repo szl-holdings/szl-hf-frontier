@@ -1,0 +1,39 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 11634,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:00Z",
+      "path": "data/reconciliation/source-evidence/203f83219b326a86e72dbd688a9be294620759043676ee455e126716b7b144da.json",
+      "revision": "1eba876accde06da2199a8c4e78537e9232138bd",
+      "sha256": "203f83219b326a86e72dbd688a9be294620759043676ee455e126716b7b144da",
+      "source_identity": "github/szl-holdings/szl-govsign",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-govsign/git/trees/1eba876accde06da2199a8c4e78537e9232138bd?recursive=1"
+    }
+  ],
+  "file_count": 30,
+  "id": "github/szl-holdings/szl-govsign",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "1eba876accde06da2199a8c4e78537e9232138bd",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    ".zenodo.json",
+    "CHANGELOG.md",
+    "CITATION.cff",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "SECURITY.md",
+    "build.toml",
+    "build",
+    "pyproject.toml",
+    "scripts",
+    "tests",
+    "torch-ext"
+  ]
+}

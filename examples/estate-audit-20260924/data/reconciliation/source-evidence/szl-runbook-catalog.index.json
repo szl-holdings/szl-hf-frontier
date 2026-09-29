@@ -1,0 +1,31 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 6125,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:06Z",
+      "path": "data/reconciliation/source-evidence/71ec116f7dc9ae35b116bd4010b4e4fbbc2031ba30e93f97b701cbc70bc22046.json",
+      "revision": "0377faa91464775604e22f3aff81fcde62da8054",
+      "sha256": "71ec116f7dc9ae35b116bd4010b4e4fbbc2031ba30e93f97b701cbc70bc22046",
+      "source_identity": "github/szl-holdings/szl-runbook-catalog",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/trees/0377faa91464775604e22f3aff81fcde62da8054?recursive=1"
+    }
+  ],
+  "file_count": 12,
+  "id": "github/szl-holdings/szl-runbook-catalog",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "0377faa91464775604e22f3aff81fcde62da8054",
+  "root_paths": [
+    ".github",
+    "LICENSE",
+    "README.md",
+    "catalog.py",
+    "catalog.yaml",
+    "specs",
+    "tests"
+  ]
+}

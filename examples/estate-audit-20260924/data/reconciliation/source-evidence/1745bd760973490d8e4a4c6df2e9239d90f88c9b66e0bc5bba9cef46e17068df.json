@@ -1,0 +1,1920 @@
+{
+  "sha": "0f030741f567bdf397d33c4d607790af6ed39688",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".clusterfuzzlite",
+      "sha": "784dc4e79f5174cd9941eba2d70bed0ef3ca1080",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/784dc4e79f5174cd9941eba2d70bed0ef3ca1080"
+    },
+    {
+      "mode": "100644",
+      "path": ".clusterfuzzlite/Dockerfile",
+      "sha": "95b572642272a1c900b65f82248b128491cd7734",
+      "size": 506,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/95b572642272a1c900b65f82248b128491cd7734"
+    },
+    {
+      "mode": "100644",
+      "path": ".clusterfuzzlite/build.sh",
+      "sha": "2eb676035e0e52f16b23fcf7d2c05f82acbfbc0c",
+      "size": 1133,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/2eb676035e0e52f16b23fcf7d2c05f82acbfbc0c"
+    },
+    {
+      "mode": "040000",
+      "path": ".clusterfuzzlite/fuzzers",
+      "sha": "1132774f5f5e88e3b96554519a0248e6c75d7a16",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/1132774f5f5e88e3b96554519a0248e6c75d7a16"
+    },
+    {
+      "mode": "100644",
+      "path": ".clusterfuzzlite/fuzzers/fuzz_kernel.cjs",
+      "sha": "d85edaf7259414cd70bba568f350eeaa75714e67",
+      "size": 8132,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/d85edaf7259414cd70bba568f350eeaa75714e67"
+    },
+    {
+      "mode": "040000",
+      "path": ".devcontainer",
+      "sha": "c7384209ef225d3f86672094459dadc8c7cf9740",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/c7384209ef225d3f86672094459dadc8c7cf9740"
+    },
+    {
+      "mode": "100644",
+      "path": ".devcontainer/devcontainer.json",
+      "sha": "d3afcd2e15c5c14d8646fb000e87dfc8dc005558",
+      "size": 741,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/d3afcd2e15c5c14d8646fb000e87dfc8dc005558"
+    },
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "f5fde7ca0015b4793f6b37370f2e245c06a88314",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/f5fde7ca0015b4793f6b37370f2e245c06a88314"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODEOWNERS",
+      "sha": "28a88eb6e9da7136da09aae3e1b8d46ee0967891",
+      "size": 665,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/28a88eb6e9da7136da09aae3e1b8d46ee0967891"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "sha": "415a0a14aebe0102d5db82dcc51dde5db16619f0",
+      "size": 600,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/415a0a14aebe0102d5db82dcc51dde5db16619f0"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CONTRIBUTING.md",
+      "sha": "5395adb4800a22e7fa4883e023301bdc80246bcf",
+      "size": 804,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/5395adb4800a22e7fa4883e023301bdc80246bcf"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/ISSUE_TEMPLATE",
+      "sha": "b406cf7e4f23537f8539f6f81f4cbb4d2eae3f2b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/b406cf7e4f23537f8539f6f81f4cbb4d2eae3f2b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha": "a7c1834f7f391ab52cb7efafe6dffe86e69d54d7",
+      "size": 156,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/a7c1834f7f391ab52cb7efafe6dffe86e69d54d7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "2c7fa02994b4d1e777139a1056acfe0cfc48b806",
+      "size": 224,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/2c7fa02994b4d1e777139a1056acfe0cfc48b806"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha": "2172fe4a415edecdbe763328b04d826137d25987",
+      "size": 169,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/2172fe4a415edecdbe763328b04d826137d25987"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/dependabot.yml",
+      "sha": "f17704a6e1b848990fedf8d61f5447524ef27be7",
+      "size": 3873,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/f17704a6e1b848990fedf8d61f5447524ef27be7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/pull_request_template.md",
+      "sha": "fbc961ca36e0bdad281263470f3d054f6bc98d44",
+      "size": 384,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/fbc961ca36e0bdad281263470f3d054f6bc98d44"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "000b4d1eeb2b4ca6b13ce54802f8ba3ceed3682f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/000b4d1eeb2b4ca6b13ce54802f8ba3ceed3682f"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "12c70fca4bb25a8385ea72b355d01d5bb2340556",
+      "size": 1322,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/12c70fca4bb25a8385ea72b355d01d5bb2340556"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/codeql.yml",
+      "sha": "12f6954e6468d676dba32f1c39de9ab297f22799",
+      "size": 1008,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/12f6954e6468d676dba32f1c39de9ab297f22799"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/dco.yml",
+      "sha": "60d74c29f98c55e139103ebc3720a383de76f0df",
+      "size": 1660,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/60d74c29f98c55e139103ebc3720a383de76f0df"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/doctrine.yml",
+      "sha": "c8bd3571770985aedeb02771bb19ae44deb834dd",
+      "size": 184,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/c8bd3571770985aedeb02771bb19ae44deb834dd"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/doi-title-gate.yml",
+      "sha": "7cbd39c1208048c0df5058439697020e951edd99",
+      "size": 28449,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/7cbd39c1208048c0df5058439697020e951edd99"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/fuzz.yml",
+      "sha": "f43306795947561c63e2ee2473d79a27b135dc32",
+      "size": 2261,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/f43306795947561c63e2ee2473d79a27b135dc32"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/lockfile-registry.yml",
+      "sha": "4521f1ac951bb580bc022e59c41d3033da79da1f",
+      "size": 574,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/4521f1ac951bb580bc022e59c41d3033da79da1f"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/overclaim-guard.yml",
+      "sha": "7d6be6ea81d2fb1f4829869c1f06c416f581d633",
+      "size": 691,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/7d6be6ea81d2fb1f4829869c1f06c416f581d633"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/pin-check.yml",
+      "sha": "f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621",
+      "size": 586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/release-please.yml",
+      "sha": "392cded97f1d1ffcd58eccf26035f04c7d0aa9be",
+      "size": 1717,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/392cded97f1d1ffcd58eccf26035f04c7d0aa9be"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/sbom.yml",
+      "sha": "3b037baae190b1c5a22ffbec3d168cadd4eb67fe",
+      "size": 902,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/3b037baae190b1c5a22ffbec3d168cadd4eb67fe"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/scorecard.yml",
+      "sha": "bfdd75519e7c79d38c5f4d3392feeee944b48dad",
+      "size": 1397,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/bfdd75519e7c79d38c5f4d3392feeee944b48dad"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/tests.yml",
+      "sha": "cd430b523b890d85ffa6b802f91272cd55c28030",
+      "size": 342,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/cd430b523b890d85ffa6b802f91272cd55c28030"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/trivy.yml",
+      "sha": "4dafee1dea0326ec386aa8ebb58cb3b5822b655d",
+      "size": 561,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/4dafee1dea0326ec386aa8ebb58cb3b5822b655d"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "9b464be6999c6a9748aad8fe9c885283023e97ec",
+      "size": 240,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/9b464be6999c6a9748aad8fe9c885283023e97ec"
+    },
+    {
+      "mode": "100644",
+      "path": ".node-version",
+      "sha": "209e3ef4b6247ce746048d5711befda46206d235",
+      "size": 3,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/209e3ef4b6247ce746048d5711befda46206d235"
+    },
+    {
+      "mode": "100644",
+      "path": ".npmrc",
+      "sha": "cb0945f960bb083e76faaa87a9c773b318ac5429",
+      "size": 113,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/cb0945f960bb083e76faaa87a9c773b318ac5429"
+    },
+    {
+      "mode": "100644",
+      "path": ".nvmrc",
+      "sha": "209e3ef4b6247ce746048d5711befda46206d235",
+      "size": 3,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/209e3ef4b6247ce746048d5711befda46206d235"
+    },
+    {
+      "mode": "100644",
+      "path": ".release-please-manifest.json",
+      "sha": "38da5b6acd89d23e684baf9bb5057c571699cbbe",
+      "size": 19,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/38da5b6acd89d23e684baf9bb5057c571699cbbe"
+    },
+    {
+      "mode": "100644",
+      "path": "AGENTS.md",
+      "sha": "8a0265fec2835e4f7568d14cdd0a3f173f117710",
+      "size": 2701,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/8a0265fec2835e4f7568d14cdd0a3f173f117710"
+    },
+    {
+      "mode": "100644",
+      "path": "CHANGELOG.md",
+      "sha": "c2dc8238b8fb4dd2cbb1d2808247a83af59e6ab0",
+      "size": 8470,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/c2dc8238b8fb4dd2cbb1d2808247a83af59e6ab0"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "2d93ee746a60b32466e09af624f20dffbf4b911a",
+      "size": 1519,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/2d93ee746a60b32466e09af624f20dffbf4b911a"
+    },
+    {
+      "mode": "100644",
+      "path": "CODEOWNERS",
+      "sha": "e4b1a947665b83a89f04657cf4ef3843c85b6aa2",
+      "size": 214,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/e4b1a947665b83a89f04657cf4ef3843c85b6aa2"
+    },
+    {
+      "mode": "100644",
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "77998183229f90ffca47714c08c77a300dcee686",
+      "size": 3364,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/77998183229f90ffca47714c08c77a300dcee686"
+    },
+    {
+      "mode": "100644",
+      "path": "CONTRIBUTING.md",
+      "sha": "d1633d7ead431260fa9b4f0e150d193293e2c840",
+      "size": 3755,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/d1633d7ead431260fa9b4f0e150d193293e2c840"
+    },
+    {
+      "mode": "100644",
+      "path": "DEVELOPER_ONBOARDING.md",
+      "sha": "d1064cb2b2890d5e4f5aec4d74db4f3eed9a6e41",
+      "size": 3979,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/d1064cb2b2890d5e4f5aec4d74db4f3eed9a6e41"
+    },
+    {
+      "mode": "100644",
+      "path": "KNOWN_GOTCHAS.md",
+      "sha": "5db339b25141e4859be52f1adc84c5f5f24527ed",
+      "size": 1994,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/5db339b25141e4859be52f1adc84c5f5f24527ed"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "LUTAR_EVIDENCE.md",
+      "sha": "906c08827ba72c02f4d611c8e78fcb2fae384103",
+      "size": 4001,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/906c08827ba72c02f4d611c8e78fcb2fae384103"
+    },
+    {
+      "mode": "100644",
+      "path": "NOTICE",
+      "sha": "df951bdb19c81b35fce9a1d2a8e9c19d258bf4c4",
+      "size": 562,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/df951bdb19c81b35fce9a1d2a8e9c19d258bf4c4"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "f532e7f225cfe17f311df70f55cab6414c05fb63",
+      "size": 13890,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/f532e7f225cfe17f311df70f55cab6414c05fb63"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "7038a9a906170bd59498f57b4ac321870307850b",
+      "size": 2137,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/7038a9a906170bd59498f57b4ac321870307850b"
+    },
+    {
+      "mode": "040000",
+      "path": "agentic",
+      "sha": "32ff37eadcd9e20f6bc9a38cbed87142e8f2cda8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/32ff37eadcd9e20f6bc9a38cbed87142e8f2cda8"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/LIABILITY_AND_LIMITS.md",
+      "sha": "c96dfcfa8159817e8f809431d4aa42f501c38ebd",
+      "size": 4944,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/c96dfcfa8159817e8f809431d4aa42f501c38ebd"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/M2M_ENVELOPE.md",
+      "sha": "dd5ed485f82cd5571b752e0d902203398ec1a4ef",
+      "size": 6173,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/dd5ed485f82cd5571b752e0d902203398ec1a4ef"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/README.md",
+      "sha": "1fb231a30ed673ae921478bb8a44f39178a46e00",
+      "size": 6694,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/1fb231a30ed673ae921478bb8a44f39178a46e00"
+    },
+    {
+      "mode": "040000",
+      "path": "agentic/a11oy-core",
+      "sha": "c606cd5b4184834423392c1c88212ef372422393",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/c606cd5b4184834423392c1c88212ef372422393"
+    },
+    {
+      "mode": "040000",
+      "path": "agentic/a11oy-core/src",
+      "sha": "428ce66577328c0e5602c7e0f2f72d0a654e0620",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/428ce66577328c0e5602c7e0f2f72d0a654e0620"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/a11oy-core/src/envelope.ts",
+      "sha": "699ca7df785167a6d4df509a175f22c6207edf6c",
+      "size": 6293,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/699ca7df785167a6d4df509a175f22c6207edf6c"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/a11oy-core/src/index.ts",
+      "sha": "6e1cb8c6af5ac1c3b11f31bde14092bacc5d0ae2",
+      "size": 5980,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/6e1cb8c6af5ac1c3b11f31bde14092bacc5d0ae2"
+    },
+    {
+      "mode": "040000",
+      "path": "agentic/a11oy-core/tests",
+      "sha": "cb5de249a4b9c9203825607cb0dac9e8c8c40a24",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/cb5de249a4b9c9203825607cb0dac9e8c8c40a24"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/a11oy-core/tests/envelope.test.ts",
+      "sha": "ae92b71e56a0289d2a1e2bdf6247ef8c72aa4c6e",
+      "size": 7074,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/ae92b71e56a0289d2a1e2bdf6247ef8c72aa4c6e"
+    },
+    {
+      "mode": "040000",
+      "path": "agentic/agents",
+      "sha": "ba334f68c201d40643954c6ad51072abc49bea8c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/ba334f68c201d40643954c6ad51072abc49bea8c"
+    },
+    {
+      "mode": "040000",
+      "path": "agentic/agents/claude",
+      "sha": "93a9696c217751d90c6295615c9a3cd61a61274e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/93a9696c217751d90c6295615c9a3cd61a61274e"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/agents/claude/CLAUDE.md",
+      "sha": "a074fbe33b73442c60e3a82eccaa627f32c6784c",
+      "size": 4477,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/a074fbe33b73442c60e3a82eccaa627f32c6784c"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/agents/claude/claude-code.config.json",
+      "sha": "6997e7661949de4bd5ff449748ecea8198dd1caa",
+      "size": 1564,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/6997e7661949de4bd5ff449748ecea8198dd1caa"
+    },
+    {
+      "mode": "040000",
+      "path": "agentic/agents/cursor",
+      "sha": "a5a3e174189bf1b2002c2be195d73788967630d3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/a5a3e174189bf1b2002c2be195d73788967630d3"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/agents/cursor/.cursorrules",
+      "sha": "2f7958d28b3e5036996498e3f94c18811ada3194",
+      "size": 3129,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/2f7958d28b3e5036996498e3f94c18811ada3194"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/agents/cursor/cursor.json",
+      "sha": "8ce82d14d32c0125e61f5d539ad27dee5bf497ba",
+      "size": 587,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/8ce82d14d32c0125e61f5d539ad27dee5bf497ba"
+    },
+    {
+      "mode": "040000",
+      "path": "agentic/agents/replit",
+      "sha": "87716d2c825074d9f1dda02461d366b728f69e41",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/87716d2c825074d9f1dda02461d366b728f69e41"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/agents/replit/.replit",
+      "sha": "024796828f932c398d17013a4edf57fb64acad80",
+      "size": 1256,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/024796828f932c398d17013a4edf57fb64acad80"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/agents/replit/replit-agent.md",
+      "sha": "070261af94a6f3444052cdbbb835c71350cefbbf",
+      "size": 3437,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/070261af94a6f3444052cdbbb835c71350cefbbf"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/agents/replit/replit.nix",
+      "sha": "07c4cdac202bb644ed1081f81251bf96dedc6f0a",
+      "size": 429,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/07c4cdac202bb644ed1081f81251bf96dedc6f0a"
+    },
+    {
+      "mode": "040000",
+      "path": "agentic/bot-reviewer",
+      "sha": "5cb57ce7410493bfa072ae594d6fc69d125cb24b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/5cb57ce7410493bfa072ae594d6fc69d125cb24b"
+    },
+    {
+      "mode": "040000",
+      "path": "agentic/bot-reviewer/.github-workflows",
+      "sha": "3e3758615e45b1fd23292a1cbc82f7df34971346",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/3e3758615e45b1fd23292a1cbc82f7df34971346"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/bot-reviewer/.github-workflows/bot-reviewer.yml",
+      "sha": "ac81c274185f19aed99dda3e25fd122f33e82e0c",
+      "size": 3073,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/ac81c274185f19aed99dda3e25fd122f33e82e0c"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/bot-reviewer/README.md",
+      "sha": "4fc2e48dd185237beb5d93269a3923ccceac9443",
+      "size": 4818,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/4fc2e48dd185237beb5d93269a3923ccceac9443"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/bot-reviewer/package.json",
+      "sha": "3b7d8c142a2b169190426e37114c474cd460324b",
+      "size": 523,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/3b7d8c142a2b169190426e37114c474cd460324b"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/bot-reviewer/pnpm-lock.yaml",
+      "sha": "9d04c947d7f48d87f21f0a69d922dea42f97cfd2",
+      "size": 40886,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/9d04c947d7f48d87f21f0a69d922dea42f97cfd2"
+    },
+    {
+      "mode": "040000",
+      "path": "agentic/bot-reviewer/src",
+      "sha": "672230f16a32ac5b2022779fb03f2ef903aebdd6",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/672230f16a32ac5b2022779fb03f2ef903aebdd6"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/bot-reviewer/src/github-poster.test.ts",
+      "sha": "560ba45df2fdd90bd997c6ebdf081be722e09746",
+      "size": 4169,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/560ba45df2fdd90bd997c6ebdf081be722e09746"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/bot-reviewer/src/github-poster.ts",
+      "sha": "7e78264840ff97ad4b05c08e20f67251fc772748",
+      "size": 6165,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/7e78264840ff97ad4b05c08e20f67251fc772748"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/bot-reviewer/src/reviewer.test.ts",
+      "sha": "541791b171aeb3d8b2f19d8db17662ef009e5bc7",
+      "size": 13866,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/541791b171aeb3d8b2f19d8db17662ef009e5bc7"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/bot-reviewer/src/reviewer.ts",
+      "sha": "5b552d9ddf20ff9aa9e6b22fc00d42ebb61dee02",
+      "size": 10933,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/5b552d9ddf20ff9aa9e6b22fc00d42ebb61dee02"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/bot-reviewer/tsconfig.json",
+      "sha": "f9d888cd63b2335906c48527726b417a4e04145e",
+      "size": 152,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/f9d888cd63b2335906c48527726b417a4e04145e"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/bot-reviewer/vitest.config.ts",
+      "sha": "2e869e5454ebedfc0a9c6ea3ec32e59827f31359",
+      "size": 221,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/2e869e5454ebedfc0a9c6ea3ec32e59827f31359"
+    },
+    {
+      "mode": "040000",
+      "path": "agentic/formulas",
+      "sha": "295677fe0e340e99654fd0eb18e8846a5253b35c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/295677fe0e340e99654fd0eb18e8846a5253b35c"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/formulas/package.json",
+      "sha": "58c772b5dc4ad4957848d17d718d8f3fd8a44fe3",
+      "size": 373,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/58c772b5dc4ad4957848d17d718d8f3fd8a44fe3"
+    },
+    {
+      "mode": "040000",
+      "path": "agentic/formulas/src",
+      "sha": "deb29107f1afc15c244c0ac80b2d57435572d4ba",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/deb29107f1afc15c244c0ac80b2d57435572d4ba"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/formulas/src/adversarialRobustness.ts",
+      "sha": "7286867703574cc4252e3de3712f3c40c8e316ba",
+      "size": 3860,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/7286867703574cc4252e3de3712f3c40c8e316ba"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/formulas/src/falsePosition.ts",
+      "sha": "cf8505bb353149f3cad1cf025e008a0c2e182c32",
+      "size": 3328,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/cf8505bb353149f3cad1cf025e008a0c2e182c32"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/formulas/src/index.ts",
+      "sha": "f1ce7971c34c28bc3bb1607bfe8f2aed4010f09d",
+      "size": 12308,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/f1ce7971c34c28bc3bb1607bfe8f2aed4010f09d"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/formulas/src/liuHuiPi.ts",
+      "sha": "8d1c728c4cc785ab3b74366fbc837281c550715e",
+      "size": 3214,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/8d1c728c4cc785ab3b74366fbc837281c550715e"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/formulas/src/madhavaBound.ts",
+      "sha": "0f5e99b49bd5b0c059a548d7453246858b99dc7e",
+      "size": 3475,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/0f5e99b49bd5b0c059a548d7453246858b99dc7e"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/formulas/src/summationInvariant.ts",
+      "sha": "31fdf7d946444101f10294b91bfe94c5cc696935",
+      "size": 4161,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/31fdf7d946444101f10294b91bfe94c5cc696935"
+    },
+    {
+      "mode": "040000",
+      "path": "agentic/formulas/tests",
+      "sha": "4f45684fe06bfeb022e4fa9e225e49a1f5e2cf01",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/4f45684fe06bfeb022e4fa9e225e49a1f5e2cf01"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/formulas/tests/adversarialRobustness.test.ts",
+      "sha": "503b0ad700c4a1ae483b3aeac0e96cf4bae6de59",
+      "size": 5090,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/503b0ad700c4a1ae483b3aeac0e96cf4bae6de59"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/formulas/tests/falsePosition.test.ts",
+      "sha": "4c346e19806ebd90eaaf76021f231bbe5ddd753a",
+      "size": 5346,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/4c346e19806ebd90eaaf76021f231bbe5ddd753a"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/formulas/tests/formulas.test.ts",
+      "sha": "deaf89fd6aa9fb1bf7d95cffafe803b95e5f49d9",
+      "size": 7046,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/deaf89fd6aa9fb1bf7d95cffafe803b95e5f49d9"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/formulas/tests/liuHuiPi.test.ts",
+      "sha": "bcef86ca7285c77f469abf5ffcff4091a042ded9",
+      "size": 4063,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/bcef86ca7285c77f469abf5ffcff4091a042ded9"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/formulas/tests/madhavaBound.test.ts",
+      "sha": "7da1174bc62ae87e79f4cdb8c0a5e66eebd265e3",
+      "size": 4882,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/7da1174bc62ae87e79f4cdb8c0a5e66eebd265e3"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/formulas/tests/summationInvariant.test.ts",
+      "sha": "1152e585db516fd69d06a8e7d8cf851382e952ef",
+      "size": 6638,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/1152e585db516fd69d06a8e7d8cf851382e952ef"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/formulas/vitest.config.ts",
+      "sha": "d410325463ba5c8e5cc5ab02bf2266d3e2da17f4",
+      "size": 148,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/d410325463ba5c8e5cc5ab02bf2266d3e2da17f4"
+    },
+    {
+      "mode": "040000",
+      "path": "agentic/mcp-server",
+      "sha": "fb31ea4adffb9fd17f62f6334139a5cf0510f8cb",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/fb31ea4adffb9fd17f62f6334139a5cf0510f8cb"
+    },
+    {
+      "mode": "040000",
+      "path": "agentic/mcp-server/src",
+      "sha": "c3746f887c94f842ab0fed233adc0fc56315632e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/c3746f887c94f842ab0fed233adc0fc56315632e"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/mcp-server/src/index.ts",
+      "sha": "e6017d8ed1b7ad4c20333fc39684790be4101ee5",
+      "size": 7512,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/e6017d8ed1b7ad4c20333fc39684790be4101ee5"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/package.json",
+      "sha": "fbe729675f839f79f3a4d63ce0b9f44a4a4e3a5b",
+      "size": 978,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/fbe729675f839f79f3a4d63ce0b9f44a4a4e3a5b"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/pnpm-lock.yaml",
+      "sha": "59b2b3c7d6abbb41f980ca868ff77a8fcb4dd50b",
+      "size": 36471,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/59b2b3c7d6abbb41f980ca868ff77a8fcb4dd50b"
+    },
+    {
+      "mode": "040000",
+      "path": "agentic/quickstart",
+      "sha": "1d17c615cde50d6883e2f43218831d63acd2993d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/1d17c615cde50d6883e2f43218831d63acd2993d"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/quickstart/bootstrap.sh",
+      "sha": "e7681462409db8a76e7541cb1db39ab2b99f654f",
+      "size": 3885,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/e7681462409db8a76e7541cb1db39ab2b99f654f"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/tsconfig.json",
+      "sha": "9d5628898e1625abfed19646673c6f743a2f35e9",
+      "size": 398,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/9d5628898e1625abfed19646673c6f743a2f35e9"
+    },
+    {
+      "mode": "100644",
+      "path": "agentic/vitest.config.ts",
+      "sha": "f545202683b2fa891aba0a2090b973577eb8c58a",
+      "size": 190,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/f545202683b2fa891aba0a2090b973577eb8c58a"
+    },
+    {
+      "mode": "100644",
+      "path": "biome.json",
+      "sha": "fe541869fda28eb3b4b96f65514bc2bbb0e8ffe8",
+      "size": 553,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/fe541869fda28eb3b4b96f65514bc2bbb0e8ffe8"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "7ef6380a1f48c94ac313c83102f6ee3fa456f781",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/7ef6380a1f48c94ac313c83102f6ee3fa456f781"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/FALSIFICATION_LEDGER.md",
+      "sha": "177cdf99bb652e2075b05c005f4baf7bdc36e7b2",
+      "size": 5209,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/177cdf99bb652e2075b05c005f4baf7bdc36e7b2"
+    },
+    {
+      "mode": "040000",
+      "path": "docs/anatomy",
+      "sha": "1e94f198486937b7bb98e7c3ac2a0ca45506cd98",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/1e94f198486937b7bb98e7c3ac2a0ca45506cd98"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/anatomy/README.md",
+      "sha": "3e1fe59bd911b2fe83bb20821908af602a679ee7",
+      "size": 1677,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/3e1fe59bd911b2fe83bb20821908af602a679ee7"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/anatomy/anatomy_brain_original.pdf",
+      "sha": "4d81983589a1c3a52bf0e93feefe8d6641d95aa4",
+      "size": 7786,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/4d81983589a1c3a52bf0e93feefe8d6641d95aa4"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/anatomy/anatomy_full_body_v3.pdf",
+      "sha": "c000d8aaf26468ec88ae6f461a9e359bf0274643",
+      "size": 93062,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/c000d8aaf26468ec88ae6f461a9e359bf0274643"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/anatomy/anatomy_wires_original.pdf",
+      "sha": "195585c1c103bd02af157366d6662edad517f506",
+      "size": 15094,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/195585c1c103bd02af157366d6662edad517f506"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/anatomy/brain.pdf",
+      "sha": "21ed1f36f807b4c873562af1583155e8a06c3552",
+      "size": 51347,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/21ed1f36f807b4c873562af1583155e8a06c3552"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/anatomy/full_body.pdf",
+      "sha": "d83453c70a5bef6c22d90f8c39f0809401211ca9",
+      "size": 50913,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/d83453c70a5bef6c22d90f8c39f0809401211ca9"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/anatomy/heart.pdf",
+      "sha": "0103fb84a769de9255e4f44a88733915cb740b2f",
+      "size": 51446,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/0103fb84a769de9255e4f44a88733915cb740b2f"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/anatomy/wires.pdf",
+      "sha": "af9bed8d39928072fbe6dae2760dcc4ed2b8c4a5",
+      "size": 51444,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/af9bed8d39928072fbe6dae2760dcc4ed2b8c4a5"
+    },
+    {
+      "mode": "040000",
+      "path": "docs/audit",
+      "sha": "c61da0baaa09158e958e351adf9d8ff08f6dd44a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/c61da0baaa09158e958e351adf9d8ff08f6dd44a"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/audit/szl-government-readiness.md",
+      "sha": "069a003ddca984e1f21f853871292563d8c7e44d",
+      "size": 16045,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/069a003ddca984e1f21f853871292563d8c7e44d"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/lambda-spec.md",
+      "sha": "6234edf7278cc6afad3bd1143e53fdbd56f5cdb4",
+      "size": 7447,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/6234edf7278cc6afad3bd1143e53fdbd56f5cdb4"
+    },
+    {
+      "mode": "040000",
+      "path": "docs/research",
+      "sha": "929cb0a75a89506f2151ba75752202a9e5b56ea9",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/929cb0a75a89506f2151ba75752202a9e5b56ea9"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/research/a11oy-ultimate-replit-payload.v6.json",
+      "sha": "14bcc8e0e38fb03721b4dc39fab5f2289e24d35b",
+      "size": 10585,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/14bcc8e0e38fb03721b4dc39fab5f2289e24d35b"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/research/ouroboros-runtime-contract.v3.json",
+      "sha": "823a3d0bd3ec25d4c96f7b942bb98f77a0fb79f3",
+      "size": 18950,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/823a3d0bd3ec25d4c96f7b942bb98f77a0fb79f3"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/sdk-innovation-memo.md",
+      "sha": "17129e47da4f49fe6610818bc7bbf2d77a6aea57",
+      "size": 268,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/17129e47da4f49fe6610818bc7bbf2d77a6aea57"
+    },
+    {
+      "mode": "100644",
+      "path": "package.json",
+      "sha": "5e82fb40adf6729c8d89930f31fed577f6777259",
+      "size": 2071,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/5e82fb40adf6729c8d89930f31fed577f6777259"
+    },
+    {
+      "mode": "040000",
+      "path": "packages",
+      "sha": "fdc8d4a1cb2ffa6cf16a7e080418555e1bf5b646",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/fdc8d4a1cb2ffa6cf16a7e080418555e1bf5b646"
+    },
+    {
+      "mode": "040000",
+      "path": "packages/ouroboros",
+      "sha": "7ffc762d5efeaf6df3c9531ea7e3b6d0d2580835",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/7ffc762d5efeaf6df3c9531ea7e3b6d0d2580835"
+    },
+    {
+      "mode": "040000",
+      "path": "packages/ouroboros/src",
+      "sha": "67e3fb8965dc0265b4802a14d4a94610c376498e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/67e3fb8965dc0265b4802a14d4a94610c376498e"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/almanac.ts",
+      "sha": "5bcdd9c44768c195a23403d9e6cf9786524c8885",
+      "size": 5967,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/5bcdd9c44768c195a23403d9e6cf9786524c8885"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/clio-audit.test.ts",
+      "sha": "856a25d9ee4a9e13e3e10b82c057af8217fa9dda",
+      "size": 5912,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/856a25d9ee4a9e13e3e10b82c057af8217fa9dda"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/clio-audit.ts",
+      "sha": "01c1f13934c28293792e87e6ba12abe0b6d6bcb5",
+      "size": 17113,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/01c1f13934c28293792e87e6ba12abe0b6d6bcb5"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/consistency.ts",
+      "sha": "50ffb14763f7a9dd00cac89403710c0e7f33ee3a",
+      "size": 2992,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/50ffb14763f7a9dd00cac89403710c0e7f33ee3a"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/depth-allocator.ts",
+      "sha": "635ba2c9a9395d8a6949a5616958ad8f453fb575",
+      "size": 4986,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/635ba2c9a9395d8a6949a5616958ad8f453fb575"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/domain-pack.ts",
+      "sha": "eee4512e8d222f5676e6483efa30fd0c0fd28730",
+      "size": 7328,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/eee4512e8d222f5676e6483efa30fd0c0fd28730"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/evidence-pack.ts",
+      "sha": "0629f68195cc66d5e265e3cd5971e449c1ea8508",
+      "size": 3146,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/0629f68195cc66d5e265e3cd5971e449c1ea8508"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/gov-readiness.test.ts",
+      "sha": "cf66ea21dcdd0142818f4a526b4675569490ad3d",
+      "size": 8544,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/cf66ea21dcdd0142818f4a526b4675569490ad3d"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/gov-readiness.ts",
+      "sha": "03a33bfcc22e8a155fd96a7d8b222b88b93998db",
+      "size": 24789,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/03a33bfcc22e8a155fd96a7d8b222b88b93998db"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/index.ts",
+      "sha": "0537c9396519a3134c44789304ab6151d0823e4b",
+      "size": 7279,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/0537c9396519a3134c44789304ab6151d0823e4b"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/ingestion-contract.ts",
+      "sha": "0c5dc21277bead162ea77731d4a3af274c2b4101",
+      "size": 4270,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/0c5dc21277bead162ea77731d4a3af274c2b4101"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/innovation-engine.ts",
+      "sha": "b72eb2ee34540a756950a0346cabb77237011eae",
+      "size": 4303,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/b72eb2ee34540a756950a0346cabb77237011eae"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/loop-kernel.ts",
+      "sha": "45c8ec05365f38a11fe6284951364b70e65c91d2",
+      "size": 5428,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/45c8ec05365f38a11fe6284951364b70e65c91d2"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/lutar-invariant-proof.test.ts",
+      "sha": "7239739caffc00713c05797bda15946d0a9033b4",
+      "size": 10198,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/7239739caffc00713c05797bda15946d0a9033b4"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/operational-modes.ts",
+      "sha": "46640c5470446a37f5aab29b2ac234249b3a903f",
+      "size": 2957,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/46640c5470446a37f5aab29b2ac234249b3a903f"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/operator-approval.ts",
+      "sha": "44a6ee86be57ef55fad32cdfdd2511c0715c47f9",
+      "size": 2419,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/44a6ee86be57ef55fad32cdfdd2511c0715c47f9"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/output-paths.ts",
+      "sha": "f9efda52dad25bf0ee491538896f1cef93d9437d",
+      "size": 1394,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/f9efda52dad25bf0ee491538896f1cef93d9437d"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/proof-route.ts",
+      "sha": "5f9791e4c142116dff262c60a94d819c1e64e435",
+      "size": 8345,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/5f9791e4c142116dff262c60a94d819c1e64e435"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/risk-tier.ts",
+      "sha": "107f807dbab2984d4001d849ecc01f4eac970cf1",
+      "size": 3672,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/107f807dbab2984d4001d849ecc01f4eac970cf1"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/runtime-contract.test.ts",
+      "sha": "5e15d18eb1b07e508383577ecfc4e645bd6cff7b",
+      "size": 14723,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/5e15d18eb1b07e508383577ecfc4e645bd6cff7b"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/runtime-contract.v4.test.ts",
+      "sha": "5b9f0873d9345c946a6ceafa2e8793c6e0165cd8",
+      "size": 11796,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/5b9f0873d9345c946a6ceafa2e8793c6e0165cd8"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/types.ts",
+      "sha": "2405571bc7af95465213f4384aa2f5fb26df409a",
+      "size": 5199,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/2405571bc7af95465213f4384aa2f5fb26df409a"
+    },
+    {
+      "mode": "040000",
+      "path": "packages/ouroboros/src/v4-validators",
+      "sha": "531e39a5305ee284e2ef7258d5275bd7b2cfc15a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/531e39a5305ee284e2ef7258d5275bd7b2cfc15a"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/v4-validators/VALIDATORS.md",
+      "sha": "324e2f51235b5e38cb4bd356b5a00d79eaa9e597",
+      "size": 3530,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/324e2f51235b5e38cb4bd356b5a00d79eaa9e597"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/v4-validators/index.ts",
+      "sha": "cd6200c088879f940d453c4282922830e509e9c7",
+      "size": 1282,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/cd6200c088879f940d453c4282922830e509e9c7"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/v4-validators/run.ts",
+      "sha": "926c8571ab6fcbfb5d6f60b734611c0500b09c24",
+      "size": 2023,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/926c8571ab6fcbfb5d6f60b734611c0500b09c24"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/v4-validators/types.ts",
+      "sha": "3fa16f36302c8270f7ef88bc9ed57621ab3c176d",
+      "size": 3596,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/3fa16f36302c8270f7ef88bc9ed57621ab3c176d"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/v4-validators/v4-validators.test.ts",
+      "sha": "2f73b04f34e35eea9da9b318b2ff870193414d71",
+      "size": 16878,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/2f73b04f34e35eea9da9b318b2ff870193414d71"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/v4-validators/validators.ts",
+      "sha": "8b065ad22a4b8157013f842576be525c26c784f9",
+      "size": 8947,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/8b065ad22a4b8157013f842576be525c26c784f9"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/v6-payload.test.ts",
+      "sha": "0f8f81c23db48421a2fda82bf34c574f335684a6",
+      "size": 10527,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/0f8f81c23db48421a2fda82bf34c574f335684a6"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/v6-payload.ts",
+      "sha": "7b4e5d16b19d379a5db841bb63fbbf9c46e5d5b0",
+      "size": 13926,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/7b4e5d16b19d379a5db841bb63fbbf9c46e5d5b0"
+    },
+    {
+      "mode": "100644",
+      "path": "packages/ouroboros/src/validator-registry.ts",
+      "sha": "534c4ce2b60cd428bf069444a5c106b6e62502ac",
+      "size": 3892,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/534c4ce2b60cd428bf069444a5c106b6e62502ac"
+    },
+    {
+      "mode": "100644",
+      "path": "pnpm-lock.yaml",
+      "sha": "f31afac2b377a81d264861f1ef51c21f20b11153",
+      "size": 33952,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/f31afac2b377a81d264861f1ef51c21f20b11153"
+    },
+    {
+      "mode": "100644",
+      "path": "release-please-config.json",
+      "sha": "b30e17b5db548440cc56f9e662c1c80258891f04",
+      "size": 1006,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/b30e17b5db548440cc56f9e662c1c80258891f04"
+    },
+    {
+      "mode": "040000",
+      "path": "runtime",
+      "sha": "0b2f3f072535ac61d30a1b41295e75d53c5c64a4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/0b2f3f072535ac61d30a1b41295e75d53c5c64a4"
+    },
+    {
+      "mode": "040000",
+      "path": "runtime/bekenstein",
+      "sha": "70b063f43b27220cb159b5c9353fd0ff6d90f4f5",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/70b063f43b27220cb159b5c9353fd0ff6d90f4f5"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/bekenstein/README.md",
+      "sha": "cb4b9b544845ea12cfbad977570306ea07409181",
+      "size": 1471,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/cb4b9b544845ea12cfbad977570306ea07409181"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/bekenstein/package.json",
+      "sha": "0577832397891223345c300cea80d650d3151430",
+      "size": 730,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/0577832397891223345c300cea80d650d3151430"
+    },
+    {
+      "mode": "040000",
+      "path": "runtime/bekenstein/src",
+      "sha": "9f049db7717204d45d80f06280531ec133f31f30",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/9f049db7717204d45d80f06280531ec133f31f30"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/bekenstein/src/entropy.test.ts",
+      "sha": "1a9bf71189287ac1ae1181227a2edffae10713e1",
+      "size": 2912,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/1a9bf71189287ac1ae1181227a2edffae10713e1"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/bekenstein/src/entropy.ts",
+      "sha": "4da4073a53cd0fd02ff0519d277e62f6ff2906cb",
+      "size": 4969,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/4da4073a53cd0fd02ff0519d277e62f6ff2906cb"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/bekenstein/tsconfig.json",
+      "sha": "882cef6f3125b5aba76fd685c069c60dd269b4e6",
+      "size": 340,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/882cef6f3125b5aba76fd685c069c60dd269b4e6"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/bekenstein/vitest.config.ts",
+      "sha": "ed2a5f9322b8ef1808da97624e2664bdc1808ad9",
+      "size": 110,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/ed2a5f9322b8ef1808da97624e2664bdc1808ad9"
+    },
+    {
+      "mode": "040000",
+      "path": "runtime/category",
+      "sha": "0a1a32857637c45af3d5a263a484104f1c4699d9",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/0a1a32857637c45af3d5a263a484104f1c4699d9"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/category/README.md",
+      "sha": "f153c030fbf98016cabd3451e681626d8071ef1e",
+      "size": 1122,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/f153c030fbf98016cabd3451e681626d8071ef1e"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/category/package.json",
+      "sha": "f2c31586a10730acebf183a728ae82b69be4a33c",
+      "size": 782,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/f2c31586a10730acebf183a728ae82b69be4a33c"
+    },
+    {
+      "mode": "040000",
+      "path": "runtime/category/src",
+      "sha": "de26e4f2805b11afda81b1789f4096a552733a9d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/de26e4f2805b11afda81b1789f4096a552733a9d"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/category/src/category.test.ts",
+      "sha": "7b3cfbb1eb05022592c91e003c9dce7fffa350d1",
+      "size": 4039,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/7b3cfbb1eb05022592c91e003c9dce7fffa350d1"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/category/src/category.ts",
+      "sha": "67dc21bb3799b748bfe2cf38de7d7edbce981d64",
+      "size": 4475,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/67dc21bb3799b748bfe2cf38de7d7edbce981d64"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/category/tsconfig.json",
+      "sha": "882cef6f3125b5aba76fd685c069c60dd269b4e6",
+      "size": 340,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/882cef6f3125b5aba76fd685c069c60dd269b4e6"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/category/vitest.config.ts",
+      "sha": "ed2a5f9322b8ef1808da97624e2664bdc1808ad9",
+      "size": 110,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/ed2a5f9322b8ef1808da97624e2664bdc1808ad9"
+    },
+    {
+      "mode": "040000",
+      "path": "runtime/closure",
+      "sha": "bf0edc5d04016653d0398a74727ad46e8ed0c40b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/bf0edc5d04016653d0398a74727ad46e8ed0c40b"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/closure/README.md",
+      "sha": "2da7b9afeaacc0bed3739d760baf1ebc14bf66b1",
+      "size": 1217,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/2da7b9afeaacc0bed3739d760baf1ebc14bf66b1"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/closure/package.json",
+      "sha": "4dc071c456df660c7ccbbfd6ee65600e5ca62d7c",
+      "size": 776,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/4dc071c456df660c7ccbbfd6ee65600e5ca62d7c"
+    },
+    {
+      "mode": "040000",
+      "path": "runtime/closure/src",
+      "sha": "3757a57232335669c6f9a3cb14a9bf7526837e05",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/3757a57232335669c6f9a3cb14a9bf7526837e05"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/closure/src/closure.test.ts",
+      "sha": "0f0747fd7c8e2454a962df5c90d56e3b1b1df17e",
+      "size": 3293,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/0f0747fd7c8e2454a962df5c90d56e3b1b1df17e"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/closure/src/closure.ts",
+      "sha": "022b7f0f17c5c80d151bc962326f915f0c4abdaa",
+      "size": 4945,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/022b7f0f17c5c80d151bc962326f915f0c4abdaa"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/closure/tsconfig.json",
+      "sha": "882cef6f3125b5aba76fd685c069c60dd269b4e6",
+      "size": 340,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/882cef6f3125b5aba76fd685c069c60dd269b4e6"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/closure/vitest.config.ts",
+      "sha": "ed2a5f9322b8ef1808da97624e2664bdc1808ad9",
+      "size": 110,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/ed2a5f9322b8ef1808da97624e2664bdc1808ad9"
+    },
+    {
+      "mode": "040000",
+      "path": "runtime/glr",
+      "sha": "252f2b998f1c1ab0fedacb92a4315b5185d831fd",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/252f2b998f1c1ab0fedacb92a4315b5185d831fd"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/glr/README.md",
+      "sha": "f06cc3e34bd298c2fbb72a2fb3e45c8fa37f8084",
+      "size": 1049,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/f06cc3e34bd298c2fbb72a2fb3e45c8fa37f8084"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/glr/package.json",
+      "sha": "45e04ccac97b7e57f7ecf862ce8ee27b661b69ee",
+      "size": 703,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/45e04ccac97b7e57f7ecf862ce8ee27b661b69ee"
+    },
+    {
+      "mode": "040000",
+      "path": "runtime/glr/src",
+      "sha": "7d742f5b10b6bd3d3e397e722290547945893ee4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/7d742f5b10b6bd3d3e397e722290547945893ee4"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/glr/src/glr.test.ts",
+      "sha": "50a717cbae3c7fcbe9304c9300f6810175b1b179",
+      "size": 3295,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/50a717cbae3c7fcbe9304c9300f6810175b1b179"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/glr/src/glr.ts",
+      "sha": "8d0af7ec2bae9a468bc6447e5cc4f0781bfe17c1",
+      "size": 3694,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/8d0af7ec2bae9a468bc6447e5cc4f0781bfe17c1"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/glr/tsconfig.json",
+      "sha": "882cef6f3125b5aba76fd685c069c60dd269b4e6",
+      "size": 340,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/882cef6f3125b5aba76fd685c069c60dd269b4e6"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/glr/vitest.config.ts",
+      "sha": "ed2a5f9322b8ef1808da97624e2664bdc1808ad9",
+      "size": 110,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/ed2a5f9322b8ef1808da97624e2664bdc1808ad9"
+    },
+    {
+      "mode": "040000",
+      "path": "runtime/lambda-gate",
+      "sha": "6ffbd61fe5d077c408dd01e4094d3c07dc23f0ab",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/6ffbd61fe5d077c408dd01e4094d3c07dc23f0ab"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/lambda-gate/README.md",
+      "sha": "6060d173af1c4b8bd8f2418848d1ca66b5c04e39",
+      "size": 1427,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/6060d173af1c4b8bd8f2418848d1ca66b5c04e39"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/lambda-gate/package.json",
+      "sha": "371d95e778053a46b8a86b8cda6c2e9082d444b3",
+      "size": 716,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/371d95e778053a46b8a86b8cda6c2e9082d444b3"
+    },
+    {
+      "mode": "040000",
+      "path": "runtime/lambda-gate/src",
+      "sha": "a05599d3eed8bf152c8b68aa2762891794764d76",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/a05599d3eed8bf152c8b68aa2762891794764d76"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/lambda-gate/src/gate.test.ts",
+      "sha": "a1ef1b6c2f0f5fb13dea749f84a3f96f4d010432",
+      "size": 5623,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/a1ef1b6c2f0f5fb13dea749f84a3f96f4d010432"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/lambda-gate/src/gate.ts",
+      "sha": "28563ed3c592d3f0c4b436018167e48de609f432",
+      "size": 6085,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/28563ed3c592d3f0c4b436018167e48de609f432"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/lambda-gate/src/knot-tag.test.ts",
+      "sha": "4cbced6718d444989e9333259327a0fd4f4b95eb",
+      "size": 2486,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/4cbced6718d444989e9333259327a0fd4f4b95eb"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/lambda-gate/src/knot-tag.ts",
+      "sha": "b2c6cdd283224307d159b1bec8e04ffcc9d68404",
+      "size": 3064,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/b2c6cdd283224307d159b1bec8e04ffcc9d68404"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/lambda-gate/src/server.test.ts",
+      "sha": "8b9bb9e3b626db4b18dd67652aa64e8350fb4212",
+      "size": 2732,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/8b9bb9e3b626db4b18dd67652aa64e8350fb4212"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/lambda-gate/src/server.ts",
+      "sha": "808383341fd63ccda6264734e44f10dfa5dec633",
+      "size": 3392,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/808383341fd63ccda6264734e44f10dfa5dec633"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/lambda-gate/tsconfig.json",
+      "sha": "b2460dc6872f7f36606254819f02b8cb5c4f4f4a",
+      "size": 364,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/b2460dc6872f7f36606254819f02b8cb5c4f4f4a"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/lambda-gate/vitest.config.ts",
+      "sha": "ed2a5f9322b8ef1808da97624e2664bdc1808ad9",
+      "size": 110,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/ed2a5f9322b8ef1808da97624e2664bdc1808ad9"
+    },
+    {
+      "mode": "040000",
+      "path": "runtime/types",
+      "sha": "7a8345d49cc91b50e3edc7d11cda335b8d664692",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/7a8345d49cc91b50e3edc7d11cda335b8d664692"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/types/README.md",
+      "sha": "b25338e3bd2031db17d5f7d0a3e7b0528ad74aa0",
+      "size": 1156,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/b25338e3bd2031db17d5f7d0a3e7b0528ad74aa0"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/types/package.json",
+      "sha": "14042072def3666f00fc27e2e9d980f974619538",
+      "size": 774,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/14042072def3666f00fc27e2e9d980f974619538"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/types/pnpm-lock.yaml",
+      "sha": "ed5d67e358d889cddeea4b85c91426c496a02c35",
+      "size": 36951,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/ed5d67e358d889cddeea4b85c91426c496a02c35"
+    },
+    {
+      "mode": "040000",
+      "path": "runtime/types/src",
+      "sha": "d8f925ab57f235f004bcc2ab830425e0a48df05c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/d8f925ab57f235f004bcc2ab830425e0a48df05c"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/types/src/receipt.test.ts",
+      "sha": "b7e9e116623e3573cc86b5c253eac14f76096789",
+      "size": 2978,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/b7e9e116623e3573cc86b5c253eac14f76096789"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/types/src/receipt.ts",
+      "sha": "142a6f653fba1e8c83e81b8098103c792c1ed30d",
+      "size": 3335,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/142a6f653fba1e8c83e81b8098103c792c1ed30d"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/types/tsconfig.json",
+      "sha": "882cef6f3125b5aba76fd685c069c60dd269b4e6",
+      "size": 340,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/882cef6f3125b5aba76fd685c069c60dd269b4e6"
+    },
+    {
+      "mode": "100644",
+      "path": "runtime/types/vitest.config.ts",
+      "sha": "ed2a5f9322b8ef1808da97624e2664bdc1808ad9",
+      "size": 110,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/ed2a5f9322b8ef1808da97624e2664bdc1808ad9"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "bab9fb116179f91f892a3bd1a626e34787045d64",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/bab9fb116179f91f892a3bd1a626e34787045d64"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/lutar-evidence-report.ts",
+      "sha": "09ab64a341474a99a16ffa718ae7ef0689650d24",
+      "size": 4361,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/09ab64a341474a99a16ffa718ae7ef0689650d24"
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/run-lutar-evidence.sh",
+      "sha": "300ac15ce40f546fb8b27a15a5dd12e59c99af2f",
+      "size": 1894,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/300ac15ce40f546fb8b27a15a5dd12e59c99af2f"
+    },
+    {
+      "mode": "100644",
+      "path": "social-preview.svg",
+      "sha": "299c23cf05b24a813d6084dc27a819753e01da8c",
+      "size": 3318,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/299c23cf05b24a813d6084dc27a819753e01da8c"
+    },
+    {
+      "mode": "040000",
+      "path": "src",
+      "sha": "5ddb28a733020e684772262113aa2dcd56a6ab21",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/5ddb28a733020e684772262113aa2dcd56a6ab21"
+    },
+    {
+      "mode": "100644",
+      "path": "src/almanac.ts",
+      "sha": "413013b41f724a9e208c73a69727a3e4cd8bb933",
+      "size": 3695,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/413013b41f724a9e208c73a69727a3e4cd8bb933"
+    },
+    {
+      "mode": "100644",
+      "path": "src/consistency.ts",
+      "sha": "5ec868519e29c4005678a229441f759a0099ae1c",
+      "size": 3042,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/5ec868519e29c4005678a229441f759a0099ae1c"
+    },
+    {
+      "mode": "100644",
+      "path": "src/depth-allocator.ts",
+      "sha": "e7144f7f8fbc7efed562ef1fc230077b38cb4ef8",
+      "size": 3930,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/e7144f7f8fbc7efed562ef1fc230077b38cb4ef8"
+    },
+    {
+      "mode": "100644",
+      "path": "src/index.ts",
+      "sha": "cbcaf980706e0e389d075a78945ac42253367a34",
+      "size": 1498,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/cbcaf980706e0e389d075a78945ac42253367a34"
+    },
+    {
+      "mode": "100644",
+      "path": "src/loop-kernel.test.ts",
+      "sha": "d8e56eb14d6b3fe8cdaab27380959d30cfee964f",
+      "size": 2817,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/d8e56eb14d6b3fe8cdaab27380959d30cfee964f"
+    },
+    {
+      "mode": "100644",
+      "path": "src/loop-kernel.ts",
+      "sha": "c6d41448264445055759b76ccdac0a5a4936d9f1",
+      "size": 6704,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/c6d41448264445055759b76ccdac0a5a4936d9f1"
+    },
+    {
+      "mode": "100644",
+      "path": "src/proof-route.ts",
+      "sha": "3bd571e676d7f19b48e480429481d9b344dd9339",
+      "size": 3733,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/3bd571e676d7f19b48e480429481d9b344dd9339"
+    },
+    {
+      "mode": "040000",
+      "path": "src/react",
+      "sha": "ea89cf0c9d6519a9ff68ce6eba44f84ee74fe213",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/ea89cf0c9d6519a9ff68ce6eba44f84ee74fe213"
+    },
+    {
+      "mode": "100644",
+      "path": "src/react/LoopGlyph.tsx",
+      "sha": "4686a899a94175dfd740da42da025be5ec93b11b",
+      "size": 3067,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/4686a899a94175dfd740da42da025be5ec93b11b"
+    },
+    {
+      "mode": "100644",
+      "path": "src/react/OuroborosTrace.tsx",
+      "sha": "77064f864d3afbb6f306bc864035778993c96230",
+      "size": 6871,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/77064f864d3afbb6f306bc864035778993c96230"
+    },
+    {
+      "mode": "100644",
+      "path": "src/react/index.tsx",
+      "sha": "c5e2e018b648ee0bf353007edcf71321484f1978",
+      "size": 216,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/c5e2e018b648ee0bf353007edcf71321484f1978"
+    },
+    {
+      "mode": "100644",
+      "path": "src/receipt-emitter.test.ts",
+      "sha": "d878672cfbd0dc67e0f076875c8e7cb2cefc5b42",
+      "size": 3330,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/d878672cfbd0dc67e0f076875c8e7cb2cefc5b42"
+    },
+    {
+      "mode": "100644",
+      "path": "src/receipt-emitter.ts",
+      "sha": "20349ee8aae5b3f5590fb573fcef485f52d94491",
+      "size": 3434,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/20349ee8aae5b3f5590fb573fcef485f52d94491"
+    },
+    {
+      "mode": "100644",
+      "path": "src/risk-tier.ts",
+      "sha": "107f807dbab2984d4001d849ecc01f4eac970cf1",
+      "size": 3672,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/107f807dbab2984d4001d849ecc01f4eac970cf1"
+    },
+    {
+      "mode": "100644",
+      "path": "src/runtime-contract.test.ts",
+      "sha": "6ea059910acd4020b8a6b2cc1ddb8a2b80c7cbe5",
+      "size": 5768,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/6ea059910acd4020b8a6b2cc1ddb8a2b80c7cbe5"
+    },
+    {
+      "mode": "100644",
+      "path": "src/types.ts",
+      "sha": "73ced4a6fa32c35e53f518bc29f2b5eda7f471a0",
+      "size": 5441,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/73ced4a6fa32c35e53f518bc29f2b5eda7f471a0"
+    },
+    {
+      "mode": "100644",
+      "path": "tsconfig.fuzz.json",
+      "sha": "91d77fa6f300b7955563f9d4dcc3006312fb9f85",
+      "size": 365,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/91d77fa6f300b7955563f9d4dcc3006312fb9f85"
+    },
+    {
+      "mode": "100644",
+      "path": "tsconfig.json",
+      "sha": "09eed5a63f994fdc607a5b73c5b61cd6f4019f0f",
+      "size": 460,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/09eed5a63f994fdc607a5b73c5b61cd6f4019f0f"
+    },
+    {
+      "mode": "100644",
+      "path": "vitest.config.ts",
+      "sha": "c2c0468815ee96652756ddb545b328a1e74529bb",
+      "size": 188,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/blobs/c2c0468815ee96652756ddb545b328a1e74529bb"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/ouroboros/git/trees/0f030741f567bdf397d33c4d607790af6ed39688"
+}

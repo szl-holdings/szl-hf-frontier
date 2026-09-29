@@ -1,0 +1,611 @@
+{
+  "sha": "25c12301e2fdcb8876352f6566dc2f4d2c6710fc",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "9a30b162244261b6908deb96f02105d9b2c61770",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/trees/9a30b162244261b6908deb96f02105d9b2c61770"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "559a3932c661bded233469a12a874b0f89c92483",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/trees/559a3932c661bded233469a12a874b0f89c92483"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "5a9b65502485f8437bf79446201937bbb0ddcaec",
+      "size": 4410,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/5a9b65502485f8437bf79446201937bbb0ddcaec"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/continuous-frontier-memory.yml",
+      "sha": "05e69eab27798411ffe9dddf8a879d34fb09314f",
+      "size": 9271,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/05e69eab27798411ffe9dddf8a879d34fb09314f"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "2cf9d2b5ab4ff9d8dd2bebc85c5b3fcf6098e158",
+      "size": 166,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/2cf9d2b5ab4ff9d8dd2bebc85c5b3fcf6098e158"
+    },
+    {
+      "mode": "100644",
+      "path": "CODEOWNERS",
+      "sha": "ad61f4cc26ddd4be4eecf73abef96dcf611f8a8d",
+      "size": 22,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/ad61f4cc26ddd4be4eecf73abef96dcf611f8a8d"
+    },
+    {
+      "mode": "100644",
+      "path": "CONTRIBUTING.md",
+      "sha": "4af0030e00913e92868044e97eb7e4b2e93c6ac9",
+      "size": 348,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/4af0030e00913e92868044e97eb7e4b2e93c6ac9"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile",
+      "sha": "5e6fc38f407adab967533e16f16df661cadaa308",
+      "size": 268,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/5e6fc38f407adab967533e16f16df661cadaa308"
+    },
+    {
+      "mode": "100644",
+      "path": "FOLD.md",
+      "sha": "8934add875674123e40015a97d3ab87da3d22db4",
+      "size": 636,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/8934add875674123e40015a97d3ab87da3d22db4"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "NEOMME_CACHE.md",
+      "sha": "0224a51457e46c7afb5ef7357e8b2ca1a674a21d",
+      "size": 3111,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/0224a51457e46c7afb5ef7357e8b2ca1a674a21d"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "66cab2396b6d554ccd743433174b98691e1813dd",
+      "size": 7528,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/66cab2396b6d554ccd743433174b98691e1813dd"
+    },
+    {
+      "mode": "100644",
+      "path": "UPGRADE_1_4.md",
+      "sha": "e774f4a200efa86daf7a2447c87745f483dad7e9",
+      "size": 4149,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/e774f4a200efa86daf7a2447c87745f483dad7e9"
+    },
+    {
+      "mode": "100644",
+      "path": "app.py",
+      "sha": "b04dafcb3b2059a0cca8ddb2d6c78277f460884a",
+      "size": 7745,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/b04dafcb3b2059a0cca8ddb2d6c78277f460884a"
+    },
+    {
+      "mode": "100644",
+      "path": "app_operational.py",
+      "sha": "99c6e729390c5bd90a61aa6f73954bddc13c68e9",
+      "size": 6343,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/99c6e729390c5bd90a61aa6f73954bddc13c68e9"
+    },
+    {
+      "mode": "040000",
+      "path": "data",
+      "sha": "c7bb7f76ccaed5761a70d92ea137e08e15729cf8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/trees/c7bb7f76ccaed5761a70d92ea137e08e15729cf8"
+    },
+    {
+      "mode": "100644",
+      "path": "data/__init__.py",
+      "sha": "c26116cae2768aa6ee90d8d1c4b288b4a40b522f",
+      "size": 208,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/c26116cae2768aa6ee90d8d1c4b288b4a40b522f"
+    },
+    {
+      "mode": "100644",
+      "path": "data/brain-corpus.public.jsonl",
+      "sha": "c9bd5777f1d0905f4e2e42b1210fbf660f33fed9",
+      "size": 551172,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/c9bd5777f1d0905f4e2e42b1210fbf660f33fed9"
+    },
+    {
+      "mode": "100644",
+      "path": "data/frontier-candidates.public.jsonl",
+      "sha": "ca674ffdf1b47655ccd661cf618c13e06c82828d",
+      "size": 142848,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/ca674ffdf1b47655ccd661cf618c13e06c82828d"
+    },
+    {
+      "mode": "100644",
+      "path": "data/frontier-state.v1.json",
+      "sha": "b37b60a243a5c0160147da6b8f4fbb54739d20a7",
+      "size": 3812,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/b37b60a243a5c0160147da6b8f4fbb54739d20a7"
+    },
+    {
+      "mode": "100644",
+      "path": "data/khipu.schema.json",
+      "sha": "7ddd4823826ffb020938982079fa37a320a13882",
+      "size": 6262,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/7ddd4823826ffb020938982079fa37a320a13882"
+    },
+    {
+      "mode": "100644",
+      "path": "data/manifest.json",
+      "sha": "fdd734924938e01e329b5ab953e4b7b9952cef59",
+      "size": 1300,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/fdd734924938e01e329b5ab953e4b7b9952cef59"
+    },
+    {
+      "mode": "100644",
+      "path": "data/navigator.schema.json",
+      "sha": "0fc0e2a1cdc052a5a9541cce9fc801e927a220a2",
+      "size": 2098,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/0fc0e2a1cdc052a5a9541cce9fc801e927a220a2"
+    },
+    {
+      "mode": "100644",
+      "path": "data/neomme-260m.lock.json",
+      "sha": "631d201c61cf724de8aa2f92be9d8ecc9e3bb438",
+      "size": 1708,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/631d201c61cf724de8aa2f92be9d8ecc9e3bb438"
+    },
+    {
+      "mode": "040000",
+      "path": "evidence",
+      "sha": "d03e256584f7ea4cdf00c057f438b977c2be6c9d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/trees/d03e256584f7ea4cdf00c057f438b977c2be6c9d"
+    },
+    {
+      "mode": "100644",
+      "path": "evidence/neomme-cache-1.4.1-hf-cpu-20260908.json",
+      "sha": "25ca31c3ca1a86bbf42cab230ebdab8e481e5827",
+      "size": 3480,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/25ca31c3ca1a86bbf42cab230ebdab8e481e5827"
+    },
+    {
+      "mode": "040000",
+      "path": "frontier",
+      "sha": "1c186d919d71bbceafb315090ca8237e0d27ce8e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/trees/1c186d919d71bbceafb315090ca8237e0d27ce8e"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/hf-wave-2026-09-04.json",
+      "sha": "175dcdd0d10b825a226b360cea6e139f17d4b348",
+      "size": 1281,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/175dcdd0d10b825a226b360cea6e139f17d4b348"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/neomme-funes-2026-09-07.json",
+      "sha": "345b13673b08a3171854aa4bef3d1f6ef2fd1bf9",
+      "size": 3377,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/345b13673b08a3171854aa4bef3d1f6ef2fd1bf9"
+    },
+    {
+      "mode": "040000",
+      "path": "hub",
+      "sha": "3ee3650e093eb2b6c878d0266d2e7bd0f5682147",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/trees/3ee3650e093eb2b6c878d0266d2e7bd0f5682147"
+    },
+    {
+      "mode": "100644",
+      "path": "hub/README.md",
+      "sha": "13d8e55ac3bb40eb65578986171b9fe32165cd84",
+      "size": 28456,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/13d8e55ac3bb40eb65578986171b9fe32165cd84"
+    },
+    {
+      "mode": "100644",
+      "path": "hub/brain-corpus.public.jsonl",
+      "sha": "c9bd5777f1d0905f4e2e42b1210fbf660f33fed9",
+      "size": 551172,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/c9bd5777f1d0905f4e2e42b1210fbf660f33fed9"
+    },
+    {
+      "mode": "100644",
+      "path": "hub/eval_receipt.signed.json",
+      "sha": "498c973bfb3de0cabd4f2178c74f798442aed5fb",
+      "size": 2898,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/498c973bfb3de0cabd4f2178c74f798442aed5fb"
+    },
+    {
+      "mode": "100644",
+      "path": "hub/khipu.schema.json",
+      "sha": "7ddd4823826ffb020938982079fa37a320a13882",
+      "size": 6262,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/7ddd4823826ffb020938982079fa37a320a13882"
+    },
+    {
+      "mode": "100644",
+      "path": "hub/manifest.json",
+      "sha": "fdd734924938e01e329b5ab953e4b7b9952cef59",
+      "size": 1300,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/fdd734924938e01e329b5ab953e4b7b9952cef59"
+    },
+    {
+      "mode": "100644",
+      "path": "hub/publication.json",
+      "sha": "c04a2dc6ad6c153ff3816d158bb7004689f42d51",
+      "size": 6378,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/c04a2dc6ad6c153ff3816d158bb7004689f42d51"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "4a7f7af19dcebf47e57a6716f10b85f0f673df68",
+      "size": 757,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/4a7f7af19dcebf47e57a6716f10b85f0f673df68"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements.txt",
+      "sha": "d84dedbd2b2c64bef61d4fe180f86f1c8b6398e9",
+      "size": 57,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/d84dedbd2b2c64bef61d4fe180f86f1c8b6398e9"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "b106e35f719e5f6946fb50ef001b0817eb159ad7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/trees/b106e35f719e5f6946fb50ef001b0817eb159ad7"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/refresh_frontier_memory.py",
+      "sha": "fd1537d90dde8a7752f65ad1f5793980d67aaa1f",
+      "size": 22075,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/fd1537d90dde8a7752f65ad1f5793980d67aaa1f"
+    },
+    {
+      "mode": "040000",
+      "path": "second_brain",
+      "sha": "dbed7661a362d36b7ffd498597e985714b5a9c10",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/trees/dbed7661a362d36b7ffd498597e985714b5a9c10"
+    },
+    {
+      "mode": "100644",
+      "path": "second_brain/__init__.py",
+      "sha": "0a2736a5857e0b0380e1d695e50715ddabf35841",
+      "size": 1539,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/0a2736a5857e0b0380e1d695e50715ddabf35841"
+    },
+    {
+      "mode": "100644",
+      "path": "second_brain/__main__.py",
+      "sha": "bf0d7f430622016dfa3dbcce4603c76fff2acf4b",
+      "size": 198,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/bf0d7f430622016dfa3dbcce4603c76fff2acf4b"
+    },
+    {
+      "mode": "100644",
+      "path": "second_brain/corpus.py",
+      "sha": "242d8a08aab1c430ff817091aca5ab63e0c351b1",
+      "size": 3825,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/242d8a08aab1c430ff817091aca5ab63e0c351b1"
+    },
+    {
+      "mode": "100644",
+      "path": "second_brain/embedding_cache.py",
+      "sha": "443fe4446ecc73a7a52b031073b914d2600edfb6",
+      "size": 2702,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/443fe4446ecc73a7a52b031073b914d2600edfb6"
+    },
+    {
+      "mode": "100644",
+      "path": "second_brain/frontier.py",
+      "sha": "21da72ea09e12a25291cd083dd6b10c826066cc8",
+      "size": 17009,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/21da72ea09e12a25291cd083dd6b10c826066cc8"
+    },
+    {
+      "mode": "100644",
+      "path": "second_brain/hybrid.py",
+      "sha": "455f0c612948b240b7c3a512880fba4585e822a3",
+      "size": 17575,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/455f0c612948b240b7c3a512880fba4585e822a3"
+    },
+    {
+      "mode": "100644",
+      "path": "second_brain/neomme.py",
+      "sha": "6f4de8462b9d31db05fbec0fec6a102aee920d50",
+      "size": 13066,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/6f4de8462b9d31db05fbec0fec6a102aee920d50"
+    },
+    {
+      "mode": "100644",
+      "path": "second_brain/plan.py",
+      "sha": "4449df21386c0f85d4bfdce5dccdf3ca7bca85c5",
+      "size": 3825,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/4449df21386c0f85d4bfdce5dccdf3ca7bca85c5"
+    },
+    {
+      "mode": "100644",
+      "path": "second_brain/retrieve.py",
+      "sha": "21bf73957b45cdf5ecece06bf6879cb496631461",
+      "size": 12526,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/21bf73957b45cdf5ecece06bf6879cb496631461"
+    },
+    {
+      "mode": "040000",
+      "path": "static",
+      "sha": "e760cddd597f8c47fb2186dcae130663c0508cea",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/trees/e760cddd597f8c47fb2186dcae130663c0508cea"
+    },
+    {
+      "mode": "100644",
+      "path": "static/chamber.html",
+      "sha": "ed940766a630cc810df6c050b6f22f0ae36cd748",
+      "size": 9083,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/ed940766a630cc810df6c050b6f22f0ae36cd748"
+    },
+    {
+      "mode": "100644",
+      "path": "static/index.html",
+      "sha": "272a85bf51b01d459c48dd7c7e876762efb2b5b4",
+      "size": 12168,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/272a85bf51b01d459c48dd7c7e876762efb2b5b4"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "8786b296a9a97a7f36ca55293bb80fafe13623b2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/trees/8786b296a9a97a7f36ca55293bb80fafe13623b2"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_app.py",
+      "sha": "8e54968efb4ec1b09f580a8e0ff957b34875e534",
+      "size": 2371,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/8e54968efb4ec1b09f580a8e0ff957b34875e534"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_app_operational.py",
+      "sha": "b9516a5fc5a6cdca1203357b082992cb52b11474",
+      "size": 2211,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/b9516a5fc5a6cdca1203357b082992cb52b11474"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_continuous_frontier_workflow.py",
+      "sha": "a4191537f1901cbc2d185f70c0e2c31e4a4c7146",
+      "size": 741,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/a4191537f1901cbc2d185f70c0e2c31e4a4c7146"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_embedding_cache.py",
+      "sha": "3031fec4d215bb14b47bcff10465eb503cccd96f",
+      "size": 4074,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/3031fec4d215bb14b47bcff10465eb503cccd96f"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_frontier.py",
+      "sha": "5f1122efa957e760035b48c1ab5a3704a558084f",
+      "size": 6581,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/5f1122efa957e760035b48c1ab5a3704a558084f"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_frontier_top_choice_binding.py",
+      "sha": "2e7db8b01a071267b9ff8bb7d838539d8f9791ca",
+      "size": 2579,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/2e7db8b01a071267b9ff8bb7d838539d8f9791ca"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_generation_upgrade.py",
+      "sha": "0d110c57f841c6ad9e89267a3121bb74e859e5cd",
+      "size": 10428,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/0d110c57f841c6ad9e89267a3121bb74e859e5cd"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_hybrid.py",
+      "sha": "89eb9edc951dd77fa8fac3c1b6ec8a35806d5301",
+      "size": 7002,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/89eb9edc951dd77fa8fac3c1b6ec8a35806d5301"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_neomme_cache_evidence.py",
+      "sha": "eeb1f548e8168eed916d00033bfe404797f0b0fe",
+      "size": 1970,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/eeb1f548e8168eed916d00033bfe404797f0b0fe"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_plan.py",
+      "sha": "da6b36cbba7d7f84d09df96070cbfc3d378d34d1",
+      "size": 1174,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/da6b36cbba7d7f84d09df96070cbfc3d378d34d1"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_retrieve.py",
+      "sha": "df380784680f2b467c0c0d465af96f3384a6e70b",
+      "size": 2569,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/df380784680f2b467c0c0d465af96f3384a6e70b"
+    },
+    {
+      "mode": "040000",
+      "path": "tools",
+      "sha": "e1287f0f251f26c75ae46ea4ba86b495c4bfac78",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/trees/e1287f0f251f26c75ae46ea4ba86b495c4bfac78"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/neomme_corpus_probe.py",
+      "sha": "3d5981608664c0049f9ecc13d4e669fe3413bc98",
+      "size": 7354,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/3d5981608664c0049f9ecc13d4e669fe3413bc98"
+    },
+    {
+      "mode": "040000",
+      "path": "train",
+      "sha": "d95fdcd1aab7bfa8a0b388753604a6c7c3f6cb3c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/trees/d95fdcd1aab7bfa8a0b388753604a6c7c3f6cb3c"
+    },
+    {
+      "mode": "100644",
+      "path": "train/HUB_CARD.md",
+      "sha": "58cf86efd6477c178d69435cb627c85d593848a5",
+      "size": 1060,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/58cf86efd6477c178d69435cb627c85d593848a5"
+    },
+    {
+      "mode": "100644",
+      "path": "train/build_curriculum.py",
+      "sha": "896aeda8a1a12d7d600d998eee4bf238cc9f0478",
+      "size": 6575,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/896aeda8a1a12d7d600d998eee4bf238cc9f0478"
+    },
+    {
+      "mode": "100644",
+      "path": "train/eval_navigator.py",
+      "sha": "feadb1a4f632fca2eeb3a681d0b16b30f41d3ba3",
+      "size": 11316,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/feadb1a4f632fca2eeb3a681d0b16b30f41d3ba3"
+    },
+    {
+      "mode": "100644",
+      "path": "train/eval_report.json",
+      "sha": "8f1c1054b9baf10133924b06842069ba66169cad",
+      "size": 5301,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/8f1c1054b9baf10133924b06842069ba66169cad"
+    },
+    {
+      "mode": "100644",
+      "path": "train/gate_abstain.jsonl",
+      "sha": "99311851bdc41742e741b24324bde0d68555bfac",
+      "size": 6327,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/99311851bdc41742e741b24324bde0d68555bfac"
+    },
+    {
+      "mode": "100644",
+      "path": "train/gate_retrieve.jsonl",
+      "sha": "8c471b481402b8c140fbdad09b4485a9db59bd10",
+      "size": 4459,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/8c471b481402b8c140fbdad09b4485a9db59bd10"
+    },
+    {
+      "mode": "100644",
+      "path": "train/train.jsonl",
+      "sha": "ab120feea3abf9bd97b3d4d7886e748ebb03bae1",
+      "size": 78942,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/ab120feea3abf9bd97b3d4d7886e748ebb03bae1"
+    },
+    {
+      "mode": "100644",
+      "path": "train/train_navigator_r2.py",
+      "sha": "7d54970f1b377502fb782d71f3a4e3778fdc7903",
+      "size": 15041,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/7d54970f1b377502fb782d71f3a4e3778fdc7903"
+    },
+    {
+      "mode": "100644",
+      "path": "train/training_receipt.json",
+      "sha": "d0b89d6e3fd5a2863f295ec13578c9f695e7f3cd",
+      "size": 2204,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/blobs/d0b89d6e3fd5a2863f295ec13578c9f695e7f3cd"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-second-brain/git/trees/25c12301e2fdcb8876352f6566dc2f4d2c6710fc"
+}

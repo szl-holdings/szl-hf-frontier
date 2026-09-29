@@ -1,0 +1,337 @@
+{
+  "sha": "dde99af0564c965edc6a253d4004734157460810",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "c65522e018c5ee629c81552bd636fb84d8f54185",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/trees/c65522e018c5ee629c81552bd636fb84d8f54185"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODEOWNERS",
+      "sha": "5c3d60d2e173f38916e13078a9bda8429626302b",
+      "size": 74,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/5c3d60d2e173f38916e13078a9bda8429626302b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "sha": "415a0a14aebe0102d5db82dcc51dde5db16619f0",
+      "size": 600,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/415a0a14aebe0102d5db82dcc51dde5db16619f0"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CONTRIBUTING.md",
+      "sha": "5395adb4800a22e7fa4883e023301bdc80246bcf",
+      "size": 804,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/5395adb4800a22e7fa4883e023301bdc80246bcf"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/ISSUE_TEMPLATE",
+      "sha": "b406cf7e4f23537f8539f6f81f4cbb4d2eae3f2b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/trees/b406cf7e4f23537f8539f6f81f4cbb4d2eae3f2b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha": "a7c1834f7f391ab52cb7efafe6dffe86e69d54d7",
+      "size": 156,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/a7c1834f7f391ab52cb7efafe6dffe86e69d54d7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "2c7fa02994b4d1e777139a1056acfe0cfc48b806",
+      "size": 224,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/2c7fa02994b4d1e777139a1056acfe0cfc48b806"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha": "2172fe4a415edecdbe763328b04d826137d25987",
+      "size": 169,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/2172fe4a415edecdbe763328b04d826137d25987"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/pull_request_template.md",
+      "sha": "fbc961ca36e0bdad281263470f3d054f6bc98d44",
+      "size": 384,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/fbc961ca36e0bdad281263470f3d054f6bc98d44"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "89035bb2305128f7e64ad93eb1da15061db78d09",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/trees/89035bb2305128f7e64ad93eb1da15061db78d09"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/codeql.yml",
+      "sha": "b1eb24d2224ea9ac9b73d8ae690713c1bf5c9f7d",
+      "size": 1149,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/b1eb24d2224ea9ac9b73d8ae690713c1bf5c9f7d"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/overclaim-guard.yml",
+      "sha": "7d6be6ea81d2fb1f4829869c1f06c416f581d633",
+      "size": 691,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/7d6be6ea81d2fb1f4829869c1f06c416f581d633"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/pin-check.yml",
+      "sha": "f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621",
+      "size": 586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "17fbca699c4149c2a33e9ca261a46290ebcc9340",
+      "size": 88,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/17fbca699c4149c2a33e9ca261a46290ebcc9340"
+    },
+    {
+      "mode": "100644",
+      "path": "API_REFERENCE.md",
+      "sha": "f9804f130d8a6f533f9ee71d9ce80fc31198c44f",
+      "size": 15808,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/f9804f130d8a6f533f9ee71d9ce80fc31198c44f"
+    },
+    {
+      "mode": "100644",
+      "path": "CONTRIBUTING.md",
+      "sha": "b817b4e4404a1a36c625dfbf1fc62c735090e3c2",
+      "size": 1831,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/b817b4e4404a1a36c625dfbf1fc62c735090e3c2"
+    },
+    {
+      "mode": "100644",
+      "path": "DEPRECATED.md",
+      "sha": "51c474756e9933bcecce6a136bc0a136ec9353e6",
+      "size": 1622,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/51c474756e9933bcecce6a136bc0a136ec9353e6"
+    },
+    {
+      "mode": "040000",
+      "path": "EXAMPLES",
+      "sha": "38b6e122668dd093a3843d29d2f8c33f465aabfd",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/trees/38b6e122668dd093a3843d29d2f8c33f465aabfd"
+    },
+    {
+      "mode": "100644",
+      "path": "EXAMPLES/mcp_claude_config.json",
+      "sha": "22b209b00ca048f81e043df21b688dfe00ecbddc",
+      "size": 1121,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/22b209b00ca048f81e043df21b688dfe00ecbddc"
+    },
+    {
+      "mode": "100644",
+      "path": "EXAMPLES/operator_command_example.py",
+      "sha": "951b00eaa8d32324ac8df16e6b31396c4be1965c",
+      "size": 2242,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/951b00eaa8d32324ac8df16e6b31396c4be1965c"
+    },
+    {
+      "mode": "100644",
+      "path": "EXAMPLES/policy_filter_example.py",
+      "sha": "9cbd207fb26483edd7769c09aa62cb260492e365",
+      "size": 1928,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/9cbd207fb26483edd7769c09aa62cb260492e365"
+    },
+    {
+      "mode": "100644",
+      "path": "EXAMPLES/python_quickstart.py",
+      "sha": "bc8cda2e3bc51a6b8ed3283d2555d1fabb4f5ba0",
+      "size": 2176,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/bc8cda2e3bc51a6b8ed3283d2555d1fabb4f5ba0"
+    },
+    {
+      "mode": "100644",
+      "path": "EXAMPLES/willay_quickstart.py",
+      "sha": "451d81a001e03ec5a6d2c555a62428c5e2f8ff23",
+      "size": 9724,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/451d81a001e03ec5a6d2c555a62428c5e2f8ff23"
+    },
+    {
+      "mode": "100644",
+      "path": "GRAPHQL.md",
+      "sha": "88200b7254f71d8cd181656178f032be283c18dd",
+      "size": 5111,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/88200b7254f71d8cd181656178f032be283c18dd"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "57bc88a15a0ee8266c259b2667e64608d3f7e292",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/57bc88a15a0ee8266c259b2667e64608d3f7e292"
+    },
+    {
+      "mode": "100644",
+      "path": "MCP_INTEGRATION.md",
+      "sha": "31fa75fd9fb31baf91445e1df78bd0d5f46c8853",
+      "size": 5157,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/31fa75fd9fb31baf91445e1df78bd0d5f46c8853"
+    },
+    {
+      "mode": "100644",
+      "path": "QUICKSTART.md",
+      "sha": "f52055d6434e681606f3be87db482a9e97b869cf",
+      "size": 3931,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/f52055d6434e681606f3be87db482a9e97b869cf"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "1db0285db1fd6866d101e7baf2908143aee47d84",
+      "size": 4781,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/1db0285db1fd6866d101e7baf2908143aee47d84"
+    },
+    {
+      "mode": "100644",
+      "path": "SDK_DROP_IN.md",
+      "sha": "fe0ea40dbf2c656a553e41064611e19ff5aeafa4",
+      "size": 5801,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/fe0ea40dbf2c656a553e41064611e19ff5aeafa4"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "b1fd01c2bf06a843ce86b67b0664588540760c55",
+      "size": 896,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/b1fd01c2bf06a843ce86b67b0664588540760c55"
+    },
+    {
+      "mode": "100644",
+      "path": "SUBSTRATE_PACKAGES.md",
+      "sha": "2481cb4dcefe4ec815d131f858121eacc0a15009",
+      "size": 4159,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/2481cb4dcefe4ec815d131f858121eacc0a15009"
+    },
+    {
+      "mode": "100644",
+      "path": "VERIFY.md",
+      "sha": "52a417fd0f91bb9642f4d07385050cd9162aceb6",
+      "size": 12966,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/52a417fd0f91bb9642f4d07385050cd9162aceb6"
+    },
+    {
+      "mode": "100644",
+      "path": "WILLAY_API.md",
+      "sha": "cdb72c106cc0f8b662af01814476c0321d6460e6",
+      "size": 13444,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/cdb72c106cc0f8b662af01814476c0321d6460e6"
+    },
+    {
+      "mode": "040000",
+      "path": "site",
+      "sha": "a899b6adb2121a9708502226e61071b9ecf60fed",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/trees/a899b6adb2121a9708502226e61071b9ecf60fed"
+    },
+    {
+      "mode": "100644",
+      "path": "site/README.md",
+      "sha": "1d576086b2ebe76fa3e7edf868591ab9ab6bc738",
+      "size": 1788,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/1d576086b2ebe76fa3e7edf868591ab9ab6bc738"
+    },
+    {
+      "mode": "040000",
+      "path": "site/assets",
+      "sha": "b544cca800665577b7fec56a8adec3d3cfc9ccfd",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/trees/b544cca800665577b7fec56a8adec3d3cfc9ccfd"
+    },
+    {
+      "mode": "100644",
+      "path": "site/assets/app.js",
+      "sha": "06d8a625a26d5e821c681e0b475160984bdb397d",
+      "size": 3976,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/06d8a625a26d5e821c681e0b475160984bdb397d"
+    },
+    {
+      "mode": "100644",
+      "path": "site/assets/kanchay.css",
+      "sha": "69c5ec758c7e0c4566215edb0a05580c4895dbef",
+      "size": 8539,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/69c5ec758c7e0c4566215edb0a05580c4895dbef"
+    },
+    {
+      "mode": "100644",
+      "path": "site/changelog.html",
+      "sha": "b34bf40b657316313c3493cb0afbe3dafa249fa6",
+      "size": 7522,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/b34bf40b657316313c3493cb0afbe3dafa249fa6"
+    },
+    {
+      "mode": "100644",
+      "path": "site/index.html",
+      "sha": "3558167ba7e33a53ed487636b887f1cfb2804be9",
+      "size": 7399,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/3558167ba7e33a53ed487636b887f1cfb2804be9"
+    },
+    {
+      "mode": "100644",
+      "path": "site/reference.html",
+      "sha": "7a3bfcc9e298eece56d30aa6d3e309f9a90c5dd5",
+      "size": 15952,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/7a3bfcc9e298eece56d30aa6d3e309f9a90c5dd5"
+    },
+    {
+      "mode": "100644",
+      "path": "site/status.html",
+      "sha": "730bafd3333b9b05ec2668eef67f416a4bba1452",
+      "size": 12885,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/developers/git/blobs/730bafd3333b9b05ec2668eef67f416a4bba1452"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/developers/git/trees/dde99af0564c965edc6a253d4004734157460810"
+}

@@ -1,0 +1,43 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 16196,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:01Z",
+      "path": "data/reconciliation/source-evidence/5f5f516518393fde4b99d3a8553f983368630b06fb6983e055a58c109c036c6f.json",
+      "revision": "a88731a0b937a29d89bef4ce76a10cd57c1b4c05",
+      "sha256": "5f5f516518393fde4b99d3a8553f983368630b06fb6983e055a58c109c036c6f",
+      "source_identity": "github/szl-holdings/szl-invariants",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-invariants/git/trees/a88731a0b937a29d89bef4ce76a10cd57c1b4c05?recursive=1"
+    }
+  ],
+  "file_count": 41,
+  "id": "github/szl-holdings/szl-invariants",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "a88731a0b937a29d89bef4ce76a10cd57c1b4c05",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    ".zenodo.json",
+    "CHANGELOG.md",
+    "CITATION.cff",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "SECURITY.md",
+    "benchmarks",
+    "build.toml",
+    "build",
+    "publishing",
+    "pyproject.toml",
+    "scripts",
+    "tests",
+    "torch-ext"
+  ]
+}

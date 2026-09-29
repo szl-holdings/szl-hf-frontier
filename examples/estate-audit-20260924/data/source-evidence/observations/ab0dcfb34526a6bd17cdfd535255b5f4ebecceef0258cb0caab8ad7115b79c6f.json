@@ -1,0 +1,20 @@
+{
+  "card": "> **ARCHIVED \u2014 final state.** This repository is **archived** (2026-07-21, org rationalization pass). It is the frozen landing page and reproducibility package for the preprint (DOI [10.5281/zenodo.21332338](https://doi.org/10.5281/zenodo.21332338)); archival read-only state matches its purpose. Related living work lives in `szl-papers` and the platform monorepo.\n\n# Readiness Is Not Evidence\n\n## Fail-Closed Epistemic Boundaries for Governed AI Services\n\n[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21332338.svg)](https://doi.org/10.5281/zenodo.21332338)\n\n**Version:** 0.1.0  \n**Status:** PREPRINT \u2014 NOT PEER REVIEWED  \n**Author:** Stephen P. Lutar Jr.  \n**Affiliation:** SZL Holdings LLC  \n**ORCID:** [0009-0001-0110-4173](https://orcid.org/0009-0001-0110-4173)\n\nThis repository is the public landing page for a 24-page preprint defining fail-closed epistemic boundaries for governed AI services. It separates service readiness from evidence quality, requires explicit abstention and not-evaluated states, preserves provenance and uncertainty, and prevents operational health signals from being misreported as trustworthy knowledge.\n\n## Archival record\n\n- **DOI:** [10.5281/zenodo.21332338](https://doi.org/10.5281/zenodo.21332338)\n- **Zenodo record:** [zenodo.org/records/21332338](https://zenodo.org/records/21332338)\n- **Frozen manuscript:** 24-page PDF in the Zenodo record\n- **Reproducibility package:** checksums, release manifests, provenance notes, source transformations, and packaged evidence in the Zenodo record\n\n## Claim boundary\n\nThis is a preprint, not a peer-reviewed article. Its claims are limited to the evidence admitted in the manuscript and the archived receipts. Repository availability does not establish independent reproduction, deployment, third-party endorsement, or mathematical proof beyond the evidence explicitly identified in the record.\n\nManuscript and documentation are released under CC BY 4.0. Bundled source artifacts retain their Apache-2.0 notices.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 2005,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/9fc6da29d6ec3f6988e3d52dfc792492127abfadb7264f7526050e3056d3f6ab.md",
+      "revision": "40d1b710ac89cecbeee21f97110c761f8b83b950",
+      "sha256": "9fc6da29d6ec3f6988e3d52dfc792492127abfadb7264f7526050e3056d3f6ab",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/fail-closed-governed-ai-services/blob/40d1b710ac89cecbeee21f97110c761f8b83b950/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/fail-closed-governed-ai-services",
+  "observed_at": "2026-09-24T12:29:28Z",
+  "observed_revision": "40d1b710ac89cecbeee21f97110c761f8b83b950"
+}

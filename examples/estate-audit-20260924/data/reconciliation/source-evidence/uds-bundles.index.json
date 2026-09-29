@@ -1,0 +1,63 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 170434,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:09Z",
+      "path": "data/reconciliation/source-evidence/27556169f0bf56644410186059b9dcd285d4a98dd43f50d45cb100683620a4b3.json",
+      "revision": "029350a87d4938d13e16661df272a51a339777af",
+      "sha256": "27556169f0bf56644410186059b9dcd285d4a98dd43f50d45cb100683620a4b3",
+      "source_identity": "github/szl-holdings/uds-bundles",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/uds-bundles/git/trees/029350a87d4938d13e16661df272a51a339777af?recursive=1"
+    }
+  ],
+  "file_count": 429,
+  "id": "github/szl-holdings/uds-bundles",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "029350a87d4938d13e16661df272a51a339777af",
+  "root_paths": [
+    ".editorconfig",
+    ".gitattributes",
+    ".github",
+    ".gitignore",
+    ".gitleaks.toml",
+    "AIRGAP_PROOF_RUNBOOK.md",
+    "ARCHITECTURE.md",
+    "CHANGELOG.md",
+    "CITATION.cff",
+    "CODEOWNERS",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "COSIGN_KEYS.md",
+    "DEPLOY.md",
+    "DEPRECATED.md",
+    "Dockerfile.observatory",
+    "JUNE9_DEPLOY_PROOF.md",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "STATUS.md",
+    "SUPPORT.md",
+    "VERSION",
+    "bigbang",
+    "bundles",
+    "charts",
+    "crds",
+    "docs",
+    "mesh",
+    "observatory",
+    "releases",
+    "requirements-observatory-dev.txt",
+    "requirements-observatory.txt",
+    "scripts",
+    "test",
+    "tests",
+    "tower_bootstrap.sh",
+    "uds-bundle.yaml",
+    "uds-bundles"
+  ]
+}

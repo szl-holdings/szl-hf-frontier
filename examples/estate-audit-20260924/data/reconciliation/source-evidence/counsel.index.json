@@ -1,0 +1,30 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 3305,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:46Z",
+      "path": "data/reconciliation/source-evidence/5633e1bf547602cbd6aea992b59cfc1c46a31c0b35839691e192c7039b34c90f.json",
+      "revision": "f2c3e3ccf053dd94bc2b4c5a3ba82544a4a5240f",
+      "sha256": "5633e1bf547602cbd6aea992b59cfc1c46a31c0b35839691e192c7039b34c90f",
+      "source_identity": "github/szl-holdings/counsel",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/counsel/git/trees/f2c3e3ccf053dd94bc2b4c5a3ba82544a4a5240f?recursive=1"
+    }
+  ],
+  "file_count": 9,
+  "id": "github/szl-holdings/counsel",
+  "license_paths": [],
+  "observed_revision": "f2c3e3ccf053dd94bc2b4c5a3ba82544a4a5240f",
+  "root_paths": [
+    ".github",
+    "Dockerfile",
+    "README.md",
+    "SOURCE_PIN.md",
+    "allodial.py",
+    "app.py",
+    "index.html",
+    "requirements.txt"
+  ]
+}

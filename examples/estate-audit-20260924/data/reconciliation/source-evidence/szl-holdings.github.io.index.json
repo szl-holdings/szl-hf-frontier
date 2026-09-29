@@ -1,0 +1,51 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 19179,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:01Z",
+      "path": "data/reconciliation/source-evidence/eea09ae21de5fd9aa8b78080edeab0ed243b62d4bc0733509d7ccfcd2c96976f.json",
+      "revision": "f716a58d10755b3aee0546f3d55d50b8602d0680",
+      "sha256": "eea09ae21de5fd9aa8b78080edeab0ed243b62d4bc0733509d7ccfcd2c96976f",
+      "source_identity": "github/szl-holdings/szl-holdings.github.io",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-holdings.github.io/git/trees/f716a58d10755b3aee0546f3d55d50b8602d0680?recursive=1"
+    }
+  ],
+  "file_count": 45,
+  "id": "github/szl-holdings/szl-holdings.github.io",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "f716a58d10755b3aee0546f3d55d50b8602d0680",
+  "root_paths": [
+    ".github",
+    ".nojekyll",
+    "404.html",
+    "CNAME",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "api",
+    "app.js",
+    "assets",
+    "brain",
+    "console",
+    "index.html",
+    "khipu",
+    "origin-authority.json",
+    "origin-status.json",
+    "products",
+    "responsive-experience-v3.json",
+    "robots.txt",
+    "scripts",
+    "sitemap.xml",
+    "styles.css",
+    "tests",
+    "tools",
+    "verify"
+  ]
+}

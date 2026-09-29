@@ -1,0 +1,52 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 83325,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:56Z",
+      "path": "data/reconciliation/source-evidence/c3d8bcd594dcf102c1fc2e40d669f0e17f780486653b7e28f03364ceb3cafad0.json",
+      "revision": "ea80c36fe6ca91e693b45adfa6b361ac3fd83058",
+      "sha256": "c3d8bcd594dcf102c1fc2e40d669f0e17f780486653b7e28f03364ceb3cafad0",
+      "source_identity": "github/szl-holdings/szl-brand",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-brand/git/trees/ea80c36fe6ca91e693b45adfa6b361ac3fd83058?recursive=1"
+    }
+  ],
+  "file_count": 242,
+  "id": "github/szl-holdings/szl-brand",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "ea80c36fe6ca91e693b45adfa6b361ac3fd83058",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    ".markdownlint.json",
+    ".pre-commit-config.yaml",
+    ".zenodo.json",
+    "AGENTS.md",
+    "CHANGELOG.md",
+    "CITATION.cff",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "SECURITY.md",
+    "STATUS.md",
+    "anatomy",
+    "docs",
+    "examples",
+    "hatch_build.py",
+    "hololattice",
+    "kit",
+    "mockups",
+    "motion",
+    "posts",
+    "pyproject.toml",
+    "social-previews",
+    "src",
+    "tests"
+  ]
+}

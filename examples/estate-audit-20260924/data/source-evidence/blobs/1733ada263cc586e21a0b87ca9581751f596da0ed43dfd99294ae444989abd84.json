@@ -1,0 +1,19 @@
+{
+  "files": [
+    ".gitattributes",
+    "CITATION.cff",
+    "DATASET_PROVENANCE.json",
+    "LICENSE",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "code/lean/Formulas.lean",
+    "code/lean/lakefile.lean",
+    "code/lean/lean-toolchain",
+    "code/python/composer.py",
+    "code/python/formulas.py",
+    "code/tests/test_composer.py",
+    "code/tests/test_formulas.py"
+  ],
+  "revision": "d6558dc794b0e06636f45b8146da7858056944f2"
+}

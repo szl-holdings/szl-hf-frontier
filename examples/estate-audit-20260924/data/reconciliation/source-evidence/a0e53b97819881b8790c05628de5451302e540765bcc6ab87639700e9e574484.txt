@@ -1,0 +1,332 @@
+# Copyright 2026 SZL Holdings — SPDX-License-Identifier: Apache-2.0
+# CI for the yarqa package + Space endpoints. Actions are SHA-pinned.
+name: Space CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      # actions/checkout@v7.0.1
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      # actions/setup-python@v7.0.0
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: "3.11"
+      - name: Install, attest, and test the locked graph
+        run: |
+          python -m venv .ci-venv
+          .ci-venv/bin/python -m pip install --no-cache-dir --require-hashes --force-reinstall -r .github/requirements/space-ci.lock
+          .ci-venv/bin/python -m pip install --no-cache-dir --no-deps --no-build-isolation .
+          .ci-venv/bin/python -m pip check
+          .ci-venv/bin/python -I - <<'PY'
+          from importlib.metadata import distributions
+          from pathlib import Path
+          import re
+
+          def canonical(name: str) -> str:
+              return re.sub(r"[-_.]+", "-", name).lower()
+
+          lock = Path(".github/requirements/space-ci.lock").read_text(encoding="utf-8")
+          requirement = re.compile(
+              r"^([A-Za-z0-9_.-]+)(?:\[[^\]]+\])?==([^\s\\]+)"
+          )
+          expected = {}
+          for line in lock.splitlines():
+              match = requirement.match(line)
+              if match:
+                  expected[canonical(match.group(1))] = match.group(2)
+          expected["yarqa"] = "0.5.0"
+
+          actual_versions = {}
+          for dist in distributions():
+              if dist.metadata.get("Name"):
+                  actual_versions.setdefault(
+                      canonical(dist.metadata["Name"]), []
+                  ).append(dist.version)
+          duplicates = {
+              name: sorted(versions)
+              for name, versions in actual_versions.items()
+              if len(versions) != 1
+          }
+          if duplicates:
+              raise SystemExit(
+                  f"duplicate installed distributions detected: {duplicates}"
+              )
+          actual = {
+              name: versions[0]
+              for name, versions in actual_versions.items()
+          }
+          print(f"locked test environment: {actual}")
+          if actual != expected:
+              missing = sorted(set(expected) - set(actual))
+              extra = sorted(set(actual) - set(expected))
+              drift = sorted(
+                  name
+                  for name in set(actual) & set(expected)
+                  if actual[name] != expected[name]
+              )
+              raise SystemExit(
+                  "locked test environment mismatch: "
+                  f"missing={missing}, extra={extra}, drift={drift}"
+              )
+
+          required = {
+              "fastapi": "0.141.1",
+              "httpx": "0.28.1",
+              "pip": "26.2.1",
+              "pytest": "9.1.1",
+              "setuptools": "84.0.0",
+              "uvicorn": "0.53.0",
+              "wheel": "0.48.0",
+          }
+          observed = {name: actual.get(name) for name in required}
+          print(f"locked test runtime versions: {observed}")
+          if observed != required:
+              raise SystemExit(
+                  f"locked test runtime mismatch: expected {required}, got {observed}"
+              )
+          PY
+          .ci-venv/bin/python -m pytest tests/ -q
+          .ci-venv/bin/python -m pytest space/tests/test_space_endpoints.py -q
+      - name: Verify vendored THREE is r160 (sovereign, zero CDN)
+        run: |
+          grep -q "REVISION = '160'" space/static/lib/three.min.js
+          ! grep -riE "https?://(cdn|unpkg|cdnjs|jsdelivr|esm\.sh)" space/static/index.html space/static/js
+
+  container-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      SOURCE_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: ${{ env.SOURCE_SHA }}
+      - name: Build the digest-pinned and dependency-locked Space image
+        run: |
+          docker build --pull -f space/Dockerfile \
+            -t yarqa-space-unbound:${SOURCE_SHA} .
+          docker build -f space/Dockerfile \
+            --build-arg SZL_GIT_SHA="${SOURCE_SHA}" \
+            -t yarqa-space-pr:${SOURCE_SHA} .
+      - name: Exercise HF UID, offline liveness, health contract, and unknown-route 404
+        env:
+          IMAGE: yarqa-space-pr:${{ env.SOURCE_SHA }}
+          UNBOUND_IMAGE: yarqa-space-unbound:${{ env.SOURCE_SHA }}
+        run: |
+          set -euo pipefail
+          name="yarqa-space-pr-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          offline="${name}-offline"
+          cleanup() {
+            status=$?
+            trap - EXIT
+            if [ "$status" -ne 0 ]; then
+              docker logs "$name" 2>/dev/null || true
+              docker logs "$offline" 2>/dev/null || true
+            fi
+            docker rm -f "$name" "$offline" >/dev/null 2>&1 || true
+            exit "$status"
+          }
+          trap cleanup EXIT
+
+          docker run --rm -d --network none --name "$offline" "$UNBOUND_IMAGE"
+          test "$(docker exec "$offline" id -u)" = 1000
+          test "$(docker exec "$offline" stat -c '%U:%G:%a' /app/space/app.py)" = "root:root:644"
+          if docker exec "$offline" sh -c 'printf x >> /app/space/app.py'; then
+            echo '::error::runtime UID modified root-owned Space source.'
+            exit 1
+          fi
+          docker exec -i "$offline" python - <<'PY'
+          from importlib.metadata import distributions, version
+          from pathlib import Path
+          import json
+          import re
+          import time
+          import urllib.request
+          import yarqa
+
+          def canonical(name: str) -> str:
+              return re.sub(r"[-_.]+", "-", name).lower()
+
+          lock = Path("/app/space/requirements.lock").read_text(encoding="utf-8")
+          requirement = re.compile(
+              r"^([A-Za-z0-9_.-]+)(?:\[[^\]]+\])?==([^\s\\]+)"
+          )
+          expected = {}
+          for line in lock.splitlines():
+              match = requirement.match(line)
+              if match:
+                  expected[canonical(match.group(1))] = match.group(2)
+          expected["yarqa"] = "0.5.0"
+
+          actual_versions = {}
+          for dist in distributions():
+              if dist.metadata.get("Name"):
+                  actual_versions.setdefault(
+                      canonical(dist.metadata["Name"]), []
+                  ).append(dist.version)
+          duplicates = {
+              name: sorted(versions)
+              for name, versions in actual_versions.items()
+              if len(versions) != 1
+          }
+          if duplicates:
+              raise SystemExit(
+                  f"duplicate container distributions detected: {duplicates}"
+              )
+          actual = {
+              name: versions[0]
+              for name, versions in actual_versions.items()
+          }
+          if actual != expected:
+              raise SystemExit(
+                  f"container dependency closure mismatch: expected {expected}, got {actual}"
+              )
+
+          package_path = Path(yarqa.__file__).resolve()
+          if Path("/app") in package_path.parents:
+            raise SystemExit(
+                  f"yarqa package remains editable from the runtime source tree: {package_path}"
+              )
+
+          runtime_versions = {
+              dependency: version(dependency)
+              for dependency in (
+                  "fastapi",
+                  "pip",
+                  "setuptools",
+                  "starlette",
+                  "uvicorn",
+                  "wheel",
+              )
+          }
+          expected_runtime_versions = {
+              "fastapi": "0.141.1",
+              "pip": "26.2.1",
+              "setuptools": "84.0.0",
+              "uvicorn": "0.53.0",
+              "wheel": "0.48.0",
+          }
+          print(f"locked container runtime versions: {runtime_versions}")
+          for dependency, expected in expected_runtime_versions.items():
+              if runtime_versions[dependency] != expected:
+                  raise SystemExit(
+                      f"locked container {dependency} mismatch: expected {expected}, "
+                      f"got {runtime_versions[dependency]}"
+                  )
+
+          deadline = time.monotonic() + 90
+          while time.monotonic() < deadline:
+              try:
+                  with urllib.request.urlopen("http://127.0.0.1:7860/livez", timeout=2) as response:
+                      body = json.load(response)
+                  if (
+                      body.get("ok") is True
+                      and body.get("check") == "liveness"
+                      and body.get("yarqa_package_source") == "installed-distribution"
+                  ):
+                      break
+              except (OSError, ValueError):
+                  pass
+              time.sleep(1)
+          else:
+              raise SystemExit("offline /livez did not satisfy the liveness contract")
+
+          with urllib.request.urlopen("http://127.0.0.1:7860/api/build-info", timeout=3) as response:
+              build_info = json.load(response)
+          if build_info != {
+              "service": "yarqa-space",
+              "build": {"state": "UNAVAILABLE", "revision": None},
+              "receipt_minted": False,
+          }:
+              raise SystemExit("unbound image did not fail closed at /api/build-info")
+          PY
+
+          docker run --rm -d --name "$name" -p 7860:7860 \
+            -e SZL_GIT_SHA=cccccccccccccccccccccccccccccccccccccccc "$IMAGE"
+          test "$(docker exec "$name" id -u)" = 1000
+          test "$(docker exec "$name" stat -c '%U:%G:%a' /usr/share/szl)" = "root:root:555"
+          test "$(docker exec "$name" stat -c '%U:%G:%a' /usr/share/szl/source-revision)" = "root:root:444"
+          if docker exec "$name" chmod 0644 /usr/share/szl/source-revision; then
+            echo '::error::runtime UID changed immutable source identity permissions.'
+            exit 1
+          fi
+          if docker exec "$name" rm /usr/share/szl/source-revision; then
+            echo '::error::runtime UID removed immutable source identity.'
+            exit 1
+          fi
+          if docker exec "$name" sh -c 'printf %s dddddddddddddddddddddddddddddddddddddddd > /usr/share/szl/source-revision'; then
+            echo '::error::runtime UID replaced immutable source identity bytes.'
+            exit 1
+          fi
+          python - <<'PY'
+          import json
+          import os
+          import time
+          import urllib.error
+          import urllib.request
+
+          liveness = "http://127.0.0.1:7860/livez"
+          deadline = time.monotonic() + 90
+          while time.monotonic() < deadline:
+              try:
+                  with urllib.request.urlopen(liveness, timeout=2) as response:
+                      body = json.load(response)
+                  if (
+                      body.get("ok") is True
+                      and body.get("check") == "liveness"
+                      and body.get("yarqa_package_source") == "installed-distribution"
+                  ):
+                      break
+              except (OSError, ValueError):
+                  pass
+              time.sleep(1)
+          else:
+              raise SystemExit("/livez did not satisfy the Yarqa contract")
+
+          with urllib.request.urlopen("http://127.0.0.1:7860/healthz", timeout=45) as response:
+              health = json.load(response)
+          if health.get("ok") is not True or health.get("service") != "yarqa-space":
+              raise SystemExit("/healthz did not satisfy the source-of-truth contract")
+
+          with urllib.request.urlopen("http://127.0.0.1:7860/api/build-info", timeout=3) as response:
+              build_info = json.load(response)
+              cache_control = response.headers.get("Cache-Control")
+              content_type_options = response.headers.get("X-Content-Type-Options")
+          if build_info != {
+              "service": "yarqa-space",
+              "build": {"state": "OBSERVED", "revision": os.environ["SOURCE_SHA"]},
+              "receipt_minted": False,
+          }:
+              raise SystemExit("bound image did not expose the exact source revision")
+          if cache_control != "no-store" or content_type_options != "nosniff":
+              raise SystemExit("/api/build-info lacks required response hardening")
+
+          try:
+              urllib.request.urlopen("http://127.0.0.1:7860/definitely-missing", timeout=3)
+          except urllib.error.HTTPError as exc:
+              if exc.code != 404:
+                  raise
+          else:
+              raise SystemExit("unknown route did not return 404")
+          PY
+          for _ in $(seq 1 45); do
+            status="$(docker inspect -f '{{.State.Health.Status}}' "$name")"
+            if [ "$status" = healthy ]; then
+              break
+            fi
+            if [ "$status" = unhealthy ]; then
+              docker logs "$name"
+              exit 1
+            fi
+            sleep 1
+          done
+          test "$(docker inspect -f '{{.State.Health.Status}}' "$name")" = healthy

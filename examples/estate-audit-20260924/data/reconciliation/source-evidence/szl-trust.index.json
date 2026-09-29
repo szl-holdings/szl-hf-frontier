@@ -1,0 +1,39 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 15674,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:08Z",
+      "path": "data/reconciliation/source-evidence/ace0bd82d2a69ab60bc570ae590010dc97baca27672d4e21df222665663804e2.json",
+      "revision": "7464c95764378f98c7a62493644bb62cede12ac9",
+      "sha256": "ace0bd82d2a69ab60bc570ae590010dc97baca27672d4e21df222665663804e2",
+      "source_identity": "github/szl-holdings/szl-trust",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-trust/git/trees/7464c95764378f98c7a62493644bb62cede12ac9?recursive=1"
+    }
+  ],
+  "file_count": 45,
+  "id": "github/szl-holdings/szl-trust",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "7464c95764378f98c7a62493644bb62cede12ac9",
+  "root_paths": [
+    ".github",
+    ".zenodo.json",
+    "CITATION.cff",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "DEPRECATED.md",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "SECURITY.md",
+    "TRUST_DEEP.md",
+    "runs",
+    "scripts",
+    "tests",
+    "verify.sh"
+  ]
+}

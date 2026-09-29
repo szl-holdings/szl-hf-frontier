@@ -1,0 +1,17 @@
+{
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "app.py",
+    "c2/index.html",
+    "crosscheck.py",
+    "estates.json",
+    "holo/index.html",
+    "requirements.txt",
+    "test_runtime_contract.py",
+    "tests/test_app.py",
+    "tests/test_hub_listing.py",
+    "verticals.json"
+  ],
+  "revision": "6af285afe2582d9951f95f4aa77de2c3735ce524"
+}

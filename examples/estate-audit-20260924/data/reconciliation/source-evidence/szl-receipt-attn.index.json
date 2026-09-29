@@ -1,0 +1,41 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 11148,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:06Z",
+      "path": "data/reconciliation/source-evidence/18fcacea565e3664043b78e4b464ce5a98af6d56d6839a1df82f3b9f566e4e87.json",
+      "revision": "dd0b8c8f08b236cae323a41028e159e63e6b3d3a",
+      "sha256": "18fcacea565e3664043b78e4b464ce5a98af6d56d6839a1df82f3b9f566e4e87",
+      "source_identity": "github/szl-holdings/szl-receipt-attn",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-receipt-attn/git/trees/dd0b8c8f08b236cae323a41028e159e63e6b3d3a?recursive=1"
+    }
+  ],
+  "file_count": 31,
+  "id": "github/szl-holdings/szl-receipt-attn",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "dd0b8c8f08b236cae323a41028e159e63e6b3d3a",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    ".zenodo.json",
+    "CARD.md",
+    "CITATION.cff",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "SECURITY.md",
+    "build.toml",
+    "example.py",
+    "flake.nix",
+    "pyproject.toml",
+    "tests",
+    "torch-ext"
+  ]
+}

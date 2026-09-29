@@ -1,0 +1,14 @@
+{
+  "files": [
+    ".gitattributes",
+    "BENCH.laptop-blackwell.json",
+    "LICENSE",
+    "README.md",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "moons.npz",
+    "provenance.json",
+    "status.json"
+  ],
+  "revision": "77d002f9314dc0c86cd0f14e63fff60364929652"
+}

@@ -1,0 +1,60 @@
+{
+  "sha": "ef519c090c9e2c19852e8b5c774fc41c750d9ec5",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "6d4268aa0cb5d59a4c394590eaf8e3ded29a0743",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-telemetry/git/trees/6d4268aa0cb5d59a4c394590eaf8e3ded29a0743"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "2d35136704e4905824d32816a94f260d4038fa5a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-telemetry/git/trees/2d35136704e4905824d32816a94f260d4038fa5a"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/snapshot.yml",
+      "sha": "c642320ad59528248197ff4b9b7752f106d82508",
+      "size": 1100,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-telemetry/git/blobs/c642320ad59528248197ff4b9b7752f106d82508"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-telemetry/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "6733255da49a466f4805306e114c218c0f5dcfc8",
+      "size": 1811,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-telemetry/git/blobs/6733255da49a466f4805306e114c218c0f5dcfc8"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "ca8c283f8042d486bf5dc8886cd7ee6cd6920aa2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-telemetry/git/trees/ca8c283f8042d486bf5dc8886cd7ee6cd6920aa2"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/snapshot.py",
+      "sha": "215e1223a893d74ee432540b87880a78f987849d",
+      "size": 4426,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-telemetry/git/blobs/215e1223a893d74ee432540b87880a78f987849d"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-telemetry/git/trees/ef519c090c9e2c19852e8b5c774fc41c750d9ec5"
+}

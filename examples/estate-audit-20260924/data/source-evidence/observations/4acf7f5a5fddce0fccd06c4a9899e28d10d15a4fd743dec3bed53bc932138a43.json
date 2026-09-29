@@ -1,0 +1,39 @@
+{
+  "card": "---\ntitle: Terra\nemoji: \ud83d\udef0\ufe0f\ncolorFrom: gray\ncolorTo: blue\nsdk: docker\napp_port: 7860\npinned: true\nlicense: apache-2.0\nshort_description: \"Parcel-to-portfolio real estate decision intelligence\"\ntags:\n  - szl-holdings\n  - governed-ai\n  - terra\n---\n\n# Terra\n\nREAL ESTATE INTELLIGENCE flagship for SZL Holdings.\n\nThis Space uses **Domain Experience v4**: an original, domain-specific interface over the shared governed vertical runtime. Runtime claims fail closed to `UNAVAILABLE`; evidence states are never collapsed.\n\nLanding shell: `szl-vertical-forge/0.2.2` from [szl-holdings/szl-vertical-forge](https://github.com/szl-holdings/szl-vertical-forge). The existing Domain Experience v4 workbench remains available at `/panels`; `/build-receipt.json` exposes the source-bound runtime receipt.\n\n\nCanonical product source: https://github.com/szl-holdings/szl-real-estate\n\nDeployment controller: https://github.com/szl-holdings/a11oy\n\nPortfolio: https://a-11-oy.com/products/\n\nLicense: Apache-2.0. Public Experience: `4.0.0`.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 229,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/f46e79d98cf1864493b38c014c389ef3106ebdb97d2712aa6a34e18ab9004e05.json",
+      "revision": "173b7d561f2ac14a5c8e0b704e46bfc6403e1f58",
+      "sha256": "f46e79d98cf1864493b38c014c389ef3106ebdb97d2712aa6a34e18ab9004e05",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/terra/revision/173b7d561f2ac14a5c8e0b704e46bfc6403e1f58"
+    },
+    {
+      "bytes": 1024,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/90e0db83c7b0e9243d3597281e3975d51d393b9f35cfeb04bbc5d8e3aa095f36.md",
+      "revision": "173b7d561f2ac14a5c8e0b704e46bfc6403e1f58",
+      "sha256": "90e0db83c7b0e9243d3597281e3975d51d393b9f35cfeb04bbc5d8e3aa095f36",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/terra/resolve/173b7d561f2ac14a5c8e0b704e46bfc6403e1f58/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "Dockerfile",
+    "README.md",
+    "app.py",
+    "config.json",
+    "index.html",
+    "panels.html",
+    "requirements.txt"
+  ],
+  "id": "huggingface-space/szlholdings/terra",
+  "observed_at": "2026-09-24T12:30:02Z",
+  "observed_revision": "173b7d561f2ac14a5c8e0b704e46bfc6403e1f58"
+}

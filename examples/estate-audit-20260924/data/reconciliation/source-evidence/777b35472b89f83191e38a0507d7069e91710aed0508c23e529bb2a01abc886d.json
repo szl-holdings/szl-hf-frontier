@@ -1,0 +1,383 @@
+{
+  "sha": "f7cce8e4159432af36c012d5ee5df635b853b36c",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "7e71abda2ea9283c7f69ea6df0846888db416e58",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/trees/7e71abda2ea9283c7f69ea6df0846888db416e58"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "1920c59ca514cacdd8d1874946645133f0680997",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/trees/1920c59ca514cacdd8d1874946645133f0680997"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/cpu-contract.yml",
+      "sha": "7f08ca836984dd1c77f3a914e3b92154c4eb82fd",
+      "size": 4826,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/7f08ca836984dd1c77f3a914e3b92154c4eb82fd"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "0d7c2293333cae1207cabd6591c1b97b3d0cd461",
+      "size": 152,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/0d7c2293333cae1207cabd6591c1b97b3d0cd461"
+    },
+    {
+      "mode": "100644",
+      "path": ".zenodo.json",
+      "sha": "65a2d39bfa92721556c588068985e5db31a1f57b",
+      "size": 865,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/65a2d39bfa92721556c588068985e5db31a1f57b"
+    },
+    {
+      "mode": "100644",
+      "path": "BASE_MODEL_MANIFEST.json",
+      "sha": "b55db244707b565b6211b794eecd7b3b677adb9e",
+      "size": 1601,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/b55db244707b565b6211b794eecd7b3b677adb9e"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "2160623a671fc67ce13e4cd22a47f04aeb59f52f",
+      "size": 376,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/2160623a671fc67ce13e4cd22a47f04aeb59f52f"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "Modelfile",
+      "sha": "563683f65a282d38e2a0a22527204f6619b0d179",
+      "size": 1137,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/563683f65a282d38e2a0a22527204f6619b0d179"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "1696202b0116d21e09c8d5ba9aa58a071b95498b",
+      "size": 7046,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/1696202b0116d21e09c8d5ba9aa58a071b95498b"
+    },
+    {
+      "mode": "100644",
+      "path": "SZL_ESTATE_MANAGED.json",
+      "sha": "7bca667118d84589163ac9f1dfecf55c4c75842f",
+      "size": 674,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/7bca667118d84589163ac9f1dfecf55c4c75842f"
+    },
+    {
+      "mode": "100644",
+      "path": "TRAINING_RECEIPT.json",
+      "sha": "a818f69fec1e19f98936c4a2c70f9bcbd44e1408",
+      "size": 3079,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/a818f69fec1e19f98936c4a2c70f9bcbd44e1408"
+    },
+    {
+      "mode": "040000",
+      "path": "frontier",
+      "sha": "fe8cd0122b74d644100a72e4cf550b5c6a3a1042",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/trees/fe8cd0122b74d644100a72e4cf550b5c6a3a1042"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/glm-5-3-flash-evaluation-witness.v1.json",
+      "sha": "7e1c64d301d74a233da3a3d07aa2e612c5c95dac",
+      "size": 2690,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/7e1c64d301d74a233da3a3d07aa2e612c5c95dac"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/hf-top-choice-2026-09-07.json",
+      "sha": "b7728cf008623f31064bb100c299b1ebf4f09446",
+      "size": 3072,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/b7728cf008623f31064bb100c299b1ebf4f09446"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/pinned-model-wave-witness-2026-09-07.json",
+      "sha": "d326b13df2b9d08f062d68e3613d22de4c994512",
+      "size": 6685,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/d326b13df2b9d08f062d68e3613d22de4c994512"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "56f3cf7b613950614e87c7897abcb5fea4fda043",
+      "size": 621,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/56f3cf7b613950614e87c7897abcb5fea4fda043"
+    },
+    {
+      "mode": "040000",
+      "path": "quarantine",
+      "sha": "5160a453a7dc0f5d4f33d9e50b07d861067989cc",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/trees/5160a453a7dc0f5d4f33d9e50b07d861067989cc"
+    },
+    {
+      "mode": "100644",
+      "path": "quarantine/README.md",
+      "sha": "6c364de7abae62ffc49a57499af1112b810c8ebc",
+      "size": 466,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/6c364de7abae62ffc49a57499af1112b810c8ebc"
+    },
+    {
+      "mode": "100644",
+      "path": "quarantine/forge_surrogate.py",
+      "sha": "3ef7cdee6938bfa5a857155b193bbebc1e043ccf",
+      "size": 20802,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/3ef7cdee6938bfa5a857155b193bbebc1e043ccf"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "35c0107628c7b21e7fa9fc44e2b2fd172cdf349b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/trees/35c0107628c7b21e7fa9fc44e2b2fd172cdf349b"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/build_vectors.py",
+      "sha": "a2b5e4c7c790be0e0542c700257855526e971233",
+      "size": 5458,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/a2b5e4c7c790be0e0542c700257855526e971233"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/eval.py",
+      "sha": "8ca5ae267587d309b8e71d1b17af6b7b1d04c9e4",
+      "size": 1624,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/8ca5ae267587d309b8e71d1b17af6b7b1d04c9e4"
+    },
+    {
+      "mode": "040000",
+      "path": "szl_nemo",
+      "sha": "7326fa99cb1ded6f984f55b769bdcfb9e6eac1fb",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/trees/7326fa99cb1ded6f984f55b769bdcfb9e6eac1fb"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_nemo/__init__.py",
+      "sha": "894e2f249e103f1f8dc138a18a233346bf27f467",
+      "size": 1344,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/894e2f249e103f1f8dc138a18a233346bf27f467"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_nemo/__main__.py",
+      "sha": "6aa53f6daf2ee6c5a36257be6eb8fe671ff5345f",
+      "size": 170,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/6aa53f6daf2ee6c5a36257be6eb8fe671ff5345f"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_nemo/cli.py",
+      "sha": "6f0659c9010416b4e9eee15859e010badaa77df7",
+      "size": 7888,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/6f0659c9010416b4e9eee15859e010badaa77df7"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_nemo/engine.py",
+      "sha": "ffc4ea077f1ab7588e137df1836d39acf4e4cf49",
+      "size": 3673,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/ffc4ea077f1ab7588e137df1836d39acf4e4cf49"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_nemo/envelope.py",
+      "sha": "000ba890d820e3922b757a310efbe12988e2743e",
+      "size": 15848,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/000ba890d820e3922b757a310efbe12988e2743e"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_nemo/receipt.py",
+      "sha": "555bffff3ed789612e17d555fc3e4e9ad69e2ad4",
+      "size": 4707,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/555bffff3ed789612e17d555fc3e4e9ad69e2ad4"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_nemo/rules.py",
+      "sha": "dfa1264e681b099d829962401206151aea06edb0",
+      "size": 3651,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/dfa1264e681b099d829962401206151aea06edb0"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_nemo/schema.py",
+      "sha": "17be441c911b25c03894c3c9b8824d86f93ca7d6",
+      "size": 2853,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/17be441c911b25c03894c3c9b8824d86f93ca7d6"
+    },
+    {
+      "mode": "040000",
+      "path": "szl_nemo/vectors",
+      "sha": "0ecb16d3ccd6c514d67f0d6d3096abc7097a0be7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/trees/0ecb16d3ccd6c514d67f0d6d3096abc7097a0be7"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_nemo/vectors/README.md",
+      "sha": "bdf0ae4cbd70f915d08c3db043dcaf85e57ddfad",
+      "size": 1705,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/bdf0ae4cbd70f915d08c3db043dcaf85e57ddfad"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_nemo/vectors/allow.jsonl",
+      "sha": "c7e469e2b1573d0484840081be73b8f1a7f94fb4",
+      "size": 1547,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/c7e469e2b1573d0484840081be73b8f1a7f94fb4"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_nemo/vectors/deny.jsonl",
+      "sha": "433404b94da4f19b06dfe917a2f87d52ef24f208",
+      "size": 2104,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/433404b94da4f19b06dfe917a2f87d52ef24f208"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "226a2e1938f90a8a7257fe9b987dba53d12f5b57",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/trees/226a2e1938f90a8a7257fe9b987dba53d12f5b57"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_cli.py",
+      "sha": "3a57a32013d5b89e2d4ba098c082b8c9654341cb",
+      "size": 3687,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/3a57a32013d5b89e2d4ba098c082b8c9654341cb"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_determinism.py",
+      "sha": "4bf61e91107b92ff98d4522817f3122ca95dd5a0",
+      "size": 1466,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/4bf61e91107b92ff98d4522817f3122ca95dd5a0"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_engine.py",
+      "sha": "04569d8d2ba212b4418ff22fe3525bb3241eae25",
+      "size": 3776,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/04569d8d2ba212b4418ff22fe3525bb3241eae25"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_envelope.py",
+      "sha": "e1b1c64b5143ab0c1a8ae432a3b2e965f5adb7dd",
+      "size": 8674,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/e1b1c64b5143ab0c1a8ae432a3b2e965f5adb7dd"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_frontier_witness_binding.py",
+      "sha": "8a17dbf4883c73a57e88ac9c17e0751f8cea7886",
+      "size": 2456,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/8a17dbf4883c73a57e88ac9c17e0751f8cea7886"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_glm_provider_evaluation_witness.py",
+      "sha": "1d71fd451d61b9d38cb919bafda9140e990e55f7",
+      "size": 3227,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/1d71fd451d61b9d38cb919bafda9140e990e55f7"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_no_unsafe_serialization.py",
+      "sha": "359b7d28db5aa7cb240c3fa36a22e599b8313c53",
+      "size": 1067,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/359b7d28db5aa7cb240c3fa36a22e599b8313c53"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_pinned_model_wave_witness.py",
+      "sha": "2ca5ac6b440237f2d12bbb99bb9dd2ff0b478b0b",
+      "size": 5014,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/2ca5ac6b440237f2d12bbb99bb9dd2ff0b478b0b"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_receipt.py",
+      "sha": "affc0f6ce296a0bfe0c30c4fb03fe80faf61e923",
+      "size": 6089,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/affc0f6ce296a0bfe0c30c4fb03fe80faf61e923"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_rule_check.py",
+      "sha": "5724a7b81cdabd2d70ed68151d1a53a0f6b01e14",
+      "size": 1839,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/5724a7b81cdabd2d70ed68151d1a53a0f6b01e14"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_vectors.py",
+      "sha": "ec85193bc847911b1c6b32beeb21b0e6373a7464",
+      "size": 2557,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/blobs/ec85193bc847911b1c6b32beeb21b0e6373a7464"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/trees/f7cce8e4159432af36c012d5ee5df635b853b36c"
+}

@@ -1,0 +1,40 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 14067,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:03Z",
+      "path": "data/reconciliation/source-evidence/777b35472b89f83191e38a0507d7069e91710aed0508c23e529bb2a01abc886d.json",
+      "revision": "f7cce8e4159432af36c012d5ee5df635b853b36c",
+      "sha256": "777b35472b89f83191e38a0507d7069e91710aed0508c23e529bb2a01abc886d",
+      "source_identity": "github/szl-holdings/szl-nemo",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-nemo/git/trees/f7cce8e4159432af36c012d5ee5df635b853b36c?recursive=1"
+    }
+  ],
+  "file_count": 40,
+  "id": "github/szl-holdings/szl-nemo",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "f7cce8e4159432af36c012d5ee5df635b853b36c",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    ".zenodo.json",
+    "BASE_MODEL_MANIFEST.json",
+    "CITATION.cff",
+    "LICENSE",
+    "Modelfile",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "TRAINING_RECEIPT.json",
+    "frontier",
+    "pyproject.toml",
+    "quarantine",
+    "scripts",
+    "szl_nemo",
+    "tests"
+  ]
+}

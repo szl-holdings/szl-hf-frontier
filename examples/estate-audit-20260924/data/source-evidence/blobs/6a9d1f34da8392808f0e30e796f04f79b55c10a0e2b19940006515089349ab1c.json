@@ -1,0 +1,25 @@
+{
+  "files": [
+    ".gitattributes",
+    "BENCH.laptop-blackwell.json",
+    "LICENSE",
+    "MODEL_PROVENANCE.json",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "SECURITY.md",
+    "SZL_ESTATE_MANAGED.json",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "build.toml",
+    "build/torch-universal/szl_provctl/__init__.py",
+    "build/torch-universal/szl_provctl/_chain.py",
+    "build/torch-universal/szl_provctl/_dag.py",
+    "build/torch-universal/szl_provctl/_energy.py",
+    "build/torch-universal/szl_provctl/_interop.py",
+    "build/torch-universal/szl_provctl/metadata.json",
+    "card/holo-banner.svg",
+    "scripts/eval.py",
+    "scripts/forge.py"
+  ],
+  "revision": "c71443c62f7f03a2d1a6151d47194843843aed6a"
+}

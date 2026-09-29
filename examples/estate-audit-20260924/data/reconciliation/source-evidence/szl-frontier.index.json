@@ -1,0 +1,50 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 157465,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:00Z",
+      "path": "data/reconciliation/source-evidence/c03a9ee191e607ae9bb7ea1f2820df45444ffdf932a2fd32da75a9cf04fd56fb.json",
+      "revision": "d24d7a224d1e608f5df6ab6bfc896875d78bfb47",
+      "sha256": "c03a9ee191e607ae9bb7ea1f2820df45444ffdf932a2fd32da75a9cf04fd56fb",
+      "source_identity": "github/szl-holdings/szl-frontier",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-frontier/git/trees/d24d7a224d1e608f5df6ab6bfc896875d78bfb47?recursive=1"
+    }
+  ],
+  "file_count": 459,
+  "id": "github/szl-holdings/szl-frontier",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "d24d7a224d1e608f5df6ab6bfc896875d78bfb47",
+  "root_paths": [
+    ".dockerignore",
+    ".gitattributes",
+    ".github",
+    ".gitignore",
+    ".prettierrc",
+    "Dockerfile",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "docs",
+    "eslint.config.mjs",
+    "frontier",
+    "hf",
+    "migrations",
+    "package-lock.json",
+    "package.json",
+    "public",
+    "pyproject.toml",
+    "python",
+    "scripts",
+    "server",
+    "src",
+    "startup.sh",
+    "tools",
+    "tsconfig.json",
+    "vite.config.ts"
+  ]
+}

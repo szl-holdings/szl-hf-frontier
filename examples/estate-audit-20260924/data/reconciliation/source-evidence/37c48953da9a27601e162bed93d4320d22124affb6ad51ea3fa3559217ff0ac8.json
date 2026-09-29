@@ -1,0 +1,1578 @@
+{
+  "sha": "5eb303b4d611c14906cbe455c5f2d27999e9c3a4",
+  "tree": [
+    {
+      "mode": "100644",
+      "path": ".eslintrc.json",
+      "sha": "ddf903c7ec131de8851dd270f842b1213cbfe130",
+      "size": 422,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/ddf903c7ec131de8851dd270f842b1213cbfe130"
+    },
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "bedefae608edcf4e3b6fee7f15d2e0cfffd4cffd",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/bedefae608edcf4e3b6fee7f15d2e0cfffd4cffd"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODEOWNERS",
+      "sha": "e3a543f46019d7d035ea135ee4a82468956663e9",
+      "size": 72,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/e3a543f46019d7d035ea135ee4a82468956663e9"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "sha": "415a0a14aebe0102d5db82dcc51dde5db16619f0",
+      "size": 600,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/415a0a14aebe0102d5db82dcc51dde5db16619f0"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CONTRIBUTING.md",
+      "sha": "5395adb4800a22e7fa4883e023301bdc80246bcf",
+      "size": 804,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/5395adb4800a22e7fa4883e023301bdc80246bcf"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/ISSUE_TEMPLATE",
+      "sha": "b406cf7e4f23537f8539f6f81f4cbb4d2eae3f2b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/b406cf7e4f23537f8539f6f81f4cbb4d2eae3f2b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha": "a7c1834f7f391ab52cb7efafe6dffe86e69d54d7",
+      "size": 156,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/a7c1834f7f391ab52cb7efafe6dffe86e69d54d7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "2c7fa02994b4d1e777139a1056acfe0cfc48b806",
+      "size": 224,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/2c7fa02994b4d1e777139a1056acfe0cfc48b806"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha": "2172fe4a415edecdbe763328b04d826137d25987",
+      "size": 169,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/2172fe4a415edecdbe763328b04d826137d25987"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/dependabot.yml",
+      "sha": "a3523d398441a14e84a087731841ae485830f965",
+      "size": 794,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/a3523d398441a14e84a087731841ae485830f965"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/pull_request_template.md",
+      "sha": "fbc961ca36e0bdad281263470f3d054f6bc98d44",
+      "size": 384,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/fbc961ca36e0bdad281263470f3d054f6bc98d44"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "c292657e8bb949e642b820abd4dc7ab5a4588d7a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/c292657e8bb949e642b820abd4dc7ab5a4588d7a"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/anatomy-evolved-ci.yml",
+      "sha": "66f04fdc67ee67b2118575bbf62df6c255726db0",
+      "size": 1821,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/66f04fdc67ee67b2118575bbf62df6c255726db0"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "56aa66494d385b27ee40ba7963efedc4ea5cb17a",
+      "size": 2187,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/56aa66494d385b27ee40ba7963efedc4ea5cb17a"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/codeql.yml",
+      "sha": "5f1fb4160cea526518c9bb60f54fd0633bce828e",
+      "size": 1264,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/5f1fb4160cea526518c9bb60f54fd0633bce828e"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/dco.yml",
+      "sha": "60d74c29f98c55e139103ebc3720a383de76f0df",
+      "size": 1660,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/60d74c29f98c55e139103ebc3720a383de76f0df"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/fuzz.yml",
+      "sha": "ddcd8c6ade64520c2b560188e9d5c765498469ce",
+      "size": 669,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/ddcd8c6ade64520c2b560188e9d5c765498469ce"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/lockfile-registry.yml",
+      "sha": "c3d64da2ef455aa46e0ffdc5f75a2b156a90a1ac",
+      "size": 618,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/c3d64da2ef455aa46e0ffdc5f75a2b156a90a1ac"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/overclaim-guard.yml",
+      "sha": "cf753639a7d367aaa12e398368f44140bc5c6d5c",
+      "size": 734,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/cf753639a7d367aaa12e398368f44140bc5c6d5c"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/pin-check.yml",
+      "sha": "f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621",
+      "size": 586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/requirements-fuzz.txt",
+      "sha": "0461c3ad9fb446a43d6d820c6825b6f8b1fa27a7",
+      "size": 1955,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/0461c3ad9fb446a43d6d820c6825b6f8b1fa27a7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/sbom.yml",
+      "sha": "5643755cdf9a1a1b09cc7c785ca8e2a2c80c7164",
+      "size": 627,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/5643755cdf9a1a1b09cc7c785ca8e2a2c80c7164"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/scorecard.yml",
+      "sha": "1ef8d049733677f1731338cca238249cdc1f4508",
+      "size": 1181,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/1ef8d049733677f1731338cca238249cdc1f4508"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/tests.yml",
+      "sha": "cd430b523b890d85ffa6b802f91272cd55c28030",
+      "size": 342,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/cd430b523b890d85ffa6b802f91272cd55c28030"
+    },
+    {
+      "mode": "100644",
+      "path": ".markdownlint.json",
+      "sha": "d22f1b3cfc7fe6ff53f1b9e315454a8f923c9b04",
+      "size": 93,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/d22f1b3cfc7fe6ff53f1b9e315454a8f923c9b04"
+    },
+    {
+      "mode": "100644",
+      "path": ".pre-commit-config.yaml",
+      "sha": "1e78cb78f9c60bb6e0d4378dceb90b773e2fcfd4",
+      "size": 578,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/1e78cb78f9c60bb6e0d4378dceb90b773e2fcfd4"
+    },
+    {
+      "mode": "100644",
+      "path": ".prettierrc.json",
+      "sha": "13cc8056e923fd83e62bc64f22ac670670c78461",
+      "size": 126,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/13cc8056e923fd83e62bc64f22ac670670c78461"
+    },
+    {
+      "mode": "100644",
+      "path": ".zenodo.json",
+      "sha": "5b606eda051b0767cc75884acc8f24e2cffb6340",
+      "size": 952,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/5b606eda051b0767cc75884acc8f24e2cffb6340"
+    },
+    {
+      "mode": "100644",
+      "path": "AGENTS.md",
+      "sha": "d1deebf79141836c0a460803a39b99e0e6dae2b7",
+      "size": 1693,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/d1deebf79141836c0a460803a39b99e0e6dae2b7"
+    },
+    {
+      "mode": "100644",
+      "path": "CHANGELOG.md",
+      "sha": "fe4bf6202abe3bbb8cb0eb403bf6885d62553c66",
+      "size": 3292,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/fe4bf6202abe3bbb8cb0eb403bf6885d62553c66"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "59b2fe6c289b27f86f84c6cc94bd4e899bf87ca3",
+      "size": 1560,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/59b2fe6c289b27f86f84c6cc94bd4e899bf87ca3"
+    },
+    {
+      "mode": "100644",
+      "path": "CODEOWNERS",
+      "sha": "e4b1a947665b83a89f04657cf4ef3843c85b6aa2",
+      "size": 214,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/e4b1a947665b83a89f04657cf4ef3843c85b6aa2"
+    },
+    {
+      "mode": "100644",
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "77998183229f90ffca47714c08c77a300dcee686",
+      "size": 3364,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/77998183229f90ffca47714c08c77a300dcee686"
+    },
+    {
+      "mode": "100644",
+      "path": "CONTRIBUTING.md",
+      "sha": "d1633d7ead431260fa9b4f0e150d193293e2c840",
+      "size": 3755,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/d1633d7ead431260fa9b4f0e150d193293e2c840"
+    },
+    {
+      "mode": "100644",
+      "path": "DEPRECATED.md",
+      "sha": "a1b51637ee6559f92dead1fa02dabbbb027da553",
+      "size": 1472,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/a1b51637ee6559f92dead1fa02dabbbb027da553"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "57bc88a15a0ee8266c259b2667e64608d3f7e292",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/57bc88a15a0ee8266c259b2667e64608d3f7e292"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "6d7f15baf2de84a6a44852c377a9fe96a4af5f5d",
+      "size": 11787,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/6d7f15baf2de84a6a44852c377a9fe96a4af5f5d"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "0a17275d305c332ba2e91905274e684f9a41fac5",
+      "size": 2547,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/0a17275d305c332ba2e91905274e684f9a41fac5"
+    },
+    {
+      "mode": "100644",
+      "path": "STATUS.md",
+      "sha": "09ff1876ab8d08547f4b06007b9126f85878d7e4",
+      "size": 578,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/09ff1876ab8d08547f4b06007b9126f85878d7e4"
+    },
+    {
+      "mode": "040000",
+      "path": "assets",
+      "sha": "1eebad38dc2dd01855e54d085fc005bf611e3463",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/1eebad38dc2dd01855e54d085fc005bf611e3463"
+    },
+    {
+      "mode": "040000",
+      "path": "assets/genius",
+      "sha": "7de5fc35571174895f4ca795fae054dc517e810e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/7de5fc35571174895f4ca795fae054dc517e810e"
+    },
+    {
+      "mode": "100644",
+      "path": "assets/genius/cookbook_card.svg",
+      "sha": "29e50a820c95faf8a8ce78c5acdafaa5b777da0a",
+      "size": 2710,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/29e50a820c95faf8a8ce78c5acdafaa5b777da0a"
+    },
+    {
+      "mode": "100644",
+      "path": "assets/genius/cookbook_cast.svg",
+      "sha": "e9448fb276ed49622701f2598371b73c9037e8f9",
+      "size": 1467,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/e9448fb276ed49622701f2598371b73c9037e8f9"
+    },
+    {
+      "mode": "040000",
+      "path": "branding",
+      "sha": "d7f9acde40c8516216408b07f9359e931963ed24",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/d7f9acde40c8516216408b07f9359e931963ed24"
+    },
+    {
+      "mode": "100644",
+      "path": "branding/szl-avatar-animated.gif",
+      "sha": "3e8fd923ba115a1bc7d7abfa4f05cc480c55f5eb",
+      "size": 2307397,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/3e8fd923ba115a1bc7d7abfa4f05cc480c55f5eb"
+    },
+    {
+      "mode": "040000",
+      "path": "meta",
+      "sha": "a1c49fb1ef1e0c3335782e55a1cb61de50887453",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/a1c49fb1ef1e0c3335782e55a1cb61de50887453"
+    },
+    {
+      "mode": "100644",
+      "path": "meta/content-gap-matrix-2026-05-17.md",
+      "sha": "35161f5655197c053b204ec695a0fa463f67bdea",
+      "size": 5212,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/35161f5655197c053b204ec695a0fa463f67bdea"
+    },
+    {
+      "mode": "040000",
+      "path": "ops",
+      "sha": "4e2b2724561eceac739aa97622aeff03b1e4905b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/4e2b2724561eceac739aa97622aeff03b1e4905b"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD.zip",
+      "sha": "73dd0d0d9fd79a0a7d77684abfc97b5c78e16625",
+      "size": 2989748,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/73dd0d0d9fd79a0a7d77684abfc97b5c78e16625"
+    },
+    {
+      "mode": "040000",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD",
+      "sha": "bd0c8e75f09f4e5c094d100a25301d1e8e4cfb79",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/bd0c8e75f09f4e5c094d100a25301d1e8e4cfb79"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/.replit",
+      "sha": "2900cf0931e55dd3372e8756921c81ea33628659",
+      "size": 249,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/2900cf0931e55dd3372e8756921c81ea33628659"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/DOCTRINE_TEST_PASS.md",
+      "sha": "4e3361f1865868c3e6594e6f094008992162c305",
+      "size": 1502,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/4e3361f1865868c3e6594e6f094008992162c305"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/DOI_MANIFEST.md",
+      "sha": "289fdeb45d2387d3e88ef46400cb592b73aae1f9",
+      "size": 2280,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/289fdeb45d2387d3e88ef46400cb592b73aae1f9"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/FINAL_CLOSEOUT_REPORT.md",
+      "sha": "d329809b5f264645da60980858abcb8e7529df94",
+      "size": 8437,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/d329809b5f264645da60980858abcb8e7529df94"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/README.md",
+      "sha": "0a523a39a03d68d9efbb2256f5fc2b628c942984",
+      "size": 11561,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/0a523a39a03d68d9efbb2256f5fc2b628c942984"
+    },
+    {
+      "mode": "040000",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/anatomy",
+      "sha": "4851bab44e0a288764c8730b3bd314ec5a82877e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/4851bab44e0a288764c8730b3bd314ec5a82877e"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/anatomy/INDEX.md",
+      "sha": "6e9e8cd6469ceb7d2374d9b1a137164c7bb22093",
+      "size": 2775,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/6e9e8cd6469ceb7d2374d9b1a137164c7bb22093"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/anatomy/anatomy_blood_immune.pdf",
+      "sha": "c2dbbf356f1cbd9c62a82f424295c9a5571b8d27",
+      "size": 9154,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/c2dbbf356f1cbd9c62a82f424295c9a5571b8d27"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/anatomy/anatomy_blood_immune.png",
+      "sha": "5e62aa4c9a2393a5fd33ce4bd738463bf8e74976",
+      "size": 390961,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/5e62aa4c9a2393a5fd33ce4bd738463bf8e74976"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/anatomy/anatomy_body_graph.pdf",
+      "sha": "2022aa34c4f12d5fcb948922a2b3b2c8947bc119",
+      "size": 5939,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/2022aa34c4f12d5fcb948922a2b3b2c8947bc119"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/anatomy/anatomy_body_graph.png",
+      "sha": "86bfe6aae2c78abe92815f78b7a557af037f5316",
+      "size": 395913,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/86bfe6aae2c78abe92815f78b7a557af037f5316"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/anatomy/anatomy_brain.pdf",
+      "sha": "4d81983589a1c3a52bf0e93feefe8d6641d95aa4",
+      "size": 7786,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/4d81983589a1c3a52bf0e93feefe8d6641d95aa4"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/anatomy/anatomy_brain.png",
+      "sha": "d96aeb29dfacc4929930d621c9eeaceb85bec528",
+      "size": 284726,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/d96aeb29dfacc4929930d621c9eeaceb85bec528"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/anatomy/anatomy_full_body.pdf",
+      "sha": "c000d8aaf26468ec88ae6f461a9e359bf0274643",
+      "size": 93062,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/c000d8aaf26468ec88ae6f461a9e359bf0274643"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/anatomy/anatomy_full_body.png",
+      "sha": "dc3badd14aa4dc7b8f4909bd96a46916a72ddceb",
+      "size": 561818,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/dc3badd14aa4dc7b8f4909bd96a46916a72ddceb"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/anatomy/anatomy_heart.pdf",
+      "sha": "7fbbca6018f87b11587af3b6cc64404e4cf17cc0",
+      "size": 5137,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/7fbbca6018f87b11587af3b6cc64404e4cf17cc0"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/anatomy/anatomy_heart.png",
+      "sha": "2f7013b19174408b0f7031afc78f01a1a31973b4",
+      "size": 412769,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/2f7013b19174408b0f7031afc78f01a1a31973b4"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/anatomy/anatomy_nervous.pdf",
+      "sha": "d157050c54932458747c0b6b40bbf73d35fbc64b",
+      "size": 4950,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/d157050c54932458747c0b6b40bbf73d35fbc64b"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/anatomy/anatomy_nervous.png",
+      "sha": "89d4197287ea9eeecee8f20ff26cfa8b3e92fb09",
+      "size": 374666,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/89d4197287ea9eeecee8f20ff26cfa8b3e92fb09"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/anatomy/anatomy_skeleton.pdf",
+      "sha": "f0d4447746b0d3a4bb9f83ebb486b33e5e176814",
+      "size": 5005,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/f0d4447746b0d3a4bb9f83ebb486b33e5e176814"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/anatomy/anatomy_skeleton.png",
+      "sha": "9f74e50b984149106455fd7dc7e48bdfddcecd84",
+      "size": 311618,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/9f74e50b984149106455fd7dc7e48bdfddcecd84"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/anatomy/anatomy_wires.pdf",
+      "sha": "195585c1c103bd02af157366d6662edad517f506",
+      "size": 15094,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/195585c1c103bd02af157366d6662edad517f506"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/anatomy/anatomy_wires.png",
+      "sha": "7a824197b5f3cefb5a0b06ec23b0d4fa8db60e2a",
+      "size": 255351,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/7a824197b5f3cefb5a0b06ec23b0d4fa8db60e2a"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/bootstrap.sh",
+      "sha": "82cb75313ec1be8d52fecbf6642be879530fcc20",
+      "size": 3075,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/82cb75313ec1be8d52fecbf6642be879530fcc20"
+    },
+    {
+      "mode": "040000",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/data",
+      "sha": "33906ced2dc0f99cf889c866769f1469f52bc9bf",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/33906ced2dc0f99cf889c866769f1469f52bc9bf"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/data/all_open_prs.json",
+      "sha": "0b0f629bd0fdda2b210bf243abe49e1cc36a4e0c",
+      "size": 125960,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/0b0f629bd0fdda2b210bf243abe49e1cc36a4e0c"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/data/cto_prs_opened_recent.json",
+      "sha": "591b94a9975fb6c8f71bbae537d0982ee8611c55",
+      "size": 2907,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/591b94a9975fb6c8f71bbae537d0982ee8611c55"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/data/cto_pushes.json",
+      "sha": "3dd9bc406ee340275115dd6fa6977476e82b6f49",
+      "size": 1848,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/3dd9bc406ee340275115dd6fa6977476e82b6f49"
+    },
+    {
+      "mode": "040000",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/docs",
+      "sha": "f9a4149b0c09dde721cb50a4ebfdb11ee589d9c6",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/f9a4149b0c09dde721cb50a4ebfdb11ee589d9c6"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/docs/ANATOMY_SWEEP_REPORT.md",
+      "sha": "454fc71ab9582373498da7f599c5c95366cb2bac",
+      "size": 7422,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/454fc71ab9582373498da7f599c5c95366cb2bac"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/docs/CTO_AUTHORITY.md",
+      "sha": "81b8ba4bcabc8dd0610607b7eac6fd5efb92fd67",
+      "size": 2080,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/81b8ba4bcabc8dd0610607b7eac6fd5efb92fd67"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/docs/DOI_GATE_POSTMORTEM.md",
+      "sha": "fc08cb2eb104303e110970a70a3a03c749734e26",
+      "size": 2362,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/fc08cb2eb104303e110970a70a3a03c749734e26"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/docs/OPERATOR_QUICKSTART.md",
+      "sha": "68052add070bf47984c25e7a0a380012c74efee4",
+      "size": 2570,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/68052add070bf47984c25e7a0a380012c74efee4"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/docs/UNIFIED_OPERATOR_HANDOFF.md",
+      "sha": "9925a6ef1fc8af7792432f40be5f13a9fe9def02",
+      "size": 14948,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/9925a6ef1fc8af7792432f40be5f13a9fe9def02"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/docs/doi-title-gate.fixed.yml",
+      "sha": "e1d3f708f36be966bb0d4220efec442efc59c9b2",
+      "size": 5723,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/e1d3f708f36be966bb0d4220efec442efc59c9b2"
+    },
+    {
+      "mode": "040000",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/phd_pods",
+      "sha": "79c7c23b345613e3b4dbe411c113ad1486065025",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/79c7c23b345613e3b4dbe411c113ad1486065025"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/phd_pods/dev_pod_report.md",
+      "sha": "748afb8a0e1ec10b135cea9d7078fda70b8d8128",
+      "size": 35552,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/748afb8a0e1ec10b135cea9d7078fda70b8d8128"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/phd_pods/math_pod_report.md",
+      "sha": "187c192a4a57660ed196e662298c69a391d48ed4",
+      "size": 38932,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/187c192a4a57660ed196e662298c69a391d48ed4"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/phd_pods/ml_pod_report.md",
+      "sha": "527af8f661aca7c2612a067b1b9c9235e59e0d97",
+      "size": 37054,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/527af8f661aca7c2612a067b1b9c9235e59e0d97"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/phd_pods/systems_pod_report.md",
+      "sha": "2993af84f61ac8af2fd313d56abe3087076c3201",
+      "size": 38832,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/2993af84f61ac8af2fd313d56abe3087076c3201"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/replit.nix",
+      "sha": "8a02aecb58f29c6fa65289a82a8cec7e4dae3761",
+      "size": 215,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/8a02aecb58f29c6fa65289a82a8cec7e4dae3761"
+    },
+    {
+      "mode": "040000",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/scorecard",
+      "sha": "479d79ccdbf52b8b1c4102bcf100525c2e1248a9",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/479d79ccdbf52b8b1c4102bcf100525c2e1248a9"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/scorecard/SCORECARD_TO_10_PLAN.md",
+      "sha": "44fc57aa16c0df9cc43b219be7dc3936c6a0667f",
+      "size": 6605,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/44fc57aa16c0df9cc43b219be7dc3936c6a0667f"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/scorecard/scanner_inventory.csv",
+      "sha": "8564f754cbeea197c391b45fa8a68c04e7ab62a2",
+      "size": 458,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/8564f754cbeea197c391b45fa8a68c04e7ab62a2"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/scorecard/scorecard_alerts_by_rule.csv",
+      "sha": "b1c10a7ee3431c9e8115b4675cc44c2879321268",
+      "size": 182,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/b1c10a7ee3431c9e8115b4675cc44c2879321268"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/scorecard/scorecard_baseline_2026-05-16.csv",
+      "sha": "21e3c5250aa2f563503e7567414925f35d534ff2",
+      "size": 497,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/21e3c5250aa2f563503e7567414925f35d534ff2"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/scorecard/sec_posture.csv",
+      "sha": "2e1f9b8b9ac4c6165554c60f6783b21abf77c058",
+      "size": 436,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/2e1f9b8b9ac4c6165554c60f6783b21abf77c058"
+    },
+    {
+      "mode": "040000",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/scripts",
+      "sha": "523e08074eac7749f3042bb47f1fc0f013ac0b42",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/523e08074eac7749f3042bb47f1fc0f013ac0b42"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/scripts/_lib.sh",
+      "sha": "35b3a2de5eac05b69522ff84221f600aed442b90",
+      "size": 3496,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/35b3a2de5eac05b69522ff84221f600aed442b90"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/scripts/apply_branch_protection.sh",
+      "sha": "2633c52b5f8714e6eb80512b8d570994f37f9cd8",
+      "size": 2068,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/2633c52b5f8714e6eb80512b8d570994f37f9cd8"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/scripts/check_ci_status.sh",
+      "sha": "cb56c34265ee0ec8a93351685970114c078ffdfe",
+      "size": 2760,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/cb56c34265ee0ec8a93351685970114c078ffdfe"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/scripts/check_doctrine.sh",
+      "sha": "bf17272e17f9a48fd19df7a0bf356093e8495b4b",
+      "size": 4026,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/bf17272e17f9a48fd19df7a0bf356093e8495b4b"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/scripts/check_phd_defects.sh",
+      "sha": "3a3bc819297da907c202c19b4d43c6163a375381",
+      "size": 4455,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/3a3bc819297da907c202c19b4d43c6163a375381"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/scripts/check_zenodo_dois.sh",
+      "sha": "343c5a597fd6315e5fdb9520eb13f17e576b2322",
+      "size": 935,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/343c5a597fd6315e5fdb9520eb13f17e576b2322"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/scripts/merge_wave.sh",
+      "sha": "a842fb966a4aab146d78fc2e3f48c4f9e6ad5ae6",
+      "size": 3175,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/a842fb966a4aab146d78fc2e3f48c4f9e6ad5ae6"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/scripts/pull_pr_state.sh",
+      "sha": "9eff13690784feca297f0502762265b3bf0e30c9",
+      "size": 2026,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/9eff13690784feca297f0502762265b3bf0e30c9"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/scripts/verify_all.sh",
+      "sha": "82368d9a238b55466510ec02a34e9bc69d1128a9",
+      "size": 1625,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/82368d9a238b55466510ec02a34e9bc69d1128a9"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/scripts/verify_anatomy_pushes.sh",
+      "sha": "4b7eb6f97d93df8d24eb5b647b91421f4d057031",
+      "size": 2208,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/4b7eb6f97d93df8d24eb5b647b91421f4d057031"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/scripts/verify_doi_gate_fix.sh",
+      "sha": "18aaf460c6cf33bea2fde928964f2843ec5d2e5d",
+      "size": 2833,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/18aaf460c6cf33bea2fde928964f2843ec5d2e5d"
+    },
+    {
+      "mode": "040000",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/truth_audit",
+      "sha": "49ea6695302fb97dac5d23a5bd1b5bc483514b5d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/49ea6695302fb97dac5d23a5bd1b5bc483514b5d"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/REPLIT_HARDCODE_PAYLOAD/truth_audit/TRUTH_AUDIT_RECORD.md",
+      "sha": "a6820e1ca5a18bf1df92258b19df388d0496af42",
+      "size": 16896,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/a6820e1ca5a18bf1df92258b19df388d0496af42"
+    },
+    {
+      "mode": "040000",
+      "path": "recipes",
+      "sha": "2c2f4c4fa9e905ebe8d15935b0655700868b067e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/2c2f4c4fa9e905ebe8d15935b0655700868b067e"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/01-verify-a-receipt-end-to-end.md",
+      "sha": "fdb6c395ca0cc4118569ea2a76dd59829cd9c398",
+      "size": 7734,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/fdb6c395ca0cc4118569ea2a76dd59829cd9c398"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/02-deploy-5-flagship-uds-bundle.md",
+      "sha": "c9fbb290be209bcb05f137405e8f0e7e74f2bcff",
+      "size": 5216,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/c9fbb290be209bcb05f137405e8f0e7e74f2bcff"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/02-willay-gated-turn.md",
+      "sha": "23f130282c63493e57620be68ccc0a12ec9ead54",
+      "size": 8238,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/23f130282c63493e57620be68ccc0a12ec9ead54"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/02-willay-gated-turn.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/03-fine-tune-compliance-regime.md",
+      "sha": "304a9c277dd196bf97c79ecf6352e656e88b11aa",
+      "size": 6433,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/304a9c277dd196bf97c79ecf6352e656e88b11aa"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/04-drone-counter-uas-verdict.md",
+      "sha": "72b4799df3abbdfa839bbcc17e1f90666485e573",
+      "size": 5314,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/72b4799df3abbdfa839bbcc17e1f90666485e573"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/05-memory-attested-reasoning.md",
+      "sha": "f0e104586b41b3044ddfbcff5b236647ced63f37",
+      "size": 5347,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/f0e104586b41b3044ddfbcff5b236647ced63f37"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/06-cosign-rekor-slsa-l1.md",
+      "sha": "b440dcb42982bf2583890ee93377bf2e136feec2",
+      "size": 5019,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/b440dcb42982bf2583890ee93377bf2e136feec2"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/07-build-your-own-organ.md",
+      "sha": "ebc7151d71115d1fd8afb769df772f8be8f926a0",
+      "size": 4955,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/ebc7151d71115d1fd8afb769df772f8be8f926a0"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/08-receipt-knot-algebra.md",
+      "sha": "71f8371fe747ee35941b4923270255a59cf4a408",
+      "size": 5048,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/71f8371fe747ee35941b4923270255a59cf4a408"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/09-pac-bayes-confidence-margin.md",
+      "sha": "550266ce70c948e779f9aae352b7ff5e4e8f9bba",
+      "size": 4521,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/550266ce70c948e779f9aae352b7ff5e4e8f9bba"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/10-cardano-dsse-blood-ledger.md",
+      "sha": "1ae87794b964db3b86161ccbf0c78b5e319e2bf5",
+      "size": 5165,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/1ae87794b964db3b86161ccbf0c78b5e319e2bf5"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/11-kitaev-surface-drift-detection.md",
+      "sha": "05712e3eeefbba97f76c494af888c8104146d4b3",
+      "size": 4643,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/05712e3eeefbba97f76c494af888c8104146d4b3"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/12-doctrine-ledger-query.md",
+      "sha": "6c32326e98c3d7c524b011cf9da9352f59ca4bf9",
+      "size": 4927,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/6c32326e98c3d7c524b011cf9da9352f59ca4bf9"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/13-build-uds-bundle-from-scratch.md",
+      "sha": "98066f4ab28fc39eddb05e4625ea5317d10753b5",
+      "size": 4612,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/98066f4ab28fc39eddb05e4625ea5317d10753b5"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/14-replicate-walrus-alpha-gap.md",
+      "sha": "34ac27ff74ad3c48b89be57d8a4acdab4f4ed558",
+      "size": 5039,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/34ac27ff74ad3c48b89be57d8a4acdab4f4ed558"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/15-air-gapped-install.md",
+      "sha": "6783d66a952ca9425cac29437ce453ff7f135aea",
+      "size": 4871,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/6783d66a952ca9425cac29437ce453ff7f135aea"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/16-calphad-inverse-discovery.md",
+      "sha": "9c748d591f6c9b1ec70a0658c48e2ac75eb579b3",
+      "size": 6014,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/9c748d591f6c9b1ec70a0658c48e2ac75eb579b3"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/17-e8-lattice-receipt-verification.md",
+      "sha": "16e3a1b0e5d643f11d7fc56c0e5c1ad3e988464b",
+      "size": 5466,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/16e3a1b0e5d643f11d7fc56c0e5c1ad3e988464b"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/18-governed-materials-prediction.md",
+      "sha": "6ed8aa38da90cd392bcfa4490859c3e68048d379",
+      "size": 6362,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/6ed8aa38da90cd392bcfa4490859c3e68048d379"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/19-inverse-pinn-physics-discovery.md",
+      "sha": "b4906b08677e1cd59a8630101d04334a224968a6",
+      "size": 5256,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/b4906b08677e1cd59a8630101d04334a224968a6"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/20-evidence-pack-for-auditors.md",
+      "sha": "5cb612069f555f289935c8ed1966c2fb3d906eca",
+      "size": 5686,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/5cb612069f555f289935c8ed1966c2fb3d906eca"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/21-governed-speculative-decoding.md",
+      "sha": "cbdcbf95ea7069c7df7f7d13d5788142e3f89954",
+      "size": 6035,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/cbdcbf95ea7069c7df7f7d13d5788142e3f89954"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/22-conformal-prediction-sets.md",
+      "sha": "05e07cfe97e977941e2a562456c3d03a8fb8d0bd",
+      "size": 6529,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/05e07cfe97e977941e2a562456c3d03a8fb8d0bd"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/23-composite-provenance-receipt.md",
+      "sha": "9c78591017fa80e7ef0e916ed4b781f2c3de8b5b",
+      "size": 7549,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/9c78591017fa80e7ef0e916ed4b781f2c3de8b5b"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/README.md",
+      "sha": "75882ea22e6969a3412130d50f8be5e080b75823",
+      "size": 3114,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/75882ea22e6969a3412130d50f8be5e080b75823"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-build-report.md",
+      "sha": "1ceca6ebc201a2e07003ba9ceee0c8ac228c10da",
+      "size": 9352,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/1ceca6ebc201a2e07003ba9ceee0c8ac228c10da"
+    },
+    {
+      "mode": "040000",
+      "path": "recipes/anatomy-evolved-v1",
+      "sha": "8b0cc80a4756a62b5451d9fab77c756cf706e510",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/8b0cc80a4756a62b5451d9fab77c756cf706e510"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/README.md",
+      "sha": "3a5d27267738f3c7b2c6fcbec48351975ac9eed1",
+      "size": 1781,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/3a5d27267738f3c7b2c6fcbec48351975ac9eed1"
+    },
+    {
+      "mode": "040000",
+      "path": "recipes/anatomy-evolved-v1/code",
+      "sha": "adf4a789177bb8903efe0a6dc3ed9b4f77513d59",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/adf4a789177bb8903efe0a6dc3ed9b4f77513d59"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/.replit",
+      "sha": "05dfcfed7435dfacca0bfd5d627f368db08833d4",
+      "size": 191,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/05dfcfed7435dfacca0bfd5d627f368db08833d4"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/README.md",
+      "sha": "2d68057b73d41becfb69e1f411950761e18101fd",
+      "size": 2069,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/2d68057b73d41becfb69e1f411950761e18101fd"
+    },
+    {
+      "mode": "040000",
+      "path": "recipes/anatomy-evolved-v1/code/lean",
+      "sha": "a2e42be8671b8fad4192a53b5fc212cd629e9fa4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/a2e42be8671b8fad4192a53b5fc212cd629e9fa4"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/lean/GatedBoundedness.lean",
+      "sha": "e4c71bc9288f4a842da27fb8dd88fa3502fc1c5c",
+      "size": 1989,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/e4c71bc9288f4a842da27fb8dd88fa3502fc1c5c"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/lean/TwoWitness.lean",
+      "sha": "6237188a08bd1e27874bbd361c971b7147d3f001",
+      "size": 825,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/6237188a08bd1e27874bbd361c971b7147d3f001"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/package-lock.json",
+      "sha": "4fa2b341c1ea2eaf35ab70803708186a84992b50",
+      "size": 13312,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/4fa2b341c1ea2eaf35ab70803708186a84992b50"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/package.json",
+      "sha": "8e659e1d230b5442e18d5308bb1f196f51155d17",
+      "size": 504,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/8e659e1d230b5442e18d5308bb1f196f51155d17"
+    },
+    {
+      "mode": "040000",
+      "path": "recipes/anatomy-evolved-v1/code/src",
+      "sha": "3471bc5c2c011b1d7e78b4cc84c0efe9455be63b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/3471bc5c2c011b1d7e78b4cc84c0efe9455be63b"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/src/a11oy-complementarity-engine.ts",
+      "sha": "f23582912b649af79e1953656ba2fa38586a0133",
+      "size": 5004,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/f23582912b649af79e1953656ba2fa38586a0133"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/src/a11oy-ks18-witness.ts",
+      "sha": "cfd2eb7627e7b6bf6a58e93bb3f31879fc470fb5",
+      "size": 6788,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/cfd2eb7627e7b6bf6a58e93bb3f31879fc470fb5"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/src/a11oy-povm.ts",
+      "sha": "295d625b63ed38041d91d08a05fb89ded3a18d63",
+      "size": 3316,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/295d625b63ed38041d91d08a05fb89ded3a18d63"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/src/a11oy-qbist-credence.ts",
+      "sha": "c605e854b432ec1196892cc2535b294b973a443c",
+      "size": 3253,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/c605e854b432ec1196892cc2535b294b973a443c"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/src/amaru-qkan-fwp.ts",
+      "sha": "29f91bde4f0f41a2c09f70996ef0aedb372e02be",
+      "size": 7400,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/29f91bde4f0f41a2c09f70996ef0aedb372e02be"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/src/carlota-jo-doctrine-guard.ts",
+      "sha": "fe33b9b91402e54ed5dc29125b0b51caa20299ca",
+      "size": 2511,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/fe33b9b91402e54ed5dc29125b0b51caa20299ca"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/src/counsel-pesher-renderer.ts",
+      "sha": "b348f0157e6006a47acdfdef632721bd34402e4f",
+      "size": 4546,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/b348f0157e6006a47acdfdef632721bd34402e4f"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/src/sentra-dual-use-detector.ts",
+      "sha": "f4d2139c2b7560a44e8e98273b92fa476bf61b6d",
+      "size": 3974,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/f4d2139c2b7560a44e8e98273b92fa476bf61b6d"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/src/terra-364day-scheduler.ts",
+      "sha": "e00a6691a053b20d9b09efbc58cde2f02ef28cdf",
+      "size": 2826,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/e00a6691a053b20d9b09efbc58cde2f02ef28cdf"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/src/terra-mishmarot-rotation.ts",
+      "sha": "c08c628de6a4dbed9ee3d46351ccd1fdacaaef0b",
+      "size": 2267,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/c08c628de6a4dbed9ee3d46351ccd1fdacaaef0b"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/src/vessels-raz-nihyeh-risk.ts",
+      "sha": "d9f139e4fb773306cb67fe0287170bb8e4754853",
+      "size": 3552,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/d9f139e4fb773306cb67fe0287170bb8e4754853"
+    },
+    {
+      "mode": "040000",
+      "path": "recipes/anatomy-evolved-v1/code/tests",
+      "sha": "d606dd3ee0742210b5581d572a5d740c49776260",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/d606dd3ee0742210b5581d572a5d740c49776260"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/tests/ks18_structure.ts",
+      "sha": "4241e6e8f1ecaa60ea8de0c74fa1e37b2e121e18",
+      "size": 3325,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/4241e6e8f1ecaa60ea8de0c74fa1e37b2e121e18"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/tests/rx_rz_unitarity.ts",
+      "sha": "59c924ae823c0a04bc21a73a55fb0faf6658b6b9",
+      "size": 2945,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/59c924ae823c0a04bc21a73a55fb0faf6658b6b9"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/tests/smoke.ts",
+      "sha": "fb6fd59ee8bda8fac8b82ff5add3e6ab41a0c901",
+      "size": 14837,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/fb6fd59ee8bda8fac8b82ff5add3e6ab41a0c901"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/tsconfig.json",
+      "sha": "ee344bd43ed1b23b8c7f077c731665834011530b",
+      "size": 474,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/ee344bd43ed1b23b8c7f077c731665834011530b"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/code/tsconfig.test.json",
+      "sha": "129c2ec8040bedd84fddcefd7e989d7bdf50e686",
+      "size": 312,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/129c2ec8040bedd84fddcefd7e989d7bdf50e686"
+    },
+    {
+      "mode": "040000",
+      "path": "recipes/anatomy-evolved-v1/payloads",
+      "sha": "953df926206a857dd1b8dd5a43327304b7c5d326",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/953df926206a857dd1b8dd5a43327304b7c5d326"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/payloads/replit_anatomy_evolved_payload.md",
+      "sha": "9b6bd61dafaba284d4049f267a2642bc3f944add",
+      "size": 183390,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/9b6bd61dafaba284d4049f267a2642bc3f944add"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/payloads/replit_explainer_agent_payload.md",
+      "sha": "cddf1540d10b35fe18cf5c99377fe938c216deb7",
+      "size": 116297,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/cddf1540d10b35fe18cf5c99377fe938c216deb7"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/payloads/replit_thesis_injection_payload.md",
+      "sha": "fd4e2f9cf1b750011343d690826ab068073f2b64",
+      "size": 97028,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/fd4e2f9cf1b750011343d690826ab068073f2b64"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/anatomy-evolved-v1/thesis_ch9_anatomy_evolved_v1.md",
+      "sha": "aa53d17797c87881a912e9fc84b860a584f720aa",
+      "size": 13340,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/aa53d17797c87881a912e9fc84b860a584f720aa"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/chakra-unification.md",
+      "sha": "1fb11b03babc500f1133afcc806bb370d7d38f88",
+      "size": 7027,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/1fb11b03babc500f1133afcc806bb370d7d38f88"
+    },
+    {
+      "mode": "040000",
+      "path": "recipes/knot-calculus-v1",
+      "sha": "1bcc00e7a33173f2d4326af92a417b846784959a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/1bcc00e7a33173f2d4326af92a417b846784959a"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/knot-calculus-v1/README.md",
+      "sha": "689b9f4560078782bd986810b10342b068c302ed",
+      "size": 2999,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/689b9f4560078782bd986810b10342b068c302ed"
+    },
+    {
+      "mode": "040000",
+      "path": "recipes/knot-calculus-v1/code",
+      "sha": "8d55dd6c525fd983edfae5e374a3073039bdfb92",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/8d55dd6c525fd983edfae5e374a3073039bdfb92"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/knot-calculus-v1/code/package.json",
+      "sha": "98358bdc7df97e05dfd0b7a77a6243408cc800ca",
+      "size": 371,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/98358bdc7df97e05dfd0b7a77a6243408cc800ca"
+    },
+    {
+      "mode": "040000",
+      "path": "recipes/knot-calculus-v1/code/src",
+      "sha": "4f38f7608646829c63f19e2e90279526220a662e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/4f38f7608646829c63f19e2e90279526220a662e"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/knot-calculus-v1/code/src/khipu-receipt.ts",
+      "sha": "03fd50be672a5d1e95223f5f3ca2c043873de566",
+      "size": 8696,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/03fd50be672a5d1e95223f5f3ca2c043873de566"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/knot-calculus-v1/code/src/pac-bayes-bound.ts",
+      "sha": "91fb02574b525a12072821bb74aa7b9eb2ba944f",
+      "size": 5602,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/91fb02574b525a12072821bb74aa7b9eb2ba944f"
+    },
+    {
+      "mode": "040000",
+      "path": "recipes/knot-calculus-v1/code/tests",
+      "sha": "eef4df93c53c93cd646a9bf626d0830039c1bfd0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/eef4df93c53c93cd646a9bf626d0830039c1bfd0"
+    },
+    {
+      "mode": "100644",
+      "path": "recipes/knot-calculus-v1/code/tests/demo.ts",
+      "sha": "c6e4f056828d62d79cb5def9c3774673928526be",
+      "size": 3176,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/c6e4f056828d62d79cb5def9c3774673928526be"
+    },
+    {
+      "mode": "040000",
+      "path": "skills",
+      "sha": "f468994df909ddc243f8fe1ed4b3d7a597352f5a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/f468994df909ddc243f8fe1ed4b3d7a597352f5a"
+    },
+    {
+      "mode": "040000",
+      "path": "skills/commit-hygiene",
+      "sha": "5fa7e1ae550e3a3dea3c986a68377b9fb2680809",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/5fa7e1ae550e3a3dea3c986a68377b9fb2680809"
+    },
+    {
+      "mode": "100644",
+      "path": "skills/commit-hygiene/SKILL.md",
+      "sha": "6bf19d6aaa9d7458a50c030bba73100258d370cf",
+      "size": 2575,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/6bf19d6aaa9d7458a50c030bba73100258d370cf"
+    },
+    {
+      "mode": "040000",
+      "path": "skills/dead-code-detector",
+      "sha": "14226e9bb3c42984db2899915bfbd900c2396544",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/14226e9bb3c42984db2899915bfbd900c2396544"
+    },
+    {
+      "mode": "100644",
+      "path": "skills/dead-code-detector/SKILL.md",
+      "sha": "c84861f500f5a8c74d116f301e4d47f71295d92a",
+      "size": 2682,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/c84861f500f5a8c74d116f301e4d47f71295d92a"
+    },
+    {
+      "mode": "040000",
+      "path": "skills/debug-protocol",
+      "sha": "a829f99138e5f98b6e24c28f7e7427855b7a1c09",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/a829f99138e5f98b6e24c28f7e7427855b7a1c09"
+    },
+    {
+      "mode": "100644",
+      "path": "skills/debug-protocol/SKILL.md",
+      "sha": "da417e27d80fc9a7bcc83ef4949c995b8e5b407a",
+      "size": 3279,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/da417e27d80fc9a7bcc83ef4949c995b8e5b407a"
+    },
+    {
+      "mode": "040000",
+      "path": "skills/dependency-health",
+      "sha": "4a0c2b36ae716227a1e77ddb6f7325af9d65dbce",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/4a0c2b36ae716227a1e77ddb6f7325af9d65dbce"
+    },
+    {
+      "mode": "100644",
+      "path": "skills/dependency-health/SKILL.md",
+      "sha": "626294bcaea67700a678204e4e65800111d5074a",
+      "size": 3093,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/626294bcaea67700a678204e4e65800111d5074a"
+    },
+    {
+      "mode": "040000",
+      "path": "skills/doc-comment-hygiene",
+      "sha": "9d8159cae814d048457ac53ac4467a12ce3ddb41",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/9d8159cae814d048457ac53ac4467a12ce3ddb41"
+    },
+    {
+      "mode": "100644",
+      "path": "skills/doc-comment-hygiene/SKILL.md",
+      "sha": "8b31928c488d60443ee4ac792c499fb59d435e7a",
+      "size": 2934,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/8b31928c488d60443ee4ac792c499fb59d435e7a"
+    },
+    {
+      "mode": "040000",
+      "path": "skills/monorepo-impact-analysis",
+      "sha": "678bee6489fb116a3da7570800f814b0dc0ac784",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/678bee6489fb116a3da7570800f814b0dc0ac784"
+    },
+    {
+      "mode": "100644",
+      "path": "skills/monorepo-impact-analysis/SKILL.md",
+      "sha": "fd4723b63879a9622aac6d57469f6954ce52cc89",
+      "size": 2654,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/fd4723b63879a9622aac6d57469f6954ce52cc89"
+    },
+    {
+      "mode": "040000",
+      "path": "skills/pre-flight-thinking",
+      "sha": "49cfe822d13c9ac39ad9ec0197729c99a4070fab",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/49cfe822d13c9ac39ad9ec0197729c99a4070fab"
+    },
+    {
+      "mode": "100644",
+      "path": "skills/pre-flight-thinking/SKILL.md",
+      "sha": "f37f9e3ff9ecd9d1d90c9f09afd250bee4798859",
+      "size": 2383,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/f37f9e3ff9ecd9d1d90c9f09afd250bee4798859"
+    },
+    {
+      "mode": "040000",
+      "path": "skills/react-component-review",
+      "sha": "dd253ee23a9712792d6b3bf3a588ce9ef7cdfc0a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/dd253ee23a9712792d6b3bf3a588ce9ef7cdfc0a"
+    },
+    {
+      "mode": "100644",
+      "path": "skills/react-component-review/SKILL.md",
+      "sha": "d8baa1357a1aaea71170937cadea6d8661ac2ec1",
+      "size": 2804,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/d8baa1357a1aaea71170937cadea6d8661ac2ec1"
+    },
+    {
+      "mode": "040000",
+      "path": "skills/typescript-refactor",
+      "sha": "4e114cb13083a6b2c62be037ec4aca5e1bfb9a11",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/4e114cb13083a6b2c62be037ec4aca5e1bfb9a11"
+    },
+    {
+      "mode": "100644",
+      "path": "skills/typescript-refactor/SKILL.md",
+      "sha": "86e60e752613034870449acf5740bed8bf9989a7",
+      "size": 2550,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/blobs/86e60e752613034870449acf5740bed8bf9989a7"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-cookbook/git/trees/5eb303b4d611c14906cbe455c5f2d27999e9c3a4"
+}

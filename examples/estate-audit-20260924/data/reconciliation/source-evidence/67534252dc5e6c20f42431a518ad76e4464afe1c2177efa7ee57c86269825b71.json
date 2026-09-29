@@ -1,0 +1,2064 @@
+{
+  "sha": "4c3040cb3b2202e316ff478fe274cdd44cff21db",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "3e64e41eff9d4c2f1c8246a5690a20c7869606af",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/3e64e41eff9d4c2f1c8246a5690a20c7869606af"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/ISSUE_TEMPLATE",
+      "sha": "d5c0087dc81e8ce6fcb8871475465528418b650a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/d5c0087dc81e8ce6fcb8871475465528418b650a"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha": "e7528e82952e7882096165c66bd7aa4cc516bd53",
+      "size": 1773,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/e7528e82952e7882096165c66bd7aa4cc516bd53"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "ea552b8fa3eea9aba4e64d06cceed702a117217e",
+      "size": 597,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/ea552b8fa3eea9aba4e64d06cceed702a117217e"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "5b76b22dd93c4f36251e33031c3d6bff526a2325",
+      "size": 678,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/5b76b22dd93c4f36251e33031c3d6bff526a2325"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/base-python-ci.defer",
+      "sha": "d9d9017321c2e0a2d64470c198ef8e787444f437",
+      "size": 193,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/d9d9017321c2e0a2d64470c198ef8e787444f437"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/dependabot.yml",
+      "sha": "3d33977ccb66a5127d07e5ffb4b0a3546702fe42",
+      "size": 817,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/3d33977ccb66a5127d07e5ffb4b0a3546702fe42"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "4cfca27283a7da9e16e981545594691d89364775",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/4cfca27283a7da9e16e981545594691d89364775"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/base-python-ci.yml",
+      "sha": "bc6546f8bf556d266981a68fc7e09ae722d08c03",
+      "size": 3242,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/bc6546f8bf556d266981a68fc7e09ae722d08c03"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "f578b29c429900f28be4f4d146cadea5c83f7610",
+      "size": 4488,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/f578b29c429900f28be4f4d146cadea5c83f7610"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/codeql.yml",
+      "sha": "92a219236a6835d9d59d358084dada537f527d2f",
+      "size": 1673,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/92a219236a6835d9d59d358084dada537f527d2f"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/converge-nexus-bench.yml",
+      "sha": "80ac8a4e0d823bd08a54d09568130da76e43a7a0",
+      "size": 3234,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/80ac8a4e0d823bd08a54d09568130da76e43a7a0"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/deploy-hf-space.yml",
+      "sha": "8b4787e6660f87f232d4263a9dbd5ae4380da898",
+      "size": 8211,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/8b4787e6660f87f232d4263a9dbd5ae4380da898"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/forbidden-domain.yml",
+      "sha": "0ceaa9cbb7ba391ebc78b0ec08c74ebc1c0fac73",
+      "size": 1525,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/0ceaa9cbb7ba391ebc78b0ec08c74ebc1c0fac73"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-command-centre-diagnostic.yml",
+      "sha": "b52cccdc8a1c36f176746d0ab2d7a3a89d8b0fd5",
+      "size": 3347,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/b52cccdc8a1c36f176746d0ab2d7a3a89d8b0fd5"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-consolidate-one-shot.yml",
+      "sha": "b82ae48452ceec51b7e13543d88856891a0801cc",
+      "size": 2073,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/b82ae48452ceec51b7e13543d88856891a0801cc"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-space-inventory.yml",
+      "sha": "b3ae1e02b4ab0eb4243e6d2b050f2fc973617179",
+      "size": 7857,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/b3ae1e02b4ab0eb4243e6d2b050f2fc973617179"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-space-preserve.yml",
+      "sha": "d16cdfe3c2d534057880acc31af8ac0593775b6b",
+      "size": 2411,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/d16cdfe3c2d534057880acc31af8ac0593775b6b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/lockfile-registry.yml",
+      "sha": "cf1e214cf20cc41a02c3ad8a33d7c7f7379138e6",
+      "size": 384,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/cf1e214cf20cc41a02c3ad8a33d7c7f7379138e6"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/publish-model-inference-lab.yml",
+      "sha": "523cb7017ad9d64e7099048253f84eccaf5c65ad",
+      "size": 5537,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/523cb7017ad9d64e7099048253f84eccaf5c65ad"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/sbom.yml",
+      "sha": "cab06d5590175f4b831ada93c570bd881fe746fe",
+      "size": 496,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/cab06d5590175f4b831ada93c570bd881fe746fe"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/scorecard.yml",
+      "sha": "92ad91c80f26aaf0f6d7d9ec1731e44406654eb5",
+      "size": 625,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/92ad91c80f26aaf0f6d7d9ec1731e44406654eb5"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/szl-holographic-space-v2.yml",
+      "sha": "8939a9fc25a31b3e61febeae94b2161e77e6a255",
+      "size": 4669,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/8939a9fc25a31b3e61febeae94b2161e77e6a255"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/trivy.yml",
+      "sha": "c57d412c8961c5017c6309f31d4654bbc04b2ed8",
+      "size": 514,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/c57d412c8961c5017c6309f31d4654bbc04b2ed8"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "14daf02f7ae1c59e26e4d614bf3a0ec099a4f2a6",
+      "size": 66,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/14daf02f7ae1c59e26e4d614bf3a0ec099a4f2a6"
+    },
+    {
+      "mode": "100644",
+      "path": ".zenodo.json",
+      "sha": "41d097cd7593f213eb2aabf6aa1fbdb8ceb72877",
+      "size": 1075,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/41d097cd7593f213eb2aabf6aa1fbdb8ceb72877"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "66d816a705d66ae09de9884d050acbb830b0120b",
+      "size": 692,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/66d816a705d66ae09de9884d050acbb830b0120b"
+    },
+    {
+      "mode": "100644",
+      "path": "CODEOWNERS",
+      "sha": "bb847479aa7f36c62e092fe878c3e3e9ff6d7163",
+      "size": 52,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/bb847479aa7f36c62e092fe878c3e3e9ff6d7163"
+    },
+    {
+      "mode": "100644",
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "8ef338732f66fee91dd8ddedd0e5348b75ef98e4",
+      "size": 1408,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/8ef338732f66fee91dd8ddedd0e5348b75ef98e4"
+    },
+    {
+      "mode": "100644",
+      "path": "CONTRIBUTING.md",
+      "sha": "aa6ce6db42061537bd5043c5ad87bff2645c0b7a",
+      "size": 1529,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/aa6ce6db42061537bd5043c5ad87bff2645c0b7a"
+    },
+    {
+      "mode": "100644",
+      "path": "LEDGER_FIELD_KEYS.md",
+      "sha": "61af197c48bcff9e54ad719f00b23a853670c9a6",
+      "size": 3798,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/61af197c48bcff9e54ad719f00b23a853670c9a6"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "00f31d7f3ef89f66df3bc1b1e703ccc86b92eb84",
+      "size": 13118,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/00f31d7f3ef89f66df3bc1b1e703ccc86b92eb84"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "663624f333f57ffcc314d6c192582b5ad9754834",
+      "size": 1492,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/663624f333f57ffcc314d6c192582b5ad9754834"
+    },
+    {
+      "mode": "040000",
+      "path": "contracts",
+      "sha": "60936529346df64d8cd1c54324c109f0a00dfa95",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/60936529346df64d8cd1c54324c109f0a00dfa95"
+    },
+    {
+      "mode": "100644",
+      "path": "contracts/immune-nexus-parity-v1.json",
+      "sha": "7fed2dbbf6fc597539e88a1868cdfb9aa0b44020",
+      "size": 1216,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/7fed2dbbf6fc597539e88a1868cdfb9aa0b44020"
+    },
+    {
+      "mode": "100644",
+      "path": "contracts/immune-nexus.v1.json",
+      "sha": "b6cd01cd38f77ddbefba9fc5d6301d4a9d2a385c",
+      "size": 3059,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/b6cd01cd38f77ddbefba9fc5d6301d4a9d2a385c"
+    },
+    {
+      "mode": "100644",
+      "path": "contracts/proof-carrying-v2.json",
+      "sha": "4a9fac214429482007f4ca84d22f4e3098fc9f6a",
+      "size": 1053,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/4a9fac214429482007f4ca84d22f4e3098fc9f6a"
+    },
+    {
+      "mode": "040000",
+      "path": "data",
+      "sha": "aa5c8bce206244bbd16db0d33b715fd094747616",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/aa5c8bce206244bbd16db0d33b715fd094747616"
+    },
+    {
+      "mode": "040000",
+      "path": "data/immune",
+      "sha": "382f49ba6428d2184448f4e495cdb6d640cf0cb8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/382f49ba6428d2184448f4e495cdb6d640cf0cb8"
+    },
+    {
+      "mode": "100644",
+      "path": "data/immune/huklla_evidence.jsonl",
+      "sha": "7cefa6fac0dc9303db7d7803444d3ec02cb6cc8a",
+      "size": 10621,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/7cefa6fac0dc9303db7d7803444d3ec02cb6cc8a"
+    },
+    {
+      "mode": "100644",
+      "path": "data/immune/ledger.jsonl",
+      "sha": "cba1172482e40d17b8161fb408a8ad0af936f015",
+      "size": 2065,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/cba1172482e40d17b8161fb408a8ad0af936f015"
+    },
+    {
+      "mode": "100644",
+      "path": "data/immune/ledger.tampered-demo.jsonl",
+      "sha": "5844de301560d6d254e2f7ec7b6c9a7fef9777dd",
+      "size": 994,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/5844de301560d6d254e2f7ec7b6c9a7fef9777dd"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "0d0cada6a8075d8e56823d04cbe3fc760a97c723",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/0d0cada6a8075d8e56823d04cbe3fc760a97c723"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/HF_SPACES_EVOLVE_2026-09-04.md",
+      "sha": "227cae57785edb629cfea4c61831e448a79cc186",
+      "size": 636,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/227cae57785edb629cfea4c61831e448a79cc186"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/IMMUNE_NEXUS_CONSOLIDATION.md",
+      "sha": "8ab86523c1903fe3bf442c4af6b794300d45e202",
+      "size": 5711,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/8ab86523c1903fe3bf442c4af6b794300d45e202"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/OPERATOR_DESK.md",
+      "sha": "ee7a84f4acfae1b42b92cd01637bb3fb84f78fc9",
+      "size": 1033,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/ee7a84f4acfae1b42b92cd01637bb3fb84f78fc9"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/THREAD_OPERATIONAL.md",
+      "sha": "9d2d2300442649488ec35f3a8f337abc38c25d24",
+      "size": 1638,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/9d2d2300442649488ec35f3a8f337abc38c25d24"
+    },
+    {
+      "mode": "040000",
+      "path": "docs/receipts",
+      "sha": "5c1073b04c7747f42157e9986905494836cbcb61",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/5c1073b04c7747f42157e9986905494836cbcb61"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/receipts/immune-nexus-source-import-20260904.json",
+      "sha": "0d3d57a725ae3e2041fb5d0ed2806aa139979514",
+      "size": 3619,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/0d3d57a725ae3e2041fb5d0ed2806aa139979514"
+    },
+    {
+      "mode": "040000",
+      "path": "frontend",
+      "sha": "88a5872a1da1fce7ceebda886adb4268e06ddae8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/88a5872a1da1fce7ceebda886adb4268e06ddae8"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/components.json",
+      "sha": "3ff62cf0842657da595682900f6aa27592c67b4c",
+      "size": 434,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/3ff62cf0842657da595682900f6aa27592c67b4c"
+    },
+    {
+      "mode": "040000",
+      "path": "frontend/corpus",
+      "sha": "dd1224d6eda89980b30e9acb47b5eed9fba90dd0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/dd1224d6eda89980b30e9acb47b5eed9fba90dd0"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/corpus/governed-inference-meter.md",
+      "sha": "5b0b05c6be2005c9923cb4097fc68169d41eb459",
+      "size": 12755,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/5b0b05c6be2005c9923cb4097fc68169d41eb459"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/corpus/khipu-consensus.md",
+      "sha": "3853aede5c46a5d27c3b7abd11e53a249c93ded0",
+      "size": 9139,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/3853aede5c46a5d27c3b7abd11e53a249c93ded0"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/corpus/lutar-lean.md",
+      "sha": "2e7525e27b74c3ecc0fd165f62ac964b915d852a",
+      "size": 14064,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/2e7525e27b74c3ecc0fd165f62ac964b915d852a"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/corpus/ouroboros.md",
+      "sha": "cf9a6c2b5465e4475cb81f82df88122163d4d2c5",
+      "size": 13847,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/cf9a6c2b5465e4475cb81f82df88122163d4d2c5"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/corpus/szl-energy-attest.md",
+      "sha": "2c3c6c6cae40e40edd629b7d57ba3e07b85108ee",
+      "size": 9914,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/2c3c6c6cae40e40edd629b7d57ba3e07b85108ee"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/corpus/szl-governed-norm.md",
+      "sha": "93549b7a2c90b8fc35b5569dcb43ff11349b5b6d",
+      "size": 11821,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/93549b7a2c90b8fc35b5569dcb43ff11349b5b6d"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/corpus/szl-lambda-gate.md",
+      "sha": "d38e57646da2242400ca507ed2ffd9a68254d038",
+      "size": 9014,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/d38e57646da2242400ca507ed2ffd9a68254d038"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/corpus/szl-receipt.md",
+      "sha": "73a8d90d12965db9d007f535ea55f53297804821",
+      "size": 2697,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/73a8d90d12965db9d007f535ea55f53297804821"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/corpus/yarqa.md",
+      "sha": "35dfbe897afeea2407ac15f2e2132d2dc07ab6d9",
+      "size": 6601,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/35dfbe897afeea2407ac15f2e2132d2dc07ab6d9"
+    },
+    {
+      "mode": "040000",
+      "path": "frontend/deploy",
+      "sha": "bd4bfa531fb196a30b40845e6075306bd1aacc56",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/bd4bfa531fb196a30b40845e6075306bd1aacc56"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/deploy/.dockerignore",
+      "sha": "3e7b7a4ed3721cf7aeaef6ca51355a810bec7542",
+      "size": 265,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/3e7b7a4ed3721cf7aeaef6ca51355a810bec7542"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/deploy/Dockerfile",
+      "sha": "5b371befec0a89ce7dbfcabc78fe083f32a05a3f",
+      "size": 1663,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/5b371befec0a89ce7dbfcabc78fe083f32a05a3f"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/deploy/README.md",
+      "sha": "21a389b5c33dd5e4dd948c8f2c3816f35b7ea5eb",
+      "size": 2186,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/21a389b5c33dd5e4dd948c8f2c3816f35b7ea5eb"
+    },
+    {
+      "mode": "100755",
+      "path": "frontend/deploy/build-standalone.sh",
+      "sha": "41ccfc786a1434e463aa1e19d4d4db68d802a8bb",
+      "size": 344,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/41ccfc786a1434e463aa1e19d4d4db68d802a8bb"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/index.html",
+      "sha": "10cb7a5826725ededca9faee23eabb81ccbd25d5",
+      "size": 1865,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/10cb7a5826725ededca9faee23eabb81ccbd25d5"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/package.json",
+      "sha": "62adbbaa914232978d1dfa779f88fc46fa2a5d3a",
+      "size": 2612,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/62adbbaa914232978d1dfa779f88fc46fa2a5d3a"
+    },
+    {
+      "mode": "040000",
+      "path": "frontend/public",
+      "sha": "e502fa1112916808b9f2f81fd82a0772009994d6",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/e502fa1112916808b9f2f81fd82a0772009994d6"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/public/favicon.svg",
+      "sha": "4373d3cd2f3dad5ca6f33b5cdcccc61edaef8eb7",
+      "size": 163,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/4373d3cd2f3dad5ca6f33b5cdcccc61edaef8eb7"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/public/nexus.html",
+      "sha": "fc9ac90082770232d81b0600bc9587f11af719fb",
+      "size": 13315,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/fc9ac90082770232d81b0600bc9587f11af719fb"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/public/opengraph.jpg",
+      "sha": "fd3197575b77a777b2ea8dc6c9af05b218bb002b",
+      "size": 69576,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/fd3197575b77a777b2ea8dc6c9af05b218bb002b"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/public/robots.txt",
+      "sha": "c2a49f4fb82f19ffa9089fcf8630e5a2870d3feb",
+      "size": 23,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/c2a49f4fb82f19ffa9089fcf8630e5a2870d3feb"
+    },
+    {
+      "mode": "040000",
+      "path": "frontend/scripts",
+      "sha": "d33a6c044cec2847156cd4fd4e104c5fe65f7def",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/d33a6c044cec2847156cd4fd4e104c5fe65f7def"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/scripts/check-foundations-corpus.mjs",
+      "sha": "d6cc2cf738c16c13bdb82044987f8cb069f0b790",
+      "size": 3567,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/d6cc2cf738c16c13bdb82044987f8cb069f0b790"
+    },
+    {
+      "mode": "040000",
+      "path": "frontend/src",
+      "sha": "3a46bd880c08478cadabf1d74167c783e64f0b97",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/3a46bd880c08478cadabf1d74167c783e64f0b97"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/App.tsx",
+      "sha": "ac27e7524cd7895a8e8172484a0e01ed11e2fbad",
+      "size": 945,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/ac27e7524cd7895a8e8172484a0e01ed11e2fbad"
+    },
+    {
+      "mode": "040000",
+      "path": "frontend/src/components",
+      "sha": "06a67217f230fe171d80c35f84b472851fef6fb1",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/06a67217f230fe171d80c35f84b472851fef6fb1"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/AgentConsole.tsx",
+      "sha": "5957ef5f93d92082ce9438b345d8fca8d60a969a",
+      "size": 22606,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/5957ef5f93d92082ce9438b345d8fca8d60a969a"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/AuditConsole.tsx",
+      "sha": "e4618ec82a15521fc28f58a6970bdea4d1424517",
+      "size": 17161,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/e4618ec82a15521fc28f58a6970bdea4d1424517"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ControlsPanel.tsx",
+      "sha": "eea057a8c59bb1e6e1a23f8365ab9fe3b25d023a",
+      "size": 13007,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/eea057a8c59bb1e6e1a23f8365ab9fe3b25d023a"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/FoundationsPanel.tsx",
+      "sha": "04ef61c1ddeb77c525622193c5887eeef3e2adbf",
+      "size": 13870,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/04ef61c1ddeb77c525622193c5887eeef3e2adbf"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/InferConsole.tsx",
+      "sha": "35a0755940616370ff412983d0a849b3ed4a4253",
+      "size": 5897,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/35a0755940616370ff412983d0a849b3ed4a4253"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/IntelPanel.tsx",
+      "sha": "bc7cf9724219a43702d81a1786de0c1423460a41",
+      "size": 13040,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/bc7cf9724219a43702d81a1786de0c1423460a41"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/LatticeCop.tsx",
+      "sha": "b76a6d30579cc3ed455aaebce8b76a6eff82c7f0",
+      "size": 33789,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/b76a6d30579cc3ed455aaebce8b76a6eff82c7f0"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/LeadersPanel.tsx",
+      "sha": "b1367da2c76eb41ea4c041f34a802a7ce6561a79",
+      "size": 5435,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/b1367da2c76eb41ea4c041f34a802a7ce6561a79"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/PulsePanel.tsx",
+      "sha": "da6d5f64b44139d396eb6a5d809416e5395669ec",
+      "size": 11158,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/da6d5f64b44139d396eb6a5d809416e5395669ec"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ThreeScene.tsx",
+      "sha": "aceafa08cec3e4a74f4fb5e14e5f82ea5931ea17",
+      "size": 13709,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/aceafa08cec3e4a74f4fb5e14e5f82ea5931ea17"
+    },
+    {
+      "mode": "040000",
+      "path": "frontend/src/components/ui",
+      "sha": "3bc3677323a9daf9d49cd129e4255c154017bff8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/3bc3677323a9daf9d49cd129e4255c154017bff8"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/accordion.tsx",
+      "sha": "e1797c93458f3751a2e0f1189ff50d77f20ae3ed",
+      "size": 2001,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/e1797c93458f3751a2e0f1189ff50d77f20ae3ed"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/alert-dialog.tsx",
+      "sha": "fa2b4429f4303210462ad03f9f49280ac5ae07ce",
+      "size": 4419,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/fa2b4429f4303210462ad03f9f49280ac5ae07ce"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/alert.tsx",
+      "sha": "5afd41d142c95c74069ebb5460117e74ead3b9df",
+      "size": 1598,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/5afd41d142c95c74069ebb5460117e74ead3b9df"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/aspect-ratio.tsx",
+      "sha": "c4abbf37f217c715a0eaade7f45ac78600df419f",
+      "size": 140,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/c4abbf37f217c715a0eaade7f45ac78600df419f"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/avatar.tsx",
+      "sha": "51e507ba9d08bcdbb1fb630498f1cbdf2bf50093",
+      "size": 1419,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/51e507ba9d08bcdbb1fb630498f1cbdf2bf50093"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/badge.tsx",
+      "sha": "3f03665878d609428688f5736ab2300297115e5f",
+      "size": 1522,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/3f03665878d609428688f5736ab2300297115e5f"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/breadcrumb.tsx",
+      "sha": "60e6c96f72f0350d08b47e4730cab8f3975dc853",
+      "size": 2712,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/60e6c96f72f0350d08b47e4730cab8f3975dc853"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/button-group.tsx",
+      "sha": "d6e78014fc491465c059253d541b10afdaa3227a",
+      "size": 2209,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/d6e78014fc491465c059253d541b10afdaa3227a"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/button.tsx",
+      "sha": "16eb95d1cca6cdc61889bdf0d9206ad0dfcec427",
+      "size": 2356,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/16eb95d1cca6cdc61889bdf0d9206ad0dfcec427"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/calendar.tsx",
+      "sha": "a623682dab53fbe9e1777b83b2e93763837653d8",
+      "size": 7569,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/a623682dab53fbe9e1777b83b2e93763837653d8"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/card.tsx",
+      "sha": "cabfbfc59d955db9efc2049783cad4a71db55442",
+      "size": 1828,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/cabfbfc59d955db9efc2049783cad4a71db55442"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/carousel.tsx",
+      "sha": "9c2b9bf3705d8421bef00704c0c52e83d371ca11",
+      "size": 6210,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/9c2b9bf3705d8421bef00704c0c52e83d371ca11"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/chart.tsx",
+      "sha": "23dc1c1bb3a575bdb557e5fce9348f3815458178",
+      "size": 10763,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/23dc1c1bb3a575bdb557e5fce9348f3815458178"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/checkbox.tsx",
+      "sha": "90b71e4131b047201b35476638ea324b12f76113",
+      "size": 1031,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/90b71e4131b047201b35476638ea324b12f76113"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/collapsible.tsx",
+      "sha": "9fa48946afd1eb56bd932377fd888e3986304676",
+      "size": 329,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/9fa48946afd1eb56bd932377fd888e3986304676"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/command.tsx",
+      "sha": "2cecd9104b27be82d238aa2f1cbb351e05446af7",
+      "size": 4887,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/2cecd9104b27be82d238aa2f1cbb351e05446af7"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/context-menu.tsx",
+      "sha": "0cd4b2c03d306c38836d43c7f3dc2cb2547c64a7",
+      "size": 7406,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/0cd4b2c03d306c38836d43c7f3dc2cb2547c64a7"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/dialog.tsx",
+      "sha": "9dbeaa096eef7b54a3272898770c4c32e00630af",
+      "size": 3835,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/9dbeaa096eef7b54a3272898770c4c32e00630af"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/drawer.tsx",
+      "sha": "c17b0ccaa95dccfb96c75618e078efd263e54fd0",
+      "size": 3007,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/c17b0ccaa95dccfb96c75618e078efd263e54fd0"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/dropdown-menu.tsx",
+      "sha": "5a20503b547ea0e4e467d63fe1ae78e4171afb52",
+      "size": 7606,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/5a20503b547ea0e4e467d63fe1ae78e4171afb52"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/empty.tsx",
+      "sha": "71667632e77bf4265ab740e906f785fee806eec2",
+      "size": 2396,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/71667632e77bf4265ab740e906f785fee806eec2"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/field.tsx",
+      "sha": "0a276fcb1d7623b0d57fd649fddfb043b535ea62",
+      "size": 6044,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/0a276fcb1d7623b0d57fd649fddfb043b535ea62"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/form.tsx",
+      "sha": "1fe22e6f0be2750d1b5ec3efc7346fef4612b2e3",
+      "size": 4175,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/1fe22e6f0be2750d1b5ec3efc7346fef4612b2e3"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/hover-card.tsx",
+      "sha": "95643d9c7099c1179f8a876fbf8840dc077e1b38",
+      "size": 1237,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/95643d9c7099c1179f8a876fbf8840dc077e1b38"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/input-group.tsx",
+      "sha": "1233eff82050abcd053131fd15ab80f87ecc15c6",
+      "size": 4971,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/1233eff82050abcd053131fd15ab80f87ecc15c6"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/input-otp.tsx",
+      "sha": "f7891c9cc8ba7868f4b5bdb67dc883b1880ade9f",
+      "size": 2143,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/f7891c9cc8ba7868f4b5bdb67dc883b1880ade9f"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/input.tsx",
+      "sha": "69b64fb2455114c3eeda2d18741af0027b3c5e89",
+      "size": 768,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/69b64fb2455114c3eeda2d18741af0027b3c5e89"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/item.tsx",
+      "sha": "93d2b8122ddd7119c3580afa71e8c53708982983",
+      "size": 4494,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/93d2b8122ddd7119c3580afa71e8c53708982983"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/kbd.tsx",
+      "sha": "44d8ba842d739468527fd004503f4546cc152576",
+      "size": 862,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/44d8ba842d739468527fd004503f4546cc152576"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/label.tsx",
+      "sha": "534182176bf87f9308355514adc884d2b69750a5",
+      "size": 724,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/534182176bf87f9308355514adc884d2b69750a5"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/menubar.tsx",
+      "sha": "6919168b87c646d3b27fd66d68cdd7e391757583",
+      "size": 8608,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/6919168b87c646d3b27fd66d68cdd7e391757583"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/navigation-menu.tsx",
+      "sha": "056354bf824bf1f06e9dbceeacad512ce21b03d1",
+      "size": 5124,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/056354bf824bf1f06e9dbceeacad512ce21b03d1"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/pagination.tsx",
+      "sha": "d3311054cd07a90d130f7996c79b3fc0feeede39",
+      "size": 2751,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/d3311054cd07a90d130f7996c79b3fc0feeede39"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/popover.tsx",
+      "sha": "fdcb511dc768b79951de97416e9bd0ff1ae9ea05",
+      "size": 1342,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/fdcb511dc768b79951de97416e9bd0ff1ae9ea05"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/progress.tsx",
+      "sha": "4fc3b473e6f51afa972f840fb0f4476f8663c256",
+      "size": 792,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/4fc3b473e6f51afa972f840fb0f4476f8663c256"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/radio-group.tsx",
+      "sha": "9d3a26e6ec5d8647f22d754be5affd9e8eba1ec5",
+      "size": 1410,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/9d3a26e6ec5d8647f22d754be5affd9e8eba1ec5"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/resizable.tsx",
+      "sha": "f4bc5586b67f45d3cc35f228e8bac2e4bc2cea16",
+      "size": 1723,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/f4bc5586b67f45d3cc35f228e8bac2e4bc2cea16"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/scroll-area.tsx",
+      "sha": "cf253cf17056ce04827219643e484ea99c77cf6b",
+      "size": 1642,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/cf253cf17056ce04827219643e484ea99c77cf6b"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/select.tsx",
+      "sha": "6e637f7dc67daa0b2ce4f440e4bbdb3f14ce3c03",
+      "size": 5745,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/6e637f7dc67daa0b2ce4f440e4bbdb3f14ce3c03"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/separator.tsx",
+      "sha": "6d7f12265ba0338704f013930ce4d52c56527dd1",
+      "size": 756,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/6d7f12265ba0338704f013930ce4d52c56527dd1"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/sheet.tsx",
+      "sha": "272cb721eb48b7a5833ccd51f940a8830d85b64e",
+      "size": 4280,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/272cb721eb48b7a5833ccd51f940a8830d85b64e"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/sidebar.tsx",
+      "sha": "41362f6f40769bd800e4b1e77dfcc0ca61300636",
+      "size": 21846,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/41362f6f40769bd800e4b1e77dfcc0ca61300636"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/skeleton.tsx",
+      "sha": "d7e45f7bd315f86eabf32f2c9425223417920e60",
+      "size": 266,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/d7e45f7bd315f86eabf32f2c9425223417920e60"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/slider.tsx",
+      "sha": "9398b331513e9668b8d76f2905d570c34d080fd2",
+      "size": 1037,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/9398b331513e9668b8d76f2905d570c34d080fd2"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/sonner.tsx",
+      "sha": "452f4d9f0dde88611113632c1d759d60155fe4d3",
+      "size": 894,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/452f4d9f0dde88611113632c1d759d60155fe4d3"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/spinner.tsx",
+      "sha": "a70e713c5b4ecb2af186efe3fadea51805f26ba5",
+      "size": 331,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/a70e713c5b4ecb2af186efe3fadea51805f26ba5"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/switch.tsx",
+      "sha": "455c23b6cd5adcb0278792568cdddf084a4a37c9",
+      "size": 1148,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/455c23b6cd5adcb0278792568cdddf084a4a37c9"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/table.tsx",
+      "sha": "c0df655c0bf26af1148d038e1d013e884663b240",
+      "size": 2859,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/c0df655c0bf26af1148d038e1d013e884663b240"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/tabs.tsx",
+      "sha": "85d83beab3224580318b1dd85f93e9294fae32c0",
+      "size": 1877,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/85d83beab3224580318b1dd85f93e9294fae32c0"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/textarea.tsx",
+      "sha": "e56b0affd7e03bd8359092a81d81c606ab09972d",
+      "size": 649,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/e56b0affd7e03bd8359092a81d81c606ab09972d"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/toast.tsx",
+      "sha": "a822477534192c4df5073e4015f7461e739d3344",
+      "size": 4845,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/a822477534192c4df5073e4015f7461e739d3344"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/toaster.tsx",
+      "sha": "6c67edff67a48c6ac1c46f25a6d468dd461e66cb",
+      "size": 772,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/6c67edff67a48c6ac1c46f25a6d468dd461e66cb"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/toggle-group.tsx",
+      "sha": "1c876bbeecabe59b684719afe58e684f34cdecbf",
+      "size": 1753,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/1c876bbeecabe59b684719afe58e684f34cdecbf"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/toggle.tsx",
+      "sha": "ab0a30fb3daa5b3fe5a4158ee1372405aac50aba",
+      "size": 1486,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/ab0a30fb3daa5b3fe5a4158ee1372405aac50aba"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/components/ui/tooltip.tsx",
+      "sha": "28e19183f4d9dfbb73c82928190556b69575eb2b",
+      "size": 1267,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/28e19183f4d9dfbb73c82928190556b69575eb2b"
+    },
+    {
+      "mode": "040000",
+      "path": "frontend/src/data",
+      "sha": "fa8bcf2b1e588df0d542ebb3976296a0a0625679",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/fa8bcf2b1e588df0d542ebb3976296a0a0625679"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/data/foundations.sources.json",
+      "sha": "808025971db8a9574d6fa4264abd3858a303a3b7",
+      "size": 977,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/808025971db8a9574d6fa4264abd3858a303a3b7"
+    },
+    {
+      "mode": "040000",
+      "path": "frontend/src/hooks",
+      "sha": "68e9d41c43aae32ee5314e0006e01345589570f4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/68e9d41c43aae32ee5314e0006e01345589570f4"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/hooks/use-mobile.tsx",
+      "sha": "2b0fe1dfef3b17850bbac040665f514a8ffd0f15",
+      "size": 565,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/2b0fe1dfef3b17850bbac040665f514a8ffd0f15"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/hooks/use-toast.ts",
+      "sha": "2c14125ac48b874740770da80d9e424daf1db58b",
+      "size": 3895,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/2c14125ac48b874740770da80d9e424daf1db58b"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/index.css",
+      "sha": "66f44395c57b6609951732afdab60848c2249956",
+      "size": 7898,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/66f44395c57b6609951732afdab60848c2249956"
+    },
+    {
+      "mode": "040000",
+      "path": "frontend/src/lib",
+      "sha": "1b927719d45524c73b660e6513c9727c6de5f606",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/1b927719d45524c73b660e6513c9727c6de5f606"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/lib/agent-status-freshness.ts",
+      "sha": "d04c1570b431b5e37421d4d80452d12c51d728ce",
+      "size": 1397,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/d04c1570b431b5e37421d4d80452d12c51d728ce"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/lib/animation-loop.ts",
+      "sha": "cb7c7b758e9f54ecfadcf1547b55b2c5c90d2c80",
+      "size": 901,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/cb7c7b758e9f54ecfadcf1547b55b2c5c90d2c80"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/lib/authority-view.ts",
+      "sha": "d59ea69a95ef0b3d1ee6e5813fea20251626c059",
+      "size": 5796,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/d59ea69a95ef0b3d1ee6e5813fea20251626c059"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/lib/frameworks.ts",
+      "sha": "f020d79c9c4b5c5c99dc451741a44596ee45f508",
+      "size": 5705,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/f020d79c9c4b5c5c99dc451741a44596ee45f508"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/lib/immune-api.ts",
+      "sha": "f9091d5b59f0baa32fcb9b02da97a849e61c5808",
+      "size": 4937,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/f9091d5b59f0baa32fcb9b02da97a849e61c5808"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/lib/operator-error.ts",
+      "sha": "67ee98c36eb1a9c7e66ed5bda3fe792fc987e7e3",
+      "size": 812,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/67ee98c36eb1a9c7e66ed5bda3fe792fc987e7e3"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/lib/utils.ts",
+      "sha": "bd0c391ddd1088e9067844c48835bf4abcd61783",
+      "size": 166,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/bd0c391ddd1088e9067844c48835bf4abcd61783"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/main.tsx",
+      "sha": "696e0d2b94fbc09e5bf2378678cfe86625c2f15c",
+      "size": 157,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/696e0d2b94fbc09e5bf2378678cfe86625c2f15c"
+    },
+    {
+      "mode": "040000",
+      "path": "frontend/src/pages",
+      "sha": "41cacde887269008f9630be4e63ee71a4f30a115",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/41cacde887269008f9630be4e63ee71a4f30a115"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/pages/Home.tsx",
+      "sha": "65d6b3d278d4921dfb01e6dcd06be599bb743837",
+      "size": 16029,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/65d6b3d278d4921dfb01e6dcd06be599bb743837"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/src/pages/not-found.tsx",
+      "sha": "dba9f8316f8e796e2808090c4f6cf770e6b90c4a",
+      "size": 711,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/dba9f8316f8e796e2808090c4f6cf770e6b90c4a"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/szl-holo-v2.css",
+      "sha": "31a4020528a17a00807759228bb4380af384e8e5",
+      "size": 33063,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/31a4020528a17a00807759228bb4380af384e8e5"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/szl-holo-v2.js",
+      "sha": "ce323c27be146d4ecac4eecf7864d1914c6e5283",
+      "size": 26987,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/ce323c27be146d4ecac4eecf7864d1914c6e5283"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/tsconfig.json",
+      "sha": "7cda382c314110ec65299cfba474873ce7ebfca9",
+      "size": 498,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/7cda382c314110ec65299cfba474873ce7ebfca9"
+    },
+    {
+      "mode": "100644",
+      "path": "frontend/vite.config.ts",
+      "sha": "1249e4f79cedb4ea5dcde51e87f81a9e901852c6",
+      "size": 1541,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/1249e4f79cedb4ea5dcde51e87f81a9e901852c6"
+    },
+    {
+      "mode": "100644",
+      "path": "package.json",
+      "sha": "59526eb195aeb851614f57c6f3881b21df5124c0",
+      "size": 994,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/59526eb195aeb851614f57c6f3881b21df5124c0"
+    },
+    {
+      "mode": "100644",
+      "path": "pnpm-lock.yaml",
+      "sha": "bd84e0508f652efaa09ce5719b5c5d237c35be51",
+      "size": 169865,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/bd84e0508f652efaa09ce5719b5c5d237c35be51"
+    },
+    {
+      "mode": "100644",
+      "path": "pnpm-workspace.yaml",
+      "sha": "87a983728c6b573449801285e35aca88690ac035",
+      "size": 134,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/87a983728c6b573449801285e35aca88690ac035"
+    },
+    {
+      "mode": "040000",
+      "path": "python",
+      "sha": "97b1d87295d257e9ec09fddca4b2a8a95ca95423",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/97b1d87295d257e9ec09fddca4b2a8a95ca95423"
+    },
+    {
+      "mode": "100644",
+      "path": "python/.gitignore",
+      "sha": "cf65abe309841eb7fc096edfd626a0b103653ca4",
+      "size": 40,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/cf65abe309841eb7fc096edfd626a0b103653ca4"
+    },
+    {
+      "mode": "100644",
+      "path": "python/Dockerfile",
+      "sha": "b1400ff78638ef142afe42922c30b4af35b14449",
+      "size": 652,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/b1400ff78638ef142afe42922c30b4af35b14449"
+    },
+    {
+      "mode": "100644",
+      "path": "python/README.md",
+      "sha": "724826629c5b2819f7bd960cee15887be21f134c",
+      "size": 2043,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/724826629c5b2819f7bd960cee15887be21f134c"
+    },
+    {
+      "mode": "040000",
+      "path": "python/immune",
+      "sha": "87761623fd29cb71f0ac2259bacc8b46a60f0de9",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/87761623fd29cb71f0ac2259bacc8b46a60f0de9"
+    },
+    {
+      "mode": "100644",
+      "path": "python/immune/__init__.py",
+      "sha": "bf6afb045d4eec5a0947e885691fdd1afefe4b57",
+      "size": 588,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/bf6afb045d4eec5a0947e885691fdd1afefe4b57"
+    },
+    {
+      "mode": "100644",
+      "path": "python/immune/__main__.py",
+      "sha": "f5f6e402df1b5c89dadf67fce4c71897dba19cc1",
+      "size": 64,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/f5f6e402df1b5c89dadf67fce4c71897dba19cc1"
+    },
+    {
+      "mode": "100644",
+      "path": "python/immune/canonical.py",
+      "sha": "fdfc05a7eedf399ad360b082cd2aba7ace5ca8d6",
+      "size": 1910,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/fdfc05a7eedf399ad360b082cd2aba7ace5ca8d6"
+    },
+    {
+      "mode": "100644",
+      "path": "python/immune/frontier.py",
+      "sha": "cc3a71c00472234ee04bd56376e6645987a125b2",
+      "size": 4054,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/cc3a71c00472234ee04bd56376e6645987a125b2"
+    },
+    {
+      "mode": "100644",
+      "path": "python/immune/huklla.py",
+      "sha": "ac447a2b7999b158c5f38921ef83c655f11ff3ad",
+      "size": 2651,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/ac447a2b7999b158c5f38921ef83c655f11ff3ad"
+    },
+    {
+      "mode": "100644",
+      "path": "python/immune/mesh.py",
+      "sha": "e10e41afd76dc2220025bcc63d82cc819062cb75",
+      "size": 1763,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/e10e41afd76dc2220025bcc63d82cc819062cb75"
+    },
+    {
+      "mode": "100644",
+      "path": "python/immune/nexus.py",
+      "sha": "737da2f3fd5b489d6dcb9011816d934bf0cbbd31",
+      "size": 34464,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/737da2f3fd5b489d6dcb9011816d934bf0cbbd31"
+    },
+    {
+      "mode": "100644",
+      "path": "python/immune/organs.py",
+      "sha": "b5affd8e36c434343eaa728d789347207d8a76f0",
+      "size": 7045,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/b5affd8e36c434343eaa728d789347207d8a76f0"
+    },
+    {
+      "mode": "100644",
+      "path": "python/immune/persist.py",
+      "sha": "a159e6415dfb10ec05a13483e8d0a10e50187e04",
+      "size": 2295,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/a159e6415dfb10ec05a13483e8d0a10e50187e04"
+    },
+    {
+      "mode": "100644",
+      "path": "python/immune/runtime.py",
+      "sha": "fc67493ccf8a0a922ec6310e004a2a55ec23bb9e",
+      "size": 15659,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/fc67493ccf8a0a922ec6310e004a2a55ec23bb9e"
+    },
+    {
+      "mode": "100644",
+      "path": "python/immune/second_brain.py",
+      "sha": "249e410b714f8604e035df8976393467062beeb3",
+      "size": 6468,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/249e410b714f8604e035df8976393467062beeb3"
+    },
+    {
+      "mode": "100644",
+      "path": "python/immune/sentra.py",
+      "sha": "1bedd64015fc99ce02b22a3a28b1d7008872f0e0",
+      "size": 3147,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/1bedd64015fc99ce02b22a3a28b1d7008872f0e0"
+    },
+    {
+      "mode": "100644",
+      "path": "python/immune/server.py",
+      "sha": "6687df5cbbc3a5f370c779e3e000a0e84f4587e0",
+      "size": 20905,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/6687df5cbbc3a5f370c779e3e000a0e84f4587e0"
+    },
+    {
+      "mode": "100644",
+      "path": "python/requirements.txt",
+      "sha": "e30c06fab62e598331788623d8a7095934ee5ff1",
+      "size": 21,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/e30c06fab62e598331788623d8a7095934ee5ff1"
+    },
+    {
+      "mode": "040000",
+      "path": "python/space",
+      "sha": "d8278133e05953aa6ba48219bb220ddc471d57af",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/d8278133e05953aa6ba48219bb220ddc471d57af"
+    },
+    {
+      "mode": "100644",
+      "path": "python/space/Dockerfile",
+      "sha": "344e4bd90cf15f65236fd8838192be21aff85fcd",
+      "size": 648,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/344e4bd90cf15f65236fd8838192be21aff85fcd"
+    },
+    {
+      "mode": "100644",
+      "path": "python/space/README.md",
+      "sha": "3479560ce4447e3a4f114634ae5b8ec9b0ed8f59",
+      "size": 1258,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/3479560ce4447e3a4f114634ae5b8ec9b0ed8f59"
+    },
+    {
+      "mode": "100644",
+      "path": "python/space/index.html",
+      "sha": "caf13e2bd5c0f28caf8547aed1e2a1be57e47a9d",
+      "size": 7648,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/caf13e2bd5c0f28caf8547aed1e2a1be57e47a9d"
+    },
+    {
+      "mode": "100644",
+      "path": "python/space/nexus.html",
+      "sha": "fc9ac90082770232d81b0600bc9587f11af719fb",
+      "size": 13315,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/fc9ac90082770232d81b0600bc9587f11af719fb"
+    },
+    {
+      "mode": "100644",
+      "path": "python/space/run.py",
+      "sha": "3dcc439b8f0216411a4a31c880c774ead9ac1a8e",
+      "size": 448,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/3dcc439b8f0216411a4a31c880c774ead9ac1a8e"
+    },
+    {
+      "mode": "040000",
+      "path": "python/tests",
+      "sha": "580aad0ecf07d3c031c38cb419a3b385323a05f4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/580aad0ecf07d3c031c38cb419a3b385323a05f4"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_kernel.py",
+      "sha": "03327d80a2d14485bbaa39aa59c0310db2d4babc",
+      "size": 5701,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/03327d80a2d14485bbaa39aa59c0310db2d4babc"
+    },
+    {
+      "mode": "100644",
+      "path": "python/tests/test_nexus.py",
+      "sha": "80526a6af2aae54a44f771fcc7e4d88cb2045237",
+      "size": 5942,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/80526a6af2aae54a44f771fcc7e4d88cb2045237"
+    },
+    {
+      "mode": "100644",
+      "path": "ruff.toml",
+      "sha": "fda9fad6797c04c3331187dec19cf7ce32de7cdf",
+      "size": 330,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/fda9fad6797c04c3331187dec19cf7ce32de7cdf"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "21896073f250608f5ff1775b820c29084a70f92b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/21896073f250608f5ff1775b820c29084a70f92b"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/assert-protected-deploy-source.mjs",
+      "sha": "c642850cb8c16456a4f19a4da8ee87eed746879d",
+      "size": 1737,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/c642850cb8c16456a4f19a4da8ee87eed746879d"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/assert_hf_space_operational.py",
+      "sha": "9abfb2d6bf0862fe71ef8b7b7ca21e35c68e1960",
+      "size": 2761,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/9abfb2d6bf0862fe71ef8b7b7ca21e35c68e1960"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/build-standalone.mjs",
+      "sha": "1a7b53ea32f815a4377b9a6fde06ec26081831db",
+      "size": 2650,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/1a7b53ea32f815a4377b9a6fde06ec26081831db"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/check-decision-genome-snapshot.mjs",
+      "sha": "efd4301879aff01cacc0e0aaba38a0100ce65fa3",
+      "size": 2454,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/efd4301879aff01cacc0e0aaba38a0100ce65fa3"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/delete_nexus_probe.py",
+      "sha": "941a5a40d5e52f35235b754fcb6da4441ec4d2c8",
+      "size": 3733,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/941a5a40d5e52f35235b754fcb6da4441ec4d2c8"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/hf_cleanup_resurrected_spaces.py",
+      "sha": "542d92773e3de9a76bf2aeffe1bfcf2d129a393a",
+      "size": 19435,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/542d92773e3de9a76bf2aeffe1bfcf2d129a393a"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/hf_reconstruct_command_manifest.py",
+      "sha": "f441b62fc4554579249eeffb37ec38920a60d1bb",
+      "size": 11718,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/f441b62fc4554579249eeffb37ec38920a60d1bb"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/hf_reconstruct_command_manifest_v2.py",
+      "sha": "b7a0bca67899dd90b0a6409b8ebc150a4eb195e2",
+      "size": 12023,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/b7a0bca67899dd90b0a6409b8ebc150a4eb195e2"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/hf_restore_david_and_rebalance.py",
+      "sha": "2e108e313146061cef4a76b7b4cf6c34c3615bcc",
+      "size": 31215,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/2e108e313146061cef4a76b7b4cf6c34c3615bcc"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/hf_space_delete_from_receipt.py",
+      "sha": "0f7e045e00814cf6401f3a066c3d3471a982c3dd",
+      "size": 13632,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/0f7e045e00814cf6401f3a066c3d3471a982c3dd"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/hf_space_finalize_three_surface.py",
+      "sha": "54e41cb307b8548329e0f1d8fe520afed65c14ce",
+      "size": 31536,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/54e41cb307b8548329e0f1d8fe520afed65c14ce"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/hf_space_preserve_and_consolidate.py",
+      "sha": "28af6c90d697c16b0aa7d8cbf64ebbc7f6847ead",
+      "size": 26575,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/28af6c90d697c16b0aa7d8cbf64ebbc7f6847ead"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/hf_space_preserve_supplemental.py",
+      "sha": "f8365a129f82307fb650d3aa13f4db573d7c9f13",
+      "size": 24302,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/f8365a129f82307fb650d3aa13f4db573d7c9f13"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/immune_publication_guard.py",
+      "sha": "b506833c6a3e1e7c91f0e2753144c259133022b6",
+      "size": 11519,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/b506833c6a3e1e7c91f0e2753144c259133022b6"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/seal-deploy-artifacts.mjs",
+      "sha": "ddc87098cb90f01975684fbe09d3797f6dd2bc92",
+      "size": 2738,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/ddc87098cb90f01975684fbe09d3797f6dd2bc92"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/szl_finish.py",
+      "sha": "ab435061a047f9522ea23aad1b562d26e505d832",
+      "size": 4718,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/ab435061a047f9522ea23aad1b562d26e505d832"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/verify_nexus_bench_postdelete.py",
+      "sha": "540cfed87720857bf91916fcb9da7f6851c696d7",
+      "size": 5568,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/540cfed87720857bf91916fcb9da7f6851c696d7"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/verify_nexus_bench_preflight.py",
+      "sha": "3d5b413ee45cb67ebebbc6626f28a2fd72d0beff",
+      "size": 13481,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/3d5b413ee45cb67ebebbc6626f28a2fd72d0beff"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/verify_nexus_bench_preflight_v3.py",
+      "sha": "6be49439b47043656cf921bb7cd882190ebc860d",
+      "size": 5705,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/6be49439b47043656cf921bb7cd882190ebc860d"
+    },
+    {
+      "mode": "040000",
+      "path": "server",
+      "sha": "a9ba9575ab51db97408642159e60d280b2f6f784",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/a9ba9575ab51db97408642159e60d280b2f6f784"
+    },
+    {
+      "mode": "040000",
+      "path": "server/contracts",
+      "sha": "9e3b1f6aeda341140049bfc979b7626df45b3159",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/9e3b1f6aeda341140049bfc979b7626df45b3159"
+    },
+    {
+      "mode": "100644",
+      "path": "server/contracts/decision-genome.snapshot.json",
+      "sha": "3303a9da5c84ed09f82d419fd1a47f54286e5cd0",
+      "size": 447,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/3303a9da5c84ed09f82d419fd1a47f54286e5cd0"
+    },
+    {
+      "mode": "100644",
+      "path": "server/contracts/decision-genome.ts",
+      "sha": "7a3c81b75cc1218c3c783ffb3b294803b5eb94c0",
+      "size": 5263,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/7a3c81b75cc1218c3c783ffb3b294803b5eb94c0"
+    },
+    {
+      "mode": "100644",
+      "path": "server/immune-standalone.ts",
+      "sha": "393906cfd94bb12bd969ef11adc65617a5339dc6",
+      "size": 7114,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/393906cfd94bb12bd969ef11adc65617a5339dc6"
+    },
+    {
+      "mode": "040000",
+      "path": "server/lib",
+      "sha": "30e28702651c09ae1dbb4f1c5fa0c31d9bbcb39a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/30e28702651c09ae1dbb4f1c5fa0c31d9bbcb39a"
+    },
+    {
+      "mode": "100644",
+      "path": "server/lib/logger.ts",
+      "sha": "d873c783c645dcdf5c22a5bded25d1eb478eddad",
+      "size": 806,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/d873c783c645dcdf5c22a5bded25d1eb478eddad"
+    },
+    {
+      "mode": "100644",
+      "path": "server/readiness.ts",
+      "sha": "3aafc294b0e8e43831d2945951cffcfcdb052cef",
+      "size": 8899,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/3aafc294b0e8e43831d2945951cffcfcdb052cef"
+    },
+    {
+      "mode": "040000",
+      "path": "server/routes",
+      "sha": "5d0769c467e027e5cb20ec1dc1b5b7180d5ece8c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/5d0769c467e027e5cb20ec1dc1b5b7180d5ece8c"
+    },
+    {
+      "mode": "040000",
+      "path": "server/routes/immune",
+      "sha": "322f3eca1b2d995d60a2743086964136bcf9a023",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/322f3eca1b2d995d60a2743086964136bcf9a023"
+    },
+    {
+      "mode": "100644",
+      "path": "server/routes/immune/agent.ts",
+      "sha": "0b714e4b66bf9e2d8ff9d85c6f00f593ee005663",
+      "size": 24402,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/0b714e4b66bf9e2d8ff9d85c6f00f593ee005663"
+    },
+    {
+      "mode": "100644",
+      "path": "server/routes/immune/canonical.ts",
+      "sha": "57c3d2fb8b2444ff2a236fa4164a3babc20f7cb3",
+      "size": 2378,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/57c3d2fb8b2444ff2a236fa4164a3babc20f7cb3"
+    },
+    {
+      "mode": "100644",
+      "path": "server/routes/immune/cycle.ts",
+      "sha": "d48f4999a8f15c6530fef98e3c830faacd941877",
+      "size": 5988,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/d48f4999a8f15c6530fef98e3c830faacd941877"
+    },
+    {
+      "mode": "100644",
+      "path": "server/routes/immune/demo-operator.ts",
+      "sha": "814bd8b12dae426e4f209e9c9cb9569b4051a14b",
+      "size": 6697,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/814bd8b12dae426e4f209e9c9cb9569b4051a14b"
+    },
+    {
+      "mode": "100644",
+      "path": "server/routes/immune/huklla.ts",
+      "sha": "1eca9167175f69ae225c9b95aad74d1e32d00612",
+      "size": 2928,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/1eca9167175f69ae225c9b95aad74d1e32d00612"
+    },
+    {
+      "mode": "100644",
+      "path": "server/routes/immune/index.ts",
+      "sha": "9c79a4a521a5d68199656ec8ca2896e6072fed4e",
+      "size": 4983,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/9c79a4a521a5d68199656ec8ca2896e6072fed4e"
+    },
+    {
+      "mode": "100644",
+      "path": "server/routes/immune/infer.ts",
+      "sha": "d9d3c1782cb82d182b360032ed27eff36b2b84a2",
+      "size": 5284,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/d9d3c1782cb82d182b360032ed27eff36b2b84a2"
+    },
+    {
+      "mode": "100644",
+      "path": "server/routes/immune/inference.ts",
+      "sha": "a8a489d395c7b24175fa69647b6aefec5817eff8",
+      "size": 3790,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/a8a489d395c7b24175fa69647b6aefec5817eff8"
+    },
+    {
+      "mode": "100644",
+      "path": "server/routes/immune/intel.ts",
+      "sha": "621b6b837612e033b35c6280a4ccb2b210b0c010",
+      "size": 28157,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/621b6b837612e033b35c6280a4ccb2b210b0c010"
+    },
+    {
+      "mode": "100644",
+      "path": "server/routes/immune/ledger.ts",
+      "sha": "eea9cc133b8e6d81640187b009415adeccb0d1cc",
+      "size": 7675,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/eea9cc133b8e6d81640187b009415adeccb0d1cc"
+    },
+    {
+      "mode": "100644",
+      "path": "server/routes/immune/nemo.ts",
+      "sha": "46d7e6042122d9ce8eacf7cfe5706a915e29831b",
+      "size": 11311,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/46d7e6042122d9ce8eacf7cfe5706a915e29831b"
+    },
+    {
+      "mode": "100644",
+      "path": "server/routes/immune/nexus-engine.ts",
+      "sha": "879736623ece27acdf848ac0c0acf68a115e4745",
+      "size": 32843,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/879736623ece27acdf848ac0c0acf68a115e4745"
+    },
+    {
+      "mode": "100644",
+      "path": "server/routes/immune/nexus.ts",
+      "sha": "820eff5cdd40c3edbb1059c825320be59916aa2f",
+      "size": 12548,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/820eff5cdd40c3edbb1059c825320be59916aa2f"
+    },
+    {
+      "mode": "100644",
+      "path": "server/routes/immune/sentra.ts",
+      "sha": "ba4b70564dc1463349ab9fb0962b33c381a408c3",
+      "size": 3613,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/ba4b70564dc1463349ab9fb0962b33c381a408c3"
+    },
+    {
+      "mode": "100644",
+      "path": "server/routes/immune/signing.ts",
+      "sha": "7b4432a5352a81121bb82b043dde8a729ed0108c",
+      "size": 3778,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/7b4432a5352a81121bb82b043dde8a729ed0108c"
+    },
+    {
+      "mode": "100644",
+      "path": "server/routes/immune/state.ts",
+      "sha": "5acc78b02b31d49da31c866fc9b63b8175e505fe",
+      "size": 23972,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/5acc78b02b31d49da31c866fc9b63b8175e505fe"
+    },
+    {
+      "mode": "100644",
+      "path": "server/source-attestation.ts",
+      "sha": "8ce31f9c37d487392930a61852eb82742d2bfc89",
+      "size": 18084,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/8ce31f9c37d487392930a61852eb82742d2bfc89"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "0d69ade38c8386a3f29a15037658e35fc7a546b1",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/0d69ade38c8386a3f29a15037658e35fc7a546b1"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/check_publication_sdk.py",
+      "sha": "63be62c61e958499de5300aafa275bf8224627ae",
+      "size": 5853,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/63be62c61e958499de5300aafa275bf8224627ae"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/immune-authority.test.ts",
+      "sha": "42b2d6cf4d98c1d8daf59c800bd52b2660bb28f5",
+      "size": 14795,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/42b2d6cf4d98c1d8daf59c800bd52b2660bb28f5"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/immune-demo-operator.test.ts",
+      "sha": "d3ae203eb29b323225014d511cfc8afad027a108",
+      "size": 4316,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/d3ae203eb29b323225014d511cfc8afad027a108"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/immune-nemo.test.ts",
+      "sha": "8a975618e61e7d3fec558c95af8c7ccd8ad78bde",
+      "size": 1668,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/8a975618e61e7d3fec558c95af8c7ccd8ad78bde"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/immune-nexus.test.ts",
+      "sha": "df1d3e272aca1f627239d7fe1012727818df7d1f",
+      "size": 5558,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/df1d3e272aca1f627239d7fe1012727818df7d1f"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/immune-readiness.test.ts",
+      "sha": "f76deee3147f59cc5e9ffa0f5911f95e2e4e275b",
+      "size": 23126,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/f76deee3147f59cc5e9ffa0f5911f95e2e4e275b"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/immune-ui-authority.test.ts",
+      "sha": "89de96ffe1bbfada7d07a4a992fc015e119d13f0",
+      "size": 16338,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/89de96ffe1bbfada7d07a4a992fc015e119d13f0"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/smoke-standalone.mjs",
+      "sha": "7bf63259847b2c56da18bc0cda8cb38fd5d4523c",
+      "size": 10640,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/7bf63259847b2c56da18bc0cda8cb38fd5d4523c"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/static-delivery.mjs",
+      "sha": "e12e2b27e902b3bc85842abadf43b7e600d0226e",
+      "size": 10870,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/e12e2b27e902b3bc85842abadf43b7e600d0226e"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_assert_hf_space_operational.py",
+      "sha": "d2c3f00449fab920b1aa130d3b16022692d5d2ad",
+      "size": 2535,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/d2c3f00449fab920b1aa130d3b16022692d5d2ad"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_dependency_workspace.py",
+      "sha": "acad99fa064f625ae5e54b788d87bd4d9bde0f8b",
+      "size": 3456,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/acad99fa064f625ae5e54b788d87bd4d9bde0f8b"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_immune_publication_guard.py",
+      "sha": "5d2293755080395007590fa9c762ebab0f79e047",
+      "size": 19338,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/5d2293755080395007590fa9c762ebab0f79e047"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_immune_publication_workflow.py",
+      "sha": "93f5c495a4e950b17597ab17a0e4356432e4e7c9",
+      "size": 3048,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/93f5c495a4e950b17597ab17a0e4356432e4e7c9"
+    },
+    {
+      "mode": "100644",
+      "path": "tsconfig.server.json",
+      "sha": "6fa9c5bc002ff6c5971a704fb73debc413303826",
+      "size": 295,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/immune/git/blobs/6fa9c5bc002ff6c5971a704fb73debc413303826"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/immune/git/trees/4c3040cb3b2202e316ff478fe274cdd44cff21db"
+}

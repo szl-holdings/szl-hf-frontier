@@ -1,0 +1,46 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 27248,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:06Z",
+      "path": "data/reconciliation/source-evidence/16cb44a536921ffa082c0dd833fa1802d63e6412a7dc0bc9dd72eb58b5ea1274.json",
+      "revision": "4a61f7d67663a5c81dff4b0f2ce136338d758968",
+      "sha256": "16cb44a536921ffa082c0dd833fa1802d63e6412a7dc0bc9dd72eb58b5ea1274",
+      "source_identity": "github/szl-holdings/szl-receipt",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-receipt/git/trees/4a61f7d67663a5c81dff4b0f2ce136338d758968?recursive=1"
+    }
+  ],
+  "file_count": 74,
+  "id": "github/szl-holdings/szl-receipt",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "4a61f7d67663a5c81dff4b0f2ce136338d758968",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "CODEOWNERS",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "SECURITY.md",
+    "artifacts",
+    "bom",
+    "cards",
+    "conformance",
+    "data",
+    "eval",
+    "examples",
+    "pyproject.toml",
+    "receipts",
+    "release",
+    "scripts",
+    "src",
+    "tests"
+  ]
+}

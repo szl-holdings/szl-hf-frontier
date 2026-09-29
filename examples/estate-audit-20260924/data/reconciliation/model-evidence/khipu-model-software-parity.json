@@ -1,0 +1,17 @@
+{
+  "repository": "SZLHOLDINGS/szl-khipu",
+  "revision": "55e2e78c45b581e37d226478ecf39f44168a1d9e",
+  "private": false,
+  "paths": [
+    "szl_khipu/train/receipt_agent.py"
+  ],
+  "files": [
+    {
+      "path": "szl_khipu/train/receipt_agent.py",
+      "http_status": 200,
+      "sha256": "b1fddbd23bb58b2f5976b34e4f126f9d9c836d0421b092c379a3427079d6683e",
+      "contains_validated_features": false,
+      "contains_isfinite": false
+    }
+  ]
+}

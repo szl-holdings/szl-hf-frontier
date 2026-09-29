@@ -27,10 +27,13 @@ jobs:
         run: python3 -m unittest discover -v
       - name: Verify public estate evidence without promotion
         run: python3 tools/verify_estate_evidence.py
+      - name: Verify historical source reconciliation without promotion
+        run: python3 tools/reconcile_estate.py --root examples/estate-audit-20260924 --check
+      - name: Verify historical model evidence without promotion
+        run: python3 tools/verify_model_reconciliation.py --root examples/estate-audit-20260924
       - name: Estate operational selftest
         run: python3 szl_estate_operational.py --selftest
       - name: All-wave closer
         run: python3 -m compose.waves
       - name: Investor selftest
         run: python3 SZL_HF_FRONTIER_INVESTOR.py --selftest
-

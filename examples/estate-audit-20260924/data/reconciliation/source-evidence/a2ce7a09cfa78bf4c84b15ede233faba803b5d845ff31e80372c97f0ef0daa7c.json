@@ -1,0 +1,1384 @@
+{
+  "sha": "40f0ac9849adfd101f97994998481b73adb44d6c",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "683c0f097b69af6676b79d975d689bd6ae3c192c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/trees/683c0f097b69af6676b79d975d689bd6ae3c192c"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/hf-module-drift-allow.json",
+      "sha": "c4c084c9eb88dce85b861090bbee09506526ce77",
+      "size": 707,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/c4c084c9eb88dce85b861090bbee09506526ce77"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "814f5a1e1685989374ad731d105539ebbfc0354e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/trees/814f5a1e1685989374ad731d105539ebbfc0354e"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "37bd08e6661a268bd1cd19dde2325164f5952930",
+      "size": 4260,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/37bd08e6661a268bd1cd19dde2325164f5952930"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/federal-refresh.yml",
+      "sha": "34f391e281edb31d1774eda14ed1fdbd85c8196a",
+      "size": 4934,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/34f391e281edb31d1774eda14ed1fdbd85c8196a"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/frontier-live-canary.yml",
+      "sha": "1a9c184800e18089b037652515bdc1051f88cc7a",
+      "size": 2846,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/1a9c184800e18089b037652515bdc1051f88cc7a"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-deploy.yml",
+      "sha": "331a32a9873965cec819f43ee196e151681ff1d0",
+      "size": 12735,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/331a32a9873965cec819f43ee196e151681ff1d0"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-drift-check.yml",
+      "sha": "9ff04c72ad3dff102f797b007bffe77348dbf9de",
+      "size": 1516,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/9ff04c72ad3dff102f797b007bffe77348dbf9de"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/migrate-neon-persistence.yml",
+      "sha": "bb034462b648f70040c6db00397845f8a3ec97d4",
+      "size": 18244,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/bb034462b648f70040c6db00397845f8a3ec97d4"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/no-runtime-cdn-guard.yml",
+      "sha": "82e83d410cef2136d9ba21fe5f23fed59634abbc",
+      "size": 1128,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/82e83d410cef2136d9ba21fe5f23fed59634abbc"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/public-experience-frontier-v4.yml",
+      "sha": "cbb656e37ea91401b0fa8bfcc7afcfbeb009ba99",
+      "size": 1094,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/cbb656e37ea91401b0fa8bfcc7afcfbeb009ba99"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/rotate-space-credentials.yml",
+      "sha": "bb581511eae27f9600057d1d660a058fc10ce0d8",
+      "size": 8051,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/bb581511eae27f9600057d1d660a058fc10ce0d8"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/szl-holographic-space-v2.yml",
+      "sha": "ffd8ae28b28540c2f250671aa0ba2e64ab0722ad",
+      "size": 4012,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/ffd8ae28b28540c2f250671aa0ba2e64ab0722ad"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/verify-neon-persistence.yml",
+      "sha": "db9b286d70c30f2e7a1037a4edb6220c038d9f79",
+      "size": 7012,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/db9b286d70c30f2e7a1037a4edb6220c038d9f79"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/zz-fix-release-sequencing-test-once.yml",
+      "sha": "8b2fc0993e587dad922b7d06bbdcd0ba1847ef0f",
+      "size": 2874,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/8b2fc0993e587dad922b7d06bbdcd0ba1847ef0f"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "7de7477f9937585a8eb72f48f6c197044e01de2d",
+      "size": 226,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/7de7477f9937585a8eb72f48f6c197044e01de2d"
+    },
+    {
+      "mode": "100644",
+      "path": "DAVID_ABRAHAM_WALKTHROUGH.md",
+      "sha": "acc935bb90cf9c7fc0c20aa4252546cd31f25717",
+      "size": 6082,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/acc935bb90cf9c7fc0c20aa4252546cd31f25717"
+    },
+    {
+      "mode": "100644",
+      "path": "DESIGN_RESEARCH_2026-07-29.md",
+      "sha": "dbb2377ca3649a1191032ee21d03a1d46b3c4c29",
+      "size": 2014,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/dbb2377ca3649a1191032ee21d03a1d46b3c4c29"
+    },
+    {
+      "mode": "100644",
+      "path": "David_Leads_Access_and_Tour.docx",
+      "sha": "aafd90fa6a5061f0626b1a79a9265ab4c0cb615c",
+      "size": 37360,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/aafd90fa6a5061f0626b1a79a9265ab4c0cb615c"
+    },
+    {
+      "mode": "100644",
+      "path": "David_Leads_Broker_Field_Guide_2026.docx",
+      "sha": "8ab2f86a8e602ed3e71b911e5dd8c931867c5ca6",
+      "size": 44003,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/8ab2f86a8e602ed3e71b911e5dd8c931867c5ca6"
+    },
+    {
+      "mode": "100644",
+      "path": "David_Leads_Broker_Guide.docx",
+      "sha": "fad39d0e6824b2538d09eed741283662e6722ac5",
+      "size": 41668,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/fad39d0e6824b2538d09eed741283662e6722ac5"
+    },
+    {
+      "mode": "100644",
+      "path": "David_Leads_PORTABLE.html",
+      "sha": "c7566e013509d49e240ecae4be01c13d0052cd80",
+      "size": 2336,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/c7566e013509d49e240ecae4be01c13d0052cd80"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile",
+      "sha": "13026982b2ae944c676408d1eea639207ed0e92a",
+      "size": 1228,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/13026982b2ae944c676408d1eea639207ed0e92a"
+    },
+    {
+      "mode": "100644",
+      "path": "FOR_DAVID.md",
+      "sha": "77762fe97b5b6f2f619d51a4705194b2e5c8f73e",
+      "size": 4356,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/77762fe97b5b6f2f619d51a4705194b2e5c8f73e"
+    },
+    {
+      "mode": "100644",
+      "path": "HANDOFF_FOR_STEPHEN.md",
+      "sha": "c6a14ff77ba8091f4a631beb8f3c91fe4a99f2dd",
+      "size": 5415,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/c6a14ff77ba8091f4a631beb8f3c91fe4a99f2dd"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "mode": "100644",
+      "path": "PUBLICATION_READINESS.md",
+      "sha": "39bc49f677d39648224124064299762dedd8ca6c",
+      "size": 8910,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/39bc49f677d39648224124064299762dedd8ca6c"
+    },
+    {
+      "mode": "100644",
+      "path": "PUBLIC_DATA_OPERATING_MODEL.md",
+      "sha": "1b5e4e418d2cf34960f5354f9fd88503526c2773",
+      "size": 15271,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/1b5e4e418d2cf34960f5354f9fd88503526c2773"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "5f539e38d5662efa75ab66560f0819031c5531d4",
+      "size": 9462,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/5f539e38d5662efa75ab66560f0819031c5531d4"
+    },
+    {
+      "mode": "100644",
+      "path": "README_FOR_STEPHEN.txt",
+      "sha": "d37651e0c21a8d7a6f421f7f2fee2d17ae8c39af",
+      "size": 2549,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/d37651e0c21a8d7a6f421f7f2fee2d17ae8c39af"
+    },
+    {
+      "mode": "100644",
+      "path": "SPACE_PROVENANCE.json",
+      "sha": "18724f58cf8fb133d854fde76321727ea6d4978e",
+      "size": 1644,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/18724f58cf8fb133d854fde76321727ea6d4978e"
+    },
+    {
+      "mode": "100644",
+      "path": "SPEC.md",
+      "sha": "515cca5f7ec54658f988865b594cab89f1f5ec4e",
+      "size": 6786,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/515cca5f7ec54658f988865b594cab89f1f5ec4e"
+    },
+    {
+      "mode": "100644",
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha": "a5aa4e93c515e79c8a49a20e9e2a9055beaf39eb",
+      "size": 1965,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/a5aa4e93c515e79c8a49a20e9e2a9055beaf39eb"
+    },
+    {
+      "mode": "100644",
+      "path": "V8_SELFTEST.json",
+      "sha": "9a5b60f700e5dd906dd9005b0761ee0bb6577a6a",
+      "size": 15738,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/9a5b60f700e5dd906dd9005b0761ee0bb6577a6a"
+    },
+    {
+      "mode": "040000",
+      "path": "app",
+      "sha": "71dc36553f0d049cc3097f7be0b1a167bd5a0627",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/trees/71dc36553f0d049cc3097f7be0b1a167bd5a0627"
+    },
+    {
+      "mode": "100644",
+      "path": "app/FRONTIER_SELFTEST.md",
+      "sha": "2b7a30cf400548ac7a434dca004bb86c30e0808c",
+      "size": 5007,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/2b7a30cf400548ac7a434dca004bb86c30e0808c"
+    },
+    {
+      "mode": "100644",
+      "path": "app/INVESTOR_READY_SELFTEST.md",
+      "sha": "151c7035f624922e4abde2e90401a7cf456d1d53",
+      "size": 4473,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/151c7035f624922e4abde2e90401a7cf456d1d53"
+    },
+    {
+      "mode": "100644",
+      "path": "app/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "mode": "100644",
+      "path": "app/ask.py",
+      "sha": "ac1c5cca6fe95f4ab372beba8f64c46bafbe08a4",
+      "size": 11677,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/ac1c5cca6fe95f4ab372beba8f64c46bafbe08a4"
+    },
+    {
+      "mode": "100644",
+      "path": "app/benchmark.py",
+      "sha": "cbb49b62c6ae75f456b2da7b0fa3a2a413dc7f9a",
+      "size": 3473,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/cbb49b62c6ae75f456b2da7b0fa3a2a413dc7f9a"
+    },
+    {
+      "mode": "100644",
+      "path": "app/benefit_frontier.py",
+      "sha": "28e3e42f6ab1f41ade737b08d4e9f5073bcbb55f",
+      "size": 13703,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/28e3e42f6ab1f41ade737b08d4e9f5073bcbb55f"
+    },
+    {
+      "mode": "100644",
+      "path": "app/consensus.py",
+      "sha": "338e0448ce9a788b7afb783ce9674ce1da9a3d25",
+      "size": 9822,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/338e0448ce9a788b7afb783ce9674ce1da9a3d25"
+    },
+    {
+      "mode": "100644",
+      "path": "app/coverage.py",
+      "sha": "8bd8e771e6d69e35a3504f96600750c8ba291083",
+      "size": 3352,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/8bd8e771e6d69e35a3504f96600750c8ba291083"
+    },
+    {
+      "mode": "100644",
+      "path": "app/data_policy.py",
+      "sha": "e38c7283b9c34de19ff68c2839af98353aa52a0c",
+      "size": 11465,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/e38c7283b9c34de19ff68c2839af98353aa52a0c"
+    },
+    {
+      "mode": "100644",
+      "path": "app/dealdesk.py",
+      "sha": "f49c3ea21eee9f5b4afbe6f5a3d5cc9e55b2639c",
+      "size": 63642,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/f49c3ea21eee9f5b4afbe6f5a3d5cc9e55b2639c"
+    },
+    {
+      "mode": "100644",
+      "path": "app/dealdesk_schema.sql",
+      "sha": "8ca688d52bf04c98ca112c36884c8f7a770c0d0b",
+      "size": 1483,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/8ca688d52bf04c98ca112c36884c8f7a770c0d0b"
+    },
+    {
+      "mode": "040000",
+      "path": "app/domain",
+      "sha": "748f03d84b0c6af77392e74852d9ac0f27accdb8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/trees/748f03d84b0c6af77392e74852d9ac0f27accdb8"
+    },
+    {
+      "mode": "100644",
+      "path": "app/domain/README.md",
+      "sha": "afddb2d4031cef4dd1fa4d62c9d0b710ed80ae2a",
+      "size": 1191,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/afddb2d4031cef4dd1fa4d62c9d0b710ed80ae2a"
+    },
+    {
+      "mode": "100644",
+      "path": "app/domain/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "mode": "100644",
+      "path": "app/domain/david_postgres.py",
+      "sha": "7a868057c6a8aff7e1af508f1eb424e7682feecf",
+      "size": 19152,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/7a868057c6a8aff7e1af508f1eb424e7682feecf"
+    },
+    {
+      "mode": "100644",
+      "path": "app/domain/david_reference.py",
+      "sha": "7f2998f66817d8e7bf0d8569e89630c90b414962",
+      "size": 22152,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/7f2998f66817d8e7bf0d8569e89630c90b414962"
+    },
+    {
+      "mode": "100644",
+      "path": "app/domain/source_policy.py",
+      "sha": "0ea34ad01c30da26b1d4224ce77e3739b0f1aae3",
+      "size": 4422,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/0ea34ad01c30da26b1d4224ce77e3739b0f1aae3"
+    },
+    {
+      "mode": "100644",
+      "path": "app/edgar_fts.py",
+      "sha": "2686dcd73b1654ec757b4aa463a57c2ccbc88fff",
+      "size": 6384,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/2686dcd73b1654ec757b4aa463a57c2ccbc88fff"
+    },
+    {
+      "mode": "100644",
+      "path": "app/events.py",
+      "sha": "c0cbf5aab647fe3a34c4e684f46f841ca3b29122",
+      "size": 21659,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/c0cbf5aab647fe3a34c4e684f46f841ca3b29122"
+    },
+    {
+      "mode": "100644",
+      "path": "app/evidence_constellation.py",
+      "sha": "6c99e193a914cfcee332527ef6b7419fad58e682",
+      "size": 18726,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/6c99e193a914cfcee332527ef6b7419fad58e682"
+    },
+    {
+      "mode": "100644",
+      "path": "app/evidence_schema.sql",
+      "sha": "90ba955f7fe389de3543015fa2c7b64081f68c69",
+      "size": 7662,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/90ba955f7fe389de3543015fa2c7b64081f68c69"
+    },
+    {
+      "mode": "100644",
+      "path": "app/federal_refresh_store.py",
+      "sha": "54c55eb25bbde09d9fd9c9729351d8ccdcba4c77",
+      "size": 6388,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/54c55eb25bbde09d9fd9c9729351d8ccdcba4c77"
+    },
+    {
+      "mode": "100644",
+      "path": "app/formulas.py",
+      "sha": "632883f9b0752abbf5eac0c8f62cc7126299e186",
+      "size": 13587,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/632883f9b0752abbf5eac0c8f62cc7126299e186"
+    },
+    {
+      "mode": "100644",
+      "path": "app/frontier.py",
+      "sha": "98d0273f4a01c3bf4be36cc0dd1230d46c08704f",
+      "size": 15103,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/98d0273f4a01c3bf4be36cc0dd1230d46c08704f"
+    },
+    {
+      "mode": "100644",
+      "path": "app/frontier_sources.py",
+      "sha": "c9d6b75c3e9ed489babf5a8e908b41e5fee78649",
+      "size": 45495,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/c9d6b75c3e9ed489babf5a8e908b41e5fee78649"
+    },
+    {
+      "mode": "100644",
+      "path": "app/liquidity.py",
+      "sha": "dcfa1b51f3117a0dc9e056c68e82cf6f10283b6f",
+      "size": 6519,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/dcfa1b51f3117a0dc9e056c68e82cf6f10283b6f"
+    },
+    {
+      "mode": "100644",
+      "path": "app/org_chain.py",
+      "sha": "77dc7f7dc38076b06ea4a7fd7670d4a4f847bf4e",
+      "size": 6397,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/77dc7f7dc38076b06ea4a7fd7670d4a4f847bf4e"
+    },
+    {
+      "mode": "100644",
+      "path": "app/oroboros.py",
+      "sha": "0274bb10b2f5e83f6885cb5d5e4a6f5f49f66631",
+      "size": 6751,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/0274bb10b2f5e83f6885cb5d5e4a6f5f49f66631"
+    },
+    {
+      "mode": "100644",
+      "path": "app/permits.py",
+      "sha": "1ed570c5724dd3c3ba43f09b03971e69930b3fec",
+      "size": 3676,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/1ed570c5724dd3c3ba43f09b03971e69930b3fec"
+    },
+    {
+      "mode": "100644",
+      "path": "app/real_leads.py",
+      "sha": "e7179c8b9ce80d343b76a13fd1fde6b7436d32c4",
+      "size": 29423,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/e7179c8b9ce80d343b76a13fd1fde6b7436d32c4"
+    },
+    {
+      "mode": "100644",
+      "path": "app/receipt_lake.py",
+      "sha": "d0e68e4de1c8bf1afc3753eae914fc492c141f3c",
+      "size": 2310,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/d0e68e4de1c8bf1afc3753eae914fc492c141f3c"
+    },
+    {
+      "mode": "100644",
+      "path": "app/receipts.py",
+      "sha": "e2fb4f101d2d1046e94014c023f2fd0d22f6cc0c",
+      "size": 13146,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/e2fb4f101d2d1046e94014c023f2fd0d22f6cc0c"
+    },
+    {
+      "mode": "100644",
+      "path": "app/routing.py",
+      "sha": "0473d38d0ce00a088574cc071b684ae6bd76ca85",
+      "size": 6504,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/0473d38d0ce00a088574cc071b684ae6bd76ca85"
+    },
+    {
+      "mode": "100644",
+      "path": "app/scoring.py",
+      "sha": "f15efb871964a6456ca88a4b582718149162a223",
+      "size": 40477,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/f15efb871964a6456ca88a4b582718149162a223"
+    },
+    {
+      "mode": "100644",
+      "path": "app/server.py",
+      "sha": "c5aa95ec9188069d56ef835b57d3574e812496ff",
+      "size": 92985,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/c5aa95ec9188069d56ef835b57d3574e812496ff"
+    },
+    {
+      "mode": "100644",
+      "path": "app/signals.py",
+      "sha": "ce88db975281565f45f9a36701c144e3eaca86c7",
+      "size": 12050,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/ce88db975281565f45f9a36701c144e3eaca86c7"
+    },
+    {
+      "mode": "100644",
+      "path": "app/signals_v3.py",
+      "sha": "a736282ac9dcfe4afb8cd415436a816e88406e39",
+      "size": 20476,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/a736282ac9dcfe4afb8cd415436a816e88406e39"
+    },
+    {
+      "mode": "100644",
+      "path": "app/signals_v5.py",
+      "sha": "f55db7b3e6a6e9a8e2504cabdf611ed24d2fd1e1",
+      "size": 8959,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/f55db7b3e6a6e9a8e2504cabdf611ed24d2fd1e1"
+    },
+    {
+      "mode": "100644",
+      "path": "app/signals_v6.py",
+      "sha": "981f687ae35a8ca26acfcabef76fd4fa6d05b6f3",
+      "size": 6817,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/981f687ae35a8ca26acfcabef76fd4fa6d05b6f3"
+    },
+    {
+      "mode": "100644",
+      "path": "app/signals_v7.py",
+      "sha": "d48ea001ed0fa732d21014b019bb2281c6a472ef",
+      "size": 5729,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/d48ea001ed0fa732d21014b019bb2281c6a472ef"
+    },
+    {
+      "mode": "100644",
+      "path": "app/signals_v8.py",
+      "sha": "49a19996ad3bfe918ff041bb5342c3f385374773",
+      "size": 25447,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/49a19996ad3bfe918ff041bb5342c3f385374773"
+    },
+    {
+      "mode": "040000",
+      "path": "app/static",
+      "sha": "ab10cd4d852449d872d0ac283eafc807e083f79f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/trees/ab10cd4d852449d872d0ac283eafc807e083f79f"
+    },
+    {
+      "mode": "100644",
+      "path": "app/static/app.js",
+      "sha": "b4a2797736871d6d70bc642c091bea29999a42c2",
+      "size": 56443,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/b4a2797736871d6d70bc642c091bea29999a42c2"
+    },
+    {
+      "mode": "040000",
+      "path": "app/static/fonts",
+      "sha": "400922b303d70fb9a6e32c9c7d94deb92b209aaa",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/trees/400922b303d70fb9a6e32c9c7d94deb92b209aaa"
+    },
+    {
+      "mode": "100644",
+      "path": "app/static/fonts/JetBrainsMono-Medium.ttf",
+      "sha": "dc2e5d08677d603b6755dc6c34fc8ad9aa6fc8a5",
+      "size": 270316,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/dc2e5d08677d603b6755dc6c34fc8ad9aa6fc8a5"
+    },
+    {
+      "mode": "100644",
+      "path": "app/static/fonts/JetBrainsMono-Regular.ttf",
+      "sha": "711830ede02a366f8b99f88e52f3148405e67eaf",
+      "size": 270224,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/711830ede02a366f8b99f88e52f3148405e67eaf"
+    },
+    {
+      "mode": "100644",
+      "path": "app/static/fonts/OFL-JetBrainsMono.txt",
+      "sha": "5ceee0025da23d2cd5fd14b28569708a8db4db2b",
+      "size": 4399,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/5ceee0025da23d2cd5fd14b28569708a8db4db2b"
+    },
+    {
+      "mode": "100644",
+      "path": "app/static/fonts/OFL-SpaceGrotesk.txt",
+      "sha": "cb512b9af44ff61e75e1aad387b7424cdfab36a3",
+      "size": 4495,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/cb512b9af44ff61e75e1aad387b7424cdfab36a3"
+    },
+    {
+      "mode": "100644",
+      "path": "app/static/fonts/SpaceGrotesk-Bold.ttf",
+      "sha": "f8eb245d1ec7fd02d77f5a9b55ef6afc4c9ed1c1",
+      "size": 116056,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/f8eb245d1ec7fd02d77f5a9b55ef6afc4c9ed1c1"
+    },
+    {
+      "mode": "100644",
+      "path": "app/static/fonts/SpaceGrotesk-Medium.ttf",
+      "sha": "341b633572a9af2c4440fa8060f83d08bca70a7f",
+      "size": 116664,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/341b633572a9af2c4440fa8060f83d08bca70a7f"
+    },
+    {
+      "mode": "100644",
+      "path": "app/static/fonts/SpaceGrotesk-Regular.ttf",
+      "sha": "46aa5dada9c4833e55256a4f3437388f42c5f666",
+      "size": 114428,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/46aa5dada9c4833e55256a4f3437388f42c5f666"
+    },
+    {
+      "mode": "100644",
+      "path": "app/static/fonts/fonts.css",
+      "sha": "27dd6bb39676297b2566f1ffb657b2cbd8e0ed32",
+      "size": 1133,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/27dd6bb39676297b2566f1ffb657b2cbd8e0ed32"
+    },
+    {
+      "mode": "100644",
+      "path": "app/static/holo.css",
+      "sha": "51be3a2d07d4110d0a16b13ee7b242395b3eae5e",
+      "size": 58073,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/51be3a2d07d4110d0a16b13ee7b242395b3eae5e"
+    },
+    {
+      "mode": "100644",
+      "path": "app/static/holo.js",
+      "sha": "ed95869677755b3d934eca5f605029ff3794616a",
+      "size": 474,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/ed95869677755b3d934eca5f605029ff3794616a"
+    },
+    {
+      "mode": "100644",
+      "path": "app/static/index.html",
+      "sha": "f91f3d29ad53d30749a1db67d8714e47ac818fd9",
+      "size": 25066,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/f91f3d29ad53d30749a1db67d8714e47ac818fd9"
+    },
+    {
+      "mode": "040000",
+      "path": "app/static/vendor",
+      "sha": "50185ecee95c0a468f7855f7f13d57766e15e5f3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/trees/50185ecee95c0a468f7855f7f13d57766e15e5f3"
+    },
+    {
+      "mode": "100644",
+      "path": "app/static/vendor/three.min.js",
+      "sha": "b14f47c0908bab15e890b468d53bb07db0be3a18",
+      "size": 603445,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/b14f47c0908bab15e890b468d53bb07db0be3a18"
+    },
+    {
+      "mode": "100644",
+      "path": "app/tax_leads.py",
+      "sha": "5cb0c84f14310cf021cf1901a4ff6c8bce414c26",
+      "size": 12678,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/5cb0c84f14310cf021cf1901a4ff6c8bce414c26"
+    },
+    {
+      "mode": "100644",
+      "path": "app/warn_leads.py",
+      "sha": "d2d3fadbcc941fb6f1c2b2ef5f43cde92c2655c8",
+      "size": 8596,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/d2d3fadbcc941fb6f1c2b2ef5f43cde92c2655c8"
+    },
+    {
+      "mode": "100644",
+      "path": "app/wealth990.py",
+      "sha": "b2b934153f7cc6f2f475417541b8ed549140d8c0",
+      "size": 3994,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/b2b934153f7cc6f2f475417541b8ed549140d8c0"
+    },
+    {
+      "mode": "100644",
+      "path": "app/work.py",
+      "sha": "c535c57af75dde6f50f3da0234e1441a7a547019",
+      "size": 10446,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/c535c57af75dde6f50f3da0234e1441a7a547019"
+    },
+    {
+      "mode": "100644",
+      "path": "backend_frontend_qa.md",
+      "sha": "15e21c65be514f91c8a56d9942eba6a6a5383f9b",
+      "size": 8298,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/15e21c65be514f91c8a56d9942eba6a6a5383f9b"
+    },
+    {
+      "mode": "100644",
+      "path": "build_portable.py",
+      "sha": "f7f4d126188466cc74ac4784d096c249c3c224b0",
+      "size": 3208,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/f7f4d126188466cc74ac4784d096c249c3c224b0"
+    },
+    {
+      "mode": "100644",
+      "path": "doc_build_make_doc.js",
+      "sha": "33c65746e896307b72149ccf1d7142797a834c7b",
+      "size": 888,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/33c65746e896307b72149ccf1d7142797a834c7b"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "8d2ad6190829daa069acc3fcd31a98e42821c50c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/trees/8d2ad6190829daa069acc3fcd31a98e42821c50c"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/FEDERAL_PUBLICATION_CONTRACT.md",
+      "sha": "eff1f45b81c64e2922d5983c6ce9b1fcc3d08037",
+      "size": 1864,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/eff1f45b81c64e2922d5983c6ce9b1fcc3d08037"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/tmp-controller-check.md",
+      "sha": "a8b6c9477b693176aa811d7fc0fd5374d44e3557",
+      "size": 4,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/a8b6c9477b693176aa811d7fc0fd5374d44e3557"
+    },
+    {
+      "mode": "100644",
+      "path": "live_audit.md",
+      "sha": "2cc10585ec6762889328c5289c33b62672b53264",
+      "size": 26197,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/2cc10585ec6762889328c5289c33b62672b53264"
+    },
+    {
+      "mode": "040000",
+      "path": "ops",
+      "sha": "b91d4a61053e2c0fc83d255014caabdde9aa4cd0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/trees/b91d4a61053e2c0fc83d255014caabdde9aa4cd0"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/credential-rotation.md",
+      "sha": "ea788fa81bea7b9ffb45bbce6952b9fd89f9fc69",
+      "size": 2388,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/ea788fa81bea7b9ffb45bbce6952b9fd89f9fc69"
+    },
+    {
+      "mode": "040000",
+      "path": "ops/evidence",
+      "sha": "b03279e91a3c47cb8d0d82c1da99a13de565c841",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/trees/b03279e91a3c47cb8d0d82c1da99a13de565c841"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/evidence/david-production-verification-2026-07-28.json",
+      "sha": "9cb57b94f845c92e2ee29fce0ffe0542164fae8c",
+      "size": 1886,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/9cb57b94f845c92e2ee29fce0ffe0542164fae8c"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/frontier_live_canary.py",
+      "sha": "68be0a4cacd1cf95faa15e92e174db1e58aaf9e7",
+      "size": 8382,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/68be0a4cacd1cf95faa15e92e174db1e58aaf9e7"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/neon-persistence.md",
+      "sha": "d39838e0e776f2f00ee7ee33b0f3fbd0621f76c9",
+      "size": 2228,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/d39838e0e776f2f00ee7ee33b0f3fbd0621f76c9"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/source_health.py",
+      "sha": "811028acf95e5d18a964dfbf333e425539871180",
+      "size": 4831,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/811028acf95e5d18a964dfbf333e425539871180"
+    },
+    {
+      "mode": "100644",
+      "path": "ops/sources.yaml",
+      "sha": "7aee8305d2d101909269f36ca8a3f3cb5f2738be",
+      "size": 6026,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/7aee8305d2d101909269f36ca8a3f3cb5f2738be"
+    },
+    {
+      "mode": "040000",
+      "path": "qa",
+      "sha": "23f381432145233e68e0a05414208723da12abfc",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/trees/23f381432145233e68e0a05414208723da12abfc"
+    },
+    {
+      "mode": "100644",
+      "path": "qa/backend_frontend_qa.md",
+      "sha": "2f962bec0db4270869447f9ec5aecb1e0ebffc61",
+      "size": 8304,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/2f962bec0db4270869447f9ec5aecb1e0ebffc61"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements-dev.txt",
+      "sha": "ee4f799a673a1951ac2c9c82b2f6478912709f12",
+      "size": 77,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/ee4f799a673a1951ac2c9c82b2f6478912709f12"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements-ingestor.txt",
+      "sha": "cfd7be49607d021a7cae0180f3a3b0bacbcbfc55",
+      "size": 95,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/cfd7be49607d021a7cae0180f3a3b0bacbcbfc55"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements.txt",
+      "sha": "f48cac07e4ac7891917e0da9a408d25bba43397f",
+      "size": 103,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/f48cac07e4ac7891917e0da9a408d25bba43397f"
+    },
+    {
+      "mode": "040000",
+      "path": "research",
+      "sha": "e2d4566469bdeb0fd3840b1a8caf236b02b20f9d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/trees/e2d4566469bdeb0fd3840b1a8caf236b02b20f9d"
+    },
+    {
+      "mode": "100644",
+      "path": "research/COMPETITIVE_SYNTHESIS_2026-08-26.md",
+      "sha": "053fd6bd2161e723ac27bb8ef4a1933fba3b71c8",
+      "size": 11734,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/053fd6bd2161e723ac27bb8ef4a1933fba3b71c8"
+    },
+    {
+      "mode": "100644",
+      "path": "research/FRONTIER_PRODUCT_RESEARCH_20260730.md",
+      "sha": "f6f4021e7e43bfdb66a70e9e6ea35ad0ba3c6220",
+      "size": 4073,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/f6f4021e7e43bfdb66a70e9e6ea35ad0ba3c6220"
+    },
+    {
+      "mode": "100644",
+      "path": "research/LEADERS_RECON.md",
+      "sha": "6d0df5c5f40af8ca63f073404dc55b08dc9ea882",
+      "size": 32168,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/6d0df5c5f40af8ca63f073404dc55b08dc9ea882"
+    },
+    {
+      "mode": "100644",
+      "path": "research/V2_DESIGN_SPEC.md",
+      "sha": "0ce9c4db598808f3301513adeed1516b41449ae2",
+      "size": 34857,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/0ce9c4db598808f3301513adeed1516b41449ae2"
+    },
+    {
+      "mode": "100644",
+      "path": "research/V3_BRIEF.md",
+      "sha": "ae1503bc67b50d84034b3bcc518b40c9a0a9b16a",
+      "size": 2934,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/ae1503bc67b50d84034b3bcc518b40c9a0a9b16a"
+    },
+    {
+      "mode": "100644",
+      "path": "research/V3_WIREINS.md",
+      "sha": "e88824fe9ad9197302f2f86e6bb9eeac2aeb2970",
+      "size": 28482,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/e88824fe9ad9197302f2f86e6bb9eeac2aeb2970"
+    },
+    {
+      "mode": "100644",
+      "path": "research/V5_FRESH_FEEDS.md",
+      "sha": "48b4e16f3a1601212baeb197f4a1888efe17654e",
+      "size": 13748,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/48b4e16f3a1601212baeb197f4a1888efe17654e"
+    },
+    {
+      "mode": "100644",
+      "path": "research/V6_TRIGGERS.md",
+      "sha": "ab61badf8e8dd163f762026e9a1e74df3566e5d6",
+      "size": 17532,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/ab61badf8e8dd163f762026e9a1e74df3566e5d6"
+    },
+    {
+      "mode": "100644",
+      "path": "research/V7_MULTISTATE.md",
+      "sha": "f2c73207cdf9db7dc8721bf0193dfd0fc4c01ae3",
+      "size": 29794,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/f2c73207cdf9db7dc8721bf0193dfd0fc4c01ae3"
+    },
+    {
+      "mode": "100644",
+      "path": "research/V7_TAX_WEALTH.md",
+      "sha": "81a3ed1faed0e579cd9ff0e715b393560c7f3d7a",
+      "size": 23829,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/81a3ed1faed0e579cd9ff0e715b393560c7f3d7a"
+    },
+    {
+      "mode": "100644",
+      "path": "research/V8_LAMBDA_TIME_DECAY.md",
+      "sha": "646f471ed35caac8795b268647ca088797b4d0aa",
+      "size": 2465,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/646f471ed35caac8795b268647ca088797b4d0aa"
+    },
+    {
+      "mode": "100644",
+      "path": "research/V8_SEABOARD_SCOPE.md",
+      "sha": "c8b71ced3958791ee1b8be2534ce1af83f28d908",
+      "size": 4677,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/c8b71ced3958791ee1b8be2534ce1af83f28d908"
+    },
+    {
+      "mode": "100644",
+      "path": "research/V8_SIGNED_4PART_BRIEF.md",
+      "sha": "1466dc539948c8e7531893462e25fc1a2f43bcbe",
+      "size": 2453,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/1466dc539948c8e7531893462e25fc1a2f43bcbe"
+    },
+    {
+      "mode": "100644",
+      "path": "research/V8_TERRITORY_PULSE.md",
+      "sha": "172a76cb88ca76b70adcea71c668f528ee3db390",
+      "size": 2412,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/172a76cb88ca76b70adcea71c668f528ee3db390"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "61f89c35d23f13ab9f3da97d2f3b9b636f858efd",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/trees/61f89c35d23f13ab9f3da97d2f3b9b636f858efd"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/data_state_transition.test.mjs",
+      "sha": "a157b358d8ad0c9a47126ccefd059b4866019afc",
+      "size": 9024,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/a157b358d8ad0c9a47126ccefd059b4866019afc"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/evidence_constellation_ui.test.mjs",
+      "sha": "08f24ae7638fa1ba2861e1c30f725660cbe33816",
+      "size": 1371,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/08f24ae7638fa1ba2861e1c30f725660cbe33816"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_benefit_frontier.py",
+      "sha": "eb493bf63f31860e809c073f055af32fc4dbec55",
+      "size": 6298,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/eb493bf63f31860e809c073f055af32fc4dbec55"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_david_p1b_api.py",
+      "sha": "722ce68f38a796e881707cbb63a938e3b20723f7",
+      "size": 6158,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/722ce68f38a796e881707cbb63a938e3b20723f7"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_david_postgres.py",
+      "sha": "2f4c7e15ba3ad93360ca9ced29ea63a573a592bc",
+      "size": 10654,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/2f4c7e15ba3ad93360ca9ced29ea63a573a592bc"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_david_reference.py",
+      "sha": "1b5d0445a54fa8299d1e50fcb469526b8601ae2f",
+      "size": 12966,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/1b5d0445a54fa8299d1e50fcb469526b8601ae2f"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_dol_5500_ingestor.py",
+      "sha": "fe468d557d7ae0e01225420f6f0523cfca3bd74d",
+      "size": 1598,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/fe468d557d7ae0e01225420f6f0523cfca3bd74d"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_echo_ingestor.py",
+      "sha": "1519854ea22262fe08b1394162a77d8f75cf5818",
+      "size": 2483,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/1519854ea22262fe08b1394162a77d8f75cf5818"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_evidence_constellation.py",
+      "sha": "6ba97b0e7a80c412e17319c8305af6c0f4968f1f",
+      "size": 13027,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/6ba97b0e7a80c412e17319c8305af6c0f4968f1f"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_federal_publication_atomic.py",
+      "sha": "931f154999b43eb0a5fd6fe8aaae28380bbc52a8",
+      "size": 8383,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/931f154999b43eb0a5fd6fe8aaae28380bbc52a8"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_federal_refresh_store.py",
+      "sha": "97b726000393c162066bc3507f8544e1165f4161",
+      "size": 3622,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/97b726000393c162066bc3507f8544e1165f4161"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_frontier_live_canary.py",
+      "sha": "5079e646a50f5a538ca40fd0cc38bf5c1b21c564",
+      "size": 3830,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/5079e646a50f5a538ca40fd0cc38bf5c1b21c564"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_frontier_sources.py",
+      "sha": "bc1c72fa61b5ea3b86b6782b79d2e6cfdd8f2abc",
+      "size": 24676,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/bc1c72fa61b5ea3b86b6782b79d2e6cfdd8f2abc"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_hf_deploy_release_sequencing.py",
+      "sha": "6f8e26bf353d77e4030e292a7828622679fbfaa5",
+      "size": 3346,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/6f8e26bf353d77e4030e292a7828622679fbfaa5"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_kanchay_visual_honesty.py",
+      "sha": "9616a9a9ad85df0c738146da1aeac562f291b9c8",
+      "size": 3307,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/9616a9a9ad85df0c738146da1aeac562f291b9c8"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_motus_ingestor.py",
+      "sha": "1afd1ac1d19ae0f505b55e1f84054a1b5603fc06",
+      "size": 1609,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/1afd1ac1d19ae0f505b55e1f84054a1b5603fc06"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_neon_migration_trigger_scope.py",
+      "sha": "620b67bce9e5124eb105325284c44ae9877753f7",
+      "size": 2178,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/620b67bce9e5124eb105325284c44ae9877753f7"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_operational_safety.py",
+      "sha": "ea6db07cc488028f359d745d87198e4f27cca285",
+      "size": 75481,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/ea6db07cc488028f359d745d87198e4f27cca285"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_operator_decision_trace.py",
+      "sha": "1b85b4ba072011d7c941ec6a2dbe64a285f4f0d0",
+      "size": 5786,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/1b85b4ba072011d7c941ec6a2dbe64a285f4f0d0"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_public_readonly.py",
+      "sha": "dd9237de91ffd4df1ec1f3f32b32658411b29772",
+      "size": 19338,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/dd9237de91ffd4df1ec1f3f32b32658411b29772"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_real_leads_no_samples.py",
+      "sha": "7827a791c6f7cb745cb3c8db0b60b532949ac9cc",
+      "size": 4048,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/7827a791c6f7cb745cb3c8db0b60b532949ac9cc"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_receipt_bus_parity.py",
+      "sha": "0b72732d9cf01820917c9c5b147fd7dd9c776c56",
+      "size": 7256,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/0b72732d9cf01820917c9c5b147fd7dd9c776c56"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_receipt_honesty.py",
+      "sha": "99ef46ce66ce5abab73ad1f0879c94849622f6c5",
+      "size": 13250,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/99ef46ce66ce5abab73ad1f0879c94849622f6c5"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_release_truth_surface.py",
+      "sha": "16352e8f0bcc12f6a7feb02f5f97924c377ff31e",
+      "size": 13571,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/16352e8f0bcc12f6a7feb02f5f97924c377ff31e"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_usaspending_ingestor.py",
+      "sha": "c314e0c1a0a8dbce7f85b564164c9ccccb365549",
+      "size": 1810,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/c314e0c1a0a8dbce7f85b564164c9ccccb365549"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_verify_snapshot.py",
+      "sha": "e529703679db70eac65b865e592d8b1a2bb0bc34",
+      "size": 3546,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/e529703679db70eac65b865e592d8b1a2bb0bc34"
+    },
+    {
+      "mode": "040000",
+      "path": "tools",
+      "sha": "0b8a94124e2fc1a6d64551f5e6ce8cedadf1cc91",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/trees/0b8a94124e2fc1a6d64551f5e6ce8cedadf1cc91"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/build_broker_guide.py",
+      "sha": "26fd44b9e23ebb6e9ae101302f9c1db23641b136",
+      "size": 30117,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/26fd44b9e23ebb6e9ae101302f9c1db23641b136"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/build_david_broker_guide.py",
+      "sha": "1f33e10e86a9b20ead44bed33749cfe52615e90c",
+      "size": 20057,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/1f33e10e86a9b20ead44bed33749cfe52615e90c"
+    },
+    {
+      "mode": "040000",
+      "path": "tools/ingestor",
+      "sha": "e9ea128db153e7374c44bf1255f2f8fab1b46c06",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/trees/e9ea128db153e7374c44bf1255f2f8fab1b46c06"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/ingestor/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/ingestor/dol_5500_ingestor.py",
+      "sha": "ef07e6b6e7adfc6854697e7505daefad6765835a",
+      "size": 4553,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/ef07e6b6e7adfc6854697e7505daefad6765835a"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/ingestor/dol_5500_ingestor_cli.py",
+      "sha": "85a27e32d39249547558ae5f51a35408dbeec337",
+      "size": 1600,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/85a27e32d39249547558ae5f51a35408dbeec337"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/ingestor/echo_ingestor.py",
+      "sha": "c7961278e4eb4ac334fa897b425c771e9ce2cc58",
+      "size": 5801,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/c7961278e4eb4ac334fa897b425c771e9ce2cc58"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/ingestor/echo_ingestor_cli.py",
+      "sha": "795d0e66f49cccd91dd67679caee926b69570872",
+      "size": 1589,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/795d0e66f49cccd91dd67679caee926b69570872"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/ingestor/motus_ingestor.py",
+      "sha": "567785d07fe7a4c5897d456217528d5c44e23a5a",
+      "size": 3611,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/567785d07fe7a4c5897d456217528d5c44e23a5a"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/ingestor/motus_ingestor_cli.py",
+      "sha": "1b7f6716fe577f722a47d5b3a5098acfc5657eb5",
+      "size": 1595,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/1b7f6716fe577f722a47d5b3a5098acfc5657eb5"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/ingestor/publish_snapshot.py",
+      "sha": "d88fa36634319662129a0d7bf698753202131189",
+      "size": 8348,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/d88fa36634319662129a0d7bf698753202131189"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/ingestor/usaspending_ingestor.py",
+      "sha": "f7864e93d77a6fca22649359f7614d45cd9b9881",
+      "size": 4366,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/f7864e93d77a6fca22649359f7614d45cd9b9881"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/ingestor/usaspending_ingestor_cli.py",
+      "sha": "0215f5fcd332285d32b460672791a3070c898b74",
+      "size": 1622,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/0215f5fcd332285d32b460672791a3070c898b74"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/ingestor/verify_snapshot.py",
+      "sha": "57b4e50c2f57678c577914c3041b6dc3f673e2b7",
+      "size": 3253,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/david-leads/git/blobs/57b4e50c2f57678c577914c3041b6dc3f673e2b7"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/david-leads/git/trees/40f0ac9849adfd101f97994998481b73adb44d6c"
+}

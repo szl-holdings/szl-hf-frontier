@@ -1,0 +1,16 @@
+{
+  "files": [
+    ".gitattributes",
+    "Dockerfile",
+    "GOVERNANCE.md",
+    "README.md",
+    "SPACE_PROVENANCE_FRONTIER.json",
+    "allodial.py",
+    "app.py",
+    "config.json",
+    "index.html",
+    "panels.html",
+    "requirements.txt"
+  ],
+  "revision": "0c33ee1f40c4a76dda5fef6336a40e61ad6aaad5"
+}

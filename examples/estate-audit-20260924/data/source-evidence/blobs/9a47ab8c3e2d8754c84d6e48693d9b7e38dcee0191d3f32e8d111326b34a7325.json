@@ -1,0 +1,26 @@
+{
+  "files": [
+    ".gitattributes",
+    "BENCH.laptop-blackwell.json",
+    "LICENSE",
+    "MODEL_PROVENANCE.json",
+    "OPERATIONAL.json",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "SECURITY.md",
+    "SZL_ESTATE_MANAGED.json",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "build.toml",
+    "build/torch-universal/szl_lambda_gate/__init__.py",
+    "build/torch-universal/szl_lambda_gate/_lambda.py",
+    "build/torch-universal/szl_lambda_gate/_ops.py",
+    "build/torch-universal/szl_lambda_gate/layers.py",
+    "build/torch-universal/szl_lambda_gate/metadata.json",
+    "doctrine.py",
+    "lambda_gate.py",
+    "scripts/eval.py",
+    "scripts/forge.py"
+  ],
+  "revision": "c9abda7882b0b4e79bbc9a50b359ff987db37494"
+}

@@ -1,0 +1,1069 @@
+{
+  "sha": "f16df42e52e6a934bd7795d709e23f428802dbf4",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "24ffe124bb377003000aca129d8246c793e016b7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/24ffe124bb377003000aca129d8246c793e016b7"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/ISSUE_TEMPLATE",
+      "sha": "d5c0087dc81e8ce6fcb8871475465528418b650a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/d5c0087dc81e8ce6fcb8871475465528418b650a"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha": "e7528e82952e7882096165c66bd7aa4cc516bd53",
+      "size": 1773,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/e7528e82952e7882096165c66bd7aa4cc516bd53"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "ea552b8fa3eea9aba4e64d06cceed702a117217e",
+      "size": 597,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/ea552b8fa3eea9aba4e64d06cceed702a117217e"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "5b76b22dd93c4f36251e33031c3d6bff526a2325",
+      "size": 678,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/5b76b22dd93c4f36251e33031c3d6bff526a2325"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/base-python-ci.defer",
+      "sha": "2a88cb39f52f305f9bdbe543fecf8c2b3f2097a0",
+      "size": 147,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/2a88cb39f52f305f9bdbe543fecf8c2b3f2097a0"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "32e797adeed56115f55ffb97a4ddbf9c21479b08",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/32e797adeed56115f55ffb97a4ddbf9c21479b08"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/base-python-ci.yml",
+      "sha": "bc6546f8bf556d266981a68fc7e09ae722d08c03",
+      "size": 3242,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/bc6546f8bf556d266981a68fc7e09ae722d08c03"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/forbidden-domain.yml",
+      "sha": "0ceaa9cbb7ba391ebc78b0ec08c74ebc1c0fac73",
+      "size": 1525,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/0ceaa9cbb7ba391ebc78b0ec08c74ebc1c0fac73"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/gates.yml",
+      "sha": "8c856b2ddfc983e13aea364a6fd8506d8e651b0c",
+      "size": 1395,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/8c856b2ddfc983e13aea364a6fd8506d8e651b0c"
+    },
+    {
+      "mode": "100644",
+      "path": "AUDIT_REPORT.md",
+      "sha": "eb45b414c7bbe3549f76d75178900a34892ecc93",
+      "size": 4005,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/eb45b414c7bbe3549f76d75178900a34892ecc93"
+    },
+    {
+      "mode": "100644",
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "8ef338732f66fee91dd8ddedd0e5348b75ef98e4",
+      "size": 1408,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/8ef338732f66fee91dd8ddedd0e5348b75ef98e4"
+    },
+    {
+      "mode": "100644",
+      "path": "CONTRIBUTING.md",
+      "sha": "aa6ce6db42061537bd5043c5ad87bff2645c0b7a",
+      "size": 1529,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/aa6ce6db42061537bd5043c5ad87bff2645c0b7a"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "mode": "100644",
+      "path": "NOTICE",
+      "sha": "cc9622afa8fa8937b59db44a99707fbbc4e47c2b",
+      "size": 1447,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/cc9622afa8fa8937b59db44a99707fbbc4e47c2b"
+    },
+    {
+      "mode": "100644",
+      "path": "QUICKSTART.md",
+      "sha": "84c2c30180fea6ae58f75186742b94a432d54137",
+      "size": 2935,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/84c2c30180fea6ae58f75186742b94a432d54137"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "0d87d0ddff8cc19bc4de795806cfa714c1078842",
+      "size": 4079,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/0d87d0ddff8cc19bc4de795806cfa714c1078842"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "663624f333f57ffcc314d6c192582b5ad9754834",
+      "size": 1492,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/663624f333f57ffcc314d6c192582b5ad9754834"
+    },
+    {
+      "mode": "040000",
+      "path": "article12",
+      "sha": "0ac36ca4c9acb5c1978a338b516b39897d5e73f4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/0ac36ca4c9acb5c1978a338b516b39897d5e73f4"
+    },
+    {
+      "mode": "100644",
+      "path": "article12/conformance_profile.yaml",
+      "sha": "0a18121e7d2ee9d3caa7e442ceff8865bfc7b596",
+      "size": 3013,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/0a18121e7d2ee9d3caa7e442ceff8865bfc7b596"
+    },
+    {
+      "mode": "040000",
+      "path": "data",
+      "sha": "06d87e943e57b99f30268a5ca3aa387eccf68647",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/06d87e943e57b99f30268a5ca3aa387eccf68647"
+    },
+    {
+      "mode": "100644",
+      "path": "data/hf_final_state.json",
+      "sha": "6ed22255b45e7c6ac93c8fe5156278d7ce632925",
+      "size": 6628,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/6ed22255b45e7c6ac93c8fe5156278d7ce632925"
+    },
+    {
+      "mode": "100644",
+      "path": "data/hf_models_datasets.json",
+      "sha": "1fe2a3481c2a0a0fd78e10da61d4163e754fa8fc",
+      "size": 3472,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/1fe2a3481c2a0a0fd78e10da61d4163e754fa8fc"
+    },
+    {
+      "mode": "100644",
+      "path": "data/hf_ops_results.json",
+      "sha": "88549a882bd299d75d89265cd02db92c58fcf4da",
+      "size": 10189,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/88549a882bd299d75d89265cd02db92c58fcf4da"
+    },
+    {
+      "mode": "100644",
+      "path": "data/hf_space_inventory.json",
+      "sha": "426f8dfc31a4a1a0c5a58ffed6872d048873b0e1",
+      "size": 8046,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/426f8dfc31a4a1a0c5a58ffed6872d048873b0e1"
+    },
+    {
+      "mode": "100644",
+      "path": "data/model_bom.json",
+      "sha": "d5cc920def9a4499fd522ba3c8d2893f5ced5993",
+      "size": 15641,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/d5cc920def9a4499fd522ba3c8d2893f5ced5993"
+    },
+    {
+      "mode": "100644",
+      "path": "data/revision_attestations.json",
+      "sha": "c6c86a38aa794ad8edaff7ddd7cd3519931d032e",
+      "size": 22531,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/c6c86a38aa794ad8edaff7ddd7cd3519931d032e"
+    },
+    {
+      "mode": "040000",
+      "path": "data_room",
+      "sha": "6c0e98a8cc10eb779d3423f80f75e819dbfab8f2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/6c0e98a8cc10eb779d3423f80f75e819dbfab8f2"
+    },
+    {
+      "mode": "040000",
+      "path": "data_room/00_Executive_Summary",
+      "sha": "bba2a88e9ad2be11557a657d3bb83b158eb8ad1a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/bba2a88e9ad2be11557a657d3bb83b158eb8ad1a"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/00_Executive_Summary/EXECUTIVE_SUMMARY.md",
+      "sha": "c49593be08c8aed560fcf04a62ff439280909fab",
+      "size": 1043,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/c49593be08c8aed560fcf04a62ff439280909fab"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/00_Executive_Summary/INDEX.md",
+      "sha": "a15bf25d023186a0c71ed1ac20a456588128bf56",
+      "size": 235,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/a15bf25d023186a0c71ed1ac20a456588128bf56"
+    },
+    {
+      "mode": "040000",
+      "path": "data_room/01_Corporate",
+      "sha": "8bb6b3d7402d57584ae80420b32b72017d712447",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/8bb6b3d7402d57584ae80420b32b72017d712447"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/01_Corporate/INDEX.md",
+      "sha": "8dcf74b42fb311fd340371904aba310433382b14",
+      "size": 165,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/8dcf74b42fb311fd340371904aba310433382b14"
+    },
+    {
+      "mode": "040000",
+      "path": "data_room/02_Financial",
+      "sha": "1f1fa726abe8510524736feffcf53db4bdf34a8d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/1f1fa726abe8510524736feffcf53db4bdf34a8d"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/02_Financial/INDEX.md",
+      "sha": "54a12c49e473b631a2c5140e7cd38c9170cba9c2",
+      "size": 182,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/54a12c49e473b631a2c5140e7cd38c9170cba9c2"
+    },
+    {
+      "mode": "040000",
+      "path": "data_room/03_Commercial",
+      "sha": "8c4ada939676e0186f3ec17debf9aff67f2268e4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/8c4ada939676e0186f3ec17debf9aff67f2268e4"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/03_Commercial/BUYER_PERSONA.md",
+      "sha": "7c1520ec395bd00bf7f2dc91c7bebf1155baec87",
+      "size": 2492,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/7c1520ec395bd00bf7f2dc91c7bebf1155baec87"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/03_Commercial/INDEX.md",
+      "sha": "96609adb3850b7137e37f23966187dbb0cfa25d9",
+      "size": 240,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/96609adb3850b7137e37f23966187dbb0cfa25d9"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/03_Commercial/PRICING.md",
+      "sha": "549c9d7d781fd100e38e6e006d2fda6c6619c166",
+      "size": 2343,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/549c9d7d781fd100e38e6e006d2fda6c6619c166"
+    },
+    {
+      "mode": "040000",
+      "path": "data_room/04_Product",
+      "sha": "37e7b45cbbd2158b4bbcd23a7f9b76e9cbeeba9d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/37e7b45cbbd2158b4bbcd23a7f9b76e9cbeeba9d"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/04_Product/INDEX.md",
+      "sha": "130b1da260c65e982356a0afc72a9326c0c6b542",
+      "size": 274,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/130b1da260c65e982356a0afc72a9326c0c6b542"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/04_Product/hf_final_state.json",
+      "sha": "6ed22255b45e7c6ac93c8fe5156278d7ce632925",
+      "size": 6628,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/6ed22255b45e7c6ac93c8fe5156278d7ce632925"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/04_Product/hf_space_inventory.json",
+      "sha": "426f8dfc31a4a1a0c5a58ffed6872d048873b0e1",
+      "size": 8046,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/426f8dfc31a4a1a0c5a58ffed6872d048873b0e1"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/04_Product/revision_attestations.json",
+      "sha": "c6c86a38aa794ad8edaff7ddd7cd3519931d032e",
+      "size": 22531,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/c6c86a38aa794ad8edaff7ddd7cd3519931d032e"
+    },
+    {
+      "mode": "040000",
+      "path": "data_room/05_Technology_and_Security",
+      "sha": "401b87aa70b66423656728f1b962e9e455325b1d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/401b87aa70b66423656728f1b962e9e455325b1d"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/05_Technology_and_Security/INDEX.md",
+      "sha": "ba3539ce24e17391d48c63da1311b26b9265ccf7",
+      "size": 353,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/ba3539ce24e17391d48c63da1311b26b9265ccf7"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/05_Technology_and_Security/S2_ADVERSARIAL_REVIEW_PAYLOAD.md",
+      "sha": "d5be7693ac9a291eae012ad9efb33577a18af8a9",
+      "size": 3487,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/d5be7693ac9a291eae012ad9efb33577a18af8a9"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/05_Technology_and_Security/article12_report.json",
+      "sha": "71b3a1bfb6add41e29044fa2ce77f8a50b1a1bf8",
+      "size": 2234,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/71b3a1bfb6add41e29044fa2ce77f8a50b1a1bf8"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/05_Technology_and_Security/demo_bundle.json",
+      "sha": "e2eccb6635e200d3e500d18e7c062c7887e9f6e1",
+      "size": 13931,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/e2eccb6635e200d3e500d18e7c062c7887e9f6e1"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/05_Technology_and_Security/governed_action_v1.schema.json",
+      "sha": "3e7961efa4931f94ec728613cdbfa40132224f44",
+      "size": 4564,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/3e7961efa4931f94ec728613cdbfa40132224f44"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/05_Technology_and_Security/spaces_audit_receipt.json",
+      "sha": "d72118bf313ed70928b137679e0dbc9156398288",
+      "size": 2078,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/d72118bf313ed70928b137679e0dbc9156398288"
+    },
+    {
+      "mode": "040000",
+      "path": "data_room/06_Legal_and_IP",
+      "sha": "02225cf8faabfb49b6eaf2f53372e8d6f5366891",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/02225cf8faabfb49b6eaf2f53372e8d6f5366891"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/06_Legal_and_IP/INDEX.md",
+      "sha": "4fec3e96ae30657a9ce8841a06068cb8d6fba58a",
+      "size": 252,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/4fec3e96ae30657a9ce8841a06068cb8d6fba58a"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/06_Legal_and_IP/MODEL_BOM.yaml",
+      "sha": "95250bea0e0f6af8abbdfc16c09e78b32c118e7d",
+      "size": 13029,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/95250bea0e0f6af8abbdfc16c09e78b32c118e7d"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/06_Legal_and_IP/model_bom.json",
+      "sha": "d5cc920def9a4499fd522ba3c8d2893f5ced5993",
+      "size": 15641,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/d5cc920def9a4499fd522ba3c8d2893f5ced5993"
+    },
+    {
+      "mode": "040000",
+      "path": "data_room/07_Compliance",
+      "sha": "d79e1443e5b6eb57dab552c3a7af00ffd6a4ca6e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/d79e1443e5b6eb57dab552c3a7af00ffd6a4ca6e"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/07_Compliance/INDEX.md",
+      "sha": "03845181e2ece84df870a1ec02188b967a59be26",
+      "size": 233,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/03845181e2ece84df870a1ec02188b967a59be26"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/07_Compliance/conformance_profile.yaml",
+      "sha": "0a18121e7d2ee9d3caa7e442ceff8865bfc7b596",
+      "size": 3013,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/0a18121e7d2ee9d3caa7e442ceff8865bfc7b596"
+    },
+    {
+      "mode": "040000",
+      "path": "data_room/08_Team",
+      "sha": "8c7f81dbffe03f901fdfae1a11653705af036db9",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/8c7f81dbffe03f901fdfae1a11653705af036db9"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/08_Team/INDEX.md",
+      "sha": "7e1f5f85b9ad60b053f715fdc783ed88d7fa956e",
+      "size": 161,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/7e1f5f85b9ad60b053f715fdc783ed88d7fa956e"
+    },
+    {
+      "mode": "040000",
+      "path": "data_room/09_Traction",
+      "sha": "b1f47f320ec6c0dbf91da17bc728be9181bf7ad3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/b1f47f320ec6c0dbf91da17bc728be9181bf7ad3"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/09_Traction/CLAIMS_LEDGER.yaml",
+      "sha": "1fac96e770c2727d9737d5fffd65e828c9956924",
+      "size": 4228,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/1fac96e770c2727d9737d5fffd65e828c9956924"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/09_Traction/INDEX.md",
+      "sha": "ed4d0d1e8d266c0678a6562416662529469d0d02",
+      "size": 233,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/ed4d0d1e8d266c0678a6562416662529469d0d02"
+    },
+    {
+      "mode": "040000",
+      "path": "data_room/10_Competitive",
+      "sha": "82fd24ecbde886f89056067aa6837b3ff2aa95b7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/82fd24ecbde886f89056067aa6837b3ff2aa95b7"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/10_Competitive/INDEX.md",
+      "sha": "5323d0526cd3fa200ef8a27d8d45e4e2013c8301",
+      "size": 167,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/5323d0526cd3fa200ef8a27d8d45e4e2013c8301"
+    },
+    {
+      "mode": "040000",
+      "path": "data_room/11_Roadmap",
+      "sha": "55fba5f875d1fdc54fe529ce748449a1fc419e78",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/55fba5f875d1fdc54fe529ce748449a1fc419e78"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/11_Roadmap/INDEX.md",
+      "sha": "874023b0ba6f02f578055de500ab797b089adcef",
+      "size": 173,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/874023b0ba6f02f578055de500ab797b089adcef"
+    },
+    {
+      "mode": "040000",
+      "path": "data_room/12_Fundraise_and_Use_of_Funds",
+      "sha": "51a70236aa26736ce2bc615d573e267b9760f1b0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/51a70236aa26736ce2bc615d573e267b9760f1b0"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/12_Fundraise_and_Use_of_Funds/COMMERCIAL_LEDGER.yaml",
+      "sha": "8068d35a75e1b96ea6a27dbbbb0c5f01b2e11482",
+      "size": 3870,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/8068d35a75e1b96ea6a27dbbbb0c5f01b2e11482"
+    },
+    {
+      "mode": "100644",
+      "path": "data_room/12_Fundraise_and_Use_of_Funds/INDEX.md",
+      "sha": "3c0cfbf63be44acbab628270f9ee25254ba2a335",
+      "size": 224,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/3c0cfbf63be44acbab628270f9ee25254ba2a335"
+    },
+    {
+      "mode": "040000",
+      "path": "daybreak",
+      "sha": "401a0d27cb19e6771f99551aad5aac432ae74f8d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/401a0d27cb19e6771f99551aad5aac432ae74f8d"
+    },
+    {
+      "mode": "100644",
+      "path": "daybreak/S2_ADVERSARIAL_REVIEW_PAYLOAD.md",
+      "sha": "d5be7693ac9a291eae012ad9efb33577a18af8a9",
+      "size": 3487,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/d5be7693ac9a291eae012ad9efb33577a18af8a9"
+    },
+    {
+      "mode": "040000",
+      "path": "demo",
+      "sha": "1ef7856b9a7a6046ed10188a39637d8da851bcc9",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/1ef7856b9a7a6046ed10188a39637d8da851bcc9"
+    },
+    {
+      "mode": "040000",
+      "path": "demo/__pycache__",
+      "sha": "ada039b4cd16678df4a4803fb8ad10e53bf811a2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/ada039b4cd16678df4a4803fb8ad10e53bf811a2"
+    },
+    {
+      "mode": "100644",
+      "path": "demo/__pycache__/demo_harness.cpython-314.pyc",
+      "sha": "d9053d4ef425350022c1f3e5a3948c49d7beb7bc",
+      "size": 10913,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/d9053d4ef425350022c1f3e5a3948c49d7beb7bc"
+    },
+    {
+      "mode": "100644",
+      "path": "demo/credo_loop.py",
+      "sha": "f03d509f8471d7af8f928f92a5d24f3c8afb8666",
+      "size": 3564,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/f03d509f8471d7af8f928f92a5d24f3c8afb8666"
+    },
+    {
+      "mode": "100644",
+      "path": "demo/demo_harness.py",
+      "sha": "fcdcff7f6f9069a8f1b4b5c854c5faed6df48cc6",
+      "size": 8158,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/fcdcff7f6f9069a8f1b4b5c854c5faed6df48cc6"
+    },
+    {
+      "mode": "040000",
+      "path": "demo_site",
+      "sha": "fe8d4a2adb573ea49a60a67c75eb40b83d66dedc",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/fe8d4a2adb573ea49a60a67c75eb40b83d66dedc"
+    },
+    {
+      "mode": "100644",
+      "path": "demo_site/demo_bundle.json",
+      "sha": "8e71b7ae56f93b3269627fec2d1421a4a49c96f1",
+      "size": 13931,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/8e71b7ae56f93b3269627fec2d1421a4a49c96f1"
+    },
+    {
+      "mode": "100644",
+      "path": "demo_site/index.html",
+      "sha": "71399978ea69455eaacac8dd1c2f0c37e400a853",
+      "size": 8926,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/71399978ea69455eaacac8dd1c2f0c37e400a853"
+    },
+    {
+      "mode": "100644",
+      "path": "demo_site/style.css",
+      "sha": "c8b18ef2b849bc8b1d82fe4d53bfeb7dbc47c680",
+      "size": 11715,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/c8b18ef2b849bc8b1d82fe4d53bfeb7dbc47c680"
+    },
+    {
+      "mode": "100644",
+      "path": "demo_site/verify.js",
+      "sha": "af270826e3ad020f39bbd474696499e358a772de",
+      "size": 8245,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/af270826e3ad020f39bbd474696499e358a772de"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "3dfacb70ba5e5008f8b862c456bf966c2abf9ba3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/3dfacb70ba5e5008f8b862c456bf966c2abf9ba3"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CREDO_CONTROL_PLANE.md",
+      "sha": "59b9902416051ff5a674ac0463ff92e72a77418c",
+      "size": 2353,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/59b9902416051ff5a674ac0463ff92e72a77418c"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/GROK_TERMINAL_PAYLOAD.md",
+      "sha": "34f3d6c18415dcbd5ac37dc4d8414b2387f493c1",
+      "size": 960,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/34f3d6c18415dcbd5ac37dc4d8414b2387f493c1"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/REAL_DATA_WIRES.md",
+      "sha": "47bf2b6758e9b0a990bc4090835cef02d66cd20a",
+      "size": 3473,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/47bf2b6758e9b0a990bc4090835cef02d66cd20a"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/REAL_DATA_WIRES_2026-09-04.md",
+      "sha": "1a7aed2414d2a42b1992c0ce1f23ad789345fd60",
+      "size": 2601,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/1a7aed2414d2a42b1992c0ce1f23ad789345fd60"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/THREAD_OPS_2026-09-04.md",
+      "sha": "c1fb9de2417d1938fb4fd151700a7cc6c7310af2",
+      "size": 1359,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/c1fb9de2417d1938fb4fd151700a7cc6c7310af2"
+    },
+    {
+      "mode": "040000",
+      "path": "examples",
+      "sha": "350a5b81f8ae225a9360598fa9a0631bcd78a52c",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/350a5b81f8ae225a9360598fa9a0631bcd78a52c"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/__init__.py",
+      "sha": "76c840d3e3ce6b350ab8911f71d33d530d61121d",
+      "size": 43,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/76c840d3e3ce6b350ab8911f71d33d530d61121d"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/verify_demo_bundle.py",
+      "sha": "307e6b4330b904152e6ff977da5b2886bcf452e4",
+      "size": 4139,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/307e6b4330b904152e6ff977da5b2886bcf452e4"
+    },
+    {
+      "mode": "040000",
+      "path": "governance",
+      "sha": "65dc8816556bd00377820b313f80604965c6e9c3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/65dc8816556bd00377820b313f80604965c6e9c3"
+    },
+    {
+      "mode": "100644",
+      "path": "governance/BUYER_PERSONA.md",
+      "sha": "7c1520ec395bd00bf7f2dc91c7bebf1155baec87",
+      "size": 2492,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/7c1520ec395bd00bf7f2dc91c7bebf1155baec87"
+    },
+    {
+      "mode": "100644",
+      "path": "governance/CANONICAL_LEXICON.yaml",
+      "sha": "e45df6fb082a29649c598ee6b6df757524d2e2b4",
+      "size": 2215,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/e45df6fb082a29649c598ee6b6df757524d2e2b4"
+    },
+    {
+      "mode": "100644",
+      "path": "governance/CLAIMS_LEDGER.yaml",
+      "sha": "1fac96e770c2727d9737d5fffd65e828c9956924",
+      "size": 4228,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/1fac96e770c2727d9737d5fffd65e828c9956924"
+    },
+    {
+      "mode": "100644",
+      "path": "governance/COMMERCIAL_LEDGER.yaml",
+      "sha": "8068d35a75e1b96ea6a27dbbbb0c5f01b2e11482",
+      "size": 3870,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/8068d35a75e1b96ea6a27dbbbb0c5f01b2e11482"
+    },
+    {
+      "mode": "100644",
+      "path": "governance/MODEL_BOM.yaml",
+      "sha": "95250bea0e0f6af8abbdfc16c09e78b32c118e7d",
+      "size": 13029,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/95250bea0e0f6af8abbdfc16c09e78b32c118e7d"
+    },
+    {
+      "mode": "040000",
+      "path": "pricing",
+      "sha": "5049b1252c3a8fcffc2730117eb2589007cbda29",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/5049b1252c3a8fcffc2730117eb2589007cbda29"
+    },
+    {
+      "mode": "100644",
+      "path": "pricing/PRICING.md",
+      "sha": "549c9d7d781fd100e38e6e006d2fda6c6619c166",
+      "size": 2343,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/549c9d7d781fd100e38e6e006d2fda6c6619c166"
+    },
+    {
+      "mode": "040000",
+      "path": "receipts",
+      "sha": "c79e0dc6e04f0a6a3af436627c87b7275b854436",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/c79e0dc6e04f0a6a3af436627c87b7275b854436"
+    },
+    {
+      "mode": "100644",
+      "path": "receipts/article12_report.json",
+      "sha": "71b3a1bfb6add41e29044fa2ce77f8a50b1a1bf8",
+      "size": 2234,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/71b3a1bfb6add41e29044fa2ce77f8a50b1a1bf8"
+    },
+    {
+      "mode": "100644",
+      "path": "receipts/chain.jsonl",
+      "sha": "b113b1e47683327cb10cbf13ac9df147dec09968",
+      "size": 2785,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/b113b1e47683327cb10cbf13ac9df147dec09968"
+    },
+    {
+      "mode": "100644",
+      "path": "receipts/demo_bundle.json",
+      "sha": "e2eccb6635e200d3e500d18e7c062c7887e9f6e1",
+      "size": 13931,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/e2eccb6635e200d3e500d18e7c062c7887e9f6e1"
+    },
+    {
+      "mode": "100644",
+      "path": "receipts/flight_recorder.bin",
+      "sha": "2c3d1ce5f87cfa8d5d38c96284a2b4d7704eafd0",
+      "size": 2675,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/2c3d1ce5f87cfa8d5d38c96284a2b4d7704eafd0"
+    },
+    {
+      "mode": "100644",
+      "path": "receipts/hf_ops.jsonl",
+      "sha": "708732ca1ee1e9d6521cd2f6e1111005c414b2ef",
+      "size": 111532,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/708732ca1ee1e9d6521cd2f6e1111005c414b2ef"
+    },
+    {
+      "mode": "100644",
+      "path": "receipts/hf_ops_applied.jsonl",
+      "sha": "d75800838c41e97501f1de94d873c988f5e1e635",
+      "size": 59239,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/d75800838c41e97501f1de94d873c988f5e1e635"
+    },
+    {
+      "mode": "100644",
+      "path": "receipts/hf_ops_retry.jsonl",
+      "sha": "9016f8ed153dd1bb68c03dcfbf6184f888d472b5",
+      "size": 59313,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/9016f8ed153dd1bb68c03dcfbf6184f888d472b5"
+    },
+    {
+      "mode": "100644",
+      "path": "receipts/revision_attest.jsonl",
+      "sha": "f20cc2a654a428ee6b9bd74f650bfb9ebef52b0b",
+      "size": 64372,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/f20cc2a654a428ee6b9bd74f650bfb9ebef52b0b"
+    },
+    {
+      "mode": "100644",
+      "path": "receipts/spaces_audit_receipt.json",
+      "sha": "d72118bf313ed70928b137679e0dbc9156398288",
+      "size": 2078,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/d72118bf313ed70928b137679e0dbc9156398288"
+    },
+    {
+      "mode": "040000",
+      "path": "schemas",
+      "sha": "5f7e934fa17ec6a3e704a4df258d6e42c185bef3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/5f7e934fa17ec6a3e704a4df258d6e42c185bef3"
+    },
+    {
+      "mode": "100644",
+      "path": "schemas/governed_action_v1.schema.json",
+      "sha": "3e7961efa4931f94ec728613cdbfa40132224f44",
+      "size": 4564,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/3e7961efa4931f94ec728613cdbfa40132224f44"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "4555ef9d1d14d7fd19d35bad4ca1744e939b2aa7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/4555ef9d1d14d7fd19d35bad4ca1744e939b2aa7"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/__init__.py",
+      "sha": "0e8c1acd0989557b90ba797e165f738a6a439f58",
+      "size": 41,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/0e8c1acd0989557b90ba797e165f738a6a439f58"
+    },
+    {
+      "mode": "040000",
+      "path": "tests/__pycache__",
+      "sha": "847b4a2eab23642c1f6404b6793ed2e12699bba7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/847b4a2eab23642c1f6404b6793ed2e12699bba7"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/__pycache__/adversarial_suite.cpython-314.pyc",
+      "sha": "c2d62c66eb2cb61f2196b290889767886ca24040",
+      "size": 9529,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/c2d62c66eb2cb61f2196b290889767886ca24040"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/adversarial_suite.py",
+      "sha": "7e803aefcf30c82bc7d83840da99cd523b98346e",
+      "size": 7304,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/7e803aefcf30c82bc7d83840da99cd523b98346e"
+    },
+    {
+      "mode": "040000",
+      "path": "tests/fixtures",
+      "sha": "1aba5bf1c4772f71475ce87751b373f1e1feb3d7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/1aba5bf1c4772f71475ce87751b373f1e1feb3d7"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/fixtures/unsigned_receipt.json",
+      "sha": "149d02e2092b1997442b7265439a89a1434f46e1",
+      "size": 1244,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/149d02e2092b1997442b7265439a89a1434f46e1"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_credo_governor.py",
+      "sha": "ec8bceb2838f7a99851f16dfca5ba2ee9a0b04a8",
+      "size": 2567,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/ec8bceb2838f7a99851f16dfca5ba2ee9a0b04a8"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_demo_bundle_verifier.py",
+      "sha": "6d0f61639488d8fd0c8a056a21434b0ab6b9bd10",
+      "size": 3277,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/6d0f61639488d8fd0c8a056a21434b0ab6b9bd10"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_unsigned_receipt.py",
+      "sha": "b1c3e4d7e9ba0aa22ed7d357cacbc04c755f2bcf",
+      "size": 1190,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/b1c3e4d7e9ba0aa22ed7d357cacbc04c755f2bcf"
+    },
+    {
+      "mode": "040000",
+      "path": "tools",
+      "sha": "ce91ca314b4533a3d425cb24d9d2df75c16b9b0b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/ce91ca314b4533a3d425cb24d9d2df75c16b9b0b"
+    },
+    {
+      "mode": "040000",
+      "path": "tools/__pycache__",
+      "sha": "632f86069e51e1d73f88a4129dfd442eb0761890",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/632f86069e51e1d73f88a4129dfd442eb0761890"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/__pycache__/hf_estate_apply.cpython-314.pyc",
+      "sha": "345f5b1b97d9000763452bb89f3034dbe9c59f55",
+      "size": 8998,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/345f5b1b97d9000763452bb89f3034dbe9c59f55"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/__pycache__/north_star.cpython-314.pyc",
+      "sha": "875983861292b89484650feb43c8503f7e3ff018",
+      "size": 5560,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/875983861292b89484650feb43c8503f7e3ff018"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/__pycache__/receipt_lib.cpython-314.pyc",
+      "sha": "3c2e74d4fb46e8f44375846648f1508b3c1b18c5",
+      "size": 16723,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/3c2e74d4fb46e8f44375846648f1508b3c1b18c5"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/__pycache__/revision_attest.cpython-314.pyc",
+      "sha": "b987f8215c9d679131807688f6b26c7ae59b049d",
+      "size": 8201,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/b987f8215c9d679131807688f6b26c7ae59b049d"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/credo_governor.py",
+      "sha": "d41fdd5f1ed005ce6c8e218dbae7b84757cf3642",
+      "size": 5127,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/d41fdd5f1ed005ce6c8e218dbae7b84757cf3642"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/hf_estate_apply.py",
+      "sha": "efe146ca8d63f43461ff62a61e55f6ee9722d17b",
+      "size": 5244,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/efe146ca8d63f43461ff62a61e55f6ee9722d17b"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/hf_estate_ops.py",
+      "sha": "a3490800193cb88d001d1942f513f66bfdb3e54f",
+      "size": 4841,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/a3490800193cb88d001d1942f513f66bfdb3e54f"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/hf_estate_retry.py",
+      "sha": "60f162144a004cc030a981d12e7d596155e57b94",
+      "size": 5427,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/60f162144a004cc030a981d12e7d596155e57b94"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/lexicon_gate.py",
+      "sha": "b7e806f9f06248354b2e02fc64b25b31437d53f6",
+      "size": 1782,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/b7e806f9f06248354b2e02fc64b25b31437d53f6"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/north_star.py",
+      "sha": "485e3da075cdd345cef366c1f0a112620697d99d",
+      "size": 2879,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/485e3da075cdd345cef366c1f0a112620697d99d"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/receipt_lib.py",
+      "sha": "6c14098c39441bd3c6d05daf95857b48570471c5",
+      "size": 11533,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/6c14098c39441bd3c6d05daf95857b48570471c5"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/release_gate.py",
+      "sha": "0721d424c76bc4bec7572d682038afe6a7b1a8b7",
+      "size": 2765,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/0721d424c76bc4bec7572d682038afe6a7b1a8b7"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/revision_attest.py",
+      "sha": "e86f872f48b9ffd1f317e7d268aa2b8def429732",
+      "size": 4804,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/e86f872f48b9ffd1f317e7d268aa2b8def429732"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/spaces_audit.py",
+      "sha": "4f3ce5d4279f1e7ebf01527e939c0eea6ae8b8e9",
+      "size": 5474,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/blobs/4f3ce5d4279f1e7ebf01527e939c0eea6ae8b8e9"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/governance-as-code/git/trees/f16df42e52e6a934bd7795d709e23f428802dbf4"
+}

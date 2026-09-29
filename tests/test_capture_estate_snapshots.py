@@ -193,6 +193,44 @@ class CredentialAndMetadataTests(unittest.TestCase):
 
 
 class ReceiptTests(unittest.TestCase):
+    def test_authenticated_capture_cannot_overwrite_committed_projection(self):
+        with tempfile.TemporaryDirectory() as temp, mock.patch.object(collector, "ROOT", Path(temp)):
+            public = Path(temp) / "data/snapshots"
+            public.mkdir(parents=True)
+            marker = public / collector.RECEIPT
+            marker.write_text("original-public-receipt")
+            for target in (public, public / "nested"):
+                with self.subTest(target=target), mock.patch.object(collector, "resolve_credentials") as creds:
+                    with self.assertRaisesRegex(collector.CollectionError, "CAPTURE_REQUIRES_LOCAL_OUTPUT"):
+                        collector.capture(target)
+                    creds.assert_not_called()
+            self.assertEqual(marker.read_text(), "original-public-receipt")
+
+    def test_default_capture_is_ignored_local_directory(self):
+        with mock.patch.object(collector, "capture", return_value={"complete": True, "scope": "TOKEN_VISIBLE"}) as capture, contextlib.redirect_stdout(io.StringIO()):
+            self.assertEqual(collector.main([]), 0)
+        self.assertEqual(capture.call_args.args[0], collector.ROOT / ".estate-private/snapshots")
+
+    def test_private_directory_alias_cannot_redirect_capture_into_tracked_paths(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp).resolve()
+            private, tracked = root / ".estate-private", root / "tracked"
+            original = Path.resolve
+
+            def redirected(path, *args, **kwargs):
+                resolved = original(path, *args, **kwargs)
+                if resolved.is_relative_to(private):
+                    return tracked / resolved.relative_to(private)
+                return resolved
+
+            # Simulate a directory junction without requiring Windows link privileges.
+            with (mock.patch.object(collector, "ROOT", root),
+                  mock.patch.object(Path, "resolve", redirected),
+                  mock.patch.object(collector, "resolve_credentials") as credentials):
+                with self.assertRaisesRegex(collector.CollectionError, "PRIVATE_OUTPUT"):
+                    collector.capture(private / "snapshots")
+                credentials.assert_not_called()
+
     def test_complete_capture_has_hashes_times_and_validated_scope(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)

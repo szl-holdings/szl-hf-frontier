@@ -1,0 +1,41 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 18015,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:58Z",
+      "path": "data/reconciliation/source-evidence/b295f248423273a2123cc581517c5bb52c475a825ce0e3ef2d4b3a0733cf8fa1.json",
+      "revision": "dadba9d06d47bd3b83c2bb89290fb3cd57b9a70d",
+      "sha256": "b295f248423273a2123cc581517c5bb52c475a825ce0e3ef2d4b3a0733cf8fa1",
+      "source_identity": "github/szl-holdings/szl-energy-attest",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-energy-attest/git/trees/dadba9d06d47bd3b83c2bb89290fb3cd57b9a70d?recursive=1"
+    }
+  ],
+  "file_count": 48,
+  "id": "github/szl-holdings/szl-energy-attest",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "dadba9d06d47bd3b83c2bb89290fb3cd57b9a70d",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    ".zenodo.json",
+    "CITATION.cff",
+    "CODEOWNERS",
+    "HUB_MIRROR_STATUS.json",
+    "LICENSE",
+    "MIGRATION_PROVENANCE.json",
+    "README.md",
+    "SPEC.md",
+    "energy_core",
+    "examples",
+    "hf-kernels",
+    "pyproject.toml",
+    "szl_energy_attest",
+    "szl_meter2_exporter.py",
+    "tests"
+  ]
+}

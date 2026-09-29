@@ -1,0 +1,43 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 7896,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:57Z",
+      "path": "data/reconciliation/source-evidence/8dbb76285f85a2118f1374967908f2460350d64e35fa9a83813887fb4b0f80a7.json",
+      "revision": "998fd8b3a55901523a3681f65ae67759c3327e57",
+      "sha256": "8dbb76285f85a2118f1374967908f2460350d64e35fa9a83813887fb4b0f80a7",
+      "source_identity": "github/szl-holdings/szl-crosscheck",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-crosscheck/git/trees/998fd8b3a55901523a3681f65ae67759c3327e57?recursive=1"
+    },
+    {
+      "bytes": 324,
+      "kind": "license_file",
+      "observed_at": "2026-09-24T13:26:58Z",
+      "path": "data/reconciliation/source-evidence/514287b5eaf490515e2966319ed34d98e4dd616c97f97b65fecd966f0cfc1718.txt",
+      "revision": "998fd8b3a55901523a3681f65ae67759c3327e57",
+      "sha256": "514287b5eaf490515e2966319ed34d98e4dd616c97f97b65fecd966f0cfc1718",
+      "source_identity": "github/szl-holdings/szl-crosscheck",
+      "source_path": "LICENSE",
+      "url": "https://github.com/szl-holdings/szl-crosscheck/blob/998fd8b3a55901523a3681f65ae67759c3327e57/LICENSE"
+    }
+  ],
+  "file_count": 18,
+  "id": "github/szl-holdings/szl-crosscheck",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "998fd8b3a55901523a3681f65ae67759c3327e57",
+  "root_paths": [
+    ".github",
+    "LICENSE",
+    "README.md",
+    "evidence",
+    "pyproject.toml",
+    "schemas",
+    "src",
+    "tests"
+  ]
+}

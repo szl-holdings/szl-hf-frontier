@@ -1,0 +1,138 @@
+{
+  "sha": "9364ee783b058837bba656469a444e020edd607c",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "2af7a29418243cc7649c0e1965e3eff1ef15342e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-quant-bench/git/trees/2af7a29418243cc7649c0e1965e3eff1ef15342e"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "47ce433c963e609f69a93293716964fd703a24aa",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-quant-bench/git/trees/47ce433c963e609f69a93293716964fd703a24aa"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "e9dd8d71bd1f89bec0dee3e663b70b3c00fa8e44",
+      "size": 535,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-quant-bench/git/blobs/e9dd8d71bd1f89bec0dee3e663b70b3c00fa8e44"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "1c5038f507091c38b723a529af04636db98f73f9",
+      "size": 11342,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-quant-bench/git/blobs/1c5038f507091c38b723a529af04636db98f73f9"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "bf020d5cc07c8cc1b8524260fb4d8c8e5bfdcb14",
+      "size": 3242,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-quant-bench/git/blobs/bf020d5cc07c8cc1b8524260fb4d8c8e5bfdcb14"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "47773da42dbe7985835a0095e4cb04b717b0d7bd",
+      "size": 431,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-quant-bench/git/blobs/47773da42dbe7985835a0095e4cb04b717b0d7bd"
+    },
+    {
+      "mode": "040000",
+      "path": "src",
+      "sha": "25b8ba73696163e219f29f624df677fd89d3f9f2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-quant-bench/git/trees/25b8ba73696163e219f29f624df677fd89d3f9f2"
+    },
+    {
+      "mode": "040000",
+      "path": "src/szl_quant_bench",
+      "sha": "8684fea46364e10f7694d64517811ae4fa4003cb",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-quant-bench/git/trees/8684fea46364e10f7694d64517811ae4fa4003cb"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_quant_bench/__init__.py",
+      "sha": "f5e937e41ac8401053ff4a2a92c3129221cbe682",
+      "size": 97,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-quant-bench/git/blobs/f5e937e41ac8401053ff4a2a92c3129221cbe682"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_quant_bench/harness.py",
+      "sha": "205b9bb56c9e72aa76563ddc8ca3e479929ebd13",
+      "size": 6752,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-quant-bench/git/blobs/205b9bb56c9e72aa76563ddc8ca3e479929ebd13"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_quant_bench/metrics.py",
+      "sha": "696366ab15c92e968524a7fb247343f1c88f5fd1",
+      "size": 1320,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-quant-bench/git/blobs/696366ab15c92e968524a7fb247343f1c88f5fd1"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_quant_bench/quant.py",
+      "sha": "68dccda06eb8ecf7f3007e92c358a18aa8235b10",
+      "size": 697,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-quant-bench/git/blobs/68dccda06eb8ecf7f3007e92c358a18aa8235b10"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_quant_bench/receipts.py",
+      "sha": "832ce8bf4f1f902f2affdb3eb886bceab2254a33",
+      "size": 1295,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-quant-bench/git/blobs/832ce8bf4f1f902f2affdb3eb886bceab2254a33"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "18ce63f03bf241794e1c01043bd52a6b54823fa2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-quant-bench/git/trees/18ce63f03bf241794e1c01043bd52a6b54823fa2"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_provenance.py",
+      "sha": "d8321e325887284f56761ac15ce8ee813ae63c47",
+      "size": 4385,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-quant-bench/git/blobs/d8321e325887284f56761ac15ce8ee813ae63c47"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_quant_bench.py",
+      "sha": "519b6eed415e6d274f20a0a1cb2c006cc81adca6",
+      "size": 2075,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-quant-bench/git/blobs/519b6eed415e6d274f20a0a1cb2c006cc81adca6"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_receipt_required.py",
+      "sha": "204a02afeced060d5a36f48fa1b7168f6a71b0dd",
+      "size": 700,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-quant-bench/git/blobs/204a02afeced060d5a36f48fa1b7168f6a71b0dd"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-quant-bench/git/trees/9364ee783b058837bba656469a444e020edd607c"
+}

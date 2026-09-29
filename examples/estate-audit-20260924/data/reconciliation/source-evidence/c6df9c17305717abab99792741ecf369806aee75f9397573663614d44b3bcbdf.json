@@ -1,0 +1,508 @@
+{
+  "sha": "419b4d8725bcabcdc661c81eb5d92b500b9b6e47",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "5f178ebf150b7033aea161d6a72c51884340b486",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/trees/5f178ebf150b7033aea161d6a72c51884340b486"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/ISSUE_TEMPLATE",
+      "sha": "d5c0087dc81e8ce6fcb8871475465528418b650a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/trees/d5c0087dc81e8ce6fcb8871475465528418b650a"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha": "e7528e82952e7882096165c66bd7aa4cc516bd53",
+      "size": 1773,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/e7528e82952e7882096165c66bd7aa4cc516bd53"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "ea552b8fa3eea9aba4e64d06cceed702a117217e",
+      "size": 597,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/ea552b8fa3eea9aba4e64d06cceed702a117217e"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "5b76b22dd93c4f36251e33031c3d6bff526a2325",
+      "size": 678,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/5b76b22dd93c4f36251e33031c3d6bff526a2325"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/SECURITY.md",
+      "sha": "29c58ed7b723804edea9b4470eae8a711d9c8722",
+      "size": 2240,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/29c58ed7b723804edea9b4470eae8a711d9c8722"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/dependabot.yml",
+      "sha": "4c4906563b688a3e3667a85fd08334dccd78e925",
+      "size": 586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/4c4906563b688a3e3667a85fd08334dccd78e925"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "297cc0bd51375e3627404a51f3a99cb94a3ddee8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/trees/297cc0bd51375e3627404a51f3a99cb94a3ddee8"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/base-python-ci.yml",
+      "sha": "9655ecc4665021c73ad6be18a80e5dedc13efca4",
+      "size": 2380,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/9655ecc4665021c73ad6be18a80e5dedc13efca4"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/codeql.yml",
+      "sha": "6967333b0e0e4c6cffdd30191a6c8f4f13d25a52",
+      "size": 1248,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/6967333b0e0e4c6cffdd30191a6c8f4f13d25a52"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/forbidden-domain.yml",
+      "sha": "0ceaa9cbb7ba391ebc78b0ec08c74ebc1c0fac73",
+      "size": 1525,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/0ceaa9cbb7ba391ebc78b0ec08c74ebc1c0fac73"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/public-single-cell.yml",
+      "sha": "b8b890ae9215d88ddcd01489fe533aec6c409b4d",
+      "size": 7752,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/b8b890ae9215d88ddcd01489fe533aec6c409b4d"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/verify.yml",
+      "sha": "03c37d0cd62bac0f184efe3148f71a4e59d82833",
+      "size": 1279,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/03c37d0cd62bac0f184efe3148f71a4e59d82833"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "c18dd8d83ceed1806b50b0aaa46beb7e335fff13",
+      "size": 13,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/c18dd8d83ceed1806b50b0aaa46beb7e335fff13"
+    },
+    {
+      "mode": "100644",
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "8ef338732f66fee91dd8ddedd0e5348b75ef98e4",
+      "size": 1408,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/8ef338732f66fee91dd8ddedd0e5348b75ef98e4"
+    },
+    {
+      "mode": "100644",
+      "path": "CONTRIBUTING.md",
+      "sha": "aa6ce6db42061537bd5043c5ad87bff2645c0b7a",
+      "size": 1529,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/aa6ce6db42061537bd5043c5ad87bff2645c0b7a"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "f92352174aa2d4e216299e43f2b914ef63129d4f",
+      "size": 8852,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/f92352174aa2d4e216299e43f2b914ef63129d4f"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "663624f333f57ffcc314d6c192582b5ad9754834",
+      "size": 1492,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/663624f333f57ffcc314d6c192582b5ad9754834"
+    },
+    {
+      "mode": "040000",
+      "path": "conformance",
+      "sha": "d23f2bf2c97b8e08a06cde338062aaf4a251fbfc",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/trees/d23f2bf2c97b8e08a06cde338062aaf4a251fbfc"
+    },
+    {
+      "mode": "100644",
+      "path": "conformance/article12.yaml",
+      "sha": "43167ae35393eedc5fef0fc34b2f230c66fa000d",
+      "size": 3809,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/43167ae35393eedc5fef0fc34b2f230c66fa000d"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "bc86d7bb987d0162947daceb4f3c0b1c429a5285",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/trees/bc86d7bb987d0162947daceb4f3c0b1c429a5285"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/ITE-9-governed-action-predicate-proposal.md",
+      "sha": "06ef428aa202bacb20187e83b1a193d60bb0e06a",
+      "size": 3492,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/06ef428aa202bacb20187e83b1a193d60bb0e06a"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/LANDSCAPE.md",
+      "sha": "c6a87bd551edb9021c7d093d51fffef92c4a600a",
+      "size": 3588,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/c6a87bd551edb9021c7d093d51fffef92c4a600a"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/NON_GOALS.md",
+      "sha": "e0d6221a7ce96059db1c0de8962010c5c896e394",
+      "size": 3339,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/e0d6221a7ce96059db1c0de8962010c5c896e394"
+    },
+    {
+      "mode": "040000",
+      "path": "examples",
+      "sha": "6d42e6b2633b718be29b7f9bba22b8b19c4fb7e3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/trees/6d42e6b2633b718be29b7f9bba22b8b19c4fb7e3"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/a11oy-khipu-chain.json",
+      "sha": "0f03af6eae279455a292e18b50cfa4af57dc2296",
+      "size": 13303,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/0f03af6eae279455a292e18b50cfa4af57dc2296"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/daily-activity-receipt.json",
+      "sha": "14e5ba703b0e87adf33b2ad51bcce39cb744d540",
+      "size": 593,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/14e5ba703b0e87adf33b2ad51bcce39cb744d540"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/governed-action-v1-statement.json",
+      "sha": "9cbc584a1e652c4cb08841e05e3aaad0cc8e06ba",
+      "size": 2105,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/9cbc584a1e652c4cb08841e05e3aaad0cc8e06ba"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/lake-inference-receipt.json",
+      "sha": "61666e63621e9d011aacf75911df70cc9442155d",
+      "size": 2900,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/61666e63621e9d011aacf75911df70cc9442155d"
+    },
+    {
+      "mode": "040000",
+      "path": "examples/public-single-cell",
+      "sha": "2993650d36d445c2f91993aa05d9335c2caac8d8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/trees/2993650d36d445c2f91993aa05d9335c2caac8d8"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/public-single-cell/Dockerfile",
+      "sha": "bb2b13461347dcd892cb6ea1e9715f0c0831fd78",
+      "size": 1421,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/bb2b13461347dcd892cb6ea1e9715f0c0831fd78"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/public-single-cell/FIRST_COMMENT.md",
+      "sha": "09702d0ef267d13ea4dc24a3ef8955ebc64090ec",
+      "size": 910,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/09702d0ef267d13ea4dc24a3ef8955ebc64090ec"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/public-single-cell/LOCKED_REPRODUCTION.md",
+      "sha": "92e7e453c40bcbd4bdc1e31e96a18f006e62295a",
+      "size": 5388,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/92e7e453c40bcbd4bdc1e31e96a18f006e62295a"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/public-single-cell/METHODS_NOTES.md",
+      "sha": "613ac9b2e1dc71b1d501f759b905f704aef971c9",
+      "size": 4925,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/613ac9b2e1dc71b1d501f759b905f704aef971c9"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/public-single-cell/POST.md",
+      "sha": "2ae0cefda1aa92d7c8e3dd004c601d0374cf048d",
+      "size": 1255,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/2ae0cefda1aa92d7c8e3dd004c601d0374cf048d"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/public-single-cell/README.md",
+      "sha": "dc92742d47dbe608309dfbe87a713f38484ba5ab",
+      "size": 6827,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/dc92742d47dbe608309dfbe87a713f38484ba5ab"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/public-single-cell/REPRODUCIBILITY_CHECKLIST.md",
+      "sha": "c138112a4d7b5002a1971a5f36087db1a4d1c591",
+      "size": 2562,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/c138112a4d7b5002a1971a5f36087db1a4d1c591"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/public-single-cell/SCIENTIST_GUIDE.md",
+      "sha": "ed37c82517c4434e3661311cce7a8b46e01f7bd3",
+      "size": 8127,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/ed37c82517c4434e3661311cce7a8b46e01f7bd3"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/public-single-cell/check_reproduction.py",
+      "sha": "87313d5ca9a9a595201d6eaac2d826de3b48c9df",
+      "size": 5569,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/87313d5ca9a9a595201d6eaac2d826de3b48c9df"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/public-single-cell/observed-run.json",
+      "sha": "d09d663340e55a02dc4d22c732893dd799560d4a",
+      "size": 5951,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/d09d663340e55a02dc4d22c732893dd799560d4a"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/public-single-cell/reproduction-profile.json",
+      "sha": "51f18123d8002c8c2ee9fbd7b141f84e0ba74adf",
+      "size": 2047,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/51f18123d8002c8c2ee9fbd7b141f84e0ba74adf"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/public-single-cell/requirements-linux-cp312.lock",
+      "sha": "9236c2642669022c5e7743316e0faea80daf6a08",
+      "size": 679,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/9236c2642669022c5e7743316e0faea80daf6a08"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/public-single-cell/run_example.py",
+      "sha": "a48d6742b119792674611a2dbe0bff051cbae6db",
+      "size": 13103,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/a48d6742b119792674611a2dbe0bff051cbae6db"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/readiness-audit-receipt.json",
+      "sha": "11739f5217db7af69a1d40412ffb021a9c70676c",
+      "size": 1780,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/11739f5217db7af69a1d40412ffb021a9c70676c"
+    },
+    {
+      "mode": "100644",
+      "path": "governed_action.py",
+      "sha": "684360ab9c3a0a0c9e2d8915fd33ac2cfb1861d6",
+      "size": 12978,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/684360ab9c3a0a0c9e2d8915fd33ac2cfb1861d6"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements.txt",
+      "sha": "6d1a90f3d3cb4adf4e30d2a7e033de55b036c59b",
+      "size": 120,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/6d1a90f3d3cb4adf4e30d2a7e033de55b036c59b"
+    },
+    {
+      "mode": "040000",
+      "path": "schema",
+      "sha": "ed8ed32a6b9bc1905a5dce0f86be9df32851b324",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/trees/ed8ed32a6b9bc1905a5dce0f86be9df32851b324"
+    },
+    {
+      "mode": "100644",
+      "path": "schema/governed-action.v1.schema.json",
+      "sha": "d40d54dd97255ab8c96761cbfcc00771f90bf23e",
+      "size": 6693,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/d40d54dd97255ab8c96761cbfcc00771f90bf23e"
+    },
+    {
+      "mode": "100644",
+      "path": "schema/governed-receipt.schema.json",
+      "sha": "b636c5ce3b06d0c4630796528fa0d13dbac3bd53",
+      "size": 9389,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/b636c5ce3b06d0c4630796528fa0d13dbac3bd53"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "3cbda9ef0d2bc6aea05839ea40e40983c14853d2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/trees/3cbda9ef0d2bc6aea05839ea40e40983c14853d2"
+    },
+    {
+      "mode": "040000",
+      "path": "tests/adversarial",
+      "sha": "05c025e0e2f1ec15ae489d2fe8200d26c052dd08",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/trees/05c025e0e2f1ec15ae489d2fe8200d26c052dd08"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/adversarial/test_governed_action_attacks.py",
+      "sha": "f105e09d5e2c539de8886ad396c363dbbddfe283",
+      "size": 18251,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/f105e09d5e2c539de8886ad396c363dbbddfe283"
+    },
+    {
+      "mode": "040000",
+      "path": "tests/fixtures",
+      "sha": "19886bbc3492ae9eb734740914d9cae15648a64e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/trees/19886bbc3492ae9eb734740914d9cae15648a64e"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/fixtures/broken-chain.json",
+      "sha": "3dbeb31755b5ffda60aabc541e39e110888bf20e",
+      "size": 13303,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/3dbeb31755b5ffda60aabc541e39e110888bf20e"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/fixtures/cosign.pub",
+      "sha": "aa0178858554d213f4d020063205731623371d3a",
+      "size": 178,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/aa0178858554d213f4d020063205731623371d3a"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/fixtures/tampered-payload.json",
+      "sha": "966766cd82f783dffc18afca84e7dcee591d71c5",
+      "size": 13303,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/966766cd82f783dffc18afca84e7dcee591d71c5"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_codeql_lockstep.py",
+      "sha": "b4f876ffb459c7ed0dd996d657963e905f195c19",
+      "size": 3986,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/b4f876ffb459c7ed0dd996d657963e905f195c19"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_public_single_cell.py",
+      "sha": "925033f3c537835d5717b09e5eabd2b2b4ea7ab0",
+      "size": 5643,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/925033f3c537835d5717b09e5eabd2b2b4ea7ab0"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_public_single_cell_communications.py",
+      "sha": "84744353ea61fd59f2773100f18c677627143fa0",
+      "size": 3915,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/84744353ea61fd59f2773100f18c677627143fa0"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_public_single_cell_observed.py",
+      "sha": "1fd229d7f90108f3ffb949b9cb0b5ffa6b6e43c0",
+      "size": 2319,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/1fd229d7f90108f3ffb949b9cb0b5ffa6b6e43c0"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_public_single_cell_reproduction.py",
+      "sha": "e73ea18dbd65b54a4f5e47deea05beb8c4daf8e8",
+      "size": 6097,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/e73ea18dbd65b54a4f5e47deea05beb8c4daf8e8"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_verify.py",
+      "sha": "215e6dc9f97c1f2e9c5868395ce506c293b2a287",
+      "size": 25588,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/215e6dc9f97c1f2e9c5868395ce506c293b2a287"
+    },
+    {
+      "mode": "100644",
+      "path": "verify.py",
+      "sha": "84cd6b67a6a9052dc6ec6a334c810b6b4752bc8f",
+      "size": 31306,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/blobs/84cd6b67a6a9052dc6ec6a334c810b6b4752bc8f"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/governed-receipt-spec/git/trees/419b4d8725bcabcdc661c81eb5d92b500b9b6e47"
+}

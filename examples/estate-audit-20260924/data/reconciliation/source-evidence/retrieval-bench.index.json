@@ -1,0 +1,39 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 11118,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:55Z",
+      "path": "data/reconciliation/source-evidence/54dde3c67e6b41c97586ab32ec032939befaa86c09eac7040e2f062ee545f982.json",
+      "revision": "0a84d06de5941a179a27de3998b3ab0c6c200672",
+      "sha256": "54dde3c67e6b41c97586ab32ec032939befaa86c09eac7040e2f062ee545f982",
+      "source_identity": "github/szl-holdings/retrieval-bench",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/retrieval-bench/git/trees/0a84d06de5941a179a27de3998b3ab0c6c200672?recursive=1"
+    }
+  ],
+  "file_count": 26,
+  "id": "github/szl-holdings/retrieval-bench",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "0a84d06de5941a179a27de3998b3ab0c6c200672",
+  "root_paths": [
+    ".github",
+    "Dockerfile",
+    "LICENSE",
+    "README.md",
+    "api",
+    "app",
+    "configs",
+    "deploy",
+    "evidence",
+    "receipts",
+    "requirements.txt",
+    "retrieval",
+    "tests",
+    "tools",
+    "verify"
+  ]
+}

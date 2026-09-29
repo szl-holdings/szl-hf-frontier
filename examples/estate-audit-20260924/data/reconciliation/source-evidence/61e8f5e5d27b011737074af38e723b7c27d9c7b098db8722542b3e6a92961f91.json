@@ -1,0 +1,585 @@
+{
+  "sha": "46499af8562e2782e720fdaa6d3957d645f123d2",
+  "tree": [
+    {
+      "mode": "100644",
+      "path": ".dockerignore",
+      "sha": "7ef22c3cc5c58108116332528777ecb38d2614fd",
+      "size": 41,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/7ef22c3cc5c58108116332528777ecb38d2614fd"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitattributes",
+      "sha": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/a6344aac8c09253b3b630fb776ae94478aa0275b"
+    },
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "4730307460a20b38e45474a7ae468dda579009e0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/trees/4730307460a20b38e45474a7ae468dda579009e0"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/CODEOWNERS",
+      "sha": "c2814ad25e9319f9ec9ab4c42c7ca054a80ee732",
+      "size": 47,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/c2814ad25e9319f9ec9ab4c42c7ca054a80ee732"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/dependabot.yml",
+      "sha": "fb5f7fd835a24b8eee3e6c4310ff62b63c7deeba",
+      "size": 512,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/fb5f7fd835a24b8eee3e6c4310ff62b63c7deeba"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "4827f2d6461e62a75a1d4eb09dc5beba999d29f7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/trees/4827f2d6461e62a75a1d4eb09dc5beba999d29f7"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/apply-living-anatomy-v7-v2-once.yml",
+      "sha": "02767542d5bd6c14521eb2a276d970c56b4a62b2",
+      "size": 15821,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/02767542d5bd6c14521eb2a276d970c56b4a62b2"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/codeql.yml",
+      "sha": "8d388b2e15fd64e82a7727c40632decee9643ba6",
+      "size": 446,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/8d388b2e15fd64e82a7727c40632decee9643ba6"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/container-contract.yml",
+      "sha": "cc3f46e1fcd65c0f0da21055257447da6cae2b64",
+      "size": 2835,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/cc3f46e1fcd65c0f0da21055257447da6cae2b64"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-sync.yml",
+      "sha": "9bc4ef3bd64c90357706d489c060978a0260b0e8",
+      "size": 2545,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/9bc4ef3bd64c90357706d489c060978a0260b0e8"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/holographic-v7-live-witness.yml",
+      "sha": "7fbebbb99a5896cb4186a48636f5997aa46da09d",
+      "size": 10640,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/7fbebbb99a5896cb4186a48636f5997aa46da09d"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/overclaim-guard.yml",
+      "sha": "a1a132b0cbe542579fba2fc640506085711cd9ba",
+      "size": 727,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/a1a132b0cbe542579fba2fc640506085711cd9ba"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/pin-check.yml",
+      "sha": "f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621",
+      "size": 586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/sbom.yml",
+      "sha": "13753a7d7114dc9e867cb75ce091d11738639edf",
+      "size": 793,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/13753a7d7114dc9e867cb75ce091d11738639edf"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/scorecard.yml",
+      "sha": "6a110917cfa90ee3bc3c87a9af47abaaeb7f68dc",
+      "size": 646,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/6a110917cfa90ee3bc3c87a9af47abaaeb7f68dc"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/trivy.yml",
+      "sha": "d18667479f7ae375590311a568649984d14f00c9",
+      "size": 604,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/d18667479f7ae375590311a568649984d14f00c9"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "1f516f7748580a083aecbf189590099d5aa8785a",
+      "size": 514,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/1f516f7748580a083aecbf189590099d5aa8785a"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile",
+      "sha": "895a2fa224dc484cd6ba61283f666f1faf2f247b",
+      "size": 832,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/895a2fa224dc484cd6ba61283f666f1faf2f247b"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "6f8666e83e6a09890f92e3342de67b633e5aa0dd",
+      "size": 26944,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/6f8666e83e6a09890f92e3342de67b633e5aa0dd"
+    },
+    {
+      "mode": "100644",
+      "path": "SCREENSHOT_NOTES.md",
+      "sha": "ea53b11b59c754a4abec2067507a089a1cbf61f7",
+      "size": 7057,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/ea53b11b59c754a4abec2067507a089a1cbf61f7"
+    },
+    {
+      "mode": "100644",
+      "path": "SECURITY.md",
+      "sha": "9bdc59ec0a2d70669bfed09a1f40f903998d5fbc",
+      "size": 2023,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/9bdc59ec0a2d70669bfed09a1f40f903998d5fbc"
+    },
+    {
+      "mode": "100644",
+      "path": "app.js",
+      "sha": "b9d65dd4b16957cd9435a2fa0c1e07d8b24196a9",
+      "size": 183197,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/b9d65dd4b16957cd9435a2fa0c1e07d8b24196a9"
+    },
+    {
+      "mode": "100644",
+      "path": "covenant-cockpit.html",
+      "sha": "b90fadbca32c04aa4eb6345ea56685b8f1cac56f",
+      "size": 23953,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/b90fadbca32c04aa4eb6345ea56685b8f1cac56f"
+    },
+    {
+      "mode": "100644",
+      "path": "covenant-cockpit.js",
+      "sha": "88341d6072918e0147b8df265171c1ad16976b7c",
+      "size": 13968,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/88341d6072918e0147b8df265171c1ad16976b7c"
+    },
+    {
+      "mode": "100644",
+      "path": "data.js",
+      "sha": "865f4874fe0547358268bcfe5ec5e30c11bb3e5c",
+      "size": 98455,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/865f4874fe0547358268bcfe5ec5e30c11bb3e5c"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "1be107fcab925f78261e47915a2256feaaab2116",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/trees/1be107fcab925f78261e47915a2256feaaab2116"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/LIVING_ANATOMY_SECOND_BRAIN.md",
+      "sha": "9f9b7e510cf3eb5b3bd12b3cb5a98cf3c128be63",
+      "size": 8640,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/9f9b7e510cf3eb5b3bd12b3cb5a98cf3c128be63"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/holographic-space-v2.md",
+      "sha": "3c6bf93ea636e4f77c2cacb8c3097b39293c1ce2",
+      "size": 872,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/3c6bf93ea636e4f77c2cacb8c3097b39293c1ce2"
+    },
+    {
+      "mode": "100644",
+      "path": "favicon.svg",
+      "sha": "b676734d5fdbfb7791ca2745db8e3f43f91cdb1d",
+      "size": 390,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/b676734d5fdbfb7791ca2745db8e3f43f91cdb1d"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier_anatomy.js",
+      "sha": "57e8e567818ab7251d228789b6f1cd6929f06d7f",
+      "size": 24759,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/57e8e567818ab7251d228789b6f1cd6929f06d7f"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier_runtime.py",
+      "sha": "191295d3732ac61e320675c3448ef5c09456e61d",
+      "size": 22733,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/191295d3732ac61e320675c3448ef5c09456e61d"
+    },
+    {
+      "mode": "100644",
+      "path": "holographic-v7.css",
+      "sha": "1672d20f22ad54d0c1547c320283d15d69534de8",
+      "size": 10721,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/1672d20f22ad54d0c1547c320283d15d69534de8"
+    },
+    {
+      "mode": "100644",
+      "path": "holographic-v7.js",
+      "sha": "1050d96d9ba98b0d5c60226f7770fbace1c69056",
+      "size": 21545,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/1050d96d9ba98b0d5c60226f7770fbace1c69056"
+    },
+    {
+      "mode": "100644",
+      "path": "index.html",
+      "sha": "efbe0eba725fe76c02d4636f3d51f55343272d43",
+      "size": 140625,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/efbe0eba725fe76c02d4636f3d51f55343272d43"
+    },
+    {
+      "mode": "040000",
+      "path": "lib",
+      "sha": "b10bcfba94e6434c7b716ed797eeb49df1b123c2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/trees/b10bcfba94e6434c7b716ed797eeb49df1b123c2"
+    },
+    {
+      "mode": "100644",
+      "path": "lib/szl_verify_widget.js",
+      "sha": "71d75b8d6b382aad87e10fb988c9cdfb2e9c9d46",
+      "size": 12272,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/71d75b8d6b382aad87e10fb988c9cdfb2e9c9d46"
+    },
+    {
+      "mode": "100644",
+      "path": "lib/three.min.js",
+      "sha": "0c2f4ba351000d47f413873d8bb9c1a2f18cb37a",
+      "size": 669884,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/0c2f4ba351000d47f413873d8bb9c1a2f18cb37a"
+    },
+    {
+      "mode": "100644",
+      "path": "live-body.html",
+      "sha": "ccfa5e156636eef88fcbb01948b8209ac9dda87e",
+      "size": 28209,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/ccfa5e156636eef88fcbb01948b8209ac9dda87e"
+    },
+    {
+      "mode": "100644",
+      "path": "live-body.js",
+      "sha": "43f6244c5350558a81eb1ff50c74b84f5c4a72bf",
+      "size": 14349,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/43f6244c5350558a81eb1ff50c74b84f5c4a72bf"
+    },
+    {
+      "mode": "100644",
+      "path": "living_runtime.py",
+      "sha": "617dbbf850e84e812134cf0a63651e248830aa81",
+      "size": 24508,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/617dbbf850e84e812134cf0a63651e248830aa81"
+    },
+    {
+      "mode": "100644",
+      "path": "neural-quant-v7.css",
+      "sha": "a4cbd26cb2e8cd387c00a1f128581612db705c5e",
+      "size": 14261,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/a4cbd26cb2e8cd387c00a1f128581612db705c5e"
+    },
+    {
+      "mode": "100644",
+      "path": "neural-quant-v7.js",
+      "sha": "0a21fdba6abe309ec770d4ffb93ff029c82802ce",
+      "size": 23564,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/0a21fdba6abe309ec770d4ffb93ff029c82802ce"
+    },
+    {
+      "mode": "100644",
+      "path": "og-card.png",
+      "sha": "cbe8231e14b60e5606886db4c0c07ac6c2d4719b",
+      "size": 42987,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/cbe8231e14b60e5606886db4c0c07ac6c2d4719b"
+    },
+    {
+      "mode": "100644",
+      "path": "organ_integrity.py",
+      "sha": "8f57c7380a1602b2d3e598a731d6163fdbc464bf",
+      "size": 19826,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/8f57c7380a1602b2d3e598a731d6163fdbc464bf"
+    },
+    {
+      "mode": "100644",
+      "path": "qa_cockpit.mjs",
+      "sha": "035e8c24994e57e7a530f879c629d1ac3ac69f13",
+      "size": 6666,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/035e8c24994e57e7a530f879c629d1ac3ac69f13"
+    },
+    {
+      "mode": "100644",
+      "path": "qa_yarqa.js",
+      "sha": "96b70ddf66e03de108a0489ec184443d96bd40bc",
+      "size": 5338,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/96b70ddf66e03de108a0489ec184443d96bd40bc"
+    },
+    {
+      "mode": "100644",
+      "path": "receipts.sample.json",
+      "sha": "85a974cfa24621f1eef515bb2ca66fd4389ab557",
+      "size": 12094,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/85a974cfa24621f1eef515bb2ca66fd4389ab557"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements.txt",
+      "sha": "e02b3c47fa5ca16f851249c0becded9e9d416b63",
+      "size": 48,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/e02b3c47fa5ca16f851249c0becded9e9d416b63"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "a91699e10945e3524785fffe1849d2cb940a2f4b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/trees/a91699e10945e3524785fffe1849d2cb940a2f4b"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/materialize_second_brain.py",
+      "sha": "a547c1ec1479f90aa82d5c42fce3df71057a2025",
+      "size": 20747,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/a547c1ec1479f90aa82d5c42fce3df71057a2025"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/sync_hf_creator_profile.py",
+      "sha": "c49317638ae31931010c27377a40899d7962b515",
+      "size": 27590,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/c49317638ae31931010c27377a40899d7962b515"
+    },
+    {
+      "mode": "100644",
+      "path": "second_brain_runtime.py",
+      "sha": "c152599f7f709a0d1ad36f6721af74c4f8881b7c",
+      "size": 44813,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/c152599f7f709a0d1ad36f6721af74c4f8881b7c"
+    },
+    {
+      "mode": "100644",
+      "path": "server.py",
+      "sha": "7dc5513e9d871aef79ba977b0bf418ffddc3cdc4",
+      "size": 46115,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/7dc5513e9d871aef79ba977b0bf418ffddc3cdc4"
+    },
+    {
+      "mode": "100644",
+      "path": "style.css",
+      "sha": "114adf441e9032febb46bc056b2a8bb651075f0d",
+      "size": 388,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/114adf441e9032febb46bc056b2a8bb651075f0d"
+    },
+    {
+      "mode": "100644",
+      "path": "szl-holo-v2.css",
+      "sha": "6716702ffbe846080d5d78addd7de0e77e27f4fc",
+      "size": 24190,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/6716702ffbe846080d5d78addd7de0e77e27f4fc"
+    },
+    {
+      "mode": "100644",
+      "path": "szl-holo-v2.js",
+      "sha": "ef9a2b1df93a7e15076883a3355e55cff1d245d0",
+      "size": 15986,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/ef9a2b1df93a7e15076883a3355e55cff1d245d0"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "5f9ccc0b85911c435f1a956b32f86fd25dbd74f2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/trees/5f9ccc0b85911c435f1a956b32f86fd25dbd74f2"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/qa_evidence_bay.js",
+      "sha": "a33f5eef413d907c11e104142a9fe6368415b955",
+      "size": 6104,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/a33f5eef413d907c11e104142a9fe6368415b955"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_creator_publication_title.py",
+      "sha": "f06517132a5a64c2cbb71121c3da4553b456019f",
+      "size": 6806,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/f06517132a5a64c2cbb71121c3da4553b456019f"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_frontier_runtime.py",
+      "sha": "14d03023a98f663a4b238fd1b2a90a7bfc8b0eed",
+      "size": 12124,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/14d03023a98f663a4b238fd1b2a90a7bfc8b0eed"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_hf_sync_contract.py",
+      "sha": "965bf0c77303788157f11f7e74219fe41bcb6020",
+      "size": 10083,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/965bf0c77303788157f11f7e74219fe41bcb6020"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_holographic_v7_contract.py",
+      "sha": "82a3e9db798ce1f78a42fe30979c9ddc9d6cf0f1",
+      "size": 5201,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/82a3e9db798ce1f78a42fe30979c9ddc9d6cf0f1"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_living_frontier_contract.py",
+      "sha": "5d7d6fffee4a5f7219c4c9c242f197c256e4cd9a",
+      "size": 3422,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/5d7d6fffee4a5f7219c4c9c242f197c256e4cd9a"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_living_runtime_frontier_limit.py",
+      "sha": "2aeac3b36c96a0c9d1e60dfadb0928b4eb5a7dc4",
+      "size": 1597,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/2aeac3b36c96a0c9d1e60dfadb0928b4eb5a7dc4"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_neural_quant_v7_contract.py",
+      "sha": "61747125d1f6025950324c69064ed97503209e52",
+      "size": 5258,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/61747125d1f6025950324c69064ed97503209e52"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_publisher_noop.py",
+      "sha": "7dadf7cd76e9a565cdb9f5403c565e4718548b83",
+      "size": 1998,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/7dadf7cd76e9a565cdb9f5403c565e4718548b83"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_readme_runtime_truth.py",
+      "sha": "ce73e1d1bd8d7c43f76a236f60fa89f7d4f74c41",
+      "size": 1423,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/ce73e1d1bd8d7c43f76a236f60fa89f7d4f74c41"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_second_brain_runtime.py",
+      "sha": "e62dd3594de336718d6764cf355c9bf800688e39",
+      "size": 26605,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/e62dd3594de336718d6764cf355c9bf800688e39"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_server_contract.py",
+      "sha": "30a31dea3e10355574e0d459ba012bae2beaeae7",
+      "size": 26720,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/30a31dea3e10355574e0d459ba012bae2beaeae7"
+    },
+    {
+      "mode": "100644",
+      "path": "v5_organs.js",
+      "sha": "3bc85a0348acb91e3bfbff9944d8592978ac061b",
+      "size": 28033,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/3bc85a0348acb91e3bfbff9944d8592978ac061b"
+    },
+    {
+      "mode": "100644",
+      "path": "v6_alive.js",
+      "sha": "cbf7bd10cc221de548bcc38bca01e1b58bc756ba",
+      "size": 13405,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/cbf7bd10cc221de548bcc38bca01e1b58bc756ba"
+    },
+    {
+      "mode": "100644",
+      "path": "yachay-second-brain.js",
+      "sha": "d6ac112513312e4aa74b5aa579fb8f49281f8832",
+      "size": 10773,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/anatomy/git/blobs/d6ac112513312e4aa74b5aa579fb8f49281f8832"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/anatomy/git/trees/46499af8562e2782e720fdaa6d3957d645f123d2"
+}

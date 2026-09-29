@@ -1,0 +1,39 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 11315,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:04Z",
+      "path": "data/reconciliation/source-evidence/3547473bad88fa37bb93b7aff27b2b845f0c169d7ee7ae2a028e324eabd137b5.json",
+      "revision": "7e416471e26816600dbf656f5d5946d8a079dd6b",
+      "sha256": "3547473bad88fa37bb93b7aff27b2b845f0c169d7ee7ae2a028e324eabd137b5",
+      "source_identity": "github/szl-holdings/szl-provctl",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-provctl/git/trees/7e416471e26816600dbf656f5d5946d8a079dd6b?recursive=1"
+    }
+  ],
+  "file_count": 29,
+  "id": "github/szl-holdings/szl-provctl",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "7e416471e26816600dbf656f5d5946d8a079dd6b",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    ".zenodo.json",
+    "CHANGELOG.md",
+    "CITATION.cff",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "SECURITY.md",
+    "build.toml",
+    "build",
+    "pyproject.toml",
+    "scripts",
+    "tests",
+    "torch-ext"
+  ]
+}

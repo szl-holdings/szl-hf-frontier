@@ -1,0 +1,44 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 24587,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:59Z",
+      "path": "data/reconciliation/source-evidence/0c30be1df0d3bdd3d96117d4b35d695ad3334671405e9d0d91765311e2a27077.json",
+      "revision": "79ec6351daf9cf3acf3505a50d112ee8b0f06a13",
+      "sha256": "0c30be1df0d3bdd3d96117d4b35d695ad3334671405e9d0d91765311e2a27077",
+      "source_identity": "github/szl-holdings/szl-fleet-overlay",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-fleet-overlay/git/trees/79ec6351daf9cf3acf3505a50d112ee8b0f06a13?recursive=1"
+    }
+  ],
+  "file_count": 66,
+  "id": "github/szl-holdings/szl-fleet-overlay",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "79ec6351daf9cf3acf3505a50d112ee8b0f06a13",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "CITATION.cff",
+    "CONTRIBUTING.md",
+    "HONEST_ROLES.md",
+    "LICENSE",
+    "Makefile",
+    "README.md",
+    "SECURITY.md",
+    "SZL_FLEET_OVERLAY_DESIGN.md",
+    "chart",
+    "configs",
+    "deploy",
+    "docs",
+    "receipts",
+    "scripts",
+    "tasks.yaml",
+    "uds-bundle.yaml",
+    "uds-packages",
+    "zarf.yaml"
+  ]
+}

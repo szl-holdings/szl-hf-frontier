@@ -1,0 +1,250 @@
+{
+  "sha": "c68d06d35058542ea77dc6bad4c8bde2361cc16a",
+  "tree": [
+    {
+      "mode": "100644",
+      "path": ".gitattributes",
+      "sha": "324bffc76316734fdc43201bf125413726c17e2f",
+      "size": 1868,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/324bffc76316734fdc43201bf125413726c17e2f"
+    },
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "91836711d83fce1e7839ff9680974aebb4911938",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/trees/91836711d83fce1e7839ff9680974aebb4911938"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "56cabd16502cdb490548c710af354e409e9108b4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/trees/56cabd16502cdb490548c710af354e409e9108b4"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "2d0a61fed1684cabb56872087ec12d366d5b2c7c",
+      "size": 1596,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/2d0a61fed1684cabb56872087ec12d366d5b2c7c"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/codeql.yml",
+      "sha": "54f9b12444305dfe81848ba4d97d434132140528",
+      "size": 1658,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/54f9b12444305dfe81848ba4d97d434132140528"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/pin-check.yml",
+      "sha": "f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621",
+      "size": 586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "c913c4005b8af3cb328234c75df06dd6c2f3c589",
+      "size": 284,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/c913c4005b8af3cb328234c75df06dd6c2f3c589"
+    },
+    {
+      "mode": "100644",
+      "path": "CITATION.cff",
+      "sha": "7ce272112e20db0f99bcbec766e03e014f3008cb",
+      "size": 697,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/7ce272112e20db0f99bcbec766e03e014f3008cb"
+    },
+    {
+      "mode": "100644",
+      "path": "COMPLIANCE.md",
+      "sha": "e2474725f3f958f5cdbead5d22925a28523aea65",
+      "size": 7288,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/e2474725f3f958f5cdbead5d22925a28523aea65"
+    },
+    {
+      "mode": "100644",
+      "path": "DEPRECATED.md",
+      "sha": "cc44d07036d7aaa431c3a6166468f13679042901",
+      "size": 2196,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/cc44d07036d7aaa431c3a6166468f13679042901"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "6a400e011f1cf8f455404c167c99d81d7b3ba1ab",
+      "size": 11343,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/6a400e011f1cf8f455404c167c99d81d7b3ba1ab"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "2ea28472188a32e17688a30e53d449ead28cd7ca",
+      "size": 14363,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/2ea28472188a32e17688a30e53d449ead28cd7ca"
+    },
+    {
+      "mode": "100644",
+      "path": "benchmark.py",
+      "sha": "2ea3ee901006b2a667853aec93568baa4c6ff23f",
+      "size": 5261,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/2ea3ee901006b2a667853aec93568baa4c6ff23f"
+    },
+    {
+      "mode": "100644",
+      "path": "benchmark_sample_output.txt",
+      "sha": "e5deeb88ce67b646a6609e22ebb08d3bd84a5b4a",
+      "size": 2929,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/e5deeb88ce67b646a6609e22ebb08d3bd84a5b4a"
+    },
+    {
+      "mode": "100644",
+      "path": "build.toml",
+      "sha": "b33130753b2dd162fe5dd360f24296117b12d9b3",
+      "size": 63,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/b33130753b2dd162fe5dd360f24296117b12d9b3"
+    },
+    {
+      "mode": "100644",
+      "path": "flake.nix",
+      "sha": "dd0e8b53806be015da472ea88f532b3d8f21215e",
+      "size": 289,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/dd0e8b53806be015da472ea88f532b3d8f21215e"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "b1ad37c495b48dba1e2c882ef8a9ff6e44b6fbde",
+      "size": 1858,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/b1ad37c495b48dba1e2c882ef8a9ff6e44b6fbde"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "24e7802dadb74577602cc57fa37e3d900b5c081f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/trees/24e7802dadb74577602cc57fa37e3d900b5c081f"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_correctness.py",
+      "sha": "08ce98cfaf71af4291b1c193287b6921a79fba1e",
+      "size": 5968,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/08ce98cfaf71af4291b1c193287b6921a79fba1e"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_hardening.py",
+      "sha": "f23a8a284d72c8ecf75f45244c115d4b4efc31ab",
+      "size": 14383,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/f23a8a284d72c8ecf75f45244c115d4b4efc31ab"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_kernel_core.py",
+      "sha": "81e7e5988f7a0dc6dcdd0ab04e289ece1fe11de5",
+      "size": 10119,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/81e7e5988f7a0dc6dcdd0ab04e289ece1fe11de5"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_norm.py",
+      "sha": "61c42e98b21952dede189fefd2817f72776fc89b",
+      "size": 2246,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/61c42e98b21952dede189fefd2817f72776fc89b"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_receipts.py",
+      "sha": "c8c036dae1cf96dc96d471876c7a55a8a0cace21",
+      "size": 13374,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/c8c036dae1cf96dc96d471876c7a55a8a0cace21"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_signing.py",
+      "sha": "bafddd172a94a8b8742036f6ba61416117682923",
+      "size": 1965,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/bafddd172a94a8b8742036f6ba61416117682923"
+    },
+    {
+      "mode": "040000",
+      "path": "torch-ext",
+      "sha": "d60d7bf2aba083c2d1168021a70e74430d0a3366",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/trees/d60d7bf2aba083c2d1168021a70e74430d0a3366"
+    },
+    {
+      "mode": "040000",
+      "path": "torch-ext/szl_governed_norm",
+      "sha": "83a051fe736028d84b5632b1b7f158f0f8f12a36",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/trees/83a051fe736028d84b5632b1b7f158f0f8f12a36"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_governed_norm/__init__.py",
+      "sha": "436333116fd641474e4f2739bb9be2e715c15ec1",
+      "size": 11122,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/436333116fd641474e4f2739bb9be2e715c15ec1"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_governed_norm/_norm.py",
+      "sha": "efeb82b88976dd6e88d90fd2a142e7d8c46ee2a1",
+      "size": 10259,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/efeb82b88976dd6e88d90fd2a142e7d8c46ee2a1"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_governed_norm/_ops.py",
+      "sha": "2b3d1997cb976544ce5f5ff88455554523ecdd99",
+      "size": 361,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/2b3d1997cb976544ce5f5ff88455554523ecdd99"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_governed_norm/_receipt.py",
+      "sha": "6b2c1ebec5a5422bd6694a1ae432d5c686df2968",
+      "size": 11669,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/6b2c1ebec5a5422bd6694a1ae432d5c686df2968"
+    },
+    {
+      "mode": "100644",
+      "path": "torch-ext/szl_governed_norm/layers.py",
+      "sha": "1d564e9a32a473ed6717673b46680389c84fdb26",
+      "size": 2404,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/blobs/1d564e9a32a473ed6717673b46680389c84fdb26"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-governed-norm/git/trees/c68d06d35058542ea77dc6bad4c8bde2361cc16a"
+}

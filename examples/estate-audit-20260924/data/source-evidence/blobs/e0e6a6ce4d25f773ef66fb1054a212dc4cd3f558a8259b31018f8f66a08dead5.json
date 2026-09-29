@@ -1,0 +1,13 @@
+{
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "chakana.npz",
+    "provenance.json",
+    "status.json"
+  ],
+  "revision": "7a93ff0a18873f834e2f9c508561538d2c030838"
+}

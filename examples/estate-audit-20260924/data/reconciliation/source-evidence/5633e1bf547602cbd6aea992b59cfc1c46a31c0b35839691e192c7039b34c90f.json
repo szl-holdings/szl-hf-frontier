@@ -1,0 +1,93 @@
+{
+  "sha": "f2c3e3ccf053dd94bc2b4c5a3ba82544a4a5240f",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "f5d44abc0f7802c67db86c3351301dda73ae2dfd",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/counsel/git/trees/f5d44abc0f7802c67db86c3351301dda73ae2dfd"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "3cb316143594d9075d54e72bd606b007f81d3b3b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/counsel/git/trees/3cb316143594d9075d54e72bd606b007f81d3b3b"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-space.yml",
+      "sha": "77772a82cfeb21aa28ed49ffa9ecb29bf3a77f8a",
+      "size": 1376,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/counsel/git/blobs/77772a82cfeb21aa28ed49ffa9ecb29bf3a77f8a"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/publish-sibling-spaces.yml",
+      "sha": "a442222ff43322cef1c9c9b7c6956a1c4352fabb",
+      "size": 3031,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/counsel/git/blobs/a442222ff43322cef1c9c9b7c6956a1c4352fabb"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile",
+      "sha": "3ed1257c5d467914ff00318d6e9d929163a212a9",
+      "size": 359,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/counsel/git/blobs/3ed1257c5d467914ff00318d6e9d929163a212a9"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "6f3a5e9f34de49031c4b205114d28e8f7d45eb0f",
+      "size": 2099,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/counsel/git/blobs/6f3a5e9f34de49031c4b205114d28e8f7d45eb0f"
+    },
+    {
+      "mode": "100644",
+      "path": "SOURCE_PIN.md",
+      "sha": "a1f7622642d27d7c8c3815ecfbebd92bfb27f6ff",
+      "size": 932,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/counsel/git/blobs/a1f7622642d27d7c8c3815ecfbebd92bfb27f6ff"
+    },
+    {
+      "mode": "100644",
+      "path": "allodial.py",
+      "sha": "01793cb4164ab97a0cf5bdff0fe80cd404ec4d03",
+      "size": 824,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/counsel/git/blobs/01793cb4164ab97a0cf5bdff0fe80cd404ec4d03"
+    },
+    {
+      "mode": "100644",
+      "path": "app.py",
+      "sha": "adec6caacbc2d2fff72fa425c89a98eba5df1fec",
+      "size": 7052,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/counsel/git/blobs/adec6caacbc2d2fff72fa425c89a98eba5df1fec"
+    },
+    {
+      "mode": "100644",
+      "path": "index.html",
+      "sha": "0defa31e08f90f9eb094d6313813c3fe3367e768",
+      "size": 3811,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/counsel/git/blobs/0defa31e08f90f9eb094d6313813c3fe3367e768"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements.txt",
+      "sha": "903acf0e27552adc791ef478fa6b3cdf20b3975f",
+      "size": 66,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/counsel/git/blobs/903acf0e27552adc791ef478fa6b3cdf20b3975f"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/counsel/git/trees/f2c3e3ccf053dd94bc2b4c5a3ba82544a4a5240f"
+}

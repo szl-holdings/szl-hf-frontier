@@ -1,0 +1,13 @@
+{
+  "files": [
+    ".gitattributes",
+    "Dockerfile",
+    "README.md",
+    "app.py",
+    "config.json",
+    "index.html",
+    "panels.html",
+    "requirements.txt"
+  ],
+  "revision": "9cfb48482cf8d717b3d4998fbbe222d1701f8ced"
+}

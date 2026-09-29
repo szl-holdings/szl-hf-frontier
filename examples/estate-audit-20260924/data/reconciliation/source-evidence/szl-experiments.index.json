@@ -1,0 +1,35 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 9070,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:59Z",
+      "path": "data/reconciliation/source-evidence/78ff9cb261c0aa7f4e3dd7474d4f10db23a6eebe731e22870fb48778b1d23661.json",
+      "revision": "2d2980ce7f0063b5692fe2b46163dee6df2831e1",
+      "sha256": "78ff9cb261c0aa7f4e3dd7474d4f10db23a6eebe731e22870fb48778b1d23661",
+      "source_identity": "github/szl-holdings/szl-experiments",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-experiments/git/trees/2d2980ce7f0063b5692fe2b46163dee6df2831e1?recursive=1"
+    }
+  ],
+  "file_count": 25,
+  "id": "github/szl-holdings/szl-experiments",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "2d2980ce7f0063b5692fe2b46163dee6df2831e1",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "Dockerfile",
+    "LICENSE",
+    "README.md",
+    "RESTORED.md",
+    "app.py",
+    "formulas",
+    "requirements.txt",
+    "static",
+    "tests"
+  ]
+}

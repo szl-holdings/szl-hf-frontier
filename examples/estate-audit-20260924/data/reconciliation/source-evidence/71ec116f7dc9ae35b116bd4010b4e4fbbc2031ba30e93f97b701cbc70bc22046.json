@@ -1,0 +1,159 @@
+{
+  "sha": "0377faa91464775604e22f3aff81fcde62da8054",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "8718e6a314bbf500ec79f0effb2bd4fa018f9d49",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/trees/8718e6a314bbf500ec79f0effb2bd4fa018f9d49"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "ed9ecd77d22f654bfe2c9fd213d6bd8e2091b3c2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/trees/ed9ecd77d22f654bfe2c9fd213d6bd8e2091b3c2"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/validate.yml",
+      "sha": "90a1939cea157bbdc8462bb2e234e373656bf8b1",
+      "size": 556,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/blobs/90a1939cea157bbdc8462bb2e234e373656bf8b1"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "6fc753f052612a992ee59f6d13f8e0e393bc45ae",
+      "size": 11361,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/blobs/6fc753f052612a992ee59f6d13f8e0e393bc45ae"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "2eb5a407009e0e3af2a63a2028fa5a4949fd7c20",
+      "size": 1984,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/blobs/2eb5a407009e0e3af2a63a2028fa5a4949fd7c20"
+    },
+    {
+      "mode": "100644",
+      "path": "catalog.py",
+      "sha": "1026a1439a15b0ae350d1299bf928c9909333973",
+      "size": 12300,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/blobs/1026a1439a15b0ae350d1299bf928c9909333973"
+    },
+    {
+      "mode": "100644",
+      "path": "catalog.yaml",
+      "sha": "1c21abafd3c949ebd1b379b8183a8e91806644bf",
+      "size": 510,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/blobs/1c21abafd3c949ebd1b379b8183a8e91806644bf"
+    },
+    {
+      "mode": "040000",
+      "path": "specs",
+      "sha": "673e19346d2b59042560a42a2ca30b6b5d72f9ab",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/trees/673e19346d2b59042560a42a2ca30b6b5d72f9ab"
+    },
+    {
+      "mode": "040000",
+      "path": "specs/bench",
+      "sha": "4755cadc6e402a4a1e8bb4710a8d176973e896d2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/trees/4755cadc6e402a4a1e8bb4710a8d176973e896d2"
+    },
+    {
+      "mode": "100644",
+      "path": "specs/bench/engine-ttft.spec.md",
+      "sha": "95414072f1e768c95ee089ad711e24ce96da3435",
+      "size": 587,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/blobs/95414072f1e768c95ee089ad711e24ce96da3435"
+    },
+    {
+      "mode": "100644",
+      "path": "specs/bench/retrieval-wave1.spec.md",
+      "sha": "a7b31b27348c2f4c33c9efd975c69cac05fddb78",
+      "size": 622,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/blobs/a7b31b27348c2f4c33c9efd975c69cac05fddb78"
+    },
+    {
+      "mode": "100644",
+      "path": "specs/bench/tokenizer-throughput.spec.md",
+      "sha": "2365f6853038551f13ed88aefa992ff17816ffb3",
+      "size": 663,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/blobs/2365f6853038551f13ed88aefa992ff17816ffb3"
+    },
+    {
+      "mode": "040000",
+      "path": "specs/gpu-jobspec",
+      "sha": "fffa400f3261884d663ee66e18dfda7e4700500e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/trees/fffa400f3261884d663ee66e18dfda7e4700500e"
+    },
+    {
+      "mode": "100644",
+      "path": "specs/gpu-jobspec/nemo-v3-rerun.spec.md",
+      "sha": "880ad4fb1a7f3acd40ce48413c1cbd398d4a8a84",
+      "size": 731,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/blobs/880ad4fb1a7f3acd40ce48413c1cbd398d4a8a84"
+    },
+    {
+      "mode": "040000",
+      "path": "specs/kernel-fixture",
+      "sha": "d345ad01a312d5a02e8041266222b3c2ed2bb74a",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/trees/d345ad01a312d5a02e8041266222b3c2ed2bb74a"
+    },
+    {
+      "mode": "100644",
+      "path": "specs/kernel-fixture/attention-trio.spec.md",
+      "sha": "1e8a88290f1e6d876ffc34818f57ee225d104466",
+      "size": 779,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/blobs/1e8a88290f1e6d876ffc34818f57ee225d104466"
+    },
+    {
+      "mode": "040000",
+      "path": "specs/vertical-asset",
+      "sha": "9313fcfeea5ce1931ec06bd6f21e01280a4ffe48",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/trees/9313fcfeea5ce1931ec06bd6f21e01280a4ffe48"
+    },
+    {
+      "mode": "100644",
+      "path": "specs/vertical-asset/estate-wiring-2026-09-04.spec.md",
+      "sha": "00c978295351639b12c40771c00b39082be415a5",
+      "size": 765,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/blobs/00c978295351639b12c40771c00b39082be415a5"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "20bc6d291d1a87fdf6ef6ad7c6189d0d4e8241f2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/trees/20bc6d291d1a87fdf6ef6ad7c6189d0d4e8241f2"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_catalog.py",
+      "sha": "8a7bb0afebc59d79545b9e96b56063f4118fccf6",
+      "size": 7305,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/blobs/8a7bb0afebc59d79545b9e96b56063f4118fccf6"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-runbook-catalog/git/trees/0377faa91464775604e22f3aff81fcde62da8054"
+}

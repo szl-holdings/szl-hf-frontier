@@ -1,0 +1,61 @@
+{
+  "card": "---\ntitle: Yarqa\nemoji: \ud83d\udd25\ncolorFrom: indigo\ncolorTo: indigo\nsdk: docker\npinned: false\n---\n\nCheck out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 911,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/fef756db4cce2cb6f590363ab4aacbb502be3c84e69a48477efe873496251f46.json",
+      "revision": "3201cf748ce82f8600f2185bcbeb1f9124b93e5d",
+      "sha256": "fef756db4cce2cb6f590363ab4aacbb502be3c84e69a48477efe873496251f46",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/yarqa/revision/3201cf748ce82f8600f2185bcbeb1f9124b93e5d"
+    },
+    {
+      "bytes": 191,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/235a93a9acf10c32f242a1c2f613bb67a1f29238253ab55429374561b65598c0.md",
+      "revision": "3201cf748ce82f8600f2185bcbeb1f9124b93e5d",
+      "sha256": "235a93a9acf10c32f242a1c2f613bb67a1f29238253ab55429374561b65598c0",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/yarqa/resolve/3201cf748ce82f8600f2185bcbeb1f9124b93e5d/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "Dockerfile",
+    "Dockerfile.dockerignore",
+    "README.md",
+    "pyproject.toml",
+    "space/Dockerfile",
+    "space/README.md",
+    "space/app.py",
+    "space/feeds.py",
+    "space/requirements.lock",
+    "space/requirements.txt",
+    "space/static/index.html",
+    "space/static/js/app.js",
+    "space/static/lib/THREE_LICENSE.txt",
+    "space/static/lib/three.min.js",
+    "space/static/style.css",
+    "space/static/szl-space-hologram.css",
+    "space/static/szl-space-hologram.js",
+    "space/tests/qa_headless.mjs",
+    "space/tests/test_space_endpoints.py",
+    "yarqa/__init__.py",
+    "yarqa/agentic.py",
+    "yarqa/attestation.py",
+    "yarqa/chain.py",
+    "yarqa/cli.py",
+    "yarqa/core.py",
+    "yarqa/meshio.py",
+    "yarqa/provenance.py",
+    "yarqa/signing.py",
+    "yarqa/surrogate.py"
+  ],
+  "id": "huggingface-space/szlholdings/yarqa",
+  "observed_at": "2026-09-24T12:30:02Z",
+  "observed_revision": "3201cf748ce82f8600f2185bcbeb1f9124b93e5d"
+}

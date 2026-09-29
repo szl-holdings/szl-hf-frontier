@@ -1,0 +1,48 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 27691,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:26:49Z",
+      "path": "data/reconciliation/source-evidence/fd59ad1184bebc63327ed62fdc236f2aab347ab568a22f446b87d1283ecdd87c.json",
+      "revision": "34de439674dac89c1e05d75596328a549f823bc1",
+      "sha256": "fd59ad1184bebc63327ed62fdc236f2aab347ab568a22f446b87d1283ecdd87c",
+      "source_identity": "github/szl-holdings/hatun-mcp",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/hatun-mcp/git/trees/34de439674dac89c1e05d75596328a549f823bc1?recursive=1"
+    }
+  ],
+  "file_count": 84,
+  "id": "github/szl-holdings/hatun-mcp",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "34de439674dac89c1e05d75596328a549f823bc1",
+  "root_paths": [
+    ".dockerignore",
+    ".gitattributes",
+    ".github",
+    ".gitignore",
+    ".gitleaks.toml",
+    "ARCHITECTURE.md",
+    "CITATION.cff",
+    "CONTRIBUTING.md",
+    "DEPRECATED.md",
+    "Dockerfile",
+    "LICENSE",
+    "PUBKEY_szlholdings-ec-p256.pem",
+    "README.md",
+    "SECURITY.md",
+    "STATUS.md",
+    "SZL_ESTATE_BINDING.json",
+    "clients",
+    "docs",
+    "examples",
+    "hatun_mcp",
+    "push_to_hf.py",
+    "renovate.json",
+    "requirements.txt",
+    "tests"
+  ]
+}

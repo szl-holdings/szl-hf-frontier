@@ -1,0 +1,268 @@
+{
+  "sha": "bac231d7ad33c9bbee5ea2cb875e77cb08cc2b82",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "b2c4882f23fa3e114b1d366cbb848ed791959537",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/trees/b2c4882f23fa3e114b1d366cbb848ed791959537"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/dependabot.yml",
+      "sha": "d681a59ca66a35a066072a06fa57afa3910804e1",
+      "size": 686,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/d681a59ca66a35a066072a06fa57afa3910804e1"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "c3a87f140bf686279a12e0b987c4cedbaa482016",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/trees/c3a87f140bf686279a12e0b987c4cedbaa482016"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "dafd7ea8e48141bccbc130543cd5ca64243d4685",
+      "size": 1662,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/dafd7ea8e48141bccbc130543cd5ca64243d4685"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/codeql.yml",
+      "sha": "48aac054a48ddd213aab7f6ddcf19fda114061a9",
+      "size": 1658,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/48aac054a48ddd213aab7f6ddcf19fda114061a9"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/pin-check.yml",
+      "sha": "f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621",
+      "size": 586,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/f8132e6fac26f1bce234ddd82f3e4aa0fbc5f621"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/sbom.yml",
+      "sha": "cab06d5590175f4b831ada93c570bd881fe746fe",
+      "size": 496,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/cab06d5590175f4b831ada93c570bd881fe746fe"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/scorecard.yml",
+      "sha": "495b7ce22e0db7f29aaed47d4523ea10a95820c3",
+      "size": 407,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/495b7ce22e0db7f29aaed47d4523ea10a95820c3"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/trivy.yml",
+      "sha": "1fb2ec59d0683ab2fc76fa0cb11c15645d74e228",
+      "size": 387,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/1fb2ec59d0683ab2fc76fa0cb11c15645d74e228"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "39952302dcfb0341ddc11591ec8836ea78d7ad14",
+      "size": 57,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/39952302dcfb0341ddc11591ec8836ea78d7ad14"
+    },
+    {
+      "mode": "100644",
+      "path": "ATTRIBUTION.md",
+      "sha": "9aeff09e9b77a3d3843d369ea96842c1dbfe5665",
+      "size": 5776,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/9aeff09e9b77a3d3843d369ea96842c1dbfe5665"
+    },
+    {
+      "mode": "100644",
+      "path": "CODEOWNERS",
+      "sha": "bb847479aa7f36c62e092fe878c3e3e9ff6d7163",
+      "size": 52,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/bb847479aa7f36c62e092fe878c3e3e9ff6d7163"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "mode": "100644",
+      "path": "NOTICE",
+      "sha": "92a5d5a4383cbdcfd91004aea09f2a5115ef9eb3",
+      "size": 520,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/92a5d5a4383cbdcfd91004aea09f2a5115ef9eb3"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "e68b37e756def231f341b003be7241a727f65b74",
+      "size": 18089,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/e68b37e756def231f341b003be7241a727f65b74"
+    },
+    {
+      "mode": "100644",
+      "path": "THIRD_PARTY_NOTICES",
+      "sha": "2719f890277358d42567c1c257cbbbd5faea6fe3",
+      "size": 4845,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/2719f890277358d42567c1c257cbbbd5faea6fe3"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements.txt",
+      "sha": "e9f8e181ae7c469d5f9b6b1674788a2a59ec396d",
+      "size": 1735,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/e9f8e181ae7c469d5f9b6b1674788a2a59ec396d"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_confidence.py",
+      "sha": "78031b274dae9368fef5884a684133c4a182beb8",
+      "size": 3511,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/78031b274dae9368fef5884a684133c4a182beb8"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_mosaic_core.py",
+      "sha": "c191b08f010b4c8a7e71bdf6bb799aecdcc73248",
+      "size": 21555,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/c191b08f010b4c8a7e71bdf6bb799aecdcc73248"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_mosaic_validate.py",
+      "sha": "80edb57d04fb296e5ae6fecf589d42f0db062021",
+      "size": 24410,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/80edb57d04fb296e5ae6fecf589d42f0db062021"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_sda_envelope.py",
+      "sha": "533bc23d876f05df59b7c72e3ca5b77bbfc6f1c5",
+      "size": 9393,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/533bc23d876f05df59b7c72e3ca5b77bbfc6f1c5"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_sda_orbit.py",
+      "sha": "84ca1a271f52d0e06cbd2d0553c35d6576b19bd9",
+      "size": 18265,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/84ca1a271f52d0e06cbd2d0553c35d6576b19bd9"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_sda_spine.py",
+      "sha": "9d37a5145e1fc73f77b25ff1e3c0d4487bbcb609",
+      "size": 17411,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/9d37a5145e1fc73f77b25ff1e3c0d4487bbcb609"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_track_fusion.py",
+      "sha": "4f13447d9cfefef3e42c903c6af6e5b35cf9a7eb",
+      "size": 9910,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/4f13447d9cfefef3e42c903c6af6e5b35cf9a7eb"
+    },
+    {
+      "mode": "100644",
+      "path": "szl_witness.py",
+      "sha": "9bcbc47d7644317f1fe2ee916428741dd353cf9f",
+      "size": 14106,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/9bcbc47d7644317f1fe2ee916428741dd353cf9f"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "f9021937540137d9e32abc167627e1ce58524cc7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/trees/f9021937540137d9e32abc167627e1ce58524cc7"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_no_mock.py",
+      "sha": "17f801ebafadacbdace99a872254f7c2c90e280d",
+      "size": 2691,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/17f801ebafadacbdace99a872254f7c2c90e280d"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_orbit_screen.py",
+      "sha": "7a4eb55af34ca64099f6647ffb0a04cd89503dd8",
+      "size": 5306,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/7a4eb55af34ca64099f6647ffb0a04cd89503dd8"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_receipt_delegation.py",
+      "sha": "97bc6f780401629091293a45976d0d060bc8d48d",
+      "size": 1902,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/97bc6f780401629091293a45976d0d060bc8d48d"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_receipt_roundtrip.py",
+      "sha": "a0360d8be6f9fc0cf978e101803a9506134ac713",
+      "size": 3250,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/a0360d8be6f9fc0cf978e101803a9506134ac713"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_sda_spine.py",
+      "sha": "d63d9b18e986e264379229777610b6e7983c41f3",
+      "size": 7645,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/d63d9b18e986e264379229777610b6e7983c41f3"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_witness_dedup.py",
+      "sha": "b92ec187c348ab6f131416a482640cfbea7073cd",
+      "size": 4059,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/b92ec187c348ab6f131416a482640cfbea7073cd"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_witness_quorum.py",
+      "sha": "7d7802ced89231b2536d376adcf6553703cacca5",
+      "size": 4912,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/blobs/7d7802ced89231b2536d376adcf6553703cacca5"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/khipu-sda-core/git/trees/bac231d7ad33c9bbee5ea2cb875e77cb08cc2b82"
+}

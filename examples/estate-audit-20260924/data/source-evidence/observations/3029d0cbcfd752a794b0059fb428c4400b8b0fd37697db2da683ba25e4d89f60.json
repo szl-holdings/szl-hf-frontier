@@ -1,0 +1,36 @@
+{
+  "card": "---\nlicense: other\nlicense_name: szl-holdings-all-rights-reserved\nlanguage:\n  - en\npretty_name: SZL Second Brain \u2014 in-repo lane (public projection)\nsize_categories:\n  - n<1K\ntags:\n  - retrieval\n  - bm25\n  - szl-holdings\n  - alloy\n  - honesty\nconfigs:\n  - config_name: default\n    data_files: brain-corpus.public.jsonl\n---\n# SZL Second Brain \u2014 in-repo lane (public projection)\n\n**This is DATA, not a model.** A retrieval corpus \u2014 the in-repo lane of the\nSZL Second Brain \u2014 published as a Hugging Face **dataset**. It is part of the\n**SZL Forge Family**. Publishing it is repo-existence of a corpus only: it\ntrains nothing, evaluates nothing, serves no inference, and upgrades nothing\n(\u039b stays Conjecture-1).\n\n## What this is\n\nA deterministic BM25-ready corpus assembled **only** from repo-public text of\nthe [Alloy](https://a11oy.net) orchestrator:\n\n- curated project docs\n- the 269-entry formula corpus (`formula` records)\n- DECLARED ingest study takeaways (`ingest` records)\n- the DECLARED Ouroboros invariant codex (`invariant` records \u2014 check\n  DEFINITIONS only; live HOLDS/VIOLATED status is measured per request\n  in-app and never stored here)\n\nEach record is a chunk: `{ id, source, sourceId, title, text, sha256 }`. The\nper-record `sha256` binds that chunk's exact text.\n\n## Honest provenance (the delta vs. the app-served corpus)\n\nThis public projection is a **strict subset** of the corpus Alloy serves\nin-app. The delta is stated exactly, never hidden:\n\n- app-served superset: **581** chunks\n- **excluded** from this public projection: **6** chunks (`OWNER-SETUP.md` \u2014 owner-infrastructure ops docs)\n- **public projection: 575** chunks (doc 152 \u00b7 formula 269 \u00b7 ingest 143 \u00b7 invariant 11)\n\nFingerprints (both computed the same id-sorted way \u2014 `sha256` over\n`id:sha256` of every chunk, id-sorted):\n\n- app-served superset corpus: `04e037b7ccf3bb0f4e54d2cbcda59a833277277f99f7726224e8f9a009603a7d`\n- **this public projection: `d02487523b451b390125bc3c0a20e259c44b5715528fac69cf789ca56755ea10`**\n\nThe excluded ops docs stay in the app-served corpus (they are repo-public\nprose, no secret values); they are simply not part of the published\nknowledge dataset. A defense-in-depth scan (over 7 credential-shape patterns) ran before export and found no secret values.\n\n## Binding invariants (do not misread)\n\n- **DATA, NOT A MODEL.** No weights are published here or implied.\n- **BM25 / similarity is NOT correctness.** It ranks lexical overlap only.\n  Grounding and honesty are enforced by Alloy's citation gate at serve time,\n  not by this corpus.\n- **Two lanes never blend.** This in-repo lane is wholly separate from the\n  owner's private Brain, which is **never** published.\n- **PUBLISHED = repo-existence only.** It is never a trained/serving/eval\n  claim, and nothing here upgrades \u039b (Conjecture-1).\n\n## License\n\nNo open license has been declared by the owner. Under default copyright, all\nrights are reserved by **SZL Holdings**. Contact the owner for reuse terms.\n\n---\n\n_Generated deterministically from the Alloy repository. Regenerate with_\n_`pnpm --filter @workspace/api-server run gen:brain-dataset`._\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 202,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/ccef19a282613fe57eba9afe20e85bb4270b652f5128c01b3f5856e1926a323b.json",
+      "revision": "d44a595b6c2b94aadd1320680b5aa05f6fe28cab",
+      "sha256": "ccef19a282613fe57eba9afe20e85bb4270b652f5128c01b3f5856e1926a323b",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/datasets/SZLHOLDINGS/szl-second-brain-inrepo/revision/d44a595b6c2b94aadd1320680b5aa05f6fe28cab"
+    },
+    {
+      "bytes": 3134,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/7138d7cad2708bd44813f6f4fd2c2e16af6aba53d04e70d3b84d401d34cf9f79.md",
+      "revision": "d44a595b6c2b94aadd1320680b5aa05f6fe28cab",
+      "sha256": "7138d7cad2708bd44813f6f4fd2c2e16af6aba53d04e70d3b84d401d34cf9f79",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/datasets/SZLHOLDINGS/szl-second-brain-inrepo/resolve/d44a595b6c2b94aadd1320680b5aa05f6fe28cab/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "brain-corpus.public.jsonl",
+    "manifest.json"
+  ],
+  "id": "huggingface-dataset/szlholdings/szl-second-brain-inrepo",
+  "observed_at": "2026-09-24T12:29:46Z",
+  "observed_revision": "d44a595b6c2b94aadd1320680b5aa05f6fe28cab"
+}

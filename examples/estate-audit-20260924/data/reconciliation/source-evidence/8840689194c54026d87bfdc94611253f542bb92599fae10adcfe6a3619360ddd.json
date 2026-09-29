@@ -1,0 +1,217 @@
+{
+  "sha": "e7ef3d7940178e308b2bf0de38728d6bb66a85f4",
+  "tree": [
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "1145cb64ecfe1d85056b1c531dc9276aa4f930c0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/trees/1145cb64ecfe1d85056b1c531dc9276aa4f930c0"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "6bc6323a3d9c529f3eb6b42c703064352a8d9827",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/trees/6bc6323a3d9c529f3eb6b42c703064352a8d9827"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "0d468826f46d01a7a4d0e136581a9ceb84e6f4cf",
+      "size": 2037,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/blobs/0d468826f46d01a7a4d0e136581a9ceb84e6f4cf"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "8c99fb4781f0f82dd254da0b7822e89eda36e798",
+      "size": 89,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/blobs/8c99fb4781f0f82dd254da0b7822e89eda36e798"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "mode": "100644",
+      "path": "NOTICE",
+      "sha": "8e8e73b420045c35274d1d56ac9c68a76ab64d1c",
+      "size": 1133,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/blobs/8e8e73b420045c35274d1d56ac9c68a76ab64d1c"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "95ecd971b881d76e78d5723829f38c18bbbf831e",
+      "size": 6699,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/blobs/95ecd971b881d76e78d5723829f38c18bbbf831e"
+    },
+    {
+      "mode": "040000",
+      "path": "examples",
+      "sha": "bd01b3e9c262d44a2697fc4d1188b405f29129cc",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/trees/bd01b3e9c262d44a2697fc4d1188b405f29129cc"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/generate.py",
+      "sha": "0caefe945a397dc517ee2a39cae31d5e58ceb811",
+      "size": 2644,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/blobs/0caefe945a397dc517ee2a39cae31d5e58ceb811"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/guardrail-receipt-chain.json",
+      "sha": "3b753ddb81a985c502b1e0e31ca58d6e5af5a165",
+      "size": 10655,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/blobs/3b753ddb81a985c502b1e0e31ca58d6e5af5a165"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/run_rule_based.py",
+      "sha": "b6c1a7c8a6e25f010d1e3aa5dcb2eea171dcf9c3",
+      "size": 1989,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/blobs/b6c1a7c8a6e25f010d1e3aa5dcb2eea171dcf9c3"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "bf4c8f618f35a51e00c8dea542c637cd9577dce8",
+      "size": 1613,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/blobs/bf4c8f618f35a51e00c8dea542c637cd9577dce8"
+    },
+    {
+      "mode": "040000",
+      "path": "src",
+      "sha": "d9731a65a89d5a310f45eae127f16b72abd7b137",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/trees/d9731a65a89d5a310f45eae127f16b72abd7b137"
+    },
+    {
+      "mode": "040000",
+      "path": "src/szl_guardrail_receipt",
+      "sha": "625d0ac889c0bae7d8803532221094e67e1c80f0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/trees/625d0ac889c0bae7d8803532221094e67e1c80f0"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_guardrail_receipt/__init__.py",
+      "sha": "036f8265ad039634b55f249668e12826ed649430",
+      "size": 2167,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/blobs/036f8265ad039634b55f249668e12826ed649430"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_guardrail_receipt/__main__.py",
+      "sha": "b71165b3c97be1dff0816af12df3c9ab9ff4b1bc",
+      "size": 2088,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/blobs/b71165b3c97be1dff0816af12df3c9ab9ff4b1bc"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_guardrail_receipt/_canonical.py",
+      "sha": "169fb3a1b3fcad69097ff5da7317e3a28ab00ed9",
+      "size": 2044,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/blobs/169fb3a1b3fcad69097ff5da7317e3a28ab00ed9"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_guardrail_receipt/_sign.py",
+      "sha": "5e2c0ca044c6e86db8c2d9340468c68e017ed769",
+      "size": 4206,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/blobs/5e2c0ca044c6e86db8c2d9340468c68e017ed769"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_guardrail_receipt/guardrail.py",
+      "sha": "ceb0ab2eb19acb019bcf57ce9b878146429615fb",
+      "size": 7274,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/blobs/ceb0ab2eb19acb019bcf57ce9b878146429615fb"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_guardrail_receipt/receipt.py",
+      "sha": "1d0141014170bd073e231bb506962565624254ea",
+      "size": 10995,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/blobs/1d0141014170bd073e231bb506962565624254ea"
+    },
+    {
+      "mode": "100644",
+      "path": "src/szl_guardrail_receipt/verify.py",
+      "sha": "5962e42099136923ee7087fc30d89e5bf06a835a",
+      "size": 10772,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/blobs/5962e42099136923ee7087fc30d89e5bf06a835a"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "05525138cb2aff6206cc83f17ffbd2ef965e5dd8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/trees/05525138cb2aff6206cc83f17ffbd2ef965e5dd8"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/__init__.py",
+      "sha": "9881313609aae2c16a19dae665af4268bd54431d",
+      "size": 38,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/blobs/9881313609aae2c16a19dae665af4268bd54431d"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_guardrail.py",
+      "sha": "ccc473ee8465b06c7c955951b1dd8b92d124e1ab",
+      "size": 1970,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/blobs/ccc473ee8465b06c7c955951b1dd8b92d124e1ab"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_receipt.py",
+      "sha": "032e1faca718dcc72bd64ee46e6e44b5e58089a9",
+      "size": 3148,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/blobs/032e1faca718dcc72bd64ee46e6e44b5e58089a9"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_sign.py",
+      "sha": "1450ddfe3f37850b44af6081520f40b08467d165",
+      "size": 2490,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/blobs/1450ddfe3f37850b44af6081520f40b08467d165"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_verify.py",
+      "sha": "162b9f10c8e8f16c5fdba8401cd916990a8897eb",
+      "size": 3566,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/blobs/162b9f10c8e8f16c5fdba8401cd916990a8897eb"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/szl-guardrail-receipt/git/trees/e7ef3d7940178e308b2bf0de38728d6bb66a85f4"
+}

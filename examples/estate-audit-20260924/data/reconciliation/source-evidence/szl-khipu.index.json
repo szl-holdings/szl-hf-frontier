@@ -1,0 +1,60 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 100986,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:02Z",
+      "path": "data/reconciliation/source-evidence/8c295991a4e27315892c42ece724916d3f4a526759b00e6a9ac02bdbd2c7bde4.json",
+      "revision": "e438dd185aa1144c84d0ac81aee6d71c43bd0bf0",
+      "sha256": "8c295991a4e27315892c42ece724916d3f4a526759b00e6a9ac02bdbd2c7bde4",
+      "source_identity": "github/szl-holdings/szl-khipu",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-khipu/git/trees/e438dd185aa1144c84d0ac81aee6d71c43bd0bf0?recursive=1"
+    }
+  ],
+  "file_count": 296,
+  "id": "github/szl-holdings/szl-khipu",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "e438dd185aa1144c84d0ac81aee6d71c43bd0bf0",
+  "root_paths": [
+    ".gitattributes",
+    ".github",
+    ".gitignore",
+    ".zenodo.json",
+    "CARD.md",
+    "CITATION.cff",
+    "CODEOWNERS",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "NAN.md",
+    "NAN_SURFACE.md",
+    "README.md",
+    "SECURITY.md",
+    "artifacts",
+    "atelier-space",
+    "atelier",
+    "bom",
+    "build.toml",
+    "cards",
+    "conformance",
+    "data",
+    "docs",
+    "eval",
+    "frontier",
+    "hardware",
+    "hf",
+    "pyproject.toml",
+    "receipts",
+    "release",
+    "scripts",
+    "space",
+    "spaces",
+    "szl_khipu",
+    "tests",
+    "torch-ext"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "errors": [],
+  "evidence_refs": [
+    {
+      "bytes": 25158,
+      "kind": "source_tree",
+      "observed_at": "2026-09-24T13:27:01Z",
+      "path": "data/reconciliation/source-evidence/85a2cfd39e29c077166ff427b0dd44ad9e29b1fbb914a2c161c802cb7ac4c375.json",
+      "revision": "d63138cd75dabf2f70d524adbdb928ea9d9b1940",
+      "sha256": "85a2cfd39e29c077166ff427b0dd44ad9e29b1fbb914a2c161c802cb7ac4c375",
+      "source_identity": "github/szl-holdings/szl-hf-frontier",
+      "source_path": "",
+      "url": "https://api.github.com/repos/szl-holdings/szl-hf-frontier/git/trees/d63138cd75dabf2f70d524adbdb928ea9d9b1940?recursive=1"
+    }
+  ],
+  "file_count": 70,
+  "id": "github/szl-holdings/szl-hf-frontier",
+  "license_paths": [
+    "LICENSE"
+  ],
+  "observed_revision": "d63138cd75dabf2f70d524adbdb928ea9d9b1940",
+  "root_paths": [
+    ".github",
+    ".gitignore",
+    "LICENSE",
+    "PAYLOAD.md",
+    "PAYLOAD_1.md",
+    "PAYLOAD_AYLLU.md",
+    "README.md",
+    "SZL_HF_FRONTIER_INVESTOR.py",
+    "SZL_HF_FRONTIER_WIRE.py",
+    "compose",
+    "data",
+    "docs",
+    "frontier",
+    "lanes",
+    "payload.py",
+    "payloads",
+    "szl_estate_operational.py",
+    "szl_four_origin_wire.py",
+    "tests",
+    "tools"
+  ]
+}

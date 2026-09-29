@@ -1,0 +1,1185 @@
+{
+  "sha": "f487dc0fdc71af52841e3634bf7b9c6bf9fb6448",
+  "tree": [
+    {
+      "mode": "100644",
+      "path": ".dockerignore",
+      "sha": "d64a1ec1ca357c533790b242d4dff40045833c95",
+      "size": 73,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/d64a1ec1ca357c533790b242d4dff40045833c95"
+    },
+    {
+      "mode": "040000",
+      "path": ".github",
+      "sha": "2170d5cdcc269dfc9f123b8df2c1c52a5c7f69ea",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/2170d5cdcc269dfc9f123b8df2c1c52a5c7f69ea"
+    },
+    {
+      "mode": "040000",
+      "path": ".github/workflows",
+      "sha": "0668dcd757ec3ef3c1bb6052f6e83ef7516b0100",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/0668dcd757ec3ef3c1bb6052f6e83ef7516b0100"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "sha": "cdbff64be8be6e28d009e7a58d7562c2da8317ec",
+      "size": 2057,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/cdbff64be8be6e28d009e7a58d7562c2da8317ec"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/hf-space.yml",
+      "sha": "ffacbaff04b0c31ed55ed4dcdf8cd6d2bc478488",
+      "size": 14104,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/ffacbaff04b0c31ed55ed4dcdf8cd6d2bc478488"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/intelligence-live.yml",
+      "sha": "90b6bd6f9f8a80da600267cd4effdabca1d0a4c3",
+      "size": 9180,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/90b6bd6f9f8a80da600267cd4effdabca1d0a4c3"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/uptime-monitor.yml",
+      "sha": "3d0eda38ac5414273aac0e9d21ffcf56395e3ad0",
+      "size": 1725,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/3d0eda38ac5414273aac0e9d21ffcf56395e3ad0"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/vertical-frontier.yml",
+      "sha": "c80a8df160b543b63e75d2466d96b773713433b1",
+      "size": 2910,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/c80a8df160b543b63e75d2466d96b773713433b1"
+    },
+    {
+      "mode": "100644",
+      "path": ".github/workflows/vertical-model-kernel-runtime.yml",
+      "sha": "418474f537e6cbbec465a90094646122cf2e4695",
+      "size": 5813,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/418474f537e6cbbec465a90094646122cf2e4695"
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "a0b289811d6e18e21c44a932185f4ea70351496f",
+      "size": 88,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/a0b289811d6e18e21c44a932185f4ea70351496f"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile",
+      "sha": "b65df2ed6853a754ce02bb5db9390aa35de02b35",
+      "size": 292,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/b65df2ed6853a754ce02bb5db9390aa35de02b35"
+    },
+    {
+      "mode": "100644",
+      "path": "Dockerfile.frontier",
+      "sha": "4a9566bdb3d375b3cac6dc3a891c70d299a80628",
+      "size": 530,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/4a9566bdb3d375b3cac6dc3a891c70d299a80628"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "6fc753f052612a992ee59f6d13f8e0e393bc45ae",
+      "size": 11361,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/6fc753f052612a992ee59f6d13f8e0e393bc45ae"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "631a722025e200e9af331eef997b8bbaa6ff7c53",
+      "size": 6897,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/631a722025e200e9af331eef997b8bbaa6ff7c53"
+    },
+    {
+      "mode": "040000",
+      "path": "contracts",
+      "sha": "035ad8affce0659af276f45a09df62d5ba0f796b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/035ad8affce0659af276f45a09df62d5ba0f796b"
+    },
+    {
+      "mode": "100644",
+      "path": "contracts/fashion-lineage.v1.json",
+      "sha": "3ed1bf70238e2a3318a1f550ad2d6a808bea1c5d",
+      "size": 4676,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/3ed1bf70238e2a3318a1f550ad2d6a808bea1c5d"
+    },
+    {
+      "mode": "100644",
+      "path": "contracts/killinchu-runtime-convergence.v2.json",
+      "sha": "3d5e438f9197573cebf658c97fd9b3afe85b3a91",
+      "size": 1134,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/3d5e438f9197573cebf658c97fd9b3afe85b3a91"
+    },
+    {
+      "mode": "040000",
+      "path": "deploy",
+      "sha": "57b435109aa69a49c193d9b2453fdbae6b7e552d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/57b435109aa69a49c193d9b2453fdbae6b7e552d"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/DEPLOYED.md",
+      "sha": "d5d6015f22ef00ffd1c134077d3fc5127439bef6",
+      "size": 1766,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/d5d6015f22ef00ffd1c134077d3fc5127439bef6"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/Dockerfile",
+      "sha": "a79d8d17af71bdc88d860080bfdf4bce80172689",
+      "size": 891,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/a79d8d17af71bdc88d860080bfdf4bce80172689"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/app.py",
+      "sha": "d8c1e7df929a2b03a82a46f04db3441130e37b93",
+      "size": 18125,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/d8c1e7df929a2b03a82a46f04db3441130e37b93"
+    },
+    {
+      "mode": "040000",
+      "path": "deploy/szl_verticals",
+      "sha": "82d72bb92c5190765ecdc808df917613d4091159",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/82d72bb92c5190765ecdc808df917613d4091159"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/__init__.py",
+      "sha": "aa5f7ef78f582877514332df2b94502d5a573d41",
+      "size": 410,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/aa5f7ef78f582877514332df2b94502d5a573d41"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/claim_integrity.py",
+      "sha": "5eeb2b71b23d1cefe163afd5443099ec9dc43ddc",
+      "size": 10839,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/5eeb2b71b23d1cefe163afd5443099ec9dc43ddc"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/connector_parameters.py",
+      "sha": "1e503b6513a2c9197562059795496befd997cbb0",
+      "size": 2663,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/1e503b6513a2c9197562059795496befd997cbb0"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/connector_parsers.py",
+      "sha": "7d79403e03b02dd5a1de5159978aa7ee86089c4e",
+      "size": 6436,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/7d79403e03b02dd5a1de5159978aa7ee86089c4e"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/connector_parsers_frontier.py",
+      "sha": "bacb43eba6d6497b204c89796993479d16630ae6",
+      "size": 9523,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/bacb43eba6d6497b204c89796993479d16630ae6"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/connector_parsers_maritime.py",
+      "sha": "0aab869f4122215592d76c28989ee2edd5616aac",
+      "size": 1603,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/0aab869f4122215592d76c28989ee2edd5616aac"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/connector_parsers_regulated.py",
+      "sha": "832460a1b27ac7597bf64396d08d7776e8c73920",
+      "size": 5430,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/832460a1b27ac7597bf64396d08d7776e8c73920"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/connector_parsers_security.py",
+      "sha": "b7081807c43716876834ba634ed29849f3e2d605",
+      "size": 4262,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/b7081807c43716876834ba634ed29849f3e2d605"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/connector_request_builder.py",
+      "sha": "2900a898163c8655c585622a09975e34c65b2e5f",
+      "size": 12032,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/2900a898163c8655c585622a09975e34c65b2e5f"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/connector_specs.py",
+      "sha": "f107ae528827d62aaa0f8a29bee5a9dfcd016721",
+      "size": 9990,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/f107ae528827d62aaa0f8a29bee5a9dfcd016721"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/connector_transport.py",
+      "sha": "ec94763e3580e37e6c41d996ce340d0fac90b100",
+      "size": 1977,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/ec94763e3580e37e6c41d996ce340d0fac90b100"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/contract.py",
+      "sha": "f86ba40a13c89a809c06625260db88f669a876db",
+      "size": 3621,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/f86ba40a13c89a809c06625260db88f669a876db"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/core.py",
+      "sha": "53585278bedea83565fd238ab03a402517333481",
+      "size": 4816,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/53585278bedea83565fd238ab03a402517333481"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/counsel.py",
+      "sha": "e2a6ef868a7a10407757a14b1039c5e05dffe5cc",
+      "size": 5351,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/e2a6ef868a7a10407757a14b1039c5e05dffe5cc"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/counsel_review.py",
+      "sha": "337d67d0665e5a4d4eded938a8d9f22cad347e86",
+      "size": 2730,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/337d67d0665e5a4d4eded938a8d9f22cad347e86"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/counsel_review_ui.py",
+      "sha": "5ceb513863d3e7d7bcabfe84777d7bfa6f8fec6c",
+      "size": 8252,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/5ceb513863d3e7d7bcabfe84777d7bfa6f8fec6c"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/domain_math.py",
+      "sha": "fa73560a9a0374e6c121818b0db1b1459dd005be",
+      "size": 2378,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/fa73560a9a0374e6c121818b0db1b1459dd005be"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/evidence.py",
+      "sha": "8c36fcda6277b1f82685ed7962de418df8be8a2d",
+      "size": 10403,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/8c36fcda6277b1f82685ed7962de418df8be8a2d"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/finance.py",
+      "sha": "a6b5c5a203c18335f013d9a5d9d804a542179928",
+      "size": 3546,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/a6b5c5a203c18335f013d9a5d9d804a542179928"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/formulas.py",
+      "sha": "26932fd8771db0300ef1d578039e5b89c0dcbb9b",
+      "size": 7457,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/26932fd8771db0300ef1d578039e5b89c0dcbb9b"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/frontier.py",
+      "sha": "45c4959d6b83f5a6696b882d2d26b1be1f3fb5ea",
+      "size": 22808,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/45c4959d6b83f5a6696b882d2d26b1be1f3fb5ea"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/http_bounds.py",
+      "sha": "9d1e98ed2f129b46d4998538157f43a26f8dd8a0",
+      "size": 6425,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/9d1e98ed2f129b46d4998538157f43a26f8dd8a0"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/intelligence.py",
+      "sha": "b62632e8de1e3d10fcc745d9bd1d1bdde4a6a98a",
+      "size": 35048,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/b62632e8de1e3d10fcc745d9bd1d1bdde4a6a98a"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/killinchu.py",
+      "sha": "93622c088b4928d63871560db69dbf76b147ac2c",
+      "size": 3252,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/93622c088b4928d63871560db69dbf76b147ac2c"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/killinchu_runtime_contract.py",
+      "sha": "f905906af7d0657cd3957074d12718fcd25e5e98",
+      "size": 4168,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/f905906af7d0657cd3957074d12718fcd25e5e98"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/lyte.py",
+      "sha": "5efbcceda80b899ad03baff79b2d39894f1b03a5",
+      "size": 3523,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/5efbcceda80b899ad03baff79b2d39894f1b03a5"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/official_connectors.py",
+      "sha": "26a902f8d2035468bd097bf929d34aeaaac0a958",
+      "size": 4635,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/26a902f8d2035468bd097bf929d34aeaaac0a958"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/operational.py",
+      "sha": "65f6c15ddd45627d199a5056327aa9cb2064e3f0",
+      "size": 6304,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/65f6c15ddd45627d199a5056327aa9cb2064e3f0"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/profiles.py",
+      "sha": "1352c171d1cf4ba47f776d0e61138cd335ff4bf9",
+      "size": 10940,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/1352c171d1cf4ba47f776d0e61138cd335ff4bf9"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/sentra.py",
+      "sha": "70c58c0345faf5811a7d52c5e09feebef98dfd36",
+      "size": 4204,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/70c58c0345faf5811a7d52c5e09feebef98dfd36"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/showcase.py",
+      "sha": "8ffbf213278ff3b5d3684b761abeadc326cf4cdc",
+      "size": 20216,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/8ffbf213278ff3b5d3684b761abeadc326cf4cdc"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/store.py",
+      "sha": "85bd484b34168cbe9167cf56fee25597e60bdf87",
+      "size": 10065,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/85bd484b34168cbe9167cf56fee25597e60bdf87"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/terra.py",
+      "sha": "20d7e1afd7aeb03bd663a74b8cdfc241993a95e6",
+      "size": 2867,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/20d7e1afd7aeb03bd663a74b8cdfc241993a95e6"
+    },
+    {
+      "mode": "100644",
+      "path": "deploy/szl_verticals/vessels.py",
+      "sha": "466c838c7f10d3bed2c560e54b2076783cf720f6",
+      "size": 4469,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/466c838c7f10d3bed2c560e54b2076783cf720f6"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "9a169c67bc8ddc6f1c279a8d5fac942990795d54",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/9a169c67bc8ddc6f1c279a8d5fac942990795d54"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/CHAMPION_PATTERN_LEDGER.md",
+      "sha": "16d6b5f06c6b775ac5aa27e95e798200bf164218",
+      "size": 8686,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/16d6b5f06c6b775ac5aa27e95e798200bf164218"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/COUNSEL_CLAIM_INTEGRITY.md",
+      "sha": "3edb4bfb0566312e8ab428bcede429e9c4ebb7e3",
+      "size": 6596,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/3edb4bfb0566312e8ab428bcede429e9c4ebb7e3"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/EVIDENCE_ADMISSION_REPAIR.md",
+      "sha": "fbadade086d5f5921b4c2a561b9e6c62b56a6c42",
+      "size": 5332,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/fbadade086d5f5921b4c2a561b9e6c62b56a6c42"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/FASHION_CUT.md",
+      "sha": "c585c038449d6a2bea34b3edf6da270235f12b30",
+      "size": 1456,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/c585c038449d6a2bea34b3edf6da270235f12b30"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/FRONTEND_SHOWCASE.md",
+      "sha": "f2af21371870af4089c5ab100c33140162f3bedf",
+      "size": 3225,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/f2af21371870af4089c5ab100c33140162f3bedf"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/HATUN_EVIDENCE_ADMISSION_V2.md",
+      "sha": "11391f94f8ca1020a9ac900ae22155ecfc618826",
+      "size": 5308,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/11391f94f8ca1020a9ac900ae22155ecfc618826"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/KILLINCHU_RUNTIME_CONVERGENCE.md",
+      "sha": "68619c3f2cba10c1c60b6772f34c9217fb70f327",
+      "size": 1654,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/68619c3f2cba10c1c60b6772f34c9217fb70f327"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/OPEN_SOURCE_AND_DATA_INTAKE_POLICY.md",
+      "sha": "89e20ca841d922c26e87a17f59c568aca1c68897",
+      "size": 6438,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/89e20ca841d922c26e87a17f59c568aca1c68897"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/OPERATIONS.md",
+      "sha": "a3a6adf188b2e28cb094d044d9e35f0b4e749c45",
+      "size": 4530,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/a3a6adf188b2e28cb094d044d9e35f0b4e749c45"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/VERTICAL_FRONTIER_FABRIC_V1.md",
+      "sha": "652e4fb1270fac6ab59ac1f63ba8a33296176172",
+      "size": 10989,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/652e4fb1270fac6ab59ac1f63ba8a33296176172"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/VERTICAL_INTELLIGENCE_FABRIC_V1.md",
+      "sha": "1ebb0207db84a581b3e7440c072e762f3393a2e3",
+      "size": 9005,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/1ebb0207db84a581b3e7440c072e762f3393a2e3"
+    },
+    {
+      "mode": "040000",
+      "path": "frontier",
+      "sha": "294b9180db6d968e54d938032bd39fb387db48f8",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/294b9180db6d968e54d938032bd39fb387db48f8"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/.dockerignore",
+      "sha": "af9eaa98e33b51889821c6666de835dbf3056724",
+      "size": 83,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/af9eaa98e33b51889821c6666de835dbf3056724"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/Dockerfile",
+      "sha": "0278e4ff8a1794135b45da0024c5f75aff431620",
+      "size": 860,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/0278e4ff8a1794135b45da0024c5f75aff431620"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/Dockerfile.runtime",
+      "sha": "aea3a81c99ebcfa3c7be1d8c5e79bead77fd5430",
+      "size": 1175,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/aea3a81c99ebcfa3c7be1d8c5e79bead77fd5430"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/MODEL_KERNEL_RUNTIME.md",
+      "sha": "bef45e6726f10f44f1b907f6289f21a064886c22",
+      "size": 8328,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/bef45e6726f10f44f1b907f6289f21a064886c22"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/README.md",
+      "sha": "7a00d48567e69a73d9bc373f734b7e1162c5e9a2",
+      "size": 9138,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/7a00d48567e69a73d9bc373f734b7e1162c5e9a2"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/app.py",
+      "sha": "fbae1c8fb11bd7f97ef06cfdfee6a5c8cd7fede0",
+      "size": 35706,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/fbae1c8fb11bd7f97ef06cfdfee6a5c8cd7fede0"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/kernel_engine.py",
+      "sha": "2d80774cfdfe4c1e2242154682bbab5532c3d318",
+      "size": 14155,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/2d80774cfdfe4c1e2242154682bbab5532c3d318"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/model_gateway.py",
+      "sha": "c22782583e8c86e94fcccdebd2f17258b43ef2de",
+      "size": 17111,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/c22782583e8c86e94fcccdebd2f17258b43ef2de"
+    },
+    {
+      "mode": "040000",
+      "path": "frontier/research",
+      "sha": "068fc7f6af18b24e6794ca2e0ca6e3c2511f79c4",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/068fc7f6af18b24e6794ca2e0ca6e3c2511f79c4"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/research/LEADER_PATTERN_MAP.md",
+      "sha": "7fa6e5e01310e739c3067bbd8c69192c9b7f6cef",
+      "size": 11952,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/7fa6e5e01310e739c3067bbd8c69192c9b7f6cef"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/runtime.py",
+      "sha": "9bb13d4ea8ac84a6c31344bf2652ae0095a9f61e",
+      "size": 11128,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/9bb13d4ea8ac84a6c31344bf2652ae0095a9f61e"
+    },
+    {
+      "mode": "040000",
+      "path": "frontier/static",
+      "sha": "45bae57251c3f6368205d9025205075bf9aa349d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/45bae57251c3f6368205d9025205075bf9aa349d"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/static/app.js",
+      "sha": "e8dcede5921167860aec714e942b946f18a75ae1",
+      "size": 56503,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/e8dcede5921167860aec714e942b946f18a75ae1"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/static/base.css",
+      "sha": "29949a3c5c3950a2ae10ca90967e6adf71350e6e",
+      "size": 34445,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/29949a3c5c3950a2ae10ca90967e6adf71350e6e"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/static/index.html",
+      "sha": "84db14d2ed1a16a9368301afa7d9aef7ace0e55a",
+      "size": 4230,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/84db14d2ed1a16a9368301afa7d9aef7ace0e55a"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/static/themes.css",
+      "sha": "f13faf386a5bbf09380b9f62c26b14525d76f0fe",
+      "size": 21131,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/f13faf386a5bbf09380b9f62c26b14525d76f0fe"
+    },
+    {
+      "mode": "040000",
+      "path": "frontier/tests",
+      "sha": "4bf6a8be5aa9fcaa6c333f27475f4d84cb4eca09",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/4bf6a8be5aa9fcaa6c333f27475f4d84cb4eca09"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/tests/test_frontier.py",
+      "sha": "40c38187142c345aba53e2fc28ba8c4f0d143f6d",
+      "size": 11534,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/40c38187142c345aba53e2fc28ba8c4f0d143f6d"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/tests/test_runtime.py",
+      "sha": "733867303321f411500fc6c39c75f0c7e59319a6",
+      "size": 12722,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/733867303321f411500fc6c39c75f0c7e59319a6"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier/verticals.json",
+      "sha": "2124c2a159b6624f4a1121fd31154ddaca227eca",
+      "size": 25011,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/2124c2a159b6624f4a1121fd31154ddaca227eca"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier_app.py",
+      "sha": "161b6e47a4353b015b91f8b01c34af7f2121984d",
+      "size": 12799,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/161b6e47a4353b015b91f8b01c34af7f2121984d"
+    },
+    {
+      "mode": "040000",
+      "path": "frontier_fabric",
+      "sha": "fc241cb0046fc232c57744022a9638c82ccb2a00",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/fc241cb0046fc232c57744022a9638c82ccb2a00"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier_fabric/README.md",
+      "sha": "0fe11b7e60eb6ea63113a74eef3e2ef28714d800",
+      "size": 1112,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/0fe11b7e60eb6ea63113a74eef3e2ef28714d800"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier_fabric/__init__.py",
+      "sha": "0e90f2977e3acf5d2438d11934908225982aa1f7",
+      "size": 1630,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/0e90f2977e3acf5d2438d11934908225982aa1f7"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier_fabric/catalog.py",
+      "sha": "1eeb9a6ed5243ee2f40736902b749fa64a242b5e",
+      "size": 32214,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/1eeb9a6ed5243ee2f40736902b749fa64a242b5e"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier_fabric/connectors.py",
+      "sha": "bea17fa269496a15980c58d919c45d617826da5d",
+      "size": 8593,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/bea17fa269496a15980c58d919c45d617826da5d"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier_fabric/engine.py",
+      "sha": "92fd2a7dd8f728645fdc1ca6286d846bc294ecb7",
+      "size": 20960,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/92fd2a7dd8f728645fdc1ca6286d846bc294ecb7"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier_fabric/fastapi_router.py",
+      "sha": "115bd3cab796c2733bb3eba81700283f78d2b523",
+      "size": 3774,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/115bd3cab796c2733bb3eba81700283f78d2b523"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier_fabric/receipts.py",
+      "sha": "69a261c0e14ca763411073d561ab7220660bdc38",
+      "size": 3897,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/69a261c0e14ca763411073d561ab7220660bdc38"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier_fabric/showcase.py",
+      "sha": "e95310d08458d0cc289c60bc609f9813974f50b7",
+      "size": 37485,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/e95310d08458d0cc289c60bc609f9813974f50b7"
+    },
+    {
+      "mode": "100644",
+      "path": "frontier_fabric/types.py",
+      "sha": "47f8a81803ac0625b97bc1c8f5c4ad4462f231fe",
+      "size": 4311,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/47f8a81803ac0625b97bc1c8f5c4ad4462f231fe"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements-test.txt",
+      "sha": "9c86f031efc69c8b596562c260bb243918c73d58",
+      "size": 22,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/9c86f031efc69c8b596562c260bb243918c73d58"
+    },
+    {
+      "mode": "100644",
+      "path": "requirements.txt",
+      "sha": "fd0bff5b8727e7649a291432228a1ca7bcae11cd",
+      "size": 74,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/fd0bff5b8727e7649a291432228a1ca7bcae11cd"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "51f0d13de1772e8555ea97f9ea634709efc9c729",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/51f0d13de1772e8555ea97f9ea634709efc9c729"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/export_vertical_frontier_contract.py",
+      "sha": "222cc657b927d32f31be8a96058b58de0ebd8298",
+      "size": 1915,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/222cc657b927d32f31be8a96058b58de0ebd8298"
+    },
+    {
+      "mode": "040000",
+      "path": "services",
+      "sha": "9e776295fe003d6787cd1b1a681560a9dbad5d96",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/9e776295fe003d6787cd1b1a681560a9dbad5d96"
+    },
+    {
+      "mode": "040000",
+      "path": "services/counsel",
+      "sha": "22a51de49711ed42b7b3cf14eb0a8b5d6e45d897",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/22a51de49711ed42b7b3cf14eb0a8b5d6e45d897"
+    },
+    {
+      "mode": "100644",
+      "path": "services/counsel/app.py",
+      "sha": "0de493b3e2ebaf147ad500d0334939bda45a3bfb",
+      "size": 2971,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/0de493b3e2ebaf147ad500d0334939bda45a3bfb"
+    },
+    {
+      "mode": "040000",
+      "path": "services/finance",
+      "sha": "e666a14de8853388b28d9f5f702de54ba48cff56",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/e666a14de8853388b28d9f5f702de54ba48cff56"
+    },
+    {
+      "mode": "100644",
+      "path": "services/finance/.env.example",
+      "sha": "499769b460a6723ea6baef10da10f7ebe795edd0",
+      "size": 352,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/499769b460a6723ea6baef10da10f7ebe795edd0"
+    },
+    {
+      "mode": "100644",
+      "path": "services/finance/README.md",
+      "sha": "6e92ae6ef11ea6c141e9bf2aa8d9cc1ab3ce0738",
+      "size": 3821,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/6e92ae6ef11ea6c141e9bf2aa8d9cc1ab3ce0738"
+    },
+    {
+      "mode": "100644",
+      "path": "services/finance/app.py",
+      "sha": "2f5f0b1c831e26a78b54b056b1783b5a320327d6",
+      "size": 4788,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/2f5f0b1c831e26a78b54b056b1783b5a320327d6"
+    },
+    {
+      "mode": "100644",
+      "path": "services/finance/engine.py",
+      "sha": "55056ee646d1fa68141ce04f1e1e65f9986abf4b",
+      "size": 7591,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/55056ee646d1fa68141ce04f1e1e65f9986abf4b"
+    },
+    {
+      "mode": "100644",
+      "path": "services/finance/feed.py",
+      "sha": "fac9a21487bd081290a430b6eac0a3ea41c413f6",
+      "size": 2421,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/fac9a21487bd081290a430b6eac0a3ea41c413f6"
+    },
+    {
+      "mode": "100644",
+      "path": "services/finance/receipts.py",
+      "sha": "c561eda9b833c25d56d654d44dd75603d275e39a",
+      "size": 2430,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/c561eda9b833c25d56d654d44dd75603d275e39a"
+    },
+    {
+      "mode": "040000",
+      "path": "services/finance/static",
+      "sha": "098f76117a5aba3d89a85bde16866b70f5b92c39",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/098f76117a5aba3d89a85bde16866b70f5b92c39"
+    },
+    {
+      "mode": "100644",
+      "path": "services/finance/static/console.html",
+      "sha": "b625e98a2e45a737ff091cfe5ccf730838b11545",
+      "size": 7966,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/b625e98a2e45a737ff091cfe5ccf730838b11545"
+    },
+    {
+      "mode": "100644",
+      "path": "services/finance/static/panels.html",
+      "sha": "9b7636c8a6cf415e64ebba5f201312a6c5f574a9",
+      "size": 2963,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/9b7636c8a6cf415e64ebba5f201312a6c5f574a9"
+    },
+    {
+      "mode": "040000",
+      "path": "services/lyte",
+      "sha": "d3950a620f892d403adc8b3abb221d31c7e0d4ae",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/d3950a620f892d403adc8b3abb221d31c7e0d4ae"
+    },
+    {
+      "mode": "100644",
+      "path": "services/lyte/app.py",
+      "sha": "18abcf4f267229de5f834b1c2e0f2d40b0cac1d6",
+      "size": 3654,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/18abcf4f267229de5f834b1c2e0f2d40b0cac1d6"
+    },
+    {
+      "mode": "040000",
+      "path": "services/sentra",
+      "sha": "aef46dcebe5a4ac6f4372d93af440f555a9bc1c0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/aef46dcebe5a4ac6f4372d93af440f555a9bc1c0"
+    },
+    {
+      "mode": "100644",
+      "path": "services/sentra/app.py",
+      "sha": "3ea2f14589e34380314e38d2841c5e211b39571d",
+      "size": 5856,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/3ea2f14589e34380314e38d2841c5e211b39571d"
+    },
+    {
+      "mode": "040000",
+      "path": "services/terra",
+      "sha": "3d3999becd58f9cd6c0eaaec0c805a3b531b671e",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/3d3999becd58f9cd6c0eaaec0c805a3b531b671e"
+    },
+    {
+      "mode": "100644",
+      "path": "services/terra/app.py",
+      "sha": "5f10ec7a8a79caad2245a262085c14e694ac543d",
+      "size": 3996,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/5f10ec7a8a79caad2245a262085c14e694ac543d"
+    },
+    {
+      "mode": "040000",
+      "path": "services/vessels",
+      "sha": "9f60d2c140b12af717bd9fb92de1db895a930ea0",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/9f60d2c140b12af717bd9fb92de1db895a930ea0"
+    },
+    {
+      "mode": "100644",
+      "path": "services/vessels/app.py",
+      "sha": "3b8ae71b1310fc121a75927c2a817c3dbef1d8a5",
+      "size": 3883,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/3b8ae71b1310fc121a75927c2a817c3dbef1d8a5"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "d08a09e36b19c861b7227ea168c291a112123e2b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/d08a09e36b19c861b7227ea168c291a112123e2b"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_counsel_claim_integrity.py",
+      "sha": "8f160a8424d60a42a15345bd992b83d92d3182ff",
+      "size": 10886,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/8f160a8424d60a42a15345bd992b83d92d3182ff"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_deploy_app.py",
+      "sha": "3e9f3db85753434722eb91a06f65d5a6a2e075bc",
+      "size": 13833,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/3e9f3db85753434722eb91a06f65d5a6a2e075bc"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_engines.py",
+      "sha": "f876cc86e17680cab1c40a389a62a246246b6a33",
+      "size": 7435,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/f876cc86e17680cab1c40a389a62a246246b6a33"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_evidence_resolution.py",
+      "sha": "0d9d3fe2569358069513223452def61a5da9a476",
+      "size": 8522,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/0d9d3fe2569358069513223452def61a5da9a476"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_fashion_lineage.py",
+      "sha": "7a5d5eedbf24ab11722c3b78acfb1e6d45d162a6",
+      "size": 2437,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/7a5d5eedbf24ab11722c3b78acfb1e6d45d162a6"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_finance_engine_v2.py",
+      "sha": "0e2b53774a105bea731ba4ff1e6e58ad89729145",
+      "size": 4051,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/0e2b53774a105bea731ba4ff1e6e58ad89729145"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_frontier_app.py",
+      "sha": "b07425896ca91ae318e5fca80b2a1af8339c8923",
+      "size": 7049,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/b07425896ca91ae318e5fca80b2a1af8339c8923"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_frontier_fabric.py",
+      "sha": "8dc9f215beb7f42597e30768822d09cfeb61993b",
+      "size": 12204,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/8dc9f215beb7f42597e30768822d09cfeb61993b"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_frontier_showcase.py",
+      "sha": "16df0704f8fd27a7b3eb2b0f77c7e05686fcce0a",
+      "size": 4165,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/16df0704f8fd27a7b3eb2b0f77c7e05686fcce0a"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_frontier_v3.py",
+      "sha": "d2440802b6b147351aa42088c7aedafabe134f7c",
+      "size": 10440,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/d2440802b6b147351aa42088c7aedafabe134f7c"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_hatun_evidence_admission.py",
+      "sha": "7cac7d98903f712d50e172c2f9dcf2864a4a3c4f",
+      "size": 11072,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/7cac7d98903f712d50e172c2f9dcf2864a4a3c4f"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_http_bounds.py",
+      "sha": "bf8c8db5281730b718d48d0fc2842c79f3a9d71d",
+      "size": 5473,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/bf8c8db5281730b718d48d0fc2842c79f3a9d71d"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_intelligence_evidence_admission.py",
+      "sha": "55406c1536720f7d5c5e6741354f0f687a73617d",
+      "size": 7763,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/55406c1536720f7d5c5e6741354f0f687a73617d"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_intelligence_fabric.py",
+      "sha": "0381d81b80a05f2edfb2a0775fa595d18930e662",
+      "size": 10811,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/0381d81b80a05f2edfb2a0775fa595d18930e662"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_killinchu_runtime_convergence_v2.py",
+      "sha": "2dc43fc1168ad1946bc117bc28b18d830b58d349",
+      "size": 6021,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/2dc43fc1168ad1946bc117bc28b18d830b58d349"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_operational_fabric.py",
+      "sha": "2ce428817a5e8248e5e1bce7e977aa84d509ffb3",
+      "size": 7183,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/2ce428817a5e8248e5e1bce7e977aa84d509ffb3"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_runtime_identity_workflows.py",
+      "sha": "fbb603af48407b29512e5c659f4ef95361ec9a18",
+      "size": 5428,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/fbb603af48407b29512e5c659f4ef95361ec9a18"
+    },
+    {
+      "mode": "040000",
+      "path": "tools",
+      "sha": "8e0e19d637a0f8bce067b27bc5ee96ecd8c852f6",
+      "type": "tree",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/8e0e19d637a0f8bce067b27bc5ee96ecd8c852f6"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/probe_live_verticals.py",
+      "sha": "858947b320aab6810473811e07eb6a8d2c4a446c",
+      "size": 12279,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/858947b320aab6810473811e07eb6a8d2c4a446c"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/resolve_deployable_revision.py",
+      "sha": "098ecedde5411d01a886a3ec5951eeea1e52ec1b",
+      "size": 2600,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/098ecedde5411d01a886a3ec5951eeea1e52ec1b"
+    },
+    {
+      "mode": "100755",
+      "path": "tools/szl_frontier_payload.py",
+      "sha": "e302ef9a5d7d01f656f52190727ebfad607c07f3",
+      "size": 4315,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/e302ef9a5d7d01f656f52190727ebfad607c07f3"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/verify_finance_engine.py",
+      "sha": "061fbc787ec888aa625a2f23f4443a6820627206",
+      "size": 3821,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/061fbc787ec888aa625a2f23f4443a6820627206"
+    },
+    {
+      "mode": "100644",
+      "path": "tools/verify_runtime_identity.py",
+      "sha": "8da80ef4cbd8fe90096f6d9f33b79281ced74eba",
+      "size": 5470,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/8da80ef4cbd8fe90096f6d9f33b79281ced74eba"
+    },
+    {
+      "mode": "100755",
+      "path": "tools/verify_vertical_backend.py",
+      "sha": "e6690bfca3b7e3abd418a68eefea741c655d72be",
+      "size": 3643,
+      "type": "blob",
+      "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/blobs/e6690bfca3b7e3abd418a68eefea741c655d72be"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/szl-holdings/vertical-services/git/trees/f487dc0fdc71af52841e3634bf7b9c6bf9fb6448"
+}

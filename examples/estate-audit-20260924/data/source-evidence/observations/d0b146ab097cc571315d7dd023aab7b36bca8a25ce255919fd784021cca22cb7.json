@@ -1,0 +1,20 @@
+{
+  "card": "---\ntitle: Evidence Studio\nemoji: \u2696\ufe0f\ncolorFrom: yellow\ncolorTo: gray\nsdk: docker\napp_port: 7860\npinned: false\nlicense: apache-2.0\nsuggested_hardware: cpu-basic\nshort_description: Merge sink. One writer. Receipts, not a flagship.\n---\n\n# Evidence Studio\n\nCanonical merge sink for holographic and receipt Spaces. **One writer.**\nPacket sources stay listed. This Space does not delete them.\n\nPOST `/api/merge` accepts a known packet id and returns an UNSIGNED-honest\nreceipt. Unknown packets fail closed. Energy UNAVAILABLE. \u039b = Conjecture 1.\n\nNot a second flagship. Not live inference. BIND_AS_A11OY_PACKAGE.\n\nSource: [szl-holdings/evidence-studio](https://github.com/szl-holdings/evidence-studio).\nHub writes go through Immune.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 731,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/4f06d4c514f6686aa550b5854ce9a6334e8937d812569b1bf9b93556a68e8bd4.md",
+      "revision": "6098d598ee1e21170393abdc446691d8340100cc",
+      "sha256": "4f06d4c514f6686aa550b5854ce9a6334e8937d812569b1bf9b93556a68e8bd4",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/evidence-studio/blob/6098d598ee1e21170393abdc446691d8340100cc/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/evidence-studio",
+  "observed_at": "2026-09-24T12:29:28Z",
+  "observed_revision": "6098d598ee1e21170393abdc446691d8340100cc"
+}
