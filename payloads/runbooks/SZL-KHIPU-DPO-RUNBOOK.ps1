@@ -1,13 +1,13 @@
 # SZL khipu-abstain DPO lane - one paste, administrator PowerShell 5.1, no prior shell state.
 # Machine: the RTX 5050 laptop (C:\Users\steph). On a box without CUDA the preflight stops before any training.
-# Changes: creates %USERPROFILE%\szl\{logs, dpo-khipu-r4-challenger-<stamp>, cards-reconcile-<stamp>} only.
-# Does not change: Hub repos, GitHub, the pinned .venv-ra-v2 / .venv-ra-v3 stacks, any token, any card
-# (unless you deliberately set $ApplyCards = $true AFTER revoking the two exposed tokens and saving a fresh one locally).
+# Changes: creates %USERPROFILE%\szl\{logs, dpo-khipu-r4-challenger-<stamp>, cards-reconcile-<stamp>, bundle-<stamp>} only.
+# Does not change: Hub repos, GitHub, the pinned .venv-ra-v2 / .venv-ra-v3 stacks, any token, any card.
+# Cards: the three Hub pull requests are already open (khipu-r3 #2, brain-navigator-r2 #2, receiptagent-v3 #3),
+# so this run only writes card diffs for the record; nothing here needs a Hugging Face token.
+# Output: bundle-<stamp>\receipts\khipu-abstain\<run_id>\ - the immutable evidence bundle to hand back (PR into szl-forge).
 
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
-
-$ApplyCards = $false   # owner gate for WO1 Hub PRs. Leave $false until WO6 (token revocation) is done.
 
 $Root = Join-Path $env:USERPROFILE "szl"
 New-Item -ItemType Directory -Force -Path $Root | Out-Null
@@ -16,46 +16,59 @@ Set-Location -LiteralPath $Root
 $Stamp = Get-Date -Format "yyyyMMdd-HHmm"
 Start-Transcript -Path (Join-Path $Root ("logs\khipu-dpo-" + $Stamp + ".log")) | Out-Null
 
+function Get-PinnedTool {
+    param([string]$Pin, [string]$RelPath, [string]$Want, [string]$OutFile)
+    Invoke-WebRequest -UseBasicParsing -Uri ("https://raw.githubusercontent.com/szl-holdings/szl-forge/" + $Pin + "/" + $RelPath) -OutFile $OutFile
+    $Got = (Get-FileHash -LiteralPath $OutFile -Algorithm SHA256).Hash.ToLower()
+    if ($Got -ne $Want) { throw ($RelPath + " hash mismatch: got " + $Got + " want " + $Want) }
+    return $Got
+}
+
 try {
-    # ---- 1. pinned pipeline, byte-verified (szl-forge PR #440, commit c6e60fee) ----
-    $Pin  = "c6e60feef44c1591bf3b3dd680166abdfeff49a4"
-    $Want = "6a4b893b8d5141e73e2d1e91b0cc4f84c1ceb0bef5ea9230cc4f4288a1440a15"
-    $Pipe = Join-Path $Root "szl_omen_pipeline.py"
-    Invoke-WebRequest -UseBasicParsing -Uri ("https://raw.githubusercontent.com/szl-holdings/szl-forge/" + $Pin + "/tools/szl_omen_pipeline.py") -OutFile $Pipe
-    $Got = (Get-FileHash -LiteralPath $Pipe -Algorithm SHA256).Hash.ToLower()
-    if ($Got -ne $Want) { throw ("pipeline hash mismatch: got " + $Got + " want " + $Want) }
-    Write-Host ("[1/6] pipeline OK  sha256=" + $Got)
+    # ---- 1. pinned tools, byte-verified (szl-forge huggingface branch, commit 36e0bf89 = PR #445 pipeline + PR #447 ingest) ----
+    $Pin    = "36e0bf89bc9c4c8d8c24fb7ac4b3c634ad2ec0c5"
+    $Pipe   = Join-Path $Root "szl_omen_pipeline.py"
+    $Ingest = Join-Path $Root "ingest_khipu_abstain_receipts.py"
+    $GotPipe   = Get-PinnedTool -Pin $Pin -RelPath "tools/szl_omen_pipeline.py" -Want "31d5d1bb33f81d9b4ab20f9ba9054741bec8183e45788a99f0e77fe50f58d1ca" -OutFile $Pipe
+    $GotIngest = Get-PinnedTool -Pin $Pin -RelPath "tools/ingest_khipu_abstain_receipts.py" -Want "e5a1551fed8a66127ee8170639d0791bfeb65b453c0dc2dc0aec5402df51cd0d" -OutFile $Ingest
+    Write-Host ("[1/7] pipeline OK sha256=" + $GotPipe)
+    Write-Host ("      ingest   OK sha256=" + $GotIngest)
 
     # ---- 2. dependencies (no upgrades: the pinned torch/transformers stack stays as installed) ----
     python -m pip install --quiet huggingface_hub transformers peft trl datasets safetensors accelerate
     if ($LASTEXITCODE -ne 0) { throw "pip install failed" }
-    Write-Host "[2/6] deps present"
+    Write-Host "[2/7] deps present"
 
     # ---- 3. GPU preflight: fail closed, never CPU ----
     python -c "import sys,torch; ok=torch.cuda.is_available() and torch.cuda.is_bf16_supported(); print('torch',torch.__version__,'cuda',torch.version.cuda,'gpu',torch.cuda.get_device_name(0) if ok else 'NONE'); sys.exit(0 if ok else 2)"
     if ($LASTEXITCODE -ne 0) { throw "CUDA/bf16 unavailable here. Run this on the 5050 laptop; nothing was trained." }
-    Write-Host "[3/6] CUDA preflight OK"
+    Write-Host "[3/7] CUDA preflight OK"
 
     # ---- 4. train the challenger (immutable, timestamped output) ----
     $Chal = Join-Path $Root ("dpo-khipu-r4-challenger-" + $Stamp)
     python $Pipe dpo --out $Chal --epochs 2
     if ($LASTEXITCODE -ne 0) { throw ("dpo stopped; read " + (Join-Path $Chal "dpo_receipt.json")) }
-    Write-Host ("[4/6] challenger trained -> " + $Chal)
+    Write-Host ("[4/7] challenger trained -> " + $Chal)
 
     # ---- 5. held-out MEASURED counts, baseline (khipu-r3) vs challenger ----
     python $Pipe eval-abstain --challenger $Chal
     if ($LASTEXITCODE -ne 0) { throw ("eval-abstain stopped; read " + (Join-Path $Chal "eval\eval_receipt.json")) }
-    Write-Host "[5/6] held-out evaluation recorded"
+    Write-Host "[5/7] held-out evaluation recorded"
 
-    # ---- 6. WO1 card reconciliation: dry-run always; PRs only behind the owner gate ----
+    # ---- 6. card diffs for the record (dry-run only; Hub PRs already exist) ----
     $Cards = Join-Path $Root ("cards-reconcile-" + $Stamp)
-    python $Pipe cards --out $Cards
+    python $Pipe cards --all --out $Cards
     if ($LASTEXITCODE -ne 0) { throw "cards dry-run failed" }
-    if ($ApplyCards) {
-        python $Pipe cards --apply --owner-confirmed-wo6 --out $Cards
-        if ($LASTEXITCODE -ne 0) { throw "cards --apply refused (owner gate or token); nothing was written" }
-    }
-    Write-Host ("[6/6] card diffs -> " + $Cards + "  (apply=" + $ApplyCards + ")")
+    Write-Host ("[6/7] card diffs -> " + $Cards)
+
+    # ---- 7. stage the immutable evidence bundle (fail-closed cross-receipt checks; derived STATUS.md) ----
+    $Bundle = Join-Path $Root ("bundle-" + $Stamp)
+    python $Ingest stage $Chal --cards $Cards --out $Bundle
+    if ($LASTEXITCODE -ne 0) { throw "ingest refused the receipts; read the reasons above. Nothing was staged." }
+    $BundleDir = Get-ChildItem -LiteralPath (Join-Path $Bundle "receipts\khipu-abstain") -Directory | Select-Object -First 1
+    python $Ingest validate $BundleDir.FullName
+    if ($LASTEXITCODE -ne 0) { throw "staged bundle failed re-validation" }
+    Write-Host ("[7/7] evidence bundle -> " + $BundleDir.FullName)
 
     # ---- evidence: print the receipts that establish completion ----
     $Show = @'
@@ -80,7 +93,7 @@ print("receipts:", chal / "dpo_receipt.json", "|", chal / "eval" / "eval_receipt
 '@
     $Show | python - $Chal $Cards
     if ($LASTEXITCODE -ne 0) { throw "receipt summary failed; open the JSON files directly" }
-    Write-Host "RUN COMPLETE - attach the transcript in logs\ and the three receipts."
+    Write-Host ("RUN COMPLETE - hand back the bundle directory " + $BundleDir.FullName + " (open it as a PR into szl-forge under receipts/khipu-abstain/) plus the transcript in logs\.")
 }
 finally {
     Stop-Transcript | Out-Null
