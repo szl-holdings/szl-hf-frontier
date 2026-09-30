@@ -1,42 +1,15 @@
 #!/usr/bin/env python3
-"""One-file wave runner. Stdlib first. Optional huggingface_hub."""
+"""Offline wave contract runner. No credential, Hub or GPU activation path."""
 from __future__ import annotations
 
+import argparse
 import json
-import os
 import subprocess
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
-
-TOKEN_KEYS = (
-    "HF_TOKEN",
-    "HF_ORG_TOKEN1",
-    "HF_ORG_TOKEN",
-    "HF_WRITE_TOKEN",
-    "HUGGINGFACE_TOKEN",
-    "HUGGING_FACE_HUB_TOKEN",
-)
-
-
-def _have_cuda() -> bool:
-    try:
-        import torch
-
-        return bool(torch.cuda.is_available())
-    except Exception:
-        return False
-
-
-def _token() -> str:
-    for key in TOKEN_KEYS:
-        raw = str(os.environ.get(key) or "").strip()
-        if raw:
-            return raw
-    return ""
-
 
 def wave_local() -> dict:
     from compose.gate import compose_allow
@@ -113,23 +86,18 @@ def wave_tests() -> str:
 
 
 def wave_hub() -> str:
-    token = _token()
-    if not token:
-        return "UNAVAILABLE_NO_TOKEN"
-    script = ROOT / "tools" / "cto_hub_honesty_payload.py"
-    if not script.is_file():
-        return "UNAVAILABLE_NO_SCRIPT"
-    proc = subprocess.run([sys.executable, str(script)], cwd=ROOT)
-    return "HUB_RAN" if proc.returncode == 0 else "HUB_FAILED"
+    # Credentials in a developer shell or CI environment never authorize a write.
+    return "DISABLED_OFFLINE_NO_OWNER_AUTHORIZATION"
 
 
 def wave_metal() -> str:
-    if not _have_cuda():
-        return "BLOCKED_NO_METAL"
-    return "METAL_PRESENT_NO_TRAIN_IN_THIS_PAYLOAD"
+    return "NOT_PROBED_OFFLINE"
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--offline", action="store_true", help="explicit CI mode; offline is also the default")
+    parser.parse_args()
     local = wave_local()
     tests = wave_tests()
     hub = wave_hub()

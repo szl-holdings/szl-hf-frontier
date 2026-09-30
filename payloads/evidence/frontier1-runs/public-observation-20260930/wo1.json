@@ -1,0 +1,135 @@
+{
+  "input_errors": [],
+  "items": [
+    {
+      "card_mutation": "NONE",
+      "checkpoint_candidates": [
+        {
+          "bytes": 3412002208,
+          "content_hash_status": "NOT_READ",
+          "path": "salvaged-merge/model.safetensors"
+        }
+      ],
+      "expected_parent": "9f71de39861898e752602a2332ef7ca1e0df87a7",
+      "identity": "model:SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2",
+      "note": "STAGED_METADATA_REQUIRES_ARTIFACT_OWNER",
+      "qualification": "NOT_ESTABLISHED",
+      "revision": "9f71de39861898e752602a2332ef7ca1e0df87a7",
+      "status": "OWNER-PENDING"
+    },
+    {
+      "card_mutation": "NONE",
+      "checkpoint_candidates": [
+        {
+          "bytes": 3009613624,
+          "content_hash_status": "NOT_READ",
+          "path": "model.safetensors"
+        }
+      ],
+      "expected_parent": "910343a2293f6bee8cc6e23f6cd16a981b92a155",
+      "identity": "model:SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
+      "note": "STAGED_METADATA_REQUIRES_ARTIFACT_OWNER",
+      "qualification": "NOT_ESTABLISHED",
+      "revision": "910343a2293f6bee8cc6e23f6cd16a981b92a155",
+      "status": "OWNER-PENDING"
+    },
+    {
+      "card_mutation": "NONE",
+      "checkpoint_candidates": [
+        {
+          "bytes": 3009613624,
+          "content_hash_status": "NOT_READ",
+          "path": "model.safetensors"
+        }
+      ],
+      "expected_parent": "90af1d3c2d3e79e60d8e1c82fa99a723e6888b90",
+      "identity": "model:SZLHOLDINGS/khipu-r3",
+      "note": "STAGED_METADATA_REQUIRES_ARTIFACT_OWNER",
+      "qualification": "NOT_ESTABLISHED",
+      "revision": "90af1d3c2d3e79e60d8e1c82fa99a723e6888b90",
+      "status": "OWNER-PENDING"
+    },
+    {
+      "card_mutation": "NONE",
+      "checkpoint_candidates": [
+        {
+          "bytes": 3009613624,
+          "content_hash_status": "NOT_READ",
+          "path": "model.safetensors"
+        }
+      ],
+      "expected_parent": "a5fbffcccabcc77ae87bf3740358a02f91a7c27b",
+      "identity": "model:SZLHOLDINGS/chaski-r2",
+      "note": "STAGED_METADATA_REQUIRES_ARTIFACT_OWNER",
+      "qualification": "NOT_ESTABLISHED",
+      "revision": "a5fbffcccabcc77ae87bf3740358a02f91a7c27b",
+      "status": "OWNER-PENDING"
+    },
+    {
+      "card_mutation": "NONE",
+      "checkpoint_candidates": [
+        {
+          "bytes": 3009613624,
+          "content_hash_status": "NOT_READ",
+          "path": "model.safetensors"
+        }
+      ],
+      "expected_parent": "8c9d4782b76e55377e00fba249c6938000dca423",
+      "identity": "model:SZLHOLDINGS/chaski-5050",
+      "note": "STAGED_METADATA_REQUIRES_ARTIFACT_OWNER",
+      "qualification": "NOT_ESTABLISHED",
+      "revision": "8c9d4782b76e55377e00fba249c6938000dca423",
+      "status": "OWNER-PENDING"
+    },
+    {
+      "card_mutation": "NONE",
+      "checkpoint_candidates": [
+        {
+          "bytes": 3009613624,
+          "content_hash_status": "NOT_READ",
+          "path": "model.safetensors"
+        }
+      ],
+      "expected_parent": "7fe3872fcb78ec8f5cc2f0c7464538b50b34e4b2",
+      "identity": "model:SZLHOLDINGS/brain-navigator-r2",
+      "note": "STAGED_METADATA_REQUIRES_ARTIFACT_OWNER",
+      "qualification": "NOT_ESTABLISHED",
+      "revision": "7fe3872fcb78ec8f5cc2f0c7464538b50b34e4b2",
+      "status": "OWNER-PENDING"
+    },
+    {
+      "card_mutation": "NONE",
+      "checkpoint_candidates": [
+        {
+          "bytes": 6174895536,
+          "content_hash_status": "NOT_READ",
+          "path": "model.safetensors"
+        }
+      ],
+      "expected_parent": "9fc2f7bebeaf4b3d6d26f7a2a1788a27f8c9ed52",
+      "identity": "model:SZLHOLDINGS/KHIPU-R2",
+      "note": "STAGED_METADATA_REQUIRES_ARTIFACT_OWNER",
+      "qualification": "NOT_ESTABLISHED",
+      "revision": "9fc2f7bebeaf4b3d6d26f7a2a1788a27f8c9ed52",
+      "status": "OWNER-PENDING"
+    },
+    {
+      "card_mutation": "NONE",
+      "checkpoint_candidates": [
+        {
+          "bytes": 1976163472,
+          "content_hash_status": "NOT_READ",
+          "path": "model.safetensors"
+        }
+      ],
+      "expected_parent": "e04bd728f20857c75e7c831d19d7190affd29133",
+      "identity": "model:SZLHOLDINGS/WILLAY",
+      "note": "STAGED_METADATA_REQUIRES_ARTIFACT_OWNER",
+      "qualification": "NOT_ESTABLISHED",
+      "revision": "e04bd728f20857c75e7c831d19d7190affd29133",
+      "status": "OWNER-PENDING"
+    }
+  ],
+  "note": "OBSERVATIONS_ONLY_NO_REMOTE_CHANGES",
+  "status": "OWNER-PENDING"
+}

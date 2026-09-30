@@ -1,0 +1,820 @@
+{
+  "deprecation": {
+    "private": false,
+    "readme": "---\nlicense: apache-2.0\nlibrary_name: kernels\ntags:\n- kernel\n- inference\n- energy\n- nvml\n- governance\n- provenance\n- audit\n- receipts\n- tokens-per-joule\n- sovereign-ai\n- deprecated\n- superseded\n---\n\n> **DEPRECATED / HISTORICAL COMPATIBILITY MATERIAL ONLY \u00b7 DO NOT USE FOR NEW INTEGRATIONS**\n>\n> This tombstone preserves the legacy source, API examples and provenance. It is\n> not operational energy evidence or a maintained installation/deployment guide.\n> Canonical successor source: [szl-energy-attest](https://github.com/szl-holdings/szl-energy-attest).\n> [DEPRECATED.md](./DEPRECATED.md) records the migration and schema boundaries;\n> the immutable migration references below preserve the predecessor/successor relationship.\n> Compatibility, a signature, or a self-test does not authorize deployment, production,\n> model promotion, or autonomy.\n\n> # DEPRECATED \u2014 superseded by [szl-energy-attest](https://github.com/szl-holdings/szl-energy-attest)\n>\n> This repository is a **tombstone**. Its functionality was folded into\n> `szl-energy-attest`; nothing here is maintained and no published test run\n> backs the card below. It is kept only so existing references resolve rather\n> than 404.\n>\n> **Do not build against this repo.** Use `szl-energy-attest`.\n\n> **SZL Holdings** \u00b7 Doctrine v11 \u00b7 \u039b = Conjecture 1 (advisory, never \"green\"/theorem) \u00b7 canonical [a-11-oy.com](https://a-11-oy.com)\n\n# governed-inference-meter\n\n> # \u26a0\ufe0f DEPRECATED \u2014 consolidated into [`szl-energy-attest`](https://github.com/szl-holdings/szl-energy-attest)\n>\n> **This repository is deprecated.** Its live inference meter and meter-specific\n> attestation, hardened receipt-chain, PCGI spine, and signing-facing compatibility\n> APIs were folded into the canonical\n> [`szl_energy_attest.inference_meter`](https://github.com/szl-holdings/szl-energy-attest/tree/4d8d105c3d5ea67b5eb25826e8a2a35ca35f4043/szl_energy_attest/inference_meter)\n> package in verified merge\n> [`4d8d105c3d5ea67b5eb25826e8a2a35ca35f4043`](https://github.com/szl-holdings/szl-energy-attest/commit/4d8d105c3d5ea67b5eb25826e8a2a35ca35f4043).\n>\n> Three legacy modules (`_energy.py`, `_policy.py`, `_receipt.py`) are exact\n> hash-preserving copies; `_attest.py` and `_spine.py` carry only bounded\n\n\n<!-- SZL-ATELIER-CUT:v1:START -->\n## The cut\n\nNVIDIA built NVML. We bound it. A run without joules is an incomplete receipt. Leaders brag FLOPs. We ask what it cost the wall.\n\nEnergy-attested inference as the default, including the honest case where energy is unavailable.\n\n### Silhouette \u2192 leave \u2192 SZL\n\n| Leader | Take, then tweak |\n|---|---|\n| Anthropic | Honesty about cost. |\n| NVIDIA | Direct take: NVML. Cut: signed tokens-per-joule. |\n| Unsloth | Train cheap, then measure the decode. |\n\nNobody else ships this combination. That is the point of a one-of-one.\n\n## Intended use\n\nWrap decode. Write joules into the receipt or write UNAVAILABLE.\n\n## Limitations\n\n- Energy may be unavailable. The card must say so \u2014 see energy-attested-runs.\n\nCanonical GitHub: [`szl-holdings/governed-inference-meter`](https://github.com/szl-holdings/governed-inference-meter/blob/main/README.md)\n<!-- SZL-ATELIER-CUT:v1:END -->\n\n> package/import and install-guidance rewrites. The immutable\n> [`MIGRATION_PROVENANCE.json`](https://github.com/szl-holdings/szl-energy-attest/blob/4d8d105c3d5ea67b5eb25826e8a2a35ca35f4043/MIGRATION_PROVENANCE.json)\n> records every source and destination digest, and the\n> [migration regressions](https://github.com/szl-holdings/szl-energy-attest/blob/4d8d105c3d5ea67b5eb25826e8a2a35ca35f4043/tests/test_inference_meter_migration.py)\n> verify that boundary.\n>\n> **Boundary:** the successor's root energy receipt remains a different schema;\n> compatibility does not imply schema equality, a configured signing key, or a\n> signed receipt. This legacy repository and its Hugging Face artifact remain\n> readable for provenance and rollback, but are not the target for new\n> integrations. Archiving requires a separate owner decision after pointer and\n> inbound-link gates are evidenced. See [`DEPRECATED.md`](./DEPRECATED.md).\n> \u039b remains **Conjecture 1 (advisory, uniqueness OPEN)** \u2014 never upgraded to proven.\n\n## Historical implementation description\n\n> **ARCHIVED DOCUMENTATION.** The descriptions and examples below preserve the old API.\n> They are not current installation, integration, or deployment instructions. Use the\n> [canonical successor source](https://github.com/szl-holdings/szl-energy-attest) for new work.\n\n**Energy-metered, governed inference receipts.** A lightweight, dependency-light\nPython utility (and Hugging Face *universal* kernel) that wraps any inference\ncall and emits a **governed, energy-metered, tamper-evident receipt**:\n\n- **measures GPU energy** via NVIDIA NVML (power/energy readback) integrated\n  over wall-time \u2192 **joules**,\n- computes **tokens-per-joule**,\n- runs a pluggable, **advisory policy gate** (allow/deny; defaults to allow),\n- and emits a **SHA-256 hash-chained JSON receipt** so a sequence of calls is\n  independently auditable.\n\nIt is the energy + governance counterpart to\n[`SZLHOLDINGS/szl-governed-norm`](https://huggingface.co/SZLHOLDINGS/szl-governed-norm)\n\u2014 provenance at the inference boundary, in the spirit of the\n[a11oy](https://a-11-oy.com) governed-AI platform: **receipts, not capability\nclaims.**\n\n> **Why this exists.** Browse the [Kernel Hub](https://huggingface.co/models?other=kernel)\n> and you find performance kernels \u2014 attention, activations, GEMM, norms. There\n> is **no energy-metering + governance kernel**. Teams running inference in\n> sovereign, regulated, or cost/carbon-sensitive contexts measure tokens/joule\n> and keep audit trails *by hand*. This utility does both in one wrapped call,\n> and degrades honestly when no GPU energy readback is available.\n\n---\n\n## Honest scope (read this first)\n\nThis project follows a strict honesty doctrine. **\u039b (the governance trust\nquantity) is Conjecture 1 \u2014 advisory, not a theorem. Trust is never 100%.**\n\n- **MEASURED only with NVML.** Energy is real **only** when NVML is present and\n  grants power/energy readback. Without it the receipt is labeled\n  `mode=\"unmeasured\"` and `joules` / `tokens_per_joule` are `null`. **We never\n  fabricate a joule figure.**\n- **Board-level power.** NVML reports whole-board power (compute die + memory +\n  losses). We report what the hardware reports and say so. No modeling, no\n  scaling factors.\n- **The policy gate is advisory and host-enforced.** It records an allow/deny\n  decision into the receipt. It does **not**, and cannot, enforce anything by\n  itself \u2014 your host must actually skip a denied call. The bundled `meter()`\n  wrapper *does* fail-safe (it will not execute a denied call), but downstream\n  enforcement is still your responsibility.\n- **The receipt digest is an integrity fingerprint, not a signature.** It is a\n  SHA-256 over the canonical record body and makes tampering *evident*. It does\n  **not** prove authorship. Cryptographic signing (e.g. DSSE/Sigstore) is a\n  separate, out-of-band concern, intentionally not done here.\n- **This is a metering + receipt utility, not a safety guarantee.**\n\n---\n\n## Historical install / load examples\n\n**From the Hugging Face Hub** (universal kernel \u2014 runs on CPU and CUDA):\n\n> **Historical example \u2014 not current installation or deployment guidance.**\n\n```python\nfrom kernels import get_kernel\ngim = get_kernel(\"SZLHOLDINGS/governed-inference-meter\")\n```\n\n**From PyPI-style source** (zero hard dependencies; add `pynvml` for real\nenergy):\n\n> **Historical commands \u2014 not current installation or deployment guidance.**\n\n```bash\npip install kernels            # to load via get_kernel\n# real GPU energy measurement additionally needs NVML bindings:\npip install pynvml\n```\n\n---\n\n## Historical usage examples\n\n> **Historical example \u2014 not current installation or deployment guidance.**\n\n```python\nfrom kernels import get_kernel\ngim = get_kernel(\"SZLHOLDINGS/governed-inference-meter\")\n\nprint(gim.__version__)\nprint(gim.capability_report())   # what energy measurement is possible here\n\n# Wrap ANY inference callable. You tell the meter the token counts.\ndef run(prompt):\n    # ... your real model.generate(...) call here ...\n    return \"the model's response text\"\n\nreceipt, output = gim.meter(\n    run, args=(\"hello\",),\n    model=\"my-llm-7b\",\n    tokens_in=2, tokens_out=7,\n)\n\nprint(receipt[\"mode\"])             # 'measured-energy' | 'measured-power-integral' | 'unmeasured'\nprint(receipt[\"joules\"])           # float, or None when unmeasured\nprint(receipt[\"tokens_per_joule\"]) # float, or None when unmeasured\nprint(receipt[\"policy_decision\"])  # 'allow' | 'deny'\nprint(receipt[\"digest\"])           # SHA-256 over the canonical record body\nprint(gim.receipt_verify())        # (ok, depth, first_break_seq) over the chain\n```\n\n### A custom policy gate (advisory)\n\n> **Historical example \u2014 not current installation or deployment guidance.**\n\n```python\ndef my_gate(ctx):\n    # ctx has model, tokens_in, tokens_out, args, kwargs, ts\n    if ctx[\"tokens_in\"] > 8192:\n        return (\"deny\", \"prompt exceeds governed token budget\")\n    return (\"allow\", \"within budget\")\n\nreceipt, output = gim.meter(run, args=(\"hi\",), model=\"m\",\n                            tokens_in=2, tokens_out=7, policy=my_gate)\n```\n\nA gate may return a `PolicyResult`, a `(decision, reason)` tuple, a bool, or a\nstring. **It runs fail-closed**: if your gate raises, the call is denied with\nthe exception text as the reason \u2014 a buggy policy can never silently allow.\n\n### Per-request chain (no global-state contention)\n\n> **Historical example \u2014 not current installation or deployment guidance.**\n\n```python\nchain = gim.ReceiptChain()\ngim.meter(run, args=(\"a\",), model=\"m\", tokens_in=1, tokens_out=4, chain=chain)\ngim.meter(run, args=(\"b\",), model=\"m\", tokens_in=1, tokens_out=6, chain=chain)\nprint(chain.verify())              # tamper-evident over YOUR chain only\nprint(chain.to_jsonl())            # export the chain for offline audit\n```\n\n---\n\n## MEASURED vs. `unmeasured` \u2014 what you get\n\n| Environment | `mode` | `joules` | `tokens_per_joule` |\n|---|---|---|---|\n| NVIDIA GPU with energy counter (`nvmlDeviceGetTotalEnergyConsumption`) | `measured-energy` | hardware accumulator delta | computed |\n| NVIDIA GPU, power readback only (`nvmlDeviceGetPowerUsage`) | `measured-power-integral` | trapezoidal integral of power samples | computed |\n| No GPU / no driver / no permission / no `pynvml` | `unmeasured` | `null` | `null` |\n\n### Sample receipt \u2014 `unmeasured` (illustrative; this build env has no GPU)\n\n> **SAMPLE / illustrative.** Produced on a CPU-only box. Because NVML is\n> unavailable, energy is honestly `unmeasured` and `joules` is `null` \u2014 exactly\n> the honest-degrade behavior. **No energy number is invented.**\n\n```json\n{\n  \"seq\": 0,\n  \"model\": \"my-llm-7b\",\n  \"tokens_in\": 2,\n  \"tokens_out\": 7,\n  \"mode\": \"unmeasured\",\n  \"joules\": null,\n  \"wall_seconds\": 0.004182,\n  \"tokens_per_joule\": null,\n  \"policy_decision\": \"allow\",\n  \"policy_reason\": \"default allow_all gate (no policy configured)\",\n  \"prev\": \"0000000000000000000000000000000000000000000000000000000000000000\",\n  \"digest\": \"<sha256 of the canonical body>\",\n  \"ts\": 1750000000.0\n}\n```\n\nOn a real NVIDIA GPU the same call would carry e.g.\n`\"mode\": \"measured-energy\"`, a positive `\"joules\"`, and a computed\n`\"tokens_per_joule\"`. We do **not** print example GPU numbers here because this\nbuild environment cannot measure them, and inventing them would violate the\nhonesty doctrine. Run `gim.selfcheck()` on your own hardware to see your numbers.\n\n---\n\n## Historical self-test example\n\n> **Historical example \u2014 not current installation or deployment guidance.**\n\n```python\nimport governed_inference_meter as gim\nprint(gim.selfcheck())   # functional check (NOT a benchmark); no fabricated energy\n```\n\n`selfcheck()` runs a metered allow call, a denied call (verifying it does not\nexecute), checks tokens/joule honesty, verifies the hash chain, and confirms\nthat mutating a past record is detected. It requires no GPU.\n\n---\n\n## Historical attestation & compliance examples (interop layer)\n\nA receipt is only as useful as the tools that can *carry* it. This module renders\nany receipt into the formats the wider ecosystem already understands \u2014 without\nchanging a single measured value.\n\n> **Historical example \u2014 not current installation or deployment guidance.**\n\n```python\nimport governed_inference_meter as gim\n\nrec, out = gim.meter(run, args=(\"hi\",), model=\"my-llm\", tokens_in=2, tokens_out=7)\n\n# 1) The receipt as an in-toto Statement v1 \u2014 the exact payload that\n#    Sigstore / DSSE / SCITT tooling signs and stores in a transparency log.\nstmt = gim.to_intoto_statement(rec)          # SLSA-shaped predicate, our own type URI\n\n# 2) EU AI Act / NIST AI RMF controls this receipt provides EVIDENCE for,\n#    with an explicit does_not_establish note per control (honest, not a cert).\nev = gim.compliance_evidence(rec)\n\n# 3) Confirm the Statement is cryptographically bound to this exact receipt.\nok, why = gim.verify_statement(stmt, rec)    # -> (True, \"ok\")\n```\n\nHonest boundaries (doctrine):\n\n- The predicate uses **our own** `predicateType` URI and is only SLSA-*shaped*\n  for auditor recognizability \u2014 it is **not** a claim of official SLSA\n  conformance. Signing (DSSE/Sigstore) is out-of-band; this emits the unsigned\n  Statement payload a signer would then cover.\n- Energy fields are copied **verbatim**. On an unmeasured receipt, energy-dependent\n  controls (e.g. `NIST-AI-RMF-MEASURE-2.x`) report **`UNAVAILABLE`** \u2014 never a\n  fabricated joule. Logging / record-keeping controls (EU AI Act Art. 12 & 19)\n  are supported regardless of GPU.\n- A receipt is **evidence** toward a control, never a conformity assessment,\n  certification, or safety guarantee.\n\n---\n\n## Historical PCGI receipt example (spine fold)\n\nThe meter is also a first-class **Proof-Carrying Governed Intelligence (PCGI)**\nreceipt producer on the org-canonical [`szl-receipt`](https://huggingface.co/SZLHOLDINGS)\nspine. One call folds a metered inference into a single signed receipt that binds\n**model id + input digest + output digest + governing policy id + energy** \u2014 the\nsame shape every other decision producer emits, so provenance unifies.\n\n> **Historical example \u2014 not current installation or deployment guidance.**\n\n```python\nimport governed_inference_meter as gim\nfrom szl_receipt import generate_keypair\n\npriv, pub = generate_keypair()   # or sign_key=None for UNSIGNED-honest\n\n# End-to-end: meter the call AND emit ONE canonical szl-receipt for it.\nenv, out = gim.meter_szl_receipt(\n    run, args=(\"hi\",), model=\"my-llm\",\n    policy_id=\"default-allow\", sign_key=priv, organ=\"meter\",\n)\nok, why = gim.verify_szl_receipt(env, pub)      # -> (True, \"ok\")\nstmt = gim.to_statement(env)                     # in-toto Statement v1, SLSA-shaped\nok2, _ = gim.verify_szl_statement(stmt, env)     # bound to this exact receipt\n\n# Or fold an existing meter receipt you already have:\nrec, out = gim.meter(run, args=(\"hi\",), model=\"my-llm\", tokens_in=2, tokens_out=7)\nenv = gim.from_meter_receipt(rec, input=\"hi\", output=out, policy_id=\"default-allow\")\n```\n\nHonest boundaries (doctrine):\n\n- Reuses szl-receipt's **canonicalization + signing + in-toto shapes** \u2014 it does\n  **not** invent a new receipt shape.\n- **Energy** is bound **verbatim** only when the meter actually measured it\n  (NVML present). Otherwise `energy.joules` is the literal string\n  **`\"UNAVAILABLE\"`** and `energy.measured` is `False` \u2014 the meter is the one\n  place in the spine where energy *can* be real, and it is never fabricated.\n- The canonical body is **deterministic**: identical inputs serialize to\n  byte-identical canonical JSON (no timestamps in the body).\n- Keyless => **UNSIGNED-honest** (`signed=False`); a signature is never faked.\n- The receipt is **evidence** binding a decision, **not** a proof the model's\n  output is correct.\n\nRequires the shared `szl-receipt` library (install extra `[sign]`); the import is\nlazy, so importing this package stays zero-hard-dependency.\n\n---\n\n## What's in the repo\n\n```\nbuild.toml                                  # Kernel Hub universal-kernel manifest\nbuild/torch-universal/governed_inference_meter/\n  __init__.py     # meter() / metered() wrappers, selfcheck(), accessors\n  _energy.py      # NVML energy + power-integral measurement, honest degrade\n  _receipt.py     # SHA-256 hash-chained, tamper-evident receipts\n  _policy.py      # advisory policy gate (allow_all default, fail-closed)\n  _attest.py      # in-toto/SLSA-shaped Statements + EU AI Act / NIST AI RMF evidence\n  _spine.py       # PCGI spine fold: metered inference -> ONE canonical szl-receipt\n  metadata.json\npyproject.toml                              # also pip-installable from source\ntests/test_meter.py                         # runs on CPU, no GPU needed\ntests/test_attest.py                        # attestation + compliance, no GPU needed\ntests/test_spine.py                         # canonical PCGI receipt fold, no GPU needed\nLICENSE                                     # Apache-2.0\n```\n\n---\n\n## Doctrine & honesty disclaimer\n\n> SZL Holdings \u00b7 governed, energy-metered inference receipts \u00b7 **MEASURED only\n> with NVML** \u00b7 the policy gate is **advisory (host-enforced)** \u00b7 **\u039b =\n> Conjecture 1** (advisory, *not* a theorem) \u00b7 **trust never 100%** \u00b7 honesty\n> over checklist. This is a metering + receipt utility, **not** a safety\n> guarantee. No fabricated benchmarks; energy is reported only when physically\n> measured.\n\n**License:** Apache-2.0 \u00b7 **Maintainer:** Stephen Lutar\n<stephenlutar2@gmail.com> \u00b7 **Platform:** [a-11-oy.com](https://a-11-oy.com) \u2014 the\ngoverned-inference substrate for hard missions.\n",
+    "readme_sha256": "4176da5b9de28db7d9f79c671826b59dcfc9d8fae837057d9124f19066c6623b",
+    "repo_id": "SZLHOLDINGS/governed-inference-meter",
+    "repo_type": "model",
+    "revision": "5049f8ec259a5356d5b8eeaf11b85d3e9c1fea74"
+  },
+  "expected_heads": {
+    "dataset:SZLHOLDINGS/SZLHOLDINGS": "7a6cce17710bf47b9e5a64e0b1be43d1276733ef",
+    "model:SZLHOLDINGS/KHIPU-R2": "9fc2f7bebeaf4b3d6d26f7a2a1788a27f8c9ed52",
+    "model:SZLHOLDINGS/SZLHOLDINGS": "32fa1ca46f913a669174fbcad7cca46d983bf5fc",
+    "model:SZLHOLDINGS/WILLAY": "e04bd728f20857c75e7c831d19d7190affd29133",
+    "model:SZLHOLDINGS/brain-navigator-r2": "7fe3872fcb78ec8f5cc2f0c7464538b50b34e4b2",
+    "model:SZLHOLDINGS/chaski-5050": "8c9d4782b76e55377e00fba249c6938000dca423",
+    "model:SZLHOLDINGS/chaski-r2": "a5fbffcccabcc77ae87bf3740358a02f91a7c27b",
+    "model:SZLHOLDINGS/governed-inference-meter": "5049f8ec259a5356d5b8eeaf11b85d3e9c1fea74",
+    "model:SZLHOLDINGS/khipu-r3": "90af1d3c2d3e79e60d8e1c82fa99a723e6888b90",
+    "model:SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2": "9f71de39861898e752602a2332ef7ca1e0df87a7",
+    "model:SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3": "910343a2293f6bee8cc6e23f6cd16a981b92a155",
+    "space:SZLHOLDINGS/README": "69aaaaac3863db8d6f2e525034bc5ec3c1dae328"
+  },
+  "models": [
+    {
+      "files": [
+        {
+          "bytes": 1689,
+          "path": "adapter_config.json"
+        },
+        {
+          "bytes": 43346432,
+          "path": "adapter_model.safetensors"
+        },
+        {
+          "bytes": 1296,
+          "path": "processor_config.json"
+        },
+        {
+          "bytes": 2874,
+          "path": "salvaged-merge/config.json"
+        },
+        {
+          "bytes": 122,
+          "path": "salvaged-merge/generation_config.json"
+        },
+        {
+          "bytes": 1286,
+          "path": "salvaged-merge/merge_receipt.json"
+        },
+        {
+          "bytes": 3412002208,
+          "path": "salvaged-merge/model.safetensors"
+        },
+        {
+          "bytes": 1227,
+          "path": "salvaged-merge/tokenizer_config.json"
+        },
+        {
+          "bytes": 7162,
+          "path": "tokenizer_config.json"
+        }
+      ],
+      "private": false,
+      "repo_id": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2",
+      "repo_type": "model",
+      "revision": "9f71de39861898e752602a2332ef7ca1e0df87a7"
+    },
+    {
+      "files": [
+        {
+          "bytes": 1511,
+          "path": "adapter_config.json"
+        },
+        {
+          "bytes": 25587104,
+          "path": "adapter_model.safetensors"
+        },
+        {
+          "bytes": 1864,
+          "path": "config.json"
+        },
+        {
+          "bytes": 122,
+          "path": "generation_config.json"
+        },
+        {
+          "bytes": 583,
+          "path": "merge_receipt.json"
+        },
+        {
+          "bytes": 3009613624,
+          "path": "model.safetensors"
+        },
+        {
+          "bytes": 1251,
+          "path": "processor_config.json"
+        },
+        {
+          "bytes": 1230,
+          "path": "tokenizer_config.json"
+        }
+      ],
+      "private": false,
+      "repo_id": "SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
+      "repo_type": "model",
+      "revision": "910343a2293f6bee8cc6e23f6cd16a981b92a155"
+    },
+    {
+      "files": [
+        {
+          "bytes": 1511,
+          "path": "adapter_config.json"
+        },
+        {
+          "bytes": 25587104,
+          "path": "adapter_model.safetensors"
+        },
+        {
+          "bytes": 1864,
+          "path": "config.json"
+        },
+        {
+          "bytes": 122,
+          "path": "generation_config.json"
+        },
+        {
+          "bytes": 560,
+          "path": "merge_receipt.json"
+        },
+        {
+          "bytes": 3009613624,
+          "path": "model.safetensors"
+        },
+        {
+          "bytes": 1251,
+          "path": "processor_config.json"
+        },
+        {
+          "bytes": 1230,
+          "path": "tokenizer_config.json"
+        }
+      ],
+      "private": false,
+      "repo_id": "SZLHOLDINGS/khipu-r3",
+      "repo_type": "model",
+      "revision": "90af1d3c2d3e79e60d8e1c82fa99a723e6888b90"
+    },
+    {
+      "files": [
+        {
+          "bytes": 1467,
+          "path": "adapter-unsloth/adapter_config.json"
+        },
+        {
+          "bytes": 2169704,
+          "path": "adapter-unsloth/adapter_model.safetensors"
+        },
+        {
+          "bytes": 1296,
+          "path": "adapter-unsloth/processor_config.json"
+        },
+        {
+          "bytes": 7162,
+          "path": "adapter-unsloth/tokenizer_config.json"
+        },
+        {
+          "bytes": 1511,
+          "path": "adapter_config.json"
+        },
+        {
+          "bytes": 25587104,
+          "path": "adapter_model.safetensors"
+        },
+        {
+          "bytes": 1864,
+          "path": "config.json"
+        },
+        {
+          "bytes": 122,
+          "path": "generation_config.json"
+        },
+        {
+          "bytes": 559,
+          "path": "merge_receipt.json"
+        },
+        {
+          "bytes": 3009613624,
+          "path": "model.safetensors"
+        },
+        {
+          "bytes": 1251,
+          "path": "processor_config.json"
+        },
+        {
+          "bytes": 1230,
+          "path": "tokenizer_config.json"
+        }
+      ],
+      "private": false,
+      "repo_id": "SZLHOLDINGS/chaski-r2",
+      "repo_type": "model",
+      "revision": "a5fbffcccabcc77ae87bf3740358a02f91a7c27b"
+    },
+    {
+      "files": [
+        {
+          "bytes": 1524,
+          "path": "adapter-unsloth/adapter_config.json"
+        },
+        {
+          "bytes": 25587104,
+          "path": "adapter-unsloth/adapter_model.safetensors"
+        },
+        {
+          "bytes": 1296,
+          "path": "adapter-unsloth/processor_config.json"
+        },
+        {
+          "bytes": 7162,
+          "path": "adapter-unsloth/tokenizer_config.json"
+        },
+        {
+          "bytes": 1617,
+          "path": "adapter_config.json"
+        },
+        {
+          "bytes": 25587104,
+          "path": "adapter_model.safetensors"
+        },
+        {
+          "bytes": 1864,
+          "path": "config.json"
+        },
+        {
+          "bytes": 122,
+          "path": "generation_config.json"
+        },
+        {
+          "bytes": 563,
+          "path": "merge_receipt.json"
+        },
+        {
+          "bytes": 3009613624,
+          "path": "model.safetensors"
+        },
+        {
+          "bytes": 1251,
+          "path": "processor_config.json"
+        },
+        {
+          "bytes": 1230,
+          "path": "tokenizer_config.json"
+        }
+      ],
+      "private": false,
+      "repo_id": "SZLHOLDINGS/chaski-5050",
+      "repo_type": "model",
+      "revision": "8c9d4782b76e55377e00fba249c6938000dca423"
+    },
+    {
+      "files": [
+        {
+          "bytes": 1511,
+          "path": "adapter_config.json"
+        },
+        {
+          "bytes": 25587104,
+          "path": "adapter_model.safetensors"
+        },
+        {
+          "bytes": 1864,
+          "path": "config.json"
+        },
+        {
+          "bytes": 122,
+          "path": "generation_config.json"
+        },
+        {
+          "bytes": 570,
+          "path": "merge_receipt.json"
+        },
+        {
+          "bytes": 3009613624,
+          "path": "model.safetensors"
+        },
+        {
+          "bytes": 1251,
+          "path": "processor_config.json"
+        },
+        {
+          "bytes": 1230,
+          "path": "tokenizer_config.json"
+        }
+      ],
+      "private": false,
+      "repo_id": "SZLHOLDINGS/brain-navigator-r2",
+      "repo_type": "model",
+      "revision": "7fe3872fcb78ec8f5cc2f0c7464538b50b34e4b2"
+    },
+    {
+      "files": [
+        {
+          "bytes": 1305,
+          "path": "adapter_config.json"
+        },
+        {
+          "bytes": 147770496,
+          "path": "adapter_model.safetensors"
+        },
+        {
+          "bytes": 1433,
+          "path": "config.json"
+        },
+        {
+          "bytes": 256,
+          "path": "generation_config.json"
+        },
+        {
+          "bytes": 275,
+          "path": "merge_receipt.json"
+        },
+        {
+          "bytes": 6174895536,
+          "path": "model.safetensors"
+        },
+        {
+          "bytes": 420,
+          "path": "tokenizer_config.json"
+        }
+      ],
+      "private": false,
+      "repo_id": "SZLHOLDINGS/KHIPU-R2",
+      "repo_type": "model",
+      "revision": "9fc2f7bebeaf4b3d6d26f7a2a1788a27f8c9ed52"
+    },
+    {
+      "files": [
+        {
+          "bytes": 1311,
+          "path": "adapter-unsloth/adapter_config.json"
+        },
+        {
+          "bytes": 17640136,
+          "path": "adapter-unsloth/adapter_model.safetensors"
+        },
+        {
+          "bytes": 4383,
+          "path": "adapter-unsloth/tokenizer_config.json"
+        },
+        {
+          "bytes": 1082,
+          "path": "adapter_config.json"
+        },
+        {
+          "bytes": 4338000,
+          "path": "adapter_model.safetensors"
+        },
+        {
+          "bytes": 1340,
+          "path": "config.json"
+        },
+        {
+          "bytes": 256,
+          "path": "generation_config.json"
+        },
+        {
+          "bytes": 273,
+          "path": "merge_receipt.json"
+        },
+        {
+          "bytes": 1976163472,
+          "path": "model.safetensors"
+        },
+        {
+          "bytes": 724,
+          "path": "tokenizer_config.json"
+        }
+      ],
+      "private": false,
+      "repo_id": "SZLHOLDINGS/WILLAY",
+      "repo_type": "model",
+      "revision": "e04bd728f20857c75e7c831d19d7190affd29133"
+    }
+  ],
+  "observed_at": "2026-09-30T13:36:24Z",
+  "pointers": {
+    "archived_count": 28,
+    "complete": true,
+    "source_count": 22,
+    "edge_count": 23,
+    "repository_count": 130,
+    "sources": [
+      {
+        "archived": true,
+        "description": "ARCHIVED hologram/duplicate. Canonical: https://github.com/szl-holdings/platform (agentic loops) + https://github.com/szl-holdings/szl-ouroboros (loop-tax kernel)",
+        "repo_id": "szl-holdings/ouroboros",
+        "targets": {
+          "szl-holdings/platform": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          },
+          "szl-holdings/szl-ouroboros": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      },
+      {
+        "archived": true,
+        "description": "ARCHIVED duplicate/hologram. Canonical: https://github.com/szl-holdings/szl-forge",
+        "repo_id": "szl-holdings/szl-cookbook",
+        "targets": {
+          "szl-holdings/szl-forge": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      },
+      {
+        "archived": true,
+        "description": "ARCHIVED duplicate/hologram. Canonical: https://github.com/szl-holdings/a11oy-net",
+        "repo_id": "szl-holdings/docs-site",
+        "targets": {
+          "szl-holdings/a11oy-net": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      },
+      {
+        "archived": true,
+        "description": "ARCHIVED duplicate/hologram. Canonical: https://github.com/szl-holdings/lutar-lean",
+        "repo_id": "szl-holdings/lean-kernel",
+        "targets": {
+          "szl-holdings/lutar-lean": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      },
+      {
+        "archived": true,
+        "description": "ARCHIVED hologram/duplicate. Canonical: https://github.com/szl-holdings/a11oy-net",
+        "repo_id": "szl-holdings/developers",
+        "targets": {
+          "szl-holdings/a11oy-net": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      },
+      {
+        "archived": true,
+        "description": "DEPRECATED. Canonical: https://github.com/szl-holdings/szl-lambda-gate. Archived frozen for provenance; HF model SZLHOLDINGS/szl-governed-norm remains available. Apache-2.0.",
+        "repo_id": "szl-holdings/szl-governed-norm",
+        "targets": {
+          "szl-holdings/szl-lambda-gate": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      },
+      {
+        "archived": true,
+        "description": "DEPRECATED. Canonical: https://github.com/szl-holdings/szl-energy-attest. Archived frozen for provenance; HF model SZLHOLDINGS/governed-inference-meter remains tagged deprecated. Apache-2.0.",
+        "repo_id": "szl-holdings/governed-inference-meter",
+        "targets": {
+          "szl-holdings/szl-energy-attest": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      },
+      {
+        "archived": true,
+        "description": "ARCHIVED duplicate/hologram. Canonical: https://github.com/szl-holdings/lutar-lean",
+        "repo_id": "szl-holdings/szl-formula-ledger",
+        "targets": {
+          "szl-holdings/lutar-lean": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      },
+      {
+        "archived": true,
+        "description": "ARCHIVED hologram/duplicate. Canonical: https://github.com/szl-holdings/szl-energy-attest",
+        "repo_id": "szl-holdings/energy-attest-holo",
+        "targets": {
+          "szl-holdings/szl-energy-attest": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      },
+      {
+        "archived": true,
+        "description": "ARCHIVED hologram/duplicate. Canonical: https://github.com/szl-holdings/szl-lambda-gate",
+        "repo_id": "szl-holdings/governed-norm-holo",
+        "targets": {
+          "szl-holdings/szl-lambda-gate": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      },
+      {
+        "archived": true,
+        "description": "ARCHIVED hologram/duplicate. Canonical: https://github.com/szl-holdings/szl-lambda-gate",
+        "repo_id": "szl-holdings/lambda-gate-holo",
+        "targets": {
+          "szl-holdings/szl-lambda-gate": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      },
+      {
+        "archived": true,
+        "description": "ARCHIVED hologram/duplicate. Canonical: https://github.com/szl-holdings/szl-receipt",
+        "repo_id": "szl-holdings/receipt-chain-live",
+        "targets": {
+          "szl-holdings/szl-receipt": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      },
+      {
+        "archived": true,
+        "description": "ARCHIVED hologram/duplicate. Canonical: https://github.com/szl-holdings/szl-provctl",
+        "repo_id": "szl-holdings/szl-provctl-live",
+        "targets": {
+          "szl-holdings/szl-provctl": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      },
+      {
+        "archived": true,
+        "description": "ARCHIVED duplicate/hologram. Canonical: https://github.com/szl-holdings/szl-kernels",
+        "repo_id": "szl-holdings/szl-kernels-live",
+        "targets": {
+          "szl-holdings/szl-kernels": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      },
+      {
+        "archived": true,
+        "description": "ARCHIVED duplicate/hologram. Canonical: https://github.com/szl-holdings/szl-substrate",
+        "repo_id": "szl-holdings/szl-telemetry",
+        "targets": {
+          "szl-holdings/szl-substrate": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      },
+      {
+        "archived": true,
+        "description": "ARCHIVED hologram/duplicate. Canonical: https://github.com/szl-holdings/a11oy",
+        "repo_id": "szl-holdings/szl-organ-integrity",
+        "targets": {
+          "szl-holdings/a11oy": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      },
+      {
+        "archived": true,
+        "description": "ARCHIVED duplicate/hologram. Canonical: https://github.com/szl-holdings/a11oy",
+        "repo_id": "szl-holdings/szl-experiments",
+        "targets": {
+          "szl-holdings/a11oy": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      },
+      {
+        "archived": true,
+        "description": "ARCHIVED hologram/duplicate. Canonical: https://github.com/szl-holdings/ayllu",
+        "repo_id": "szl-holdings/counsel",
+        "targets": {
+          "szl-holdings/ayllu": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      },
+      {
+        "archived": true,
+        "description": "ARCHIVED hologram/duplicate. Canonical: https://github.com/szl-holdings/szl-khipu",
+        "repo_id": "szl-holdings/khipu-lab",
+        "targets": {
+          "szl-holdings/szl-khipu": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      },
+      {
+        "archived": true,
+        "description": "ARCHIVED hologram/duplicate. Canonical: https://github.com/szl-holdings/anatomy",
+        "repo_id": "szl-holdings/cosmos",
+        "targets": {
+          "szl-holdings/anatomy": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      },
+      {
+        "archived": true,
+        "description": "ARCHIVED hologram/duplicate. Canonical: https://github.com/szl-holdings/immune",
+        "repo_id": "szl-holdings/immune-lattice",
+        "targets": {
+          "szl-holdings/immune": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      },
+      {
+        "archived": true,
+        "description": "ARCHIVED hologram/duplicate. Canonical: https://github.com/szl-holdings/szl-khipu",
+        "repo_id": "szl-holdings/khipu-pages",
+        "targets": {
+          "szl-holdings/szl-khipu": {
+            "archived": false,
+            "disabled": false,
+            "exists": true
+          }
+        }
+      }
+    ]
+  },
+  "profiles": [
+    {
+      "files": [
+        {
+          "bytes": 1519,
+          "path": ".gitattributes"
+        },
+        {
+          "bytes": 2842,
+          "path": "README.md"
+        },
+        {
+          "bytes": 2770,
+          "path": "bom/model-bom.cdx.json"
+        },
+        {
+          "bytes": 2714,
+          "path": "provenance.json"
+        },
+        {
+          "bytes": 1626,
+          "path": "status.json"
+        }
+      ],
+      "private": false,
+      "purpose": "HISTORICAL_PROFILE",
+      "repo_id": "SZLHOLDINGS/SZLHOLDINGS",
+      "repo_type": "model",
+      "revision": "32fa1ca46f913a669174fbcad7cca46d983bf5fc"
+    },
+    {
+      "files": [
+        {
+          "bytes": 2504,
+          "path": ".gitattributes"
+        },
+        {
+          "bytes": 11357,
+          "path": "LICENSE"
+        },
+        {
+          "bytes": 29653,
+          "path": "PROMOTION_READINESS_AUDIT.json"
+        },
+        {
+          "bytes": 4349,
+          "path": "README.md"
+        },
+        {
+          "bytes": 679,
+          "path": "SZL_ESTATE_MANAGED.json"
+        },
+        {
+          "bytes": 3542,
+          "path": "provenance.json"
+        },
+        {
+          "bytes": 2125,
+          "path": "status.json"
+        }
+      ],
+      "private": false,
+      "purpose": "INFORMATIONAL_METADATA",
+      "repo_id": "SZLHOLDINGS/SZLHOLDINGS",
+      "repo_type": "dataset",
+      "revision": "7a6cce17710bf47b9e5a64e0b1be43d1276733ef"
+    },
+    {
+      "files": [
+        {
+          "bytes": 141,
+          "path": ".gitattributes"
+        },
+        {
+          "bytes": 2185,
+          "path": "GOVERNANCE.md"
+        },
+        {
+          "bytes": 3338,
+          "path": "HONEST_DISCLOSURE.md"
+        },
+        {
+          "bytes": 390,
+          "path": "MODELS.txt"
+        },
+        {
+          "bytes": 5031,
+          "path": "README.md"
+        },
+        {
+          "bytes": 2293,
+          "path": "SEVEN_SPACES.md"
+        },
+        {
+          "bytes": 1697,
+          "path": "SPACE_PROVENANCE_FRONTIER.json"
+        },
+        {
+          "bytes": 2132,
+          "path": "assets/estate-banner-v2.svg"
+        },
+        {
+          "bytes": 10174,
+          "path": "assets/estate-command-system.svg"
+        },
+        {
+          "bytes": 115942,
+          "path": "assets/evidence-lattice-v2.webp"
+        },
+        {
+          "bytes": 1198,
+          "path": "assets/hf-card-command.svg"
+        },
+        {
+          "bytes": 1152,
+          "path": "assets/hf-card-evidence.svg"
+        },
+        {
+          "bytes": 1195,
+          "path": "assets/hf-card-intelligence.svg"
+        },
+        {
+          "bytes": 1101,
+          "path": "assets/hf-card-models.svg"
+        },
+        {
+          "bytes": 5814,
+          "path": "assets/hf-portfolio-map.svg"
+        },
+        {
+          "bytes": 2698,
+          "path": "deployment.json"
+        },
+        {
+          "bytes": 9640,
+          "path": "estate-alignment.json"
+        },
+        {
+          "bytes": 52769,
+          "path": "index.html"
+        },
+        {
+          "bytes": 1613,
+          "path": "seven-spaces.yaml"
+        }
+      ],
+      "private": false,
+      "purpose": "ORG_NAVIGATION",
+      "repo_id": "SZLHOLDINGS/README",
+      "repo_type": "space",
+      "revision": "69aaaaac3863db8d6f2e525034bc5ec3c1dae328"
+    }
+  ],
+  "schema": "szl.frontier1.public-observations/v1",
+  "source_commit": "1071a3fe96a010f011274d2f820ca5351d0b4eff"
+}

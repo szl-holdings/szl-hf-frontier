@@ -1,0 +1,9 @@
+{
+  "hardware": "NOT_PROBED",
+  "held_out_evaluation": "NOT_RUN",
+  "note": "COMPUTE_EXECUTION_EXCLUDED_FROM_THIS_RUNNER",
+  "publication_eligible": false,
+  "scheduled_job": "NONE",
+  "status": "UNAVAILABLE",
+  "training": "NOT_RUN"
+}
