@@ -6,15 +6,15 @@
       "bytes": 5882,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/0656a9a11a7c3200f79780ff4f9888cdabf2296c6bfb660e37f4f309e755e52a.md",
-      "revision": "3972a0ed5fd1230060e6e5c4cfc352df674426c5",
+      "revision": "95b41156c2b029cc2ad8a8bd40ddccd018bcde98",
       "sha256": "0656a9a11a7c3200f79780ff4f9888cdabf2296c6bfb660e37f4f309e755e52a",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/puriq-live/blob/3972a0ed5fd1230060e6e5c4cfc352df674426c5/README.md"
+      "url": "https://github.com/szl-holdings/puriq-live/blob/95b41156c2b029cc2ad8a8bd40ddccd018bcde98/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/puriq-live",
-  "observed_at": "2026-09-25T15:21:09Z",
-  "observed_revision": "3972a0ed5fd1230060e6e5c4cfc352df674426c5"
+  "observed_at": "2026-09-29T20:49:41Z",
+  "observed_revision": "95b41156c2b029cc2ad8a8bd40ddccd018bcde98"
 }

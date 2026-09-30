@@ -1,0 +1,13 @@
+{
+  "files": [
+    ".gitattributes",
+    "BENCH.laptop-blackwell.json",
+    "LICENSE",
+    "README.md",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "card/holo-banner.svg",
+    "tiny_khipu.npz"
+  ],
+  "revision": "d890010f874ecafd3f2f1ef4066d84b810ba775e"
+}

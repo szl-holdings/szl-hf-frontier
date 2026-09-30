@@ -1,0 +1,21 @@
+{
+  "files": [
+    ".env.example",
+    ".gitattributes",
+    "Dockerfile",
+    "README.md",
+    "__pycache__/app.cpython-311.pyc",
+    "__pycache__/engine.cpython-311.pyc",
+    "__pycache__/feed.cpython-311.pyc",
+    "__pycache__/receipts.cpython-311.pyc",
+    "app.py",
+    "engine.py",
+    "feed.py",
+    "receipts.py",
+    "requirements.txt",
+    "static/console.html",
+    "static/panels.html",
+    "szl-artifact-manifest.json"
+  ],
+  "revision": "742acb90d8d156bc7ae238eb2eba5d2662dee856"
+}

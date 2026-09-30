@@ -1,0 +1,13 @@
+{
+  "files": [
+    ".gitattributes",
+    "ALIGN.md",
+    "Dockerfile",
+    "README.md",
+    "docs/FRONTIER.md",
+    "docs/OPERATIONAL.md",
+    "index.html",
+    "play.html"
+  ],
+  "revision": "745dded68447bda26e401636bef02aaec8dc06f6"
+}

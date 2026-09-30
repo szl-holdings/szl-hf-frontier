@@ -5,7 +5,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 1,
-    "metadata_observed_at": "2026-09-25T15:20:09.735861Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.605399Z",
     "path": "SZLHOLDINGS/a11oy",
     "private": false,
     "runtime": {
@@ -30,7 +30,7 @@
         "current": 1,
         "requested": 1
       },
-      "sha": "6ce4a2a828280a5cf861742e5001c492bc70a3f2",
+      "sha": "35c9cc694289759a97039c9b4255cc85e625c5d2",
       "stage": "RUNNING",
       "volumes": [
         {
@@ -43,7 +43,7 @@
       ]
     },
     "sdk": "docker",
-    "sha": "6ce4a2a828280a5cf861742e5001c492bc70a3f2",
+    "sha": "35c9cc694289759a97039c9b4255cc85e625c5d2",
     "tags": [
       "docker",
       "governance",
@@ -55,7 +55,7 @@
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-20T16:16:10.000Z"
+    "updated_at": "2026-09-29T16:07:36.000Z"
   },
   {
     "downloads": null,
@@ -63,7 +63,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:10.220464Z",
+    "metadata_observed_at": "2026-09-29T20:23:03.090342Z",
     "path": "SZLHOLDINGS/ayllu",
     "private": false,
     "runtime": {
@@ -84,11 +84,11 @@
         "current": 1,
         "requested": 1
       },
-      "sha": "8cc7b9a6a3528f12155b36d16140d8e2b5b99d5c",
+      "sha": "4111317e25861a72ed9377148219b562daaa5c2d",
       "stage": "RUNNING"
     },
     "sdk": "docker",
-    "sha": "8cc7b9a6a3528f12155b36d16140d8e2b5b99d5c",
+    "sha": "4111317e25861a72ed9377148219b562daaa5c2d",
     "tags": [
       "docker",
       "agent-council",
@@ -101,7 +101,7 @@
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-14T02:00:56.000Z"
+    "updated_at": "2026-09-29T16:13:33.000Z"
   },
   {
     "downloads": null,
@@ -109,7 +109,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.719768Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.510328Z",
     "path": "SZLHOLDINGS/counsel",
     "private": false,
     "runtime": {
@@ -127,14 +127,14 @@
       },
       "pySpacesVersion": "0.51.3",
       "replicas": {
-        "current": 0,
+        "current": 1,
         "requested": 1
       },
-      "sha": "0c33ee1f40c4a76dda5fef6336a40e61ad6aaad5",
+      "sha": "8ed1835fa560c37c05dbfc1968b3506042becc4e",
       "stage": "RUNNING"
     },
     "sdk": "docker",
-    "sha": "0c33ee1f40c4a76dda5fef6336a40e61ad6aaad5",
+    "sha": "8ed1835fa560c37c05dbfc1968b3506042becc4e",
     "tags": [
       "docker",
       "szl-holdings",
@@ -143,7 +143,7 @@
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-19T22:26:10.000Z"
+    "updated_at": "2026-09-26T11:44:22.000Z"
   },
   {
     "downloads": null,
@@ -151,7 +151,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.882101Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.760370Z",
     "path": "SZLHOLDINGS/david-leads",
     "private": false,
     "runtime": {
@@ -172,11 +172,11 @@
         "current": 1,
         "requested": 1
       },
-      "sha": "0b16cc2d47396e880f5a3525a48092305f35f6e0",
+      "sha": "5aacacc415d81d8cd9269a58aa70c2c1ccb08474",
       "stage": "RUNNING"
     },
     "sdk": "docker",
-    "sha": "0b16cc2d47396e880f5a3525a48092305f35f6e0",
+    "sha": "5aacacc415d81d8cd9269a58aa70c2c1ccb08474",
     "tags": [
       "docker",
       "insurance",
@@ -188,7 +188,7 @@
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-25T12:37:09.000Z"
+    "updated_at": "2026-09-26T17:52:57.000Z"
   },
   {
     "downloads": null,
@@ -196,7 +196,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.824639Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.638583Z",
     "path": "SZLHOLDINGS/finance",
     "private": false,
     "runtime": {
@@ -217,20 +217,22 @@
         "current": 1,
         "requested": 1
       },
-      "sha": "9cfb48482cf8d717b3d4998fbbe222d1701f8ced",
+      "sha": "742acb90d8d156bc7ae238eb2eba5d2662dee856",
       "stage": "RUNNING"
     },
     "sdk": "docker",
-    "sha": "9cfb48482cf8d717b3d4998fbbe222d1701f8ced",
+    "sha": "742acb90d8d156bc7ae238eb2eba5d2662dee856",
     "tags": [
       "docker",
       "szl-holdings",
       "governed-ai",
       "finance",
+      "receipts",
+      "advisory-only",
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-19T22:26:12.000Z"
+    "updated_at": "2026-09-29T04:59:52.000Z"
   },
   {
     "downloads": null,
@@ -238,7 +240,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:10.334532Z",
+    "metadata_observed_at": "2026-09-29T20:23:03.181203Z",
     "path": "SZLHOLDINGS/holographic-unify",
     "private": false,
     "runtime": {
@@ -259,11 +261,11 @@
         "current": 1,
         "requested": 1
       },
-      "sha": "c206b2c93b8b9693ee136f7ab13f37fe31d13bf7",
+      "sha": "91f91d2e6ae09770c3f85ab7c6dcb46cca14d0d4",
       "stage": "RUNNING"
     },
     "sdk": "docker",
-    "sha": "c206b2c93b8b9693ee136f7ab13f37fe31d13bf7",
+    "sha": "91f91d2e6ae09770c3f85ab7c6dcb46cca14d0d4",
     "tags": [
       "docker",
       "governed-ai",
@@ -275,7 +277,7 @@
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-12T09:33:59.000Z"
+    "updated_at": "2026-09-29T19:30:12.000Z"
   },
   {
     "downloads": null,
@@ -283,7 +285,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:10.071408Z",
+    "metadata_observed_at": "2026-09-29T20:23:03.089188Z",
     "path": "SZLHOLDINGS/immune",
     "private": false,
     "runtime": {
@@ -304,17 +306,17 @@
         "current": 1,
         "requested": 1
       },
-      "sha": "6aa234f3cb575b8d1b2122e1c8b4476da122a454",
+      "sha": "003b3762f7cf1a9cd34eab29b2cfe0ac903cc6e8",
       "stage": "RUNNING"
     },
     "sdk": "docker",
-    "sha": "6aa234f3cb575b8d1b2122e1c8b4476da122a454",
+    "sha": "003b3762f7cf1a9cd34eab29b2cfe0ac903cc6e8",
     "tags": [
       "docker",
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-25T00:22:36.000Z"
+    "updated_at": "2026-09-29T16:09:52.000Z"
   },
   {
     "downloads": null,
@@ -322,7 +324,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.986035Z",
+    "metadata_observed_at": "2026-09-29T20:23:03.014244Z",
     "path": "SZLHOLDINGS/immune-lattice",
     "private": false,
     "runtime": {
@@ -343,17 +345,17 @@
         "current": 1,
         "requested": 1
       },
-      "sha": "6237ab5b88e71388ba161c22eff0e6f72e1951a8",
+      "sha": "d56cfa32711e874b6efe003526c44bceaf90f134",
       "stage": "RUNNING"
     },
     "sdk": "docker",
-    "sha": "6237ab5b88e71388ba161c22eff0e6f72e1951a8",
+    "sha": "d56cfa32711e874b6efe003526c44bceaf90f134",
     "tags": [
       "docker",
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-04T20:25:41.000Z"
+    "updated_at": "2026-09-29T16:04:29.000Z"
   },
   {
     "downloads": null,
@@ -361,7 +363,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 2,
-    "metadata_observed_at": "2026-09-25T15:20:09.767991Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.510328Z",
     "path": "SZLHOLDINGS/killinchu",
     "private": false,
     "runtime": {
@@ -386,11 +388,11 @@
         "current": 1,
         "requested": 1
       },
-      "sha": "daeb8bb9c0cfcfe63ac26aeb770e48f0f7cf14da",
+      "sha": "31c15c6b3d809659238d241a99a089a3c6cac6e7",
       "stage": "RUNNING"
     },
     "sdk": "docker",
-    "sha": "daeb8bb9c0cfcfe63ac26aeb770e48f0f7cf14da",
+    "sha": "31c15c6b3d809659238d241a99a089a3c6cac6e7",
     "tags": [
       "docker",
       "doctrine-v11",
@@ -405,7 +407,7 @@
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-24T21:55:38.000Z"
+    "updated_at": "2026-09-29T15:11:53.000Z"
   },
   {
     "downloads": null,
@@ -413,7 +415,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:10.290557Z",
+    "metadata_observed_at": "2026-09-29T20:23:03.292478Z",
     "path": "SZLHOLDINGS/llm-router-live",
     "private": false,
     "runtime": {
@@ -434,17 +436,20 @@
         "current": 1,
         "requested": 1
       },
-      "sha": "cfbbf7e62317404561b9565c0021e7c4a391a9ea",
+      "sha": "14b9a225c8bdcc46a02f3236fb3f4674e9e9103a",
       "stage": "RUNNING"
     },
     "sdk": "docker",
-    "sha": "cfbbf7e62317404561b9565c0021e7c4a391a9ea",
+    "sha": "14b9a225c8bdcc46a02f3236fb3f4674e9e9103a",
     "tags": [
       "docker",
+      "szl-holdings",
+      "governed-ai",
+      "llm-router",
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-24T21:55:16.000Z"
+    "updated_at": "2026-09-29T15:25:00.000Z"
   },
   {
     "downloads": null,
@@ -452,7 +457,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.824639Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.727618Z",
     "path": "SZLHOLDINGS/lyte",
     "private": false,
     "runtime": {
@@ -473,11 +478,11 @@
         "current": 1,
         "requested": 1
       },
-      "sha": "94734aeddcd326d4975abd1d17519a62a53a7c88",
+      "sha": "708574839c6e9c9ffa20bbe4e444796dc5a916cf",
       "stage": "RUNNING"
     },
     "sdk": "docker",
-    "sha": "94734aeddcd326d4975abd1d17519a62a53a7c88",
+    "sha": "708574839c6e9c9ffa20bbe4e444796dc5a916cf",
     "tags": [
       "docker",
       "observability",
@@ -489,7 +494,7 @@
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-11T22:24:51.000Z"
+    "updated_at": "2026-09-26T11:45:05.000Z"
   },
   {
     "downloads": null,
@@ -497,7 +502,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.707984Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.482614Z",
     "path": "SZLHOLDINGS/README",
     "private": false,
     "runtime": {
@@ -512,13 +517,13 @@
       "stage": "RUNNING"
     },
     "sdk": "static",
-    "sha": "9fe1342bf64f61cef2bc351415528662b08cdf42",
+    "sha": "8f6de3d682fe1caf03e60444ede54fb1bef89ae7",
     "tags": [
       "static",
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-22T05:54:29.000Z"
+    "updated_at": "2026-09-29T20:14:19.000Z"
   },
   {
     "downloads": null,
@@ -526,7 +531,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.735861Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.652082Z",
     "path": "SZLHOLDINGS/sentra",
     "private": false,
     "runtime": {
@@ -547,20 +552,21 @@
         "current": 1,
         "requested": 1
       },
-      "sha": "3d12dbc89d7fdc14906af6e43a3bbb6762e3aa8c",
+      "sha": "f854262c4e314cfff68ef86350d7b03d56219a69",
       "stage": "RUNNING"
     },
     "sdk": "docker",
-    "sha": "3d12dbc89d7fdc14906af6e43a3bbb6762e3aa8c",
+    "sha": "f854262c4e314cfff68ef86350d7b03d56219a69",
     "tags": [
       "docker",
       "szl-holdings",
       "governed-ai",
-      "sentra",
+      "assurance",
+      "internal-engine",
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-19T22:26:08.000Z"
+    "updated_at": "2026-09-28T17:01:53.000Z"
   },
   {
     "downloads": null,
@@ -568,7 +574,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:10.301031Z",
+    "metadata_observed_at": "2026-09-29T20:23:03.182475Z",
     "path": "SZLHOLDINGS/szl-atelier",
     "private": false,
     "runtime": {
@@ -589,17 +595,17 @@
         "current": 1,
         "requested": 1
       },
-      "sha": "7227d60fe95becee74bb6ac46acb8b8765b720bd",
+      "sha": "2a6506746300dcc12307e99a09e5a0c8e9b142af",
       "stage": "RUNNING"
     },
     "sdk": "docker",
-    "sha": "7227d60fe95becee74bb6ac46acb8b8765b720bd",
+    "sha": "2a6506746300dcc12307e99a09e5a0c8e9b142af",
     "tags": [
       "docker",
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-20T00:25:56.000Z"
+    "updated_at": "2026-09-29T15:42:36.000Z"
   },
   {
     "downloads": null,
@@ -607,7 +613,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.859234Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.760959Z",
     "path": "SZLHOLDINGS/szl-command-lab",
     "private": false,
     "runtime": {
@@ -628,11 +634,11 @@
         "current": 1,
         "requested": 1
       },
-      "sha": "ca01073d30f2b2c6de1190e3659ecf08702fc633",
+      "sha": "0d6dedcf9b1d56bc0c9f00bbaa6900da9ba28c40",
       "stage": "RUNNING"
     },
     "sdk": "docker",
-    "sha": "ca01073d30f2b2c6de1190e3659ecf08702fc633",
+    "sha": "0d6dedcf9b1d56bc0c9f00bbaa6900da9ba28c40",
     "tags": [
       "docker",
       "governed-ai",
@@ -646,7 +652,7 @@
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-12T09:10:05.000Z"
+    "updated_at": "2026-09-29T15:49:01.000Z"
   },
   {
     "downloads": null,
@@ -654,7 +660,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.848760Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.838028Z",
     "path": "SZLHOLDINGS/szl-constellation",
     "private": false,
     "runtime": {
@@ -675,11 +681,11 @@
         "current": 1,
         "requested": 1
       },
-      "sha": "de68f6e0aa84e8d62534ce5259d16c395eceeb6a",
+      "sha": "f094d82366e2055285c96e65413af3964d557247",
       "stage": "RUNNING"
     },
     "sdk": "gradio",
-    "sha": "de68f6e0aa84e8d62534ce5259d16c395eceeb6a",
+    "sha": "f094d82366e2055285c96e65413af3964d557247",
     "tags": [
       "gradio",
       "szl",
@@ -690,7 +696,7 @@
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-25T01:01:10.000Z"
+    "updated_at": "2026-09-29T15:54:29.000Z"
   },
   {
     "downloads": null,
@@ -698,43 +704,28 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:10.374514Z",
-    "path": "SZLHOLDINGS/szl-constellation-staging",
+    "metadata_observed_at": "2026-09-29T20:23:03.391608Z",
+    "path": "SZLHOLDINGS/szl-forge-lab",
     "private": false,
     "runtime": {
-      "devMode": false,
-      "domains": [
-        {
-          "domain": "szlholdings-szl-constellation-staging.hf.space",
-          "stage": "READY"
-        }
-      ],
-      "gcTimeout": 172800,
       "hardware": {
-        "current": "cpu-basic",
-        "requested": "cpu-basic"
+        "current": null,
+        "requested": null
       },
-      "pySpacesVersion": "0.51.3",
       "replicas": {
         "current": 1,
         "requested": 1
       },
-      "sha": "cbe6cec1bbd496952a40e6f82d25eca0d5fcaa09",
       "stage": "RUNNING"
     },
-    "sdk": "gradio",
-    "sha": "cbe6cec1bbd496952a40e6f82d25eca0d5fcaa09",
+    "sdk": "static",
+    "sha": "fc96357b7742a582eaad225400096d5db690163a",
     "tags": [
-      "gradio",
-      "szl",
-      "governed-ai",
-      "receipts",
-      "holographic",
-      "constellation",
+      "static",
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-25T00:43:26.000Z"
+    "updated_at": "2026-09-29T02:07:37.000Z"
   },
   {
     "downloads": null,
@@ -742,7 +733,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.950894Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.991338Z",
     "path": "SZLHOLDINGS/szl-frontier",
     "private": false,
     "runtime": {
@@ -763,11 +754,11 @@
         "current": 1,
         "requested": 1
       },
-      "sha": "04d99222b5741bdb275d06170ba1a58616ede42a",
+      "sha": "3e261cef23e17368fa5243a644de8e3c98a65e1b",
       "stage": "RUNNING"
     },
     "sdk": "docker",
-    "sha": "04d99222b5741bdb275d06170ba1a58616ede42a",
+    "sha": "3e261cef23e17368fa5243a644de8e3c98a65e1b",
     "tags": [
       "docker",
       "governance",
@@ -779,7 +770,7 @@
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-24T21:56:21.000Z"
+    "updated_at": "2026-09-29T15:28:53.000Z"
   },
   {
     "downloads": null,
@@ -787,7 +778,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:10.199461Z",
+    "metadata_observed_at": "2026-09-29T20:23:03.214190Z",
     "path": "SZLHOLDINGS/szl-khipu",
     "private": false,
     "runtime": {
@@ -808,17 +799,17 @@
         "current": 1,
         "requested": 1
       },
-      "sha": "bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde",
+      "sha": "e4853a5e1eed13cc4e5251578a17f4465908b371",
       "stage": "RUNNING"
     },
     "sdk": "docker",
-    "sha": "bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde",
+    "sha": "e4853a5e1eed13cc4e5251578a17f4465908b371",
     "tags": [
       "docker",
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-24T13:50:15.000Z"
+    "updated_at": "2026-09-29T12:35:06.000Z"
   },
   {
     "downloads": null,
@@ -826,7 +817,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.948895Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.971701Z",
     "path": "SZLHOLDINGS/szl-model-inference-lab",
     "private": false,
     "runtime": {
@@ -870,7 +861,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.734861Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.605972Z",
     "path": "SZLHOLDINGS/terra",
     "private": false,
     "runtime": {
@@ -891,11 +882,11 @@
         "current": 1,
         "requested": 1
       },
-      "sha": "173b7d561f2ac14a5c8e0b704e46bfc6403e1f58",
+      "sha": "09002e26be8f12432111052aea925b35f1f7f2f3",
       "stage": "RUNNING"
     },
     "sdk": "docker",
-    "sha": "173b7d561f2ac14a5c8e0b704e46bfc6403e1f58",
+    "sha": "09002e26be8f12432111052aea925b35f1f7f2f3",
     "tags": [
       "docker",
       "szl-holdings",
@@ -904,7 +895,7 @@
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-19T22:26:06.000Z"
+    "updated_at": "2026-09-26T11:44:13.000Z"
   },
   {
     "downloads": null,
@@ -912,7 +903,46 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.847731Z",
+    "metadata_observed_at": "2026-09-29T20:23:03.311920Z",
+    "path": "SZLHOLDINGS/the-grid",
+    "private": false,
+    "runtime": {
+      "devMode": false,
+      "domains": [
+        {
+          "domain": "szlholdings-the-grid.hf.space",
+          "stage": "READY"
+        }
+      ],
+      "gcTimeout": 172800,
+      "hardware": {
+        "current": "cpu-basic",
+        "requested": "cpu-basic"
+      },
+      "pySpacesVersion": "0.51.3",
+      "replicas": {
+        "current": 1,
+        "requested": 1
+      },
+      "sha": "745dded68447bda26e401636bef02aaec8dc06f6",
+      "stage": "RUNNING"
+    },
+    "sdk": "docker",
+    "sha": "745dded68447bda26e401636bef02aaec8dc06f6",
+    "tags": [
+      "docker",
+      "region:us"
+    ],
+    "task": null,
+    "updated_at": "2026-09-26T15:25:53.000Z"
+  },
+  {
+    "downloads": null,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-29T20:23:02.746433Z",
     "path": "SZLHOLDINGS/vertical-services",
     "private": false,
     "runtime": {
@@ -933,17 +963,17 @@
         "current": 1,
         "requested": 1
       },
-      "sha": "9eca173122ea06725a1b6d2c041385be1706580e",
+      "sha": "6fe66264f64f440993dfd3e768404659bf5a000d",
       "stage": "RUNNING"
     },
     "sdk": "docker",
-    "sha": "9eca173122ea06725a1b6d2c041385be1706580e",
+    "sha": "6fe66264f64f440993dfd3e768404659bf5a000d",
     "tags": [
       "docker",
       "region:us"
     ],
     "task": null,
-    "updated_at": "2026-09-08T07:22:27.000Z"
+    "updated_at": "2026-09-29T19:32:00.000Z"
   },
   {
     "downloads": null,
@@ -951,7 +981,7 @@
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:10.302029Z",
+    "metadata_observed_at": "2026-09-29T20:23:03.116013Z",
     "path": "SZLHOLDINGS/yarqa",
     "private": false,
     "runtime": {

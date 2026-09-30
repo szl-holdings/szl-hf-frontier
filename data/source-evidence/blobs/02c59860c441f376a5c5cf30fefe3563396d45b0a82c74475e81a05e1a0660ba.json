@@ -1,0 +1,24 @@
+{
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "adversarial.jsonl",
+    "bom/model-bom.cdx.json",
+    "eval.jsonl",
+    "eval_receipt.signed.json",
+    "khipu-abstain-adapter/README.md",
+    "khipu-abstain-adapter/adapter_config.json",
+    "khipu-abstain-adapter/adapter_model.safetensors",
+    "khipu-f16.gguf",
+    "khipu.schema.json",
+    "manifest.json",
+    "owner_pubkey.json",
+    "publication.json",
+    "train.abstain.jsonl",
+    "train.jsonl",
+    "train_khipu_abstain.py",
+    "training_receipt.signed.json"
+  ],
+  "revision": "942c02dd4e94f2cb7cfb0432a051c2db2219ee79"
+}

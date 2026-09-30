@@ -1,26 +1,26 @@
 {
-  "card": "---\nlibrary_name: kernels\nlicense: apache-2.0\ntags:\n- kernel\n- signing\n- attestation\n- dsse\n- in-toto\n- governance\n- doi:10.5281/zenodo.19944926\nszl-governance:\n  verdict: SIGNED-ATTESTATION\n  predicate_type: https://szl.holdings/governance/v1\n  lambda: Conjecture 1 (open) \u2014 signature never upgrades advisory to proven trust\n  energy: MEASURED-only (label constrained structurally)\n  honest_blocked: a BLOCKED verdict is signed as BLOCKED \u2014 never flipped\n---\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/szl-holdings/szl-forge/main/szl-govsign/card/holo-banner.svg\" alt=\"szl-govsign \u2014 the signed envelope as a hologram: flap drawn, seal ringed, check inside\" width=\"100%\"/>\n</p>\n\n# szl-govsign\n\n**The cut, in one line:** the seal proves the envelope, never the truth inside.\n\nSigned governance provenance. **Not a model. No weights.**\n\n**IS:** a software kernel that builds in-toto / DSSE envelopes over an SZL governance predicate (\u039b advisory, MEASURED energy, honest-BLOCKED, allow/block) and signs them with ECDSA P-256. Public API: `attest`, `verify`, `build_governance_predicate`, `generate_ephemeral_keypair`, `selfcheck`.\n\n**IS NOT:** trained weights. Not a CUDA bench. A signature proves integrity and key possession only \u2014 it does **not** prove \u039b uniqueness and does **not** upgrade advisory to proven trust (`proven_trust` stays locked False). Hub `model.joblib` is **QUARANTINED** executable serialization \u2014 do not `joblib.load` it. GitHub is the approved source.\n\nCanonical GitHub source: https://github.com/szl-holdings/szl-govsign  \nHub package: https://huggingface.co/kernels/SZLHOLDINGS/szl-govsign  \nThis model-type repo is the publish / card mirror. Apache-2.0.\n\n```python\n\n\n<!-- SZL-ATELIER-CUT:v1:START -->\n## The cut\n\nAttestation as a library, not a PDF.\n\nEvery organ speaks DSSE.\n\n### Silhouette \u2192 leave \u2192 SZL\n\n| Leader | Take, then tweak |\n|---|---|\n| Anthropic | No equivalent public kernel. |\n| NVIDIA | Signed containers / in-toto in supply chain. |\n| Unsloth | No. |\n\nNobody else ships this combination. That is the point of a one-of-one.\n\n## Intended use\n\nSign receipts. Verify offline.\n\n## Limitations\n\n- Kernel.\n\nCanonical GitHub: [`szl-holdings/szl-govsign`](https://github.com/szl-holdings/szl-govsign/blob/main/README.md)\n<!-- SZL-ATELIER-CUT:v1:END -->\n\nfrom kernels import get_kernel\ngs = get_kernel(\"SZLHOLDINGS/szl-govsign\", revision=\"main\", trust_remote_code=True)\nprint(gs.selfcheck())\n```\n\nEnergy labels are MEASURED-only (modeled/fabricated values are rejected). A BLOCKED verdict is signed as BLOCKED \u2014 never flipped. Imports: stdlib + `cryptography`. Prior art: in-toto, DSSE, Sigstore model-transparency. The `https://szl.holdings/governance/v1` predicate is SZL's own.\n\n\u039b = Conjecture 1 (advisory, never a theorem). Doctrine v11. Copyright 2026 SZL Holdings \u00b7 Stephen P. Lutar \u00b7 ORCID [0009-0001-0110-4173](https://orcid.org/0009-0001-0110-4173).\n",
+  "card": "---\nlibrary_name: kernels\nlicense: apache-2.0\ntags:\n- kernel\n- signing\n- attestation\n- dsse\n- in-toto\n- governance\n- doi:10.5281/zenodo.19944926\nszl-governance:\n  verdict: SIGNED-ATTESTATION\n  predicate_type: https://szl.holdings/governance/v1\n  lambda: Conjecture 1 (open) \u2014 signature never upgrades advisory to proven trust\n  energy: MEASURED-only (label constrained structurally)\n  honest_blocked: a BLOCKED verdict is signed as BLOCKED \u2014 never flipped\n---\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/szl-holdings/szl-forge/main/szl-govsign/card/holo-banner.svg\" alt=\"szl-govsign \u2014 the signed envelope as a hologram: flap drawn, seal ringed, check inside\" width=\"100%\"/>\n</p>\n\n# szl-govsign\n\n**The cut, in one line:** the seal proves the envelope, never the truth inside.\n\nSigned governance provenance. **Not a model. No weights.**\n\n**IS:** a software kernel that builds in-toto / DSSE envelopes over an SZL governance predicate (\u039b advisory, MEASURED energy, honest-BLOCKED, allow/block) and signs them with ECDSA P-256. Public API: `attest`, `verify`, `build_governance_predicate`, `generate_ephemeral_keypair`, `selfcheck`.\n\n**IS NOT:** trained weights. Not a CUDA bench. A signature proves integrity and key possession only \u2014 it does **not** prove \u039b uniqueness and does **not** upgrade advisory to proven trust (`proven_trust` stays locked False). No `model.joblib` is published in this repo (OBSERVED 2026-09-25); any executable serialization would be **QUARANTINED** \u2014 never `joblib.load` an artifact from a card mirror. GitHub is the approved source.\n\nCanonical GitHub source: https://github.com/szl-holdings/szl-govsign  \nHub package: https://huggingface.co/kernels/SZLHOLDINGS/szl-govsign  \nThis model-type repo is the publish / card mirror. Apache-2.0.\n\n<!-- SZL-ATELIER-CUT:v1:START -->\n## The cut\n\nAttestation as a library, not a PDF.\n\nEvery organ speaks DSSE.\n\n### Silhouette \u2192 leave \u2192 SZL\n\n| Leader | Take, then tweak |\n|---|---|\n| Anthropic | No equivalent public kernel. |\n| NVIDIA | Signed containers / in-toto in supply chain. |\n| Unsloth | No. |\n\nNo equivalent public combination was found among the leaders surveyed above (a snapshot, not an ecosystem-wide novelty claim).\n\n## Intended use\n\nSign receipts. Verify offline.\n\n## Limitations\n\n- Kernel.\n\nCanonical GitHub: [`szl-holdings/szl-govsign`](https://github.com/szl-holdings/szl-govsign/blob/main/README.md)\n<!-- SZL-ATELIER-CUT:v1:END -->\n\n```python\nfrom kernels import get_kernel\ngs = get_kernel(\"SZLHOLDINGS/szl-govsign\", revision=\"main\", trust_remote_code=True)\nprint(gs.selfcheck())\n```\n\nEnergy labels are MEASURED-only (modeled/fabricated values are rejected). A BLOCKED verdict is signed as BLOCKED \u2014 never flipped. Imports: stdlib + `cryptography`. Prior art: in-toto, DSSE, Sigstore model-transparency. The `https://szl.holdings/governance/v1` predicate is SZL's own.\n\n\u039b = Conjecture 1 (advisory, never a theorem). Doctrine v11. Copyright 2026 SZL Holdings \u00b7 Stephen P. Lutar \u00b7 ORCID [0009-0001-0110-4173](https://orcid.org/0009-0001-0110-4173).\n",
   "errors": [],
   "evidence": [
     {
       "bytes": 753,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/861b94549e34826f476450ffa717635b8acf602da09ed3bbe2f0bc4694a30aaf.json",
-      "revision": "3b63e1fa4a84369cd83fb1f5d155575e5710a447",
-      "sha256": "861b94549e34826f476450ffa717635b8acf602da09ed3bbe2f0bc4694a30aaf",
+      "path": "data/source-evidence/blobs/a03e382514df5842d58c9634547fddc72224d678559d7086ad618ae7ae0f7a71.json",
+      "revision": "13ce04b3b3e490e9bee6453df7f83fdcf0f3b5c9",
+      "sha256": "a03e382514df5842d58c9634547fddc72224d678559d7086ad618ae7ae0f7a71",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-govsign/revision/3b63e1fa4a84369cd83fb1f5d155575e5710a447"
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-govsign/revision/13ce04b3b3e490e9bee6453df7f83fdcf0f3b5c9"
     },
     {
-      "bytes": 2935,
+      "bytes": 3074,
       "kind": "source_card",
-      "path": "data/source-evidence/blobs/f866efdb8e5b07f1a221c14e4a298c3365d80478053168f367783f16a1087b4c.md",
-      "revision": "3b63e1fa4a84369cd83fb1f5d155575e5710a447",
-      "sha256": "f866efdb8e5b07f1a221c14e4a298c3365d80478053168f367783f16a1087b4c",
+      "path": "data/source-evidence/blobs/8c3f0ae8ba2995c4dabc43f56b5994340903eb522a58285938924c18267ae1d0.md",
+      "revision": "13ce04b3b3e490e9bee6453df7f83fdcf0f3b5c9",
+      "sha256": "8c3f0ae8ba2995c4dabc43f56b5994340903eb522a58285938924c18267ae1d0",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://huggingface.co/SZLHOLDINGS/szl-govsign/resolve/3b63e1fa4a84369cd83fb1f5d155575e5710a447/README.md"
+      "url": "https://huggingface.co/SZLHOLDINGS/szl-govsign/resolve/13ce04b3b3e490e9bee6453df7f83fdcf0f3b5c9/README.md"
     }
   ],
   "files": [
@@ -46,6 +46,6 @@
     "scripts/forge.py"
   ],
   "id": "huggingface-model/szlholdings/szl-govsign",
-  "observed_at": "2026-09-25T15:21:22Z",
-  "observed_revision": "3b63e1fa4a84369cd83fb1f5d155575e5710a447"
+  "observed_at": "2026-09-29T20:50:00Z",
+  "observed_revision": "13ce04b3b3e490e9bee6453df7f83fdcf0f3b5c9"
 }

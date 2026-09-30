@@ -6,15 +6,15 @@
       "bytes": 3198,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/7078556206a634b9458cab4caf08dce284bcc4f068202c0e86f8f6d45ff90fef.md",
-      "revision": "0ce92dfab23bfb4f67c6bc2ec0bdbd3182f2f631",
+      "revision": "a0985d984826966515636490ee83429f46a41224",
       "sha256": "7078556206a634b9458cab4caf08dce284bcc4f068202c0e86f8f6d45ff90fef",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/evidence-doctrine/blob/0ce92dfab23bfb4f67c6bc2ec0bdbd3182f2f631/README.md"
+      "url": "https://github.com/szl-holdings/evidence-doctrine/blob/a0985d984826966515636490ee83429f46a41224/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/evidence-doctrine",
-  "observed_at": "2026-09-25T15:21:06Z",
-  "observed_revision": "0ce92dfab23bfb4f67c6bc2ec0bdbd3182f2f631"
+  "observed_at": "2026-09-29T20:32:47Z",
+  "observed_revision": "a0985d984826966515636490ee83429f46a41224"
 }

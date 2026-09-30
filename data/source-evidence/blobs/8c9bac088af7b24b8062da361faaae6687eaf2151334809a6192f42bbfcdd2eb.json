@@ -1,0 +1,10 @@
+{
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "bom/model-bom.cdx.json",
+    "provenance.json",
+    "status.json"
+  ],
+  "revision": "32fa1ca46f913a669174fbcad7cca46d983bf5fc"
+}

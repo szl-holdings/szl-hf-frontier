@@ -1,26 +1,26 @@
 {
-  "card": "---\ntitle: SZL Atelier\nemoji: \ud83e\uddf5\ncolorFrom: blue\ncolorTo: green\nsdk: docker\napp_port: 7860\npinned: true\nlicense: apache-2.0\nshort_description: Source-bound discovery for SZL models, data, and Spaces.\n---\n\n# SZL Atelier\n\nA governed artifact constellation for the SZL Holdings public estate.\n\nAtelier presents source ownership, declared Hub identity, controlled-file commitments, and bounded public provider evidence. It does not execute models, mutate Hugging Face, copy source authority, or turn a declared artifact into a runtime-success claim.\n\n## Evidence contract\n\n```text\nSOURCE_PR\n!= MERGED\n!= HUB_PUBLISHED\n!= RUNTIME_READY\n!= EXACT_READBACK_VERIFIED\n```\n\nThe running application exposes:\n\n- `/healthz`\n- `/readyz`\n- `/api/source`\n- `/api/catalog`\n- `/api/catalog/{kind}/{slug}`\n\nPublic Hugging Face metadata readback is opt-in and restricted to curated `SZLHOLDINGS/...` identities. Redirects, arbitrary hosts, arbitrary paths, oversized responses, unsupported artifact kinds, malformed slugs, and mutation methods fail closed.\n\nSource authority remains in the linked GitHub repositories. SZL Constellation composes estate navigation; Atelier composes artifact evidence.\n",
+  "card": "---\ntitle: SZL Atelier\nemoji: \ud83e\uddf5\ncolorFrom: blue\ncolorTo: green\nsdk: docker\napp_port: 7860\npinned: true\nlicense: apache-2.0\nshort_description: Source-bound discovery for SZL models, data, and Spaces.\n---\n\n# SZL Atelier\n\nA governed artifact constellation for the SZL Holdings public estate.\n\nAtelier presents source ownership, declared Hub identity, controlled-file commitments, and bounded public provider evidence. It does not execute models, mutate Hugging Face, copy source authority, or turn a declared artifact into a runtime-success claim.\n\n## Evidence contract\n\n```text\nSOURCE_PR\n!= MERGED\n!= HUB_PUBLISHED\n!= RUNTIME_READY\n!= EXACT_READBACK_VERIFIED\n```\n\nThe running application exposes:\n\n- `/healthz`\n- `/readyz`\n- `/api/source`\n- `/api/catalog`\n- `/api/catalog/{kind}/{slug}`\n\nPublic Hugging Face metadata readback is opt-in and restricted to curated `SZLHOLDINGS/...` identities. Redirects, arbitrary hosts, arbitrary paths, oversized responses, unsupported artifact kinds, malformed slugs, and mutation methods fail closed.\n\nSource authority remains in the linked GitHub repositories. SZL Constellation composes estate navigation; Atelier composes artifact evidence.\n\n## Source\n\nThis Space is published from [github.com/szl-holdings/szl-atelier](https://github.com/szl-holdings/szl-atelier) (`frontier/atelier_v3`) by the committed workflow `.github/workflows/hf-space.yml`, after `ci` passes on `main`. The exact GitHub commit is in `SOURCE_REVISION`, and `PUBLICATION_RECEIPT.json` records the SHA-256 of each file published with it.\n",
   "errors": [],
   "evidence": [
     {
       "bytes": 331,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/a9eda3b304a6233bfbcd4576a7a4a438e50b16b075378a7405ff668d746d938f.json",
-      "revision": "7227d60fe95becee74bb6ac46acb8b8765b720bd",
-      "sha256": "a9eda3b304a6233bfbcd4576a7a4a438e50b16b075378a7405ff668d746d938f",
+      "path": "data/source-evidence/blobs/2501acff7750f04722679bc16bc880edc4ee6509207345653dbd39d16ed45ee7.json",
+      "revision": "2a6506746300dcc12307e99a09e5a0c8e9b142af",
+      "sha256": "2501acff7750f04722679bc16bc880edc4ee6509207345653dbd39d16ed45ee7",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/szl-atelier/revision/7227d60fe95becee74bb6ac46acb8b8765b720bd"
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/szl-atelier/revision/2a6506746300dcc12307e99a09e5a0c8e9b142af"
     },
     {
-      "bytes": 1181,
+      "bytes": 1550,
       "kind": "source_card",
-      "path": "data/source-evidence/blobs/9a010a55f46b3929e99b45b0664c54c27efe623d224e369f744bd5edcf2c93e1.md",
-      "revision": "7227d60fe95becee74bb6ac46acb8b8765b720bd",
-      "sha256": "9a010a55f46b3929e99b45b0664c54c27efe623d224e369f744bd5edcf2c93e1",
+      "path": "data/source-evidence/blobs/c5c4da4c1075790286c74ab07f43eee996b56a869adddee0be0fc4d910a94914.md",
+      "revision": "2a6506746300dcc12307e99a09e5a0c8e9b142af",
+      "sha256": "c5c4da4c1075790286c74ab07f43eee996b56a869adddee0be0fc4d910a94914",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://huggingface.co/spaces/SZLHOLDINGS/szl-atelier/resolve/7227d60fe95becee74bb6ac46acb8b8765b720bd/README.md"
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/szl-atelier/resolve/2a6506746300dcc12307e99a09e5a0c8e9b142af/README.md"
     }
   ],
   "files": [
@@ -38,6 +38,6 @@
     "static/styles.css"
   ],
   "id": "huggingface-space/szlholdings/szl-atelier",
-  "observed_at": "2026-09-25T15:21:27Z",
-  "observed_revision": "7227d60fe95becee74bb6ac46acb8b8765b720bd"
+  "observed_at": "2026-09-29T20:50:05Z",
+  "observed_revision": "2a6506746300dcc12307e99a09e5a0c8e9b142af"
 }

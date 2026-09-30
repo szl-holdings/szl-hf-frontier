@@ -5,22 +5,22 @@
     {
       "bytes": 276,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/f607301651943aea5026a228c9145dcfac751aae4e437972f787ae9167e1bbfd.json",
-      "revision": "73b75580e9a8dedb30fc23168bd6563624e8b4b2",
-      "sha256": "f607301651943aea5026a228c9145dcfac751aae4e437972f787ae9167e1bbfd",
+      "path": "data/source-evidence/blobs/cfea4324463e121c210ce0d5a2c2ce525742c42f99f4be8132829af06904fe0e.json",
+      "revision": "d890010f874ecafd3f2f1ef4066d84b810ba775e",
+      "sha256": "cfea4324463e121c210ce0d5a2c2ce525742c42f99f4be8132829af06904fe0e",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/models/SZLHOLDINGS/TinyKhipu-Nano/revision/73b75580e9a8dedb30fc23168bd6563624e8b4b2"
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/TinyKhipu-Nano/revision/d890010f874ecafd3f2f1ef4066d84b810ba775e"
     },
     {
       "bytes": 3395,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/e61784d8c74506761a52a426441da985666c1ac3dd0bb6031440212af6f6dff5.md",
-      "revision": "73b75580e9a8dedb30fc23168bd6563624e8b4b2",
+      "revision": "d890010f874ecafd3f2f1ef4066d84b810ba775e",
       "sha256": "e61784d8c74506761a52a426441da985666c1ac3dd0bb6031440212af6f6dff5",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://huggingface.co/SZLHOLDINGS/TinyKhipu-Nano/resolve/73b75580e9a8dedb30fc23168bd6563624e8b4b2/README.md"
+      "url": "https://huggingface.co/SZLHOLDINGS/TinyKhipu-Nano/resolve/d890010f874ecafd3f2f1ef4066d84b810ba775e/README.md"
     }
   ],
   "files": [
@@ -34,6 +34,6 @@
     "tiny_khipu.npz"
   ],
   "id": "huggingface-model/szlholdings/tinykhipu-nano",
-  "observed_at": "2026-09-25T15:21:24Z",
-  "observed_revision": "73b75580e9a8dedb30fc23168bd6563624e8b4b2"
+  "observed_at": "2026-09-29T20:50:03Z",
+  "observed_revision": "d890010f874ecafd3f2f1ef4066d84b810ba775e"
 }

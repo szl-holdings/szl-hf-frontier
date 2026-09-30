@@ -6,15 +6,15 @@
       "bytes": 8966,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/ed578d0ad35bb81f26ed018f8bd067026fcbec7e3b25adc2280f327e079b9552.md",
-      "revision": "f3c016630acd75f4cf54300ae1ebbec97e251ef7",
+      "revision": "339fd813b9b3926dfed1f84cc11f0d97ae6526e0",
       "sha256": "ed578d0ad35bb81f26ed018f8bd067026fcbec7e3b25adc2280f327e079b9552",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/a11oy-factory/blob/f3c016630acd75f4cf54300ae1ebbec97e251ef7/README.md"
+      "url": "https://github.com/szl-holdings/a11oy-factory/blob/339fd813b9b3926dfed1f84cc11f0d97ae6526e0/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/a11oy-factory",
-  "observed_at": "2026-09-25T15:21:04Z",
-  "observed_revision": "f3c016630acd75f4cf54300ae1ebbec97e251ef7"
+  "observed_at": "2026-09-29T20:32:45Z",
+  "observed_revision": "339fd813b9b3926dfed1f84cc11f0d97ae6526e0"
 }

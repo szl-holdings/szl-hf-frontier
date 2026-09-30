@@ -6,15 +6,15 @@
       "bytes": 6259,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/c37a63e9bb7ce7c143488516cd49ec8c26139d869795c41b02f6093d335c06c5.md",
-      "revision": "40553f41a4b55e62bee0751ad7bb413855f204a1",
+      "revision": "78a0f6445fc640a29e17f0dcd3ab6b0835a193a3",
       "sha256": "c37a63e9bb7ce7c143488516cd49ec8c26139d869795c41b02f6093d335c06c5",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/szl-quant-witness/blob/40553f41a4b55e62bee0751ad7bb413855f204a1/README.md"
+      "url": "https://github.com/szl-holdings/szl-quant-witness/blob/78a0f6445fc640a29e17f0dcd3ab6b0835a193a3/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/szl-quant-witness",
-  "observed_at": "2026-09-25T15:21:16Z",
-  "observed_revision": "40553f41a4b55e62bee0751ad7bb413855f204a1"
+  "observed_at": "2026-09-29T20:49:50Z",
+  "observed_revision": "78a0f6445fc640a29e17f0dcd3ab6b0835a193a3"
 }

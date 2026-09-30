@@ -1,0 +1,25 @@
+{
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "app.py",
+    "c2/index.html",
+    "crosscheck.py",
+    "estates.json",
+    "holo/demo.html",
+    "holo/index.html",
+    "holo/szl-shader-fabric.js",
+    "requirements-test.txt",
+    "requirements.txt",
+    "szl-source-binding.json",
+    "szl-space-hologram.css",
+    "szl-space-hologram.js",
+    "szl_hologram_assets.py",
+    "test_runtime_contract.py",
+    "tests/test_app.py",
+    "tests/test_hub_listing.py",
+    "tests/test_space_identity.py",
+    "verticals.json"
+  ],
+  "revision": "f094d82366e2055285c96e65413af3964d557247"
+}

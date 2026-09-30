@@ -1,26 +1,26 @@
 {
-  "card": "---\ntitle: SZL KHIPU\nemoji: \ud83e\udea2\ncolorFrom: gray\ncolorTo: green\nsdk: docker\napp_port: 7860\npinned: true\nlicense: apache-2.0\nshort_description: Knot the run. Hash the proof. Fail closed.\nmodels: [SZLHOLDINGS/szl-khipu]\ndatasets: [SZLHOLDINGS/szl-lake]\n---\n\n# SZL KHIPU\n\nKnot the run. Hash the proof. Fail closed.\n\nHolographic docker Space: numpy kernels behind stdlib HTTP on port 7860. No Gradio. No npm. GitHub keeps the full `szl-khipu` package. Hub is this flatten payload.\n\n**Conjecture 1 OPEN. energy UNAVAILABLE. proven_trust=false.** CPU numpy LIVE when `szl_khipu` is present, else honest UNAVAILABLE. CUDA UNAVAILABLE. Not Qwen. Not 1.5B. Not a FlashAttention rehost.\n\n| Surface | What you get | What you do not get |\n|---|---|---|\n| \u039b gate | score + blocked | proven trust, uniqueness theorem |\n| GreenLight | signed assent, sorry cannot paint | amber, proven_trust true |\n| YARQA | `n_canals` + leaked | SageAttention, CUDA cubins, tokens/s |\n| Anatomy | 5 organs LIVE or fail-closed | 3D Three.js rehost, joules |\n\nGold means OPEN. Proof teal means LIVE. Never green-as-proven. Never a fabricated joule.\n\nSource: [szl-holdings/szl-khipu](https://github.com/szl-holdings/szl-khipu) \u00b7 Hub model: [SZLHOLDINGS/szl-khipu](https://huggingface.co/SZLHOLDINGS/szl-khipu)\n\nApache-2.0. Copyright 2026 SZL Holdings. Doctrine v11 LOCKED \u00b7 749/14/163.\n",
+  "card": "---\ntitle: SZL KHIPU\nemoji: \ud83e\udea2\ncolorFrom: gray\ncolorTo: green\nsdk: docker\napp_port: 7860\npinned: true\nlicense: apache-2.0\nshort_description: Knot the run. Hash the proof. Fail closed.\nmodels: [SZLHOLDINGS/szl-khipu]\ndatasets: [SZLHOLDINGS/szl-lake]\n---\n\n# SZL KHIPU\n\nKnot the run. Hash the proof. Fail closed.\n\nHolographic docker Space: numpy kernels behind stdlib HTTP on port 7860. No Gradio. No npm. GitHub keeps the full `szl-khipu` package. Hub is this flatten payload.\n\n**Conjecture 1 OPEN. energy UNAVAILABLE. proven_trust=false.** CPU numpy LIVE when `szl_khipu` is present, else honest UNAVAILABLE. CUDA UNAVAILABLE. Not Qwen. Not 1.5B. Not a FlashAttention rehost.\n\n| Surface | What you get | What you do not get |\n|---|---|---|\n| \u039b gate | score + blocked | proven trust, a \u039b uniqueness theorem (Conjecture 1 stays open) |\n| GreenLight | signed assent, sorry cannot paint | amber, proven_trust true |\n| YARQA | `n_canals` + leaked | SageAttention, CUDA cubins, tokens/s |\n| Anatomy | 5 organs LIVE or fail-closed | 3D Three.js rehost, joules |\n\nGold means OPEN. Proof teal means LIVE. Never green-as-proven. Never a fabricated joule.\n\nSource: [szl-holdings/szl-khipu](https://github.com/szl-holdings/szl-khipu) \u00b7 Hub model: [SZLHOLDINGS/szl-khipu](https://huggingface.co/SZLHOLDINGS/szl-khipu)\n\nApache-2.0. Copyright 2026 SZL Holdings. Doctrine v11 LOCKED \u00b7 749/14/163.\n",
   "errors": [],
   "evidence": [
     {
-      "bytes": 1628,
+      "bytes": 1772,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/340584e4e40d5a163185d6cdde5a3a726e0b4cad2713d853711ff110b1961040.json",
-      "revision": "bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde",
-      "sha256": "340584e4e40d5a163185d6cdde5a3a726e0b4cad2713d853711ff110b1961040",
+      "path": "data/source-evidence/blobs/10f3eb59b92eb3cba032e6f7ce2a12ab43d8981dc5fc9e86b326cb866bbf9f58.json",
+      "revision": "e4853a5e1eed13cc4e5251578a17f4465908b371",
+      "sha256": "10f3eb59b92eb3cba032e6f7ce2a12ab43d8981dc5fc9e86b326cb866bbf9f58",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/szl-khipu/revision/bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde"
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/szl-khipu/revision/e4853a5e1eed13cc4e5251578a17f4465908b371"
     },
     {
-      "bytes": 1355,
+      "bytes": 1386,
       "kind": "source_card",
-      "path": "data/source-evidence/blobs/b4aac83d51e130c986db7dd36f670a1b848dc85092f0b3ea307bcbe420e63e74.md",
-      "revision": "bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde",
-      "sha256": "b4aac83d51e130c986db7dd36f670a1b848dc85092f0b3ea307bcbe420e63e74",
+      "path": "data/source-evidence/blobs/71ed43d8fa5dbe8ad8ea6dc49bd82d2e68b6b9585de05813f083f1b8e1199761.md",
+      "revision": "e4853a5e1eed13cc4e5251578a17f4465908b371",
+      "sha256": "71ed43d8fa5dbe8ad8ea6dc49bd82d2e68b6b9585de05813f083f1b8e1199761",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://huggingface.co/spaces/SZLHOLDINGS/szl-khipu/resolve/bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde/README.md"
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/szl-khipu/resolve/e4853a5e1eed13cc4e5251578a17f4465908b371/README.md"
     }
   ],
   "files": [
@@ -53,6 +53,7 @@
     "szl_khipu/governed_norm.py",
     "szl_khipu/greenlight.py",
     "szl_khipu/hf-deployment-provenance.json",
+    "szl_khipu/holo.py",
     "szl_khipu/http_app.py",
     "szl_khipu/huklla.py",
     "szl_khipu/kancha.py",
@@ -70,6 +71,9 @@
     "szl_khipu/sami.py",
     "szl_khipu/shard.py",
     "szl_khipu/suyay.py",
+    "szl_khipu/szl/SOURCE.json",
+    "szl_khipu/szl/logos/szl_favicon.svg",
+    "szl_khipu/szl/szl-design-system.css",
     "szl_khipu/tilegrid.py",
     "szl_khipu/train/__init__.py",
     "szl_khipu/train/mini_embed.py",
@@ -81,6 +85,6 @@
     "szl_khipu/yawar.py"
   ],
   "id": "huggingface-space/szlholdings/szl-khipu",
-  "observed_at": "2026-09-25T15:21:27Z",
-  "observed_revision": "bbd28ab9b4dbf025dab9cd6e4f25838c546c3fde"
+  "observed_at": "2026-09-29T20:50:06Z",
+  "observed_revision": "e4853a5e1eed13cc4e5251578a17f4465908b371"
 }

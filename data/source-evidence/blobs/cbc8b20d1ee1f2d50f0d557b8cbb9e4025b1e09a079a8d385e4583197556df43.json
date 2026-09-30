@@ -1,0 +1,26 @@
+{
+  "files": [
+    ".gitattributes",
+    "CITATION.cff",
+    "DATASET_PROVENANCE.json",
+    "LICENSE",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "chapters/00_abstract.tex",
+    "chapters/01_introduction.tex",
+    "chapters/02_mathematical_foundations.tex",
+    "chapters/03_runtime_substrate.tex",
+    "chapters/04_agentic_substrate.tex",
+    "chapters/05_observability_security_governance.tex",
+    "chapters/06_new_formulas.tex",
+    "chapters/07_formal_validation.tex",
+    "chapters/08_conclusion.tex",
+    "claims_v18_extracted.json",
+    "formal_blocks_179.csv",
+    "lean_per_version.json",
+    "main.tex",
+    "per_version_delta_ledger.csv"
+  ],
+  "revision": "e24c1e718ffe0ee989da7230a922b0065035b1b0"
+}

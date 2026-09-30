@@ -16,12 +16,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:19:59.833304Z",
+    "metadata_observed_at": "2026-09-29T20:22:46.708428Z",
     "private": false,
-    "pushed_at": "2026-09-25T12:39:28Z",
+    "pushed_at": "2026-09-29T20:13:47Z",
     "revision_status": "OBSERVED",
-    "source_revision": "81bffda96e1a906397b9a921f0ff65df80f14cae",
-    "updated_at": "2026-09-24T13:14:07Z"
+    "source_revision": "56198271fd5bf135a34049ea1a42ad49f3525144",
+    "updated_at": "2026-09-29T20:13:49Z"
   },
   {
     "archived": false,
@@ -40,12 +40,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:19:59.758731Z",
+    "metadata_observed_at": "2026-09-29T20:22:56.469571Z",
     "private": false,
-    "pushed_at": "2026-09-25T15:05:15Z",
+    "pushed_at": "2026-09-29T20:21:09Z",
     "revision_status": "OBSERVED",
-    "source_revision": "f613fb7b22ad935c6fa9def2bcc38c0d0039122c",
-    "updated_at": "2026-09-24T13:45:00Z"
+    "source_revision": "daccfccbbe0d939de2712e48deda60cae3f09b7d",
+    "updated_at": "2026-09-29T19:42:55Z"
   },
   {
     "archived": false,
@@ -64,12 +64,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:19:59.936831Z",
+    "metadata_observed_at": "2026-09-29T20:22:46.735652Z",
     "private": false,
-    "pushed_at": "2026-09-24T05:55:09Z",
+    "pushed_at": "2026-09-29T20:20:58Z",
     "revision_status": "OBSERVED",
-    "source_revision": "f3c016630acd75f4cf54300ae1ebbec97e251ef7",
-    "updated_at": "2026-09-23T11:06:27Z"
+    "source_revision": "339fd813b9b3926dfed1f84cc11f0d97ae6526e0",
+    "updated_at": "2026-09-29T19:59:09Z"
   },
   {
     "archived": false,
@@ -88,12 +88,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:19:59.862960Z",
+    "metadata_observed_at": "2026-09-29T20:22:46.763205Z",
     "private": false,
-    "pushed_at": "2026-09-24T22:40:25Z",
+    "pushed_at": "2026-09-29T15:36:36Z",
     "revision_status": "OBSERVED",
-    "source_revision": "00937fea1a0949078f3717eee5d826de94a0e4b0",
-    "updated_at": "2026-09-24T22:40:29Z"
+    "source_revision": "d53459ce0cd2fc23d3c4c5fb1dcacaf627f22765",
+    "updated_at": "2026-09-29T15:36:43Z"
   },
   {
     "archived": false,
@@ -112,12 +112,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:19:59.878065Z",
+    "metadata_observed_at": "2026-09-29T20:22:47.086109Z",
     "private": false,
-    "pushed_at": "2026-09-24T22:14:21Z",
+    "pushed_at": "2026-09-29T15:39:04Z",
     "revision_status": "OBSERVED",
-    "source_revision": "f555688556fe0d51ba919fdcb00bf22138ea785c",
-    "updated_at": "2026-09-24T22:14:26Z"
+    "source_revision": "8f96f5dd49c42edfad94927370363533be0cfdc0",
+    "updated_at": "2026-09-29T15:42:45Z"
   },
   {
     "archived": false,
@@ -136,12 +136,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:19:59.951566Z",
+    "metadata_observed_at": "2026-09-29T20:22:47.121689Z",
     "private": false,
-    "pushed_at": "2026-09-14T02:00:42Z",
+    "pushed_at": "2026-09-29T16:12:37Z",
     "revision_status": "OBSERVED",
-    "source_revision": "ae8ff0809231ae4840853114d06801922f21f1f8",
-    "updated_at": "2026-09-14T02:00:47Z"
+    "source_revision": "bc62af086ba60b61effa0dc12343f8e7054b8711",
+    "updated_at": "2026-09-29T16:16:36Z"
   },
   {
     "archived": false,
@@ -160,12 +160,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:00.192461Z",
+    "metadata_observed_at": "2026-09-29T20:22:47.040246Z",
     "private": false,
-    "pushed_at": "2026-09-20T11:42:50Z",
+    "pushed_at": "2026-09-29T10:01:51Z",
     "revision_status": "OBSERVED",
-    "source_revision": "4ab0f246e6cf46113706f3af2dfc011dc1268f44",
-    "updated_at": "2026-09-20T11:42:54Z"
+    "source_revision": "5ea160ec097085287752b5d9367cb41dec897803",
+    "updated_at": "2026-09-28T16:53:30Z"
   },
   {
     "archived": true,
@@ -178,7 +178,7 @@
     "html_url": "https://github.com/szl-holdings/cosmos",
     "id": 1350602435,
     "license": null,
-    "metadata_observed_at": "2026-09-25T15:20:00.209345Z",
+    "metadata_observed_at": "2026-09-29T20:22:47.383842Z",
     "private": false,
     "pushed_at": "2026-08-29T16:15:45Z",
     "revision_status": "OBSERVED",
@@ -196,7 +196,7 @@
     "html_url": "https://github.com/szl-holdings/counsel",
     "id": 1350268698,
     "license": null,
-    "metadata_observed_at": "2026-09-25T15:20:00.758015Z",
+    "metadata_observed_at": "2026-09-29T20:22:47.344354Z",
     "private": false,
     "pushed_at": "2026-08-29T16:57:45Z",
     "revision_status": "OBSERVED",
@@ -220,12 +220,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:00.241520Z",
+    "metadata_observed_at": "2026-09-29T20:22:47.407376Z",
     "private": false,
-    "pushed_at": "2026-09-25T12:35:56Z",
+    "pushed_at": "2026-09-29T19:30:16Z",
     "revision_status": "OBSERVED",
-    "source_revision": "523fbee7b5fa8b281e6b9d0240add1340bd6336d",
-    "updated_at": "2026-09-25T12:36:01Z"
+    "source_revision": "901f19f0ed2a11113a98d59ccec4e873161ec494",
+    "updated_at": "2026-09-29T19:30:22Z"
   },
   {
     "archived": true,
@@ -244,7 +244,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:00.402079Z",
+    "metadata_observed_at": "2026-09-29T20:22:47.633250Z",
     "private": false,
     "pushed_at": "2026-07-29T23:07:25Z",
     "revision_status": "OBSERVED",
@@ -268,7 +268,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:00.320619Z",
+    "metadata_observed_at": "2026-09-29T20:22:48.714596Z",
     "private": false,
     "pushed_at": "2026-08-28T15:41:19Z",
     "revision_status": "OBSERVED",
@@ -292,7 +292,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:00.723046Z",
+    "metadata_observed_at": "2026-09-29T20:22:47.783891Z",
     "private": false,
     "pushed_at": "2026-08-18T00:23:33Z",
     "revision_status": "OBSERVED",
@@ -316,12 +316,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:00.616581Z",
+    "metadata_observed_at": "2026-09-29T20:22:47.925345Z",
     "private": false,
-    "pushed_at": "2026-09-24T17:52:09Z",
+    "pushed_at": "2026-09-29T00:53:00Z",
     "revision_status": "OBSERVED",
-    "source_revision": "0ce92dfab23bfb4f67c6bc2ec0bdbd3182f2f631",
-    "updated_at": "2026-09-24T17:52:14Z"
+    "source_revision": "a0985d984826966515636490ee83429f46a41224",
+    "updated_at": "2026-09-28T20:14:24Z"
   },
   {
     "archived": false,
@@ -340,12 +340,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:00.578541Z",
+    "metadata_observed_at": "2026-09-29T20:22:48.109392Z",
     "private": false,
-    "pushed_at": "2026-09-25T09:32:01Z",
+    "pushed_at": "2026-09-29T15:13:52Z",
     "revision_status": "OBSERVED",
-    "source_revision": "777c3bf16e7c7ac5fa4c226d64ace962244ddab8",
-    "updated_at": "2026-09-25T09:32:06Z"
+    "source_revision": "724215057901c7d62df7905c22c4bff911c9dc98",
+    "updated_at": "2026-09-29T15:16:02Z"
   },
   {
     "archived": true,
@@ -358,7 +358,7 @@
     "html_url": "https://github.com/szl-holdings/evidence-typed-formula-governance",
     "id": 1298913764,
     "license": null,
-    "metadata_observed_at": "2026-09-25T15:20:00.739675Z",
+    "metadata_observed_at": "2026-09-29T20:22:48.167518Z",
     "private": false,
     "pushed_at": "2026-07-21T03:28:34Z",
     "revision_status": "OBSERVED",
@@ -376,7 +376,7 @@
     "html_url": "https://github.com/szl-holdings/fail-closed-governed-ai-services",
     "id": 1298914315,
     "license": null,
-    "metadata_observed_at": "2026-09-25T15:20:00.758015Z",
+    "metadata_observed_at": "2026-09-29T20:22:48.403291Z",
     "private": false,
     "pushed_at": "2026-07-21T03:28:38Z",
     "revision_status": "OBSERVED",
@@ -400,12 +400,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:01.075177Z",
+    "metadata_observed_at": "2026-09-29T20:22:48.516131Z",
     "private": false,
-    "pushed_at": "2026-09-20T11:43:00Z",
+    "pushed_at": "2026-09-29T11:00:33Z",
     "revision_status": "OBSERVED",
-    "source_revision": "6a813593e46688f021a114ce5eb16816535bfde2",
-    "updated_at": "2026-09-20T11:43:04Z"
+    "source_revision": "437e914a6af0da210001227609303406d6afc7b0",
+    "updated_at": "2026-09-29T11:47:28Z"
   },
   {
     "archived": false,
@@ -424,12 +424,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:01.233929Z",
+    "metadata_observed_at": "2026-09-29T20:22:49.016013Z",
     "private": false,
-    "pushed_at": "2026-09-23T15:57:36Z",
+    "pushed_at": "2026-09-29T11:10:44Z",
     "revision_status": "OBSERVED",
-    "source_revision": "f16df42e52e6a934bd7795d709e23f428802dbf4",
-    "updated_at": "2026-09-23T15:57:42Z"
+    "source_revision": "0037d90c296765448ab44a70212a5799042cb000",
+    "updated_at": "2026-09-29T11:10:51Z"
   },
   {
     "archived": true,
@@ -448,7 +448,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:01.162113Z",
+    "metadata_observed_at": "2026-09-29T20:22:48.969970Z",
     "private": false,
     "pushed_at": "2026-08-30T13:35:31Z",
     "revision_status": "OBSERVED",
@@ -472,7 +472,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:01.222026Z",
+    "metadata_observed_at": "2026-09-29T20:22:49.096883Z",
     "private": false,
     "pushed_at": "2026-08-29T01:32:19Z",
     "revision_status": "OBSERVED",
@@ -496,12 +496,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:01.178007Z",
+    "metadata_observed_at": "2026-09-29T20:22:49.242508Z",
     "private": false,
-    "pushed_at": "2026-09-24T18:56:41Z",
+    "pushed_at": "2026-09-28T20:18:42Z",
     "revision_status": "OBSERVED",
-    "source_revision": "2c82320a9946aa4f094cab6eacaffb0b977a8aad",
-    "updated_at": "2026-09-24T18:56:47Z"
+    "source_revision": "19a625bfc0f72fc7635babc4bda97beaebe75af5",
+    "updated_at": "2026-09-28T20:18:39Z"
   },
   {
     "archived": false,
@@ -520,12 +520,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:01.834224Z",
+    "metadata_observed_at": "2026-09-29T20:22:49.276009Z",
     "private": false,
-    "pushed_at": "2026-09-24T13:03:26Z",
+    "pushed_at": "2026-09-29T15:08:00Z",
     "revision_status": "OBSERVED",
-    "source_revision": "e2f7fe931980404ff17ddac24044a8eb254bed6b",
-    "updated_at": "2026-09-24T13:03:32Z"
+    "source_revision": "482edd750f3354569ed417a5f443c43a1271ac91",
+    "updated_at": "2026-09-29T15:09:43Z"
   },
   {
     "archived": false,
@@ -544,12 +544,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:01.608626Z",
+    "metadata_observed_at": "2026-09-29T20:22:49.361847Z",
     "private": false,
-    "pushed_at": "2026-09-12T09:33:38Z",
+    "pushed_at": "2026-09-29T20:19:29Z",
     "revision_status": "OBSERVED",
-    "source_revision": "7d03a8c45f97ece18b5da1bb23b1387a89e123b5",
-    "updated_at": "2026-09-12T09:33:41Z"
+    "source_revision": "0581ffb11c11b1ca2f130d1fe85c647611724887",
+    "updated_at": "2026-09-29T19:29:42Z"
   },
   {
     "archived": false,
@@ -568,12 +568,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:01.674310Z",
+    "metadata_observed_at": "2026-09-29T20:22:49.519450Z",
     "private": false,
-    "pushed_at": "2026-09-25T00:22:02Z",
+    "pushed_at": "2026-09-29T16:09:26Z",
     "revision_status": "OBSERVED",
-    "source_revision": "cb5768dd39b4485d8a253ee760d8343c376468cc",
-    "updated_at": "2026-09-25T00:22:06Z"
+    "source_revision": "6d53bc8a57f4e90bc4e6f0d8aa785a42b2d75da3",
+    "updated_at": "2026-09-29T16:12:48Z"
   },
   {
     "archived": true,
@@ -592,7 +592,7 @@
       "spdx_id": "NOASSERTION",
       "url": null
     },
-    "metadata_observed_at": "2026-09-25T15:20:01.730324Z",
+    "metadata_observed_at": "2026-09-29T20:22:49.592865Z",
     "private": false,
     "pushed_at": "2026-08-29T16:49:22Z",
     "revision_status": "OBSERVED",
@@ -602,7 +602,7 @@
   {
     "archived": false,
     "default_branch": "main",
-    "description": "BFT 3-of-4 multi-party-witnessed agreement \u2014 each witness signs an action hash with its own ECDSA P-256 cosign key over DSSE. The category SZL invents: multi-party-witnessed AI. Doctrine v11 LOCKED (749/14/163).",
+    "description": "BFT 3-of-4 multi-party-witnessed agreement \u2014 each witness signs an action hash with its own ECDSA P-256 cosign key over DSSE. The category SZL builds: multi-party-witnessed AI. Doctrine v11 LOCKED (749/14/163).",
     "disabled": false,
     "fork": false,
     "full_name": "szl-holdings/khipu-consensus",
@@ -616,12 +616,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:01.659554Z",
+    "metadata_observed_at": "2026-09-29T20:22:49.592865Z",
     "private": false,
-    "pushed_at": "2026-09-24T13:03:40Z",
+    "pushed_at": "2026-09-29T02:21:07Z",
     "revision_status": "OBSERVED",
-    "source_revision": "18869473d8ff95c155cffb53ed2b60c577b243a8",
-    "updated_at": "2026-09-24T13:03:44Z"
+    "source_revision": "19cf9554157a501a027d41110f76eee01a2f6c58",
+    "updated_at": "2026-09-29T02:21:11Z"
   },
   {
     "archived": true,
@@ -640,7 +640,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:01.815097Z",
+    "metadata_observed_at": "2026-09-29T20:22:49.905187Z",
     "private": false,
     "pushed_at": "2026-08-29T17:20:40Z",
     "revision_status": "OBSERVED",
@@ -658,7 +658,7 @@
     "html_url": "https://github.com/szl-holdings/khipu-pages",
     "id": 1350627370,
     "license": null,
-    "metadata_observed_at": "2026-09-25T15:20:02.091572Z",
+    "metadata_observed_at": "2026-09-29T20:22:49.848695Z",
     "private": false,
     "pushed_at": "2026-08-29T16:08:16Z",
     "revision_status": "OBSERVED",
@@ -682,12 +682,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:02.077876Z",
+    "metadata_observed_at": "2026-09-29T20:22:49.924175Z",
     "private": false,
-    "pushed_at": "2026-09-24T12:56:22Z",
+    "pushed_at": "2026-09-28T13:14:49Z",
     "revision_status": "OBSERVED",
-    "source_revision": "ebd0ae2749ccbfe5e41f458440cf07468224b23c",
-    "updated_at": "2026-09-24T12:56:26Z"
+    "source_revision": "f1bf7b815cb3c113edc2dedb02affcd6027ccae6",
+    "updated_at": "2026-09-28T13:14:47Z"
   },
   {
     "archived": false,
@@ -700,18 +700,18 @@
     "html_url": "https://github.com/szl-holdings/khipu-x1",
     "id": 1352762551,
     "license": {
-      "key": "other",
-      "name": "Other",
-      "node_id": "MDc6TGljZW5zZTA=",
-      "spdx_id": "NOASSERTION",
-      "url": null
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "node_id": "MDc6TGljZW5zZTI=",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:02.036367Z",
+    "metadata_observed_at": "2026-09-29T20:22:50.129255Z",
     "private": false,
-    "pushed_at": "2026-09-24T02:59:59Z",
+    "pushed_at": "2026-09-28T14:24:18Z",
     "revision_status": "OBSERVED",
-    "source_revision": "360bb6c59f694face6a29064be786e2283d6d990",
-    "updated_at": "2026-09-20T16:01:38Z"
+    "source_revision": "49ff1383c2328cb75317306125e3c43690439295",
+    "updated_at": "2026-09-28T14:24:24Z"
   },
   {
     "archived": false,
@@ -730,12 +730,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:02.061339Z",
+    "metadata_observed_at": "2026-09-29T20:22:50.317612Z",
     "private": false,
-    "pushed_at": "2026-09-24T13:48:10Z",
+    "pushed_at": "2026-09-29T15:11:10Z",
     "revision_status": "OBSERVED",
-    "source_revision": "12a3d988e776ece372d40a80611a2789a354f1d6",
-    "updated_at": "2026-09-24T13:48:13Z"
+    "source_revision": "f1413e181a413cb57d20d9ae1f4f8067fe839350",
+    "updated_at": "2026-09-29T15:13:21Z"
   },
   {
     "archived": true,
@@ -754,7 +754,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:02.268475Z",
+    "metadata_observed_at": "2026-09-29T20:22:50.247456Z",
     "private": false,
     "pushed_at": "2026-08-29T00:08:48Z",
     "revision_status": "OBSERVED",
@@ -778,7 +778,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:02.255320Z",
+    "metadata_observed_at": "2026-09-29T20:22:50.495608Z",
     "private": false,
     "pushed_at": "2026-08-28T04:49:20Z",
     "revision_status": "OBSERVED",
@@ -802,12 +802,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:02.378057Z",
+    "metadata_observed_at": "2026-09-29T20:22:50.536610Z",
     "private": false,
-    "pushed_at": "2026-09-25T13:45:12Z",
+    "pushed_at": "2026-09-29T18:55:34Z",
     "revision_status": "OBSERVED",
-    "source_revision": "75a4a3112287d3d4776d7d6da85a432f185f3914",
-    "updated_at": "2026-09-25T13:45:17Z"
+    "source_revision": "ff4bfecbf6585677f75684c72dd4014c78135366",
+    "updated_at": "2026-09-29T18:55:39Z"
   },
   {
     "archived": false,
@@ -826,12 +826,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:02.687394Z",
+    "metadata_observed_at": "2026-09-29T20:22:50.648401Z",
     "private": false,
-    "pushed_at": "2026-09-24T12:45:49Z",
+    "pushed_at": "2026-09-29T20:03:46Z",
     "revision_status": "OBSERVED",
-    "source_revision": "309d759c26ca8f8e27b828df06e98d49c63d2765",
-    "updated_at": "2026-09-24T12:45:59Z"
+    "source_revision": "29f942e2e22f511524f47aec796b8325772006d2",
+    "updated_at": "2026-09-29T16:07:38Z"
   },
   {
     "archived": false,
@@ -850,12 +850,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:02.476940Z",
+    "metadata_observed_at": "2026-09-29T20:22:50.829605Z",
     "private": false,
-    "pushed_at": "2026-09-11T23:28:15Z",
+    "pushed_at": "2026-09-28T20:57:23Z",
     "revision_status": "OBSERVED",
-    "source_revision": "9ce4e6b5f36fe0b094a07308abe3665cd2a210c1",
-    "updated_at": "2026-09-11T23:28:17Z"
+    "source_revision": "02064f9aa2135c4d8f764d623bc203a0c871c68b",
+    "updated_at": "2026-09-28T20:57:27Z"
   },
   {
     "archived": false,
@@ -874,12 +874,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:02.582398Z",
+    "metadata_observed_at": "2026-09-29T20:22:50.843598Z",
     "private": false,
-    "pushed_at": "2026-09-22T14:08:39Z",
+    "pushed_at": "2026-09-28T20:15:06Z",
     "revision_status": "OBSERVED",
-    "source_revision": "d087694088251067992c2fc9966556cae74d9eda",
-    "updated_at": "2026-09-22T14:08:48Z"
+    "source_revision": "0ad36daa90cac37bee9177c5cb43ac273ff21c9f",
+    "updated_at": "2026-09-28T20:15:09Z"
   },
   {
     "archived": true,
@@ -898,7 +898,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:02.672892Z",
+    "metadata_observed_at": "2026-09-29T20:22:50.942457Z",
     "private": false,
     "pushed_at": "2026-08-28T04:40:58Z",
     "revision_status": "OBSERVED",
@@ -922,12 +922,12 @@
       "spdx_id": "NOASSERTION",
       "url": null
     },
-    "metadata_observed_at": "2026-09-25T15:20:02.711186Z",
+    "metadata_observed_at": "2026-09-29T20:22:51.095389Z",
     "private": false,
-    "pushed_at": "2026-09-25T12:28:38Z",
+    "pushed_at": "2026-09-29T20:21:37Z",
     "revision_status": "OBSERVED",
-    "source_revision": "9e58f052a7fba212bc74dcc4fd92adc412ffa865",
-    "updated_at": "2026-09-25T00:05:08Z"
+    "source_revision": "f3e0f3ffe7614956d626b40903f50b35080c1614",
+    "updated_at": "2026-09-29T19:30:19Z"
   },
   {
     "archived": false,
@@ -946,12 +946,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:02.952126Z",
+    "metadata_observed_at": "2026-09-29T20:22:51.209502Z",
     "private": false,
-    "pushed_at": "2026-09-23T14:12:32Z",
+    "pushed_at": "2026-09-29T04:48:19Z",
     "revision_status": "OBSERVED",
-    "source_revision": "3972a0ed5fd1230060e6e5c4cfc352df674426c5",
-    "updated_at": "2026-09-23T14:12:37Z"
+    "source_revision": "95b41156c2b029cc2ad8a8bd40ddccd018bcde98",
+    "updated_at": "2026-09-29T04:48:16Z"
   },
   {
     "archived": false,
@@ -970,12 +970,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:02.968931Z",
+    "metadata_observed_at": "2026-09-29T20:22:51.342251Z",
     "private": false,
-    "pushed_at": "2026-09-23T14:12:45Z",
+    "pushed_at": "2026-09-28T20:15:28Z",
     "revision_status": "OBSERVED",
-    "source_revision": "26135bcc03e9d55f35dd8d7ed8f043631ea30cd2",
-    "updated_at": "2026-09-23T14:12:51Z"
+    "source_revision": "ab46db4807fa5ef78bf0b08d88781408a2d59866",
+    "updated_at": "2026-09-28T20:15:32Z"
   },
   {
     "archived": true,
@@ -994,7 +994,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:03.163054Z",
+    "metadata_observed_at": "2026-09-29T20:22:51.386792Z",
     "private": false,
     "pushed_at": "2026-08-26T16:17:28Z",
     "revision_status": "OBSERVED",
@@ -1018,12 +1018,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:03.086635Z",
+    "metadata_observed_at": "2026-09-29T20:22:51.553443Z",
     "private": false,
-    "pushed_at": "2026-09-23T13:48:58Z",
+    "pushed_at": "2026-09-28T20:15:39Z",
     "revision_status": "OBSERVED",
-    "source_revision": "0a84d06de5941a179a27de3998b3ab0c6c200672",
-    "updated_at": "2026-09-23T13:49:03Z"
+    "source_revision": "d16b1c8945725f266af25dc0f28ff65314f6100d",
+    "updated_at": "2026-09-28T20:15:42Z"
   },
   {
     "archived": false,
@@ -1042,12 +1042,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:03.195635Z",
+    "metadata_observed_at": "2026-09-29T20:22:51.642685Z",
     "private": false,
-    "pushed_at": "2026-09-24T17:51:54Z",
+    "pushed_at": "2026-09-29T15:10:21Z",
     "revision_status": "OBSERVED",
-    "source_revision": "b12cedf02fc36b736282cf7ddb98acce74b079ff",
-    "updated_at": "2026-09-24T17:52:00Z"
+    "source_revision": "4bc6dcfce3e7063d5764a8daad2fbc446cd978a9",
+    "updated_at": "2026-09-29T15:12:17Z"
   },
   {
     "archived": false,
@@ -1066,12 +1066,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:03.180281Z",
+    "metadata_observed_at": "2026-09-29T20:22:51.728521Z",
     "private": false,
-    "pushed_at": "2026-09-24T23:56:07Z",
+    "pushed_at": "2026-09-29T15:41:28Z",
     "revision_status": "OBSERVED",
-    "source_revision": "508ec8995b9be199f4bba26a7e98951e388a159e",
-    "updated_at": "2026-09-20T00:24:51Z"
+    "source_revision": "31d71e2ea437d066188402cb767206c488d0d39c",
+    "updated_at": "2026-09-29T15:45:52Z"
   },
   {
     "archived": false,
@@ -1090,12 +1090,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:03.364350Z",
+    "metadata_observed_at": "2026-09-29T20:22:51.896227Z",
     "private": false,
-    "pushed_at": "2026-09-23T13:48:39Z",
+    "pushed_at": "2026-09-29T15:28:12Z",
     "revision_status": "OBSERVED",
-    "source_revision": "27ef2f7100694f5cb1049747566eeeb639e8a99f",
-    "updated_at": "2026-09-23T13:48:44Z"
+    "source_revision": "dd91c1ca2431b7d1ef65dbbb261b8b402605f111",
+    "updated_at": "2026-09-29T15:31:07Z"
   },
   {
     "archived": false,
@@ -1114,12 +1114,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:03.271946Z",
+    "metadata_observed_at": "2026-09-29T20:22:52.112455Z",
     "private": false,
-    "pushed_at": "2026-09-25T12:26:59Z",
+    "pushed_at": "2026-09-29T19:29:32Z",
     "revision_status": "OBSERVED",
-    "source_revision": "5873409aedef27da507c76273414b9fecc07950d",
-    "updated_at": "2026-09-25T12:27:04Z"
+    "source_revision": "96d520d51ad867ec5e0f62b5063fbe85c17cef7e",
+    "updated_at": "2026-09-29T19:29:36Z"
   },
   {
     "archived": false,
@@ -1138,12 +1138,12 @@
       "spdx_id": "CC-BY-4.0",
       "url": "https://api.github.com/licenses/cc-by-4.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:03.455276Z",
+    "metadata_observed_at": "2026-09-29T20:22:52.112455Z",
     "private": false,
-    "pushed_at": "2026-09-22T14:08:31Z",
+    "pushed_at": "2026-09-29T19:43:37Z",
     "revision_status": "OBSERVED",
-    "source_revision": "ea80c36fe6ca91e693b45adfa6b361ac3fd83058",
-    "updated_at": "2026-09-22T14:08:34Z"
+    "source_revision": "83f852c4bfc0afa9093ab841432b8116c7608497",
+    "updated_at": "2026-09-29T19:43:42Z"
   },
   {
     "archived": false,
@@ -1162,12 +1162,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:03.475411Z",
+    "metadata_observed_at": "2026-09-29T20:22:53.270643Z",
     "private": false,
-    "pushed_at": "2026-09-24T13:22:42Z",
+    "pushed_at": "2026-09-29T02:22:23Z",
     "revision_status": "OBSERVED",
-    "source_revision": "f5c9408d0dd0a0438769e6a88ef798f901680574",
-    "updated_at": "2026-09-20T17:50:37Z"
+    "source_revision": "d0a6e8e3c102fe098297ac113dae02b09f44236b",
+    "updated_at": "2026-09-29T02:22:28Z"
   },
   {
     "archived": false,
@@ -1186,12 +1186,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:03.628077Z",
+    "metadata_observed_at": "2026-09-29T20:22:52.498897Z",
     "private": false,
-    "pushed_at": "2026-09-23T13:47:18Z",
+    "pushed_at": "2026-09-28T14:25:28Z",
     "revision_status": "OBSERVED",
-    "source_revision": "6a7973aa4c24cfb5a88b732f4d54bed849adcd77",
-    "updated_at": "2026-09-23T13:47:23Z"
+    "source_revision": "b2e317877abed98e70f9cf6730944a797837faf1",
+    "updated_at": "2026-09-28T14:25:37Z"
   },
   {
     "archived": false,
@@ -1204,18 +1204,18 @@
     "html_url": "https://github.com/szl-holdings/szl-ci-witness",
     "id": 1357216305,
     "license": {
-      "key": "other",
-      "name": "Other",
-      "node_id": "MDc6TGljZW5zZTA=",
-      "spdx_id": "NOASSERTION",
-      "url": null
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "node_id": "MDc6TGljZW5zZTI=",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:04.732312Z",
+    "metadata_observed_at": "2026-09-29T20:22:52.498368Z",
     "private": false,
-    "pushed_at": "2026-09-23T11:06:05Z",
+    "pushed_at": "2026-09-28T20:16:13Z",
     "revision_status": "OBSERVED",
-    "source_revision": "fd50310f4799ffb053f06d1d4e25e0994b215632",
-    "updated_at": "2026-09-23T11:06:10Z"
+    "source_revision": "f8102adf6e0e3214f5879dc16bea852394215d32",
+    "updated_at": "2026-09-28T20:16:17Z"
   },
   {
     "archived": false,
@@ -1234,12 +1234,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:03.666633Z",
+    "metadata_observed_at": "2026-09-29T20:22:52.873526Z",
     "private": false,
-    "pushed_at": "2026-09-12T09:09:28Z",
+    "pushed_at": "2026-09-29T15:48:27Z",
     "revision_status": "OBSERVED",
-    "source_revision": "88dc7c6c253ab14e66b0a8f71e6dcf57abf63811",
-    "updated_at": "2026-09-12T09:09:31Z"
+    "source_revision": "1cc93ac921a9b8c49314bc898c4ca7a4f363980f",
+    "updated_at": "2026-09-29T15:52:26Z"
   },
   {
     "archived": false,
@@ -1258,12 +1258,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:03.688977Z",
+    "metadata_observed_at": "2026-09-29T20:22:52.810238Z",
     "private": false,
-    "pushed_at": "2026-09-25T00:44:27Z",
+    "pushed_at": "2026-09-29T15:53:34Z",
     "revision_status": "OBSERVED",
-    "source_revision": "93db232874654957936a371777d50030dcd62066",
-    "updated_at": "2026-09-25T00:44:30Z"
+    "source_revision": "1a347b386bda4d29c1d4feeeed103c302229df30",
+    "updated_at": "2026-09-29T15:57:17Z"
   },
   {
     "archived": true,
@@ -1282,7 +1282,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:03.798998Z",
+    "metadata_observed_at": "2026-09-29T20:22:53.090612Z",
     "private": false,
     "pushed_at": "2026-08-31T01:32:26Z",
     "revision_status": "OBSERVED",
@@ -1300,18 +1300,18 @@
     "html_url": "https://github.com/szl-holdings/szl-crosscheck",
     "id": 1356808830,
     "license": {
-      "key": "other",
-      "name": "Other",
-      "node_id": "MDc6TGljZW5zZTA=",
-      "spdx_id": "NOASSERTION",
-      "url": null
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "node_id": "MDc6TGljZW5zZTI=",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:03.781383Z",
+    "metadata_observed_at": "2026-09-29T20:22:53.182132Z",
     "private": false,
-    "pushed_at": "2026-09-23T18:12:26Z",
+    "pushed_at": "2026-09-28T20:16:28Z",
     "revision_status": "OBSERVED",
-    "source_revision": "998fd8b3a55901523a3681f65ae67759c3327e57",
-    "updated_at": "2026-09-23T18:12:31Z"
+    "source_revision": "2692889f55036ec034da1b1bd3d14d25d38ee06e",
+    "updated_at": "2026-09-28T20:16:31Z"
   },
   {
     "archived": false,
@@ -1330,12 +1330,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:04.211158Z",
+    "metadata_observed_at": "2026-09-29T20:22:53.586206Z",
     "private": false,
-    "pushed_at": "2026-09-25T12:29:33Z",
+    "pushed_at": "2026-09-29T00:53:54Z",
     "revision_status": "OBSERVED",
-    "source_revision": "2c40a0bb80ed087dedaba30a42e604c98b089270",
-    "updated_at": "2026-09-25T12:29:38Z"
+    "source_revision": "ce4a3cf1fd3f3d693763224112986e8abc33fa20",
+    "updated_at": "2026-09-25T20:29:03Z"
   },
   {
     "archived": false,
@@ -1354,12 +1354,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:04.079163Z",
+    "metadata_observed_at": "2026-09-29T20:22:53.616371Z",
     "private": false,
-    "pushed_at": "2026-09-23T13:47:59Z",
+    "pushed_at": "2026-09-29T00:52:24Z",
     "revision_status": "OBSERVED",
-    "source_revision": "35c395450c71b49d7fe85a1d5ba3764c38e0714b",
-    "updated_at": "2026-09-23T13:48:04Z"
+    "source_revision": "1c5b37eb1e87af7210577416043124d43a609491",
+    "updated_at": "2026-09-28T20:16:37Z"
   },
   {
     "archived": false,
@@ -1372,18 +1372,18 @@
     "html_url": "https://github.com/szl-holdings/szl-eclipse",
     "id": 1357125394,
     "license": {
-      "key": "other",
-      "name": "Other",
-      "node_id": "MDc6TGljZW5zZTA=",
-      "spdx_id": "NOASSERTION",
-      "url": null
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "node_id": "MDc6TGljZW5zZTI=",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:04.095276Z",
+    "metadata_observed_at": "2026-09-29T20:22:53.673150Z",
     "private": false,
-    "pushed_at": "2026-09-23T20:41:14Z",
+    "pushed_at": "2026-09-28T14:26:11Z",
     "revision_status": "OBSERVED",
-    "source_revision": "8739668ad1c9a69c4a6e539da27ff1fc167cc54a",
-    "updated_at": "2026-09-23T20:41:19Z"
+    "source_revision": "7bdce76749b8b1ef8b25b83252dbb7280c5ecd7e",
+    "updated_at": "2026-09-28T14:26:22Z"
   },
   {
     "archived": false,
@@ -1402,12 +1402,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:04.162599Z",
+    "metadata_observed_at": "2026-09-29T20:22:53.900815Z",
     "private": false,
-    "pushed_at": "2026-09-24T13:04:10Z",
+    "pushed_at": "2026-09-29T15:48:28Z",
     "revision_status": "OBSERVED",
-    "source_revision": "217ba7d58bef09025d91ef854673a4d50222b2cf",
-    "updated_at": "2026-09-24T13:19:27Z"
+    "source_revision": "bf421170b5df5260b354b438e6e87918497b44d4",
+    "updated_at": "2026-09-29T15:52:27Z"
   },
   {
     "archived": false,
@@ -1426,12 +1426,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:04.400026Z",
+    "metadata_observed_at": "2026-09-29T20:22:53.902322Z",
     "private": false,
-    "pushed_at": "2026-09-23T13:45:14Z",
+    "pushed_at": "2026-09-28T14:26:17Z",
     "revision_status": "OBSERVED",
-    "source_revision": "c5ec41b9c1dfa11d568f54aeb67ba3f6462c5a67",
-    "updated_at": "2026-09-23T13:45:19Z"
+    "source_revision": "ef2b8525bc304620f9a956a85682091719e61a95",
+    "updated_at": "2026-09-28T14:26:26Z"
   },
   {
     "archived": false,
@@ -1450,12 +1450,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:04.516826Z",
+    "metadata_observed_at": "2026-09-29T20:22:54.236137Z",
     "private": false,
-    "pushed_at": "2026-09-20T11:42:50Z",
+    "pushed_at": "2026-09-28T14:26:24Z",
     "revision_status": "OBSERVED",
-    "source_revision": "578228481c6ecac1bd7067f1b7173a03d4beebb8",
-    "updated_at": "2026-09-20T11:42:54Z"
+    "source_revision": "4ce8f6cecec974bece15baf5ec7a0c2ab1c4e4d2",
+    "updated_at": "2026-09-28T14:26:36Z"
   },
   {
     "archived": true,
@@ -1474,7 +1474,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:05.168555Z",
+    "metadata_observed_at": "2026-09-29T20:22:54.361431Z",
     "private": false,
     "pushed_at": "2026-08-29T16:16:52Z",
     "revision_status": "OBSERVED",
@@ -1498,7 +1498,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:04.622001Z",
+    "metadata_observed_at": "2026-09-29T20:22:54.612348Z",
     "private": false,
     "pushed_at": "2026-08-26T14:25:23Z",
     "revision_status": "OBSERVED",
@@ -1508,7 +1508,7 @@
   {
     "archived": false,
     "default_branch": "main",
-    "description": "SZL Forge \u2014 train SZL Holdings own sovereign model (SZL-1) on SZL own hardware. QLoRA fine-tune kit: dataset, Unsloth training script, Ollama Modelfile, runbook.",
+    "description": "SZL Forge: QLoRA kit that fine-tunes an open base model into SZL-1 on SZL-owned hardware. Dataset, Unsloth training script, Ollama Modelfile, runbook.",
     "disabled": false,
     "fork": false,
     "full_name": "szl-holdings/szl-forge",
@@ -1522,12 +1522,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:04.669458Z",
+    "metadata_observed_at": "2026-09-29T20:22:54.613354Z",
     "private": false,
-    "pushed_at": "2026-09-25T12:38:19Z",
+    "pushed_at": "2026-09-29T20:14:56Z",
     "revision_status": "OBSERVED",
-    "source_revision": "26ae8bfcd20454376936cadcc8e8ffd06cea3528",
-    "updated_at": "2026-09-25T12:37:11Z"
+    "source_revision": "5b399dd848d8d9bdfbfe04a7e84ed3a84621a9cc",
+    "updated_at": "2026-09-29T20:01:51Z"
   },
   {
     "archived": true,
@@ -1546,7 +1546,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:04.956283Z",
+    "metadata_observed_at": "2026-09-29T20:22:54.715281Z",
     "private": false,
     "pushed_at": "2026-07-22T03:31:12Z",
     "revision_status": "OBSERVED",
@@ -1570,12 +1570,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:04.791780Z",
+    "metadata_observed_at": "2026-09-29T20:22:55.001306Z",
     "private": false,
-    "pushed_at": "2026-09-25T05:32:36Z",
+    "pushed_at": "2026-09-29T16:19:06Z",
     "revision_status": "OBSERVED",
-    "source_revision": "d0e8110ac815a47612a2b5e7729e4a805335735e",
-    "updated_at": "2026-09-06T11:16:34Z"
+    "source_revision": "65c800b59249f27559de575bc66f5054fa585fa5",
+    "updated_at": "2026-09-29T16:20:52Z"
   },
   {
     "archived": false,
@@ -1594,12 +1594,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:05.064000Z",
+    "metadata_observed_at": "2026-09-29T20:22:54.982286Z",
     "private": false,
-    "pushed_at": "2026-09-20T21:26:43Z",
+    "pushed_at": "2026-09-29T20:14:04Z",
     "revision_status": "OBSERVED",
-    "source_revision": "d24d7a224d1e608f5df6ab6bfc896875d78bfb47",
-    "updated_at": "2026-09-20T15:56:10Z"
+    "source_revision": "e697946e9495eaf697b46e713f02ca2590d349b0",
+    "updated_at": "2026-09-29T15:31:22Z"
   },
   {
     "archived": false,
@@ -1618,12 +1618,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:05.088670Z",
+    "metadata_observed_at": "2026-09-29T20:22:55.016026Z",
     "private": false,
-    "pushed_at": "2026-09-24T14:53:00Z",
+    "pushed_at": "2026-09-29T00:54:38Z",
     "revision_status": "OBSERVED",
-    "source_revision": "706361d6997b9529f6705ea7e8676ed6b5d0437a",
-    "updated_at": "2026-09-24T14:53:04Z"
+    "source_revision": "023748bf9cd3d33e926d6ccbaf8560696eab0722",
+    "updated_at": "2026-09-29T00:54:43Z"
   },
   {
     "archived": true,
@@ -1642,7 +1642,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:05.122978Z",
+    "metadata_observed_at": "2026-09-29T20:22:55.277877Z",
     "private": false,
     "pushed_at": "2026-08-08T23:49:00Z",
     "revision_status": "OBSERVED",
@@ -1666,12 +1666,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:05.218609Z",
+    "metadata_observed_at": "2026-09-29T20:22:55.309733Z",
     "private": false,
-    "pushed_at": "2026-09-23T19:41:12Z",
+    "pushed_at": "2026-09-29T15:23:14Z",
     "revision_status": "OBSERVED",
-    "source_revision": "1eba876accde06da2199a8c4e78537e9232138bd",
-    "updated_at": "2026-09-23T21:13:09Z"
+    "source_revision": "7bff004d12347ac23ae60ffbfb78ce7f9ef15829",
+    "updated_at": "2026-09-29T15:36:28Z"
   },
   {
     "archived": false,
@@ -1690,12 +1690,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:05.305355Z",
+    "metadata_observed_at": "2026-09-29T20:22:55.607890Z",
     "private": false,
-    "pushed_at": "2026-09-14T16:05:58Z",
+    "pushed_at": "2026-09-29T20:19:24Z",
     "revision_status": "OBSERVED",
-    "source_revision": "71d86099536d24f522854ef913038e13afa29f37",
-    "updated_at": "2026-09-14T16:06:02Z"
+    "source_revision": "093d3f8f302e8ee5f87766da8fc6aca94e3103cb",
+    "updated_at": "2026-09-29T20:13:25Z"
   },
   {
     "archived": false,
@@ -1714,41 +1714,17 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:05.766575Z",
+    "metadata_observed_at": "2026-09-29T20:22:55.568389Z",
     "private": false,
-    "pushed_at": "2026-09-24T09:55:11Z",
+    "pushed_at": "2026-09-29T15:11:36Z",
     "revision_status": "OBSERVED",
-    "source_revision": "e7ef3d7940178e308b2bf0de38728d6bb66a85f4",
-    "updated_at": "2026-09-20T11:46:17Z"
+    "source_revision": "afc20c682a56d888e9ae1f98e1ecd90386d831a7",
+    "updated_at": "2026-09-29T15:13:20Z"
   },
   {
     "archived": false,
     "default_branch": "main",
-    "description": "HF Model + Kernel Frontier Program \u2014 payload SZL-HF-FRONTIER-2026-08-29. CTO work orders for critical findings and the three public lanes. Read-only auditor. Fail closed.",
-    "disabled": false,
-    "fork": false,
-    "full_name": "szl-holdings/szl-hf-frontier",
-    "homepage": null,
-    "html_url": "https://github.com/szl-holdings/szl-hf-frontier",
-    "id": 1357344079,
-    "license": {
-      "key": "apache-2.0",
-      "name": "Apache License 2.0",
-      "node_id": "MDc6TGljZW5zZTI=",
-      "spdx_id": "Apache-2.0",
-      "url": "https://api.github.com/licenses/apache-2.0"
-    },
-    "metadata_observed_at": "2026-09-25T15:20:05.518605Z",
-    "private": false,
-    "pushed_at": "2026-09-24T22:09:49Z",
-    "revision_status": "OBSERVED",
-    "source_revision": "d63138cd75dabf2f70d524adbdb928ea9d9b1940",
-    "updated_at": "2026-09-20T11:41:29Z"
-  },
-  {
-    "archived": false,
-    "default_branch": "main",
-    "description": "SZL Holdings \u2014 cryptographic proof infrastructure. One doctrine, many organs.",
+    "description": "SZL Holdings \u2014 cryptographic provenance infrastructure. One doctrine, many organs.",
     "disabled": false,
     "fork": false,
     "full_name": "szl-holdings/szl-holdings.github.io",
@@ -1762,12 +1738,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:05.837336Z",
+    "metadata_observed_at": "2026-09-29T20:22:57.499992Z",
     "private": false,
-    "pushed_at": "2026-09-05T16:08:37Z",
+    "pushed_at": "2026-09-29T19:42:42Z",
     "revision_status": "OBSERVED",
-    "source_revision": "f716a58d10755b3aee0546f3d55d50b8602d0680",
-    "updated_at": "2026-09-05T16:08:42Z"
+    "source_revision": "7ba4c683ced57bf8e0b255e867ed3cacdd51b72d",
+    "updated_at": "2026-09-29T19:42:49Z"
   },
   {
     "archived": false,
@@ -1786,12 +1762,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:05.601331Z",
+    "metadata_observed_at": "2026-09-29T20:22:55.856184Z",
     "private": false,
-    "pushed_at": "2026-09-13T00:01:40Z",
+    "pushed_at": "2026-09-29T20:16:51Z",
     "revision_status": "OBSERVED",
-    "source_revision": "a88731a0b937a29d89bef4ce76a10cd57c1b4c05",
-    "updated_at": "2026-09-13T00:01:45Z"
+    "source_revision": "d5634c822a55aa9bca670f34ae2958ebd6952045",
+    "updated_at": "2026-09-29T15:26:30Z"
   },
   {
     "archived": false,
@@ -1810,12 +1786,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:05.619603Z",
+    "metadata_observed_at": "2026-09-29T20:22:56.094002Z",
     "private": false,
-    "pushed_at": "2026-09-24T23:44:59Z",
+    "pushed_at": "2026-09-29T20:08:06Z",
     "revision_status": "OBSERVED",
-    "source_revision": "2c1cc93ddfffe1c1f1482f68b54c9bf13949c6de",
-    "updated_at": "2026-09-24T23:45:04Z"
+    "source_revision": "4a4e28bb562de71cac6753ff1da29bcb472e3d52",
+    "updated_at": "2026-09-29T15:27:10Z"
   },
   {
     "archived": true,
@@ -1834,7 +1810,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:06.755319Z",
+    "metadata_observed_at": "2026-09-29T20:22:56.189736Z",
     "private": false,
     "pushed_at": "2026-08-18T00:24:31Z",
     "revision_status": "OBSERVED",
@@ -1858,12 +1834,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:05.809968Z",
+    "metadata_observed_at": "2026-09-29T20:22:56.423158Z",
     "private": false,
-    "pushed_at": "2026-09-24T13:49:54Z",
+    "pushed_at": "2026-09-29T20:18:06Z",
     "revision_status": "OBSERVED",
-    "source_revision": "ef7e85a162428a26a361b5e2c2cb32a3b3d082dc",
-    "updated_at": "2026-09-24T13:49:59Z"
+    "source_revision": "bb6978ec51d78998ee82fac77b0e0835d35f8703",
+    "updated_at": "2026-09-29T12:34:47Z"
   },
   {
     "archived": false,
@@ -1882,12 +1858,12 @@
       "spdx_id": "CC-BY-4.0",
       "url": "https://api.github.com/licenses/cc-by-4.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:05.931609Z",
+    "metadata_observed_at": "2026-09-29T20:22:56.486292Z",
     "private": false,
-    "pushed_at": "2026-09-25T12:56:20Z",
+    "pushed_at": "2026-09-29T18:55:42Z",
     "revision_status": "OBSERVED",
-    "source_revision": "e23171e10bac1edce4f35169697557c8976c2d76",
-    "updated_at": "2026-09-24T13:04:26Z"
+    "source_revision": "6b52dcd89159474957987cb6672744caa89fed42",
+    "updated_at": "2026-09-29T15:25:56Z"
   },
   {
     "archived": false,
@@ -1906,12 +1882,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:05.911543Z",
+    "metadata_observed_at": "2026-09-29T20:22:56.827648Z",
     "private": false,
-    "pushed_at": "2026-09-25T12:38:55Z",
+    "pushed_at": "2026-09-29T20:17:25Z",
     "revision_status": "OBSERVED",
-    "source_revision": "29a0bd9149bac28bb21e0ff4cf017dfb09a9805a",
-    "updated_at": "2026-09-25T12:39:00Z"
+    "source_revision": "8f3bc686ab021a08cf686f594fd0eddcdc76339a",
+    "updated_at": "2026-09-29T20:17:30Z"
   },
   {
     "archived": false,
@@ -1930,12 +1906,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:06.153904Z",
+    "metadata_observed_at": "2026-09-29T20:22:56.742533Z",
     "private": false,
-    "pushed_at": "2026-09-25T01:53:38Z",
+    "pushed_at": "2026-09-29T15:17:25Z",
     "revision_status": "OBSERVED",
-    "source_revision": "8c22afce8d7f9b1569b9caa775a81e0d86e0375c",
-    "updated_at": "2026-09-22T06:30:33Z"
+    "source_revision": "5ad7c3842b15f77486e3a9bfef62c7824543cac8",
+    "updated_at": "2026-09-29T15:20:13Z"
   },
   {
     "archived": false,
@@ -1954,12 +1930,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:06.238684Z",
+    "metadata_observed_at": "2026-09-29T20:22:56.802454Z",
     "private": false,
-    "pushed_at": "2026-09-24T13:21:50Z",
+    "pushed_at": "2026-09-28T13:15:15Z",
     "revision_status": "OBSERVED",
-    "source_revision": "4f72f452fe84d8478a7ce9c427ba2f7e54f5ced6",
-    "updated_at": "2026-09-24T13:21:55Z"
+    "source_revision": "f9e0dd44cab764f97654465d48771881e74012d2",
+    "updated_at": "2026-09-28T13:15:15Z"
   },
   {
     "archived": false,
@@ -1978,12 +1954,36 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:06.183950Z",
+    "metadata_observed_at": "2026-09-29T20:22:57.027213Z",
     "private": false,
-    "pushed_at": "2026-09-25T10:49:45Z",
+    "pushed_at": "2026-09-29T15:28:20Z",
     "revision_status": "OBSERVED",
-    "source_revision": "f7cce8e4159432af36c012d5ee5df635b853b36c",
-    "updated_at": "2026-09-23T18:12:19Z"
+    "source_revision": "3860c3cb92cf5dee7f7f15635e878713330b219c",
+    "updated_at": "2026-09-29T15:31:57Z"
+  },
+  {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Governed receipts and an independent reach-delta witness for sandboxed agent runtimes.",
+    "disabled": false,
+    "fork": false,
+    "full_name": "szl-holdings/szl-openshell-receipts",
+    "homepage": null,
+    "html_url": "https://github.com/szl-holdings/szl-openshell-receipts",
+    "id": 1393865539,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "node_id": "MDc6TGljZW5zZTI=",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "metadata_observed_at": "2026-09-29T20:22:57.110293Z",
+    "private": false,
+    "pushed_at": "2026-09-29T02:17:42Z",
+    "revision_status": "OBSERVED",
+    "source_revision": "31cef01f95cbdb862372be354818915b27c34fe4",
+    "updated_at": "2026-09-29T02:16:47Z"
   },
   {
     "archived": true,
@@ -2002,7 +2002,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:06.339776Z",
+    "metadata_observed_at": "2026-09-29T20:22:57.316303Z",
     "private": false,
     "pushed_at": "2026-08-29T03:11:59Z",
     "revision_status": "OBSERVED",
@@ -2026,7 +2026,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:06.581289Z",
+    "metadata_observed_at": "2026-09-29T20:22:57.394501Z",
     "private": false,
     "pushed_at": "2026-07-17T15:11:02Z",
     "revision_status": "OBSERVED",
@@ -2050,12 +2050,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:06.540036Z",
+    "metadata_observed_at": "2026-09-29T20:22:57.569473Z",
     "private": false,
-    "pushed_at": "2026-09-25T02:37:08Z",
+    "pushed_at": "2026-09-29T15:17:08Z",
     "revision_status": "OBSERVED",
-    "source_revision": "209a64394ae9a8baa9c2e4e9405f77580b4f9d1e",
-    "updated_at": "2026-09-22T07:12:43Z"
+    "source_revision": "f4c9df3840a84c767b7e5fa1c29aa25f00cc0457",
+    "updated_at": "2026-09-29T15:18:56Z"
   },
   {
     "archived": false,
@@ -2074,12 +2074,12 @@
       "spdx_id": "CC-BY-4.0",
       "url": "https://api.github.com/licenses/cc-by-4.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:07.548850Z",
+    "metadata_observed_at": "2026-09-29T20:22:58.273138Z",
     "private": false,
-    "pushed_at": "2026-09-25T12:36:38Z",
+    "pushed_at": "2026-09-29T19:30:26Z",
     "revision_status": "OBSERVED",
-    "source_revision": "2fe78204088a1b868e79a8eef8c36c53c00759f5",
-    "updated_at": "2026-09-25T12:36:43Z"
+    "source_revision": "2170b6d944742672a2cbd9a82b010b4b7045d84d",
+    "updated_at": "2026-09-29T19:30:31Z"
   },
   {
     "archived": false,
@@ -2092,18 +2092,18 @@
     "html_url": "https://github.com/szl-holdings/szl-pin",
     "id": 1357259404,
     "license": {
-      "key": "other",
-      "name": "Other",
-      "node_id": "MDc6TGljZW5zZTA=",
-      "spdx_id": "NOASSERTION",
-      "url": null
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "node_id": "MDc6TGljZW5zZTI=",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:06.728727Z",
+    "metadata_observed_at": "2026-09-29T20:22:57.703080Z",
     "private": false,
-    "pushed_at": "2026-09-23T13:44:40Z",
+    "pushed_at": "2026-09-28T14:28:05Z",
     "revision_status": "OBSERVED",
-    "source_revision": "6af7659994980b76ce9fff1e07625d5c24c90a6d",
-    "updated_at": "2026-09-23T13:44:44Z"
+    "source_revision": "8906cb2e995b720a096df814a15a1555093f0664",
+    "updated_at": "2026-09-28T14:28:17Z"
   },
   {
     "archived": false,
@@ -2122,12 +2122,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:06.709438Z",
+    "metadata_observed_at": "2026-09-29T20:22:57.781219Z",
     "private": false,
-    "pushed_at": "2026-09-23T11:06:33Z",
+    "pushed_at": "2026-09-28T14:28:12Z",
     "revision_status": "OBSERVED",
-    "source_revision": "53c3f3d808db7f4f66843132088dc6c16a0bdbce",
-    "updated_at": "2026-09-23T11:06:39Z"
+    "source_revision": "09b8749e0439cea888a18482bf5ce81db9473ce0",
+    "updated_at": "2026-09-28T14:28:20Z"
   },
   {
     "archived": false,
@@ -2146,12 +2146,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:06.844449Z",
+    "metadata_observed_at": "2026-09-29T20:22:57.931533Z",
     "private": false,
-    "pushed_at": "2026-09-06T11:16:28Z",
+    "pushed_at": "2026-09-29T15:23:24Z",
     "revision_status": "OBSERVED",
-    "source_revision": "7e416471e26816600dbf656f5d5946d8a079dd6b",
-    "updated_at": "2026-09-06T11:16:47Z"
+    "source_revision": "ce4a4cd36abba999de44b774a559b6fe33cf329e",
+    "updated_at": "2026-09-29T15:26:43Z"
   },
   {
     "archived": true,
@@ -2170,7 +2170,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:07.051937Z",
+    "metadata_observed_at": "2026-09-29T20:22:57.981804Z",
     "private": false,
     "pushed_at": "2026-08-18T00:23:15Z",
     "revision_status": "OBSERVED",
@@ -2194,12 +2194,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:07.066878Z",
+    "metadata_observed_at": "2026-09-29T20:22:58.084829Z",
     "private": false,
-    "pushed_at": "2026-09-25T12:43:56Z",
+    "pushed_at": "2026-09-29T18:40:23Z",
     "revision_status": "OBSERVED",
-    "source_revision": "4014c640e65dbc2a5e5ecadf3971071ce00f410e",
-    "updated_at": "2026-09-25T12:28:37Z"
+    "source_revision": "b3d0e3ecfbfacd3df7ca4c550d318ccce81e9f90",
+    "updated_at": "2026-09-29T15:30:55Z"
   },
   {
     "archived": false,
@@ -2218,12 +2218,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:07.133119Z",
+    "metadata_observed_at": "2026-09-29T20:22:58.242232Z",
     "private": false,
-    "pushed_at": "2026-09-23T13:44:56Z",
+    "pushed_at": "2026-09-28T14:28:29Z",
     "revision_status": "OBSERVED",
-    "source_revision": "9364ee783b058837bba656469a444e020edd607c",
-    "updated_at": "2026-09-23T13:45:01Z"
+    "source_revision": "ba51744a13dfbb87e7847562f9b0785fc43fb00a",
+    "updated_at": "2026-09-28T14:28:34Z"
   },
   {
     "archived": false,
@@ -2242,12 +2242,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:07.090862Z",
+    "metadata_observed_at": "2026-09-29T20:22:58.288893Z",
     "private": false,
-    "pushed_at": "2026-09-25T14:27:08Z",
+    "pushed_at": "2026-09-29T14:26:58Z",
     "revision_status": "OBSERVED",
-    "source_revision": "40553f41a4b55e62bee0751ad7bb413855f204a1",
-    "updated_at": "2026-09-08T02:27:03Z"
+    "source_revision": "78a0f6445fc640a29e17f0dcd3ab6b0835a193a3",
+    "updated_at": "2026-09-28T14:54:16Z"
   },
   {
     "archived": false,
@@ -2266,12 +2266,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:07.296507Z",
+    "metadata_observed_at": "2026-09-29T20:22:58.382649Z",
     "private": false,
-    "pushed_at": "2026-09-24T05:00:47Z",
+    "pushed_at": "2026-09-28T14:59:32Z",
     "revision_status": "OBSERVED",
-    "source_revision": "8961ba7e36865e1d55262ca4f719041c01d7f770",
-    "updated_at": "2026-09-05T16:14:58Z"
+    "source_revision": "9605e8a0d3ea5f6845e900157a3aaed5e426f8e7",
+    "updated_at": "2026-09-28T14:59:36Z"
   },
   {
     "archived": false,
@@ -2290,12 +2290,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:07.413743Z",
+    "metadata_observed_at": "2026-09-29T20:22:58.568147Z",
     "private": false,
-    "pushed_at": "2026-09-24T12:58:46Z",
+    "pushed_at": "2026-09-29T20:11:34Z",
     "revision_status": "OBSERVED",
-    "source_revision": "c3ad652f20f290efc0d27b439e63229d279794ad",
-    "updated_at": "2026-09-24T12:58:51Z"
+    "source_revision": "dd9dd7e724eb0ac23fb2db6a1e0c7fcfd9bdfbb5",
+    "updated_at": "2026-09-29T19:29:52Z"
   },
   {
     "archived": false,
@@ -2314,12 +2314,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:07.381660Z",
+    "metadata_observed_at": "2026-09-29T20:22:58.663740Z",
     "private": false,
-    "pushed_at": "2026-09-06T11:16:25Z",
+    "pushed_at": "2026-09-29T15:28:08Z",
     "revision_status": "OBSERVED",
-    "source_revision": "dd0b8c8f08b236cae323a41028e159e63e6b3d3a",
-    "updated_at": "2026-09-06T11:16:34Z"
+    "source_revision": "010519f0c26906be3ecf07bd91c969e2295eb5d4",
+    "updated_at": "2026-09-29T15:31:08Z"
   },
   {
     "archived": false,
@@ -2338,12 +2338,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:07.532465Z",
+    "metadata_observed_at": "2026-09-29T20:22:58.545058Z",
     "private": false,
-    "pushed_at": "2026-09-23T13:46:21Z",
+    "pushed_at": "2026-09-28T10:45:50Z",
     "revision_status": "OBSERVED",
-    "source_revision": "54f5dd963825321829b8ad3cc217bfd9717ba901",
-    "updated_at": "2026-09-23T13:46:27Z"
+    "source_revision": "b42ab67f577d0054a9d3062bffe3522f81d2bc69",
+    "updated_at": "2026-09-28T10:45:47Z"
   },
   {
     "archived": false,
@@ -2362,12 +2362,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:07.589267Z",
+    "metadata_observed_at": "2026-09-29T20:22:58.643412Z",
     "private": false,
-    "pushed_at": "2026-09-24T13:17:05Z",
+    "pushed_at": "2026-09-29T15:24:16Z",
     "revision_status": "OBSERVED",
-    "source_revision": "00b07f17a184ac2e8abcc21f415e2ea4f7b51fa8",
-    "updated_at": "2026-09-24T13:17:11Z"
+    "source_revision": "a40e6efe18c83ddf1a563c1ffb38ac3036e5972d",
+    "updated_at": "2026-09-29T15:27:17Z"
   },
   {
     "archived": false,
@@ -2386,12 +2386,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:07.712781Z",
+    "metadata_observed_at": "2026-09-29T20:22:58.876072Z",
     "private": false,
-    "pushed_at": "2026-09-20T11:43:00Z",
+    "pushed_at": "2026-09-29T00:53:29Z",
     "revision_status": "OBSERVED",
-    "source_revision": "0377faa91464775604e22f3aff81fcde62da8054",
-    "updated_at": "2026-09-20T11:43:04Z"
+    "source_revision": "999e924d76aa89c01099893d7418b0c5e8da5481",
+    "updated_at": "2026-09-28T00:16:45Z"
   },
   {
     "archived": false,
@@ -2410,12 +2410,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:07.692583Z",
+    "metadata_observed_at": "2026-09-29T20:22:58.947945Z",
     "private": false,
-    "pushed_at": "2026-09-24T18:33:30Z",
+    "pushed_at": "2026-09-29T16:33:52Z",
     "revision_status": "OBSERVED",
-    "source_revision": "25c12301e2fdcb8876352f6566dc2f4d2c6710fc",
-    "updated_at": "2026-09-08T12:36:53Z"
+    "source_revision": "08b52730ab034a595ecf14f8c47f60b146d90364",
+    "updated_at": "2026-09-28T20:17:52Z"
   },
   {
     "archived": false,
@@ -2434,12 +2434,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:07.879936Z",
+    "metadata_observed_at": "2026-09-29T20:22:59.763530Z",
     "private": false,
-    "pushed_at": "2026-09-25T12:39:28Z",
+    "pushed_at": "2026-09-29T19:43:39Z",
     "revision_status": "OBSERVED",
-    "source_revision": "8eb74d5319bbb63f8c07f2cf0309f794cf7eab38",
-    "updated_at": "2026-09-25T12:39:32Z"
+    "source_revision": "b45ee23ba072143be4b7cf4f96799f446f134923",
+    "updated_at": "2026-09-29T19:43:44Z"
   },
   {
     "archived": false,
@@ -2458,12 +2458,36 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:07.941838Z",
+    "metadata_observed_at": "2026-09-29T20:22:59.157464Z",
     "private": false,
-    "pushed_at": "2026-09-21T23:09:44Z",
+    "pushed_at": "2026-09-28T00:16:12Z",
     "revision_status": "OBSERVED",
-    "source_revision": "201a7b3dd45098d83162acd149ee3f4d17432761",
-    "updated_at": "2026-09-21T23:09:48Z"
+    "source_revision": "df78bd8bd2237064d6f9528aad17579c0156f099",
+    "updated_at": "2026-09-28T00:16:17Z"
+  },
+  {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fail-closed evidence and decision skills for Claude (SZL Holdings)",
+    "disabled": false,
+    "fork": false,
+    "full_name": "szl-holdings/szl-skills",
+    "homepage": null,
+    "html_url": "https://github.com/szl-holdings/szl-skills",
+    "id": 1389873753,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "node_id": "MDc6TGljZW5zZTI=",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "metadata_observed_at": "2026-09-29T20:22:59.294713Z",
+    "private": false,
+    "pushed_at": "2026-09-29T02:21:37Z",
+    "revision_status": "OBSERVED",
+    "source_revision": "5cc8264d8a8539ae60ce68126e4795546d78b8e5",
+    "updated_at": "2026-09-29T02:21:41Z"
   },
   {
     "archived": false,
@@ -2482,12 +2506,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:08.067679Z",
+    "metadata_observed_at": "2026-09-29T20:22:59.246830Z",
     "private": false,
-    "pushed_at": "2026-09-24T04:08:53Z",
+    "pushed_at": "2026-09-29T15:14:24Z",
     "revision_status": "OBSERVED",
-    "source_revision": "a18f76e9487568a2aa1d0c5375b543e1b228c91a",
-    "updated_at": "2026-09-04T00:53:25Z"
+    "source_revision": "219e38a4b09c54ebfe812d656e2fb965fd85c764",
+    "updated_at": "2026-09-29T15:16:40Z"
   },
   {
     "archived": false,
@@ -2506,12 +2530,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:08.222054Z",
+    "metadata_observed_at": "2026-09-29T20:22:59.445414Z",
     "private": false,
-    "pushed_at": "2026-09-22T06:25:24Z",
+    "pushed_at": "2026-09-28T20:17:57Z",
     "revision_status": "OBSERVED",
-    "source_revision": "5b4d0d5b8bd003fb952a7f15ed996f5780ec4ccc",
-    "updated_at": "2026-09-22T06:25:29Z"
+    "source_revision": "56af6d3390cf70da4bb6f2deedf51256f29f5c49",
+    "updated_at": "2026-09-28T20:18:01Z"
   },
   {
     "archived": true,
@@ -2530,7 +2554,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:08.116565Z",
+    "metadata_observed_at": "2026-09-29T20:22:59.489990Z",
     "private": false,
     "pushed_at": "2026-08-29T06:37:05Z",
     "revision_status": "OBSERVED",
@@ -2554,12 +2578,12 @@
       "spdx_id": "CC-BY-4.0",
       "url": "https://api.github.com/licenses/cc-by-4.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:08.205306Z",
+    "metadata_observed_at": "2026-09-29T20:22:59.672030Z",
     "private": false,
-    "pushed_at": "2026-09-24T13:04:47Z",
+    "pushed_at": "2026-09-29T19:29:23Z",
     "revision_status": "OBSERVED",
-    "source_revision": "d1f42539334194323ac5de361abb5113e22d12a1",
-    "updated_at": "2026-09-24T13:04:49Z"
+    "source_revision": "978aa4232e01331d5bd864b639ed9867795f1767",
+    "updated_at": "2026-09-29T19:29:26Z"
   },
   {
     "archived": false,
@@ -2572,18 +2596,18 @@
     "html_url": "https://github.com/szl-holdings/szl-typesafe-triage",
     "id": 1378595524,
     "license": {
-      "key": "other",
-      "name": "Other",
-      "node_id": "MDc6TGljZW5zZTA=",
-      "spdx_id": "NOASSERTION",
-      "url": null
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "node_id": "MDc6TGljZW5zZTI=",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:08.158028Z",
+    "metadata_observed_at": "2026-09-29T20:22:59.781878Z",
     "private": false,
-    "pushed_at": "2026-09-25T12:37:52Z",
+    "pushed_at": "2026-09-29T16:03:38Z",
     "revision_status": "OBSERVED",
-    "source_revision": "5e5bf7aae7fe10c7aaa09cdd4a4e6cbe95e32129",
-    "updated_at": "2026-09-22T21:40:13Z"
+    "source_revision": "77d96a2d03d39e07545043e672dfb292275796a4",
+    "updated_at": "2026-09-29T16:08:17Z"
   },
   {
     "archived": true,
@@ -2602,7 +2626,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:08.394071Z",
+    "metadata_observed_at": "2026-09-29T20:22:59.827754Z",
     "private": false,
     "pushed_at": "2026-07-01T22:05:30Z",
     "revision_status": "OBSERVED",
@@ -2620,18 +2644,18 @@
     "html_url": "https://github.com/szl-holdings/szl-vertical-forge",
     "id": 1357201155,
     "license": {
-      "key": "other",
-      "name": "Other",
-      "node_id": "MDc6TGljZW5zZTA=",
-      "spdx_id": "NOASSERTION",
-      "url": null
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "node_id": "MDc6TGljZW5zZTI=",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:08.530663Z",
+    "metadata_observed_at": "2026-09-29T20:23:00.069760Z",
     "private": false,
-    "pushed_at": "2026-09-05T16:18:21Z",
+    "pushed_at": "2026-09-29T10:07:45Z",
     "revision_status": "OBSERVED",
-    "source_revision": "6a05a17004d245f929176e01e29b20a0ab0e8bb3",
-    "updated_at": "2026-09-05T16:18:25Z"
+    "source_revision": "4f5bedad1b6a4201503cd33ad90a2d5a57d59fdb",
+    "updated_at": "2026-09-29T10:07:50Z"
   },
   {
     "archived": false,
@@ -2650,12 +2674,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:08.555185Z",
+    "metadata_observed_at": "2026-09-29T20:23:00.083414Z",
     "private": false,
-    "pushed_at": "2026-09-08T04:11:18Z",
+    "pushed_at": "2026-09-27T22:10:20Z",
     "revision_status": "OBSERVED",
-    "source_revision": "f5370d5536d0583e94b0ee976e0c12f7d8108b62",
-    "updated_at": "2026-09-08T04:11:25Z"
+    "source_revision": "6a5548b6fac21b270248cfc6d42e292987b5aa45",
+    "updated_at": "2026-09-27T22:10:15Z"
   },
   {
     "archived": false,
@@ -2674,12 +2698,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:08.648757Z",
+    "metadata_observed_at": "2026-09-29T20:23:00.171323Z",
     "private": false,
-    "pushed_at": "2026-09-23T22:29:32Z",
+    "pushed_at": "2026-09-29T15:17:36Z",
     "revision_status": "OBSERVED",
-    "source_revision": "7395a69b6d38903a555ddf88d7b20bc9afc01395",
-    "updated_at": "2026-09-20T11:42:54Z"
+    "source_revision": "249f41df8c55dd0d57f80d11584016004390aa96",
+    "updated_at": "2026-09-29T15:20:23Z"
   },
   {
     "archived": false,
@@ -2698,12 +2722,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:08.605271Z",
+    "metadata_observed_at": "2026-09-29T20:23:00.303569Z",
     "private": false,
-    "pushed_at": "2026-09-24T12:36:07Z",
+    "pushed_at": "2026-09-29T15:56:06Z",
     "revision_status": "OBSERVED",
-    "source_revision": "029350a87d4938d13e16661df272a51a339777af",
-    "updated_at": "2026-09-22T03:27:41Z"
+    "source_revision": "2fedb38fc52204a8edb2c7f1c2406796f667096c",
+    "updated_at": "2026-09-29T15:59:49Z"
   },
   {
     "archived": false,
@@ -2722,12 +2746,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:08.697141Z",
+    "metadata_observed_at": "2026-09-29T20:23:00.362379Z",
     "private": false,
-    "pushed_at": "2026-09-24T12:16:45Z",
+    "pushed_at": "2026-09-29T20:14:43Z",
     "revision_status": "OBSERVED",
-    "source_revision": "f487dc0fdc71af52841e3634bf7b9c6bf9fb6448",
-    "updated_at": "2026-09-24T12:16:50Z"
+    "source_revision": "e563d23b61b60ab8d9fc64f413e920f473804f8c",
+    "updated_at": "2026-09-29T19:30:00Z"
   },
   {
     "archived": false,
@@ -2746,12 +2770,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:08.858205Z",
+    "metadata_observed_at": "2026-09-29T20:23:00.407699Z",
     "private": false,
-    "pushed_at": "2026-09-25T12:31:13Z",
+    "pushed_at": "2026-09-28T20:58:26Z",
     "revision_status": "OBSERVED",
-    "source_revision": "b88ec43a613545c2bd54aa92dc32e59e7622ecc5",
-    "updated_at": "2026-09-25T12:29:53Z"
+    "source_revision": "1c137b8e24702dbf4952a4a7f5aa1395d4fa8b2c",
+    "updated_at": "2026-09-28T20:58:30Z"
   },
   {
     "archived": true,
@@ -2770,7 +2794,7 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:08.855377Z",
+    "metadata_observed_at": "2026-09-29T20:23:00.408208Z",
     "private": false,
     "pushed_at": "2026-07-21T03:28:30Z",
     "revision_status": "OBSERVED",
@@ -2794,12 +2818,12 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:09.034726Z",
+    "metadata_observed_at": "2026-09-29T20:23:00.618598Z",
     "private": false,
-    "pushed_at": "2026-09-24T13:00:16Z",
+    "pushed_at": "2026-09-29T15:33:22Z",
     "revision_status": "OBSERVED",
-    "source_revision": "99e16ae447d7c1cc057cbf65d7b038096f99fba5",
-    "updated_at": "2026-09-24T13:00:24Z"
+    "source_revision": "ca786148742e3d1870f7f6a00434f1e400e94738",
+    "updated_at": "2026-09-28T20:18:16Z"
   },
   {
     "archived": false,
@@ -2818,11 +2842,11 @@
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0"
     },
-    "metadata_observed_at": "2026-09-25T15:20:08.904568Z",
+    "metadata_observed_at": "2026-09-29T20:23:01.770630Z",
     "private": false,
-    "pushed_at": "2026-09-06T11:16:26Z",
+    "pushed_at": "2026-09-29T15:28:16Z",
     "revision_status": "OBSERVED",
-    "source_revision": "bb15b7da92ada2541e5deff0a276a2e51c17f1e2",
-    "updated_at": "2026-09-06T11:16:43Z"
+    "source_revision": "275938c3e9a6ad3c85d222234fdced735955c676",
+    "updated_at": "2026-09-29T15:31:20Z"
   }
 ]

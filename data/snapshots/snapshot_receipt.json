@@ -1,6 +1,6 @@
 {
   "complete": true,
-  "completed_at": "2026-09-25T15:20:10.439083Z",
+  "completed_at": "2026-09-29T20:23:03.738732Z",
   "credentials": {
     "github": {
       "identity_validated": true,
@@ -15,32 +15,32 @@
   },
   "files": {
     "github_repositories.json": {
-      "count": 119,
-      "sha256": "53923fc1ad2c4ede7a092a4b75a71012259445e155e176ee8fc059ec8e52bb22"
+      "count": 120,
+      "sha256": "578ac03ffa1790af9ceb71e4ac1f8fbc8bebaa83c238a634d2ea1ebc562534ef"
     },
     "huggingface_datasets.json": {
-      "count": 35,
-      "sha256": "bd28fea34aac1077e28a6a89a23562b28bff3471a7ea977847d8dff27b243b4d"
+      "count": 34,
+      "sha256": "c85430a5bb81b0095b9c0aa57c11efeca4a948b8ed4bf1c4e8c5a12bf2ac57dc"
     },
     "huggingface_models.json": {
       "count": 49,
-      "sha256": "9fb5c477d81ee954fe1dc43cda026f8386039ffda00887523a10a9efcbae6840"
+      "sha256": "0da13304bb3e8a38aee5d49f171675893243fe25e599706580a7ef6a90c95208"
     },
     "huggingface_spaces.json": {
-      "count": 23,
-      "sha256": "6c356d73b43aefd2da5b6caa1e2009fecf300c2e1ee11ea27457e36e2f1dab16"
+      "count": 24,
+      "sha256": "dcf14c71b62c730fcdab16f49f72b303f97bce8dc6f960244b3eb5ac9b021a11"
     }
   },
   "inventories": {
     "datasets": {
       "completion": "COMPLETE",
-      "count": 35,
+      "count": 34,
       "private_counts_withheld": true,
       "scope": "PUBLIC_PROJECTION_OF_AUTHENTICATED_CENSUS"
     },
     "github": {
       "completion": "COMPLETE",
-      "count": 119,
+      "count": 120,
       "private_counts_withheld": true,
       "scope": "PUBLIC_PROJECTION_OF_AUTHENTICATED_CENSUS"
     },
@@ -52,22 +52,22 @@
     },
     "spaces": {
       "completion": "COMPLETE",
-      "count": 23,
+      "count": 24,
       "private_counts_withheld": true,
       "scope": "PUBLIC_PROJECTION_OF_AUTHENTICATED_CENSUS"
     }
   },
-  "parent_receipt_sha256": "180e104c0d507a482e12bfa4af055c65e0610a1d92594f83811e1210e0ca49d3",
+  "parent_receipt_sha256": "97b108dbc5038a497ae43127a5f79b27daa1496bd3694cee6b81fd5421cf2997",
   "private_scope": "WITHHELD",
   "schema": "szl.estate-snapshot-receipt/v1",
   "scope": "PUBLIC_PROJECTION_OF_AUTHENTICATED_CENSUS",
   "signature_status": "UNSIGNED",
   "source": {
-    "collector_sha256": "752b27b57bed1d8600170359844c7517082615993d1b18d1192f213e9b59d798",
-    "git_sha": "505651f9808d47598d9f0ebccc742a01c3d46f5a",
+    "collector_sha256": "75b17d8090e3a5a068adb1645de745e51a7a29013a8ea8f91d2f02d4ba482d94",
+    "git_sha": "e23af6bc1e5667b95affe1d0d4a52af3b3f3d612",
     "pagination_module_sha256": "de9885fb8650e2cf7986b494764945be9b984d4225a685f220d6f693e994497b",
     "working_tree_dirty": false
   },
-  "started_at": "2026-09-25T15:19:56.745224Z",
+  "started_at": "2026-09-29T20:22:39.820705Z",
   "status": "COMPLETE"
 }

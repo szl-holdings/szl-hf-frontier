@@ -6,15 +6,15 @@
       "bytes": 3067,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/ec68d5b1ace055f849d34c03d4e2cf7141141dcdbf6b917bb57b78c97b2bbeb5.md",
-      "revision": "a88731a0b937a29d89bef4ce76a10cd57c1b4c05",
+      "revision": "d5634c822a55aa9bca670f34ae2958ebd6952045",
       "sha256": "ec68d5b1ace055f849d34c03d4e2cf7141141dcdbf6b917bb57b78c97b2bbeb5",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/szl-invariants/blob/a88731a0b937a29d89bef4ce76a10cd57c1b4c05/README.md"
+      "url": "https://github.com/szl-holdings/szl-invariants/blob/d5634c822a55aa9bca670f34ae2958ebd6952045/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/szl-invariants",
-  "observed_at": "2026-09-25T15:21:14Z",
-  "observed_revision": "a88731a0b937a29d89bef4ce76a10cd57c1b4c05"
+  "observed_at": "2026-09-29T20:49:47Z",
+  "observed_revision": "d5634c822a55aa9bca670f34ae2958ebd6952045"
 }

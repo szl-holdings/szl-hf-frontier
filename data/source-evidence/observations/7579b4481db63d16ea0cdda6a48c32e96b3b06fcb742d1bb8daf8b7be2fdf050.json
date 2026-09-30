@@ -6,15 +6,15 @@
       "bytes": 13118,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/e1a767bf23a2f05e0015d008da24a7dcfcd31c3340f5e311cace1728efcccb28.md",
-      "revision": "cb5768dd39b4485d8a253ee760d8343c376468cc",
+      "revision": "6d53bc8a57f4e90bc4e6f0d8aa785a42b2d75da3",
       "sha256": "e1a767bf23a2f05e0015d008da24a7dcfcd31c3340f5e311cace1728efcccb28",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/immune/blob/cb5768dd39b4485d8a253ee760d8343c376468cc/README.md"
+      "url": "https://github.com/szl-holdings/immune/blob/6d53bc8a57f4e90bc4e6f0d8aa785a42b2d75da3/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/immune",
-  "observed_at": "2026-09-25T15:21:07Z",
-  "observed_revision": "cb5768dd39b4485d8a253ee760d8343c376468cc"
+  "observed_at": "2026-09-29T20:49:39Z",
+  "observed_revision": "6d53bc8a57f4e90bc4e6f0d8aa785a42b2d75da3"
 }

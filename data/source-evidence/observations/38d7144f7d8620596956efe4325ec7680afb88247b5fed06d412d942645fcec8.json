@@ -6,15 +6,15 @@
       "bytes": 3242,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/153fd0dd4c8091054f9e1e3f93c513a41fcc28525ac03d102074f2d7148dd62d.md",
-      "revision": "9364ee783b058837bba656469a444e020edd607c",
+      "revision": "ba51744a13dfbb87e7847562f9b0785fc43fb00a",
       "sha256": "153fd0dd4c8091054f9e1e3f93c513a41fcc28525ac03d102074f2d7148dd62d",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/szl-quant-bench/blob/9364ee783b058837bba656469a444e020edd607c/README.md"
+      "url": "https://github.com/szl-holdings/szl-quant-bench/blob/ba51744a13dfbb87e7847562f9b0785fc43fb00a/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/szl-quant-bench",
-  "observed_at": "2026-09-25T15:21:16Z",
-  "observed_revision": "9364ee783b058837bba656469a444e020edd607c"
+  "observed_at": "2026-09-29T20:49:50Z",
+  "observed_revision": "ba51744a13dfbb87e7847562f9b0785fc43fb00a"
 }

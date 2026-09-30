@@ -1,16 +1,16 @@
 [
   {
-    "downloads": 3893,
+    "downloads": 3555,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.316306Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/a11oy-verifiable-corpus",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "09c58c68d160c93010e9a7f647cd9423da286b2a",
+    "sha": "34c097640744b2840bc23080861e310e74eb8b41",
     "tags": [
       "task_categories:other",
       "language:en",
@@ -29,20 +29,20 @@
       "doi:10.5281/zenodo.19944926"
     ],
     "task": null,
-    "updated_at": "2026-09-21T08:51:01.000Z"
+    "updated_at": "2026-09-29T08:52:50.000Z"
   },
   {
-    "downloads": 339,
+    "downloads": 411,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.316306Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/alloy-sovereign-eval-runs",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "6926b2d49aee3ef15c0552f604b18e08faab1ee9",
+    "sha": "2a23619515d85d76b80fcc0ce6b0785ed1035f39",
     "tags": [
       "task_categories:question-answering",
       "language:en",
@@ -66,20 +66,20 @@
       "doi:10.5281/zenodo.19944926"
     ],
     "task": null,
-    "updated_at": "2026-07-22T10:50:14.000Z"
+    "updated_at": "2026-09-28T17:01:41.000Z"
   },
   {
-    "downloads": 401,
+    "downloads": 491,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.315308Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/canonical-formulas-v1",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "d6558dc794b0e06636f45b8146da7858056944f2",
+    "sha": "99c45c0989676f9a842a707ab5af60f1e2de99ce",
     "tags": [
       "task_categories:other",
       "language:en",
@@ -95,42 +95,20 @@
       "doi:10.5281/zenodo.19944926"
     ],
     "task": null,
-    "updated_at": "2026-08-31T08:49:07.000Z"
+    "updated_at": "2026-09-28T17:01:42.000Z"
   },
   {
-    "downloads": 353,
-    "gated": false,
-    "library_name": null,
-    "license": null,
-    "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.427832Z",
-    "path": "SZLHOLDINGS/david-leads-data",
-    "private": false,
-    "runtime": null,
-    "sdk": null,
-    "sha": "b52a97587c62cfd16b93cece07ec9bcf7e21c336",
-    "tags": [
-      "region:us",
-      "public-data",
-      "insurance",
-      "provenance",
-      "data-governance"
-    ],
-    "task": null,
-    "updated_at": "2026-09-25T12:46:34.000Z"
-  },
-  {
-    "downloads": 436,
+    "downloads": 548,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.316306Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/doctrine-v10-v11",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "6ebcf6892cd6763f6ae63833416503a5572f2a7a",
+    "sha": "9773c4c6fc6f48849f99e009b8ff7410a632c7fd",
     "tags": [
       "task_categories:other",
       "language:en",
@@ -145,20 +123,20 @@
       "doi:10.5281/zenodo.19944926"
     ],
     "task": null,
-    "updated_at": "2026-08-31T08:49:09.000Z"
+    "updated_at": "2026-09-28T17:01:45.000Z"
   },
   {
-    "downloads": 332,
+    "downloads": 390,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.316306Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/energy-attested-runs",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "674fdba8eea3e4f44e4d8d43716ddc2eb4f50215",
+    "sha": "b2c4946d9d002ba22aaa2fe7407904a81d8e0736",
     "tags": [
       "task_categories:other",
       "language:en",
@@ -181,23 +159,24 @@
       "doi:10.5281/zenodo.19944926"
     ],
     "task": null,
-    "updated_at": "2026-07-22T10:50:11.000Z"
+    "updated_at": "2026-09-28T17:01:46.000Z"
   },
   {
-    "downloads": 363,
+    "downloads": 441,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.316306Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/governed-agent-bench",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "24045d8ff21117f275541d2d1954e3692706caec",
+    "sha": "0d3ed66382686c1fea1b14e592a303f101a2a5c4",
     "tags": [
       "task_categories:other",
       "license:apache-2.0",
+      "size_categories:n<1K",
       "region:us",
       "governance",
       "agents",
@@ -206,20 +185,20 @@
       "rollback"
     ],
     "task": null,
-    "updated_at": "2026-08-31T03:42:08.000Z"
+    "updated_at": "2026-09-28T17:01:46.000Z"
   },
   {
-    "downloads": 325,
+    "downloads": 466,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.316306Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/governed-receipts-bench",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "235ef348dce7b9eaca915c8668158039d6831a8c",
+    "sha": "9e8a4921740f310d144012e27e3bb0cb34e733af",
     "tags": [
       "task_categories:other",
       "language:en",
@@ -244,20 +223,20 @@
       "doi:10.5281/zenodo.19944926"
     ],
     "task": null,
-    "updated_at": "2026-07-22T10:50:08.000Z"
+    "updated_at": "2026-09-28T17:01:47.000Z"
   },
   {
-    "downloads": 330,
+    "downloads": 410,
     "gated": false,
     "library_name": null,
     "license": "cc-by-4.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.316306Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/k-verify-benchmark-v1",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "ddaa18ea2f496a92c747b985b70fc881207a9b45",
+    "sha": "a5a46493b90f6dc2c9499cdf32e593ab71a8a387",
     "tags": [
       "task_categories:question-answering",
       "language:en",
@@ -278,20 +257,20 @@
       "doi:10.5281/zenodo.19944926"
     ],
     "task": null,
-    "updated_at": "2026-08-31T08:49:11.000Z"
+    "updated_at": "2026-09-28T17:01:48.000Z"
   },
   {
-    "downloads": 64044,
+    "downloads": 72481,
     "gated": false,
     "library_name": null,
     "license": "other",
     "likes": 15,
-    "metadata_observed_at": "2026-09-25T15:20:09.316306Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/killinchu-osint-corpus",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "a7d18e271d95fe380c76ae5b7ce0d6272d2885c0",
+    "sha": "1335e65416a66bb53bcff7032e3705706f426929",
     "tags": [
       "license:other",
       "region:us",
@@ -303,20 +282,20 @@
       "szl-holdings"
     ],
     "task": null,
-    "updated_at": "2026-09-25T15:17:26.000Z"
+    "updated_at": "2026-09-29T20:17:50.000Z"
   },
   {
-    "downloads": 575,
+    "downloads": 703,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.315308Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/lean-proofs-v1",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "368d9eb6116cc4596891e80db248626ccbd91b52",
+    "sha": "f877db13fd3b84d8304169c3cb27c71bd397ac64",
     "tags": [
       "task_categories:other",
       "language:en",
@@ -339,20 +318,20 @@
       "doi:10.5281/zenodo.19944926"
     ],
     "task": null,
-    "updated_at": "2026-08-31T08:49:06.000Z"
+    "updated_at": "2026-09-28T17:01:48.000Z"
   },
   {
-    "downloads": 302,
+    "downloads": 397,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.315308Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/lean-theorem-tree",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "b93a14cd411e7e9168819cf86915f1a02c6bfa2b",
+    "sha": "8283cc8b75a54142016c8ac7fac5695903a9e6ba",
     "tags": [
       "task_categories:other",
       "language:en",
@@ -365,8 +344,6 @@
       "dsse",
       "governance",
       "agentic-ai",
-      "series-a",
-      "anthropic",
       "doctrine-v11",
       "rae-1",
       "theorems",
@@ -376,22 +353,24 @@
       "doi:10.5281/zenodo.19944926"
     ],
     "task": null,
-    "updated_at": "2026-07-22T10:49:34.000Z"
+    "updated_at": "2026-09-28T17:01:49.000Z"
   },
   {
-    "downloads": 378,
+    "downloads": 497,
     "gated": false,
     "library_name": null,
-    "license": "other",
+    "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.316306Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/model-bom",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "e92e8b55aea2209b7b90abd44d7cfa2c5ff1d676",
+    "sha": "038f792855ae12225084c8d87181e4476b00fa55",
     "tags": [
-      "license:other",
+      "task_categories:other",
+      "language:en",
+      "license:apache-2.0",
       "size_categories:n<1K",
       "format:json",
       "modality:text",
@@ -403,18 +382,20 @@
       "model-bom",
       "cyclonedx",
       "provenance",
-      "governed-ai"
+      "governed-ai",
+      "szl-holdings",
+      "registry"
     ],
     "task": null,
-    "updated_at": "2026-08-31T19:59:45.000Z"
+    "updated_at": "2026-09-28T17:01:49.000Z"
   },
   {
-    "downloads": 338,
+    "downloads": 431,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.318313Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/oac-clinical-transport-observability-synthetic",
     "private": false,
     "runtime": null,
@@ -440,17 +421,17 @@
     "updated_at": "2026-09-24T12:58:24.000Z"
   },
   {
-    "downloads": 364,
+    "downloads": 441,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.315308Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.138262Z",
     "path": "SZLHOLDINGS/ouroboros-arxiv-preprint",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "13ee49f4bbb890ad77895677521fc10c7f2212ae",
+    "sha": "704753d8a0328762deb127bddf88867df275bcbf",
     "tags": [
       "task_categories:other",
       "language:en",
@@ -463,8 +444,6 @@
       "dsse",
       "governance",
       "agentic-ai",
-      "series-a",
-      "anthropic",
       "doctrine-v11",
       "rae-1",
       "ouroboros",
@@ -475,20 +454,20 @@
       "doi:10.5281/zenodo.20424992"
     ],
     "task": null,
-    "updated_at": "2026-07-22T10:49:26.000Z"
+    "updated_at": "2026-09-28T17:01:50.000Z"
   },
   {
-    "downloads": 371,
+    "downloads": 443,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.315308Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/rag-corpus-v1",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "5287573c5f47f3e41cb0fd5a8e20933647a102dd",
+    "sha": "49e49fb450446b622dda1781ded8a389d3b03499",
     "tags": [
       "task_categories:feature-extraction",
       "language:en",
@@ -510,21 +489,22 @@
       "doi:10.5281/zenodo.19944926"
     ],
     "task": null,
-    "updated_at": "2026-07-22T10:49:36.000Z"
+    "updated_at": "2026-09-28T17:01:51.000Z"
   },
   {
-    "downloads": 393,
+    "downloads": 492,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.316306Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/readiness-runs",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "3798719acbfc3ad015e9b2a73d1bfeb0f85ca512",
+    "sha": "32d3bdddaba30f2f749704f84470a2a6cf50d792",
     "tags": [
+      "task_categories:other",
       "license:apache-2.0",
       "size_categories:n<1K",
       "modality:text",
@@ -536,24 +516,25 @@
       "doi:10.5281/zenodo.19944926"
     ],
     "task": null,
-    "updated_at": "2026-07-22T10:49:54.000Z"
+    "updated_at": "2026-09-28T17:01:51.000Z"
   },
   {
-    "downloads": 357,
+    "downloads": 414,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.316306Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/receipted-unsloth",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "a62226464cab74741835d3afbff2b485f5b5f7e9",
+    "sha": "8b1a3eb40a14dde35b7cb0b5c11e6c3006e6bcd9",
     "tags": [
       "task_categories:text-generation",
       "language:en",
       "license:apache-2.0",
+      "size_categories:n<1K",
       "region:us",
       "szl-holdings",
       "unsloth",
@@ -563,38 +544,46 @@
       "proposal-only"
     ],
     "task": null,
-    "updated_at": "2026-08-29T15:50:06.000Z"
+    "updated_at": "2026-09-28T17:01:52.000Z"
   },
   {
-    "downloads": 225,
-    "gated": false,
-    "library_name": null,
-    "license": null,
-    "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.473073Z",
-    "path": "SZLHOLDINGS/release-assets",
-    "private": false,
-    "runtime": null,
-    "sdk": null,
-    "sha": "9125cb983cbeb8dce2d2efe031ec5fadd739d037",
-    "tags": [
-      "region:us"
-    ],
-    "task": null,
-    "updated_at": "2026-09-01T04:47:09.000Z"
-  },
-  {
-    "downloads": 362,
+    "downloads": 312,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.316306Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
+    "path": "SZLHOLDINGS/release-assets",
+    "private": false,
+    "runtime": null,
+    "sdk": null,
+    "sha": "a6cabcef1c1a6d2304537f3d36e789b9fca890bd",
+    "tags": [
+      "task_categories:other",
+      "language:en",
+      "license:apache-2.0",
+      "size_categories:n<1K",
+      "region:us",
+      "szl-holdings",
+      "release-assets",
+      "placeholder",
+      "not-a-dataset"
+    ],
+    "task": null,
+    "updated_at": "2026-09-28T17:01:52.000Z"
+  },
+  {
+    "downloads": 434,
+    "gated": false,
+    "library_name": null,
+    "license": "apache-2.0",
+    "likes": 0,
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/szl-1-doctrine-sft",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "b11a9d6abe332fa4add8c58feed35b66f75304b8",
+    "sha": "63abf4ce8cf47793571a2dcbcfc3aa492fd30118",
     "tags": [
       "task_categories:text-generation",
       "language:en",
@@ -607,20 +596,20 @@
       "identity"
     ],
     "task": null,
-    "updated_at": "2026-07-22T10:50:15.000Z"
+    "updated_at": "2026-09-28T17:01:54.000Z"
   },
   {
-    "downloads": 760,
+    "downloads": 807,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.315308Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.138262Z",
     "path": "SZLHOLDINGS/szl-artifacts",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "feff62cecb94ca3e5e5aedc391228ecf9602135f",
+    "sha": "5eae2cf9e5fed91075b438ea385fd9f3a5acf957",
     "tags": [
       "task_categories:other",
       "language:en",
@@ -640,8 +629,6 @@
       "agentic-ai",
       "arxiv:2401.05566",
       "arxiv:2407.11214",
-      "series-a",
-      "anthropic",
       "doctrine-v11",
       "rae-1",
       "artifacts",
@@ -652,21 +639,24 @@
       "doi:10.5281/zenodo.19944926"
     ],
     "task": null,
-    "updated_at": "2026-07-22T10:49:28.000Z"
+    "updated_at": "2026-09-28T17:01:54.000Z"
   },
   {
-    "downloads": 338,
+    "downloads": 465,
     "gated": false,
     "library_name": null,
-    "license": null,
+    "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.474583Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/szl-estate-graph",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "54723ec9461b801b9a88888dd69d8a261ae5da71",
+    "sha": "71933bcd9346d97a36a9f4745e0e79703e224516",
     "tags": [
+      "task_categories:graph-ml",
+      "language:en",
+      "license:apache-2.0",
       "size_categories:n<1K",
       "format:json",
       "modality:text",
@@ -674,23 +664,29 @@
       "library:pandas",
       "library:polars",
       "library:mlcroissant",
-      "region:us"
+      "region:us",
+      "szl-holdings",
+      "estate-graph",
+      "knowledge-graph",
+      "provenance",
+      "receipts",
+      "doctrine-v11"
     ],
     "task": null,
-    "updated_at": "2026-09-04T15:32:49.000Z"
+    "updated_at": "2026-09-28T17:01:54.000Z"
   },
   {
-    "downloads": 372,
+    "downloads": 482,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.316306Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/szl-frontier-covenant",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "783f6497d0e4608b094297821efd634a2131e1e7",
+    "sha": "aa6a840231d72530e75adce3af4bdebbd179029a",
     "tags": [
       "task_categories:text-classification",
       "license:apache-2.0",
@@ -703,20 +699,20 @@
       "frontier-evaluation"
     ],
     "task": null,
-    "updated_at": "2026-09-08T15:50:46.000Z"
+    "updated_at": "2026-09-29T15:28:58.000Z"
   },
   {
-    "downloads": 485,
+    "downloads": 720,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.318313Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/szl-frontier-evaluation-receipts",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "928d16f62ca2596255c90ee45cdba201a72af0fa",
+    "sha": "2c66b3716a5ed2093165b0d7a197dc114fb74c6f",
     "tags": [
       "license:apache-2.0",
       "size_categories:n<1K",
@@ -727,20 +723,20 @@
       "provenance"
     ],
     "task": null,
-    "updated_at": "2026-09-24T22:24:16.000Z"
+    "updated_at": "2026-09-26T21:47:03.000Z"
   },
   {
-    "downloads": 6981,
+    "downloads": 5361,
     "gated": false,
     "library_name": null,
     "license": "cc-by-4.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.316306Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/szl-lake",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "22d8d4295aab903cb4f89593f7d3721a63118e4d",
+    "sha": "bdf238294cd938fec97a4de5472e53764f5b262e",
     "tags": [
       "task_categories:other",
       "language:en",
@@ -766,20 +762,20 @@
       "doi:10.5281/zenodo.19944926"
     ],
     "task": null,
-    "updated_at": "2026-09-25T11:25:50.000Z"
+    "updated_at": "2026-09-29T18:28:11.000Z"
   },
   {
-    "downloads": 357,
+    "downloads": 480,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.316306Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/szl-quant-sft-v1",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "c089aaa10dc85f3bf6a675789d697f04a931cf09",
+    "sha": "840044aedc235774d5a653ee34fc0c2dd3430079",
     "tags": [
       "task_categories:text-generation",
       "language:en",
@@ -797,24 +793,26 @@
       "provenance",
       "dsse",
       "receipts",
-      "sft"
+      "sft",
+      "training-held"
     ],
     "task": null,
-    "updated_at": "2026-09-25T12:33:12.000Z"
+    "updated_at": "2026-09-28T17:01:56.000Z"
   },
   {
-    "downloads": 335,
+    "downloads": 407,
     "gated": false,
     "library_name": null,
     "license": "other",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.316306Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/szl-second-brain-inrepo",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "d44a595b6c2b94aadd1320680b5aa05f6fe28cab",
+    "sha": "c9823ec107fc1fd4df6166c4ad0a37c776ee7e64",
     "tags": [
+      "task_categories:other",
       "language:en",
       "license:other",
       "size_categories:n<1K",
@@ -832,20 +830,20 @@
       "honesty"
     ],
     "task": null,
-    "updated_at": "2026-07-22T08:49:46.000Z"
+    "updated_at": "2026-09-28T17:01:57.000Z"
   },
   {
-    "downloads": 345,
+    "downloads": 418,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.315308Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.138262Z",
     "path": "SZLHOLDINGS/SZLHOLDINGS",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "9b9ff952ceb74265322c0dadb6aa2fc79a1d4b07",
+    "sha": "7a6cce17710bf47b9e5a64e0b1be43d1276733ef",
     "tags": [
       "task_categories:other",
       "language:en",
@@ -856,22 +854,24 @@
       "doi:10.5281/zenodo.19944926"
     ],
     "task": null,
-    "updated_at": "2026-08-31T03:42:10.000Z"
+    "updated_at": "2026-09-29T02:24:04.000Z"
   },
   {
-    "downloads": 364,
+    "downloads": 611,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.316306Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/test-results",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "9875d24f2e3f3a421a061e0e8ed5fd2e9def9af2",
+    "sha": "4d5de7b588460f56fc67437b11617c339a69d8c8",
     "tags": [
+      "task_categories:other",
       "license:apache-2.0",
+      "size_categories:n<1K",
       "region:us",
       "szl",
       "governed-ai",
@@ -880,20 +880,20 @@
       "provenance"
     ],
     "task": null,
-    "updated_at": "2026-08-31T03:42:10.000Z"
+    "updated_at": "2026-09-28T17:01:58.000Z"
   },
   {
-    "downloads": 470,
+    "downloads": 531,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.315308Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/thesis-corpus-v18",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "c838713936c3cc218c5bed9546c2f20b20eb349e",
+    "sha": "e24c1e718ffe0ee989da7230a922b0065035b1b0",
     "tags": [
       "task_categories:text-generation",
       "task_categories:other",
@@ -916,20 +916,20 @@
       "doi:10.5281/zenodo.20434276"
     ],
     "task": null,
-    "updated_at": "2026-08-31T08:49:08.000Z"
+    "updated_at": "2026-09-28T17:01:59.000Z"
   },
   {
-    "downloads": 514,
+    "downloads": 606,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.314300Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.132408Z",
     "path": "SZLHOLDINGS/thesis-v18-formal-verification",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "50d804156d126457387941f3edb27fd5c98b283c",
+    "sha": "9a08e0c1fccf410b447769091ebeb26885942f3c",
     "tags": [
       "task_categories:other",
       "language:en",
@@ -947,8 +947,6 @@
       "dsse",
       "governance",
       "agentic-ai",
-      "series-a",
-      "anthropic",
       "doctrine-v11",
       "rae-1",
       "theorem-proving",
@@ -961,20 +959,20 @@
       "doi:10.5281/zenodo.20434276"
     ],
     "task": null,
-    "updated_at": "2026-07-22T10:49:06.000Z"
+    "updated_at": "2026-09-28T17:02:00.000Z"
   },
   {
-    "downloads": 386,
+    "downloads": 477,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.316306Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.139277Z",
     "path": "SZLHOLDINGS/uds-bundles-v1",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "797eb62a3d5582e488f7ee73ac0febfaf4194ab7",
+    "sha": "28c14086211944cfc2ceb6ece0f729153b545575",
     "tags": [
       "task_categories:other",
       "language:en",
@@ -992,20 +990,20 @@
       "doi:10.5281/zenodo.19944926"
     ],
     "task": null,
-    "updated_at": "2026-07-22T10:49:50.000Z"
+    "updated_at": "2026-09-28T17:02:01.000Z"
   },
   {
-    "downloads": 710,
+    "downloads": 782,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.315308Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.132408Z",
     "path": "SZLHOLDINGS/uds-governance-receipts",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "e0972fdb8e1e74919a7b77ac056cb5957c22831e",
+    "sha": "b0f2631e8f3ade758acfcd70797096bdc0c5e922",
     "tags": [
       "task_categories:other",
       "language:en",
@@ -1026,31 +1024,29 @@
       "agentic-ai",
       "arxiv:2401.05566",
       "arxiv:2407.11214",
-      "series-a",
-      "anthropic",
       "doctrine-v11",
       "rae-1",
       "uds",
       "receipts",
       "audit-log",
-      "dataset",
+      "slsa-provenance",
       "doi:10.5281/zenodo.19944926"
     ],
     "task": null,
-    "updated_at": "2026-08-31T08:49:03.000Z"
+    "updated_at": "2026-09-28T17:02:01.000Z"
   },
   {
-    "downloads": 518,
+    "downloads": 565,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.315308Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.132408Z",
     "path": "SZLHOLDINGS/uds-spans-receipts",
     "private": false,
     "runtime": null,
     "sdk": null,
-    "sha": "e63d204eaffcbe1cdade71f9ef31905575159300",
+    "sha": "6573c9e3c9cf990e5975a3f19685a083bb962dd3",
     "tags": [
       "task_categories:other",
       "language:en",
@@ -1072,8 +1068,6 @@
       "agentic-ai",
       "arxiv:2401.05566",
       "arxiv:2407.11214",
-      "series-a",
-      "anthropic",
       "doctrine-v11",
       "rae-1",
       "opentelemetry",
@@ -1081,19 +1075,19 @@
       "uds",
       "audit-log",
       "observability",
-      "dataset",
+      "sample",
       "doi:10.5281/zenodo.19944926"
     ],
     "task": null,
-    "updated_at": "2026-08-31T08:49:02.000Z"
+    "updated_at": "2026-09-28T17:02:02.000Z"
   },
   {
-    "downloads": 435,
+    "downloads": 509,
     "gated": false,
     "library_name": null,
     "license": "apache-2.0",
     "likes": 0,
-    "metadata_observed_at": "2026-09-25T15:20:09.315308Z",
+    "metadata_observed_at": "2026-09-29T20:23:02.138262Z",
     "path": "SZLHOLDINGS/why-we-lead",
     "private": false,
     "runtime": null,

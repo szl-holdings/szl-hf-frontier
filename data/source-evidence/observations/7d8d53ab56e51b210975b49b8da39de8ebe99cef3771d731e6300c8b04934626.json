@@ -6,15 +6,15 @@
       "bytes": 7528,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/6940ffa9b6cca5991222cc300d1daf8f590d2a7af2cd717cdb391b32c7f92a1c.md",
-      "revision": "25c12301e2fdcb8876352f6566dc2f4d2c6710fc",
+      "revision": "08b52730ab034a595ecf14f8c47f60b146d90364",
       "sha256": "6940ffa9b6cca5991222cc300d1daf8f590d2a7af2cd717cdb391b32c7f92a1c",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/szl-second-brain/blob/25c12301e2fdcb8876352f6566dc2f4d2c6710fc/README.md"
+      "url": "https://github.com/szl-holdings/szl-second-brain/blob/08b52730ab034a595ecf14f8c47f60b146d90364/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/szl-second-brain",
-  "observed_at": "2026-09-25T15:21:17Z",
-  "observed_revision": "25c12301e2fdcb8876352f6566dc2f4d2c6710fc"
+  "observed_at": "2026-09-29T20:49:51Z",
+  "observed_revision": "08b52730ab034a595ecf14f8c47f60b146d90364"
 }

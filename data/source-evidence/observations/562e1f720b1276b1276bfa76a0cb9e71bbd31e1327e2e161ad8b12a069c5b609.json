@@ -6,15 +6,15 @@
       "bytes": 11285,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/66e3060c3d90baafc039d3b95585126ef7a898f8af2b59f6de805d29629efcc6.md",
-      "revision": "029350a87d4938d13e16661df272a51a339777af",
+      "revision": "2fedb38fc52204a8edb2c7f1c2406796f667096c",
       "sha256": "66e3060c3d90baafc039d3b95585126ef7a898f8af2b59f6de805d29629efcc6",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/uds-bundles/blob/029350a87d4938d13e16661df272a51a339777af/README.md"
+      "url": "https://github.com/szl-holdings/uds-bundles/blob/2fedb38fc52204a8edb2c7f1c2406796f667096c/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/uds-bundles",
-  "observed_at": "2026-09-25T15:21:18Z",
-  "observed_revision": "029350a87d4938d13e16661df272a51a339777af"
+  "observed_at": "2026-09-29T20:49:53Z",
+  "observed_revision": "2fedb38fc52204a8edb2c7f1c2406796f667096c"
 }

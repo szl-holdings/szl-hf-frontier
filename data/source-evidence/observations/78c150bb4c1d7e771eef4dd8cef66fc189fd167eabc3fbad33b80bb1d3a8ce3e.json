@@ -5,22 +5,22 @@
     {
       "bytes": 895,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/bf3cadf75e432eb6fbee415c26b8ae3e74182b752d7ad31cf7e3a14c18c6bb38.json",
-      "revision": "63ea80915ccb663b4aa589cbf2ce52a1dec574fe",
-      "sha256": "bf3cadf75e432eb6fbee415c26b8ae3e74182b752d7ad31cf7e3a14c18c6bb38",
+      "path": "data/source-evidence/blobs/4fbaf572c26cad108b8966ed695fe3a1380b9a56956435466d0e2f122eb2eb58.json",
+      "revision": "8c9d4782b76e55377e00fba249c6938000dca423",
+      "sha256": "4fbaf572c26cad108b8966ed695fe3a1380b9a56956435466d0e2f122eb2eb58",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/models/SZLHOLDINGS/chaski-5050/revision/63ea80915ccb663b4aa589cbf2ce52a1dec574fe"
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/chaski-5050/revision/8c9d4782b76e55377e00fba249c6938000dca423"
     },
     {
       "bytes": 5838,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/5b140eaf64b4fa32fd58880c9f5c3d7a9457c4c3e3b90fc7174489031ee150a2.md",
-      "revision": "63ea80915ccb663b4aa589cbf2ce52a1dec574fe",
+      "revision": "8c9d4782b76e55377e00fba249c6938000dca423",
       "sha256": "5b140eaf64b4fa32fd58880c9f5c3d7a9457c4c3e3b90fc7174489031ee150a2",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://huggingface.co/SZLHOLDINGS/chaski-5050/resolve/63ea80915ccb663b4aa589cbf2ce52a1dec574fe/README.md"
+      "url": "https://huggingface.co/SZLHOLDINGS/chaski-5050/resolve/8c9d4782b76e55377e00fba249c6938000dca423/README.md"
     }
   ],
   "files": [
@@ -52,6 +52,6 @@
     "training_receipt.json"
   ],
   "id": "huggingface-model/szlholdings/chaski-5050",
-  "observed_at": "2026-09-25T15:21:21Z",
-  "observed_revision": "63ea80915ccb663b4aa589cbf2ce52a1dec574fe"
+  "observed_at": "2026-09-29T20:49:58Z",
+  "observed_revision": "8c9d4782b76e55377e00fba249c6938000dca423"
 }

@@ -1,0 +1,25 @@
+{
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "adapter/README.md",
+    "adapter/adapter_config.json",
+    "adapter/adapter_model.safetensors",
+    "bom/model-bom.cdx.json",
+    "chat_template.jinja",
+    "config.json",
+    "eval_receipt.signed.json",
+    "generation_config.json",
+    "model.safetensors",
+    "owner_pubkey.json",
+    "publication.json",
+    "receiptagent.schema.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "training_receipt.signed.json"
+  ],
+  "revision": "904af1413275086c797790c5487a854580feb0de"
+}

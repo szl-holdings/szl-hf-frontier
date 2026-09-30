@@ -1,24 +1,34 @@
 {
-  "card": "",
-  "errors": [
-    "README_NOT_IN_REVISION"
-  ],
+  "card": "---\nlicense: apache-2.0\npretty_name: SZL Holdings \u2014 release assets (UNAVAILABLE, placeholder)\ntags:\n- szl-holdings\n- release-assets\n- placeholder\n- not-a-dataset\ntask_categories:\n- other\nsize_categories:\n- n<1K\nlanguage:\n- en\n---\n\n# SZL Holdings \u2014 release assets\n\n> **Lifecycle: PLACEHOLDER / UNAVAILABLE. Production-ready: false.** At the\n> revision that added this card, the repository contained only `.gitattributes`.\n> No release asset, dataset payload, schema, checksum, or receipt has been\n> published here.\n\nThis Hub ID is reserved for signed release assets (tarballs, checksums, SBOMs,\nattestations) that the estate's release workflows may publish in future. Until\nan asset lands with its own receipt, the honest state of this repository is\n**UNAVAILABLE**: it must not be cited as evidence, downloaded as data, or\ntreated as a release channel.\n\n## Where releases actually live today\n\n| Artifact | Location |\n|---|---|\n| Software releases and attestations | [github.com/szl-holdings](https://github.com/szl-holdings) \u2014 per-repository Releases and `gh attestation verify` |\n| Receipt store | [SZLHOLDINGS/szl-lake](https://huggingface.co/datasets/SZLHOLDINGS/szl-lake) |\n| Model bill of materials | [SZLHOLDINGS/model-bom](https://huggingface.co/datasets/SZLHOLDINGS/model-bom) |\n| Formal-artifact record | [10.5281/zenodo.20434276](https://doi.org/10.5281/zenodo.20434276) |\n\n## Evidence boundary\n\n| Subject | Evidence state | Basis |\n|---|---|---|\n| Repository identity | **OBSERVED** | Authenticated read on 2026-09-25 |\n| Release assets | **UNAVAILABLE** | No data-bearing file exists in the repository |\n| Dataset artifact license | **BLOCKED** | No artifact exists; the `apache-2.0` declaration covers repository-card materials only |\n| Production-ready status | **BLOCKED** | Placeholder only |\n\nGoverned by [SZL Doctrine v11](https://github.com/szl-holdings/.github/blob/main/doctrine/DOCTRINE_V11.md): label down, never up.\n",
+  "errors": [],
   "evidence": [
     {
-      "bytes": 100,
+      "bytes": 132,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/5dfe1a05da5d620941fc6f7bb2f59fe521c41616bf62ff71a8208acef8b09f80.json",
-      "revision": "9125cb983cbeb8dce2d2efe031ec5fadd739d037",
-      "sha256": "5dfe1a05da5d620941fc6f7bb2f59fe521c41616bf62ff71a8208acef8b09f80",
+      "path": "data/source-evidence/blobs/891658957037500ae22088efc5bdca24f3371aafa87fb04a2ee3c170e0988a2f.json",
+      "revision": "a6cabcef1c1a6d2304537f3d36e789b9fca890bd",
+      "sha256": "891658957037500ae22088efc5bdca24f3371aafa87fb04a2ee3c170e0988a2f",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/datasets/SZLHOLDINGS/release-assets/revision/9125cb983cbeb8dce2d2efe031ec5fadd739d037"
+      "url": "https://huggingface.co/api/datasets/SZLHOLDINGS/release-assets/revision/a6cabcef1c1a6d2304537f3d36e789b9fca890bd"
+    },
+    {
+      "bytes": 1946,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/08065d3aab01b40efba0fd678de79cabcfc7eaeea4ae793ffe7e3c03a55b429e.md",
+      "revision": "a6cabcef1c1a6d2304537f3d36e789b9fca890bd",
+      "sha256": "08065d3aab01b40efba0fd678de79cabcfc7eaeea4ae793ffe7e3c03a55b429e",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/datasets/SZLHOLDINGS/release-assets/resolve/a6cabcef1c1a6d2304537f3d36e789b9fca890bd/README.md"
     }
   ],
   "files": [
-    ".gitattributes"
+    ".gitattributes",
+    "LICENSE",
+    "README.md"
   ],
   "id": "huggingface-dataset/szlholdings/release-assets",
-  "observed_at": "2026-09-25T15:21:20Z",
-  "observed_revision": "9125cb983cbeb8dce2d2efe031ec5fadd739d037"
+  "observed_at": "2026-09-29T20:49:56Z",
+  "observed_revision": "a6cabcef1c1a6d2304537f3d36e789b9fca890bd"
 }

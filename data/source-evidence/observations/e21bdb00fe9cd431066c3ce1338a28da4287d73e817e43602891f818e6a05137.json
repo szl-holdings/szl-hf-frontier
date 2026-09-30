@@ -6,15 +6,15 @@
       "bytes": 4746,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/dabd333ecd4120d7741354da8bd881c86e3c3d9f2a1f7ff3e075472f94129dcf.md",
-      "revision": "9ce4e6b5f36fe0b094a07308abe3665cd2a210c1",
+      "revision": "02064f9aa2135c4d8f764d623bc203a0c871c68b",
       "sha256": "dabd333ecd4120d7741354da8bd881c86e3c3d9f2a1f7ff3e075472f94129dcf",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/lyte-services/blob/9ce4e6b5f36fe0b094a07308abe3665cd2a210c1/README.md"
+      "url": "https://github.com/szl-holdings/lyte-services/blob/02064f9aa2135c4d8f764d623bc203a0c871c68b/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/lyte-services",
-  "observed_at": "2026-09-25T15:21:09Z",
-  "observed_revision": "9ce4e6b5f36fe0b094a07308abe3665cd2a210c1"
+  "observed_at": "2026-09-29T20:49:41Z",
+  "observed_revision": "02064f9aa2135c4d8f764d623bc203a0c871c68b"
 }

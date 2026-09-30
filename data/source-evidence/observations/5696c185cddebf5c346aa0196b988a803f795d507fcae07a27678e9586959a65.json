@@ -6,15 +6,15 @@
       "bytes": 1317,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/9a5831cbc280f4b934236404c149ac84f8529b9ee0c426ace3ada37db1cf7358.md",
-      "revision": "7e416471e26816600dbf656f5d5946d8a079dd6b",
+      "revision": "ce4a4cd36abba999de44b774a559b6fe33cf329e",
       "sha256": "9a5831cbc280f4b934236404c149ac84f8529b9ee0c426ace3ada37db1cf7358",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/szl-provctl/blob/7e416471e26816600dbf656f5d5946d8a079dd6b/README.md"
+      "url": "https://github.com/szl-holdings/szl-provctl/blob/ce4a4cd36abba999de44b774a559b6fe33cf329e/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/szl-provctl",
-  "observed_at": "2026-09-25T15:21:16Z",
-  "observed_revision": "7e416471e26816600dbf656f5d5946d8a079dd6b"
+  "observed_at": "2026-09-29T20:49:49Z",
+  "observed_revision": "ce4a4cd36abba999de44b774a559b6fe33cf329e"
 }

@@ -1,0 +1,23 @@
+{
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "agents.md",
+    "app.py",
+    "curriculum.json",
+    "eval_receipt.json",
+    "forge_lab.py",
+    "forge_runtime_contract.py",
+    "index.html",
+    "model_portfolio.json",
+    "requirements.txt",
+    "run_manifest.json",
+    "science_source_ledger.json",
+    "tests/test_runtime_contract.py",
+    "tests/test_static_contract.py",
+    "thesis_formula_index.json",
+    "training_summary.json"
+  ],
+  "revision": "fc96357b7742a582eaad225400096d5db690163a"
+}

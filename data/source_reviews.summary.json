@@ -1,24 +1,25 @@
 {
-  "artifact_count": 226,
+  "artifact_count": 227,
   "authenticated": {
-    "github": false,
-    "huggingface": false
+    "github": true,
+    "huggingface": true
   },
   "by_audit_status": {
     "NEEDS_CANONICAL_MAPPING": 93,
-    "UNAVAILABLE_WITH_REASON": 1,
-    "UNREVIEWED": 132
+    "NEEDS_STATUS_CORRECTION": 1,
+    "UNREVIEWED": 133
   },
   "by_classification": {
     "archived_provenance": 28,
-    "canonical_source": 90,
-    "mirror_distribution": 34,
-    "operational_runtime_surface": 23,
-    "support_artifact": 29,
-    "unresolved": 22
+    "canonical_source": 92,
+    "mirror_distribution": 40,
+    "operational_runtime_surface": 24,
+    "support_artifact": 25,
+    "unresolved": 18
   },
-  "generated_at": "2026-09-25T15:21:43Z",
-  "offline": true,
+  "classifier_sha256": "f2d45d6ba99646f1a61816c095b5e92fcf70f53012c1654053057862fc06246e",
+  "generated_at": "2026-09-29T20:50:07Z",
   "qualified_artifact_count": 0,
+  "resumed_retained_observations": true,
   "review_method": "automated_source_extraction"
 }

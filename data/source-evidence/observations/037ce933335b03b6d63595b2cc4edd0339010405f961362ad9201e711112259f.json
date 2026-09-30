@@ -6,15 +6,15 @@
       "bytes": 1232,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/6feee855ce6ed4edf1c289cce21f9f8204b7e68befc6c711e1d8f820a96ebe6a.md",
-      "revision": "5873409aedef27da507c76273414b9fecc07950d",
+      "revision": "96d520d51ad867ec5e0f62b5063fbe85c17cef7e",
       "sha256": "6feee855ce6ed4edf1c289cce21f9f8204b7e68befc6c711e1d8f820a96ebe6a",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/szl-blocked/blob/5873409aedef27da507c76273414b9fecc07950d/README.md"
+      "url": "https://github.com/szl-holdings/szl-blocked/blob/96d520d51ad867ec5e0f62b5063fbe85c17cef7e/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/szl-blocked",
-  "observed_at": "2026-09-25T15:21:10Z",
-  "observed_revision": "5873409aedef27da507c76273414b9fecc07950d"
+  "observed_at": "2026-09-29T20:49:42Z",
+  "observed_revision": "96d520d51ad867ec5e0f62b5063fbe85c17cef7e"
 }

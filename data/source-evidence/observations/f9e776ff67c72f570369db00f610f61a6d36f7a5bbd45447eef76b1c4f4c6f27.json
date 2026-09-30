@@ -5,22 +5,22 @@
     {
       "bytes": 556,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/f83791cf0d4f2941796d3bbbc39a8749accd0b9085d53666cebb40bd2c110fe6.json",
-      "revision": "6aa234f3cb575b8d1b2122e1c8b4476da122a454",
-      "sha256": "f83791cf0d4f2941796d3bbbc39a8749accd0b9085d53666cebb40bd2c110fe6",
+      "path": "data/source-evidence/blobs/abfca3ab59ad7fbbff0efb98e1f2080128fce61cd568c870166dbee139895920.json",
+      "revision": "003b3762f7cf1a9cd34eab29b2cfe0ac903cc6e8",
+      "sha256": "abfca3ab59ad7fbbff0efb98e1f2080128fce61cd568c870166dbee139895920",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/immune/revision/6aa234f3cb575b8d1b2122e1c8b4476da122a454"
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/immune/revision/003b3762f7cf1a9cd34eab29b2cfe0ac903cc6e8"
     },
     {
       "bytes": 2186,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/299bc85c1000de0bd55dab6d6103cc76620b2db2783f7e2ff0cdb6646c0e31bc.md",
-      "revision": "6aa234f3cb575b8d1b2122e1c8b4476da122a454",
+      "revision": "003b3762f7cf1a9cd34eab29b2cfe0ac903cc6e8",
       "sha256": "299bc85c1000de0bd55dab6d6103cc76620b2db2783f7e2ff0cdb6646c0e31bc",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://huggingface.co/spaces/SZLHOLDINGS/immune/resolve/6aa234f3cb575b8d1b2122e1c8b4476da122a454/README.md"
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/immune/resolve/003b3762f7cf1a9cd34eab29b2cfe0ac903cc6e8/README.md"
     }
   ],
   "files": [
@@ -31,7 +31,7 @@
     "dist/data/immune/ledger.jsonl",
     "dist/hf-deploy-manifest.json",
     "dist/immune-server.js",
-    "dist/public/assets/index--XTcWKAh.js",
+    "dist/public/assets/index-B5MwrSPy.js",
     "dist/public/assets/index-BIQ1ksWp.css",
     "dist/public/favicon.svg",
     "dist/public/index.html",
@@ -41,6 +41,6 @@
     "hf-deploy-manifest.json"
   ],
   "id": "huggingface-space/szlholdings/immune",
-  "observed_at": "2026-09-25T15:21:25Z",
-  "observed_revision": "6aa234f3cb575b8d1b2122e1c8b4476da122a454"
+  "observed_at": "2026-09-29T20:50:04Z",
+  "observed_revision": "003b3762f7cf1a9cd34eab29b2cfe0ac903cc6e8"
 }

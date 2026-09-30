@@ -6,15 +6,15 @@
       "bytes": 7046,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/f6d704ffd36bbbda2cb59ead28a9946646383ed635a5349fb031f4c799a8a43d.md",
-      "revision": "f7cce8e4159432af36c012d5ee5df635b853b36c",
+      "revision": "3860c3cb92cf5dee7f7f15635e878713330b219c",
       "sha256": "f6d704ffd36bbbda2cb59ead28a9946646383ed635a5349fb031f4c799a8a43d",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/szl-nemo/blob/f7cce8e4159432af36c012d5ee5df635b853b36c/README.md"
+      "url": "https://github.com/szl-holdings/szl-nemo/blob/3860c3cb92cf5dee7f7f15635e878713330b219c/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/szl-nemo",
-  "observed_at": "2026-09-25T15:21:15Z",
-  "observed_revision": "f7cce8e4159432af36c012d5ee5df635b853b36c"
+  "observed_at": "2026-09-29T20:49:48Z",
+  "observed_revision": "3860c3cb92cf5dee7f7f15635e878713330b219c"
 }

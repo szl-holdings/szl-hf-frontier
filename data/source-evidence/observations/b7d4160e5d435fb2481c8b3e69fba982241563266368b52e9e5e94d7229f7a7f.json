@@ -52,6 +52,6 @@
     "tests/test_spine.py"
   ],
   "id": "huggingface-model/szlholdings/governed-inference-meter",
-  "observed_at": "2026-09-25T15:21:21Z",
+  "observed_at": "2026-09-29T20:49:58Z",
   "observed_revision": "5049f8ec259a5356d5b8eeaf11b85d3e9c1fea74"
 }
