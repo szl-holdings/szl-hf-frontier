@@ -1,3 +1,3 @@
 # Runtime dependencies. Resolved by SZL frontier v4.1 20260928-221533; required CI decides merge.
 huggingface-hub==2.0.0
-torch>=2.4  # CPU/CUDA wheel chosen by the install index
+torch>=2.4,<3.0  # CPU/CUDA wheel chosen by the install index
