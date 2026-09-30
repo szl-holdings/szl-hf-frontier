@@ -85,6 +85,23 @@ The actual local observation run is retained in
 with seven WO receipts and its detached digest. This is an offline replay receipt,
 not an owner confirmation or evidence of remote execution.
 
+That immutable run was emitted by `tools/frontier1.py` retained at
+`a060b82bc63ac99d4048a2a9e5da0535a3d54e84`, using Python 3.12.14 on Windows.
+The dated public input snapshot was assembled from read-only observations;
+the master and WO receipts were written by the recorder, not manually assembled.
+The producing arguments, from the repository root, were:
+
+```sh
+python -I -B tools/frontier1.py --observations payloads/evidence/frontier1-public-20260930.json --record --output-root payloads/evidence/frontier1-runs --run-id public-observation-20260930
+```
+
+Its executor SHA-256 is
+`d4b9826b2d4f6c20517896168661ebd9866c973605621acd4668f93a0941520f` and its
+master SHA-256 is
+`de53c9f4f5ae07f133f6fe51d9256c14103e6b9a513b13382156c85bcb7005a5`.
+Later source repairs do not rewrite or rebind this historical run. These hashes
+bind bytes; the receipt is not an independent execution attestation.
+
 Symlinks and Windows reparse points in existing ancestors are rejected. Run IDs
 reject traversal, separators, ADS and reserved device names. An exclusive per-run
 directory lock prevents cooperating writers sharing a run ID. Use a locally
@@ -94,6 +111,9 @@ These guards do not replace OS isolation.
 A write/fsync/rename failure does not return a successful recording. Pending
 directories remain for owner inspection; there is no recursive cleanup/deletion.
 CLI failures return seven computed statuses and a fixed finalization error.
+Ordinary handler exceptions and explicit `SystemExit` requests are isolated into
+terminal outcomes. `KeyboardInterrupt` and `GeneratorExit` propagate immediately;
+interrupted planning does not claim a complete run.
 Process termination, power loss, permission loss or exhausted storage can prevent
 any receipt; no finalization is claimed in that case. Abandoned locks require
 owner inspection, not automatic stale-lock removal.

@@ -12,7 +12,6 @@ import os
 import platform
 import re
 import stat
-import sys
 import uuid
 from datetime import datetime, timezone
 from pathlib import Path, PurePosixPath
@@ -320,7 +319,9 @@ def plan(snapshot=None, *, handlers=None, input_error=False):
                 raise Refused("INVALID_HANDLER_RESULT")
             encode(result)
             report["statuses"][wo] = result
-        except BaseException as exc:
+        except (Exception, SystemExit) as exc:
+            # Isolate handler failures, including an explicit exit request.
+            # Cancellation and generator shutdown must propagate to the caller.
             report["statuses"][wo] = outcome("FAIL-CLOSED", str(exc) if isinstance(exc, Refused) else "HANDLER_FAILED")
     report["statuses"]["WO-6"] = wo6({})
     return report

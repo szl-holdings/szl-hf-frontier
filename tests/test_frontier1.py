@@ -1,7 +1,6 @@
 """Synthetic/offline failure, identity, CAS, receipt, path and CI-effect fixtures."""
 import ast
 import copy
-import hashlib
 import importlib.util
 import io
 import json
@@ -9,7 +8,6 @@ import os
 from pathlib import Path
 import socket
 import subprocess
-import sys
 import tempfile
 import unittest
 from contextlib import redirect_stdout
@@ -77,6 +75,25 @@ class PlanTests(unittest.TestCase):
         result = f.plan(snapshot(), handlers=calls)
         self.assertTrue(all(r["status"] in f.TERMINAL for r in result["statuses"].values()))
         self.assertEqual(result["statuses"]["WO-7"]["status"], "FAIL-CLOSED")
+
+    def test_cancellation_propagates_without_later_work_or_completion(self):
+        for signal in (KeyboardInterrupt, GeneratorExit, BaseException):
+            with self.subTest(signal=signal.__name__):
+                visited = []
+
+                def stop(_):
+                    visited.append("WO-1")
+                    raise signal()
+
+                def later(_):
+                    visited.append("LATER")
+                    return f.outcome("DONE", "synthetic")
+
+                calls = {wo: later for wo in f.WOS}
+                calls["WO-1"] = stop
+                with self.assertRaises(signal):
+                    f.plan(snapshot(), handlers=calls)
+                self.assertEqual(visited, ["WO-1"])
 
     def test_unknown_private_or_confirmation_input_is_rejected(self):
         for extra in ("private_metadata", "owner_confirmed", "token", "publish_gate"):
@@ -338,6 +355,12 @@ class CIEffectsTests(unittest.TestCase):
         fixture = ROOT / "payloads/evidence/frontier1-public-20260930.json"
         run = ROOT / "payloads/evidence/frontier1-runs/public-observation-20260930"
         master = f.verify_run(run)
+        # Historic evidence stays byte-identical and bound to its original
+        # executor, even when a successor changes the current source file.
+        self.assertEqual(f.digest((run / "master.json").read_bytes()),
+                         "de53c9f4f5ae07f133f6fe51d9256c14103e6b9a513b13382156c85bcb7005a5")
+        self.assertEqual(master["executor_sha256"],
+                         "d4b9826b2d4f6c20517896168661ebd9866c973605621acd4668f93a0941520f")
         self.assertEqual(master["input_sha256"], f.digest(fixture.read_bytes()))
         self.assertEqual(master["statuses"], f.plan(json.loads(fixture.read_bytes()))["statuses"])
 
