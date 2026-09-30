@@ -1,0 +1,146 @@
+{
+  "done_scope": "canonical_target_existence_and_unarchived_status_at_observed_at",
+  "issues_created": 0,
+  "items": [
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/ouroboros",
+      "status": "DONE",
+      "target": "github:szl-holdings/platform"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/ouroboros",
+      "status": "DONE",
+      "target": "github:szl-holdings/szl-ouroboros"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/szl-cookbook",
+      "status": "DONE",
+      "target": "github:szl-holdings/szl-forge"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/docs-site",
+      "status": "DONE",
+      "target": "github:szl-holdings/a11oy-net"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/lean-kernel",
+      "status": "DONE",
+      "target": "github:szl-holdings/lutar-lean"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/developers",
+      "status": "DONE",
+      "target": "github:szl-holdings/a11oy-net"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/szl-governed-norm",
+      "status": "DONE",
+      "target": "github:szl-holdings/szl-lambda-gate"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/governed-inference-meter",
+      "status": "DONE",
+      "target": "github:szl-holdings/szl-energy-attest"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/szl-formula-ledger",
+      "status": "DONE",
+      "target": "github:szl-holdings/lutar-lean"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/energy-attest-holo",
+      "status": "DONE",
+      "target": "github:szl-holdings/szl-energy-attest"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/governed-norm-holo",
+      "status": "DONE",
+      "target": "github:szl-holdings/szl-lambda-gate"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/lambda-gate-holo",
+      "status": "DONE",
+      "target": "github:szl-holdings/szl-lambda-gate"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/receipt-chain-live",
+      "status": "DONE",
+      "target": "github:szl-holdings/szl-receipt"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/szl-provctl-live",
+      "status": "DONE",
+      "target": "github:szl-holdings/szl-provctl"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/szl-kernels-live",
+      "status": "DONE",
+      "target": "github:szl-holdings/szl-kernels"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/szl-telemetry",
+      "status": "DONE",
+      "target": "github:szl-holdings/szl-substrate"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/szl-organ-integrity",
+      "status": "DONE",
+      "target": "github:szl-holdings/a11oy"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/szl-experiments",
+      "status": "DONE",
+      "target": "github:szl-holdings/a11oy"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/counsel",
+      "status": "DONE",
+      "target": "github:szl-holdings/ayllu"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/khipu-lab",
+      "status": "DONE",
+      "target": "github:szl-holdings/szl-khipu"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/cosmos",
+      "status": "DONE",
+      "target": "github:szl-holdings/anatomy"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/immune-lattice",
+      "status": "DONE",
+      "target": "github:szl-holdings/immune"
+    },
+    {
+      "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+      "source": "github:szl-holdings/khipu-pages",
+      "status": "DONE",
+      "target": "github:szl-holdings/szl-khipu"
+    }
+  ],
+  "note": "DATED_PUBLIC_METADATA_OBSERVATION",
+  "status": "DONE"
+}

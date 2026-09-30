@@ -1,0 +1,540 @@
+{
+  "artifact_sha256": {
+    "wo1.json": "842d9f5fad00425e7b04822d0ef646e5218a95a1c947054ae30e3deae1069362",
+    "wo2.json": "d2ea240894f8d2fa86df8a6cb8b998e0902ffef4ffbf8d508861802c21566e5c",
+    "wo3.json": "00e4ed0ad447146b900584a8ffe08b13db57e3fff3577eb91c65ea703aa2394f",
+    "wo4.json": "635ce4a9bedec72ef8e7ea82b2290bf24393a74b55deb7bb888f2571330f7801",
+    "wo5.json": "2e07da8ba4c868b8a5404e7cc5e7eb5b8f53733950ec10e51602e2242f23f597",
+    "wo6.json": "1db62cb7f030e4c13ae56e4c757a6a81b2ca5347c091c7576939ee58e59a90a4",
+    "wo7.json": "c6cf762a5623a279391d1151ecf1c243b2ba5776a223ad54eb6bab39c86682d0"
+  },
+  "autonomy_eligible": false,
+  "executor_sha256": "d4b9826b2d4f6c20517896168661ebd9866c973605621acd4668f93a0941520f",
+  "input_sha256": "1e5be8a43b2e233f09c49aefac8eb63c178a89c5a13684ccbf161fdd8bfb296d",
+  "inventory_scope": "these seven receipts only; master uses detached digest",
+  "mode": "OBSERVATION_REPLAY",
+  "observed_at": "2026-09-30T13:36:24Z",
+  "owner_evidence": "NOT_VERIFIED",
+  "publication_eligible": false,
+  "publish_gate": "CLOSED",
+  "recorded_at": "2026-09-30T14:02:38+00:00",
+  "remote_mutations": "NONE",
+  "request_sha256": "bd4549cdc1e1ada4d8e7dd237cc24f387dae4dba35428293fee9ba4e166153f3",
+  "run_id": "public-observation-20260930",
+  "runtime": {
+    "os": "Windows",
+    "python": "3.12.14"
+  },
+  "schema": "szl.frontier1.offline-receipt/v1",
+  "source_commit": "1071a3fe96a010f011274d2f820ca5351d0b4eff",
+  "statuses": {
+    "WO-1": {
+      "input_errors": [],
+      "items": [
+        {
+          "card_mutation": "NONE",
+          "checkpoint_candidates": [
+            {
+              "bytes": 3412002208,
+              "content_hash_status": "NOT_READ",
+              "path": "salvaged-merge/model.safetensors"
+            }
+          ],
+          "expected_parent": "9f71de39861898e752602a2332ef7ca1e0df87a7",
+          "identity": "model:SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v2",
+          "note": "STAGED_METADATA_REQUIRES_ARTIFACT_OWNER",
+          "qualification": "NOT_ESTABLISHED",
+          "revision": "9f71de39861898e752602a2332ef7ca1e0df87a7",
+          "status": "OWNER-PENDING"
+        },
+        {
+          "card_mutation": "NONE",
+          "checkpoint_candidates": [
+            {
+              "bytes": 3009613624,
+              "content_hash_status": "NOT_READ",
+              "path": "model.safetensors"
+            }
+          ],
+          "expected_parent": "910343a2293f6bee8cc6e23f6cd16a981b92a155",
+          "identity": "model:SZLHOLDINGS/szl-receiptagent-qwen35-0.8b-v3",
+          "note": "STAGED_METADATA_REQUIRES_ARTIFACT_OWNER",
+          "qualification": "NOT_ESTABLISHED",
+          "revision": "910343a2293f6bee8cc6e23f6cd16a981b92a155",
+          "status": "OWNER-PENDING"
+        },
+        {
+          "card_mutation": "NONE",
+          "checkpoint_candidates": [
+            {
+              "bytes": 3009613624,
+              "content_hash_status": "NOT_READ",
+              "path": "model.safetensors"
+            }
+          ],
+          "expected_parent": "90af1d3c2d3e79e60d8e1c82fa99a723e6888b90",
+          "identity": "model:SZLHOLDINGS/khipu-r3",
+          "note": "STAGED_METADATA_REQUIRES_ARTIFACT_OWNER",
+          "qualification": "NOT_ESTABLISHED",
+          "revision": "90af1d3c2d3e79e60d8e1c82fa99a723e6888b90",
+          "status": "OWNER-PENDING"
+        },
+        {
+          "card_mutation": "NONE",
+          "checkpoint_candidates": [
+            {
+              "bytes": 3009613624,
+              "content_hash_status": "NOT_READ",
+              "path": "model.safetensors"
+            }
+          ],
+          "expected_parent": "a5fbffcccabcc77ae87bf3740358a02f91a7c27b",
+          "identity": "model:SZLHOLDINGS/chaski-r2",
+          "note": "STAGED_METADATA_REQUIRES_ARTIFACT_OWNER",
+          "qualification": "NOT_ESTABLISHED",
+          "revision": "a5fbffcccabcc77ae87bf3740358a02f91a7c27b",
+          "status": "OWNER-PENDING"
+        },
+        {
+          "card_mutation": "NONE",
+          "checkpoint_candidates": [
+            {
+              "bytes": 3009613624,
+              "content_hash_status": "NOT_READ",
+              "path": "model.safetensors"
+            }
+          ],
+          "expected_parent": "8c9d4782b76e55377e00fba249c6938000dca423",
+          "identity": "model:SZLHOLDINGS/chaski-5050",
+          "note": "STAGED_METADATA_REQUIRES_ARTIFACT_OWNER",
+          "qualification": "NOT_ESTABLISHED",
+          "revision": "8c9d4782b76e55377e00fba249c6938000dca423",
+          "status": "OWNER-PENDING"
+        },
+        {
+          "card_mutation": "NONE",
+          "checkpoint_candidates": [
+            {
+              "bytes": 3009613624,
+              "content_hash_status": "NOT_READ",
+              "path": "model.safetensors"
+            }
+          ],
+          "expected_parent": "7fe3872fcb78ec8f5cc2f0c7464538b50b34e4b2",
+          "identity": "model:SZLHOLDINGS/brain-navigator-r2",
+          "note": "STAGED_METADATA_REQUIRES_ARTIFACT_OWNER",
+          "qualification": "NOT_ESTABLISHED",
+          "revision": "7fe3872fcb78ec8f5cc2f0c7464538b50b34e4b2",
+          "status": "OWNER-PENDING"
+        },
+        {
+          "card_mutation": "NONE",
+          "checkpoint_candidates": [
+            {
+              "bytes": 6174895536,
+              "content_hash_status": "NOT_READ",
+              "path": "model.safetensors"
+            }
+          ],
+          "expected_parent": "9fc2f7bebeaf4b3d6d26f7a2a1788a27f8c9ed52",
+          "identity": "model:SZLHOLDINGS/KHIPU-R2",
+          "note": "STAGED_METADATA_REQUIRES_ARTIFACT_OWNER",
+          "qualification": "NOT_ESTABLISHED",
+          "revision": "9fc2f7bebeaf4b3d6d26f7a2a1788a27f8c9ed52",
+          "status": "OWNER-PENDING"
+        },
+        {
+          "card_mutation": "NONE",
+          "checkpoint_candidates": [
+            {
+              "bytes": 1976163472,
+              "content_hash_status": "NOT_READ",
+              "path": "model.safetensors"
+            }
+          ],
+          "expected_parent": "e04bd728f20857c75e7c831d19d7190affd29133",
+          "identity": "model:SZLHOLDINGS/WILLAY",
+          "note": "STAGED_METADATA_REQUIRES_ARTIFACT_OWNER",
+          "qualification": "NOT_ESTABLISHED",
+          "revision": "e04bd728f20857c75e7c831d19d7190affd29133",
+          "status": "OWNER-PENDING"
+        }
+      ],
+      "note": "OBSERVATIONS_ONLY_NO_REMOTE_CHANGES",
+      "status": "OWNER-PENDING"
+    },
+    "WO-2": {
+      "input_errors": [],
+      "items": [
+        {
+          "annotation": "NOT_WRITTEN",
+          "content_hashes": "NOT_READ",
+          "deletion": "FORBIDDEN",
+          "files": [
+            {
+              "bytes": 1519,
+              "content_hash_status": "NOT_READ",
+              "path": ".gitattributes"
+            },
+            {
+              "bytes": 2842,
+              "content_hash_status": "NOT_READ",
+              "path": "README.md"
+            },
+            {
+              "bytes": 2770,
+              "content_hash_status": "NOT_READ",
+              "path": "bom/model-bom.cdx.json"
+            },
+            {
+              "bytes": 2714,
+              "content_hash_status": "NOT_READ",
+              "path": "provenance.json"
+            },
+            {
+              "bytes": 1626,
+              "content_hash_status": "NOT_READ",
+              "path": "status.json"
+            }
+          ],
+          "identity": "model:SZLHOLDINGS/SZLHOLDINGS",
+          "note": "PRESERVE_EXISTING_INFORMATIONAL_PURPOSE",
+          "purpose": "HISTORICAL_PROFILE",
+          "revision": "32fa1ca46f913a669174fbcad7cca46d983bf5fc",
+          "status": "OWNER-PENDING"
+        },
+        {
+          "annotation": "NOT_WRITTEN",
+          "content_hashes": "NOT_READ",
+          "deletion": "FORBIDDEN",
+          "files": [
+            {
+              "bytes": 2504,
+              "content_hash_status": "NOT_READ",
+              "path": ".gitattributes"
+            },
+            {
+              "bytes": 11357,
+              "content_hash_status": "NOT_READ",
+              "path": "LICENSE"
+            },
+            {
+              "bytes": 29653,
+              "content_hash_status": "NOT_READ",
+              "path": "PROMOTION_READINESS_AUDIT.json"
+            },
+            {
+              "bytes": 4349,
+              "content_hash_status": "NOT_READ",
+              "path": "README.md"
+            },
+            {
+              "bytes": 679,
+              "content_hash_status": "NOT_READ",
+              "path": "SZL_ESTATE_MANAGED.json"
+            },
+            {
+              "bytes": 3542,
+              "content_hash_status": "NOT_READ",
+              "path": "provenance.json"
+            },
+            {
+              "bytes": 2125,
+              "content_hash_status": "NOT_READ",
+              "path": "status.json"
+            }
+          ],
+          "identity": "dataset:SZLHOLDINGS/SZLHOLDINGS",
+          "note": "PRESERVE_EXISTING_INFORMATIONAL_PURPOSE",
+          "purpose": "INFORMATIONAL_METADATA",
+          "revision": "7a6cce17710bf47b9e5a64e0b1be43d1276733ef",
+          "status": "OWNER-PENDING"
+        },
+        {
+          "annotation": "NOT_WRITTEN",
+          "content_hashes": "NOT_READ",
+          "deletion": "FORBIDDEN",
+          "files": [
+            {
+              "bytes": 141,
+              "content_hash_status": "NOT_READ",
+              "path": ".gitattributes"
+            },
+            {
+              "bytes": 2185,
+              "content_hash_status": "NOT_READ",
+              "path": "GOVERNANCE.md"
+            },
+            {
+              "bytes": 3338,
+              "content_hash_status": "NOT_READ",
+              "path": "HONEST_DISCLOSURE.md"
+            },
+            {
+              "bytes": 390,
+              "content_hash_status": "NOT_READ",
+              "path": "MODELS.txt"
+            },
+            {
+              "bytes": 5031,
+              "content_hash_status": "NOT_READ",
+              "path": "README.md"
+            },
+            {
+              "bytes": 2293,
+              "content_hash_status": "NOT_READ",
+              "path": "SEVEN_SPACES.md"
+            },
+            {
+              "bytes": 1697,
+              "content_hash_status": "NOT_READ",
+              "path": "SPACE_PROVENANCE_FRONTIER.json"
+            },
+            {
+              "bytes": 2132,
+              "content_hash_status": "NOT_READ",
+              "path": "assets/estate-banner-v2.svg"
+            },
+            {
+              "bytes": 10174,
+              "content_hash_status": "NOT_READ",
+              "path": "assets/estate-command-system.svg"
+            },
+            {
+              "bytes": 115942,
+              "content_hash_status": "NOT_READ",
+              "path": "assets/evidence-lattice-v2.webp"
+            },
+            {
+              "bytes": 1198,
+              "content_hash_status": "NOT_READ",
+              "path": "assets/hf-card-command.svg"
+            },
+            {
+              "bytes": 1152,
+              "content_hash_status": "NOT_READ",
+              "path": "assets/hf-card-evidence.svg"
+            },
+            {
+              "bytes": 1195,
+              "content_hash_status": "NOT_READ",
+              "path": "assets/hf-card-intelligence.svg"
+            },
+            {
+              "bytes": 1101,
+              "content_hash_status": "NOT_READ",
+              "path": "assets/hf-card-models.svg"
+            },
+            {
+              "bytes": 5814,
+              "content_hash_status": "NOT_READ",
+              "path": "assets/hf-portfolio-map.svg"
+            },
+            {
+              "bytes": 2698,
+              "content_hash_status": "NOT_READ",
+              "path": "deployment.json"
+            },
+            {
+              "bytes": 9640,
+              "content_hash_status": "NOT_READ",
+              "path": "estate-alignment.json"
+            },
+            {
+              "bytes": 52769,
+              "content_hash_status": "NOT_READ",
+              "path": "index.html"
+            },
+            {
+              "bytes": 1613,
+              "content_hash_status": "NOT_READ",
+              "path": "seven-spaces.yaml"
+            }
+          ],
+          "identity": "space:SZLHOLDINGS/README",
+          "note": "PRESERVE_EXISTING_INFORMATIONAL_PURPOSE",
+          "purpose": "ORG_NAVIGATION",
+          "revision": "69aaaaac3863db8d6f2e525034bc5ec3c1dae328",
+          "status": "OWNER-PENDING"
+        }
+      ],
+      "note": "OBSERVATIONS_ONLY_NO_REMOTE_CHANGES",
+      "status": "OWNER-PENDING"
+    },
+    "WO-3": {
+      "hardware": "NOT_PROBED",
+      "held_out_evaluation": "NOT_RUN",
+      "note": "COMPUTE_EXECUTION_EXCLUDED_FROM_THIS_RUNNER",
+      "publication_eligible": false,
+      "scheduled_job": "NONE",
+      "status": "UNAVAILABLE",
+      "training": "NOT_RUN"
+    },
+    "WO-4": {
+      "done_scope": "canonical_target_existence_and_unarchived_status_at_observed_at",
+      "issues_created": 0,
+      "items": [
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/ouroboros",
+          "status": "DONE",
+          "target": "github:szl-holdings/platform"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/ouroboros",
+          "status": "DONE",
+          "target": "github:szl-holdings/szl-ouroboros"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/szl-cookbook",
+          "status": "DONE",
+          "target": "github:szl-holdings/szl-forge"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/docs-site",
+          "status": "DONE",
+          "target": "github:szl-holdings/a11oy-net"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/lean-kernel",
+          "status": "DONE",
+          "target": "github:szl-holdings/lutar-lean"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/developers",
+          "status": "DONE",
+          "target": "github:szl-holdings/a11oy-net"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/szl-governed-norm",
+          "status": "DONE",
+          "target": "github:szl-holdings/szl-lambda-gate"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/governed-inference-meter",
+          "status": "DONE",
+          "target": "github:szl-holdings/szl-energy-attest"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/szl-formula-ledger",
+          "status": "DONE",
+          "target": "github:szl-holdings/lutar-lean"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/energy-attest-holo",
+          "status": "DONE",
+          "target": "github:szl-holdings/szl-energy-attest"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/governed-norm-holo",
+          "status": "DONE",
+          "target": "github:szl-holdings/szl-lambda-gate"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/lambda-gate-holo",
+          "status": "DONE",
+          "target": "github:szl-holdings/szl-lambda-gate"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/receipt-chain-live",
+          "status": "DONE",
+          "target": "github:szl-holdings/szl-receipt"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/szl-provctl-live",
+          "status": "DONE",
+          "target": "github:szl-holdings/szl-provctl"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/szl-kernels-live",
+          "status": "DONE",
+          "target": "github:szl-holdings/szl-kernels"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/szl-telemetry",
+          "status": "DONE",
+          "target": "github:szl-holdings/szl-substrate"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/szl-organ-integrity",
+          "status": "DONE",
+          "target": "github:szl-holdings/a11oy"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/szl-experiments",
+          "status": "DONE",
+          "target": "github:szl-holdings/a11oy"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/counsel",
+          "status": "DONE",
+          "target": "github:szl-holdings/ayllu"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/khipu-lab",
+          "status": "DONE",
+          "target": "github:szl-holdings/szl-khipu"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/cosmos",
+          "status": "DONE",
+          "target": "github:szl-holdings/anatomy"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/immune-lattice",
+          "status": "DONE",
+          "target": "github:szl-holdings/immune"
+        },
+        {
+          "note": "DATED_TARGET_EXISTS_UNARCHIVED",
+          "source": "github:szl-holdings/khipu-pages",
+          "status": "DONE",
+          "target": "github:szl-holdings/szl-khipu"
+        }
+      ],
+      "note": "DATED_PUBLIC_METADATA_OBSERVATION",
+      "status": "DONE"
+    },
+    "WO-5": {
+      "note": "PRIVATE_METADATA_EXCLUDED_USE_OWNER_CONTROLLED_CHANNEL",
+      "private_metadata": "NOT_READ",
+      "status": "OWNER-PENDING",
+      "visibility_changes": "NONE"
+    },
+    "WO-6": {
+      "credential_operations": "NONE",
+      "note": "AUTHENTIC_OWNER_EVIDENCE_NOT_VERIFIED",
+      "publish_gate": "CLOSED",
+      "status": "OWNER-PENDING"
+    },
+    "WO-7": {
+      "done_scope": "dated_existing_deprecation_banner_with_specific_canonical_target",
+      "identity": "model:SZLHOLDINGS/governed-inference-meter",
+      "note": "EXISTING_BANNER_PRESERVED_NO_EDIT",
+      "readme_sha256": "4176da5b9de28db7d9f79c671826b59dcfc9d8fae837057d9124f19066c6623b",
+      "revision": "5049f8ec259a5356d5b8eeaf11b85d3e9c1fea74",
+      "status": "DONE"
+    }
+  }
+}

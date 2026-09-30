@@ -1,0 +1,440 @@
+{
+  "schema": "szl.domain-readback.v1",
+  "observation_window_utc": {
+    "start": "2026-09-29T21:14:00Z",
+    "end": "2026-09-29T21:23:29Z"
+  },
+  "purpose": "Read-only current public domain/provider identity evidence, not a publication or readiness receipt",
+  "request_policy": {
+    "method": "GET",
+    "remote_mutations": false,
+    "requests_sent": 14,
+    "max_requests": 14,
+    "automatic_redirect_following": false,
+    "redirect_policy": "Only two observed same-origin trailing-slash redirects were requested manually",
+    "browser_observation": false,
+    "credentials_read": false,
+    "accept_encoding": "identity",
+    "socket_timeout_seconds_initial": 10,
+    "socket_timeout_seconds_followup": 15,
+    "hard_child_process_timeout_seconds_initial": 18,
+    "hard_child_process_timeout_seconds_followup": 24,
+    "byte_caps": {
+      "initial": 98304,
+      "followup_domain": 65536,
+      "complete_registry_root": 196608,
+      "provider_api": 262144
+    },
+    "arbitrary_response_links_followed": false,
+    "public_runtime_origin_request": "Final GET to mapped origin /api/build-info was explicitly authorized by parent after actual provider custom-domain mapping was observed."
+  },
+  "interpretation": {
+    "canonical_github_source_revision": "599d3a4783fe2816a7c5cf15a819453d5cb6c264",
+    "hf_content_revision": "8d20317b43d337e3278e893878504fda572ef20f",
+    "hf_runtime_revision_reported": "8d20317b43d337e3278e893878504fda572ef20f",
+    "hf_reported_runtime_stage": "RUNNING",
+    "hf_content_revision_is_github_source_revision": false,
+    "product_domain_reachability": "NOT_OBSERVED_WITHIN_BOUNDED_REQUESTS",
+    "proof_registry_root_reachability": "HTTP_200_HTML_OBSERVED_ONLY",
+    "exact_runtime_source_identity": "ENV_REPORTED_EXACT_GITHUB_REVISION_OBSERVED_AT_MAPPED_HF_ORIGIN",
+    "functional_readiness": "NOT_PROBED_OR_PROVEN",
+    "public_space_domain_mapping": "Provider API runtime.domains explicitly maps a-11-oy.com to SZLHOLDINGS/a11oy; registry HTML explicitly lists the same Space.",
+    "limitations": [
+      "Timeouts are observations from this machine/network and are not proof of universal outage.",
+      "HF RUNNING/READY is provider-reported status; it does not prove application routes, source parity, inferencing or receipt persistence.",
+      "A11oy.net build-info and readyz paths are static explanatory HTML, not product runtime health JSON.",
+      "Raw evidence is compact response prefixes and selected exact excerpts with digest scope recorded; full HTML/API payloads are not retained except the complete final 415-byte runtime build-info JSON.",
+      "No browser automation or browser-visible CORS observation was performed.",
+      "build.revision is an observed environment-reported GitHub SHA; it is not by itself immutable file parity or an attestation of all executable/container bytes."
+    ],
+    "canonical_github_source_evidence": "Parent independently read authenticated canonical GitHub A11oy current main and verified commit metadata. This child did not repeat that GitHub GET.",
+    "runtime_github_revision_observed": "599d3a4783fe2816a7c5cf15a819453d5cb6c264",
+    "runtime_github_revision_source": "env:SZL_GIT_SHA",
+    "runtime_revision_matches_independent_github_main": true,
+    "immutable_artifact_byte_parity": "NOT_PROVEN_BY_THIS_READBACK",
+    "product_custom_domain_runtime_identity": "NOT_OBSERVED_DUE_TO_BOUNDED_READ_TIMEOUTS",
+    "static_publication_identity_links": "NOT_EXHAUSTIVELY_ASSESSED: complete root bytes were read for a digest and HF mapping extraction, but only compact prefixes and selected excerpts were retained; no additional GET was made to recover the full body."
+  },
+  "responses": [
+    {
+      "requested_url": "https://a-11-oy.com/",
+      "observed_at_utc": "2026-09-29T21:14:00.671650+00:00",
+      "method": "GET",
+      "follow_redirects": false,
+      "byte_cap": 98304,
+      "hard_process_timeout_seconds": 18,
+      "error": "TimeoutError: The read operation timed out",
+      "response_url": null,
+      "status": null,
+      "source_fields": null
+    },
+    {
+      "requested_url": "https://a-11-oy.com/api/build-info",
+      "observed_at_utc": "2026-09-29T21:14:00.713968+00:00",
+      "method": "GET",
+      "follow_redirects": false,
+      "byte_cap": 98304,
+      "hard_process_timeout_seconds": 18,
+      "error": "TimeoutError: The read operation timed out",
+      "response_url": null,
+      "status": null,
+      "source_fields": null
+    },
+    {
+      "requested_url": "https://a-11-oy.com/readyz",
+      "observed_at_utc": "2026-09-29T21:14:00.653086+00:00",
+      "method": "GET",
+      "follow_redirects": false,
+      "byte_cap": 98304,
+      "hard_process_timeout_seconds": 18,
+      "error": "TimeoutError: The read operation timed out",
+      "response_url": null,
+      "status": null,
+      "source_fields": null
+    },
+    {
+      "requested_url": "https://a-11-oy.com/deployment.json",
+      "observed_at_utc": "2026-09-29T21:14:01.250843+00:00",
+      "method": "GET",
+      "follow_redirects": false,
+      "byte_cap": 98304,
+      "hard_process_timeout_seconds": 18,
+      "error": "TimeoutError: The read operation timed out",
+      "response_url": null,
+      "status": null,
+      "source_fields": null
+    },
+    {
+      "requested_url": "https://a11oy.net/",
+      "observed_at_utc": "2026-09-29T21:14:01.494470+00:00",
+      "method": "GET",
+      "follow_redirects": false,
+      "byte_cap": 98304,
+      "hard_process_timeout_seconds": 18,
+      "status": 200,
+      "response_url": "https://a11oy.net/",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "server": "cloudflare",
+        "last-modified": "Tue, 29 Sep 2026 15:36:59 GMT",
+        "cf-ray": "a42dfecefb2a43a7-EWR"
+      },
+      "observed_body_bytes": 98304,
+      "body_exceeded_cap": true,
+      "observed_body_sha256": "ad0a2e0e0218d0169a4187a6687861055254ee08764fbbb989e7db661329c97d",
+      "digest_scope": "capped_prefix",
+      "raw_body_prefix": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, viewport-fit=cover\" />",
+      "exact_body_excerpts": [
+        "<title>a11oy Proof Registry | SZL Holdings</title>",
+        "RECORD on a11oy.net: Hub atlas and ROADMAP live here. Inspect receipts, diligence, and public-estate metadata without cloning the product verifier."
+      ],
+      "classification": "ROOT_REACHABILITY_ONLY"
+    },
+    {
+      "requested_url": "https://a11oy.net/api/build-info",
+      "observed_at_utc": "2026-09-29T21:14:02.123719+00:00",
+      "method": "GET",
+      "follow_redirects": false,
+      "byte_cap": 98304,
+      "hard_process_timeout_seconds": 18,
+      "status": 301,
+      "response_url": "https://a11oy.net/api/build-info",
+      "headers": {
+        "content-type": "text/html",
+        "server": "cloudflare",
+        "location": "https://a11oy.net/api/build-info/",
+        "cf-ray": "a42dfed2c8c03788-EWR"
+      },
+      "observed_body_bytes": 529,
+      "body_exceeded_cap": false,
+      "observed_body_sha256": "868ff6e47fb635c42cc2a29de700aad1534dc7a78155b6182dea6812bf77372c",
+      "digest_scope": "complete_response_body",
+      "raw_body_prefix": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>nginx</center>\r\n",
+      "classification": "REDIRECT_NO_RUNTIME_IDENTITY"
+    },
+    {
+      "requested_url": "https://a11oy.net/readyz",
+      "observed_at_utc": "2026-09-29T21:14:01.737870+00:00",
+      "method": "GET",
+      "follow_redirects": false,
+      "byte_cap": 98304,
+      "hard_process_timeout_seconds": 18,
+      "status": 301,
+      "response_url": "https://a11oy.net/readyz",
+      "headers": {
+        "content-type": "text/html",
+        "server": "cloudflare",
+        "location": "https://a11oy.net/readyz/",
+        "cf-ray": "a42dfed04d2b26f1-EWR"
+      },
+      "observed_body_bytes": 529,
+      "body_exceeded_cap": false,
+      "observed_body_sha256": "868ff6e47fb635c42cc2a29de700aad1534dc7a78155b6182dea6812bf77372c",
+      "digest_scope": "complete_response_body",
+      "raw_body_prefix": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>nginx</center>\r\n",
+      "classification": "REDIRECT_NO_RUNTIME_IDENTITY"
+    },
+    {
+      "requested_url": "https://a11oy.net/deployment.json",
+      "observed_at_utc": "2026-09-29T21:14:02.139286+00:00",
+      "method": "GET",
+      "follow_redirects": false,
+      "byte_cap": 98304,
+      "hard_process_timeout_seconds": 18,
+      "status": 404,
+      "response_url": "https://a11oy.net/deployment.json",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "server": "cloudflare",
+        "cf-ray": "a42dfed2cc42c54d-EWR"
+      },
+      "observed_body_bytes": 3621,
+      "body_exceeded_cap": false,
+      "observed_body_sha256": "fc98b83b1efc938fd3fe9c75787913157453f71c037942156355da08bfab5211",
+      "digest_scope": "complete_response_body",
+      "raw_body_prefix": "<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />",
+      "exact_body_excerpts": [
+        "<title>Evidence path not found | A11oy.net</title>",
+        "<h1>This route is not part of the public record.</h1>",
+        "<b>No substitute claim or redirect has been invented.</b>"
+      ],
+      "classification": "HTML_404_NO_DEPLOYMENT_MANIFEST"
+    },
+    {
+      "requested_url": "https://a11oy.net/",
+      "observed_at_utc": "2026-09-29T21:16:01.362191+00:00",
+      "method": "GET",
+      "follow_redirects": false,
+      "byte_cap": 196608,
+      "hard_process_timeout_seconds": 24,
+      "status": 200,
+      "response_url": "https://a11oy.net/",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "server": "cloudflare",
+        "last-modified": "Tue, 29 Sep 2026 15:36:59 GMT",
+        "cf-ray": "a42e01bb59d4c647-EWR"
+      },
+      "observed_body_bytes": 119406,
+      "body_exceeded_cap": false,
+      "observed_body_sha256": "24184274c0406127c3a585d1816570477000886daf512f943a7b39870f7fce33",
+      "digest_scope": "complete_response_body",
+      "raw_body_prefix": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, viewport-fit=cover\" />",
+      "exact_mapping_excerpts": [
+        "<a class=\"stack-card\" href=\"https://huggingface.co/spaces/SZLHOLDINGS/a11oy\" target=\"_blank\" rel=\"noopener\"><div class=\"stack-top\"><span class=\"stack-kind\">CONTROL PLANE</span><span class=\"stack-truth\">REPORTED</span></div><h3>a11oy command surface</h3>",
+        "<li><a class=\"live is-empty\" data-empty-kind=\"unavailable\" data-space=\"SZLHOLDINGS/a11oy\" data-api=\"https://huggingface.co/api/spaces/SZLHOLDINGS/a11oy\" href=\"https://huggingface.co/spaces/SZLHOLDINGS/a11oy\" target=\"_blank\" rel=\"noopener\">",
+        "<span class=\"st\" data-state=\"unavailable\">NOT OBSERVED · UNAVAILABLE</span>"
+      ],
+      "classification": "ROOT_REACHABILITY_ONLY_PLUS_EXPLICIT_SPACE_LISTING"
+    },
+    {
+      "requested_url": "https://a11oy.net/api/build-info/",
+      "observed_at_utc": "2026-09-29T21:16:00.798804+00:00",
+      "method": "GET",
+      "follow_redirects": false,
+      "byte_cap": 65536,
+      "hard_process_timeout_seconds": 24,
+      "status": 200,
+      "response_url": "https://a11oy.net/api/build-info/",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "server": "cloudflare",
+        "last-modified": "Tue, 29 Sep 2026 15:36:59 GMT",
+        "cf-ray": "a42e01b7dbd0247e-EWR"
+      },
+      "observed_body_bytes": 4157,
+      "body_exceeded_cap": false,
+      "observed_body_sha256": "9e896de87597657f3e1f3bd9e7ba914500e1493b2bae5522f4ea666c763792ef",
+      "digest_scope": "complete_response_body",
+      "raw_body_prefix": "<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />",
+      "exact_body_excerpts": [
+        "<title>A11oy.net /api/build-info — Static Surface Scope</title>",
+        "<pre aria-label=\"Static build-info contract\"><code>{\n  \"site\": \"a11oy.net\",\n  \"surface\": \"public evidence front door\",\n  \"artifact_kind\": \"static\",\n  \"status\": \"PARTIAL\",\n  \"",
+        "    \"immutable_build_identity\": \"NOT_CLAIMED\",\n    \"source_revision\": \"NOT_PUBLISHED_BY_THIS_ROUTE\"\n  },\n  \"product_runtime_truth\": \"NOT_IMPLIED\",\n  \"runtime_source\": \"https://a-11-oy.com/api/a11oy/v1/honest\""
+      ],
+      "observed_literal_fields": {
+        "artifact_kind": "static",
+        "status": "PARTIAL",
+        "immutable_build_identity": "NOT_CLAIMED",
+        "source_revision": "NOT_PUBLISHED_BY_THIS_ROUTE",
+        "product_runtime_truth": "NOT_IMPLIED",
+        "runtime_source": "https://a-11-oy.com/api/a11oy/v1/honest"
+      },
+      "classification": "STATIC_SCOPE_HTML_NO_RUNTIME_IDENTITY"
+    },
+    {
+      "requested_url": "https://a11oy.net/readyz/",
+      "observed_at_utc": "2026-09-29T21:16:01.220675+00:00",
+      "method": "GET",
+      "follow_redirects": false,
+      "byte_cap": 65536,
+      "hard_process_timeout_seconds": 24,
+      "status": 200,
+      "response_url": "https://a11oy.net/readyz/",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "server": "cloudflare",
+        "last-modified": "Tue, 29 Sep 2026 15:36:59 GMT",
+        "cf-ray": "a42e01baeb193788-EWR"
+      },
+      "observed_body_bytes": 5022,
+      "body_exceeded_cap": false,
+      "observed_body_sha256": "1608f927a9bcbec9ad9821473574f4118fa40877071d977f89ea3adf789ddc72",
+      "digest_scope": "complete_response_body",
+      "raw_body_prefix": "<!doctype html>\n<!--\n  Plain-language note for anyone reading the source:\n\n  This folder exists because some scanners look for /readyz.\n  GitHub Pages treats folders as directories. Asking for /readyz\n  often gets a 301 redirect to /readyz/, which is this HTML page —\n  not a JSON health check. That is expected. It is not a live\n  heartbeat and not proof that the product is up.\n",
+      "exact_body_excerpts": [
+        "The only health document on this origin is /health.json — a\n  static JSON file we committed. It does not measure uptime and\n  does not claim DSSE-LIVE. There is no process to ping on GitHub\n  Pages."
+      ],
+      "classification": "STATIC_EXPLANATORY_HTML_NO_FUNCTIONAL_READINESS"
+    },
+    {
+      "requested_url": "https://a-11-oy.com/api/build-info",
+      "observed_at_utc": "2026-09-29T21:16:00.811477+00:00",
+      "method": "GET",
+      "follow_redirects": false,
+      "byte_cap": 65536,
+      "hard_process_timeout_seconds": 24,
+      "error": "TimeoutError: The read operation timed out",
+      "response_url": null,
+      "status": null,
+      "source_fields": null
+    },
+    {
+      "requested_url": "https://huggingface.co/api/spaces/SZLHOLDINGS/a11oy",
+      "observed_at_utc": "2026-09-29T21:19:24.811095+00:00",
+      "method": "GET",
+      "follow_redirects": false,
+      "byte_cap": 262144,
+      "hard_process_timeout_seconds": 24,
+      "status": 200,
+      "response_url": "https://huggingface.co/api/spaces/SZLHOLDINGS/a11oy",
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "99328",
+        "etag": "W/\"18400-wQl00xCZTBrAmUbwNPQNizUQi0Q\"",
+        "x-request-id": "Root=1-6abc2b5f-1a28d00a08a975a827582848"
+      },
+      "observed_body_bytes": 99328,
+      "body_exceeded_cap": false,
+      "observed_body_sha256": "9b29d592fad9f150380c6835342dc2d0a8a58618ac2fe5c780d5ade5cf17fdea",
+      "digest_scope": "complete_response_body",
+      "raw_body_prefix": "{\"_id\":\"6a20a3695851ed1f03ff8d99\",\"id\":\"SZLHOLDINGS/a11oy\",\"sdk\":\"docker\",\"likes\":1,\"tags\":[\"docker\",\"governance\",\"agentic-ai\",\"doctrine-v11\",\"a11oy\",\"slsa-l1\",\"apache-2.0\",\"region:us\"],\"private\":false,\"author\":\"SZLHOLDINGS\",\"sha\":\"8d20317b43d337e3278e893878504fda572ef20f\",\"lastModified\":\"2026-09-29T21:03:31.000Z\"",
+      "public_api_identity": {
+        "id": "SZLHOLDINGS/a11oy",
+        "sha": "8d20317b43d337e3278e893878504fda572ef20f",
+        "private": false,
+        "sdk": "docker",
+        "lastModified": "2026-09-29T21:03:31.000Z",
+        "subdomain": "szlholdings-a11oy",
+        "disabled": false,
+        "host": "https://szlholdings-a11oy.hf.space",
+        "runtime": {
+          "stage": "RUNNING",
+          "hardware": {
+            "current": "cpu-basic",
+            "requested": "cpu-basic"
+          },
+          "gcTimeout": 172800,
+          "replicas": {
+            "current": 1,
+            "requested": 1
+          },
+          "devMode": false,
+          "domains": [
+            {
+              "domain": "szlholdings-a11oy.hf.space",
+              "stage": "READY"
+            },
+            {
+              "domain": "a-11-oy.com",
+              "stage": "READY"
+            }
+          ],
+          "sha": "8d20317b43d337e3278e893878504fda572ef20f",
+          "pySpacesVersion": "0.51.3",
+          "volumes": [
+            {
+              "type": "bucket",
+              "source": "SZLHOLDINGS/szl-evidence",
+              "mountPath": "/data",
+              "readOnly": false,
+              "configuredByUserId": "69ec7d565e5561c3b16baba8"
+            }
+          ]
+        }
+      },
+      "observed_source_binding_artifact_candidates": [
+        "szl_source_attestation.py",
+        "deploy/MANIFEST.json",
+        "feature_provenance.json"
+      ],
+      "conventional_binding_files_present": {
+        "SOURCE_BINDING_json": false,
+        "HF_DEPLOYMENT_MANIFEST_json": false
+      },
+      "binding_files_note": "Candidates come from exact public siblings listing; conventional names are absence observations only, not an assumed universal contract.",
+      "classification": "PROVIDER_REPORTED_RUNNING_WITH_CUSTOM_DOMAIN_MAPPING_NOT_RUNTIME_PROOF"
+    },
+    {
+      "requested_url": "https://szlholdings-a11oy.hf.space/api/build-info",
+      "method": "GET",
+      "observed_at_utc": "2026-09-29T21:23:28.549612+00:00",
+      "follow_redirects": false,
+      "byte_cap": 65536,
+      "hard_process_timeout_seconds": 24,
+      "status": 200,
+      "response_url": "https://szlholdings-a11oy.hf.space/api/build-info",
+      "headers": {
+        "content-type": "application/json",
+        "content-length": "415",
+        "server": "szl",
+        "x-proxied-host": "http://10.111.44.14",
+        "x-proxied-path": "/api/build-info",
+        "x-request-id": "aluBn_"
+      },
+      "observed_body_bytes": 415,
+      "body_exceeded_cap": false,
+      "observed_body_sha256": "4b04dfe96cd21654edc9fed2a5d030fe1d0ba7794f4816a7d2e9b0b1f0a6a135",
+      "digest_scope": "complete_response_body",
+      "json": {
+        "status": "OBSERVED",
+        "service": "a11oy",
+        "build": {
+          "state": "OBSERVED",
+          "revision": "599d3a4783fe2816a7c5cf15a819453d5cb6c264",
+          "revision_source": "env:SZL_GIT_SHA",
+          "version": null,
+          "version_source": "UNKNOWN",
+          "working_tree": "UNKNOWN",
+          "working_tree_source": "UNKNOWN",
+          "field_evidence": {
+            "revision": "OBSERVED",
+            "version": "UNKNOWN",
+            "working_tree": "UNKNOWN"
+          }
+        },
+        "runtime": {
+          "python": "3.14.7",
+          "platform": "linux"
+        },
+        "receipt_minted": false
+      },
+      "raw_body_retained": "{\"status\":\"OBSERVED\",\"service\":\"a11oy\",\"build\":{\"state\":\"OBSERVED\",\"revision\":\"599d3a4783fe2816a7c5cf15a819453d5cb6c264\",\"revision_source\":\"env:SZL_GIT_SHA\",\"version\":null,\"version_source\":\"UNKNOWN\",\"working_tree\":\"UNKNOWN\",\"working_tree_source\":\"UNKNOWN\",\"field_evidence\":{\"revision\":\"OBSERVED\",\"version\":\"UNKNOWN\",\"working_tree\":\"UNKNOWN\"}},\"runtime\":{\"python\":\"3.14.7\",\"platform\":\"linux\"},\"receipt_minted\":false}",
+      "raw_retention": "complete",
+      "classification": "OBSERVED_RUNTIME_ENV_REPORTED_SOURCE_REVISION_MATCHES_INDEPENDENT_GITHUB_MAIN_NOT_BYTE_PARITY_OR_FUNCTIONAL_READINESS"
+    }
+  ],
+  "next_python_root_cause_repair": {
+    "scope": "Local fail-closed source-chain observer only; active dual-origin domain writer ownership remains untouched",
+    "action": "Use the actual A11oy build-info contract: extract build.revision, build.revision_source and build.field_evidence.revision from JSON at the verified mapped origin; retain the separately reported HF content/runtime revision. Treat registry HTML scope routes as valid static explanatory records, not broken runtime JSON APIs.",
+    "gate": "Require observed source identity plus an independent immutable publisher/file-parity receipt before claiming publication closure, and separate functional runtime proof before readiness.",
+    "diagnostic_not_deploy_instruction": "Preserve the .com timeout observations independently from the successful mapped-origin build-info and HF RUNNING/READY. Do not replace them with a guessed global outage or an all-domain green result.",
+    "additional_contract_discovery": "Read the actual source-attestation implementation or retained publisher receipt for the mapped Space before validating byte binding; the lack of conventional SOURCE_BINDING.json is not by itself a contract failure."
+  },
+  "replay": {
+    "instructions": "Reissue each listed GET with Accept-Encoding identity, no automatic redirect following, the per-record byte cap and socket timeout, and an independent child-process hard deadline. Compare raw response bytes using SHA-256, treating capped-prefix digests as prefix-only. Mutable provider/HTML responses may legitimately change; never overwrite this observation.",
+    "digest_algorithm": "sha256",
+    "response_url_semantics": "Actual URL returning the retained status; redirect Location is separate and not claimed as a visited final destination.",
+    "api_field_semantics": "Provider public API fields are reported metadata, not GitHub source proof or functional runtime proof."
+  }
+}

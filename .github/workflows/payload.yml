@@ -21,10 +21,21 @@ jobs:
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: "3.12"
-      - name: Run payload
-        run: python3 payload.py
+      - name: Frontier-1 offline failure and receipt fixtures
+        run: python3 -B -m unittest -v tests.test_frontier1
+      - name: Frontier-1 non-executing plan
+        run: python3 -I -B tools/frontier1.py --observations payloads/evidence/frontier1-public-20260930.json
+      - name: Run offline payload contracts
+        run: python3 -B payload.py --offline
       - name: Offline regression tests
         run: python3 -m unittest discover -v
+      - name: Check frozen local evidence lab bytes
+        run: sha256sum --check lanes/l1/local_evidence_lab/SHA256SUMS
+      - name: Offline local evidence lab tests
+        working-directory: lanes/l1/local_evidence_lab
+        run: python3 -B -m unittest -v test_evidence_lab test_selective_calibration test_source_alignment
+      - name: Replay unsigned local inference observation with synthetic actions
+        run: python3 -I -B lanes/l1/local_evidence_lab/evidence_lab.py --verify examples/local-evidence-admission-20260929/local-inference-receipt.json
       - name: Verify public estate evidence without promotion
         run: python3 tools/verify_estate_evidence.py
       - name: Verify historical source reconciliation without promotion

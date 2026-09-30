@@ -137,6 +137,11 @@ def stamp_banners(api) -> list[str]:
 
 
 def main() -> int:
+    # This legacy writer is never a CI contract test. Guard before token lookup,
+    # provider import, identity probes, banner uploads or deletion proposals.
+    if os.environ.get("CI") or os.environ.get("GITHUB_ACTIONS"):
+        print("BLOCKED: legacy Hub mutation is forbidden in CI")
+        return 2
     token = _token()
     from huggingface_hub import HfApi
 
