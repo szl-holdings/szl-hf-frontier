@@ -16,3 +16,7 @@ lanes/l1/local_evidence_lab/measured-source-20260929.py.txt -text
 examples/local-evidence-admission-20260929/local-inference-receipt.json -text
 examples/source-alignment-20260929/domain-readback.json -text
 examples/source-alignment-20260929/source-alignment-final.json -text
+# Frontier-1 receipts bind exact UTF-8 bytes across Windows/Linux checkouts.
+payloads/evidence/frontier1-* -text
+payloads/evidence/frontier1-*/** -text
+tools/frontier1.py text eol=lf

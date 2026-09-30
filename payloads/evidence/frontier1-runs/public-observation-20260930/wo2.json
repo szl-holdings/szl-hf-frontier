@@ -1,0 +1,198 @@
+{
+  "input_errors": [],
+  "items": [
+    {
+      "annotation": "NOT_WRITTEN",
+      "content_hashes": "NOT_READ",
+      "deletion": "FORBIDDEN",
+      "files": [
+        {
+          "bytes": 1519,
+          "content_hash_status": "NOT_READ",
+          "path": ".gitattributes"
+        },
+        {
+          "bytes": 2842,
+          "content_hash_status": "NOT_READ",
+          "path": "README.md"
+        },
+        {
+          "bytes": 2770,
+          "content_hash_status": "NOT_READ",
+          "path": "bom/model-bom.cdx.json"
+        },
+        {
+          "bytes": 2714,
+          "content_hash_status": "NOT_READ",
+          "path": "provenance.json"
+        },
+        {
+          "bytes": 1626,
+          "content_hash_status": "NOT_READ",
+          "path": "status.json"
+        }
+      ],
+      "identity": "model:SZLHOLDINGS/SZLHOLDINGS",
+      "note": "PRESERVE_EXISTING_INFORMATIONAL_PURPOSE",
+      "purpose": "HISTORICAL_PROFILE",
+      "revision": "32fa1ca46f913a669174fbcad7cca46d983bf5fc",
+      "status": "OWNER-PENDING"
+    },
+    {
+      "annotation": "NOT_WRITTEN",
+      "content_hashes": "NOT_READ",
+      "deletion": "FORBIDDEN",
+      "files": [
+        {
+          "bytes": 2504,
+          "content_hash_status": "NOT_READ",
+          "path": ".gitattributes"
+        },
+        {
+          "bytes": 11357,
+          "content_hash_status": "NOT_READ",
+          "path": "LICENSE"
+        },
+        {
+          "bytes": 29653,
+          "content_hash_status": "NOT_READ",
+          "path": "PROMOTION_READINESS_AUDIT.json"
+        },
+        {
+          "bytes": 4349,
+          "content_hash_status": "NOT_READ",
+          "path": "README.md"
+        },
+        {
+          "bytes": 679,
+          "content_hash_status": "NOT_READ",
+          "path": "SZL_ESTATE_MANAGED.json"
+        },
+        {
+          "bytes": 3542,
+          "content_hash_status": "NOT_READ",
+          "path": "provenance.json"
+        },
+        {
+          "bytes": 2125,
+          "content_hash_status": "NOT_READ",
+          "path": "status.json"
+        }
+      ],
+      "identity": "dataset:SZLHOLDINGS/SZLHOLDINGS",
+      "note": "PRESERVE_EXISTING_INFORMATIONAL_PURPOSE",
+      "purpose": "INFORMATIONAL_METADATA",
+      "revision": "7a6cce17710bf47b9e5a64e0b1be43d1276733ef",
+      "status": "OWNER-PENDING"
+    },
+    {
+      "annotation": "NOT_WRITTEN",
+      "content_hashes": "NOT_READ",
+      "deletion": "FORBIDDEN",
+      "files": [
+        {
+          "bytes": 141,
+          "content_hash_status": "NOT_READ",
+          "path": ".gitattributes"
+        },
+        {
+          "bytes": 2185,
+          "content_hash_status": "NOT_READ",
+          "path": "GOVERNANCE.md"
+        },
+        {
+          "bytes": 3338,
+          "content_hash_status": "NOT_READ",
+          "path": "HONEST_DISCLOSURE.md"
+        },
+        {
+          "bytes": 390,
+          "content_hash_status": "NOT_READ",
+          "path": "MODELS.txt"
+        },
+        {
+          "bytes": 5031,
+          "content_hash_status": "NOT_READ",
+          "path": "README.md"
+        },
+        {
+          "bytes": 2293,
+          "content_hash_status": "NOT_READ",
+          "path": "SEVEN_SPACES.md"
+        },
+        {
+          "bytes": 1697,
+          "content_hash_status": "NOT_READ",
+          "path": "SPACE_PROVENANCE_FRONTIER.json"
+        },
+        {
+          "bytes": 2132,
+          "content_hash_status": "NOT_READ",
+          "path": "assets/estate-banner-v2.svg"
+        },
+        {
+          "bytes": 10174,
+          "content_hash_status": "NOT_READ",
+          "path": "assets/estate-command-system.svg"
+        },
+        {
+          "bytes": 115942,
+          "content_hash_status": "NOT_READ",
+          "path": "assets/evidence-lattice-v2.webp"
+        },
+        {
+          "bytes": 1198,
+          "content_hash_status": "NOT_READ",
+          "path": "assets/hf-card-command.svg"
+        },
+        {
+          "bytes": 1152,
+          "content_hash_status": "NOT_READ",
+          "path": "assets/hf-card-evidence.svg"
+        },
+        {
+          "bytes": 1195,
+          "content_hash_status": "NOT_READ",
+          "path": "assets/hf-card-intelligence.svg"
+        },
+        {
+          "bytes": 1101,
+          "content_hash_status": "NOT_READ",
+          "path": "assets/hf-card-models.svg"
+        },
+        {
+          "bytes": 5814,
+          "content_hash_status": "NOT_READ",
+          "path": "assets/hf-portfolio-map.svg"
+        },
+        {
+          "bytes": 2698,
+          "content_hash_status": "NOT_READ",
+          "path": "deployment.json"
+        },
+        {
+          "bytes": 9640,
+          "content_hash_status": "NOT_READ",
+          "path": "estate-alignment.json"
+        },
+        {
+          "bytes": 52769,
+          "content_hash_status": "NOT_READ",
+          "path": "index.html"
+        },
+        {
+          "bytes": 1613,
+          "content_hash_status": "NOT_READ",
+          "path": "seven-spaces.yaml"
+        }
+      ],
+      "identity": "space:SZLHOLDINGS/README",
+      "note": "PRESERVE_EXISTING_INFORMATIONAL_PURPOSE",
+      "purpose": "ORG_NAVIGATION",
+      "revision": "69aaaaac3863db8d6f2e525034bc5ec3c1dae328",
+      "status": "OWNER-PENDING"
+    }
+  ],
+  "note": "OBSERVATIONS_ONLY_NO_REMOTE_CHANGES",
+  "status": "OWNER-PENDING"
+}

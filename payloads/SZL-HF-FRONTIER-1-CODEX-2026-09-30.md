@@ -1,247 +1,118 @@
-# SZL-HF-FRONTIER-1 — CODEX EXECUTION PAYLOAD
+# SZL-HF-FRONTIER-1 - offline executor contract
+
 **Payload ID:** SZL-HF-FRONTIER-1-CODEX-2026-09-30
-**Parent:** payloads/SZL-HF-FRONTIER-1-2026-09-30.md (findings F1–F9, work orders WO-1..7)
-**Executor:** Codex. **Doctrine:** v11 — fail closed. Receipts or it did not happen.
-**Env:** Python 3.10+, `pip install huggingface_hub pyyaml requests`, env vars `HF_TOKEN`, `GITHUB_TOKEN`.
 
-## Gates (read before running)
-1. WO-6 owner gate: publishing (WO-3 publish step) is BLOCKED until
-   `frontier1/wo6_owner_action.md` contains `OWNER CONFIRMED <date>`.
-2. Forge PRs #254/#243: DO NOT MERGE. Out of scope.
-3. Any WO may legally end FAIL-CLOSED or UNAVAILABLE. Never paper over it.
-4. Re-verify all repo IDs against the live estate before mutating anything.
+**Parent:** [reconciled findings](SZL-HF-FRONTIER-1-2026-09-30.md)
 
-## The code
+**Runtime:** Python 3.10+ standard library only. No installation or credentials.
 
-```python
-#!/usr/bin/env python3
-"""SZL-HF-FRONTIER-1 executor. One file, seven work orders, master receipt."""
-from __future__ import annotations
-import hashlib, json, os, pathlib, re, sys, time
-from datetime import datetime, timezone
+Implementation: [tools/frontier1.py](../tools/frontier1.py). The original embedded
+Python remains in Git history at `1071a3fe96a010f011274d2f820ca5351d0b4eff`;
+it is not an approved execution path.
 
-import requests, yaml
-from huggingface_hub import HfApi
+## Safe default and local recording
 
-OUT = pathlib.Path("frontier1"); OUT.mkdir(exist_ok=True)
-NOW = lambda: datetime.now(timezone.utc).isoformat(timespec="seconds")
-STATUS = {}  # wo -> {"status": ..., "note": ...}
+```sh
+# No network, credentials, compute, hardware probing or filesystem writes.
+python -I -B tools/frontier1.py
 
-def receipt(name: str, payload: dict) -> None:
-    (OUT / name).write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n",
-                            encoding="utf-8")
+# Replay dated public metadata; no writes or live validation.
+python -I -B tools/frontier1.py --observations payloads/evidence/frontier1-public-20260930.json
 
-def fail_closed(wo: str, note: str) -> None:
-    STATUS[wo] = {"status": "FAIL-CLOSED", "note": note}
-    print(f"[{wo}] FAIL-CLOSED: {note}")
+# Explicit LOCAL receipt recording; never remote execution.
+python -I -B tools/frontier1.py --observations payloads/evidence/frontier1-public-20260930.json --record --output-root .frontier1-runs --run-id public-observation-20260930
 
-def done(wo: str, note: str = "ok") -> None:
-    STATUS[wo] = {"status": "DONE", "note": note}
-    print(f"[{wo}] DONE: {note}")
-
-# ─── WO-1: merged-model card reconciliation (F2) ───────────────────────────
-MERGED_REPOS = [
-    "szl-receiptagent-qwen35-0.8b-v2", "szl-receiptagent-qwen35-0.8b-v3",
-    "khipu-r3", "chaski-r2", "chaski-5050", "brain-navigator-r2",
-    "KHIPU-R2", "WILLAY",
-]
-
-def wo1(api: HfApi) -> None:
-    rec = {}
-    for name in MERGED_REPOS:
-        rid = f"SZLHOLDINGS/{name}"
-        try:
-            info = api.model_info(rid, files_metadata=True)
-            st = next((f for f in (info.siblings or []) if f.rfilename.endswith(".safetensors")), None)
-            if st is None or (st.size or 0) < 200_000_000:   # adapter-only is ~25-150MB
-                fail_closed("WO-1", f"{rid}: no full checkpoint (largest safetensors too small) — card untouched")
-                return
-            card = api.repo_info(rid, repo_type="model")
-            readme = None
-            try:
-                from huggingface_hub import hf_hub_download
-                readme = pathlib.Path(hf_hub_download(rid, "README.md", repo_type="model")).read_text(encoding="utf-8")
-            except Exception:
-                pass
-            if not readme:
-                fail_closed("WO-1", f"{rid}: no README to reconcile")
-                return
-            m = re.match(r"^---\n(.*?)\n---\n", readme, re.S)
-            if not m:
-                fail_closed("WO-1", f"{rid}: README has no YAML frontmatter")
-                return
-            meta = yaml.safe_load(m.group(1)) or {}
-            before_tags = set(meta.get("tags", []))
-            meta["library_name"] = "transformers"
-            meta["base_model_relation"] = "merged"
-            meta["tags"] = sorted(t for t in before_tags
-                                  if t not in {"peft", "lora", "qlora", "adapter"})
-            body = readme[m.end():]
-            new = "---\n" + yaml.safe_dump(meta, sort_keys=False) + "---\n" + body
-            (OUT / f"wo1_{name}_README.md").write_text(new, encoding="utf-8")
-            rec[rid] = {"before_tags": sorted(before_tags), "after_tags": meta["tags"],
-                        "param_check_bytes": st.size, "status": "STAGED (push gated on WO-6)"}
-        except Exception as e:
-            fail_closed("WO-1", f"{rid}: {e}")
-            return
-    receipt("wo1_card_receipt.json", {"repos": rec, "timestamp": NOW()})
-    done("WO-1", f"{len(rec)} cards staged; pushes deferred to post-WO-6 gate")
-
-# ─── WO-2: placeholder repo inventory (F4) — NO DELETES ───────────────────
-PLACEHOLDERS = [("model", "SZLHOLDINGS/SZLHOLDINGS"),
-                ("dataset", "SZLHOLDINGS/SZLHOLDINGS"),
-                ("space", "SZLHOLDINGS/README")]
-
-def wo2(api: HfApi) -> None:
-    inv = {}
-    for rtype, rid in PLACEHOLDERS:
-        try:
-            info = api.repo_info(rid, repo_type=rtype, files_metadata=True)
-            files = [{"name": f.rfilename, "bytes": f.size or 0} for f in (info.siblings or [])]
-            big = [f for f in files if f["bytes"] > 50_000_000]
-            if big:
-                fail_closed("WO-2", f"{rid}: unexpected large files {big} — escalate, do not annotate")
-                return
-            inv[rid] = {"type": rtype, "files": files,
-                        "disposition": "under audit SZL-HF-FRONTIER-1-2026-09-30"}
-        except Exception as e:
-            fail_closed("WO-2", f"{rid}: {e}")
-            return
-    receipt("wo2_inventory.json", {"inventory": inv, "timestamp": NOW(),
-                                   "owner_decision_required": True})
-    done("WO-2", f"{len(inv)} placeholders inventoried; disposition = owner decision")
-
-# ─── WO-3: DPO khipu-abstain lane (F3) — CUDA-gated ────────────────────────
-DPO_SPEC = {"pipeline": "tools/szl_omen_pipeline.py @ szl-forge branch huggingface",
-            "subcommand": "dpo", "data": "SZLHOLDINGS/SZL-Khipu-1.5B-abstain",
-            "policy_adapter": "SZLHOLDINGS/khipu-r3", "lora": "r16 a32 bf16 (no QLoRA on Qwen3.5)",
-            "seed": 11, "beta": 0.1, "max_len": 1024, "max_prompt": 512}
-
-def wo3() -> None:
-    import torch
-    if not torch.cuda.is_available():
-        STATUS["WO-3"] = {"status": "UNAVAILABLE", "note": "no CUDA host — DPO not run degraded"}
-        print("[WO-3] UNAVAILABLE: no CUDA host"); return
-    # Gate on WO-6 before any publish; the run itself may proceed to produce a receipt.
-    print("[WO-3] CUDA present. Run: python szl_omen_pipeline.py dpo")
-    print("[WO-3] Expect dpo_receipt.json with: data sha256, pairs_used, train_loss (TRAIN METRIC),")
-    print("       publication_eligible=false, next gate = held-out abstain generate.")
-    STATUS["WO-3"] = {"status": "OWNER-PENDING", "note": "GPU run scheduled; publish gated on WO-6"}
-
-# ─── WO-4: hologram pointer verification (F5) ──────────────────────────────
-def wo4() -> None:
-    tok = os.environ.get("GITHUB_TOKEN")
-    if not tok:
-        fail_closed("WO-4", "GITHUB_TOKEN not set"); return
-    H = {"Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json"}
-    org = "szl-holdings"
-    page, repos = 1, []
-    while True:
-        r = requests.get(f"https://api.github.com/orgs/{org}/repos",
-                         headers=H, params={"per_page": 100, "page": page})
-        r.raise_for_status()
-        batch = r.json(); repos += batch
-        if len(batch) < 100: break
-        page += 1
-    rows, broken = [], []
-    for repo in repos:
-        if repo.get("archived") and "Canonical:" in (repo.get("description") or ""):
-            target = repo["description"].split("Canonical:")[1].strip().rstrip(".")
-            t = target.replace("https://github.com/", "")
-            tr = requests.get(f"https://api.github.com/repos/{t}", headers=H)
-            ok = tr.status_code == 200 and not tr.json().get("archived")
-            rows.append({"source": repo["full_name"], "target": t, "status": "OK" if ok else "BROKEN"})
-            if not ok: broken.append((repo["full_name"], t))
-    receipt("wo4_pointer_receipt.json", {"pointers": rows, "timestamp": NOW()})
-    for src, tgt in broken:   # file issues, do not silently fix
-        requests.post(f"https://api.github.com/repos/{src}/issues", headers=H,
-                      json={"title": f"canonical pointer broken: {tgt}",
-                            "body": "Auto-filed by SZL-HF-FRONTIER-1 WO-4. Verify and update the redirect."})
-    done("WO-4", f"{len(rows)} pointers checked, {len(broken)} broken -> issues filed")
-
-# ─── WO-5: private estate manifest (F6) ────────────────────────────────────
-PRIVATE_DATASETS = ["szl-evidence", "david-leads-data", "thesis-formula-index",
-                    "szl-org-infra", "anatomy-alive-harness", "vault-artifacts",
-                    "szl-training-receipts", "yuyay-v3-axis-labels-v1", "legacy-archive"]
-PRIVATE_SPACES = ["szl-constellation-staging", "szl-safe-stack", "a11oy-factory",
-                  "counsel-assurance", "puriq-markets", "terra-assurance"]
-
-def wo5(api: HfApi) -> None:
-    manifest, cutoff = {}, time.time() - 30 * 86400
-    for rtype, names in (("dataset", PRIVATE_DATASETS), ("space", PRIVATE_SPACES)):
-        for n in names:
-            rid = f"SZLHOLDINGS/{n}"
-            try:
-                info = api.repo_info(rid, repo_type=rtype)
-                ts = info.lastModified.timestamp() if hasattr(info.lastModified, "timestamp") else 0
-                manifest[rid] = {"type": rtype, "last_modified": str(info.lastModified),
-                                 "flag": "STALE-REVIEW" if ts and ts < cutoff else "ACTIVE"}
-            except Exception as e:
-                fail_closed("WO-5", f"{rid}: {e}"); return
-    receipt("wo5_private_manifest.json", {"manifest": manifest, "timestamp": NOW(),
-                                          "visibility_changes": "NONE"})
-    done("WO-5", f"{len(manifest)} private repos manifested")
-
-# ─── WO-6: owner token-hygiene gate (F1) ───────────────────────────────────
-def wo6() -> None:
-    gate = OUT / "wo6_owner_action.md"
-    if not gate.exists():
-        gate.write_text(
-            "# WO-6 OWNER ACTION REQUIRED\n\n"
-            "Two HF tokens were exposed in plain text on 2026-09-12 (prefixes hf_nGHC…, hf_rpzm…).\n"
-            "1. Revoke both at https://huggingface.co/settings/tokens\n"
-            "2. Append below: OWNER CONFIRMED <date>\n\n"
-            "Publishing (WO-1 pushes, WO-3 publish) is blocked until this line exists.\n",
-            encoding="utf-8")
-    confirmed = any(line.startswith("OWNER CONFIRMED") for line in gate.read_text().splitlines())
-    STATUS["WO-6"] = {"status": "DONE" if confirmed else "OWNER-PENDING",
-                      "note": "gate file present" if confirmed else "awaiting owner confirmation"}
-    print(f"[WO-6] {'DONE' if confirmed else 'OWNER-PENDING'}")
-
-def gate_open() -> bool:
-    return STATUS.get("WO-6", {}).get("status") == "DONE"
-
-# ─── WO-7: deprecated model banner (F7) ────────────────────────────────────
-def wo7(api: HfApi) -> None:
-    rid, banner = "SZLHOLDINGS/governed-inference-meter", \
-        "> **DEPRECATED** — canonical: https://github.com/szl-holdings/szl-energy-attest\n"
-    try:
-        from huggingface_hub import hf_hub_download
-        p = pathlib.Path(hf_hub_download(rid, "README.md", repo_type="model"))
-        text = p.read_text(encoding="utf-8")
-        if "DEPRECATED" not in text:
-            (OUT / "wo7_README_governed-inference-meter.md").write_text(banner + text, encoding="utf-8")
-        receipt("wo7_receipt.json", {"repo": rid, "banner": "present" if "DEPRECATED" in text
-                                     else "staged", "timestamp": NOW()})
-        done("WO-7")
-    except Exception as e:
-        fail_closed("WO-7", str(e))
-
-# ─── main + master receipt ─────────────────────────────────────────────────
-def main() -> int:
-    if not os.environ.get("HF_TOKEN"):
-        print("HF_TOKEN required"); return 2
-    api = HfApi(token=os.environ["HF_TOKEN"])
-    wo6()                      # gate first
-    wo1(api); wo2(api); wo3(); wo4(); wo5(api); wo7(api)
-    receipt("SZL-HF-FRONTIER-1-2026-09-30-master.json", {
-        "payload": "SZL-HF-FRONTIER-1-CODEX-2026-09-30", "timestamp": NOW(),
-        "machine": os.environ.get("COMPUTERNAME") or os.uname().nodename,
-        "statuses": STATUS, "publish_gate": "OPEN" if gate_open() else "BLOCKED (WO-6)",
-        "artifact_sha256": {p.name: hashlib.sha256(p.read_bytes()).hexdigest()
-                            for p in sorted(OUT.iterdir()) if p.is_file()},
-    })
-    print(json.dumps(STATUS, indent=2))
-    return 0
-
-if __name__ == "__main__":
-    raise SystemExit(main())
+# Synthetic fixtures; independent of historical executor/pipeline.
+python -B -m unittest -v tests.test_frontier1
 ```
 
-## Execution order
-`wo6 → wo1 → wo2 → wo3 → wo4 → wo5 → wo7 → master receipt` (already enforced in `main()`).
+The default does not read environment credentials or marker files. Frontier-1
+has no provider/compute clients, subprocess launcher, training, issue, publication,
+visibility, deletion or merge operations. WO3 is UNAVAILABLE because compute is
+outside this runner; CUDA is NOT_PROBED, not alleged absent.
 
-## Acceptance
-- Every WO lands in {DONE, UNAVAILABLE, FAIL-CLOSED, OWNER-PENDING} in the master receipt.
-- WO-1 card pushes and WO-3 publish run ONLY after WO-6 shows OWNER CONFIRMED.
-- No deletions. No merges of #254/#243. No fabricated numbers. Fail-closed is a valid outcome.
+## Truth and input contract
+
+- Typed keys include repository type and case-sensitive ID. Model and dataset
+  `SZLHOLDINGS/SZLHOLDINGS` remain distinct, as do subdirectory merges and legacy
+  model/first-class kernel artifacts.
+- Only the explicit public observation schema is accepted. `private` must be
+  exactly false. Private/unknown visibility fails closed. Private WO5 evidence
+  and owner-security material are not accepted input fields.
+- Full 40-character revisions are compared with a separate expected-head map.
+  These are offline comparisons, not live provider CAS, freshness proof,
+  signature verification or publication authority.
+- Items have independent outcomes. An error cannot erase other declared items
+  or turn staged metadata into DONE. All seven WO statuses are terminal:
+  DONE, UNAVAILABLE, FAIL-CLOSED, OWNER-PENDING. STAGED is only a note under
+  OWNER-PENDING.
+- WO6 is forced to OWNER-PENDING and publish_gate=CLOSED regardless of handler
+  output. No confirmation parameter, prefix/date check or marker-file reader
+  exists. Digests establish bytes, not authentic human authority.
+- Exception text, private paths and arbitrary input fields are not echoed.
+  Invalid documents fail closed while retaining all seven status entries.
+- The supplied fixture is dated public metadata replay, not a current estate
+  census or model qualification. It binds eight model heads, three informational
+  profiles, 22 archived sources/23 targets and one exact deprecation README.
+  Weight/profile content bodies were not downloaded or hashed; their
+  content_hash_status remains NOT_READ. Public README bytes have a full SHA-256.
+- WO4 DONE means only the dated target-existence/unarchived observation. WO7 DONE
+  means only the existing exact-card banner observation. Neither means remote
+  mutation, full original work-order completion, promotion or release.
+
+Observation cutoff: 2026-09-30T13:36:24Z. Immutable README bytes were retrieved
+again for exact UTF-8 hashing during source preparation. Archived descriptions
+were rechecked against the same 22-source inventory. No private source metadata
+or security-event details are included.
+
+## Immutable run receipts
+
+Recording requires an explicit root and restricted run ID. Seven `woN.json`
+receipts are written in a new same-filesystem pending directory. Files are flushed
+and fsynced. The master inventories full SHA-256 values for exactly these seven
+files; it excludes itself and has a detached `master.sha256`. Bytes and status
+bindings are re-read before atomic directory rename to the final run path.
+
+Existing runs are immutable. Identical requests verify and return existing bytes;
+changed requests or expected-master mismatches fail closed.
+`--expected-master-sha256` compares a LOCAL receipt, never provider authority.
+Previous runs, unrelated files, owner markers and old masters cannot enter the
+inventory. Extra files or changed bytes invalidate readback. Input and executor
+bytes have separate full hashes in the master.
+
+The actual local observation run is retained in
+[master.json](evidence/frontier1-runs/public-observation-20260930/master.json)
+with seven WO receipts and its detached digest. This is an offline replay receipt,
+not an owner confirmation or evidence of remote execution.
+
+Symlinks and Windows reparse points in existing ancestors are rejected. Run IDs
+reject traversal, separators, ADS and reserved device names. An exclusive per-run
+directory lock prevents cooperating writers sharing a run ID. Use a locally
+controlled output root, not one concurrently writable by an untrusted actor.
+These guards do not replace OS isolation.
+
+A write/fsync/rename failure does not return a successful recording. Pending
+directories remain for owner inspection; there is no recursive cleanup/deletion.
+CLI failures return seven computed statuses and a fixed finalization error.
+Process termination, power loss, permission loss or exhausted storage can prevent
+any receipt; no finalization is claimed in that case. Abandoned locks require
+owner inspection, not automatic stale-lock removal.
+
+## CI effect boundary
+
+The existing `payload` job name, triggers, pinned actions, permissions and all
+offline regression/evidence/selftest checks remain. Added steps run Frontier-1
+fixtures and planning, followed by `payload.py --offline`. Default `payload.py`
+is offline too: no credential inspection, legacy helper launch or CUDA probe.
+Its local contract checks remain. The legacy helper CLI refuses CI/GITHUB_ACTIONS
+before credential lookup or provider import.
+
+The historical helper contains banner-upload/deletion-proposal functions. They
+were not executed or authorized. Removing implicit CI invocation grants no new
+publication path. Future owner publication requires separate review, authentic
+evidence and concurrency controls. No security setting or protection was changed.
+
+The unchanged CodeQL workflow invokes the pinned organization workflow. CI
+success validates tested source only, not WO6 confirmation, GPU availability,
+training/evaluation, HF writes, runtime health or release eligibility. The central
+queue remains sole merge owner.
