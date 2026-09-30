@@ -81,7 +81,7 @@ class PlanTests(unittest.TestCase):
             with self.subTest(signal=signal.__name__):
                 visited = []
 
-                def stop(_):
+                def stop(_, signal=signal):
                     visited.append("WO-1")
                     raise signal()
 
