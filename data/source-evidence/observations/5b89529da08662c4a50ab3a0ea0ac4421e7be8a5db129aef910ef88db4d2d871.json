@@ -5,22 +5,22 @@
     {
       "bytes": 516,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/742a976acc75efaf5150aaff78c313ad2d3bb1309dd294a54ddb89317027e021.json",
-      "revision": "6237ab5b88e71388ba161c22eff0e6f72e1951a8",
-      "sha256": "742a976acc75efaf5150aaff78c313ad2d3bb1309dd294a54ddb89317027e021",
+      "path": "data/source-evidence/blobs/94c26129f2ca428b3949b37b6cc0864c374a415cb7d4fd187c9cfb36f632a7b7.json",
+      "revision": "d56cfa32711e874b6efe003526c44bceaf90f134",
+      "sha256": "94c26129f2ca428b3949b37b6cc0864c374a415cb7d4fd187c9cfb36f632a7b7",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/immune-lattice/revision/6237ab5b88e71388ba161c22eff0e6f72e1951a8"
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/immune-lattice/revision/d56cfa32711e874b6efe003526c44bceaf90f134"
     },
     {
       "bytes": 1258,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/338dad91920706fd980e605378462242cea0e231e4754120d14bc585646b50b0.md",
-      "revision": "6237ab5b88e71388ba161c22eff0e6f72e1951a8",
+      "revision": "d56cfa32711e874b6efe003526c44bceaf90f134",
       "sha256": "338dad91920706fd980e605378462242cea0e231e4754120d14bc585646b50b0",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://huggingface.co/spaces/SZLHOLDINGS/immune-lattice/resolve/6237ab5b88e71388ba161c22eff0e6f72e1951a8/README.md"
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/immune-lattice/resolve/d56cfa32711e874b6efe003526c44bceaf90f134/README.md"
     }
   ],
   "files": [
@@ -45,6 +45,6 @@
     "server.py"
   ],
   "id": "huggingface-space/szlholdings/immune-lattice",
-  "observed_at": "2026-09-25T15:21:25Z",
-  "observed_revision": "6237ab5b88e71388ba161c22eff0e6f72e1951a8"
+  "observed_at": "2026-09-29T20:50:04Z",
+  "observed_revision": "d56cfa32711e874b6efe003526c44bceaf90f134"
 }

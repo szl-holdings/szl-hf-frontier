@@ -1,0 +1,20 @@
+{
+  "card": "# SZL Skills\n\nFail-closed evidence and decision skills for Claude (Claude Science, Claude Code, claude.ai).\n\n## Import\n\nClaude Science: Skills > Import from GitHub, paste:\n\n    szl-holdings/szl-skills@v0.1.3\n\nClaude Code: copy a folder from skills/ into .claude/skills/ or ~/.claude/skills/.\n\n## Skills\n\n| Skill | What it does | What it does not do |\n|---|---|---|\n| szl-typesafe-ai | Uses TypeSafe Jev (Choice / Noul / Score) as an optional second reader for evidence-class triage. Fail-closed: any error gives UNAVAILABLE, never PASS. | Not a gate. Not TypeScript, Zod, Pydantic, mypy, or JSON Schema. Never marks anything LIVE. |\n| szl-governed-decision | Wraps a classifier, policy engine, or System One model so each decision carries its own evidence. | Does not prove a model output is true. Receipts cover integrity and origin only. |\n\n## Setup for szl-typesafe-ai\n\nUse your own TypeSafe key. Save it as a credential (Customize > Credentials > Add Credential, generic token, name typesafe) or as the environment variable TYPESAFE_API_KEY. Never paste it into chat.\n\n## Provenance\n\nBuilt from szl-holdings/szl-typesafe-triage at commit 8d73dd23f640aace362172fff55d82ef7de63f98 (typesafe-ai source: GITHUB). License: Apache-2.0 (see LICENSE and NOTICE).\n## Specialists\n\n[specialists/szl-estate-auditor](specialists/szl-estate-auditor/SPECIALIST.md) describes a read-only Claude Science specialist that audits a GitHub org and a Hugging Face org against their public claims. Specialists are not imported with the skills; copy the fields into Customize > Specialists.\n\n## Checks\n\nEvery push and pull request runs python tools/selfcheck.py. See [CHANGELOG.md](CHANGELOG.md).\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 1677,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/0b5dd4f5e3989b17c40aff58eb1082daeb659ce5f4b4242b596b5403f8905f59.md",
+      "revision": "5cc8264d8a8539ae60ce68126e4795546d78b8e5",
+      "sha256": "0b5dd4f5e3989b17c40aff58eb1082daeb659ce5f4b4242b596b5403f8905f59",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-skills/blob/5cc8264d8a8539ae60ce68126e4795546d78b8e5/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-skills",
+  "observed_at": "2026-09-29T20:49:52Z",
+  "observed_revision": "5cc8264d8a8539ae60ce68126e4795546d78b8e5"
+}

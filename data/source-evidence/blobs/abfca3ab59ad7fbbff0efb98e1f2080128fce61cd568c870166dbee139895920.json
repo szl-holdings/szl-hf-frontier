@@ -1,0 +1,20 @@
+{
+  "files": [
+    ".dockerignore",
+    "Dockerfile",
+    "README.md",
+    "dist/data/immune/huklla_evidence.jsonl",
+    "dist/data/immune/ledger.jsonl",
+    "dist/hf-deploy-manifest.json",
+    "dist/immune-server.js",
+    "dist/public/assets/index-B5MwrSPy.js",
+    "dist/public/assets/index-BIQ1ksWp.css",
+    "dist/public/favicon.svg",
+    "dist/public/index.html",
+    "dist/public/nexus.html",
+    "dist/public/opengraph.jpg",
+    "dist/public/robots.txt",
+    "hf-deploy-manifest.json"
+  ],
+  "revision": "003b3762f7cf1a9cd34eab29b2cfe0ac903cc6e8"
+}

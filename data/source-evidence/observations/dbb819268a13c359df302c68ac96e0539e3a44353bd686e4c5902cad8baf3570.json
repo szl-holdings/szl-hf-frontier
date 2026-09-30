@@ -3,24 +3,24 @@
   "errors": [],
   "evidence": [
     {
-      "bytes": 1629,
+      "bytes": 1898,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/7d2f61bb582491d1437494f69e7fd5b99837b1e7653934dab2189e5f794ac51e.json",
-      "revision": "9eca173122ea06725a1b6d2c041385be1706580e",
-      "sha256": "7d2f61bb582491d1437494f69e7fd5b99837b1e7653934dab2189e5f794ac51e",
+      "path": "data/source-evidence/blobs/c7c25d795d3318218fd62f5a4201fcf6bd8e57a60fb57d7bb46854f135153da7.json",
+      "revision": "6fe66264f64f440993dfd3e768404659bf5a000d",
+      "sha256": "c7c25d795d3318218fd62f5a4201fcf6bd8e57a60fb57d7bb46854f135153da7",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/vertical-services/revision/9eca173122ea06725a1b6d2c041385be1706580e"
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/vertical-services/revision/6fe66264f64f440993dfd3e768404659bf5a000d"
     },
     {
       "bytes": 6897,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/20980e30b23f22059ac3ec35971f23b72d071925e20fbf82dc5827c513e720d7.md",
-      "revision": "9eca173122ea06725a1b6d2c041385be1706580e",
+      "revision": "6fe66264f64f440993dfd3e768404659bf5a000d",
       "sha256": "20980e30b23f22059ac3ec35971f23b72d071925e20fbf82dc5827c513e720d7",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://huggingface.co/spaces/SZLHOLDINGS/vertical-services/resolve/9eca173122ea06725a1b6d2c041385be1706580e/README.md"
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/vertical-services/resolve/6fe66264f64f440993dfd3e768404659bf5a000d/README.md"
     }
   ],
   "files": [
@@ -34,6 +34,7 @@
     "deploy/app.py",
     "deploy/source_revision.txt",
     "deploy/szl_verticals/__init__.py",
+    "deploy/szl_verticals/claim_integrity.py",
     "deploy/szl_verticals/connector_parameters.py",
     "deploy/szl_verticals/connector_parsers.py",
     "deploy/szl_verticals/connector_parsers_frontier.py",
@@ -46,10 +47,14 @@
     "deploy/szl_verticals/contract.py",
     "deploy/szl_verticals/core.py",
     "deploy/szl_verticals/counsel.py",
+    "deploy/szl_verticals/counsel_review.py",
+    "deploy/szl_verticals/counsel_review_ui.py",
     "deploy/szl_verticals/domain_math.py",
+    "deploy/szl_verticals/evidence.py",
     "deploy/szl_verticals/finance.py",
     "deploy/szl_verticals/formulas.py",
     "deploy/szl_verticals/frontier.py",
+    "deploy/szl_verticals/http_bounds.py",
     "deploy/szl_verticals/intelligence.py",
     "deploy/szl_verticals/killinchu.py",
     "deploy/szl_verticals/killinchu_runtime_contract.py",
@@ -57,6 +62,7 @@
     "deploy/szl_verticals/official_connectors.py",
     "deploy/szl_verticals/operational.py",
     "deploy/szl_verticals/profiles.py",
+    "deploy/szl_verticals/replay_store.py",
     "deploy/szl_verticals/sentra.py",
     "deploy/szl_verticals/showcase.py",
     "deploy/szl_verticals/store.py",
@@ -65,6 +71,6 @@
     "requirements.txt"
   ],
   "id": "huggingface-space/szlholdings/vertical-services",
-  "observed_at": "2026-09-25T15:21:27Z",
-  "observed_revision": "9eca173122ea06725a1b6d2c041385be1706580e"
+  "observed_at": "2026-09-29T20:50:06Z",
+  "observed_revision": "6fe66264f64f440993dfd3e768404659bf5a000d"
 }

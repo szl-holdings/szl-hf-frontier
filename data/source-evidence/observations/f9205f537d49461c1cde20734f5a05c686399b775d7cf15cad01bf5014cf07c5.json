@@ -1,26 +1,26 @@
 {
-  "card": "---\ntitle: Sentra\nemoji: \ud83d\udef0\ufe0f\ncolorFrom: gray\ncolorTo: blue\nsdk: docker\napp_port: 7860\npinned: true\nlicense: apache-2.0\nshort_description: \"Public receipt verification and assurance evidence\"\ntags:\n  - szl-holdings\n  - governed-ai\n  - sentra\n---\n\n# Sentra\n\nASSURANCE COMMAND flagship for SZL Holdings.\n\nThis Space uses **Domain Experience v4**: an original, domain-specific interface over the shared governed vertical runtime. Runtime claims fail closed to `UNAVAILABLE`; evidence states are never collapsed.\n\n\nCanonical product source: https://github.com/szl-holdings/a11oy/blob/main/scripts/hf_publish_vertical_flagships_v4_impl.py\n\nDeployment controller: https://github.com/szl-holdings/a11oy\n\nPortfolio: https://a-11-oy.com/products/\n\nLicense: Apache-2.0. Public Experience: `4.0.0`.\n",
+  "card": "---\ntitle: CHAPAQ\nemoji: \ud83d\udef0\ufe0f\ncolorFrom: gray\ncolorTo: blue\nsdk: docker\napp_port: 7860\npinned: false\nlicense: apache-2.0\nshort_description: \"Receipt verification surface \u2014 folded into Killinchu\"\ntags:\n  - szl-holdings\n  - governed-ai\n  - assurance\n  - internal-engine\n---\n\n# CHAPAQ \u2014 receipt verification surface (internal engine)\n\n> **Status: internal engine, folded into Killinchu.** The estate alignment\n> contract folds this capability into [Killinchu](https://huggingface.co/spaces/SZLHOLDINGS/killinchu)\n> (`/defend`), and the A11oy disclosure lists it as a retired standalone surface.\n> This Space stays reachable as a read-only verification demonstration; it has\n> no standalone product authority. The Hub slug `sentra` is an internal key and\n> is not the product name.\n\nThis Space uses **Domain Experience v4**: an original, domain-specific interface over the shared governed vertical runtime. Runtime claims fail closed to `UNAVAILABLE`; evidence states are never collapsed.\n\nVerification here proves integrity and declared origin of a receipt, never accuracy, safety, or fitness.\n\nCanonical product source: https://github.com/szl-holdings/a11oy/blob/main/scripts/hf_publish_vertical_flagships_v4_impl.py\n\nDeployment controller: https://github.com/szl-holdings/a11oy\n\nUpstream verifier: https://szlholdings-a11oy.hf.space/api/a11oy/v1/verify/receipt\n\nPortfolio: https://a-11-oy.com/products/\n\nLicense: Apache-2.0. Public Experience: `4.0.0`.\n",
   "errors": [],
   "evidence": [
     {
       "bytes": 229,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/5b56f74340a707227d4bd1b18e896071722e78b17af05a6ed1730638b6f9ac26.json",
-      "revision": "3d12dbc89d7fdc14906af6e43a3bbb6762e3aa8c",
-      "sha256": "5b56f74340a707227d4bd1b18e896071722e78b17af05a6ed1730638b6f9ac26",
+      "path": "data/source-evidence/blobs/daf79e755e2bb16ba2124ab9a63c3f7ae4eb5505ee8856af802eae63606b12a2.json",
+      "revision": "f854262c4e314cfff68ef86350d7b03d56219a69",
+      "sha256": "daf79e755e2bb16ba2124ab9a63c3f7ae4eb5505ee8856af802eae63606b12a2",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/sentra/revision/3d12dbc89d7fdc14906af6e43a3bbb6762e3aa8c"
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/sentra/revision/f854262c4e314cfff68ef86350d7b03d56219a69"
     },
     {
-      "bytes": 791,
+      "bytes": 1459,
       "kind": "source_card",
-      "path": "data/source-evidence/blobs/71cb733deb2d29a1265e022db8c0a2cd612f70427a46b9269c24a60bafa4b6a0.md",
-      "revision": "3d12dbc89d7fdc14906af6e43a3bbb6762e3aa8c",
-      "sha256": "71cb733deb2d29a1265e022db8c0a2cd612f70427a46b9269c24a60bafa4b6a0",
+      "path": "data/source-evidence/blobs/36b010a33cde50dabb5bd9b68cf5a924ac79147c543ac774edc84bcd9b5c1a04.md",
+      "revision": "f854262c4e314cfff68ef86350d7b03d56219a69",
+      "sha256": "36b010a33cde50dabb5bd9b68cf5a924ac79147c543ac774edc84bcd9b5c1a04",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://huggingface.co/spaces/SZLHOLDINGS/sentra/resolve/3d12dbc89d7fdc14906af6e43a3bbb6762e3aa8c/README.md"
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/sentra/resolve/f854262c4e314cfff68ef86350d7b03d56219a69/README.md"
     }
   ],
   "files": [
@@ -34,6 +34,6 @@
     "requirements.txt"
   ],
   "id": "huggingface-space/szlholdings/sentra",
-  "observed_at": "2026-09-25T15:21:26Z",
-  "observed_revision": "3d12dbc89d7fdc14906af6e43a3bbb6762e3aa8c"
+  "observed_at": "2026-09-29T20:50:05Z",
+  "observed_revision": "f854262c4e314cfff68ef86350d7b03d56219a69"
 }

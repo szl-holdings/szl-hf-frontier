@@ -6,15 +6,15 @@
       "bytes": 4079,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/d1564585d781fea1b3aed5b85d04ac3e2751cde0a69c214b883457da1934eade.md",
-      "revision": "f16df42e52e6a934bd7795d709e23f428802dbf4",
+      "revision": "0037d90c296765448ab44a70212a5799042cb000",
       "sha256": "d1564585d781fea1b3aed5b85d04ac3e2751cde0a69c214b883457da1934eade",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/governance-as-code/blob/f16df42e52e6a934bd7795d709e23f428802dbf4/README.md"
+      "url": "https://github.com/szl-holdings/governance-as-code/blob/0037d90c296765448ab44a70212a5799042cb000/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/governance-as-code",
-  "observed_at": "2026-09-25T15:21:06Z",
-  "observed_revision": "f16df42e52e6a934bd7795d709e23f428802dbf4"
+  "observed_at": "2026-09-29T20:32:48Z",
+  "observed_revision": "0037d90c296765448ab44a70212a5799042cb000"
 }

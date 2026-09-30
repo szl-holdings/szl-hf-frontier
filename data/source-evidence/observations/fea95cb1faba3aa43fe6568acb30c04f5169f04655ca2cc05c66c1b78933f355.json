@@ -5,22 +5,22 @@
     {
       "bytes": 1082,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/aeacde9bdc3ddfde4b5360d3be34811d0a49d939839b877b4e23d4366fcebdce.json",
-      "revision": "16776a536a875a609317537f3fa987c8604652bb",
-      "sha256": "aeacde9bdc3ddfde4b5360d3be34811d0a49d939839b877b4e23d4366fcebdce",
+      "path": "data/source-evidence/blobs/87ad26dec840ce7e8b3fceee62c6246f422c468bc9458ba0378e43977efc897f.json",
+      "revision": "5abbd073ff159385be1f4e51c9fee4613cf52513",
+      "sha256": "87ad26dec840ce7e8b3fceee62c6246f422c468bc9458ba0378e43977efc897f",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-governed-norm/revision/16776a536a875a609317537f3fa987c8604652bb"
+      "url": "https://huggingface.co/api/models/SZLHOLDINGS/szl-governed-norm/revision/5abbd073ff159385be1f4e51c9fee4613cf52513"
     },
     {
       "bytes": 28617,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/08fbb2a7c38fee75c63b1311defa611c1861a8e9ecb1a947fd55545d2ff4945a.md",
-      "revision": "16776a536a875a609317537f3fa987c8604652bb",
+      "revision": "5abbd073ff159385be1f4e51c9fee4613cf52513",
       "sha256": "08fbb2a7c38fee75c63b1311defa611c1861a8e9ecb1a947fd55545d2ff4945a",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://huggingface.co/SZLHOLDINGS/szl-governed-norm/resolve/16776a536a875a609317537f3fa987c8604652bb/README.md"
+      "url": "https://huggingface.co/SZLHOLDINGS/szl-governed-norm/resolve/5abbd073ff159385be1f4e51c9fee4613cf52513/README.md"
     }
   ],
   "files": [
@@ -54,6 +54,6 @@
     "scripts/forge.py"
   ],
   "id": "huggingface-model/szlholdings/szl-governed-norm",
-  "observed_at": "2026-09-25T15:21:22Z",
-  "observed_revision": "16776a536a875a609317537f3fa987c8604652bb"
+  "observed_at": "2026-09-29T20:50:00Z",
+  "observed_revision": "5abbd073ff159385be1f4e51c9fee4613cf52513"
 }

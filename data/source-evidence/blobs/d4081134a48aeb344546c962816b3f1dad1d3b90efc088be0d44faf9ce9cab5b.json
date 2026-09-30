@@ -1,0 +1,15 @@
+{
+  "files": [
+    ".gitattributes",
+    "Dockerfile",
+    "Dockerfile.dockerignore",
+    "README.md",
+    "gateway.py",
+    "server.py",
+    "space/index.html",
+    "space/launchpad.html",
+    "space/szl-holo-v2.css",
+    "space/szl-holo-v2.js"
+  ],
+  "revision": "0d6dedcf9b1d56bc0c9f00bbaa6900da9ba28c40"
+}

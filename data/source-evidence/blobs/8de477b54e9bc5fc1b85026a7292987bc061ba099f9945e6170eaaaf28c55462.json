@@ -1,0 +1,13 @@
+{
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "chat_template.jinja",
+    "config.json",
+    "generation_config.json",
+    "model.safetensors",
+    "tokenizer.json",
+    "tokenizer_config.json"
+  ],
+  "revision": "0ef9ed208b66c258e1d11e9112f0721c3b5c7565"
+}

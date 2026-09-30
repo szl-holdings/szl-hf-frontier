@@ -1,0 +1,12 @@
+{
+  "files": [
+    ".gitattributes",
+    "DATASET_PROVENANCE.json",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "k_verify_v1.jsonl",
+    "k_verify_v1.manifest.json"
+  ],
+  "revision": "a5a46493b90f6dc2c9499cdf32e593ab71a8a387"
+}

@@ -1,39 +1,47 @@
 {
-  "card": "---\ntitle: PURIQ Finance\nemoji: \ud83d\udef0\ufe0f\ncolorFrom: gray\ncolorTo: blue\nsdk: docker\napp_port: 7860\npinned: true\nlicense: apache-2.0\nshort_description: \"Provenance-first financial signal and decision console\"\ntags:\n  - szl-holdings\n  - governed-ai\n  - finance\n---\n\n# PURIQ Finance\n\nFINANCIAL INTELLIGENCE flagship for SZL Holdings.\n\nThis Space uses **Domain Experience v4**: an original, domain-specific interface over the shared governed vertical runtime. Runtime claims fail closed to `UNAVAILABLE`; evidence states are never collapsed.\n\n\nCanonical product source: https://github.com/szl-holdings/puriq-live\n\nDeployment controller: https://github.com/szl-holdings/a11oy\n\nPortfolio: https://a-11-oy.com/products/\n\nLicense: Apache-2.0. Public Experience: `4.0.0`.\n",
+  "card": "---\ntitle: PURIQ Finance\nemoji: \ud83d\udef0\ufe0f\ncolorFrom: gray\ncolorTo: blue\nsdk: docker\napp_port: 7860\npinned: true\nlicense: apache-2.0\nshort_description: \"Provenance-first financial signal and portfolio analytics\"\ntags:\n  - szl-holdings\n  - governed-ai\n  - finance\n  - receipts\n  - advisory-only\n---\n\n# PURIQ Finance Engine v2\n\nCanonical source: https://github.com/szl-holdings/vertical-services\nSource revision: 9e3fd501e50a871e37b3c5ddafee3d76fc640301\n\nAdvisory-only. Paper-only. Not financial advice.\nFixture data is always labeled fixture.\nUnavailable upstream data is BLOCKED and never fabricated.",
   "errors": [],
   "evidence": [
     {
-      "bytes": 229,
+      "bytes": 496,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/dd86ba8cdc9ef0c309d26c81e79fcd5283af1876abe8c0a9d5623fba9d299c66.json",
-      "revision": "9cfb48482cf8d717b3d4998fbbe222d1701f8ced",
-      "sha256": "dd86ba8cdc9ef0c309d26c81e79fcd5283af1876abe8c0a9d5623fba9d299c66",
+      "path": "data/source-evidence/blobs/691424f6fe6e3a8fd22732de0cf27056e6927ad8d620044309ffa4f4f47321bc.json",
+      "revision": "742acb90d8d156bc7ae238eb2eba5d2662dee856",
+      "sha256": "691424f6fe6e3a8fd22732de0cf27056e6927ad8d620044309ffa4f4f47321bc",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/finance/revision/9cfb48482cf8d717b3d4998fbbe222d1701f8ced"
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/finance/revision/742acb90d8d156bc7ae238eb2eba5d2662dee856"
     },
     {
-      "bytes": 761,
+      "bytes": 597,
       "kind": "source_card",
-      "path": "data/source-evidence/blobs/fccbf45ca980f63002f376c3a1a4a5ab525cddb5ff963c03b0e5a0c29f428501.md",
-      "revision": "9cfb48482cf8d717b3d4998fbbe222d1701f8ced",
-      "sha256": "fccbf45ca980f63002f376c3a1a4a5ab525cddb5ff963c03b0e5a0c29f428501",
+      "path": "data/source-evidence/blobs/dea81cabfc33bb8bf5d418d30f3114c81b6840f7459f83ed8fa13a7852e5921c.md",
+      "revision": "742acb90d8d156bc7ae238eb2eba5d2662dee856",
+      "sha256": "dea81cabfc33bb8bf5d418d30f3114c81b6840f7459f83ed8fa13a7852e5921c",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://huggingface.co/spaces/SZLHOLDINGS/finance/resolve/9cfb48482cf8d717b3d4998fbbe222d1701f8ced/README.md"
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/finance/resolve/742acb90d8d156bc7ae238eb2eba5d2662dee856/README.md"
     }
   ],
   "files": [
+    ".env.example",
     ".gitattributes",
     "Dockerfile",
     "README.md",
+    "__pycache__/app.cpython-311.pyc",
+    "__pycache__/engine.cpython-311.pyc",
+    "__pycache__/feed.cpython-311.pyc",
+    "__pycache__/receipts.cpython-311.pyc",
     "app.py",
-    "config.json",
-    "index.html",
-    "panels.html",
-    "requirements.txt"
+    "engine.py",
+    "feed.py",
+    "receipts.py",
+    "requirements.txt",
+    "static/console.html",
+    "static/panels.html",
+    "szl-artifact-manifest.json"
   ],
   "id": "huggingface-space/szlholdings/finance",
-  "observed_at": "2026-09-25T15:21:25Z",
-  "observed_revision": "9cfb48482cf8d717b3d4998fbbe222d1701f8ced"
+  "observed_at": "2026-09-29T20:50:04Z",
+  "observed_revision": "742acb90d8d156bc7ae238eb2eba5d2662dee856"
 }

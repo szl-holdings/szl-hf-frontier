@@ -3,24 +3,24 @@
   "errors": [],
   "evidence": [
     {
-      "bytes": 3300,
+      "bytes": 3424,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/1740f083b3067e7778e7c0de50f200c9284f1000c09e90b61b72bd1e50bc8498.json",
-      "revision": "a7d18e271d95fe380c76ae5b7ce0d6272d2885c0",
-      "sha256": "1740f083b3067e7778e7c0de50f200c9284f1000c09e90b61b72bd1e50bc8498",
+      "path": "data/source-evidence/blobs/42aae5bf2e64a0dd6435abb39197ea18457a131ad05fc6e39051e5a3ccdf48ee.json",
+      "revision": "1335e65416a66bb53bcff7032e3705706f426929",
+      "sha256": "42aae5bf2e64a0dd6435abb39197ea18457a131ad05fc6e39051e5a3ccdf48ee",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/datasets/SZLHOLDINGS/killinchu-osint-corpus/revision/a7d18e271d95fe380c76ae5b7ce0d6272d2885c0"
+      "url": "https://huggingface.co/api/datasets/SZLHOLDINGS/killinchu-osint-corpus/revision/1335e65416a66bb53bcff7032e3705706f426929"
     },
     {
       "bytes": 4036,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/cff6a5f0ae5dc694224609fec82b0176e4183bfb3ef4c3b056e82bcfd940fdd3.md",
-      "revision": "a7d18e271d95fe380c76ae5b7ce0d6272d2885c0",
+      "revision": "1335e65416a66bb53bcff7032e3705706f426929",
       "sha256": "cff6a5f0ae5dc694224609fec82b0176e4183bfb3ef4c3b056e82bcfd940fdd3",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://huggingface.co/datasets/SZLHOLDINGS/killinchu-osint-corpus/resolve/a7d18e271d95fe380c76ae5b7ce0d6272d2885c0/README.md"
+      "url": "https://huggingface.co/datasets/SZLHOLDINGS/killinchu-osint-corpus/resolve/1335e65416a66bb53bcff7032e3705706f426929/README.md"
     }
   ],
   "files": [
@@ -127,11 +127,15 @@
     "intel/2026-09-23.ndjson",
     "intel/2026-09-24.ndjson",
     "intel/2026-09-25.ndjson",
+    "intel/2026-09-26.ndjson",
+    "intel/2026-09-27.ndjson",
+    "intel/2026-09-28.ndjson",
+    "intel/2026-09-29.ndjson",
     "intel/head.json",
     "og-card.png",
     "viewer/archive_manifest.jsonl"
   ],
   "id": "huggingface-dataset/szlholdings/killinchu-osint-corpus",
-  "observed_at": "2026-09-25T15:21:20Z",
-  "observed_revision": "a7d18e271d95fe380c76ae5b7ce0d6272d2885c0"
+  "observed_at": "2026-09-29T20:49:55Z",
+  "observed_revision": "1335e65416a66bb53bcff7032e3705706f426929"
 }

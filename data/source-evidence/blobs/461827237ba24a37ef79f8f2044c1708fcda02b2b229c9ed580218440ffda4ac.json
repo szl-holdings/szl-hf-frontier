@@ -1,0 +1,16 @@
+{
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "bench.jsonl",
+    "invalid/broken-chain.json",
+    "invalid/lake-inference-receipt.json",
+    "invalid/tampered-payload.json",
+    "valid/a11oy-khipu-chain.json",
+    "valid/a11oy-khipu-genesis.json",
+    "valid/daily-activity-receipt.json",
+    "valid/readiness-audit-receipt.json"
+  ],
+  "revision": "9e8a4921740f310d144012e27e3bb0cb34e733af"
+}

@@ -1,0 +1,10 @@
+{
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "brain-corpus.public.jsonl",
+    "manifest.json"
+  ],
+  "revision": "c9823ec107fc1fd4df6166c4ad0a37c776ee7e64"
+}

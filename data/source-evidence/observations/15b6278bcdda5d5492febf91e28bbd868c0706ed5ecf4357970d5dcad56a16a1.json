@@ -1,0 +1,20 @@
+{
+  "card": "# szl-openshell-receipts\n\nGoverned, hash-chained receipts and an independent policy reach-delta witness for sandboxed agent runtimes such as NVIDIA OpenShell.\n\n## v0.2\n- `ingest-log`: parses OpenShell-style audit tokens (HTTP:* DENIED/ALLOWED, CONFIG:PROPOSED/APPROVED/REJECTED/LOADED) into receipts. Only line digests and key=value fields are kept, never raw lines.\n- `delta`: SZL reach-set witness. Computes what a policy change adds and flags the four categories OpenShell's prover reasons about, using an independent simplified model.\n- Two-witness gate: `ALLOW_ELIGIBLE` only when this witness and the supplied prover result both report nothing.\n- Approval receipts bind candidate hash and a digest of the review token.\n- Controls ledger (`governance/controls.json`) with doctrine labels.\n- Combined multimodal digest.\n\n## Honest status\nSee `governance/controls.json`. Chain, gate, approvals and multimodal digest are MEASURED by tests. Live OpenShell field mapping and credential isolation are UNKNOWN. Signing is UNAVAILABLE; receipts are UNSIGNED_HONEST. Examples are SYNTHETIC. The reach model is not the OpenShell policy schema.\n\n## Usage\n    pip install .\n    szl-openshell-receipts ingest-log examples/openshell.sample.log --policy examples/policy.readonly-audit.yaml --commit <sha> --out r.jsonl\n    szl-openshell-receipts verify r.jsonl\n    szl-openshell-receipts delta examples/policy.before.json examples/policy.after.json --prover-findings capability_expansion\n    szl-openshell-receipts controls governance/controls.json\n\nStudy notes: `docs/STUDY.md`.\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 1570,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/415afbef7b006750da43e937a8ca5a673c5711979f9ed9be749f45cb24219304.md",
+      "revision": "31cef01f95cbdb862372be354818915b27c34fe4",
+      "sha256": "415afbef7b006750da43e937a8ca5a673c5711979f9ed9be749f45cb24219304",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://github.com/szl-holdings/szl-openshell-receipts/blob/31cef01f95cbdb862372be354818915b27c34fe4/README.md"
+    }
+  ],
+  "files": [],
+  "id": "github/szl-holdings/szl-openshell-receipts",
+  "observed_at": "2026-09-29T20:49:48Z",
+  "observed_revision": "31cef01f95cbdb862372be354818915b27c34fe4"
+}

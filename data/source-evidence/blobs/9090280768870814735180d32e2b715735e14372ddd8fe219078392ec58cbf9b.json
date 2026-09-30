@@ -1,0 +1,18 @@
+{
+  "files": [
+    ".gitattributes",
+    "CANONICAL_WEDGE.md",
+    "CITATION.cff",
+    "DATASET_PROVENANCE.json",
+    "DOCTRINE_V10_LOCKED_2026-05-31_2355.md",
+    "DOCTRINE_V11_LOCKED_2026-06-01_0145.md",
+    "LICENSE",
+    "MYTHOS_TO_HATUN_WILLAY_RULE.md",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "founder-guides/SZL_ENVIRONMENT_SETUP_GUIDE.docx",
+    "founder-guides/SZL_UDS_RUN_GUIDE.docx"
+  ],
+  "revision": "9773c4c6fc6f48849f99e009b8ff7410a632c7fd"
+}

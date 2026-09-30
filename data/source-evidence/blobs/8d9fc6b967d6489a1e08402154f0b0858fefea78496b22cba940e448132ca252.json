@@ -1,0 +1,25 @@
+{
+  "files": [
+    ".gitattributes",
+    "BENCH.laptop-blackwell.json",
+    "LICENSE",
+    "MODEL_PROVENANCE.json",
+    "OPERATIONAL.json",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "SECURITY.md",
+    "SZL_ESTATE_MANAGED.json",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "build.toml",
+    "build/torch-universal/szl_ouroboros/__init__.py",
+    "build/torch-universal/szl_ouroboros/metadata.json",
+    "card/holo-banner.svg",
+    "og-card.png",
+    "ouroboros.py",
+    "scripts/eval.py",
+    "scripts/forge.py",
+    "tests/test_ouroboros.py"
+  ],
+  "revision": "91e68d606a6273dd46db600f83938e61322b2b37"
+}

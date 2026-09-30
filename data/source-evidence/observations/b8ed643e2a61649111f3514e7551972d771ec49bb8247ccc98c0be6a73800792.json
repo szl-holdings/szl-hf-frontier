@@ -6,15 +6,15 @@
       "bytes": 20456,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/e5f190765721757f66fe1fe1730aff9c7317294cf8fd9810d26c28a7691e4136.md",
-      "revision": "e2f7fe931980404ff17ddac24044a8eb254bed6b",
+      "revision": "482edd750f3354569ed417a5f443c43a1271ac91",
       "sha256": "e5f190765721757f66fe1fe1730aff9c7317294cf8fd9810d26c28a7691e4136",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/hatun-mcp/blob/e2f7fe931980404ff17ddac24044a8eb254bed6b/README.md"
+      "url": "https://github.com/szl-holdings/hatun-mcp/blob/482edd750f3354569ed417a5f443c43a1271ac91/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/hatun-mcp",
-  "observed_at": "2026-09-25T15:21:07Z",
-  "observed_revision": "e2f7fe931980404ff17ddac24044a8eb254bed6b"
+  "observed_at": "2026-09-29T20:32:48Z",
+  "observed_revision": "482edd750f3354569ed417a5f443c43a1271ac91"
 }

@@ -1,0 +1,25 @@
+{
+  "files": [
+    ".gitattributes",
+    "BENCH.laptop-blackwell.json",
+    "LICENSE",
+    "MODEL_PROVENANCE.json",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "SECURITY.md",
+    "SZL_ESTATE_MANAGED.json",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "build.toml",
+    "build/torch-universal/szl_govsign/__init__.py",
+    "build/torch-universal/szl_govsign/envelope.py",
+    "build/torch-universal/szl_govsign/metadata.json",
+    "build/torch-universal/szl_govsign/pae.py",
+    "build/torch-universal/szl_govsign/predicate.py",
+    "build/torch-universal/szl_govsign/selfcheck.py",
+    "card/holo-banner.svg",
+    "scripts/eval.py",
+    "scripts/forge.py"
+  ],
+  "revision": "13ce04b3b3e490e9bee6453df7f83fdcf0f3b5c9"
+}

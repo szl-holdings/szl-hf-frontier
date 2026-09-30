@@ -1,0 +1,49 @@
+{
+  "card": "---\nlicense: apache-2.0\ntitle: SZL Forge Lab\nemoji: \"\u2692\ufe0f\"\ncolorFrom: green\ncolorTo: gray\nsdk: static\napp_file: index.html\npinned: false\nshort_description: Evidence console for SZL Forge models and formulas.\n---\n\n\n<div align=\"center\">\n<p>\n\n[![governed](https://img.shields.io/badge/governed-SZL%20Holdings-3af4c8?style=flat-square)](https://huggingface.co/SZLHOLDINGS)\n[![\u039b](https://img.shields.io/badge/\u039b-Conjecture%201%20advisory-d7b96b?style=flat-square)](https://a-11-oy.com)\n[![license](https://img.shields.io/badge/license-apache--2.0-7e8aa3?style=flat-square)](https://huggingface.co/spaces/SZLHOLDINGS/szl-forge-lab)\n\n</p>\n</div>\n<!-- SZL-ESTATE-CARD:v2:START -->\n<p align=\"center\"><a href=\"https://a-11-oy.com/\"><img src=\"https://huggingface.co/spaces/SZLHOLDINGS/README/resolve/main/assets/estate-banner-v2.svg\" alt=\"SZL Holdings \u2014 governed, receipted, verifiable\" width=\"100%\"></a></p>\n<p align=\"center\">\n  <a href=\"https://github.com/szl-holdings/.github/tree/main/doctrine\"><img src=\"https://img.shields.io/badge/doctrine-v11%20LOCKED-0B1F3A?style=flat-square\" alt=\"doctrine v11\"></a>\n  <a href=\"https://a-11-oy.com/\"><img src=\"https://img.shields.io/badge/evidence%20wall-LIVE%20%C2%B7%20verify%20in%20browser-3AF4C8?style=flat-square\" alt=\"live evidence wall\"></a>\n  <a href=\"https://huggingface.co/datasets/SZLHOLDINGS/szl-lake\"><img src=\"https://img.shields.io/badge/szl--lake-offline%20verifiable-C9B787?style=flat-square\" alt=\"szl-lake offline verifiable\"></a>\n  <a href=\"https://huggingface.co/spaces/SZLHOLDINGS/holographic\"><img src=\"https://img.shields.io/badge/estate%20map-holographic-5B8DEE?style=flat-square\" alt=\"holographic estate map\"></a>\n</p>\n<p align=\"center\"><sub>Part of the <a href=\"https://huggingface.co/SZLHOLDINGS\">SZL Holdings</a> governed estate \u2014 claims are designed to carry checkable receipts. Verification proves integrity &amp; origin, never accuracy or performance.</sub></p>\n<!-- SZL-ESTATE-CARD:v2:END -->\n\n# SZL Forge Lab\n\nSZL Forge Lab is the read-only evidence surface for the SZL sovereign model and\nformula Forge. It exposes independently named views for system state, artifact\nintegrity, fixture evaluation, receipts, formula metadata, scientific-source\npolicy, and the governed curriculum blueprint.\n\n> **Presentation class: SNAPSHOT / READ-ONLY.** This Space presents packaged\n> evidence and performs browser-side integrity checks. It is not a model, model\n> trainer, publisher, promoter, deployment control plane, or independent\n> evaluator. `REACHABLE` describes transport only.\n>\n> **ATELIER lock.** Curriculum status is `BLUEPRINT_NOT_TRAINED`. This Space is\n> not Unsloth Studio, not a Jobs launcher, and not a training UI. Do not recut\n> a studio onto this snapshot.\n>\n> **Serve studio.** Bounded serve is\n> [`SZLHOLDINGS/szl-model-inference-lab`](https://szlholdings-szl-model-inference-lab.hf.space)\n> only. Forge Lab does not serve weights.\n>\n> **Energy.** Rows in `SZLHOLDINGS/energy-attested-runs` labeled 8/8 are\n> **SIMULATED**. This console does not mint joules and does not upgrade a\n> simulated energy fixture into MEASURED.\n>\n> **Ask & Act.** Hugging Face Ask & Act is not a live control plane for this\n> Space. This page does not train, launch Jobs, approve promotion, or mutate\n> external state.\n\nThe static console also renders the packaged\n`szl.model-kernel-portfolio/v1` registry. Each entry retains its declared class\nand evidence state; a model-API listing, registry count, or reachable page does\nnot upgrade software, a recipe, a surrogate, or a derivative into trained\nweights.\n\n## Evidence boundary\n\n- `REACHABLE` describes transport availability only.\n- `SNAPSHOT` identifies packaged evidence, not live training or provider state.\n- Model-specific training and publication state comes from the packaged binding and receipts; the Space does not infer it from reachability.\n- The raw-model contract result is 1/12. The deterministic governed runtime result is 12/12. Neither is a broad capability benchmark.\n- Formula statuses are registry metadata and are not independently re-proven by this Space.\n- The curriculum is `BLUEPRINT_NOT_TRAINED`.\n- Promotion remains blocked pending independent evaluator, model-owner, and security-reviewer approvals.\n- No Space endpoint trains, publishes, promotes, deploys, downloads data, or mutates external state.\n- No Unsloth Studio chrome, HF Jobs launcher, or training form belongs on this Space.\n- Serve remains the Model Inference Lab Space, not this snapshot.\n\n## Machine-readable evidence\n\nThis Space is now a **static frontend** (`index.html`): your browser fetches the\npackaged evidence files, recomputes every artifact SHA-256 against the run-manifest\ndeclarations, and re-verifies each receipt's canonical hash \u2014 live, on every load.\nThe same evidence files are plain HTTP artifacts anyone can fetch and hash:\n\n```bash\nfor f in run_manifest.json eval_receipt.json training_summary.json \\\n         thesis_formula_index.json science_source_ledger.json curriculum.json; do\n  curl -sL https://huggingface.co/spaces/SZLHOLDINGS/szl-forge-lab/resolve/main/$f | sha256sum\ndone\n```\n\n## Local validation\n\n```bash\npython -m unittest discover -s tests -v\npython -m py_compile forge_lab.py forge_runtime_contract.py app.py  # legacy Gradio sources, kept for provenance\n```\n\n---\n\n<div align=\"center\">\n\n**[SZLHOLDINGS on Hugging Face](https://huggingface.co/SZLHOLDINGS)**   |   **[a-11-oy.com](https://a-11-oy.com)**   |   **[Estate hub](https://szlholdings-szl-estate-live.static.hf.space)**\n\n### Governed AI with inspectable evidence.\n\n<sub>Labels remain explicit: MEASURED / REPORTED / MODELED / SAMPLE / UNKNOWN / UNAVAILABLE. Integrity and origin evidence do not establish model quality, safety, or runtime readiness.</sub>\n\n</div>\n",
+  "errors": [],
+  "evidence": [
+    {
+      "bytes": 546,
+      "kind": "file_inventory",
+      "path": "data/source-evidence/blobs/e6e47ecca623abf14db91c652a4318b90c42e1d3f32772b74d3359e2552c60a2.json",
+      "revision": "fc96357b7742a582eaad225400096d5db690163a",
+      "sha256": "e6e47ecca623abf14db91c652a4318b90c42e1d3f32772b74d3359e2552c60a2",
+      "source_path": "",
+      "status": "observed",
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/szl-forge-lab/revision/fc96357b7742a582eaad225400096d5db690163a"
+    },
+    {
+      "bytes": 5767,
+      "kind": "source_card",
+      "path": "data/source-evidence/blobs/9f4d120bc4103c54eca0948f7050a2655d628ff68c2e8ed2c460fb3f353eec02.md",
+      "revision": "fc96357b7742a582eaad225400096d5db690163a",
+      "sha256": "9f4d120bc4103c54eca0948f7050a2655d628ff68c2e8ed2c460fb3f353eec02",
+      "source_path": "README.md",
+      "status": "observed",
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/szl-forge-lab/resolve/fc96357b7742a582eaad225400096d5db690163a/README.md"
+    }
+  ],
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "agents.md",
+    "app.py",
+    "curriculum.json",
+    "eval_receipt.json",
+    "forge_lab.py",
+    "forge_runtime_contract.py",
+    "index.html",
+    "model_portfolio.json",
+    "requirements.txt",
+    "run_manifest.json",
+    "science_source_ledger.json",
+    "tests/test_runtime_contract.py",
+    "tests/test_static_contract.py",
+    "thesis_formula_index.json",
+    "training_summary.json"
+  ],
+  "id": "huggingface-space/szlholdings/szl-forge-lab",
+  "observed_at": "2026-09-29T20:50:06Z",
+  "observed_revision": "fc96357b7742a582eaad225400096d5db690163a"
+}

@@ -1,0 +1,25 @@
+{
+  "files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "adapter_config.json",
+    "adapter_model.safetensors",
+    "bom/model-bom.cdx.json",
+    "chat_template.jinja",
+    "config.json",
+    "eval_dev_named_n.bound.json",
+    "eval_dev_named_n.json",
+    "frontier_gpu_summary.json",
+    "generation_config.json",
+    "merge_receipt.json",
+    "model.safetensors",
+    "processor_config.json",
+    "provenance.json",
+    "status.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "training_receipt.laptop-blackwell.json"
+  ],
+  "revision": "910343a2293f6bee8cc6e23f6cd16a981b92a155"
+}

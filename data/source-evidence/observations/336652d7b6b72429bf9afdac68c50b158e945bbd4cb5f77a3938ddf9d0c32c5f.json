@@ -6,15 +6,15 @@
       "bytes": 556,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/3499ba1df59591c49d5d55641374d50e0b15191a142b1b80102db6bb372bd5a9.md",
-      "revision": "8c22afce8d7f9b1569b9caa775a81e0d86e0375c",
+      "revision": "5ad7c3842b15f77486e3a9bfef62c7824543cac8",
       "sha256": "3499ba1df59591c49d5d55641374d50e0b15191a142b1b80102db6bb372bd5a9",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/szl-maskmod/blob/8c22afce8d7f9b1569b9caa775a81e0d86e0375c/README.md"
+      "url": "https://github.com/szl-holdings/szl-maskmod/blob/5ad7c3842b15f77486e3a9bfef62c7824543cac8/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/szl-maskmod",
-  "observed_at": "2026-09-25T15:21:14Z",
-  "observed_revision": "8c22afce8d7f9b1569b9caa775a81e0d86e0375c"
+  "observed_at": "2026-09-29T20:49:48Z",
+  "observed_revision": "5ad7c3842b15f77486e3a9bfef62c7824543cac8"
 }

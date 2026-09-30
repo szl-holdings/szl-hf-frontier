@@ -1,0 +1,25 @@
+{
+  "files": [
+    ".gitattributes",
+    "BENCH.laptop-blackwell.json",
+    "LICENSE",
+    "MODEL_PROVENANCE.json",
+    "OPERATIONAL.json",
+    "PROMOTION_READINESS_AUDIT.json",
+    "README.md",
+    "SECURITY.md",
+    "SZL_ESTATE_MANAGED.json",
+    "TRAINING_RECEIPT.json",
+    "bom/model-bom.cdx.json",
+    "build.toml",
+    "build/torch-universal/szl_formulas/__init__.py",
+    "build/torch-universal/szl_formulas/_composer.py",
+    "build/torch-universal/szl_formulas/_formulas.py",
+    "build/torch-universal/szl_formulas/metadata.json",
+    "card/holo-banner.svg",
+    "scripts/eval.py",
+    "scripts/forge.py",
+    "tests/test_formulas.py"
+  ],
+  "revision": "5e4519bb648c47bc7eb4aea4ba5fe80d92570883"
+}

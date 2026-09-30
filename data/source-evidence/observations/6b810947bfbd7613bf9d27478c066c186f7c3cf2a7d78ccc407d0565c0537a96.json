@@ -1,26 +1,26 @@
 {
-  "card": "---\ntitle: SZL Holographic Unify\nemoji: \ud83d\udd2e\ncolorFrom: yellow\ncolorTo: gray\nsdk: docker\napp_port: 7860\npinned: false\nlicense: apache-2.0\nsuggested_hardware: cpu-basic\nshort_description: Estate command hologram. PEFT Forge. Serve gate. Wave 2026.\ntags:\n  - governed-ai\n  - hologram\n  - peft\n  - vllm\n  - ayllu\n  - szl-holdings\n---\n\n# SZL Holographic Unify \u2014 Hub flatten\n\n**GitHub is canonical.** This directory is the Hugging Face payload.\n\n- Stdlib HTTP on 7860. No npm. No CUDA. No Unsloth.\n- GPU vLLM / Unsloth remain **ROADMAP**.\n- Energy joules **UNAVAILABLE** unless NVML MEASURED.\n- \u039b uniqueness is **Conjecture 1**. Never proven trust.\n- Kimi-K3 dump is **REFUSED**.\n\n`scripts/publish_space.py --apply` publishes this flatten from an exact, clean\nGitHub `main` checkout and waits for provider plus `/healthz` readback. Do not\n`npm ci` on Hub.\n",
+  "card": "---\ntitle: SZL Holographic Unify\nemoji: \ud83d\udd2e\ncolorFrom: yellow\ncolorTo: gray\nsdk: docker\napp_port: 7860\npinned: false\nlicense: apache-2.0\nsuggested_hardware: cpu-basic\nshort_description: Estate command hologram. PEFT Forge. Serve gate. Wave 2026.\ntags:\n  - governed-ai\n  - hologram\n  - peft\n  - vllm\n  - ayllu\n  - szl-holdings\nszl:\n  source_repo: szl-holdings/holographic-unify\n  proof_url: https://github.com/szl-holdings/holographic-unify\n---\n\n# SZL Holographic Unify \u2014 Hub flatten\n\n**GitHub is canonical.** Source:\n[github.com/szl-holdings/holographic-unify](https://github.com/szl-holdings/holographic-unify).\nIts `space/` directory is this Space's payload.\n\n- Stdlib HTTP on 7860. No npm. No CUDA. No Unsloth.\n- GPU vLLM / Unsloth remain **ROADMAP**.\n- Energy joules are **UNAVAILABLE**. This Space takes no NVML reading.\n- \u039b uniqueness is **Conjecture 1**. Never proven trust.\n- Kimi-K3 dump is **REFUSED**.\n\nThe only writer is the committed workflow\n`.github/workflows/deploy-hf-space.yml` in the source repository. It runs\n`scripts/publish_space.py --apply` on the exact `main` commit (push or manual\ndispatch), then requires provider byte readback and a live `/healthz` before it\nrecords success. Do not `npm ci` on Hub.\n",
   "errors": [],
   "evidence": [
     {
       "bytes": 193,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/42af9691bb2d69095174bbc6955b75ddb2d8a2c690c686363552f4f41840f4e2.json",
-      "revision": "c206b2c93b8b9693ee136f7ab13f37fe31d13bf7",
-      "sha256": "42af9691bb2d69095174bbc6955b75ddb2d8a2c690c686363552f4f41840f4e2",
+      "path": "data/source-evidence/blobs/d2f85ab85a4bc8ee9b504c7e068b82aa611c01ef83cc4c3bedffcfe48fe10df9.json",
+      "revision": "91f91d2e6ae09770c3f85ab7c6dcb46cca14d0d4",
+      "sha256": "d2f85ab85a4bc8ee9b504c7e068b82aa611c01ef83cc4c3bedffcfe48fe10df9",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/holographic-unify/revision/c206b2c93b8b9693ee136f7ab13f37fe31d13bf7"
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/holographic-unify/revision/91f91d2e6ae09770c3f85ab7c6dcb46cca14d0d4"
     },
     {
-      "bytes": 854,
+      "bytes": 1233,
       "kind": "source_card",
-      "path": "data/source-evidence/blobs/9e72e474ab2d268a45f3e1f840d0a027bd3da70ced16243cf7016c63d57366cd.md",
-      "revision": "c206b2c93b8b9693ee136f7ab13f37fe31d13bf7",
-      "sha256": "9e72e474ab2d268a45f3e1f840d0a027bd3da70ced16243cf7016c63d57366cd",
+      "path": "data/source-evidence/blobs/6ec8dd9f9dde33781f81903f352828bcdc2ca4b943b133e3fad291183275b1da.md",
+      "revision": "91f91d2e6ae09770c3f85ab7c6dcb46cca14d0d4",
+      "sha256": "6ec8dd9f9dde33781f81903f352828bcdc2ca4b943b133e3fad291183275b1da",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://huggingface.co/spaces/SZLHOLDINGS/holographic-unify/resolve/c206b2c93b8b9693ee136f7ab13f37fe31d13bf7/README.md"
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/holographic-unify/resolve/91f91d2e6ae09770c3f85ab7c6dcb46cca14d0d4/README.md"
     }
   ],
   "files": [
@@ -32,6 +32,6 @@
     "server.py"
   ],
   "id": "huggingface-space/szlholdings/holographic-unify",
-  "observed_at": "2026-09-25T15:21:25Z",
-  "observed_revision": "c206b2c93b8b9693ee136f7ab13f37fe31d13bf7"
+  "observed_at": "2026-09-29T20:50:04Z",
+  "observed_revision": "91f91d2e6ae09770c3f85ab7c6dcb46cca14d0d4"
 }

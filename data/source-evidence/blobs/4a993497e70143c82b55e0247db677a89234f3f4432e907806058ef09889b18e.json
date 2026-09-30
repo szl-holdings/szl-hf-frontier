@@ -1,0 +1,16 @@
+{
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "brain-neomme-1.4.1.json",
+    "formulas.jsonl",
+    "frontier-edge-agent.v1.json",
+    "frontier-top-choices.v1.jsonl",
+    "gates.jsonl",
+    "kimi-hy4-spark-intake.v1.json",
+    "minicpm5-matched-evidence.v1.json",
+    "neomme-smoke.v1.json",
+    "posture.json"
+  ],
+  "revision": "aa6a840231d72530e75adce3af4bdebbd179029a"
+}

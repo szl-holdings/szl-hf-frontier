@@ -5,22 +5,22 @@
     {
       "bytes": 307,
       "kind": "file_inventory",
-      "path": "data/source-evidence/blobs/b4be6f18aed6948786618f1fcd7ab1f3ec589694478bc3a9b57d29101a516890.json",
-      "revision": "0c33ee1f40c4a76dda5fef6336a40e61ad6aaad5",
-      "sha256": "b4be6f18aed6948786618f1fcd7ab1f3ec589694478bc3a9b57d29101a516890",
+      "path": "data/source-evidence/blobs/e816164ca29b0f935dd02b8e17bd71dadbd74524810823db330bfcb7ca7f9925.json",
+      "revision": "8ed1835fa560c37c05dbfc1968b3506042becc4e",
+      "sha256": "e816164ca29b0f935dd02b8e17bd71dadbd74524810823db330bfcb7ca7f9925",
       "source_path": "",
       "status": "observed",
-      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/counsel/revision/0c33ee1f40c4a76dda5fef6336a40e61ad6aaad5"
+      "url": "https://huggingface.co/api/spaces/SZLHOLDINGS/counsel/revision/8ed1835fa560c37c05dbfc1968b3506042becc4e"
     },
     {
       "bytes": 790,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/28fc53cdaf36c740505916b87d596cd686558c54130f70b63f21fd5f2fdcc625.md",
-      "revision": "0c33ee1f40c4a76dda5fef6336a40e61ad6aaad5",
+      "revision": "8ed1835fa560c37c05dbfc1968b3506042becc4e",
       "sha256": "28fc53cdaf36c740505916b87d596cd686558c54130f70b63f21fd5f2fdcc625",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://huggingface.co/spaces/SZLHOLDINGS/counsel/resolve/0c33ee1f40c4a76dda5fef6336a40e61ad6aaad5/README.md"
+      "url": "https://huggingface.co/spaces/SZLHOLDINGS/counsel/resolve/8ed1835fa560c37c05dbfc1968b3506042becc4e/README.md"
     }
   ],
   "files": [
@@ -37,6 +37,6 @@
     "requirements.txt"
   ],
   "id": "huggingface-space/szlholdings/counsel",
-  "observed_at": "2026-09-25T15:21:25Z",
-  "observed_revision": "0c33ee1f40c4a76dda5fef6336a40e61ad6aaad5"
+  "observed_at": "2026-09-29T20:50:03Z",
+  "observed_revision": "8ed1835fa560c37c05dbfc1968b3506042becc4e"
 }

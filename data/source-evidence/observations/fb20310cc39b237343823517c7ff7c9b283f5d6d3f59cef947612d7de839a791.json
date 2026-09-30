@@ -39,6 +39,6 @@
     "torch-ext/szl_maskmod/_ops.py"
   ],
   "id": "huggingface-model/szlholdings/szl-maskmod",
-  "observed_at": "2026-09-25T15:21:23Z",
+  "observed_at": "2026-09-29T20:50:01Z",
   "observed_revision": "654a01aaaf86d06471f019cf2f84305703ccc260"
 }

@@ -6,15 +6,15 @@
       "bytes": 5656,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/07308890832e365ef092ec971744e46d8d3a6d3b6a87098f0d2d3ceb8dce863a.md",
-      "revision": "209a64394ae9a8baa9c2e4e9405f77580b4f9d1e",
+      "revision": "f4c9df3840a84c767b7e5fa1c29aa25f00cc0457",
       "sha256": "07308890832e365ef092ec971744e46d8d3a6d3b6a87098f0d2d3ceb8dce863a",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/szl-ouroboros/blob/209a64394ae9a8baa9c2e4e9405f77580b4f9d1e/README.md"
+      "url": "https://github.com/szl-holdings/szl-ouroboros/blob/f4c9df3840a84c767b7e5fa1c29aa25f00cc0457/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/szl-ouroboros",
-  "observed_at": "2026-09-25T15:21:15Z",
-  "observed_revision": "209a64394ae9a8baa9c2e4e9405f77580b4f9d1e"
+  "observed_at": "2026-09-29T20:49:49Z",
+  "observed_revision": "f4c9df3840a84c767b7e5fa1c29aa25f00cc0457"
 }

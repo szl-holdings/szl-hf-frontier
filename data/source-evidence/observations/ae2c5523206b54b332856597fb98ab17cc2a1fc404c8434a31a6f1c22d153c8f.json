@@ -6,15 +6,15 @@
       "bytes": 2682,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/386fa2a2853a361f7cf682eebb060077ac563c6504377604f75e4fa41500ccbb.md",
-      "revision": "6a813593e46688f021a114ce5eb16816535bfde2",
+      "revision": "437e914a6af0da210001227609303406d6afc7b0",
       "sha256": "386fa2a2853a361f7cf682eebb060077ac563c6504377604f75e4fa41500ccbb",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/frontier-bench/blob/6a813593e46688f021a114ce5eb16816535bfde2/README.md"
+      "url": "https://github.com/szl-holdings/frontier-bench/blob/437e914a6af0da210001227609303406d6afc7b0/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/frontier-bench",
-  "observed_at": "2026-09-25T15:21:06Z",
-  "observed_revision": "6a813593e46688f021a114ce5eb16816535bfde2"
+  "observed_at": "2026-09-29T20:32:48Z",
+  "observed_revision": "437e914a6af0da210001227609303406d6afc7b0"
 }

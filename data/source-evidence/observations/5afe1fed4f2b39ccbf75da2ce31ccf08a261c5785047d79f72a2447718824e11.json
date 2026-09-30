@@ -40,6 +40,6 @@
     "torch-ext/szl_block_kv/_ops.py"
   ],
   "id": "huggingface-model/szlholdings/szl-block-kv",
-  "observed_at": "2026-09-25T15:21:22Z",
+  "observed_at": "2026-09-29T20:49:59Z",
   "observed_revision": "b5e86e4038e630eda94e3bd83cee1c5729d6d826"
 }

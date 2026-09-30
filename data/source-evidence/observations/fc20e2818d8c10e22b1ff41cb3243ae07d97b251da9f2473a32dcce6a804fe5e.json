@@ -6,15 +6,15 @@
       "bytes": 1213,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/381d05ce7b4096b7fece8cec7072b2528ec2137010fe6b2dde92a8270be1fbec.md",
-      "revision": "d0e8110ac815a47612a2b5e7729e4a805335735e",
+      "revision": "65c800b59249f27559de575bc66f5054fa585fa5",
       "sha256": "381d05ce7b4096b7fece8cec7072b2528ec2137010fe6b2dde92a8270be1fbec",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/szl-formulas/blob/d0e8110ac815a47612a2b5e7729e4a805335735e/README.md"
+      "url": "https://github.com/szl-holdings/szl-formulas/blob/65c800b59249f27559de575bc66f5054fa585fa5/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/szl-formulas",
-  "observed_at": "2026-09-25T15:21:13Z",
-  "observed_revision": "d0e8110ac815a47612a2b5e7729e4a805335735e"
+  "observed_at": "2026-09-29T20:49:45Z",
+  "observed_revision": "65c800b59249f27559de575bc66f5054fa585fa5"
 }

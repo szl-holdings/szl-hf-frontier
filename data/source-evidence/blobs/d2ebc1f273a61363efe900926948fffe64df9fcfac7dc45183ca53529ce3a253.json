@@ -1,0 +1,16 @@
+{
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "SHA256SUMS",
+    "edges.jsonl",
+    "generator.py",
+    "graph.json",
+    "nodes.jsonl",
+    "receipt.json",
+    "schema.json",
+    "sources/estates.json",
+    "sources/verticals.json"
+  ],
+  "revision": "71933bcd9346d97a36a9f4745e0e79703e224516"
+}

@@ -1,0 +1,11 @@
+{
+  "files": [
+    ".gitattributes",
+    "DATASET_PROVENANCE.json",
+    "README.md",
+    "SZL_ESTATE_MANAGED.json",
+    "receipts.ndjson",
+    "signing_key.pub"
+  ],
+  "revision": "b2c4946d9d002ba22aaa2fe7407904a81d8e0736"
+}

@@ -6,15 +6,15 @@
       "bytes": 2717,
       "kind": "source_card",
       "path": "data/source-evidence/blobs/519b5eec2eca242728a76c3031eec474db2b67c18e7e61e7de32240158ea4a63.md",
-      "revision": "26135bcc03e9d55f35dd8d7ed8f043631ea30cd2",
+      "revision": "ab46db4807fa5ef78bf0b08d88781408a2d59866",
       "sha256": "519b5eec2eca242728a76c3031eec474db2b67c18e7e61e7de32240158ea4a63",
       "source_path": "README.md",
       "status": "observed",
-      "url": "https://github.com/szl-holdings/quant-curve/blob/26135bcc03e9d55f35dd8d7ed8f043631ea30cd2/README.md"
+      "url": "https://github.com/szl-holdings/quant-curve/blob/ab46db4807fa5ef78bf0b08d88781408a2d59866/README.md"
     }
   ],
   "files": [],
   "id": "github/szl-holdings/quant-curve",
-  "observed_at": "2026-09-25T15:21:09Z",
-  "observed_revision": "26135bcc03e9d55f35dd8d7ed8f043631ea30cd2"
+  "observed_at": "2026-09-29T20:49:41Z",
+  "observed_revision": "ab46db4807fa5ef78bf0b08d88781408a2d59866"
 }
