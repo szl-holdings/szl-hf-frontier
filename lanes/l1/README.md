@@ -23,3 +23,15 @@ A single promoted ReceiptAgent ID exists with sample-level logs,
 controller-bound vs naked decode, and a published risk point.
 
 Not done. Not a SKU. Not LIVE.
+
+## Local research harness
+
+[`local_evidence_lab/`](local_evidence_lab/README.md) contains the frozen Python
+capability-admission and selective-calibration prototype and a replayable local
+observation. The forty observed model responses use authored development cases
+and synthetic in-memory actions. They do not select a tournament winner, supply
+held-out calibration, or qualify a ReceiptAgent for promotion.
+
+Ordinary CI checks exact source and receipt bytes, runs the 64 offline tests, and
+replays the retained observation. It does not start Ollama or perform GPU/model
+inference. The lane's winner and operating point remain unset.

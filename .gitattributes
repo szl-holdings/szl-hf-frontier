@@ -5,3 +5,14 @@ data/source_reviews*.json -text
 data/estate_registry.json -text
 reports/** -text
 examples/estate-audit-20260924/** -text
+# Frozen research sources and their local observation must retain exact bytes.
+lanes/l1/local_evidence_lab/evidence_lab.py -text
+lanes/l1/local_evidence_lab/selective_calibration.py -text
+lanes/l1/local_evidence_lab/test_evidence_lab.py -text
+lanes/l1/local_evidence_lab/test_selective_calibration.py -text
+lanes/l1/local_evidence_lab/source_alignment.py -text
+lanes/l1/local_evidence_lab/test_source_alignment.py -text
+lanes/l1/local_evidence_lab/measured-source-20260929.py.txt -text
+examples/local-evidence-admission-20260929/local-inference-receipt.json -text
+examples/source-alignment-20260929/domain-readback.json -text
+examples/source-alignment-20260929/source-alignment-final.json -text

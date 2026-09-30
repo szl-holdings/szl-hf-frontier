@@ -1,0 +1,189 @@
+{
+  "caller_pin_role": "COMPARISON_ONLY_NOT_AUTHOR_AUTHENTICATION_OR_RELEASE_AUTHORIZATION",
+  "created_at_utc": "2026-09-30T02:52:37.348521+00:00",
+  "expected_github_sha": "599d3a4783fe2816a7c5cf15a819453d5cb6c264",
+  "input_receipt_sha256": "0a266c47156ab0acdb37414bda7bc3ecdda46533de1eaf07e0b8c6af18f90dea",
+  "label": "UNSIGNED_LOCAL_OBSERVATION",
+  "limitations": [
+    "A matched environment-reported source SHA is not signed or byte-attested release proof.",
+    "The expected SHA is caller supplied; no author authentication or release authority is inferred.",
+    "Provider metadata is retained public API reporting; the complete API body is not retained here.",
+    "Product-domain timeouts remain observer-specific, not evidence of a universal outage.",
+    "Registry HTML reachability does not prove explanatory content or product readiness."
+  ],
+  "max_observation_age_seconds": 21600,
+  "network_requests_made_by_this_tool": 0,
+  "promotion_eligible": false,
+  "proof_boundaries": {
+    "author_authenticated": false,
+    "exact_head_ci_verified": false,
+    "functional_readiness_verified": false,
+    "immutable_byte_parity_verified": false,
+    "product_custom_domain_identity_verified": false,
+    "release_authorized": false,
+    "signed_attestation_verified": false
+  },
+  "provider_identity_reported": {
+    "domains_reported": [
+      {
+        "domain": "szlholdings-a11oy.hf.space",
+        "stage": "READY"
+      },
+      {
+        "domain": "a-11-oy.com",
+        "stage": "READY"
+      }
+    ],
+    "full_public_api_body_digest_verified_locally": false,
+    "hf_content_revision": "8d20317b43d337e3278e893878504fda572ef20f",
+    "hf_runtime_revision_reported": "8d20317b43d337e3278e893878504fda572ef20f",
+    "host": "https://szlholdings-a11oy.hf.space",
+    "metadata_evidence": "RETAINED_PUBLIC_API_EXTRACT_NOT_AUTHENTICATED_BY_THIS_TOOL",
+    "observed_at_utc": "2026-09-29T21:19:24.811095+00:00",
+    "public_api_response_sha256_retained": "9b29d592fad9f150380c6835342dc2d0a8a58618ac2fe5c780d5ade5cf17fdea",
+    "revision_values_equal_to_github_revision": false,
+    "runtime_stage_reported": "RUNNING",
+    "space_id": "SZLHOLDINGS/a11oy",
+    "warning": "RUNNING/READY and the HF SHA do not prove product routes or GitHub file parity."
+  },
+  "release_chain": "PARTIAL_RELEASE_CHAIN",
+  "request_count_retained": 14,
+  "runtime_identity": {
+    "build_state": "OBSERVED",
+    "endpoint": "https://szlholdings-a11oy.hf.space/api/build-info",
+    "field_evidence": {
+      "revision": "OBSERVED",
+      "version": "UNKNOWN",
+      "working_tree": "UNKNOWN"
+    },
+    "functional_readiness_proven": false,
+    "github_revision_observed": "599d3a4783fe2816a7c5cf15a819453d5cb6c264",
+    "identity_evidence": "OBSERVED_ENVIRONMENT_REPORTED_GITHUB_REVISION",
+    "immutable_byte_parity_proven": false,
+    "observed_at_utc": "2026-09-29T21:23:28.549612+00:00",
+    "raw_body_bytes_verified": 415,
+    "raw_body_sha256_verified": "4b04dfe96cd21654edc9fed2a5d030fe1d0ba7794f4816a7d2e9b0b1f0a6a135",
+    "revision_source": "env:SZL_GIT_SHA",
+    "runtime_reported": {
+      "platform": "linux",
+      "python": "3.14.7"
+    },
+    "working_tree_reported": "UNKNOWN"
+  },
+  "schema": "szl.source-alignment.local.v1",
+  "source_identity_match": true,
+  "surface_observations": [
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "evidence_scope": "THIS_OBSERVER_NETWORK_ONLY",
+      "functional_readiness_proven": false,
+      "http_status": null,
+      "label": "UNAVAILABLE",
+      "observed_at_utc": "2026-09-29T21:14:00.671650+00:00",
+      "requested_url": "https://a-11-oy.com/",
+      "response_url": null
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "evidence_scope": "THIS_OBSERVER_NETWORK_ONLY",
+      "functional_readiness_proven": false,
+      "http_status": null,
+      "label": "UNAVAILABLE",
+      "observed_at_utc": "2026-09-29T21:14:00.713968+00:00",
+      "requested_url": "https://a-11-oy.com/api/build-info",
+      "response_url": null
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "evidence_scope": "THIS_OBSERVER_NETWORK_ONLY",
+      "functional_readiness_proven": false,
+      "http_status": null,
+      "label": "UNAVAILABLE",
+      "observed_at_utc": "2026-09-29T21:14:00.653086+00:00",
+      "requested_url": "https://a-11-oy.com/readyz",
+      "response_url": null
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "evidence_scope": "THIS_OBSERVER_NETWORK_ONLY",
+      "functional_readiness_proven": false,
+      "http_status": null,
+      "label": "UNAVAILABLE",
+      "observed_at_utc": "2026-09-29T21:14:01.250843+00:00",
+      "requested_url": "https://a-11-oy.com/deployment.json",
+      "response_url": null
+    },
+    {
+      "functional_readiness_proven": false,
+      "http_status": 200,
+      "label": "HTML_REACHABILITY_ONLY",
+      "observed_at_utc": "2026-09-29T21:14:01.494470+00:00",
+      "requested_url": "https://a11oy.net/",
+      "response_url": "https://a11oy.net/"
+    },
+    {
+      "functional_readiness_proven": false,
+      "http_status": 301,
+      "label": "OBSERVED_REDIRECT_ONLY",
+      "observed_at_utc": "2026-09-29T21:14:02.123719+00:00",
+      "redirect_location": "https://a11oy.net/api/build-info/",
+      "requested_url": "https://a11oy.net/api/build-info",
+      "response_url": "https://a11oy.net/api/build-info"
+    },
+    {
+      "functional_readiness_proven": false,
+      "http_status": 301,
+      "label": "OBSERVED_REDIRECT_ONLY",
+      "observed_at_utc": "2026-09-29T21:14:01.737870+00:00",
+      "redirect_location": "https://a11oy.net/readyz/",
+      "requested_url": "https://a11oy.net/readyz",
+      "response_url": "https://a11oy.net/readyz"
+    },
+    {
+      "functional_readiness_proven": false,
+      "http_status": 404,
+      "label": "STATIC_PATH_NOT_FOUND_NO_RUNTIME_CLAIM",
+      "observed_at_utc": "2026-09-29T21:14:02.139286+00:00",
+      "requested_url": "https://a11oy.net/deployment.json",
+      "response_url": "https://a11oy.net/deployment.json"
+    },
+    {
+      "functional_readiness_proven": false,
+      "http_status": 200,
+      "label": "HTML_REACHABILITY_ONLY",
+      "observed_at_utc": "2026-09-29T21:16:01.362191+00:00",
+      "requested_url": "https://a11oy.net/",
+      "response_url": "https://a11oy.net/"
+    },
+    {
+      "explanatory_content_verified": false,
+      "functional_readiness_proven": false,
+      "http_status": 200,
+      "label": "STATIC_ROUTE_HTML_REACHABILITY_ONLY",
+      "observed_at_utc": "2026-09-29T21:16:00.798804+00:00",
+      "requested_url": "https://a11oy.net/api/build-info/",
+      "response_url": "https://a11oy.net/api/build-info/",
+      "route_role": "CONFIGURED_REGISTRY_ROUTE_NOT_PRODUCT_API"
+    },
+    {
+      "explanatory_content_verified": false,
+      "functional_readiness_proven": false,
+      "http_status": 200,
+      "label": "STATIC_ROUTE_HTML_REACHABILITY_ONLY",
+      "observed_at_utc": "2026-09-29T21:16:01.220675+00:00",
+      "requested_url": "https://a11oy.net/readyz/",
+      "response_url": "https://a11oy.net/readyz/",
+      "route_role": "CONFIGURED_REGISTRY_ROUTE_NOT_PRODUCT_API"
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "evidence_scope": "THIS_OBSERVER_NETWORK_ONLY",
+      "functional_readiness_proven": false,
+      "http_status": null,
+      "label": "UNAVAILABLE",
+      "observed_at_utc": "2026-09-29T21:16:00.811477+00:00",
+      "requested_url": "https://a-11-oy.com/api/build-info",
+      "response_url": null
+    }
+  ]
+}
