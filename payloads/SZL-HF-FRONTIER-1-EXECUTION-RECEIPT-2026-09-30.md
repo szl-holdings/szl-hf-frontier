@@ -1,0 +1,59 @@
+# SZL thread audit and execution receipt — 2026-09-30 (17:05–17:50 EDT)
+
+Scope: the 50-turn source thread (Nano wave, merge/publish wave, Frontier-1 payload, PR-queue ask, marketing payload) re-verified against live GitHub, Hugging Face, Cloudflare/DNS and the two domains, then executed as far as this sandbox and the owner gates allow.
+
+## 1. State ledger (verified, not assumed)
+
+| Lane | Thread claim | Live state at audit | Action taken |
+|---|---|---|---|
+| Frontier-1 payload (szl-hf-frontier #49) | "waiting on `payload` check" | Merged by owner 20:07Z; Codex rewrote it into an offline executor `tools/frontier1.py` | Ran it: 33/33 tests pass; default plan and dated-observation replay run clean; `--record` against the historical run correctly fails closed (executor bytes changed since `a060b82`), as the contract specifies |
+| Forge #254 / #243 | "draft + HOLD, cannot merge" | Both MERGED (Sep 12 / Sep 25) — thread claim was stale; Codex F9 already corrected it | None |
+| 8 merged checkpoints on the Hub | "publish landed Sep 13–16" | Confirmed: 7 repos hold root `model.safetensors`+`config.json`+`merge_receipt.json`; v2 holds its merge under `salvaged-merge/` only | None needed |
+| Card metadata (WO1) | "cosmetic peft tags" | 7 cards still `library_name: peft` / `base_model_relation: adapter`. Root cause found: cards are **publisher-managed from szl-forge** (`publish-chaski-card.yml`, `publish-khipu-card.yml`; WILLAY via a pinned curated pipeline). The chaski/KHIPU-R2 publisher contracts *require* `base_model_relation: adapter` + `artifact_class: ADAPTER`, so a relabel would break publication — Codex F2 was right | Additive identity note instead: szl-forge **PR #442** (3 source cards, 256 tests green). Hub-PR-managed repos (khipu-r3, brain-navigator-r2, v3) get the same note via the runbook's `cards --apply` (owner-gated). WILLAY excluded (pinned source digest, #435) |
+| DPO khipu-abstain (WO3) | "never ran" | Still never ran; v1 pipeline had the 4 defects Codex listed (CPU fallback, held-out pooled into training, challenger from bare base, ungated publish) | Rewrote as v2 — szl-forge **PR #440**; CUDA gate proven fail-closed here; grader unit-tested; runbook pinned to commit `c6e60fee`, SHA-256 `6a4b893b…40a15` |
+| Token hygiene (WO6) | two tokens exposed Sep 12 | Not verifiable from here; owner has not confirmed | All write paths stay gated (`--owner-confirmed-wo6` + local token) |
+| PR queue "merge everything" | 101 open | 62 open (26 draft). **0 of 36 non-drafts are CLEAN** — every one is BLOCKED/BEHIND/DIRTY/UNSTABLE with red checks or HOLD text. frontier-bench #20 and platform #865 were merged by owner 20:06–20:07Z | No force-merges. david-leads #134: owner pushed the identical CodeQL fix (21:26:58Z) and merged (21:29:18Z) before my pushes; #133 closed 21:30Z. My two later commits on that branch are zero-diff, unsigned, and outside the merged PR — harmless, delete the branch when convenient |
+| david-leads rebuild | — | Merged to main (`8efdf9c0`, signed, CI green) but **not deployed**: the rebuild lives under `backend/`, while `hf-deploy.yml` only fires for `app/**`, `Dockerfile`, `requirements.txt`…; the Space still serves the pre-rebuild image (lastModified 03:55Z) | Not dispatched — a dispatch would redeploy the *old* `app/`. Needs a Dockerfile/app wiring PR first |
+| a-11-oy.com (product) | payload CTA `a-11-oy.com/verify` | **Hard-down at 21:05–21:10Z**: apex was DNS-only (grey cloud) → browsers hit HF's `hf.space` cert + 404; only `www` was proxied and 301'd to the broken apex. At 21:24Z the apex became Cloudflare-proxied and now returns 200 with a valid GTS cert on `/`, `/verify`, `/api/a11oy/v1/honest` | Diagnosed; did not change DNS. `KNOWN_GOTCHAS.md` mandates orange-cloud on the apex — whoever flipped it restored the documented state. The a11oy edge-repair workflow has failed since Sep 4 for "No supported Cloudflare API token secret is configured"; the Pipedream Cloudflare connector still returns auth error 9106 even after reconnect (it wants Global API Key + email, not an API token) |
+| a11oy.net (proof registry) | — | 200, Cloudflare, healthy | None |
+| Marketing payload v1.1 | delivered in chat | Chat rendering mangled `[0]`/`[1]` indexes and wrapped URLs, so the pasted code would not run | Shipped as a file (v1.2), run live: 121 public repos / 29 archived, 50 models / 35 datasets / 31 Spaces, top dataset killinchu-osint-corpus 74,157 downloads, honesty API 8 locked formulas, Λ Conjecture 1; domain probes label the CTA UNAVAILABLE automatically if the edge breaks again; linter blocks the banned claims |
+
+## 2. What ran here (receipts)
+
+- `python -B -m unittest tests.test_frontier1` → 33 OK; `tools/frontier1.py` plan + replay → all seven WO statuses terminal, `publish_gate: CLOSED`.
+- `szl_omen_pipeline.py dpo` on this GPU-less box → `FAIL-CLOSED CUDA_UNAVAILABLE`, exit 2 (gate proven).
+- `load_split` → data `942c02dd…ee79` (model-type repo `SZLHOLDINGS/SZL-Khipu-1.5B-abstain`), khipu-r3 `90af1d3c…b90`; train 23 rows (8 ABSTAIN + 15 NAVIGATE), sealed adversarial 6 / eval 5, prompt overlap 0.
+- Grader on gold: 6/6 and 5/5; always-navigate-with-invented-handle mock: 0/6, 0/5 (5 invented rows); always-abstain mock: 6/6 but 0/5 (collapse is measured, not hidden); garbage: 6 parse failures.
+- `cards --all` dry-run → 7 diffs written, WILLAY/chaski-*/KHIPU-R2 flagged publisher-managed, v2 skipped, re-run is NOOP.
+- `publish` refuses challengers outright and refuses without the owner flag; `cards --apply` refuses without the owner flag or a local token.
+- szl-forge publisher/card test surface with PR #442 applied → 256 passed, 6 skipped.
+- Marketing engine → `marketing-out/factbase.json`, Substack + X skeletons; linter self-test blocks "proven", "100% trust", "state-of-the-art", "returns of 40%".
+
+## 3. Open items and owners
+
+1. **Run the GPU runbook** on the 5050 laptop (DPO → held-out eval → card dry-run). Bring back `dpo_receipt.json`, `eval/eval_receipt.json`, `cards_receipt.json`. Promotion stays with the canonical Forge gate.
+2. **WO6**: revoke `hf_nGHC…` and `hf_rpzm…`, save one fresh fine-grained token locally (Notepad token-file route or `HF_TOKEN` in the shell), then set `$ApplyCards = $true` to open the three Hub-side note PRs.
+3. **Queue**: merge #440 (pipeline) and #442 (source-card note) when the queue admits them; #442's merge fans out to the three Hub cards automatically.
+4. **Relabel decision** (transformers/finetune): owner call; requires editing `required_card_boundaries` in `tools/publish_chaski_card.py` / `publish_khipu_card.py` in the same PR. Not pre-empted.
+5. **david-leads deploy**: wire `backend/` into the Dockerfile/`hf-deploy.yml` paths; until then main ≠ Space.
+6. **Cloudflare authority**: run `ops/windows/authorize-cloudflare-production.ps1` from a cloned a11oy checkout (per `docs/CLOUDFLARE_WINDOWS_AUTHORIZATION.md`) so the bounded edge controller has a token; retire or re-key the Pipedream connector (9106).
+7. **Cleanup**: delete `feat/vertical-rebuild-signed` in david-leads (carries two zero-diff commits of mine outside the merged PR).
+
+## 4. Session 2 execution receipt (17:55–18:15 EDT, acting on "do what you recommend")
+
+| Item | Result | Evidence |
+|---|---|---|
+| Admit #440 / #442 | Both merged by owner (#440 21:43Z at head `242f579e`; #442 21:53Z → main `880b2dd`). Card fanout ran green: "Publish Chaski family model cards" + "Publish Khipu family model cards"; Hub cards chaski-r2 `698ed353`, chaski-5050 `90f2af23`, KHIPU-R2 `16b51048` now carry the identity note (21:53–21:54Z). Trailing pipeline commit `c6e60fee` (cards additive-by-default, F2 routing) is szl-forge **PR #443** into `huggingface`; the runbook pins that exact commit regardless | Hub `README.md` at those revisions; run ids 36782240395 / 36782240191 |
+| Relabel decision | **No relabel now.** Adapter stays the artifact of record; reopen only with a held-out generate receipt against the merged root bytes plus the publisher-contract change in one PR | Decision record: szl-forge PR #442, comment 5920513149 |
+| Wire `backend/` into david-leads | **Done and live.** PR #135 (one GitHub-signed commit `316a2266`): `COPY backend`, `/v0` mount registered ahead of the catch-all static mount with an honest 503 fallback, relative asset/API paths, `requests==2.34.2`, `tests/test_v0_mount.py` (5 tests). 9/9 checks green → squash-merged `2be37671` → `hf-deploy` all four jobs success → Space rebuilt 22:06:58Z. Live: parent `/healthz` 200, `/v0/healthz` 200 `truth_state: VERIFIED`, `/v0/` 200, `/v0/static/app.js` 200, `/v0/v1/sources` live adapter states | `https://szlholdings-david-leads.hf.space/v0/` |
+| Post-deploy canary | `David frontier live-lanes canary` is red **before and after** #135 for the same pre-existing reason: `FORM5500_VERIFIED_SNAPSHOT_UNAVAILABLE: verified federal dataset unavailable; refresh pending` (`SNAPSHOT_METADATA_MISSING`). Deployment binding itself verified: `source_revision == expected_revision == 2be37671`, `release_attested: true` | canary artifact `david-frontier-live-canary-36783879818` |
+| Token revocation (WO6) | **Not performed** — no local browser is reachable from this session, so the owner's Hugging Face login is unavailable; the cloud browser cannot sign in as you. Owner steps are in the final message. Publish gates remain closed | `start_browser("local")` → no local browser |
+
+Owner follow-ups now: (a) WO6 revocation + fresh local token, then `$ApplyCards = $true`; (b) run the GPU runbook; (c) `federal-refresh.yml` / Form 5500 snapshot to turn the david canary green; (d) merge PR #443; (e) delete `feat/vertical-rebuild-signed` (two zero-diff commits of mine outside the merged PR).
+
+## 5. Session 3 (18:21–18:30 EDT, "push on")
+
+- **#443** merged by owner (`b666750b`); `huggingface` branch `tools/szl_omen_pipeline.py` is byte-identical to the runbook pin (SHA-256 `6a4b893b…40a15`). Runbook needs no change.
+- **David live-lanes canary root cause** (pre-existing, all four lanes): the canonical dataset `SZLHOLDINGS/david-leads-data` is **private** (anonymous → HTTP 401), and the runtime reads it only with the explicit Space secret `DAVID_DATASET_READ_TOKEN` (`app/hf_dataset_transport.py`; no SDK token cache is consulted by design). With that secret missing or invalid the transport falls to anonymous, gets 401/HTTPError, and every lane reports `*_VERIFIED_SNAPSHOT_UNAVAILABLE` / `SNAPSHOT_METADATA_MISSING`. The `federal-refresh` publisher itself succeeded at 06:15Z today, so the data exists. Fix = a read-only fine-grained token scoped to that dataset set as the Space secret `DAVID_DATASET_READ_TOKEN` (owner; token work). No code change needed.
+- **Branch hygiene**: my three session branches (`feat/v0-mount-under-prefix`, `cards/wo1-artifact-identity-note`, `tools/omen-pipeline-v2`) deleted after their PRs merged. The pre-existing `feat/vertical-rebuild-signed` (holds two zero-diff commits of mine outside merged #134) is left for the owner — deleting a branch I did not create is outside my session authority.
+- **Queue rescan**: 36 open (20 draft, 16 non-draft), 0 clean. Nothing force-merged.
