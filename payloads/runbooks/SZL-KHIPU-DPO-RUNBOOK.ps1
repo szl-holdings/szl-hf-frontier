@@ -1,5 +1,6 @@
 # SZL khipu-abstain DPO lane - one paste, administrator PowerShell 5.1, no prior shell state.
-# Machine: the RTX 5050 laptop (C:\Users\steph). On a box without CUDA the preflight stops before any training.
+# Machine: the RTX 5050 laptop (C:\Users\steph, 8 GB). On a box without CUDA the preflight stops before any training.
+# Memory: pipeline 43f068d9 keeps only completion logits and precomputes reference log-probs (the 22:24 EDT run OOMed at step 2/12).
 # Changes: creates %USERPROFILE%\szl\{logs, dpo-khipu-r4-challenger-<stamp>, cards-reconcile-<stamp>, bundle-<stamp>} only.
 # Does not change: Hub repos, GitHub, the pinned .venv-ra-v2 / .venv-ra-v3 stacks, any token, any card.
 # Cards: the three Hub pull requests are already open (khipu-r3 #2, brain-navigator-r2 #2, receiptagent-v3 #3),
@@ -8,6 +9,7 @@
 
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
+$env:PYTORCH_ALLOC_CONF = "expandable_segments:True"   # 8 GB laptop GPU: avoid allocator fragmentation (pipeline sets it too)
 
 $Root = Join-Path $env:USERPROFILE "szl"
 New-Item -ItemType Directory -Force -Path $Root | Out-Null
@@ -25,11 +27,11 @@ function Get-PinnedTool {
 }
 
 try {
-    # ---- 1. pinned tools, byte-verified (szl-forge huggingface branch, commit 36e0bf89 = PR #445 pipeline + PR #447 ingest) ----
-    $Pin    = "36e0bf89bc9c4c8d8c24fb7ac4b3c634ad2ec0c5"
+    # ---- 1. pinned tools, byte-verified (szl-forge huggingface branch, commit 43f068d9 = PR #465 8 GB memory profile + PR #447 ingest) ----
+    $Pin    = "43f068d9105c73d21d98d0ba9bb48ea4127f56f2"
     $Pipe   = Join-Path $Root "szl_omen_pipeline.py"
     $Ingest = Join-Path $Root "ingest_khipu_abstain_receipts.py"
-    $GotPipe   = Get-PinnedTool -Pin $Pin -RelPath "tools/szl_omen_pipeline.py" -Want "31d5d1bb33f81d9b4ab20f9ba9054741bec8183e45788a99f0e77fe50f58d1ca" -OutFile $Pipe
+    $GotPipe   = Get-PinnedTool -Pin $Pin -RelPath "tools/szl_omen_pipeline.py" -Want "e465e9375ccca9d26af40ec9ca471ff3cc9e28ea1608dcc9e1823ae82d49c2f5" -OutFile $Pipe
     $GotIngest = Get-PinnedTool -Pin $Pin -RelPath "tools/ingest_khipu_abstain_receipts.py" -Want "e5a1551fed8a66127ee8170639d0791bfeb65b453c0dc2dc0aec5402df51cd0d" -OutFile $Ingest
     Write-Host ("[1/7] pipeline OK sha256=" + $GotPipe)
     Write-Host ("      ingest   OK sha256=" + $GotIngest)
