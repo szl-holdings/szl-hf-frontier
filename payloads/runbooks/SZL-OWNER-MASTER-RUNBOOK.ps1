@@ -244,7 +244,14 @@ try {
         & python -c "import sys; sys.exit(0 if sys.version_info >= (3, 12) else 3)"
         if ($LASTEXITCODE -eq 0) { $py = "python" }
         elseif (Get-Command py.exe -ErrorAction SilentlyContinue) { & py -3.12 -c "import sys" ; if ($LASTEXITCODE -eq 0) { $py = "py312" } }
-        if (-not $py) { Set-Lane -Name "mkt" -State "UNAVAILABLE" -Detail "szl-brand needs Python 3.12+; install it (winget install Python.Python.3.12) or run lane 6 on the OMEN" }
+        if (-not $py -and (Get-Command winget.exe -ErrorAction SilentlyContinue)) {
+            # szl-brand requires Python 3.12+. One guarded attempt to add it side by side (the existing interpreter is untouched).
+            Write-Host "   Python 3.12+ not found; installing Python 3.12 side by side with winget (one attempt)"
+            & winget install --exact --id Python.Python.3.12 --source winget --accept-package-agreements --accept-source-agreements --silent
+            $env:Path = ([Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + [Environment]::GetEnvironmentVariable("Path", "User")).Trim(";")
+            if (Get-Command py.exe -ErrorAction SilentlyContinue) { & py -3.12 -c "import sys" ; if ($LASTEXITCODE -eq 0) { $py = "py312" } }
+        }
+        if (-not $py) { Set-Lane -Name "mkt" -State "UNAVAILABLE" -Detail "szl-brand needs Python 3.12+ and none is usable here; run lane 6 on the OMEN (Python 3.12)" }
         else {
             $brandDir = Join-Path $Root "szl-brand"
             if (-not (Test-Path -LiteralPath (Join-Path $brandDir ".git"))) { & git clone -q https://github.com/szl-holdings/szl-brand $brandDir; if ($LASTEXITCODE -ne 0) { throw "git clone szl-brand failed" } }
