@@ -120,7 +120,8 @@ def fetch_json(url: str, timeout: int = 30) -> Any:
         or os.environ.get("HF_TOKEN")
         or ""
     ).strip()
-    if token and "github.com" in url:
+    host = (urllib.parse.urlsplit(url).hostname or "").lower()
+    if token and (host == "github.com" or host.endswith(".github.com")):
         headers["Authorization"] = f"Bearer {token}"
     req = urllib.request.Request(url, headers=headers, method="GET")
     with urllib.request.urlopen(req, timeout=timeout, context=ctx()) as resp:

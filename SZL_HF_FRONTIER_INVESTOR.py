@@ -45,6 +45,7 @@ import os
 import re
 import ssl
 import sys
+import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 from typing import Any
@@ -190,7 +191,7 @@ def fetch_json(url: str, timeout: int = 30) -> Any:
     """GET a JSON URL. Optional GH_TOKEN only for api.github.com rate limits."""
     headers = {"User-Agent": "szl-hf-frontier-investor/1"}
     token = (os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN") or "").strip()
-    if token and "api.github.com" in url:
+    if token and (urllib.parse.urlsplit(url).hostname or "").lower() == "api.github.com":
         headers["Authorization"] = f"Bearer {token}"
     req = urllib.request.Request(url, headers=headers, method="GET")
     with urllib.request.urlopen(req, timeout=timeout, context=ssl.create_default_context()) as resp:

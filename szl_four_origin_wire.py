@@ -15,6 +15,7 @@ import json
 import ssl
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 from typing import Any
@@ -143,11 +144,15 @@ def probe_hub() -> dict[str, Any]:
     }
 
 
+def _host(url: str) -> str:
+    return (urllib.parse.urlsplit(url).hostname or "").lower()
+
+
 def selftest() -> dict[str, Any]:
     checks = {
         "payload_locked": PAYLOAD.startswith("SZL-FOUR-ORIGIN-WIRE-"),
         "never_a11oy_com": NEVER == "https://a11oy.com",
-        "two_origins": PRODUCT.endswith("a-11-oy.com") and PROOF.endswith("a11oy.net"),
+        "two_origins": _host(PRODUCT) == "a-11-oy.com" and _host(PROOF) == "a11oy.net",
         "expected_is_int": all(isinstance(v, int) for v in EXPECTED_PUBLIC.values()),
     }
     return {"ok": all(checks.values()), "checks": checks}
