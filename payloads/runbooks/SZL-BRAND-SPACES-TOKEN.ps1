@@ -1,10 +1,11 @@
 # SZL brand Spaces publisher token - one paste, administrator PowerShell 5.1, no prior shell state.
 # Why: szl-brand's repository secret HF_TOKEN is rejected by Hugging Face (/whoami-v2 -> 400 Bad request),
 # so hf-marketing-spaces.yml fails closed and the two public marketing Spaces stay on their stale bytes.
-# What it does: opens the fine-grained token page, takes the token through a hidden prompt, proves the token
+# What it does: opens the fine-grained token page, reads the token from the clipboard (you click Copy in the browser,
+# then press Enter here; nothing is typed or pasted into the console), proves the token
 # is fine-grained and carries repo.write on exactly the two Spaces (or on the SZLHOLDINGS org), stores it as
 # the repository secret HF_TOKEN on szl-holdings/szl-brand, and dispatches the exact-projection workflow.
-# The token never appears in the transcript, in an argument, or in this file.
+# The token never appears in the transcript, in an argument, or in this file; the clipboard is overwritten afterwards.
 # Does not change: any other secret, the Spaces' current bytes (the workflow writes them, with a receipt),
 # GitHub branches.
 
@@ -27,10 +28,20 @@ foreach ($s in $Spaces) { Write-Host ("     - " + $s) }
 Write-Host "   leave inference, org-admin, billing and every other box unticked"
 Start-Process "https://huggingface.co/settings/tokens/new?tokenType=fineGrained"
 
-$secure = Read-Host "2) Paste the token once (input is hidden)" -AsSecureString
-$bstr = [Runtime.InteropServices.Marshal]::SecureStringToBSTR($secure)
-try { $plain = [Runtime.InteropServices.Marshal]::PtrToStringBSTR($bstr) } finally { [Runtime.InteropServices.Marshal]::ZeroFreeBSTR($bstr) }
-if (-not $plain -or -not $plain.StartsWith("hf_")) { throw "No Hugging Face token was entered." }
+# Clipboard route: nothing is typed or pasted into this window. Click the token's Copy button in the
+# browser, come back here, press Enter. The script reads the clipboard, validates the shape, and
+# overwrites the clipboard when it is done so the token does not linger there.
+$plain = $null
+for ($attempt = 1; $attempt -le 3; $attempt++) {
+    [void](Read-Host "2) Click the token's COPY button in the browser, then press Enter here (type nothing)")
+    $clip = ""
+    try { $clip = [string](Get-Clipboard -Raw) } catch { $clip = "" }
+    $clip = $clip.Trim()
+    if ($clip.StartsWith("hf_") -and $clip.Length -ge 20 -and $clip -notmatch "\s") { $plain = $clip; break }
+    Write-Host ("   clipboard does not hold a token (got " + $clip.Length + " chars). Copy the token again - attempt " + $attempt + " of 3.")
+}
+if (-not $plain) { throw "No Hugging Face token found on the clipboard after 3 attempts. Nothing was stored or dispatched." }
+Set-Clipboard -Value "cleared"
 
 try {
     $headers = @{ Authorization = ("Bearer " + $plain) }
