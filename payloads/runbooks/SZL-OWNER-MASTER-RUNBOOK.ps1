@@ -12,13 +12,15 @@
 # Does not change: model weights, cards, DNS, any branch of main; every remote effect goes through an existing
 # governed workflow or a pull request, and each lane prints exactly what it did.
 
+param([string[]]$Only = @())   # e.g. -Only dpo  or  -Only brand,david ; empty = every lane
+
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 $ProgressPreference = "SilentlyContinue"
 
 # ---------------------------------------------------------------- pins (byte-verified before use)
-$FrontierPin  = "8590cce745a3c22a2cdba075c1f1b0c3dc5d3ca0"                          # szl-hf-frontier main, 2026-10-01
-$DpoRunbookSha = "8f47580a5bcd7deaeb08164105d46cf30d1f755a9ecffa2d41554b50e3b083c4"  # payloads/runbooks/SZL-KHIPU-DPO-RUNBOOK.ps1
+$FrontierPin  = "05c405e93c15a0a7a02b5bb933c194bb47d4dd37"                          # szl-hf-frontier main, 2026-10-01 (DPO runbook re-pinned to the memory-ladder pipeline)
+$DpoRunbookSha = "4af2caeecb3f3fbd1c2b3d0c15f7adc2f9477753f80a199ecf0726eb8d9b29ec"  # payloads/runbooks/SZL-KHIPU-DPO-RUNBOOK.ps1
 $BrandPin     = "4e47b59ff482fbf607e46a65498144a6175a4546"                          # szl-brand main = PR #131 squash
 
 $Root = Join-Path $env:USERPROFILE "szl"
@@ -30,6 +32,7 @@ $ExitCode = 1
 Start-Transcript -Path (Join-Path $Root ("logs\owner-master-" + $Stamp + ".log")) | Out-Null
 
 $Lanes = [ordered]@{}
+function Lane-Enabled { param([string]$Name) return ($Only.Count -eq 0 -or ($Only -contains $Name)) }
 function Set-Lane { param([string]$Name, [string]$State, [string]$Detail = "")
     $script:Lanes[$Name] = [ordered]@{ state = $State; detail = $Detail; at_utc = [DateTime]::UtcNow.ToString("o") }
     Write-Host ("  [" + $Name + "] " + $State + $(if ($Detail) { " - " + $Detail } else { "" }))
@@ -106,6 +109,7 @@ try {
     Set-Lane -Name "preflight" -State "OK" -Detail ("root " + $Root)
 
     # ================================================================ 1. WO6 token hygiene (owner attestation)
+    if (-not (Lane-Enabled "wo6")) { Set-Lane -Name "wo6" -State "NOT_SELECTED" } else {
     Write-Host ""
     Write-Host "1) WO6 - revoke the four tokens exposed in chat on 2026-09-12: hf_hjUJ..., hf_azHb..., hf_nGHC..., hf_rpzm..."
     Write-Host "   The token settings page opens. Delete any of those four that still exist, then come back."
@@ -113,9 +117,11 @@ try {
     $a = Read-Host "   type REVOKED when they are gone (or already gone), or SKIP"
     if ($null -ne $a -and $a.Trim().ToUpper() -eq "REVOKED") { Set-Lane -Name "wo6" -State "OWNER_ATTESTED" -Detail "owner states the four 2026-09-12 tokens are revoked (not machine-verifiable)" }
     else { Set-Lane -Name "wo6" -State "SKIPPED" -Detail "publish gates keep recording wo6_status honestly" }
+    }
 
     # ================================================================ 2. BRAND - szl-brand Spaces publisher token
     Write-Host ""
+    if (-not (Lane-Enabled "brand")) { Set-Lane -Name "brand" -State "NOT_SELECTED" } else {
     Write-Host "2) BRAND - fine-grained token, name szl-brand-spaces-publisher, WRITE access to contents/settings of:"
     Write-Host "     SZLHOLDINGS/szl-marketing-1.1   and   SZLHOLDINGS/szl-brand-campaign   (nothing else ticked)"
     try {
@@ -134,9 +140,11 @@ try {
         }
     } catch { Fail-Lane -Name "brand" -Err $_ }
     finally { $tok = $null; $h = $null; $who = $null }
+    }
 
     # ================================================================ 3. DAVID - dataset reader token
     Write-Host ""
+    if (-not (Lane-Enabled "david")) { Set-Lane -Name "david" -State "NOT_SELECTED" } else {
     Write-Host "3) DAVID - fine-grained token, name david-dataset-reader, READ access to contents of ONLY the dataset:"
     Write-Host "     SZLHOLDINGS/david-leads-data   (no write, no inference, no org boxes)"
     try {
@@ -156,9 +164,11 @@ try {
         }
     } catch { Fail-Lane -Name "david" -Err $_ }
     finally { $tok = $null; $h = $null; $who = $null }
+    }
 
     # ================================================================ 4. EDGE - Cloudflare production authority
     Write-Host ""
+    if (-not (Lane-Enabled "edge")) { Set-Lane -Name "edge" -State "NOT_SELECTED" } else {
     Write-Host "4) EDGE - custom Cloudflare USER API token (not the Global API Key) with exactly:"
     Write-Host "     Account > Workers Scripts > Edit (your SZL account)"
     Write-Host "     Zone > Workers Routes > Edit, Zone > DNS > Edit, Zone > Zone > Read  -  zones a-11-oy.com and a11oy.net"
@@ -187,9 +197,11 @@ try {
         }
     } catch { Fail-Lane -Name "edge" -Err $_ }
     finally { $tok = $null; $h = $null }
+    }
 
     # ================================================================ 5. DPO - khipu-abstain challenger (CUDA only)
     Write-Host ""
+    if (-not (Lane-Enabled "dpo")) { Set-Lane -Name "dpo" -State "NOT_SELECTED" } else {
     Write-Host "5) DPO - khipu-abstain challenger: pinned runbook, CUDA only, ~30 minutes, then the evidence bundle becomes a szl-forge PR"
     try {
         $gpu = $false
@@ -235,9 +247,11 @@ try {
             Set-Lane -Name "dpo" -State "PR_OPENED" -Detail ($prUrl + " (promotion stays NOT_PROMOTABLE; the Forge gate decides)")
         }
     } catch { Fail-Lane -Name "dpo" -Err $_ }
+    }
 
     # ================================================================ 6. MKT - marketing engine, local only
     Write-Host ""
+    if (-not (Lane-Enabled "mkt")) { Set-Lane -Name "mkt" -State "NOT_SELECTED" } else {
     Write-Host "6) MKT - live labeled factbase, operating plan and first channel drafts (files only; nothing is posted)"
     try {
         $py = $null
@@ -274,6 +288,7 @@ try {
             Set-Lane -Name "mkt" -State "DONE" -Detail ("factbase " + $facts.generated_at + ": hf " + $facts.hf.label + ", github " + $facts.github.label + "; drafts in " + $out)
         }
     } catch { Fail-Lane -Name "mkt" -Err $_ }
+    }
 
     # ================================================================ 7. VERIFY - dispatched runs and Hub readback
     Write-Host ""
