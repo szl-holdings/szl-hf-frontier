@@ -1,7 +1,7 @@
 # SZL khipu-abstain DPO lane - one paste, administrator PowerShell 5.1, no prior shell state.
 # Machine: the RTX 5050 laptop (C:\Users\steph, 8 GB). On a box without CUDA the preflight stops before any training.
-# Memory: pipeline 8cdb1ac3 runs the reference pass first, frees the allocator, then steps a sequence-budget ladder
-# (1024/512 -> 512/256) until training fits, recording every attempt (runs at 22:24 and 23:24 EDT OOMed).
+# Memory: pipeline 3dee2933 trains in bf16 without autocast (no fp32 logits upcast), releases the CUDA cache every step,
+# and steps a sequence-budget ladder 1024 -> 768 -> 640 recording every attempt (runs at 22:24, 23:24 and 23:47 EDT OOMed).
 # Changes: creates %USERPROFILE%\szl\{logs, dpo-khipu-r4-challenger-<stamp>, cards-reconcile-<stamp>, bundle-<stamp>} only.
 # Does not change: Hub repos, GitHub, the pinned .venv-ra-v2 / .venv-ra-v3 stacks, any token, any card.
 # Cards: the three Hub pull requests are already open (khipu-r3 #2, brain-navigator-r2 #2, receiptagent-v3 #3),
@@ -27,11 +27,11 @@ function Get-PinnedTool {
 }
 
 try {
-    # ---- 1. pinned tools, byte-verified (szl-forge huggingface branch, commit 8cdb1ac3 = PR #467 memory ladder + PR #447 ingest) ----
-    $Pin    = "8cdb1ac39486a81f59eb79339c81fb8b4359d4ea"
+    # ---- 1. pinned tools, byte-verified (szl-forge huggingface branch, commit 3dee2933 = PR #469 pure-bf16 lane + PR #447 ingest) ----
+    $Pin    = "3dee293331b5ac549a9412c9e7d6862557da2743"
     $Pipe   = Join-Path $Root "szl_omen_pipeline.py"
     $Ingest = Join-Path $Root "ingest_khipu_abstain_receipts.py"
-    $GotPipe   = Get-PinnedTool -Pin $Pin -RelPath "tools/szl_omen_pipeline.py" -Want "c2361df7ab79315fd5934b839116a7ad3ad612329f182c5069c0ff6bc947bdff" -OutFile $Pipe
+    $GotPipe   = Get-PinnedTool -Pin $Pin -RelPath "tools/szl_omen_pipeline.py" -Want "ef3a9049ca8ebd9f48cfecb1c039792360d220cc101bd638f2e563ed84432da2" -OutFile $Pipe
     $GotIngest = Get-PinnedTool -Pin $Pin -RelPath "tools/ingest_khipu_abstain_receipts.py" -Want "e5a1551fed8a66127ee8170639d0791bfeb65b453c0dc2dc0aec5402df51cd0d" -OutFile $Ingest
     Write-Host ("[1/7] pipeline OK sha256=" + $GotPipe)
     Write-Host ("      ingest   OK sha256=" + $GotIngest)
