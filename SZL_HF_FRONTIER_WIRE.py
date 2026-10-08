@@ -112,19 +112,40 @@ def ctx() -> ssl.SSLContext:
     return context
 
 
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, request, fp, code, msg, headers, newurl):
+        return None
+
+
 def fetch_json(url: str, timeout: int = 30) -> Any:
     headers = {"User-Agent": "szl-hf-frontier-wire/1"}
+    parsed = urllib.parse.urlsplit(url)
+    try:
+        github_api = (
+            parsed.scheme == "https"
+            and parsed.hostname == "api.github.com"
+            and parsed.port in (None, 443)
+            and parsed.username is None
+            and parsed.password is None
+        )
+    except ValueError:
+        github_api = False
     token = (
-        os.environ.get("GH_TOKEN")
-        or os.environ.get("GITHUB_TOKEN")
-        or os.environ.get("HF_TOKEN")
-        or ""
-    ).strip()
-    host = (urllib.parse.urlsplit(url).hostname or "").lower()
-    if token and (host == "github.com" or host.endswith(".github.com")):
+        (os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN") or "").strip()
+        if github_api
+        else ""
+    )
+    if token:
         headers["Authorization"] = f"Bearer {token}"
     req = urllib.request.Request(url, headers=headers, method="GET")
-    with urllib.request.urlopen(req, timeout=timeout, context=ctx()) as resp:
+    if token:
+        opener = urllib.request.build_opener(
+            _NoRedirect(), urllib.request.HTTPSHandler(context=ctx())
+        )
+        response = opener.open(req, timeout=timeout)
+    else:
+        response = urllib.request.urlopen(req, timeout=timeout, context=ctx())
+    with response as resp:
         raw = resp.read().decode("utf-8")
     return json.loads(raw)
 
