@@ -34,8 +34,20 @@ Only the explicit public projection should be considered for public review:
 
 ```powershell
 python .\tools\capture_estate_snapshots.py ..\estate-private\snapshots --public-output data\snapshots
-python .\tools\run_estate_audit.py --skip-capture --snapshots data\snapshots
+python .\tools\run_estate_audit.py --skip-capture --snapshots data\snapshots --reviews data\source_reviews.json
+python .\tools\report_model_evidence.py
+python .\tools\verify_estate_evidence.py
 ```
+
+Pass `--reviews data\source_reviews.json` whenever the audit writes the committed
+default outputs. Without it the compiler builds an unreviewed draft and overwrites
+`data/estate_registry.json`, `reports/unresolved_gaps.json` and the audit receipt;
+`tools/verify_estate_evidence.py` (a CI step) then fails with
+`data/estate_registry.json: committed output is not reproducible`. Source reviews are
+revision-bound, so after a fresh capture refresh them first with
+`tools/classify_estate_sources.py` (see `SOURCE_CLASSIFICATION.md`). Replaying the
+committed census offline with `--reviews` reproduces the committed registry and gap
+report byte for byte; only the audit receipt and its logs are rewritten.
 
 The positional collector output remains compatible with the original CLI. Its
 default is the Git-ignored `.estate-private/snapshots` directory. Direct capture

@@ -55,6 +55,14 @@ Stored evidence paths are repository-relative and resolve against the evidence
 directory's repository root, independently of the current working directory.
 Absolute paths, traversal, and paths resolving outside the evidence directory are
 rejected. Observation and blob bytes are unchanged during offline reclassification.
+JSON outputs are written as UTF-8 with sorted keys, two-space indentation and LF
+line endings on every platform, so an offline reclassification of the committed
+census reproduces `data/source_reviews.json` byte for byte (only the `.summary.json`
+run record changes). `reports/model_evidence_inventory.json` binds that file by
+SHA-256; after any real reclassification run `python tools/report_model_evidence.py`,
+then `python tools/verify_estate_evidence.py`, which rejects a review file that is
+not the canonical serialization. Observation files captured before this rule keep
+their original (CRLF) bytes; offline runs parse them and never rewrite them.
 
 | Classification | Meaning and boundary |
 | --- | --- |
