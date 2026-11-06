@@ -200,7 +200,9 @@
       "repo": "szl-holdings/governed-inference-meter",
       "applied": true,
       "archived_source": true,
-      "basis": "exact name match + README link"
+      "basis": "exact name match + README link",
+      "successor_repo": "szl-holdings/szl-energy-attest",
+      "successor_basis": "data/snapshots/github_repositories.json (2026-09-29 census): szl-holdings/governed-inference-meter is archived and its description begins 'DEPRECATED. Canonical: https://github.com/szl-holdings/szl-energy-attest'"
     },
     {
       "id": "huggingface-model/szlholdings/khipu-r2",
@@ -240,7 +242,9 @@
       "repo": "szl-holdings/szl-governed-norm",
       "applied": true,
       "archived_source": true,
-      "basis": "exact name match + README link"
+      "basis": "exact name match + README link",
+      "successor_repo": "szl-holdings/szl-lambda-gate",
+      "successor_basis": "data/snapshots/github_repositories.json (2026-09-29 census): szl-holdings/szl-governed-norm is archived and its description begins 'DEPRECATED. Canonical: https://github.com/szl-holdings/szl-lambda-gate'"
     },
     {
       "id": "huggingface-model/szlholdings/szl-kernels",
@@ -425,6 +429,16 @@
       "applied": false,
       "archived_source": false,
       "basis": "guess"
+    }
+  ],
+  "amendments": [
+    {
+      "at": "2026-11-06",
+      "rows": [
+        "huggingface-model/szlholdings/governed-inference-meter",
+        "huggingface-model/szlholdings/szl-governed-norm"
+      ],
+      "change": "Added successor_repo/successor_basis to the two applied mappings whose source repository is archived. The 2026-09-27 mapping fields (repo, confidence, applied, basis) are kept unchanged as the historical record; use successor_repo as the active canonical source."
     }
   ]
 }
