@@ -34,9 +34,18 @@ def now() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
+def json_bytes(value: Any) -> bytes:
+    """Canonical retained-evidence bytes: sorted keys, two-space indent, LF line endings.
+
+    Downstream reports bind these files by SHA-256, so the bytes must not depend on
+    the host platform's newline convention (text-mode writes emit CRLF on Windows).
+    """
+    return (json.dumps(value, indent=2, sort_keys=True) + "\n").encode("utf-8")
+
+
 def write_json(path: Path, value: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    path.write_bytes(json_bytes(value))
 
 
 def public_items(root: Path) -> list[dict[str, Any]]:

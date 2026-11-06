@@ -7,9 +7,10 @@ import tempfile
 import unittest
 import urllib.request
 from pathlib import Path
+from unittest import mock
 
 from tools.classify_estate_sources import (
-    Reader, SameOriginRedirect, SourceUnavailable, capture, classify, github_claims, load_observation,
+    Reader, SameOriginRedirect, SourceUnavailable, capture, classify, github_claims, json_bytes, load_observation,
     observation_path, production_claims, public_items, write_json,
 )
 
@@ -46,6 +47,20 @@ class FakeReader:
 
 
 class ClassificationTests(unittest.TestCase):
+    def test_retained_json_bytes_are_lf_only_and_platform_independent(self):
+        # Reviews and observations are bound by SHA-256 downstream, so the writer
+        # must emit identical bytes on Windows and Linux (no text-mode CRLF).
+        value = {"b": [1, {"z": "caf\u00e9", "a": None}], "a": "line\nbreak"}
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "nested" / "review.json"
+            with mock.patch.object(Path, "write_text", side_effect=AssertionError("text-mode write")):
+                write_json(path, value)
+            raw = path.read_bytes()
+        self.assertNotIn(b"\r", raw)
+        self.assertEqual(json_bytes(value), raw)
+        self.assertEqual((json.dumps(value, indent=2, sort_keys=True) + "\n").encode("utf-8"), raw)
+        self.assertEqual(value, json.loads(raw))
+
     def test_missing_visibility_is_not_public_and_private_identity_is_excluded(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
