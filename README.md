@@ -75,3 +75,7 @@ and always leaves release authorization to an external trusted controller. See
 - Khipu: https://github.com/szl-holdings/szl-khipu
 
 Related open work already on Forge: #101 estate audit, #102 execution queue E1–E5. This tracker is the HF-frontier slice of that work, not a second doctrine.
+
+## License
+
+Apache-2.0 — see [LICENSE](LICENSE).
