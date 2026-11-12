@@ -18,10 +18,12 @@ Companion script (same folder): `szl_estate_operational.py`
 ```bash
 set -euo pipefail
 mkdir -p "$HOME/szl-payload-1" && cd "$HOME/szl-payload-1"
-curl -fsSL -o PAYLOAD_1.md \
-  https://raw.githubusercontent.com/szl-holdings/szl-hf-frontier/main/PAYLOAD_1.md
-curl -fsSL -o szl_estate_operational.py \
-  https://raw.githubusercontent.com/szl-holdings/szl-hf-frontier/main/szl_estate_operational.py
+# The repository is private, so anonymous raw.githubusercontent.com URLs return 404.
+# Use the already-authenticated GitHub CLI (REST contents API, raw media type).
+gh api -H 'Accept: application/vnd.github.raw' \
+  repos/szl-holdings/szl-hf-frontier/contents/PAYLOAD_1.md > PAYLOAD_1.md
+gh api -H 'Accept: application/vnd.github.raw' \
+  repos/szl-holdings/szl-hf-frontier/contents/szl_estate_operational.py > szl_estate_operational.py
 python3 szl_estate_operational.py --selftest
 python3 szl_estate_operational.py --live
 ```

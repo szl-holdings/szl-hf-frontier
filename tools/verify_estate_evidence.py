@@ -19,9 +19,24 @@ if str(ROOT) not in sys.path:
 
 from tools.build_estate_registry import build_registry, gap_report
 from tools.capture_estate_snapshots import FILES, verify_snapshot_set
-from tools.classify_estate_sources import classify, load_observation, public_items
+from tools.classify_estate_sources import classify, json_bytes, load_observation, public_items
 from tools.report_model_evidence import build_report
 from tools.probe_estate_runtime import assess_runtime
+
+
+def load_canonical_reviews(path: Path) -> list:
+    """Parse the retained source reviews, refusing bytes the classifier would not write.
+
+    reports/model_evidence_inventory.json binds this file by SHA-256, so a
+    re-serialization (for example CRLF from a Windows text-mode write) must fail
+    here with its cause instead of surfacing later as a report hash mismatch.
+    """
+    raw = path.read_bytes()
+    reviews = json.loads(raw.decode("utf-8"))
+    if raw != json_bytes(reviews):
+        raise ValueError(f"{path.name}: bytes differ from the classifier's canonical serialization "
+                         "(sorted keys, two-space indent, LF line endings)")
+    return reviews
 
 
 def verify(root: Path = ROOT) -> dict:
@@ -36,7 +51,7 @@ def verify(root: Path = ROOT) -> dict:
         if any(row.get("private") is not False for row in rows):
             raise ValueError("Committed snapshot contains a non-public row")
     reviews_path = root / "data/source_reviews.json"
-    expected_reviews = json.loads(reviews_path.read_text(encoding="utf-8"))
+    expected_reviews = load_canonical_reviews(reviews_path)
     items = public_items(snapshots)
     public_github = {row["name"].casefold() for row in items if row["kind"] == "github"}
     rebuilt_reviews = [classify(item, load_observation(root / "data/source-evidence", item), public_github) for item in items]

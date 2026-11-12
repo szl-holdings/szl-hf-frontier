@@ -10,8 +10,8 @@ permissions:
   contents: read
 jobs:
   analyze:
-    # Org reusable workflow, SHA-pinned per pin-check.yml (szl-holdings/.github@main as of 2026-09-25).
-    uses: szl-holdings/.github/.github/workflows/reusable-codeql.yml@81bffda96e1a906397b9a921f0ff65df80f14cae
+    # Org reusable workflow, SHA-pinned to the reviewed 2026-11-07 authority.
+    uses: szl-holdings/.github/.github/workflows/reusable-codeql.yml@227869f48023ea2cc344458d45670e6dddc71897
     permissions:
       actions: read
       contents: read

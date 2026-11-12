@@ -32,7 +32,7 @@
   "input_bindings": {
     "model_snapshot_sha256": "0da13304bb3e8a38aee5d49f171675893243fe25e599706580a7ef6a90c95208",
     "snapshot_receipt_sha256": "a20442d4e2e6098552d08a508a1831135345ece1f918ec19e5c0f5bd5a8dcae8",
-    "source_reviews_sha256": "e0f256696843d34d5ec3a51f379751bcb1b98269544f13a5e7f4ac9c349fa3b6"
+    "source_reviews_sha256": "c3be17f785a0f4a54be36ffe2de43bb7963a344c500a7c0942bbed205355c709"
   },
   "limits": [
     "Candidate names are taken only from retained provider file lists; file bodies and weight integrity were not inspected.",
