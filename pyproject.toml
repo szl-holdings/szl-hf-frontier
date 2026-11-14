@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "szl-hf-frontier"
+version = "0.1.0"
+description = "HF Model + Kernel Frontier Program — payload SZL-HF-FRONTIER-2026-08-29. CTO work orders for critical findings and the three public lanes. Read-only auditor. Fail closed."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+authors = [{ name = "Stephen Lutar", email = "stephen@szlholdings.com" }]
+dependencies = ["huggingface-hub==2.0.0", "torch>=2.4,<3.0"]
+
+[project.urls]
+Homepage = "https://a-11-oy.com"
+Repository = "https://github.com/szl-holdings/szl-hf-frontier"
+
+[tool.setuptools]
+packages = ["compose"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = ["build", "dist", ".venv", "node_modules"]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
