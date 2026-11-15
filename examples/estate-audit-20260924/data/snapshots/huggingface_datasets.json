@@ -26,7 +26,7 @@
       "formal-verification",
       "lean4",
       "verify-it-yourself",
-      "doi:10.5281/zenodo.19944926"
+      "doi:10.5281/zenodo.24239896"
     ],
     "task": null,
     "updated_at": "2026-09-21T08:51:01.000Z"
@@ -63,7 +63,7 @@
       "governance",
       "k-verify",
       "verify-it-yourself",
-      "doi:10.5281/zenodo.19944926"
+      "doi:10.5281/zenodo.24239896"
     ],
     "task": null,
     "updated_at": "2026-07-22T10:50:14.000Z"
@@ -92,7 +92,7 @@
       "trust-aggregation",
       "ouroboros-invariant",
       "szl-holdings",
-      "doi:10.5281/zenodo.19944926"
+      "doi:10.5281/zenodo.24239896"
     ],
     "task": null,
     "updated_at": "2026-08-31T08:49:07.000Z"
@@ -143,7 +143,7 @@
       "doctrine",
       "szl-holdings",
       "ouroboros-invariant",
-      "doi:10.5281/zenodo.19944926"
+      "doi:10.5281/zenodo.24239896"
     ],
     "task": null,
     "updated_at": "2026-08-31T08:49:09.000Z"
@@ -179,7 +179,7 @@
       "inference-receipt",
       "verify-it-yourself",
       "mock-inference",
-      "doi:10.5281/zenodo.19944926"
+      "doi:10.5281/zenodo.24239896"
     ],
     "task": null,
     "updated_at": "2026-07-22T10:50:11.000Z"
@@ -242,7 +242,7 @@
       "cosign",
       "benchmark",
       "verify-it-yourself",
-      "doi:10.5281/zenodo.19944926"
+      "doi:10.5281/zenodo.24239896"
     ],
     "task": null,
     "updated_at": "2026-07-22T10:50:08.000Z"
@@ -276,7 +276,7 @@
       "agentic-ai",
       "provenance",
       "refusal",
-      "doi:10.5281/zenodo.19944926"
+      "doi:10.5281/zenodo.24239896"
     ],
     "task": null,
     "updated_at": "2026-08-31T08:49:11.000Z"
@@ -337,7 +337,7 @@
       "theorem-proving",
       "ouroboros-invariant",
       "szl-holdings",
-      "doi:10.5281/zenodo.19944926"
+      "doi:10.5281/zenodo.24239896"
     ],
     "task": null,
     "updated_at": "2026-08-31T08:49:06.000Z"
@@ -374,7 +374,7 @@
       "graph",
       "dependency",
       "dataset",
-      "doi:10.5281/zenodo.19944926"
+      "doi:10.5281/zenodo.24239896"
     ],
     "task": null,
     "updated_at": "2026-07-22T10:49:34.000Z"
@@ -472,7 +472,7 @@
       "preprint",
       "thesis",
       "dataset",
-      "doi:10.5281/zenodo.19944926",
+      "doi:10.5281/zenodo.24239896",
       "doi:10.5281/zenodo.20424992"
     ],
     "task": null,
@@ -508,7 +508,7 @@
       "bge-base",
       "ouroboros",
       "szl-holdings",
-      "doi:10.5281/zenodo.19944926"
+      "doi:10.5281/zenodo.24239896"
     ],
     "task": null,
     "updated_at": "2026-07-22T10:49:36.000Z"
@@ -534,7 +534,7 @@
       "readiness",
       "khipu-receipts",
       "doctrine-v11",
-      "doi:10.5281/zenodo.19944926"
+      "doi:10.5281/zenodo.24239896"
     ],
     "task": null,
     "updated_at": "2026-07-22T10:49:54.000Z"
@@ -650,7 +650,7 @@
       "registry",
       "slsa",
       "dataset",
-      "doi:10.5281/zenodo.19944926"
+      "doi:10.5281/zenodo.24239896"
     ],
     "task": null,
     "updated_at": "2026-07-22T10:49:28.000Z"
@@ -762,7 +762,7 @@
       "formal-verification",
       "lean4",
       "slsa",
-      "doi:10.5281/zenodo.19944926"
+      "doi:10.5281/zenodo.24239896"
     ],
     "task": null,
     "updated_at": "2026-09-23T23:01:58.000Z"
@@ -846,7 +846,7 @@
       "size_categories:n<1K",
       "region:us",
       "org-profile",
-      "doi:10.5281/zenodo.19944926"
+      "doi:10.5281/zenodo.24239896"
     ],
     "task": null,
     "updated_at": "2026-08-31T03:42:10.000Z"
@@ -905,7 +905,7 @@
       "thesis",
       "ouroboros-invariant",
       "szl-holdings",
-      "doi:10.5281/zenodo.19944926",
+      "doi:10.5281/zenodo.24239896",
       "doi:10.5281/zenodo.20434276"
     ],
     "task": null,
@@ -950,7 +950,7 @@
       "nist-ai-rmf",
       "pac-bayes",
       "dataset",
-      "doi:10.5281/zenodo.19944926",
+      "doi:10.5281/zenodo.24239896",
       "doi:10.5281/zenodo.20434276"
     ],
     "task": null,
@@ -982,7 +982,7 @@
       "airgap",
       "agentic-ai",
       "governance",
-      "doi:10.5281/zenodo.19944926"
+      "doi:10.5281/zenodo.24239896"
     ],
     "task": null,
     "updated_at": "2026-07-22T10:49:50.000Z"
@@ -1027,7 +1027,7 @@
       "receipts",
       "audit-log",
       "dataset",
-      "doi:10.5281/zenodo.19944926"
+      "doi:10.5281/zenodo.24239896"
     ],
     "task": null,
     "updated_at": "2026-08-31T08:49:03.000Z"
@@ -1075,7 +1075,7 @@
       "audit-log",
       "observability",
       "dataset",
-      "doi:10.5281/zenodo.19944926"
+      "doi:10.5281/zenodo.24239896"
     ],
     "task": null,
     "updated_at": "2026-08-31T08:49:02.000Z"
