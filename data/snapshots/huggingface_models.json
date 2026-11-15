@@ -542,7 +542,7 @@
       "compliance",
       "annex-iv",
       "governance",
-      "doi:10.5281/zenodo.19944926",
+      "doi:10.5281/zenodo.24239896",
       "license:apache-2.0",
       "region:us"
     ],
@@ -628,7 +628,7 @@
       "proof-status",
       "lean4",
       "lambda-aggregate",
-      "doi:10.5281/zenodo.19944926",
+      "doi:10.5281/zenodo.24239896",
       "license:apache-2.0",
       "region:us"
     ],
@@ -659,7 +659,7 @@
       "compatibility",
       "surrogate",
       "deprecated",
-      "doi:10.5281/zenodo.19944926",
+      "doi:10.5281/zenodo.24239896",
       "license:apache-2.0",
       "region:us"
     ],
@@ -686,7 +686,7 @@
       "dsse",
       "in-toto",
       "governance",
-      "doi:10.5281/zenodo.19944926",
+      "doi:10.5281/zenodo.24239896",
       "license:apache-2.0",
       "region:us"
     ],
@@ -713,7 +713,7 @@
       "provenance",
       "receipts",
       "ed25519",
-      "doi:10.5281/zenodo.19944926",
+      "doi:10.5281/zenodo.24239896",
       "license:apache-2.0",
       "region:us"
     ],
@@ -738,7 +738,7 @@
       "governance",
       "provenance",
       "suite",
-      "doi:10.5281/zenodo.19944926",
+      "doi:10.5281/zenodo.24239896",
       "embedding-table",
       "not-a-transformers-config",
       "license:apache-2.0",
@@ -925,7 +925,7 @@
       "torch",
       "surrogate",
       "pytorch",
-      "doi:10.5281/zenodo.19944926",
+      "doi:10.5281/zenodo.24239896",
       "license:apache-2.0",
       "region:us"
     ],
@@ -995,7 +995,7 @@
       "ouroboros",
       "loop-tax",
       "provenance",
-      "doi:10.5281/zenodo.19944926",
+      "doi:10.5281/zenodo.24239896",
       "license:apache-2.0",
       "region:us"
     ],
@@ -1022,7 +1022,7 @@
       "in-toto",
       "slsa",
       "governance",
-      "doi:10.5281/zenodo.19944926",
+      "doi:10.5281/zenodo.24239896",
       "license:apache-2.0",
       "region:us"
     ],
