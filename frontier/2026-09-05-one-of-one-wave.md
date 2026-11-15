@@ -12,7 +12,7 @@ Receipt-style record. Nothing asserted that a commit or signature does not prove
   - `szl-holdings/szl-forge@4dbd6996` — SZL-Forge / ReceiptAgent family
   - `szl-holdings/szl-khipu@ea9a5000` — Khipu models + kernels
   - `szl-holdings/immune@105c4ce0` — IMMUNE + hosted NEXUS runtime
-- DOI audit: 44 public Hub models; 9 carry concept DOI 10.5281/zenodo.19944926;
+- DOI audit: 44 public Hub models; 9 carry concept DOI 10.5281/zenodo.24239896;
   24 real artifacts without DOI (7,482 combined downloads); 11 stubs/fixtures intentionally DOI-less.
 - NEXUS×IMMUNE consolidation record + nexus CITATION.cff (szl-holdings/nexus PR,
   branch docs/nexus-immune-consolidation-20260905).
