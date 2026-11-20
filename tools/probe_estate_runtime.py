@@ -50,12 +50,38 @@ class RejectRedirects(urllib.request.HTTPRedirectHandler):
         raise WitnessError("REDIRECT_REJECTED")
 
 
-def public_spaces(directory: Path) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+def public_spaces(
+    directory: Path, *, observed_at: datetime | None = None, max_age_days: int = 7
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    """Read a retained public subset without concealing inventory exclusions.
+
+    Completed, hash-consistent input is not proof that a provider list is
+    current or exhaustive. Private/unknown rows are never probed or named in
+    the public summary. Caller-visible counts make partial coverage explicit.
+    """
+    if type(max_age_days) is not int or not 1 <= max_age_days <= 90:
+        raise WitnessError("INVALID_SNAPSHOT_FRESHNESS_POLICY")
+    clock = datetime.now(timezone.utc) if observed_at is None else observed_at
+    if not isinstance(clock, datetime) or clock.tzinfo is None or clock.utcoffset() is None:
+        raise WitnessError("SNAPSHOT_OBSERVER_CLOCK_UNAVAILABLE")
     receipt_path = directory / "snapshot_receipt.json"
     raw_receipt = receipt_path.read_bytes()
     receipt = json.loads(raw_receipt)
     if receipt.get("schema") != "szl.estate-snapshot-receipt/v1" or receipt.get("complete") is not True:
         raise WitnessError("INCOMPLETE_SNAPSHOT_RECEIPT")
+    completed_at = receipt.get("completed_at")
+    if not isinstance(completed_at, str):
+        raise WitnessError("SNAPSHOT_COMPLETION_TIME_UNAVAILABLE")
+    try:
+        finished = datetime.fromisoformat(completed_at.replace("Z", "+00:00"))
+    except ValueError:
+        raise WitnessError("SNAPSHOT_COMPLETION_TIME_INVALID") from None
+    if finished.tzinfo is None or finished.utcoffset() is None:
+        raise WitnessError("SNAPSHOT_COMPLETION_TIME_INVALID")
+    age_seconds = (clock.astimezone(timezone.utc) - finished.astimezone(timezone.utc)).total_seconds()
+    if age_seconds < -300:
+        raise WitnessError("SNAPSHOT_TIMESTAMP_IN_FUTURE")
+    age_days = max(0.0, age_seconds / 86400)
     raw = (directory / "huggingface_spaces.json").read_bytes()
     expected = receipt.get("files", {}).get("huggingface_spaces.json", {})
     if hashlib.sha256(raw).hexdigest() != expected.get("sha256"):
@@ -64,8 +90,15 @@ def public_spaces(directory: Path) -> tuple[list[dict[str, Any]], dict[str, Any]
     if not isinstance(rows, list) or len(rows) != expected.get("count"):
         raise WitnessError("SPACE_SNAPSHOT_COUNT_MISMATCH")
     spaces, seen = [], set()
+    skipped_private, skipped_unknown = 0, 0
     for row in rows:
-        if not isinstance(row, dict) or row.get("private") is not False:
+        if not isinstance(row, dict):
+            raise WitnessError("INVALID_SPACE_SNAPSHOT_ROW")
+        if row.get("private") is True:
+            skipped_private += 1
+            continue
+        if row.get("private") is not False:
+            skipped_unknown += 1
             continue
         name = row.get("path")
         if not isinstance(name, str) or not SPACE_ID.fullmatch(name) or name.casefold() in seen:
@@ -75,9 +108,27 @@ def public_spaces(directory: Path) -> tuple[list[dict[str, Any]], dict[str, Any]
             raise WitnessError("SPACE_SNAPSHOT_REVISION_MISSING")
         seen.add(name.casefold())
         spaces.append(row)
+    stale = age_days > max_age_days
+    # No value here certifies complete provider membership or running service.
+    coverage_status = (
+        "HOLD_STALE_OR_UNOBSERVED_VISIBILITY"
+        if stale or skipped_unknown else "OBSERVED_PUBLIC_SUBSET_ONLY"
+    )
     return sorted(spaces, key=lambda row: row["path"].casefold()), {
-        "path": receipt_path.as_posix(), "sha256": hashlib.sha256(raw_receipt).hexdigest(),
-        "completed_at": receipt.get("completed_at"), "space_snapshot_sha256": expected["sha256"],
+        "path": receipt_path.as_posix(),
+        "sha256": hashlib.sha256(raw_receipt).hexdigest(),
+        "completed_at": completed_at,
+        "space_snapshot_sha256": expected["sha256"],
+        "rows_in_snapshot": len(rows),
+        "public_space_candidates": len(spaces),
+        "private_rows_excluded": skipped_private,
+        "unknown_visibility_rows_excluded": skipped_unknown,
+        "snapshot_age_days": round(age_days, 4),
+        "snapshot_stale": stale,
+        "snapshot_max_age_days": max_age_days,
+        "coverage_status": coverage_status,
+        "complete_org_coverage_verified": False,
+        "training_or_serving_verified": False,
     }
 
 
@@ -331,7 +382,11 @@ def main() -> None:
         results = list(pool.map(lambda row: witness(row, reader), rows))
     report = {"schema": "szl.public-runtime-witness/v1", "started_at": started, "completed_at": now(),
               "snapshot_receipt": receipt, "authenticated_metadata": bool(reader.token),
-              "public_runtime_requests_authenticated": False, "request_paths": list(PATHS),
+              "public_runtime_requests_authenticated": False,
+              "complete_org_coverage_verified": False,
+              "trained_model_count_verified": False,
+              "release_authorized": False,
+              "request_paths": list(PATHS),
               "limits": {"workers": args.workers, "timeout_seconds": args.timeout, "response_bytes": LIMIT},
               "artifact_count": len(results), "functional_inference_verified": False,
               "by_runtime": dict(sorted(Counter(item["runtime"] for item in results).items())), "artifacts": results}
