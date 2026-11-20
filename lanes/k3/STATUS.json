@@ -1,0 +1,12 @@
+{
+  "schema": "szl.k3-canary-status/v1",
+  "state": "DISABLED_BY_DEFAULT",
+  "execution_authorized": false,
+  "execution_gates": [
+    "owner consent bound to merged PR commit",
+    "F5 rotation/removal attestation receipt",
+    "A7 digest evidence for the deployed image"
+  ],
+  "owner_consent_wording": "Execute merged PR #___ at commit ___ as one explicitly enabled K3 canary run, non-publishing only; no public writes, credential changes, or additional runs are authorized.",
+  "updated": "2026-11-20"
+}
