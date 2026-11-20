@@ -1,0 +1,58 @@
+[
+ {
+  "asset_id": "SZLHOLDINGS/szl-triage-qwen3.5-0.8b-lora-laptop-lora",
+  "exclusion_reason": "beyond exact-400 cap; deterministic lexical tail; candidate status"
+ },
+ {
+  "asset_id": "SZLHOLDINGS/szl-triage-qwen3.5-0.8b-lora-study5",
+  "exclusion_reason": "beyond exact-400 cap; deterministic lexical tail; candidate status"
+ },
+ {
+  "asset_id": "SZLHOLDINGS/szl-triage-qwen3.5-0.8b-lora-study5-laptop-lora",
+  "exclusion_reason": "beyond exact-400 cap; deterministic lexical tail; candidate status"
+ },
+ {
+  "asset_id": "SZLHOLDINGS/szl-triage-qwen3.5-0.8b-nemo-candidate",
+  "exclusion_reason": "beyond exact-400 cap; deterministic lexical tail; candidate status"
+ },
+ {
+  "asset_id": "SZLHOLDINGS/szl-triage-retrain",
+  "exclusion_reason": "beyond exact-400 cap; deterministic lexical tail; candidate status"
+ },
+ {
+  "asset_id": "SZLHOLDINGS/szl1-experimental-estate-sft-v1",
+  "exclusion_reason": "beyond exact-400 cap; deterministic lexical tail; candidate status"
+ },
+ {
+  "asset_id": "SZLHOLDINGS/szl1-experimental-massed-20261104",
+  "exclusion_reason": "beyond exact-400 cap; deterministic lexical tail; candidate status"
+ },
+ {
+  "asset_id": "SZLHOLDINGS/tinku",
+  "exclusion_reason": "beyond exact-400 cap; deterministic lexical tail; candidate status"
+ },
+ {
+  "asset_id": "SZLHOLDINGS/triage-0.8b-v2-trained",
+  "exclusion_reason": "beyond exact-400 cap; deterministic lexical tail; candidate status"
+ },
+ {
+  "asset_id": "SZLHOLDINGS/triage-v2-trained",
+  "exclusion_reason": "beyond exact-400 cap; deterministic lexical tail; candidate status"
+ },
+ {
+  "asset_id": "SZLHOLDINGS/waman",
+  "exclusion_reason": "beyond exact-400 cap; deterministic lexical tail; candidate status"
+ },
+ {
+  "asset_id": "SZLHOLDINGS/willay-r1-v2-trained",
+  "exclusion_reason": "beyond exact-400 cap; deterministic lexical tail; candidate status"
+ },
+ {
+  "asset_id": "SZLHOLDINGS/willay-r2-v2-trained",
+  "exclusion_reason": "beyond exact-400 cap; deterministic lexical tail; candidate status"
+ },
+ {
+  "asset_id": "SZLHOLDINGS/willay-v2-trained",
+  "exclusion_reason": "beyond exact-400 cap; deterministic lexical tail; candidate status"
+ }
+]

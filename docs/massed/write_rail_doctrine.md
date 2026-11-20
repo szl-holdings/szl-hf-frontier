@@ -30,8 +30,8 @@ Request and response IDs, timestamps, payload hashes, readback snapshots, all se
 - No bulk training, no K3, until the registry ratification and F5/A7/K1 ticks exist.
 
 ## Seat review (required fields)
-- Astra review: PENDING
-- Sol witness: PENDING
+- Astra review: ENDORSE (2026-11-20, dur 3.8s): deterministic + correct public-only fetch doctrine; cost: cold-residency with timed bursts only viable path under ceiling; integrity risk LOW.
+- Sol witness: ENDORSE (2026-11-20, dur 8.5s): registry + cost findings endorsed; 401-fallback honest, prevents silent omission; watch triggers: unauthorized_spend, registry_drift, secret_exposure.
 - Kimi handler adjudication: EXECUTE-tonight item Q1.3 of the 2026-11-20 get-it-all-done crew lap; this document is the receipt.
 
 Ratification line (owner fills): I ratify this write-rail doctrine with ceiling $____ and single-canary manifest sha256 ____.
