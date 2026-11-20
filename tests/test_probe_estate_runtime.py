@@ -8,6 +8,7 @@ import json
 import tempfile
 import unittest
 import urllib.request
+from datetime import datetime, timezone
 from pathlib import Path
 
 from tools.probe_estate_runtime import (
@@ -263,6 +264,55 @@ class HostAndReceiptTests(unittest.TestCase):
             rows, receipt = public_spaces(root)
             self.assertEqual([NAME], [row["path"] for row in rows])
             self.assertEqual(64, len(receipt["sha256"]))
+            self.assertEqual(3, receipt["rows_in_snapshot"])
+            self.assertEqual(1, receipt["public_space_candidates"])
+            self.assertEqual(1, receipt["private_rows_excluded"])
+            self.assertEqual(1, receipt["unknown_visibility_rows_excluded"])
+            self.assertEqual("HOLD_STALE_OR_UNOBSERVED_VISIBILITY", receipt["coverage_status"])
+            self.assertFalse(receipt["complete_org_coverage_verified"])
+            self.assertNotIn("SZLHOLDINGS/secret", json.dumps(receipt))
+            self.assertNotIn("SZLHOLDINGS/unknown", json.dumps(receipt))
+
+    def test_recent_complete_snapshot_is_still_only_a_public_subset(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.make_snapshot(root, [{"path": NAME, "private": False, "sha": SHA}])
+            observed = datetime(2026, 9, 26, 12, 0, tzinfo=timezone.utc)
+            rows, evidence = public_spaces(root, observed_at=observed)
+            self.assertEqual(1, len(rows))
+            self.assertEqual(2, evidence["snapshot_age_days"])
+            self.assertFalse(evidence["snapshot_stale"])
+            self.assertEqual("OBSERVED_PUBLIC_SUBSET_ONLY", evidence["coverage_status"])
+            self.assertFalse(evidence["training_or_serving_verified"])
+
+    def test_old_receipt_is_labelled_historical_and_cannot_claim_current_coverage(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.make_snapshot(root, [{"path": NAME, "private": False, "sha": SHA}])
+            observed = datetime(2026, 11, 20, 12, 0, tzinfo=timezone.utc)
+            rows, evidence = public_spaces(root, observed_at=observed)
+            self.assertEqual(1, len(rows))
+            self.assertEqual(57, evidence["snapshot_age_days"])
+            self.assertTrue(evidence["snapshot_stale"])
+            self.assertEqual("HOLD_STALE_OR_UNOBSERVED_VISIBILITY", evidence["coverage_status"])
+            self.assertFalse(evidence["complete_org_coverage_verified"])
+
+    def test_future_snapshot_or_invalid_freshness_policy_fails_closed(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.make_snapshot(root, [{"path": NAME, "private": False, "sha": SHA}])
+            before = datetime(2026, 9, 23, 12, 0, tzinfo=timezone.utc)
+            with self.assertRaisesRegex(WitnessError, "TIMESTAMP_IN_FUTURE"):
+                public_spaces(root, observed_at=before)
+            with self.assertRaisesRegex(WitnessError, "FRESHNESS_POLICY"):
+                public_spaces(root, observed_at=before, max_age_days=0)
+
+    def test_non_object_snapshot_row_fails_closed(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.make_snapshot(root, [{"path": NAME, "private": False, "sha": SHA}, None])
+            with self.assertRaisesRegex(WitnessError, "INVALID_SPACE_SNAPSHOT_ROW"):
+                public_spaces(root)
 
     def test_incomplete_inventory_receipt_is_rejected(self):
         with tempfile.TemporaryDirectory() as temp:
