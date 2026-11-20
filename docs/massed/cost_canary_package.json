@@ -1,0 +1,115 @@
+{
+ "analysis": {
+  "ceiling_fit": {
+   "cold_only_24x7_monthly": 820.8,
+   "finding": "the tiered design EXCEEDS the owner $500-$2000 initial ceiling by roughly 5x at 24x7; ratified plan must be either cold-only residency plus burst windows with explicit timed destroy, or a raised ceiling; this is a MEASURED planning constraint, not a spend authorization",
+   "stroke_2000_hours_cold_only": 1754.4
+  },
+  "full_400_concurrent_naive": {
+   "nodes_assumed": "400 concurrent runtimes is a DESIGN ANTI-PATTERN per Kimi T11 + Mistral T11 rulings; a naive tier would exceed 300/hr = budget exhaustion in under 7 hours",
+   "note": "NOT the ratified design; recorded as rejected alternative"
+  },
+  "lean_router_first_tier": {
+   "monthly_24x7": 9741.6,
+   "stroke_2000_hours": 147.8,
+   "stroke_500_hours": 37.0
+  }
+ },
+ "basis": "provider_gpu_inventory.json (GET 2026-11-20, vm.massedcompute.com/api/v1), owner ceiling $500-$2000 (owner tick 22:25Z)",
+ "burn_model": {
+  "cold_hr": 1.14,
+  "hot_hr": 6.57,
+  "per_day": 324.72,
+  "total_hr": 13.53,
+  "warm_hr": 5.82
+ },
+ "ceiling": {
+  "owner_set_initial_lower": 500,
+  "owner_set_initial_upper": 2000
+ },
+ "generated_utc": "2026-11-20T~23:00Z",
+ "inventory": {
+  "gpu_1x_6000_ada": {
+   "cap": 18,
+   "usd_per_hr": 0.79
+  },
+  "gpu_1x_a6000": {
+   "cap": 40,
+   "usd_per_hr": 0.57
+  },
+  "gpu_1x_a6000_high_ram": {
+   "cap": 28,
+   "usd_per_hr": 0.57
+  },
+  "gpu_1x_h200_nvl": {
+   "cap": 1,
+   "usd_per_hr": 3.62
+  },
+  "gpu_1x_l40s": {
+   "cap": 36,
+   "usd_per_hr": 0.97
+  },
+  "gpu_1x_pro_6000_blackwell": {
+   "cap": 26,
+   "usd_per_hr": 2.19
+  },
+  "gpu_2x_pro_6000_blackwell": {
+   "cap": 9,
+   "usd_per_hr": 4.38
+  },
+  "gpu_8x_dgx_a100": {
+   "cap": 1,
+   "usd_per_hr": 11.04
+  }
+ },
+ "rollback": {
+  "any_failure": "terminate immediately via ratified write rail, GET-readback confirm absent, receipt deviation, no retry without GET reconcile",
+  "budget_breach": "estimated spend > $10 on canary or > ceiling fraction burned = hard stop + owner report"
+ },
+ "schema": "szl.massd-cost-canary-package/v0",
+ "single_canary_package": {
+  "ceiling_usd": 10,
+  "evidence": "private-only tonight, no HF writes",
+  "gates": "owner ratification + lap-8 HOLD release + write rail (support-issued write-scoped key or owner-in-browser) required BEFORE any fire",
+  "max_runtime_min": 60,
+  "model_pull": "one small public model only, <=20GB",
+  "name": "szl-massed-bw-ollama-canary-20261120-01",
+  "ollama_bind": "127.0.0.1 via SSH tunnel only",
+  "payload": {
+   "imageId": 184,
+   "instanceName": "szl-massed-bw-ollama-canary-20261120-01",
+   "productName": "gpu_1x_pro_6000_blackwell",
+   "regionName": "any"
+  },
+  "rate_ceiling_usd_per_hr": 2.19,
+  "stop_path": "watchdog terminate at T+50m + GET /instance readback until absent; 200 != proof",
+  "terminate_at_t_plus_min": 50,
+  "trust_remote_code": false
+ },
+ "status": "MEASURED_DRAFT",
+ "tiered_design": {
+  "cold": {
+   "n": 2,
+   "role": "router-front door + control plane standby, 1 active + 1 spare",
+   "sku": "gpu_1x_a6000",
+   "usd_per_hr": 0.57
+  },
+  "hot": {
+   "n": 3,
+   "role": "T4_xl single-model residency + canary launch pool",
+   "sku": "gpu_1x_pro_6000_blackwell",
+   "usd_per_hr": 2.19
+  },
+  "warm": {
+   "n": 6,
+   "role": "tiered serving: T2/T3 models, lazy-load on demand",
+   "sku": "gpu_1x_l40s",
+   "usd_per_hr": 0.97
+  }
+ },
+ "vetoes": [
+  "no deploy until write rail ratified",
+  "lean design only; 400-concurrent rejected",
+  "MEASURED != PASS"
+ ]
+}

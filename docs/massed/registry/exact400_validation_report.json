@@ -1,0 +1,65 @@
+{
+ "receipt": "candidate_exact400_registry",
+ "status": "CANDIDATE_DRAFT_SEALED",
+ "gate": "owner ratification required; no bulk training; lap-8 4/4 HOLD stands",
+ "draft_rows": 666,
+ "draft_unique_ids": 663,
+ "catalog_models_matched": 414,
+ "selected": 400,
+ "excluded_cap": 14,
+ "dataset_rows_in_draft_not_in_catalog_models": 249,
+ "fetch_errors": 15,
+ "error_detail": [
+  {
+   "asset_id": "SZLHOLDINGS/salad-chaski-frontier-4b-op1",
+   "error": "<HTTPError 401: 'Unauthorized'>"
+  },
+  {
+   "asset_id": "SZLHOLDINGS/salad-chaski-frontier-9b-op1",
+   "error": "<HTTPError 401: 'Unauthorized'>"
+  },
+  {
+   "asset_id": "SZLHOLDINGS/salad-flagship54-v2",
+   "error": "<HTTPError 401: 'Unauthorized'>"
+  },
+  {
+   "asset_id": "SZLHOLDINGS/salad-governed-distill-27b-qlora-r1",
+   "error": "<HTTPError 401: 'Unauthorized'>"
+  },
+  {
+   "asset_id": "SZLHOLDINGS/salad-ring-ouro-l12",
+   "error": "<HTTPError 401: 'Unauthorized'>"
+  },
+  {
+   "asset_id": "SZLHOLDINGS/salad-ring-ouro-l13b",
+   "error": "<HTTPError 401: 'Unauthorized'>"
+  },
+  {
+   "asset_id": "SZLHOLDINGS/salad-ring-ouro-l15",
+   "error": "<HTTPError 401: 'Unauthorized'>"
+  },
+  {
+   "asset_id": "SZLHOLDINGS/salad-ring-ouro-l16",
+   "error": "<HTTPError 401: 'Unauthorized'>"
+  },
+  {
+   "asset_id": "SZLHOLDINGS/salad-ring-ouro-l17",
+   "error": "<HTTPError 401: 'Unauthorized'>"
+  },
+  {
+   "asset_id": "SZLHOLDINGS/salad-ring-ouro-l18",
+   "error": "<HTTPError 401: 'Unauthorized'>"
+  }
+ ],
+ "determinism": "sorted(asset_id) lexical first 400; json sorted-keys compact; LF",
+ "sha256_registry": "524e3b15f249d1ee1077b9fd668ab69058230eba58731a4a58f296cdf32885af",
+ "independent_review": {
+  "astra": "ENDORSE low risk (dur 3.8s)",
+  "sol": "ENDORSE low risk (dur 8.5s)",
+  "kimi_handler": "EXECUTE item Q1.1 ordered; receipt accepted form"
+ },
+ "source_evidence": {
+  "draft": "w12_manifest_draft.jsonl (registry a1c5302d)",
+  "catalog": "estate_catalog.json sha16 d281217a fetched 2026-11-20T21:47:46Z"
+ }
+}
