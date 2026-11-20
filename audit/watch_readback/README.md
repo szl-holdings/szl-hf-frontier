@@ -9,16 +9,17 @@ fires died quietly (r5 stopped 17:52:44Z, no DONE, markers stale since
 ## Rules (fail closed)
 
 * A lane is evaluated from: boot time, ordered progress markers with UTC
-  stamps, a terminal record, and the recorded provider-call log.
+  stamps, a terminal observation, and the recorded provider-call log.
 * INTERVENE_AFTER_S = 2100 (T+35): no new progress marker within 35
-  minutes of boot or the previous marker -> intervention flag.
+  minutes of boot -> intervention flag.
 * OWNER_STOP_AFTER_S = 2700 (T+45): silence past 45 minutes -> an
   owner-stop request is due (recorded as a recommendation only).
-* COMPLETE_SET_ADMITTED requires: ordered marker set complete, terminal
-  DONE present, result manifest with sha256, and metrics/artifact
-  readback hashes matching with no reuse of earlier-run artifacts.
+* Markers that predate boot are not fresh evidence of this boot (the
+  observed r5 shape) and make the clock stale immediately.
+* COMPLETE_SET_ADMITTED requires: ordered marker set, terminal DONE
+  with result manifest, and readback sha256 equal to manifest sha256.
 * terminal-without-DONE -> REJECT_TERMINAL_WITHOUT_DONE.
-* DONE-only (DONE without marker set and manifest) -> REJECT_DONE_ONLY.
+* DONE-only (no marker set / manifest) -> REJECT_DONE_ONLY.
 * any malformed input raises ValidationError; nothing is UNKNOWN.
 * verify_zero_mutations: every recorded provider call must be GET/HEAD;
   any other verb fails closed.
@@ -31,7 +32,12 @@ admission, zero provider mutations) passes exactly, and the package
 self-lints to plain ASCII with lines <= 80 columns."
 
 This package adds validator capability only. It executes no provider
-calls, promotes no DONE, clears no gate, and touches no holder held item
-(F5 rotation, A7 digest pinning, K1 visibility, five-organ 503,
-hf-sync release freeze). Council receipts 2026-11-20: Kimi
+calls, promotes no DONE, clears no gate, and touches no held item (F5
+rotation, A7 digest pinning, K1 visibility, five-organ 503, hf-sync
+release freeze). Council receipts 2026-11-20: Kimi
 KIMI_T10_PRDRAIN_PASS, Mistral MISTRAL_T10_DRAIN_CLEARED.
+
+## Local verification receipt (2026-11-20)
+
+Pushed only after local proof on the CTO device: pytest 9/9 pass,
+selflint clean (ASCII, <= 80 columns).

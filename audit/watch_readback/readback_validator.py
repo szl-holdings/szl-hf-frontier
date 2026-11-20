@@ -80,6 +80,10 @@ def silence_report(lane_clock):
     boot = _parse_ts(lane_clock["boot_ts"])
     last = _parse_ts(lane_clock["last_marker_ts"])
     age = last - boot
+    if age < 0:
+        # Markers that predate boot are not fresh evidence of this
+        # boot (the r5 shape): treat the clock as stale immediately.
+        return (True, True, True)
     return (age >= INTERVENE_AFTER_S,
             age >= OWNER_STOP_AFTER_S,
             age >= INTERVENE_AFTER_S)
@@ -89,8 +93,8 @@ def classify(evidence):
     """Return the admission verdict for one watched lane.
 
     Required keys: boot_ts, last_marker_ts, markers (ordered, may be
-    empty), terminal (dict with state in stopped/done/failed), done
-    (dict or None), calls. Admitting additionally requires
+    empty), terminal (dict with state in stopped/done/failed/running),
+    done (dict or None), calls. Admitting additionally requires
     manifest_sha256 == readback_sha256.
     """
     _require(isinstance(evidence, dict), "evidence must be a dict")
@@ -103,8 +107,9 @@ def classify(evidence):
     terminal = evidence["terminal"]
     _require(isinstance(terminal, dict) and "state" in terminal,
              "terminal must carry state")
-    _require(terminal["state"] in ("stopped", "done", "failed"),
-             "terminal state is not terminal-class")
+    _require(
+        terminal["state"] in ("stopped", "done", "failed", "running"),
+        "terminal state is not observation-class")
 
     done = evidence["done"]
     have_done = isinstance(done, dict) and bool(done)
@@ -113,6 +118,7 @@ def classify(evidence):
     clock = {"boot_ts": evidence["boot_ts"],
              "last_marker_ts": evidence["last_marker_ts"]}
 
+    live = terminal["state"] == "running"
     if terminal["state"] in ("stopped", "failed") and not have_done:
         verdict = "REJECT_TERMINAL_WITHOUT_DONE"
     elif have_done and not (has_markers and has_manifest):
@@ -122,12 +128,12 @@ def classify(evidence):
                 evidence.get("readback_sha256")):
             raise ValidationError("readback sha256 mismatch")
         verdict = "COMPLETE_SET_ADMITTED"
-    elif not has_markers and not have_done:
-        verdict = "NON_EVIDENTIARY_EVIDENCE_STALE"
-    else:
-        verdict = ("NON_EVIDENTIARY_EVIDENCE_STALE"
-                   if silence_report(clock)[2]
+    elif live and not have_done:
+        stale = silence_report(clock)[2] or not has_markers
+        verdict = ("NON_EVIDENTIARY_EVIDENCE_STALE" if stale
                    else "REJECT_INCOMPLETE_MARKER_SET")
+    else:
+        verdict = "REJECT_INCOMPLETE_MARKER_SET"
 
     intervene_due, owner_stop_due, _ = silence_report(clock)
     return {

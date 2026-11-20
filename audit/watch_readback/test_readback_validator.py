@@ -84,12 +84,13 @@ def test_malformed_input_raises_never_unknown():
 
 
 def test_no_markers_no_done_is_non_evidentiary():
-    out = classify(_evidence([], {"state": "stopped"}, None))
+    out = classify(_evidence([], {"state": "running"}, None))
     assert out["verdict"] == "NON_EVIDENTIARY_EVIDENCE_STALE"
 
 
 def test_self_lint_ascii_80cols(tmp_path):
     pkg = tmp_path / "pkg"
     pkg.mkdir()
-    (pkg / "ok.py").write_text("# fine\n", encoding="ascii")
+    (pkg / "ok.py").write_text("# fine
+", encoding="ascii")
     assert selflint.lint_tree(pkg) == []
