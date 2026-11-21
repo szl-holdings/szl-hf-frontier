@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import hashlib
+import concurrent.futures
+import threading
 import http.client
 import json
 import tempfile
@@ -125,6 +127,31 @@ class RuntimeWitnessTests(unittest.TestCase):
         self.assertEqual(["PROVIDER_RATE_LIMITED"], result["errors"])
         self.assertEqual([], result["probes"])
         self.assertEqual(1, len(reader.opener.requests))
+
+    def test_concurrent_hub_requests_stop_at_first_429_response(self):
+        reader = RuntimeReader(None)
+        entered = threading.Event()
+        release = threading.Event()
+        requests = []
+
+        class BlockingOpener:
+            def open(self, request, timeout):
+                requests.append(request.full_url)
+                entered.set()
+                if not release.wait(timeout=3):
+                    raise AssertionError("test timeout waiting for release")
+                return Response(b"rate limited", code=429)
+
+        reader.opener = BlockingOpener()
+        with concurrent.futures.ThreadPoolExecutor(max_workers=2) as workers:
+            first = workers.submit(reader.metadata, NAME)
+            self.assertTrue(entered.wait(timeout=3))
+            second = workers.submit(reader.metadata, NAME)
+            release.set()
+            for pending in (first, second):
+                with self.assertRaisesRegex(WitnessError, "^PROVIDER_RATE_LIMITED$"):
+                    pending.result(timeout=3)
+        self.assertEqual([f"https://huggingface.co/api/spaces/{NAME}"], requests)
 
     def test_public_http_429_is_unknown_even_with_health_200(self):
         reader = reader_with(root=Response(b"rate limited", code=429),
