@@ -331,6 +331,29 @@ class HostAndReceiptTests(unittest.TestCase):
 
 
 class RetainedAssessmentTests(unittest.TestCase):
+    def test_nonrunning_provider_cannot_claim_a_healthy_space(self):
+        result = {
+            "provider_stage": "RUNNING",
+            "hub_revision_matches_snapshot": True,
+            "runtime_revision_matches_snapshot": True,
+            "probes": [
+                {"path": "/", "http_status": 200, "error": None, "application": {}},
+                {"path": "/healthz", "http_status": 200, "error": None, "application": {"ok": True}},
+            ],
+        }
+        self.assertEqual("HEALTH_RESPONSE_OBSERVED", assess_runtime(result))
+        for stage in ("BUILDING", "APP_STARTING", "RUNNING_BUILDING", "SLEEPING",
+                      "PAUSED", "STOPPED", "UNKNOWN", None):
+            with self.subTest(stage=stage):
+                result["provider_stage"] = stage
+                self.assertEqual("UNKNOWN", assess_runtime(result))
+        # Hard provider failures and revision drift override even a healthy HTTP reply.
+        result["provider_stage"] = "BUILD_ERROR"
+        self.assertEqual("FAIL", assess_runtime(result))
+        result["provider_stage"] = "PAUSED"
+        result["runtime_revision_matches_snapshot"] = False
+        self.assertEqual("FAIL", assess_runtime(result))
+
     def test_refused_redirect_is_unknown_and_revision_drift_still_fails(self):
         result = {"provider_stage": "RUNNING", "hub_revision_matches_snapshot": True,
                   "runtime_revision_matches_snapshot": None,
