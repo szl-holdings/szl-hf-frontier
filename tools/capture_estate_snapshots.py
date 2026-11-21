@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import email.utils
 import hashlib
 import json
 import os
@@ -11,6 +12,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -110,8 +112,55 @@ def resolve_credentials(public_only: bool = False) -> tuple[dict[str, str], dict
     return tokens, summaries
 
 
-def request_json(url: str, token: str | None = None, *, provider: str) -> tuple[Any, dict[str, str]]:
-    """Never forward credentials through a redirect or a different origin."""
+MAX_PROVIDER_RETRY_ATTEMPTS = 3
+MAX_PROVIDER_RETRY_WAIT_S = 20.0
+
+
+def provider_retry_delay(status: int, headers: dict[str, str], *,
+                         provider: str, attempt: int, wall_now: float) -> float | None:
+    """Return a bounded-retry *proposal*, never permission to ignore a denial.
+
+    GitHub 403 is retriable only with explicit server evidence of throttling.
+    A Retry-After or RateLimit reset longer than the caller's budget must stop
+    the call, not be shortened to an unsafe early retry.
+    """
+    if status != 429 and not (
+        provider == "github" and status == 403
+        and (headers.get("x-ratelimit-remaining") == "0" or "retry-after" in headers)
+    ):
+        return None
+    retry_after = headers.get("retry-after", "").strip()
+    if re.fullmatch(r"[0-9]{1,9}", retry_after):
+        return float(int(retry_after))
+    if retry_after:
+        try:
+            parsed = email.utils.parsedate_to_datetime(retry_after)
+            if parsed.tzinfo is not None:
+                return max(0.0, parsed.timestamp() - wall_now)
+        except (TypeError, ValueError, OverflowError):
+            pass
+    if provider == "huggingface":
+        header = headers.get("ratelimit", "")
+        # The Hub exposes seconds to reset in t=<seconds> (within its
+        # rate-limit bucket). Never treat the remaining count as a reset.
+        found = re.search(r"(?:^|[;\s])t\s*=\s*([0-9]{1,9})(?=[;\s]|$)", header)
+        if found:
+            return float(int(found.group(1)))
+    if provider == "github" and headers.get("x-ratelimit-remaining") == "0":
+        reset = headers.get("x-ratelimit-reset", "")
+        if re.fullmatch(r"[0-9]{1,11}", reset):
+            return max(0.0, float(int(reset)) - wall_now)
+    return float(1 << attempt)
+
+
+def request_json(url: str, token: str | None = None, *, provider: str,
+                 sleep_fn=time.sleep, monotonic=time.monotonic,
+                 wall_clock=time.time) -> tuple[Any, dict[str, str]]:
+    """Read a provider response with a small, deterministic retry budget.
+
+    Exhaustion and explicit auth rejection always fail closed. The caller's
+    pagination receipt cannot claim completeness after any failed page.
+    """
     parsed = urllib.parse.urlsplit(url)
     expected = {"github": "api.github.com", "huggingface": "huggingface.co"}[provider]
     try:
@@ -128,20 +177,36 @@ def request_json(url: str, token: str | None = None, *, provider: str) -> tuple[
     if token:
         headers["Authorization"] = "Bearer " + token
     request = urllib.request.Request(url, headers=headers, method="GET")
-    try:
-        with urllib.request.build_opener(_RejectRedirects()).open(request, timeout=30) as response:
-            raw = response.read(8 * 1024 * 1024 + 1)
-            if len(raw) > 8 * 1024 * 1024:
-                raise CollectionError("RESPONSE_TOO_LARGE")
-            return json.loads(raw.decode("utf-8")), _response_headers(response.headers)
-    except urllib.error.HTTPError as exc:
-        raise CollectionError(f"HTTP_{exc.code}") from None
-    except (UnicodeError, json.JSONDecodeError):
-        raise CollectionError("INVALID_JSON") from None
-    except CollectionError:
-        raise
-    except Exception:
-        raise CollectionError("NETWORK_ERROR") from None
+    opener = urllib.request.build_opener(_RejectRedirects())
+    started = monotonic()
+    for attempt in range(MAX_PROVIDER_RETRY_ATTEMPTS):
+        try:
+            with opener.open(request, timeout=30) as response:
+                raw = response.read(8 * 1024 * 1024 + 1)
+                if len(raw) > 8 * 1024 * 1024:
+                    raise CollectionError("RESPONSE_TOO_LARGE")
+                return json.loads(raw.decode("utf-8")), _response_headers(response.headers)
+        except urllib.error.HTTPError as exc:
+            try:
+                delay = provider_retry_delay(
+                    int(exc.code), _response_headers(exc.headers),
+                    provider=provider, attempt=attempt, wall_now=wall_clock(),
+                )
+            finally:
+                exc.close()
+            if delay is None:
+                raise CollectionError(f"HTTP_{exc.code}") from None
+            available = MAX_PROVIDER_RETRY_WAIT_S - max(0.0, monotonic() - started)
+            if attempt + 1 >= MAX_PROVIDER_RETRY_ATTEMPTS or delay > available:
+                raise CollectionError(f"HTTP_{exc.code}_RATE_LIMITED") from None
+            sleep_fn(delay)
+        except (UnicodeError, json.JSONDecodeError):
+            raise CollectionError("INVALID_JSON") from None
+        except CollectionError:
+            raise
+        except Exception:
+            raise CollectionError("NETWORK_ERROR") from None
+    raise CollectionError("RETRY_BUDGET_EXHAUSTED")
 
 
 def validate_identities(tokens: dict[str, str], summaries: dict[str, Any]) -> None:
