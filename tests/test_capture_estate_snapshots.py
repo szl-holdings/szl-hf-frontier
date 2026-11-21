@@ -6,6 +6,7 @@ import json
 import os
 import tempfile
 import unittest
+import urllib.error
 import urllib.parse
 from pathlib import Path
 from unittest import mock
@@ -138,6 +139,139 @@ class PaginationTests(unittest.TestCase):
         for row in rows:
             with self.subTest(row=row), mock.patch.object(collector, "request_json", return_value=([row], {})):
                 self.assertIsNone(collector.collect_inventory("models", "fixture", 10).count)
+
+
+class BoundedProviderRetryTests(unittest.TestCase):
+    class Response:
+        status = 200
+        headers = {}
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *args):
+            return None
+
+        def read(self, limit):
+            return b'{"ok":true}'[:limit]
+
+    def exercise(self, provider, steps, *, budget_clock=None):
+        calls, sleeps = [], []
+        clock = [0.0] if budget_clock is None else budget_clock
+
+        class Opener:
+            def open(self, request, timeout):
+                calls.append((request.full_url, request.get_header("Authorization")))
+                code, headers = steps[min(len(calls) - 1, len(steps) - 1)]
+                if code != 200:
+                    raise urllib.error.HTTPError(request.full_url, code, "provider refused", headers, None)
+                return BoundedProviderRetryTests.Response()
+
+        def snooze(seconds):
+            sleeps.append(seconds)
+            clock[0] += seconds
+
+        url = ("https://huggingface.co/api/models?author=SZLHOLDINGS"
+               if provider == "huggingface" else "https://api.github.com/orgs/szl-holdings/repos")
+        with mock.patch.object(collector.urllib.request, "build_opener", return_value=Opener()):
+            try:
+                result = collector.request_json(
+                    url, "fake-test-credential", provider=provider,
+                    sleep_fn=snooze, monotonic=lambda: clock[0], wall_clock=lambda: 1000.0,
+                )
+                return result, calls, sleeps, None
+            except collector.CollectionError as error:
+                return None, calls, sleeps, str(error)
+
+    def test_hf_retry_after_within_budget_succeeds(self):
+        result, calls, sleeps, error = self.exercise("huggingface",
+            [(429, {"Retry-After": "2"}), (200, {})])
+        self.assertIsNone(error)
+        self.assertEqual(result[0], {"ok": True})
+        self.assertEqual([2.0], sleeps)
+        self.assertEqual(2, len(calls))
+
+    def test_hf_ratelimit_reset_outside_budget_halts_without_retry(self):
+        result, calls, sleeps, error = self.exercise("huggingface",
+            [(429, {"RateLimit": '"api";r=0;t=301'})])
+        self.assertIsNone(result)
+        self.assertEqual("HTTP_429_RATE_LIMITED", error)
+        self.assertEqual(1, len(calls))
+        self.assertEqual([], sleeps)
+
+    def test_hf_repeated_429_exhausts_exact_attempt_cap(self):
+        result, calls, sleeps, error = self.exercise("huggingface", [(429, {})])
+        self.assertEqual("HTTP_429_RATE_LIMITED", error)
+        self.assertEqual(3, len(calls))
+        self.assertEqual([1.0, 2.0], sleeps)
+        self.assertIsNone(result)
+
+    def test_github_permission_403_never_retried(self):
+        result, calls, sleeps, error = self.exercise("github", [(403, {})])
+        self.assertIsNone(result)
+        self.assertEqual("HTTP_403", error)
+        self.assertEqual(1, len(calls))
+        self.assertEqual([], sleeps)
+
+    def test_github_primary_limit_403_reset_within_budget(self):
+        result, calls, sleeps, error = self.exercise("github",
+            [(403, {"X-RateLimit-Remaining": "0", "X-RateLimit-Reset": "1002"}), (200, {})])
+        self.assertIsNone(error)
+        self.assertEqual(result[0], {"ok": True})
+        self.assertEqual([2.0], sleeps)
+        self.assertEqual(2, len(calls))
+
+    def test_github_reset_far_in_future_does_not_wait(self):
+        result, calls, sleeps, error = self.exercise("github",
+            [(403, {"X-RateLimit-Remaining": "0", "X-RateLimit-Reset": "5000"})])
+        self.assertEqual("HTTP_403_RATE_LIMITED", error)
+        self.assertEqual(1, len(calls))
+        self.assertEqual([], sleeps)
+
+    def test_malformed_retry_after_never_causes_negative_sleep(self):
+        for bad in ("abc", "-5", "not-a-date"):
+            with self.subTest(bad=bad):
+                _, calls, sleeps, error = self.exercise("huggingface",
+                    [(429, {"Retry-After": bad}), (200, {})])
+                self.assertIsNone(error)
+                self.assertEqual([1.0], sleeps)
+                self.assertEqual(2, len(calls))
+
+    def test_wait_budget_is_cumulative_over_attempts(self):
+        result, calls, sleeps, error = self.exercise("huggingface", [
+            (429, {"Retry-After": "15"}),
+            (429, {"Retry-After": "15"}),
+            (200, {}),
+        ])
+        self.assertIsNone(result)
+        self.assertEqual("HTTP_429_RATE_LIMITED", error)
+        self.assertEqual([15.0], sleeps)
+        self.assertEqual(2, len(calls))
+
+    def test_github_secondary_403_retry_after_retries(self):
+        result, calls, sleeps, error = self.exercise("github", [
+            (403, {"Retry-After": "2"}), (200, {}),
+        ])
+        self.assertIsNone(error)
+        self.assertEqual(result[0], {"ok": True})
+        self.assertEqual([2.0], sleeps)
+        self.assertEqual(2, len(calls))
+
+    def test_http_date_header_is_respected(self):
+        result, calls, sleeps, error = self.exercise("huggingface", [
+            (429, {"Retry-After": "Thu, 01 Jan 1970 00:16:42 GMT"}),
+            (200, {}),
+        ])
+        self.assertIsNone(error)
+        self.assertEqual([2.0], sleeps)
+        self.assertEqual(2, len(calls))
+
+    def test_trusted_request_only_and_no_secret_in_error(self):
+        _, calls, sleeps, error = self.exercise("huggingface", [(429, {"Retry-After": "800"})])
+        self.assertEqual("HTTP_429_RATE_LIMITED", error)
+        self.assertNotIn("fake-test-credential", error)
+        self.assertTrue(all(auth == "Bearer fake-test-credential" for _, auth in calls))
+        self.assertEqual([], sleeps)
 
 
 class CredentialAndMetadataTests(unittest.TestCase):
