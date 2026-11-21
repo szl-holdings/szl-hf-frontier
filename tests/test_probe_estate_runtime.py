@@ -110,6 +110,38 @@ class RuntimeWitnessTests(unittest.TestCase):
         result = witness({"path": NAME, "sha": SHA}, reader)
         self.assertEqual([], result["probes"])
 
+    def test_hub_rate_limit_circuit_breaker_prevents_repeat_metadata_calls(self):
+        reader = reader_with()
+        url = f"https://huggingface.co/api/spaces/{NAME}"
+        reader.opener.responses[url] = Response(b"rate limited", code=429)
+        with self.assertRaisesRegex(WitnessError, "^PROVIDER_RATE_LIMITED$"):
+            reader.metadata(NAME)
+        self.assertEqual(1, len(reader.opener.requests))
+        with self.assertRaisesRegex(WitnessError, "^PROVIDER_RATE_LIMITED$"):
+            reader.metadata(NAME)
+        self.assertEqual(1, len(reader.opener.requests))
+        result = witness({"path": NAME, "sha": SHA}, reader)
+        self.assertEqual("UNKNOWN", result["runtime"])
+        self.assertEqual(["PROVIDER_RATE_LIMITED"], result["errors"])
+        self.assertEqual([], result["probes"])
+        self.assertEqual(1, len(reader.opener.requests))
+
+    def test_public_http_429_is_unknown_even_with_health_200(self):
+        reader = reader_with(root=Response(b"rate limited", code=429),
+                             health=Response(b'{"ok":true}'))
+        result = witness({"path": NAME, "sha": SHA}, reader)
+        self.assertEqual("RUNNING", result["provider_stage"])
+        self.assertEqual(429, result["probes"][0]["http_status"])
+        self.assertEqual("UNKNOWN", result["runtime"])
+        self.assertFalse(result["functional_inference_verified"])
+
+    def test_rate_limit_does_not_mask_independent_provider_failure(self):
+        reader = reader_with(metadata={"runtime": {"stage": "BUILD_ERROR", "sha": SHA}},
+                             root=Response(b"rate limited", code=429),
+                             health=Response(b'{"ok":true}'))
+        result = witness({"path": NAME, "sha": SHA}, reader)
+        self.assertEqual("FAIL", result["runtime"])
+
     def test_only_metadata_receives_authentication(self):
         reader = reader_with()
         witness({"path": NAME, "sha": SHA}, reader)
