@@ -324,7 +324,14 @@ def assess_runtime(result: dict[str, Any]) -> str:
             failure = True
         if probe["path"] in {"/healthz", "/readyz"} and code == 200 and states and all(states):
             healthy = True
-    return "FAIL" if failure else "UNKNOWN" if rate_limited else "HEALTH_RESPONSE_OBSERVED" if healthy else "UNKNOWN"
+    if failure:
+        return "FAIL"
+    if rate_limited:
+        return "UNKNOWN"
+    # Public HTTP alone does not establish an actively running provider.
+    if result.get("provider_stage") != "RUNNING":
+        return "UNKNOWN"
+    return "HEALTH_RESPONSE_OBSERVED" if healthy else "UNKNOWN"
 
 
 def witness(row: dict[str, Any], reader: RuntimeReader) -> dict[str, Any]:
