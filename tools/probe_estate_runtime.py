@@ -6,6 +6,7 @@ import argparse
 import hashlib
 import http.client
 import json
+import math
 import re
 import sys
 import threading
@@ -50,6 +51,45 @@ class RejectRedirects(urllib.request.HTTPRedirectHandler):
         raise WitnessError("REDIRECT_REJECTED")
 
 
+
+def _strict_json_pairs(pairs: list[tuple[str, Any]]) -> dict[str, Any]:
+    """Never project a last-wins JSON field into public visibility or readiness."""
+    result: dict[str, Any] = {}
+    for name, value in pairs:
+        if name in result:
+            raise WitnessError("AMBIGUOUS_JSON_OBJECT")
+        result[name] = value
+    return result
+
+
+def _deny_nonfinite(_value: str) -> None:
+    raise WitnessError("NONFINITE_JSON_NUMBER")
+
+
+def _strict_json_float(value: str) -> float:
+    number = float(value)
+    if not math.isfinite(number):
+        raise WitnessError("NONFINITE_JSON_NUMBER")
+    return number
+
+
+def strict_json(raw: bytes, *, failure: str) -> Any:
+    """Decode untrusted JSON without duplicate keys, NaN or overflow to Infinity.
+
+    This checks parse ambiguity only. A valid snapshot still needs a trusted
+    source, current complete inventory and live revision/health verification.
+    """
+    try:
+        return json.loads(
+            raw, object_pairs_hook=_strict_json_pairs,
+            parse_constant=_deny_nonfinite, parse_float=_strict_json_float,
+        )
+    except WitnessError:
+        raise
+    except (ValueError, UnicodeError, RecursionError, OverflowError):
+        raise WitnessError(failure) from None
+
+
 def public_spaces(
     directory: Path, *, observed_at: datetime | None = None, max_age_days: int = 7
 ) -> tuple[list[dict[str, Any]], dict[str, Any]]:
@@ -66,7 +106,9 @@ def public_spaces(
         raise WitnessError("SNAPSHOT_OBSERVER_CLOCK_UNAVAILABLE")
     receipt_path = directory / "snapshot_receipt.json"
     raw_receipt = receipt_path.read_bytes()
-    receipt = json.loads(raw_receipt)
+    receipt = strict_json(raw_receipt, failure="INVALID_SNAPSHOT_RECEIPT_JSON")
+    if not isinstance(receipt, dict):
+        raise WitnessError("INVALID_SNAPSHOT_RECEIPT_JSON")
     if receipt.get("schema") != "szl.estate-snapshot-receipt/v1" or receipt.get("complete") is not True:
         raise WitnessError("INCOMPLETE_SNAPSHOT_RECEIPT")
     completed_at = receipt.get("completed_at")
@@ -86,7 +128,7 @@ def public_spaces(
     expected = receipt.get("files", {}).get("huggingface_spaces.json", {})
     if hashlib.sha256(raw).hexdigest() != expected.get("sha256"):
         raise WitnessError("SPACE_SNAPSHOT_HASH_MISMATCH")
-    rows = json.loads(raw)
+    rows = strict_json(raw, failure="INVALID_SPACE_SNAPSHOT_JSON")
     if not isinstance(rows, list) or len(rows) != expected.get("count"):
         raise WitnessError("SPACE_SNAPSHOT_COUNT_MISMATCH")
     spaces, seen = [], set()
@@ -271,7 +313,7 @@ class RuntimeReader:
         if truncated:
             raise WitnessError("PROVIDER_METADATA_TOO_LARGE")
         try:
-            result = json.loads(body)
+            result = strict_json(body, failure="INVALID_PROVIDER_JSON")
         except (ValueError, UnicodeError, RecursionError):
             raise WitnessError("INVALID_PROVIDER_JSON") from None
         if not isinstance(result, dict):
@@ -287,8 +329,9 @@ class RuntimeReader:
             application = {}
             if not truncated:
                 try:
-                    application = bounded_application(json.loads(body))
-                except (ValueError, UnicodeError, RecursionError):
+                    application = bounded_application(strict_json(body, failure="INVALID_APPLICATION_JSON"))
+                except WitnessError:
+                    # Invalid or ambiguous health never becomes affirmative readiness.
                     pass
             _, revisions = app_facts(application)
             result.update(http_status=code, body_sha256=hashlib.sha256(body).hexdigest(),
