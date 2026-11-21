@@ -314,6 +314,67 @@ class HostAndReceiptTests(unittest.TestCase):
             with self.assertRaisesRegex(WitnessError, "INVALID_SPACE_SNAPSHOT_ROW"):
                 public_spaces(root)
 
+    def test_duplicate_visibility_field_cannot_promote_private_row(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.make_snapshot(root, [])
+            raw = ('[{"path":"' + NAME + '","sha":"' + SHA +
+                   '","private":true,"private":false}]').encode()
+            (root / "huggingface_spaces.json").write_bytes(raw)
+            receipt = json.loads((root / "snapshot_receipt.json").read_text())
+            receipt["files"]["huggingface_spaces.json"] = {
+                "sha256": hashlib.sha256(raw).hexdigest(), "count": 1,
+            }
+            (root / "snapshot_receipt.json").write_text(json.dumps(receipt))
+            with self.assertRaisesRegex(WitnessError, "AMBIGUOUS_JSON_OBJECT"):
+                public_spaces(root)
+
+    def test_duplicate_receipt_completeness_cannot_satisfy_gate(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.make_snapshot(root, [], complete=False)
+            raw = (root / "snapshot_receipt.json").read_text()
+            # A second true value used to override complete=false.
+            ambiguous = raw.replace('"complete": false,', '"complete": false, "complete": true,')
+            self.assertNotEqual(raw, ambiguous)
+            (root / "snapshot_receipt.json").write_text(ambiguous)
+            with self.assertRaisesRegex(WitnessError, "AMBIGUOUS_JSON_OBJECT"):
+                public_spaces(root)
+
+    def test_nonfinite_snapshot_values_are_denied_even_if_hashes_match(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.make_snapshot(root, [])
+            for number in ("NaN", "1e999"):
+                raw = ('[{"path":"' + NAME + '","private":false,"sha":"' + SHA +
+                       '","metrics":' + number + '}]').encode()
+                (root / "huggingface_spaces.json").write_bytes(raw)
+                receipt = json.loads((root / "snapshot_receipt.json").read_text())
+                receipt["files"]["huggingface_spaces.json"] = {
+                    "sha256": hashlib.sha256(raw).hexdigest(), "count": 1,
+                }
+                (root / "snapshot_receipt.json").write_text(json.dumps(receipt))
+                with self.subTest(number=number), self.assertRaisesRegex(WitnessError, "NONFINITE_JSON_NUMBER"):
+                    public_spaces(root)
+
+    def test_duplicate_health_json_never_passes_runtime_health(self):
+        reader = reader_with(health=Response(b'{"ok":false,"ok":true}'))
+        result = witness({"path": NAME, "sha": SHA}, reader)
+        self.assertEqual("UNKNOWN", result["runtime"])
+        self.assertEqual({}, result["probes"][1]["application"])
+        self.assertFalse(result["functional_inference_verified"])
+
+    def test_duplicate_provider_identity_is_refused_before_public_probe(self):
+        reader = reader_with()
+        meta = reader.opener.responses[f"https://huggingface.co/api/spaces/{NAME}"]
+        original = json.loads(meta.body)
+        raw = json.dumps(original).replace('"private": false,', '"private": true, "private": false,')
+        self.assertNotEqual(raw, json.dumps(original))
+        reader.opener.responses[f"https://huggingface.co/api/spaces/{NAME}"] = Response(raw.encode())
+        result = witness({"path": NAME, "sha": SHA}, reader)
+        self.assertIn("AMBIGUOUS_JSON_OBJECT", result["errors"])
+        self.assertEqual([], result["probes"])
+
     def test_incomplete_inventory_receipt_is_rejected(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
