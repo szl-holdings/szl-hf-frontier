@@ -8,6 +8,7 @@ import http.client
 import json
 import re
 import sys
+import threading
 import time
 import urllib.error
 import urllib.parse
@@ -162,6 +163,8 @@ class RuntimeReader:
     def __init__(self, token: str | None, timeout: float = 15):
         self.token, self.timeout = token, timeout
         self.opener = urllib.request.build_opener(RejectRedirects())
+        # Shared across worker threads: stop Hub metadata fan-out on HTTP 429.
+        self._hub_rate_limited = threading.Event()
 
     def fetch(self, url: str, *, api: bool, allowed_host: str | None = None) -> tuple[int, bytes, bool, str]:
         parsed = urllib.parse.urlsplit(url)
@@ -174,6 +177,8 @@ class RuntimeReader:
             suffix = ".static.hf.space" if target.endswith(".static.hf.space") else ".hf.space"
             if not target.endswith(suffix) or not LABEL.fullmatch(target.removesuffix(suffix)):
                 raise WitnessError("UNSAFE_PUBLIC_RUNTIME_HOST")
+        if api and self._hub_rate_limited.is_set():
+            raise WitnessError("PROVIDER_RATE_LIMITED")
         headers = {"User-Agent": "szl-runtime-witness/1.0", "Accept": "application/json,text/html;q=0.5"}
         if api and self.token:
             headers["Authorization"] = "Bearer " + self.token
@@ -184,6 +189,8 @@ class RuntimeReader:
             except urllib.error.HTTPError as exc:
                 response = exc
             with response:
+                if api and response.code == 429:
+                    self._hub_rate_limited.set()
                 raw = response.read(LIMIT + 1)
                 content_type = str(response.headers.get("Content-Type", "")).split(";", 1)[0].strip().lower()
                 return response.code, raw[:LIMIT], len(raw) > LIMIT, content_type
@@ -196,6 +203,8 @@ class RuntimeReader:
         if not SPACE_ID.fullmatch(name):
             raise WitnessError("INVALID_PUBLIC_SPACE_IDENTITY")
         code, body, truncated, _ = self.fetch(f"https://huggingface.co/api/spaces/{name}" + ("/runtime" if runtime else ""), api=True)
+        if code == 429:
+            raise WitnessError("PROVIDER_RATE_LIMITED")
         if code != 200:
             raise WitnessError(f"PROVIDER_HTTP_{code}")
         if truncated:
@@ -237,13 +246,16 @@ def assess_runtime(result: dict[str, Any]) -> str:
                or result.get("hub_revision_matches_snapshot") is False
                or result.get("runtime_revision_matches_snapshot") is False)
     healthy = False
+    rate_limited = False
     for probe in result.get("probes", []):
         code = probe.get("http_status")
+        if code == 429:
+            rate_limited = True  # Not evidence that the application is unhealthy.
         states, _ = app_facts(probe.get("application", {}))
         if probe["path"] == "/":
             if probe.get("error") and probe["error"] != "REDIRECT_REJECTED":
                 failure = True
-            if code is not None and code >= 400:
+            if code is not None and code >= 400 and code != 429:
                 failure = True
         if code is not None and code >= 500:
             failure = True
@@ -251,7 +263,7 @@ def assess_runtime(result: dict[str, Any]) -> str:
             failure = True
         if probe["path"] in {"/healthz", "/readyz"} and code == 200 and states and all(states):
             healthy = True
-    return "FAIL" if failure else "HEALTH_RESPONSE_OBSERVED" if healthy else "UNKNOWN"
+    return "FAIL" if failure else "UNKNOWN" if rate_limited else "HEALTH_RESPONSE_OBSERVED" if healthy else "UNKNOWN"
 
 
 def witness(row: dict[str, Any], reader: RuntimeReader) -> dict[str, Any]:
