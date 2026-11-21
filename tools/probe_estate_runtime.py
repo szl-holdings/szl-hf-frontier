@@ -165,6 +165,7 @@ class RuntimeReader:
         self.opener = urllib.request.build_opener(RejectRedirects())
         # Shared across worker threads: stop Hub metadata fan-out on HTTP 429.
         self._hub_rate_limited = threading.Event()
+        self._hub_request_lock = threading.Lock()
 
     def fetch(self, url: str, *, api: bool, allowed_host: str | None = None) -> tuple[int, bytes, bool, str]:
         parsed = urllib.parse.urlsplit(url)
@@ -177,20 +178,29 @@ class RuntimeReader:
             suffix = ".static.hf.space" if target.endswith(".static.hf.space") else ".hf.space"
             if not target.endswith(suffix) or not LABEL.fullmatch(target.removesuffix(suffix)):
                 raise WitnessError("UNSAFE_PUBLIC_RUNTIME_HOST")
-        if api and self._hub_rate_limited.is_set():
-            raise WitnessError("PROVIDER_RATE_LIMITED")
         headers = {"User-Agent": "szl-runtime-witness/1.0", "Accept": "application/json,text/html;q=0.5"}
         if api and self.token:
             headers["Authorization"] = "Bearer " + self.token
         request = urllib.request.Request(url, headers=headers, method="GET")
         try:
-            try:
-                response = self.opener.open(request, timeout=self.timeout)
-            except urllib.error.HTTPError as exc:
-                response = exc
+            if api:
+                # Serialize metadata request initiation through the response
+                # headers: once a 429 arrives, queued workers cannot start.
+                with self._hub_request_lock:
+                    if self._hub_rate_limited.is_set():
+                        raise WitnessError("PROVIDER_RATE_LIMITED")
+                    try:
+                        response = self.opener.open(request, timeout=self.timeout)
+                    except urllib.error.HTTPError as exc:
+                        response = exc
+                    if response.code == 429:
+                        self._hub_rate_limited.set()
+            else:
+                try:
+                    response = self.opener.open(request, timeout=self.timeout)
+                except urllib.error.HTTPError as exc:
+                    response = exc
             with response:
-                if api and response.code == 429:
-                    self._hub_rate_limited.set()
                 raw = response.read(LIMIT + 1)
                 content_type = str(response.headers.get("Content-Type", "")).split(";", 1)[0].strip().lower()
                 return response.code, raw[:LIMIT], len(raw) > LIMIT, content_type
