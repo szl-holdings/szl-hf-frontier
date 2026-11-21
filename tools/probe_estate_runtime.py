@@ -233,9 +233,14 @@ class RuntimeReader:
 
 def assess_runtime(result: dict[str, Any]) -> str:
     """Evaluate retained probes without turning a refused redirect into an outage."""
-    failure = (result.get("provider_stage") in {"BUILD_ERROR", "RUNTIME_ERROR", "CONFIG_ERROR", "DELETING"}
+    stage = result.get("provider_stage")
+    failure = (stage in {"BUILD_ERROR", "RUNTIME_ERROR", "CONFIG_ERROR", "DELETING"}
                or result.get("hub_revision_matches_snapshot") is False
                or result.get("runtime_revision_matches_snapshot") is False)
+    # A provider lifecycle stage other than RUNNING cannot be made healthy by
+    # a cached 200 or a previous self-reported /healthz response.
+    if stage != "RUNNING":
+        return "FAIL" if failure else "UNKNOWN"
     healthy = False
     for probe in result.get("probes", []):
         code = probe.get("http_status")
@@ -279,11 +284,18 @@ def witness(row: dict[str, Any], reader: RuntimeReader) -> dict[str, Any]:
                       runtime_observed_revision=runtime_sha,
                       runtime_revision_matches_snapshot=None if runtime_sha is None else runtime_sha == expected,
                       provider_stage=stage)
-        result["probes"] = [reader.probe(host, path) for path in PATHS]
         if hub_sha is not None and hub_sha != expected:
             result["errors"].append("HUB_REVISION_DRIFT")
         if runtime_sha is not None and runtime_sha != expected:
             result["errors"].append("RUNTIME_REVISION_MISMATCH")
+        if stage == "RUNNING":
+            result["probes"] = [reader.probe(host, path) for path in PATHS]
+        else:
+            # GET can wake a sleeping free-tier Space. Do not mutate its
+            # lifecycle just to sample reachability, nor infer availability.
+            result["notes"].append(
+                "Provider is not RUNNING; no public runtime routes were probed."
+            )
         result["runtime"] = assess_runtime(result)
         if runtime_sha is None:
             result["notes"].append("Provider runtime revision is absent; repository HEAD and application source declarations do not bind deployed code.")
