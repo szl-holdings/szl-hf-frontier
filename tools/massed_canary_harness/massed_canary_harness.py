@@ -5,7 +5,7 @@ import re, secrets, time, json, hashlib
 
 class HarnessError(Exception): pass
 
-SECRET_PATTERNS = [re.compile(r'sk-[A-Za-z0-9_\-]{16,}'), re.compile(r'mc_sk_[A-Za-z0-9_\-]{16,}'), re.compile(r'hf_[A-Za-z0-9_\-]{16,}'), re.compile(r'Bearer\s+[A-Za-z0-9._\-]{16,}')]
+SECRET_PATTERNS = [re.compile(r'sk-[A-Za-z0-9_\-]{16,}'), re.compile(r'mc_sk_[A-Za-z0-9_\-]{16,}'), re.compile(r'hf_[A-Za-z0-9_\-]{16,}'), re.compile(r'Bearer\s+[A-Za-z0-9._+/~=\-]{16,}')]
 
 def redact(text):
     for p in SECRET_PATTERNS:

@@ -1,17 +1,14 @@
-python : test_attribution (test_harness.T.test_attribution) ... ok
-At line:1 char:39
-+ ... un\harness; python -m unittest test_harness -v > selftest_log.txt 2>& ...
-+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (test_attributio...ibution) ... ok:String) [], RemoteException
-    + FullyQualifiedErrorId : NativeCommandError
- 
+test_attribution (test_harness.T.test_attribution) ... ok
+test_log_never_carries_bearer_special_alphabet (test_harness.T.test_log_never_carries_bearer_special_alphabet) ... ok
 test_log_never_carries_secret (test_harness.T.test_log_never_carries_secret) ... ok
 test_mock_only (test_harness.T.test_mock_only) ... ok
 test_redaction (test_harness.T.test_redaction) ... ok
+test_redaction_bearer_full_alphabet (test_harness.T.test_redaction_bearer_full_alphabet) ... ok
+test_redaction_bearer_special_before_sixteenth (test_harness.T.test_redaction_bearer_special_before_sixteenth) ... ok
 test_rollback (test_harness.T.test_rollback) ... ok
 test_timeout (test_harness.T.test_timeout) ... ok
 
 ----------------------------------------------------------------------
-Ran 6 tests in 0.001s
+Ran 9 tests in 0.001s
 
 OK
