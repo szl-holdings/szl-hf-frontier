@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import hashlib
+import concurrent.futures
+import threading
 import http.client
 import json
 import tempfile
@@ -160,6 +162,63 @@ class RuntimeWitnessTests(unittest.TestCase):
         reader = reader_with(metadata={"id": "SZLHOLDINGS/other"})
         result = witness({"path": NAME, "sha": SHA}, reader)
         self.assertEqual([], result["probes"])
+
+    def test_hub_rate_limit_circuit_breaker_prevents_repeat_metadata_calls(self):
+        reader = reader_with()
+        url = f"https://huggingface.co/api/spaces/{NAME}"
+        reader.opener.responses[url] = Response(b"rate limited", code=429)
+        with self.assertRaisesRegex(WitnessError, "^PROVIDER_RATE_LIMITED$"):
+            reader.metadata(NAME)
+        self.assertEqual(1, len(reader.opener.requests))
+        with self.assertRaisesRegex(WitnessError, "^PROVIDER_RATE_LIMITED$"):
+            reader.metadata(NAME)
+        self.assertEqual(1, len(reader.opener.requests))
+        result = witness({"path": NAME, "sha": SHA}, reader)
+        self.assertEqual("UNKNOWN", result["runtime"])
+        self.assertEqual(["PROVIDER_RATE_LIMITED"], result["errors"])
+        self.assertEqual([], result["probes"])
+        self.assertEqual(1, len(reader.opener.requests))
+
+    def test_concurrent_hub_requests_stop_at_first_429_response(self):
+        reader = RuntimeReader(None)
+        entered = threading.Event()
+        release = threading.Event()
+        requests = []
+
+        class BlockingOpener:
+            def open(self, request, timeout):
+                requests.append(request.full_url)
+                entered.set()
+                if not release.wait(timeout=3):
+                    raise AssertionError("test timeout waiting for release")
+                return Response(b"rate limited", code=429)
+
+        reader.opener = BlockingOpener()
+        with concurrent.futures.ThreadPoolExecutor(max_workers=2) as workers:
+            first = workers.submit(reader.metadata, NAME)
+            self.assertTrue(entered.wait(timeout=3))
+            second = workers.submit(reader.metadata, NAME)
+            release.set()
+            for pending in (first, second):
+                with self.assertRaisesRegex(WitnessError, "^PROVIDER_RATE_LIMITED$"):
+                    pending.result(timeout=3)
+        self.assertEqual([f"https://huggingface.co/api/spaces/{NAME}"], requests)
+
+    def test_public_http_429_is_unknown_even_with_health_200(self):
+        reader = reader_with(root=Response(b"rate limited", code=429),
+                             health=Response(b'{"ok":true}'))
+        result = witness({"path": NAME, "sha": SHA}, reader)
+        self.assertEqual("RUNNING", result["provider_stage"])
+        self.assertEqual(429, result["probes"][0]["http_status"])
+        self.assertEqual("UNKNOWN", result["runtime"])
+        self.assertFalse(result["functional_inference_verified"])
+
+    def test_rate_limit_does_not_mask_independent_provider_failure(self):
+        reader = reader_with(metadata={"runtime": {"stage": "BUILD_ERROR", "sha": SHA}},
+                             root=Response(b"rate limited", code=429),
+                             health=Response(b'{"ok":true}'))
+        result = witness({"path": NAME, "sha": SHA}, reader)
+        self.assertEqual("FAIL", result["runtime"])
 
     def test_only_metadata_receives_authentication(self):
         reader = reader_with()
