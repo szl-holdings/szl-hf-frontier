@@ -138,7 +138,8 @@ def provider_retry_delay(status: int, headers: dict[str, str], *,
             if parsed.tzinfo is not None:
                 return max(0.0, parsed.timestamp() - wall_now)
         except (TypeError, ValueError, OverflowError):
-            retry_after = ""  # Invalid untrusted header; bounded fallback below.
+            # Invalid untrusted header; use the same bounded fallback as a missing header.
+            return float(1 << attempt)
     if provider == "huggingface":
         header = headers.get("ratelimit", "")
         # The Hub exposes seconds to reset in t=<seconds> (within its
