@@ -132,3 +132,33 @@ The fixtures cover provider pagination, credentials and origin confinement,
 metadata preservation, public projection privacy, receipt tampering, partial
 failure, offline replay and blocked validation. Live receipts are a separate
 evidence layer from these synthetic tests.
+
+## Runtime Space witness denominator
+
+`tools/probe_estate_runtime.py` reads the retained Space snapshot before
+any public `/`, `/healthz`, or `/readyz` GET. Its returned
+`snapshot_receipt` includes `rows_in_snapshot`,
+`public_space_candidates`, `private_rows_excluded`, and
+`unknown_visibility_rows_excluded`, not just the count it probes.
+Excluded private/unknown Space identifiers are never copied to the
+public summary. A malformed row is refused rather than silently lost.
+
+The receipt also records the observation interval's age in days,
+`snapshot_max_age_days` (default seven),
+`snapshot_stale`, and an explicit `coverage_status`.
+A valid hash-bound snapshot older than seven days is
+`HOLD_STALE_OR_UNOBSERVED_VISIBILITY`; a newer public-only subset
+is `OBSERVED_PUBLIC_SUBSET_ONLY`, **not** complete fleet alignment.
+Future-dated timestamps beyond five minutes, unknown clocks, invalid
+freshness limits and malformed rows refuse the witness. The user-visible
+report marks complete organization coverage and trained model count
+as unverified regardless of the number of healthy HTTP replies.
+
+This diagnostic does **not** assign production release or credential
+authority, diagnose private Spaces, claim any of the model-namespace
+repositories has trained weights, or certify that a Space's `RUNNING`
+label means the frontend and backend work. Historical snapshots may still
+be inspected, but do not use their runtime summary to assert current
+organization completeness. First capture a fresh owner-authorized census
+and reconcile current immutable GitHub/HF revisions, model cards,
+dataset rights, signer roots and actual app functionality.
