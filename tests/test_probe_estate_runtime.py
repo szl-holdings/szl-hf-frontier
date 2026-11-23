@@ -71,6 +71,57 @@ class RuntimeWitnessTests(unittest.TestCase):
         self.assertFalse(result["functional_inference_verified"])
         self.assertEqual("declared_only", result["probes"][1]["declared_revisions"][0]["binding"])
 
+    def test_nonrunning_stages_skip_public_http_and_never_claim_health(self):
+        stages = {
+            "SLEEPING": "UNKNOWN",
+            "PAUSED": "UNKNOWN",
+            "BUILDING": "UNKNOWN",
+            "RUNNING_APP_STARTING": "UNKNOWN",
+            "RUNTIME_ERROR": "FAIL",
+            "BUILD_ERROR": "FAIL",
+            "CONFIG_ERROR": "FAIL",
+        }
+        for stage, expected in stages.items():
+            with self.subTest(stage=stage):
+                reader = reader_with(
+                    metadata={"runtime": {"stage": stage, "sha": SHA}},
+                    health=Response(b'{"ok":true}'),
+                    ready=Response(b'{"ready":true}'),
+                )
+                result = witness({"path": NAME, "sha": SHA}, reader)
+                self.assertEqual(expected, result["runtime"])
+                self.assertEqual([], result["probes"])
+                self.assertEqual(1, len(reader.opener.requests))
+                self.assertEqual(
+                    f"https://huggingface.co/api/spaces/{NAME}",
+                    reader.opener.requests[0][0].full_url,
+                )
+
+    def test_nonrunning_stage_preserves_immutable_revision_drift(self):
+        reader = reader_with(metadata={
+            "sha": "b" * 40,
+            "runtime": {"stage": "SLEEPING", "sha": "b" * 40},
+        })
+        result = witness({"path": NAME, "sha": SHA}, reader)
+        self.assertEqual("FAIL", result["runtime"])
+        self.assertEqual([], result["probes"])
+        self.assertIn("HUB_REVISION_DRIFT", result["errors"])
+        self.assertIn("RUNTIME_REVISION_MISMATCH", result["errors"])
+
+    def test_cached_health_is_not_a_live_stage_witness(self):
+        cached = {
+            "provider_stage": "SLEEPING",
+            "hub_revision_matches_snapshot": True,
+            "runtime_revision_matches_snapshot": True,
+            "probes": [{
+                "path": "/healthz", "http_status": 200,
+                "application": {"ok": True},
+            }],
+        }
+        self.assertEqual("UNKNOWN", assess_runtime(cached))
+        cached["provider_stage"] = "RUNTIME_ERROR"
+        self.assertEqual("FAIL", assess_runtime(cached))
+
     def test_ready_failure_overrides_healthy_status(self):
         reader = reader_with(health=Response(b'{"ok":true}'), ready=Response(b'{"ready":false}'))
         self.assertEqual("FAIL", witness({"path": NAME, "sha": SHA}, reader)["runtime"])
