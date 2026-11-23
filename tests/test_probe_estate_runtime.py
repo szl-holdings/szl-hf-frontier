@@ -8,6 +8,7 @@ import json
 import tempfile
 import unittest
 import urllib.request
+from datetime import datetime, timezone
 from pathlib import Path
 
 from tools.probe_estate_runtime import (
@@ -314,6 +315,116 @@ class HostAndReceiptTests(unittest.TestCase):
             rows, receipt = public_spaces(root)
             self.assertEqual([NAME], [row["path"] for row in rows])
             self.assertEqual(64, len(receipt["sha256"]))
+            self.assertEqual(3, receipt["rows_in_snapshot"])
+            self.assertEqual(1, receipt["public_space_candidates"])
+            self.assertEqual(1, receipt["private_rows_excluded"])
+            self.assertEqual(1, receipt["unknown_visibility_rows_excluded"])
+            self.assertEqual("HOLD_STALE_OR_UNOBSERVED_VISIBILITY", receipt["coverage_status"])
+            self.assertFalse(receipt["complete_org_coverage_verified"])
+            self.assertNotIn("SZLHOLDINGS/secret", json.dumps(receipt))
+            self.assertNotIn("SZLHOLDINGS/unknown", json.dumps(receipt))
+
+    def test_recent_complete_snapshot_is_still_only_a_public_subset(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.make_snapshot(root, [{"path": NAME, "private": False, "sha": SHA}])
+            observed = datetime(2026, 9, 26, 12, 0, tzinfo=timezone.utc)
+            rows, evidence = public_spaces(root, observed_at=observed)
+            self.assertEqual(1, len(rows))
+            self.assertEqual(2, evidence["snapshot_age_days"])
+            self.assertFalse(evidence["snapshot_stale"])
+            self.assertEqual("OBSERVED_PUBLIC_SUBSET_ONLY", evidence["coverage_status"])
+            self.assertFalse(evidence["training_or_serving_verified"])
+
+    def test_old_receipt_is_labelled_historical_and_cannot_claim_current_coverage(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.make_snapshot(root, [{"path": NAME, "private": False, "sha": SHA}])
+            observed = datetime(2026, 11, 20, 12, 0, tzinfo=timezone.utc)
+            rows, evidence = public_spaces(root, observed_at=observed)
+            self.assertEqual(1, len(rows))
+            self.assertEqual(57, evidence["snapshot_age_days"])
+            self.assertTrue(evidence["snapshot_stale"])
+            self.assertEqual("HOLD_STALE_OR_UNOBSERVED_VISIBILITY", evidence["coverage_status"])
+            self.assertFalse(evidence["complete_org_coverage_verified"])
+
+    def test_future_snapshot_or_invalid_freshness_policy_fails_closed(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.make_snapshot(root, [{"path": NAME, "private": False, "sha": SHA}])
+            before = datetime(2026, 9, 23, 12, 0, tzinfo=timezone.utc)
+            with self.assertRaisesRegex(WitnessError, "TIMESTAMP_IN_FUTURE"):
+                public_spaces(root, observed_at=before)
+            with self.assertRaisesRegex(WitnessError, "FRESHNESS_POLICY"):
+                public_spaces(root, observed_at=before, max_age_days=0)
+
+    def test_non_object_snapshot_row_fails_closed(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.make_snapshot(root, [{"path": NAME, "private": False, "sha": SHA}, None])
+            with self.assertRaisesRegex(WitnessError, "INVALID_SPACE_SNAPSHOT_ROW"):
+                public_spaces(root)
+
+    def test_duplicate_visibility_field_cannot_promote_private_row(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.make_snapshot(root, [])
+            raw = ('[{"path":"' + NAME + '","sha":"' + SHA +
+                   '","private":true,"private":false}]').encode()
+            (root / "huggingface_spaces.json").write_bytes(raw)
+            receipt = json.loads((root / "snapshot_receipt.json").read_text())
+            receipt["files"]["huggingface_spaces.json"] = {
+                "sha256": hashlib.sha256(raw).hexdigest(), "count": 1,
+            }
+            (root / "snapshot_receipt.json").write_text(json.dumps(receipt))
+            with self.assertRaisesRegex(WitnessError, "AMBIGUOUS_JSON_OBJECT"):
+                public_spaces(root)
+
+    def test_duplicate_receipt_completeness_cannot_satisfy_gate(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.make_snapshot(root, [], complete=False)
+            raw = (root / "snapshot_receipt.json").read_text()
+            # A second true value used to override complete=false.
+            ambiguous = raw.replace('"complete": false,', '"complete": false, "complete": true,')
+            self.assertNotEqual(raw, ambiguous)
+            (root / "snapshot_receipt.json").write_text(ambiguous)
+            with self.assertRaisesRegex(WitnessError, "AMBIGUOUS_JSON_OBJECT"):
+                public_spaces(root)
+
+    def test_nonfinite_snapshot_values_are_denied_even_if_hashes_match(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.make_snapshot(root, [])
+            for number in ("NaN", "1e999"):
+                raw = ('[{"path":"' + NAME + '","private":false,"sha":"' + SHA +
+                       '","metrics":' + number + '}]').encode()
+                (root / "huggingface_spaces.json").write_bytes(raw)
+                receipt = json.loads((root / "snapshot_receipt.json").read_text())
+                receipt["files"]["huggingface_spaces.json"] = {
+                    "sha256": hashlib.sha256(raw).hexdigest(), "count": 1,
+                }
+                (root / "snapshot_receipt.json").write_text(json.dumps(receipt))
+                with self.subTest(number=number), self.assertRaisesRegex(WitnessError, "NONFINITE_JSON_NUMBER"):
+                    public_spaces(root)
+
+    def test_duplicate_health_json_never_passes_runtime_health(self):
+        reader = reader_with(health=Response(b'{"ok":false,"ok":true}'))
+        result = witness({"path": NAME, "sha": SHA}, reader)
+        self.assertEqual("UNKNOWN", result["runtime"])
+        self.assertEqual({}, result["probes"][1]["application"])
+        self.assertFalse(result["functional_inference_verified"])
+
+    def test_duplicate_provider_identity_is_refused_before_public_probe(self):
+        reader = reader_with()
+        meta = reader.opener.responses[f"https://huggingface.co/api/spaces/{NAME}"]
+        original = json.loads(meta.body)
+        raw = json.dumps(original).replace('"private": false,', '"private": true, "private": false,')
+        self.assertNotEqual(raw, json.dumps(original))
+        reader.opener.responses[f"https://huggingface.co/api/spaces/{NAME}"] = Response(raw.encode())
+        result = witness({"path": NAME, "sha": SHA}, reader)
+        self.assertIn("AMBIGUOUS_JSON_OBJECT", result["errors"])
+        self.assertEqual([], result["probes"])
 
     def test_incomplete_inventory_receipt_is_rejected(self):
         with tempfile.TemporaryDirectory() as temp:
@@ -332,6 +443,29 @@ class HostAndReceiptTests(unittest.TestCase):
 
 
 class RetainedAssessmentTests(unittest.TestCase):
+    def test_nonrunning_provider_cannot_claim_a_healthy_space(self):
+        result = {
+            "provider_stage": "RUNNING",
+            "hub_revision_matches_snapshot": True,
+            "runtime_revision_matches_snapshot": True,
+            "probes": [
+                {"path": "/", "http_status": 200, "error": None, "application": {}},
+                {"path": "/healthz", "http_status": 200, "error": None, "application": {"ok": True}},
+            ],
+        }
+        self.assertEqual("HEALTH_RESPONSE_OBSERVED", assess_runtime(result))
+        for stage in ("BUILDING", "APP_STARTING", "RUNNING_BUILDING", "SLEEPING",
+                      "PAUSED", "STOPPED", "UNKNOWN", None):
+            with self.subTest(stage=stage):
+                result["provider_stage"] = stage
+                self.assertEqual("UNKNOWN", assess_runtime(result))
+        # Hard provider failures and revision drift override even a healthy HTTP reply.
+        result["provider_stage"] = "BUILD_ERROR"
+        self.assertEqual("FAIL", assess_runtime(result))
+        result["provider_stage"] = "PAUSED"
+        result["runtime_revision_matches_snapshot"] = False
+        self.assertEqual("FAIL", assess_runtime(result))
+
     def test_refused_redirect_is_unknown_and_revision_drift_still_fails(self):
         result = {"provider_stage": "RUNNING", "hub_revision_matches_snapshot": True,
                   "runtime_revision_matches_snapshot": None,

@@ -6,6 +6,7 @@ import argparse
 import hashlib
 import http.client
 import json
+import math
 import re
 import sys
 import threading
@@ -50,22 +51,96 @@ class RejectRedirects(urllib.request.HTTPRedirectHandler):
         raise WitnessError("REDIRECT_REJECTED")
 
 
-def public_spaces(directory: Path) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+
+def _strict_json_pairs(pairs: list[tuple[str, Any]]) -> dict[str, Any]:
+    """Never project a last-wins JSON field into public visibility or readiness."""
+    result: dict[str, Any] = {}
+    for name, value in pairs:
+        if name in result:
+            raise WitnessError("AMBIGUOUS_JSON_OBJECT")
+        result[name] = value
+    return result
+
+
+def _deny_nonfinite(_value: str) -> None:
+    raise WitnessError("NONFINITE_JSON_NUMBER")
+
+
+def _strict_json_float(value: str) -> float:
+    number = float(value)
+    if not math.isfinite(number):
+        raise WitnessError("NONFINITE_JSON_NUMBER")
+    return number
+
+
+def strict_json(raw: bytes, *, failure: str) -> Any:
+    """Decode untrusted JSON without duplicate keys, NaN or overflow to Infinity.
+
+    This checks parse ambiguity only. A valid snapshot still needs a trusted
+    source, current complete inventory and live revision/health verification.
+    """
+    try:
+        return json.loads(
+            raw, object_pairs_hook=_strict_json_pairs,
+            parse_constant=_deny_nonfinite, parse_float=_strict_json_float,
+        )
+    except WitnessError:
+        raise
+    except (ValueError, UnicodeError, RecursionError, OverflowError):
+        raise WitnessError(failure) from None
+
+
+def public_spaces(
+    directory: Path, *, observed_at: datetime | None = None, max_age_days: int = 7
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    """Read a retained public subset without concealing inventory exclusions.
+
+    Completed, hash-consistent input is not proof that a provider list is
+    current or exhaustive. Private/unknown rows are never probed or named in
+    the public summary. Caller-visible counts make partial coverage explicit.
+    """
+    if type(max_age_days) is not int or not 1 <= max_age_days <= 90:
+        raise WitnessError("INVALID_SNAPSHOT_FRESHNESS_POLICY")
+    clock = datetime.now(timezone.utc) if observed_at is None else observed_at
+    if not isinstance(clock, datetime) or clock.tzinfo is None or clock.utcoffset() is None:
+        raise WitnessError("SNAPSHOT_OBSERVER_CLOCK_UNAVAILABLE")
     receipt_path = directory / "snapshot_receipt.json"
     raw_receipt = receipt_path.read_bytes()
-    receipt = json.loads(raw_receipt)
+    receipt = strict_json(raw_receipt, failure="INVALID_SNAPSHOT_RECEIPT_JSON")
+    if not isinstance(receipt, dict):
+        raise WitnessError("INVALID_SNAPSHOT_RECEIPT_JSON")
     if receipt.get("schema") != "szl.estate-snapshot-receipt/v1" or receipt.get("complete") is not True:
         raise WitnessError("INCOMPLETE_SNAPSHOT_RECEIPT")
+    completed_at = receipt.get("completed_at")
+    if not isinstance(completed_at, str):
+        raise WitnessError("SNAPSHOT_COMPLETION_TIME_UNAVAILABLE")
+    try:
+        finished = datetime.fromisoformat(completed_at.replace("Z", "+00:00"))
+    except ValueError:
+        raise WitnessError("SNAPSHOT_COMPLETION_TIME_INVALID") from None
+    if finished.tzinfo is None or finished.utcoffset() is None:
+        raise WitnessError("SNAPSHOT_COMPLETION_TIME_INVALID")
+    age_seconds = (clock.astimezone(timezone.utc) - finished.astimezone(timezone.utc)).total_seconds()
+    if age_seconds < -300:
+        raise WitnessError("SNAPSHOT_TIMESTAMP_IN_FUTURE")
+    age_days = max(0.0, age_seconds / 86400)
     raw = (directory / "huggingface_spaces.json").read_bytes()
     expected = receipt.get("files", {}).get("huggingface_spaces.json", {})
     if hashlib.sha256(raw).hexdigest() != expected.get("sha256"):
         raise WitnessError("SPACE_SNAPSHOT_HASH_MISMATCH")
-    rows = json.loads(raw)
+    rows = strict_json(raw, failure="INVALID_SPACE_SNAPSHOT_JSON")
     if not isinstance(rows, list) or len(rows) != expected.get("count"):
         raise WitnessError("SPACE_SNAPSHOT_COUNT_MISMATCH")
     spaces, seen = [], set()
+    skipped_private, skipped_unknown = 0, 0
     for row in rows:
-        if not isinstance(row, dict) or row.get("private") is not False:
+        if not isinstance(row, dict):
+            raise WitnessError("INVALID_SPACE_SNAPSHOT_ROW")
+        if row.get("private") is True:
+            skipped_private += 1
+            continue
+        if row.get("private") is not False:
+            skipped_unknown += 1
             continue
         name = row.get("path")
         if not isinstance(name, str) or not SPACE_ID.fullmatch(name) or name.casefold() in seen:
@@ -75,9 +150,27 @@ def public_spaces(directory: Path) -> tuple[list[dict[str, Any]], dict[str, Any]
             raise WitnessError("SPACE_SNAPSHOT_REVISION_MISSING")
         seen.add(name.casefold())
         spaces.append(row)
+    stale = age_days > max_age_days
+    # No value here certifies complete provider membership or running service.
+    coverage_status = (
+        "HOLD_STALE_OR_UNOBSERVED_VISIBILITY"
+        if stale or skipped_unknown else "OBSERVED_PUBLIC_SUBSET_ONLY"
+    )
     return sorted(spaces, key=lambda row: row["path"].casefold()), {
-        "path": receipt_path.as_posix(), "sha256": hashlib.sha256(raw_receipt).hexdigest(),
-        "completed_at": receipt.get("completed_at"), "space_snapshot_sha256": expected["sha256"],
+        "path": receipt_path.as_posix(),
+        "sha256": hashlib.sha256(raw_receipt).hexdigest(),
+        "completed_at": completed_at,
+        "space_snapshot_sha256": expected["sha256"],
+        "rows_in_snapshot": len(rows),
+        "public_space_candidates": len(spaces),
+        "private_rows_excluded": skipped_private,
+        "unknown_visibility_rows_excluded": skipped_unknown,
+        "snapshot_age_days": round(age_days, 4),
+        "snapshot_stale": stale,
+        "snapshot_max_age_days": max_age_days,
+        "coverage_status": coverage_status,
+        "complete_org_coverage_verified": False,
+        "training_or_serving_verified": False,
     }
 
 
@@ -220,7 +313,7 @@ class RuntimeReader:
         if truncated:
             raise WitnessError("PROVIDER_METADATA_TOO_LARGE")
         try:
-            result = json.loads(body)
+            result = strict_json(body, failure="INVALID_PROVIDER_JSON")
         except (ValueError, UnicodeError, RecursionError):
             raise WitnessError("INVALID_PROVIDER_JSON") from None
         if not isinstance(result, dict):
@@ -236,8 +329,9 @@ class RuntimeReader:
             application = {}
             if not truncated:
                 try:
-                    application = bounded_application(json.loads(body))
-                except (ValueError, UnicodeError, RecursionError):
+                    application = bounded_application(strict_json(body, failure="INVALID_APPLICATION_JSON"))
+                except WitnessError:
+                    # Invalid or ambiguous health never becomes affirmative readiness.
                     pass
             _, revisions = app_facts(application)
             result.update(http_status=code, body_sha256=hashlib.sha256(body).hexdigest(),
@@ -278,7 +372,14 @@ def assess_runtime(result: dict[str, Any]) -> str:
             failure = True
         if probe["path"] in {"/healthz", "/readyz"} and code == 200 and states and all(states):
             healthy = True
-    return "FAIL" if failure else "UNKNOWN" if rate_limited else "HEALTH_RESPONSE_OBSERVED" if healthy else "UNKNOWN"
+    if failure:
+        return "FAIL"
+    if rate_limited:
+        return "UNKNOWN"
+    # Public HTTP alone does not establish an actively running provider.
+    if result.get("provider_stage") != "RUNNING":
+        return "UNKNOWN"
+    return "HEALTH_RESPONSE_OBSERVED" if healthy else "UNKNOWN"
 
 
 def witness(row: dict[str, Any], reader: RuntimeReader) -> dict[str, Any]:
@@ -343,7 +444,11 @@ def main() -> None:
         results = list(pool.map(lambda row: witness(row, reader), rows))
     report = {"schema": "szl.public-runtime-witness/v1", "started_at": started, "completed_at": now(),
               "snapshot_receipt": receipt, "authenticated_metadata": bool(reader.token),
-              "public_runtime_requests_authenticated": False, "request_paths": list(PATHS),
+              "public_runtime_requests_authenticated": False,
+              "complete_org_coverage_verified": False,
+              "trained_model_count_verified": False,
+              "release_authorized": False,
+              "request_paths": list(PATHS),
               "limits": {"workers": args.workers, "timeout_seconds": args.timeout, "response_bytes": LIMIT},
               "artifact_count": len(results), "functional_inference_verified": False,
               "by_runtime": dict(sorted(Counter(item["runtime"] for item in results).items())), "artifacts": results}
