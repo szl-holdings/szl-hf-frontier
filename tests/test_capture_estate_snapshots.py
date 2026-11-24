@@ -409,6 +409,23 @@ class ReceiptTests(unittest.TestCase):
             with self.assertRaisesRegex(collector.CollectionError, "INCOMPLETE"):
                 collector.verify_snapshot_set(root)
 
+    def test_snapshot_count_requires_a_json_integer(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            with successful_capture(root) as receipt:
+                filename = collector.FILES["spaces"]
+                collector.write_json(root / filename, [])
+                record = receipt["files"][filename]
+                record.update(sha256=collector.sha256(root / filename), count=0)
+                collector.write_json(root / collector.RECEIPT, receipt)
+                collector.verify_snapshot_set(root)
+                for count in (False, 0.0):
+                    with self.subTest(count=count):
+                        record["count"] = count
+                        collector.write_json(root / collector.RECEIPT, receipt)
+                        with self.assertRaisesRegex(collector.CollectionError, "SNAPSHOT_COUNT_MISMATCH"):
+                            collector.verify_snapshot_set(root)
+
     def test_tampered_snapshot_is_rejected(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)

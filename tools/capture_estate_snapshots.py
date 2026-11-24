@@ -374,6 +374,11 @@ def enrich_item(kind: str, row: dict[str, Any], token: str) -> dict[str, Any]:
             "metadata_observed_at": utc_now()}
 
 
+def snapshot_count_matches(rows: Any, count: Any) -> bool:
+    """A receipt count is the integer length written by the snapshot collector."""
+    return isinstance(rows, list) and type(count) is int and len(rows) == count
+
+
 def verify_snapshot_set(root: Path) -> dict[str, Any]:
     try:
         receipt = json.loads((root / RECEIPT).read_text(encoding="utf-8"))
@@ -384,7 +389,7 @@ def verify_snapshot_set(root: Path) -> dict[str, Any]:
             if record["sha256"] != sha256(root / filename):
                 raise CollectionError("SNAPSHOT_HASH_MISMATCH")
             rows = json.loads((root / filename).read_text(encoding="utf-8"))
-            if not isinstance(rows, list) or len(rows) != record["count"]:
+            if not snapshot_count_matches(rows, record.get("count")):
                 raise CollectionError("SNAPSHOT_COUNT_MISMATCH")
             if receipt["inventories"][kind]["completion"] != "COMPLETE":
                 raise CollectionError("SNAPSHOT_INVENTORY_INCOMPLETE")

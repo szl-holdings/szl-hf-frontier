@@ -23,7 +23,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
-from tools.capture_estate_snapshots import resolve_credentials, write_json
+from tools.capture_estate_snapshots import resolve_credentials, snapshot_count_matches, write_json
 
 SHA = re.compile(r"[0-9a-f]{40}(?:[0-9a-f]{24})?\Z")
 SPACE_ID = re.compile(r"SZLHOLDINGS/[A-Za-z0-9_.-]+\Z", re.I)
@@ -125,11 +125,14 @@ def public_spaces(
         raise WitnessError("SNAPSHOT_TIMESTAMP_IN_FUTURE")
     age_days = max(0.0, age_seconds / 86400)
     raw = (directory / "huggingface_spaces.json").read_bytes()
-    expected = receipt.get("files", {}).get("huggingface_spaces.json", {})
+    files = receipt.get("files")
+    expected = files.get("huggingface_spaces.json") if isinstance(files, dict) else None
+    if not isinstance(expected, dict):
+        raise WitnessError("INVALID_SNAPSHOT_RECEIPT_JSON")
     if hashlib.sha256(raw).hexdigest() != expected.get("sha256"):
         raise WitnessError("SPACE_SNAPSHOT_HASH_MISMATCH")
     rows = strict_json(raw, failure="INVALID_SPACE_SNAPSHOT_JSON")
-    if not isinstance(rows, list) or len(rows) != expected.get("count"):
+    if not snapshot_count_matches(rows, expected.get("count")):
         raise WitnessError("SPACE_SNAPSHOT_COUNT_MISMATCH")
     spaces, seen = [], set()
     skipped_private, skipped_unknown = 0, 0
