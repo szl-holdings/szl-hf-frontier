@@ -358,6 +358,31 @@ class HostAndReceiptTests(unittest.TestCase):
             with self.assertRaisesRegex(WitnessError, "FRESHNESS_POLICY"):
                 public_spaces(root, observed_at=before, max_age_days=0)
 
+    def test_receipt_count_requires_a_json_integer(self):
+        for rows, count in (([], False), ([{"private": True}], True), ([], 0.0)):
+            with self.subTest(count=count), tempfile.TemporaryDirectory() as temp:
+                root = Path(temp)
+                self.make_snapshot(root, rows)
+                path = root / "snapshot_receipt.json"
+                receipt = json.loads(path.read_text())
+                receipt["files"]["huggingface_spaces.json"]["count"] = count
+                path.write_text(json.dumps(receipt))
+                with self.assertRaisesRegex(WitnessError, "SPACE_SNAPSHOT_COUNT_MISMATCH"):
+                    public_spaces(root)
+
+    def test_receipt_requires_a_space_file_record(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.make_snapshot(root, [])
+            path = root / "snapshot_receipt.json"
+            receipt = json.loads(path.read_text())
+            for files in (None, [], {}, {"huggingface_spaces.json": None}):
+                with self.subTest(files=files):
+                    receipt["files"] = files
+                    path.write_text(json.dumps(receipt))
+                    with self.assertRaisesRegex(WitnessError, "INVALID_SNAPSHOT_RECEIPT_JSON"):
+                        public_spaces(root)
+
     def test_non_object_snapshot_row_fails_closed(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
